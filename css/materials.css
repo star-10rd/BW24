@@ -1,0 +1,120 @@
+/* materials.css */
+
+.materials {
+    max-width: 1200px;
+    margin: 80px auto 60px auto; /* Adjusted for fixed header and footer */
+    padding: 20px;
+}
+
+.materials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #003366;
+    position: relative;
+}
+
+.materials h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #ffcc00;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-header:hover {
+    background-color: #002244;
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease;
+}
+
+.category-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: #f1f1f1;
+}
+
+.category-content ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.category-content li {
+    margin-bottom: 10px;
+}
+
+.category-content a {
+    text-decoration: none;
+    color: #003366;
+    transition: color 0.3s ease;
+}
+
+.category-content a:hover {
+    color: #ff6600;
+}
+
+/* Innovative CSS Features */
+
+/* 1. Icon Rotation when active */
+.category.active .toggle-icon {
+    transform: rotate(90deg);
+}
+
+/* 2. Smooth content reveal with accordion effect */
+.category.active .category-content {
+    max-height: 500px; /* Adjust as needed */
+}
+
+/* 3. Gradient background for category headers */
+.category-header {
+    background: linear-gradient(45deg, #003366, #0055a5);
+}
+
+/* 4. Shadow transition on hover */
+.category:hover {
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 5. Animated underline on category titles */
+.category-header span:first-child::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffcc00;
+    transition: width 0.3s;
+}
+
+.category-header:hover span:first-child::after {
+    width: 100%;
+}
