@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BW 2024 - Daily Problems</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/daily-problems.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/daily-problems.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- MathJax Configuration -->
     <script>
@@ -23,23 +22,25 @@
     </script>
     <!-- MathJax Script -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    
+    <!-- Supabase JavaScript Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 </head>
 <body>
     <header>
         <h1>Baltic Way 2024 Mathematics Competition</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="materials.html">Materials</a></li>
-                <li><a href="tips.html">Tips & Strategies</a></li>
-                <li><a href="daily-problems.html">Daily Problems</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../materials/">Materials</a></li>
+                <li><a href="../tips/">Tips & Strategies</a></li>
+                <li><a href="../daily-problems/">Daily Problems</a></li>
+                <li><a href="../contact/">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-
         <section class="daily-problems">
             <h2>Daily Problems</h2>
             <div class="date-display" id="current-date">
@@ -59,6 +60,10 @@
                 <div class="problem-statement" id="problem-statement">
                     <!-- Problem text will be injected here -->
                 </div>
+                <button class="random-btn" data-topic="A">Get a random problem</button>
+            </div>
+            <div class="random-problem-display" id="random-problem-display">
+                <!-- Random Problem will be displayed here -->
             </div>
         </section>
     </main>
@@ -67,8 +72,7 @@
         <p>&copy; 2024 BW Leaders. All rights reserved.</p>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/daily-problems-data.js"></script> <!-- Contains problem data -->
-    <script src="js/daily-problems.js"></script> <!-- Handles functionality -->
+    <script src="../js/main.js"></script>
+    <script src="../js/daily-problems.js"></script>
 </body>
 </html>

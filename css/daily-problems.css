@@ -70,6 +70,11 @@
 .problem-display {
     padding: 20px;
     border-top: 2px solid #ffcc00;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    min-height: 100px;
 }
 
 .problem-header {
@@ -149,3 +154,85 @@
 .topic-btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
+/* Random Problems Section */
+.random-problems {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.random-problem-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.random-problems h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    color: #003366;
+    position: relative;
+}
+
+.random-problems h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #ffcc00;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.random-topic {
+    margin-bottom: 30px;
+}
+
+.random-topic h3 {
+    font-size: 1.4em;
+    color: #0055a5;
+    margin-bottom: 10px;
+}
+
+.random-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #003366; /* Use the same blue as other buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.random-btn:hover {
+    background-color: #002244; /* Darker blue for hover */
+}
+
+.random-problem-display {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+.custom-a1 {
+    list-style: none;  /* Remove default list styling */
+    counter-reset: custom-list;
+  }
+  
+  .custom-a1 li {
+    counter-increment: custom-list;
+  }
+  
+  .custom-a1 li::before {
+    content: "(" counter(custom-list, lower-alpha) ") ";  /* Custom numbering with a) */
+    font-weight: bold;
+  }

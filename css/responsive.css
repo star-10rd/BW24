@@ -1,0 +1,33 @@
+/* responsive.css */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .materials {
+        padding: 10px;
+    }
+
+    .category-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-icon {
+        margin-top: 10px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .materials {
+        padding: 15px;
+    }
+
+    .category-header {
+        padding: 20px;
+    }
+}
