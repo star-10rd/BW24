@@ -15,8 +15,10 @@
                 inlineMath: [['$', '$'], ['\(', '\)'],['\\(', '\\)']],
                 displayMath: [['$$', '$$'], ['\[', '\]'],['\\[', '\\]']]
             },
-            svg: {
-                fontCache: 'global'
+            chtml: {
+                scale: 1,  // Adjust the overall scaling of the math
+                minScaleAdjust: 100,  // Similar to the SVG renderer, adjust the minimum scaling
+                mtextInheritFont: true,  // Make math text inherit font from the surrounding content
             }
         };
     </script>
@@ -69,7 +71,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 BW Leaders. All rights reserved.</p>
+        <p>&copy; 2024 star-1ord. All rights reserved.</p>
     </footer>
 
     <script src="../js/main.js"></script>
