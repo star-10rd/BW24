@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             problemStatement.innerHTML = dailyProblem.statement;
 
             // Debugging: Log the fetched statement
-            console.log('Fetched Daily Problem Statement:', dailyProblem.statement);
+            //console.log('Fetched Daily Problem Statement:', dailyProblem.statement);
 
             // Trigger MathJax to typeset the new content
             if (window.MathJax && window.MathJax.typesetPromise) {
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const randomProblem = filteredData[randomIndex];
 
             // Debugging: Log the fetched random problem
-            console.log('Fetched Random Problem:', randomProblem);
+            //console.log('Fetched Random Problem:', randomProblem);
 
             randomProblemDisplay.innerHTML = `
             
