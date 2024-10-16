@@ -33,21 +33,29 @@
 </head>
 <body>
     <header>
-        <h1>Baltic Way 2024 Mathematics Competition</h1>
+        <h1 id="header-title">Baltic Way 2024 Mathematics Competition</h1>
         <nav>
             <ul>
-                <li><a href="../">Home</a></li>
-                <li><a href="../materials/">Materials</a></li>
-                <li><a href="../tips/">Tips & Strategies</a></li>
-                <li><a href="../daily-problems/">Daily Problems</a></li>
-                <li><a href="../contact/">Contact</a></li>
+                <li><a href="../index.html" data-key="home">Home</a></li>
+                <li><a href="../materials/" data-key="materials">Materials</a></li>
+                <li><a href="../tips/" data-key="tips">Tips & Strategies</a></li>
+                <li><a href="../daily-problems/" data-key="daily_problems">Daily Problems</a></li>
+                <li><a href="../contact/" data-key="contact">Contact</a></li>
             </ul>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <label for="language-switcher-select" id="language-switcher-label">Language:</label>
+                <select id="language-switcher-select">
+                    <option value="en">English</option>
+                    <option value="est">Eesti</option>
+                </select>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="daily-problems">
-            <h2>Daily Problems</h2>
+            <h2 id="daily-problems-title">Daily Problems</h2>
             <div class="date-display" id="current-date">
                 <!-- Current Date will be displayed here -->
             </div>
@@ -70,7 +78,13 @@
             <div class="random-problem-display" id="random-problem-display">
                 <!-- Random Problem will be displayed here -->
             </div>
+            <div class="track-progress">
+                <a href="https://shorturl.at/FqNIC" target="_blank" rel="noopener noreferrer">
+                    Track your progress here
+                </a>
+            </div>
         </section>
+        
     </main>
 
     <footer>
@@ -78,6 +92,7 @@
     </footer>
 
     <script src="../js/main.js"></script>
+    <script src="../js/languages.js"></script>
     <script src="../js/daily-problems.js"></script>
 </body>
 </html>

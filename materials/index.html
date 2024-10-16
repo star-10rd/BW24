@@ -11,24 +11,33 @@
 </head>
 <body>
     <header>
-        <h1>Baltic Way 2024 Mathematics Competition</h1>
+        <h1 id="header-title">Baltic Way 2024 Mathematics Competition</h1>
         <nav>
             <ul>
-                <li><a href="../">Home</a></li>
-                <li><a href="../materials/">Materials</a></li>
-                <li><a href="../tips/">Tips & Strategies</a></li>
-                <li><a href="../daily-problems/">Daily Problems</a></li>
-                <li><a href="../contact/">Contact</a></li>
+                <li><a href="../index.html" data-key="home">Home</a></li>
+                <li><a href="../materials/" data-key="materials">Materials</a></li>
+                <li><a href="../tips/" data-key="tips">Tips & Strategies</a></li>
+                <li><a href="../daily-problems/" data-key="daily_problems">Daily Problems</a></li>
+                <li><a href="../contact/" data-key="contact">Contact</a></li>
             </ul>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <label for="language-switcher-select" id="language-switcher-label">Language:</label>
+                <select id="language-switcher-select">
+                    <option value="en">English</option>
+                    <option value="est">Eesti</option>
+                </select>
+            </div>
+        </nav>
     </header>
 
     <main>
         <section class="materials">
-            <h2>Study Materials</h2>
+            <h2 id="study-materials-title" data-key="materials.study_materials_title">Study Materials</h2>
 
             <div class="category" id="general">
                 <div class="category-header">
-                    <span>General</span>
+                    <span data-key="materials.categories.general">General</span>
                     <span class="toggle-icon">&#9660;</span>
                 </div>
                 <div class="category-content">
@@ -43,7 +52,7 @@
 
             <div class="category" id="algebra">
                 <div class="category-header">
-                    <span>Algebra</span>
+                    <span data-key="materials.categories.algebra">Algebra</span>
                     <span class="toggle-icon">&#9660;</span>
                 </div>
                 <div class="category-content">
@@ -58,7 +67,7 @@
 
             <div class="category" id="combinatorics">
                 <div class="category-header">
-                    <span>Combinatorics</span>
+                    <span data-key="materials.categories.combinatorics">Combinatorics</span>
                     <span class="toggle-icon">&#9660;</span>
                 </div>
                 <div class="category-content">
@@ -73,7 +82,7 @@
 
         <div class="category" id="geometry">
             <div class="category-header">
-                <span>Geometry</span>
+                <span data-key="materials.categories.geometry">Geometry</span>
                 <span class="toggle-icon">&#9660;</span>
             </div>
             <div class="category-content">
@@ -89,7 +98,7 @@
 
         <div class="category" id="number-theory">
             <div class="category-header">
-                <span>Number Theory</span>
+                <span data-key="materials.categories.number_theory">Number Theory</span>
                 <span class="toggle-icon">&#9660;</span>
             </div>
             <div class="category-content">
@@ -116,6 +125,7 @@
     </footer>
 
     <script src="../js/main.js"></script>
+    <script src="../js/languages.js"></script>
     <script src="../js/materials.js"></script>
 </body>
 </html>

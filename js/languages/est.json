@@ -1,0 +1,83 @@
+
+{
+  "header": {
+      "title": "Balti Tee 2024 Matemaatikavõistlus",
+      "nav": {
+        "home": "Avaleht",
+        "materials": "Materjalid",
+        "tips": "Nipid & Strateegiad",
+        "daily_problems": "Päevaülesanded",
+        "contact": "Kontakt"
+      }
+    },
+  "home": {
+    "upcoming_events": "Eelseisvad Sündmused"
+  },
+  "daily_problems": {
+      "title": "Päevaülesanded",
+      "date_display": "Kuupäev: ",
+      "random_button": "Proovi juhuslikku ülesannet",
+      "no_problems": "Ülesandeid pole saadaval",
+      "error_fetching": "Ülesande hankimisel ilmnes viga. Palun proovi hiljem uuesti.",
+      "no_random_problems": "Juhuslikke ülesandeid pole saadaval.",
+      "no_other_problems": "Muud ülesandeid pole saadaval.",
+      "track_progress": "Jälgi oma edusamme siin:"
+    },
+    "materials": {
+    "study_materials_title": "Õppematerjalid",
+    "categories": {
+      "general": "Üldine",
+      "algebra": "Algebra",
+      "combinatorics": "Kombinatoorika",
+      "geometry": "Geomeetria",
+      "number_theory": "Arvuteooria"
+    }
+  },
+  "events": {
+    "event_started": "See sündmus on alanud!",
+    "list": [
+      {
+        "name": "Kohapealne ettevalmistus 1",
+        "date": "2024-10-26T10:00:00",
+        "description": "Esimese treeninglaagri algus",
+        "tooltip": "Ootame teid peagi näha."
+      },
+      {
+        "name": "Kohapealne ettevalmistus 2",
+        "date": "2024-11-01T10:00:00",
+        "description": "Teise treeninglaagri algus",
+        "tooltip": "Ootame teid peagi näha."
+      },
+      {
+        "name": "Kohapealne ettevalmistus 3",
+        "date": "2024-11-10T10:00:00",
+        "description": "Kolmanda treeninglaagri algus",
+        "tooltip": "Ootame teid peagi näha."
+      },
+      {
+        "name": "Balti Tee 1. päev",
+        "date": "2024-11-14T16:00:00",
+        "description": "Balti Tee 2024 ametlik algus, esimesed saabumised",
+        "tooltip": "Aeg uute sõprade leidmiseks."
+      },
+      {
+        "name": "Võistlus",
+        "date": "2024-11-16T09:00:00",
+        "description": "Balti Tee 2024 võistluse algusaeg",
+        "tooltip": "Aeg uusi sõpru professionaalselt üle trumbata."
+      }
+    ]
+  },
+  "time_labels": {
+    "days": "Päeva",
+    "hours": "Tundi",
+    "minutes": "Minutit",
+    "seconds": "Sekundit"
+  },
+  "footer": {
+    "footer_text": "© 2024 star-1ord. Kõik õigused kaitstud."
+  },
+  "language_switcher": {
+    "label": "Keel:"
+  }
+}

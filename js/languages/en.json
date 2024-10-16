@@ -1,0 +1,73 @@
+
+{
+  "header": {
+    "title": "Baltic Way 2024 Mathematics Competition",
+    "nav": {
+      "home": "Home",
+      "materials": "Materials",
+      "tips": "Tips & Strategies",
+      "daily_problems": "Daily Problems",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "upcoming_events": "Upcoming Events"
+  },
+  "daily_problems": {
+    "title": "Daily Problems",
+    "date_display": "Date: ",
+    "random_button": "Get a Random Problem",
+    "no_problems": "Problems are not available",
+    "error_fetching": "A problem occurred while loading the statement. Please try again later.",
+    "no_random_problems": "Random problems are not available.",
+    "no_other_problems": "Other problems are not available.",
+    "track_progress": "Track your progress here:"
+  },
+  "events": {
+    "event_started": "This event has started!",
+    "list": [
+      {
+        "name": "In-person preparation 1",
+        "date": "2024-10-26T10:00:00",
+        "description": "The beginning of the first training camp",
+        "tooltip": "Look forward to seeing you soon."
+      },
+      {
+        "name": "In-person preparation 2",
+        "date": "2024-11-01T10:00:00",
+        "description": "The beginning of the second training camp",
+        "tooltip": "Look forward to seeing you soon."
+      },
+      {
+        "name": "In-person preparation 3",
+        "date": "2024-11-10T10:00:00",
+        "description": "The beginning of the third training camp",
+        "tooltip": "Look forward to seeing you soon."
+      },
+      {
+        "name": "Baltic Way Day 1",
+        "date": "2024-11-14T16:00:00",
+        "description": "The official start of the Baltic Way 2024, first arrivals",
+        "tooltip": "Time to make new friends."
+      },
+      {
+        "name": "Contest",
+        "date": "2024-11-16T09:00:00",
+        "description": "Baltic Way 2024 Contest starting time",
+        "tooltip": "Time to outclass new friends professionally."
+      }
+    ]
+  },
+  "time_labels": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "footer": {
+    "footer_text": "© 2024 star-1ord. All rights reserved."
+  },
+  "language_switcher": {
+    "label": "Language:"
+  }
+}
