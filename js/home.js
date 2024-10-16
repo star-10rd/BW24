@@ -6,9 +6,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Array of event objects
     const events = [
         {
-            name: 'In-person preparation',
-            date: 'October 25, 2024 23:59:59',
+            name: 'In-person preparation 1',
+            date: 'October 26, 2024 10:00:00',
             description: 'The beginning of the first training camp',
+            tooltip: 'Look forward to seeing you soon.'
+        },
+        {
+            name: 'In-person preparation 2',
+            date: 'November 1, 2024 10:00:00',
+            description: 'The beginning of the second training camp',
+            tooltip: 'Look forward to seeing you soon.'
+        },
+        {
+            name: 'In-person preparation 3',
+            date: 'November 10, 2024 10:00:00',
+            description: 'The beginning of the third training camp',
             tooltip: 'Look forward to seeing you soon.'
         },
         {
