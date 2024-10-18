@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const userLanguage = localStorage.getItem('preferredLanguage') || 'est';
+    const userLanguage = localStorage.getItem('preferredLanguage') || 'en';
     languageSwitcher.value = userLanguage;
     loadLanguage(userLanguage);
 
