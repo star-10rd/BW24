@@ -1,7 +1,7 @@
 
 {
   "header": {
-    "title": "Baltic Way 2024 Mathematics Competition",
+    "title": "Baltic Way 2024 Olympiad Training",
     "nav": {
       "home": "Home",
       "materials": "Materials",
@@ -22,6 +22,16 @@
     "no_random_problems": "Random problems are not available.",
     "no_other_problems": "Other problems are not available.",
     "track_progress": "Track your progress here:"
+  },
+  "materials": {
+    "study_materials_title": "Study Materials",
+    "categories": {
+      "general": "General",
+      "algebra": "Algebra",
+      "combinatorics": "Combinatorics",
+      "geometry": "Geometry",
+      "number_theory": "Number Theory"
+    }
   },
   "events": {
     "event_started": "This event has started!",
