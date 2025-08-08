@@ -3,8 +3,8 @@
 const { DateTime } = luxon;
 
 // Initialize Supabase Client
-const SUPABASE_URL = 'https://vzdmgksatjkogfhedqey.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6ZG1na3NhdGprb2dmaGVkcWV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg0MDE2NDEsImV4cCI6MjA0Mzk3NzY0MX0.TLB8FIKi73I7JXeKXHQ-FhczkRYJpxqcSkNceSSu4ag';
+const SUPABASE_URL = 'https://bwudmhszirbupgdwgqhs.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3dWRtaHN6aXJidXBnZHdncWhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2NDU4NzMsImV4cCI6MjA3MDIyMTg3M30.F9vkrLjvz0z9cjHBn4I99-fVYcvR4cAIz4cN8KOXnXA';
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
