@@ -1,11 +1,20 @@
-// js/daily-problems.js - with internationalized back button
+// js/daily-problems.js - SAFE VERSION: Only translate "Date:" prefix
 const { DateTime } = window.luxon || {};
 const SUPABASE_URL = 'https://bwudmhszirbupgdwgqhs.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3dWRtaHN6aXJidXBnZHdncWhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2NDU4NzMsImV4cCI6MjA3MDIyMTg3M30.F9vkrLjvz0z9cjHBn4I99-fVYcvR4cAIz4cN8KOXnXA';
 const supabaseClient = window.supabase?.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-function getEstToday(){ return DateTime ? DateTime.now().setZone('Europe/Tallinn').startOf('day') : new Date(); }
-function formatDate(dt){ return DateTime ? dt.toLocaleString(DateTime.DATE_FULL) : new Date().toLocaleDateString(); }
+function getEstToday(){ 
+  return DateTime ? DateTime.now().setZone('Europe/Tallinn').startOf('day') : new Date(); 
+}
+
+// Simple date format - always English
+function formatDate(dt){ 
+  if (!DateTime) return new Date().toLocaleDateString('en-US', { dateStyle: 'full' });
+  
+  // Always format in English
+  return dt.setLocale('en').toLocaleString(DateTime.DATE_FULL);
+}
 
 function shuffleArrayLocal(array, seed) {
   if (!Array.isArray(array)) return [];
@@ -23,7 +32,13 @@ function shuffleArrayLocal(array, seed) {
 
 function getRandomIndex(max){
   if (max<=0) return 0;
-  try { if (window.crypto && window.crypto.getRandomValues) { const v = new Uint32Array(1); window.crypto.getRandomValues(v); return v[0] % max; } } catch(e){}
+  try { 
+    if (window.crypto && window.crypto.getRandomValues) { 
+      const v = new Uint32Array(1); 
+      window.crypto.getRandomValues(v); 
+      return v[0] % max; 
+    } 
+  } catch(e){}
   return Math.floor(Math.random() * max);
 }
 
@@ -31,11 +46,9 @@ function getCurrentTheme() {
   return document.documentElement.getAttribute('data-theme') || 'light';
 }
 
-// FIX: Internationalized back button
+// Internationalized back button
 function openProblemInNewTab(title, statementHtml){
   const theme = getCurrentTheme();
-  
-  // Get translated back button text
   const backText = window.currentTranslations?.daily_problems?.back_to_daily || 'Back to Daily Problems';
   
   const themeStyles = theme === 'dark' ? {
@@ -123,14 +136,30 @@ function openProblemInNewTab(title, statementHtml){
   </body></html>`;
   
   const win = window.open();
-  if (!win) { alert('Pop-up blocked. Allow pop-ups or open the problem manually.'); return; }
+  if (!win) { 
+    alert('Pop-up blocked. Allow pop-ups or open the problem manually.'); 
+    return; 
+  }
   win.document.open(); 
   win.document.write(html); 
   win.document.close();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+// SAFE: Update date display - only prefix changes language
+function updateDateDisplay() {
   const currentDateElement = document.getElementById('current-date');
+  if (!currentDateElement) return;
+  
+  const today = getEstToday();
+  const formattedDate = formatDate(today); // Always English
+  
+  // Only translate the prefix
+  const datePrefix = window.currentTranslations?.daily_problems?.date_display || 'Date: ';
+  
+  currentDateElement.textContent = `${datePrefix}${formattedDate}`;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
   const topicButtons = Array.from(document.querySelectorAll('.topic-btn'));
   const randomTrigger = document.querySelector('.random-trigger .random-btn');
   const problemName = document.getElementById('problem-name');
@@ -142,13 +171,15 @@ document.addEventListener('DOMContentLoaded', () => {
   let dailyProblemId = null;
   let currentDailyProblem = null;
 
-  const today = getEstToday();
-  if (currentDateElement) {
-    // Use translation for date prefix
-    const datePrefix = window.currentTranslations?.daily_problems?.date_display || 'Date: ';
-    currentDateElement.textContent = `${datePrefix}${formatDate(today)}`;
-  }
+  // Initial date display
+  updateDateDisplay();
+  
+  // Update date when language changes
+  window.addEventListener('languageChanged', () => {
+    updateDateDisplay();
+  });
 
+  const today = getEstToday();
   const startDate = DateTime ? DateTime.fromISO('2023-01-01T00:00:00', { zone:'Europe/Tallinn' }) : null;
   const dayDiff = startDate ? Math.floor(today.diff(startDate,'days').days) : 0;
 
@@ -179,7 +210,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const dailyOpenBtn = document.getElementById('daily-open-btn');
       if (dailyOpenBtn) dailyOpenBtn.onclick = () => openProblemInNewTab(daily?.name ?? 'Problem', daily?.statement ?? '');
 
-      if (window.MathJax?.typesetPromise && problemStatement) window.MathJax.typesetPromise([problemStatement]).catch(()=>{});
+      if (window.MathJax?.typesetPromise && problemStatement) {
+        window.MathJax.typesetPromise([problemStatement]).catch(()=>{});
+      }
     } catch (err) {
       console.error('displayProblem err', err);
       if (problemName) problemName.textContent = 'Error';

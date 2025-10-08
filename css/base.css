@@ -253,7 +253,7 @@ body:not(.page-home) .brand-text {
   opacity: 0.6;
 }
 
-/* Responsive - COMPLETE MOBILE OPTIMIZATION */
+/* Responsive - COMPLETE with mobile language switcher */
 @media (max-width:820px){
   /* Navigation - hamburger menu */
   .nav-list{
@@ -267,7 +267,9 @@ body:not(.page-home) .brand-text {
     padding:12px;
     border-radius:10px;
     gap:6px;
-    box-shadow:0 16px 40px rgba(2,6,12,0.5)
+    box-shadow:0 16px 40px rgba(2,6,12,0.5);
+    max-height: 80vh;
+    overflow-y: auto;
   }
   
   :root[data-theme="dark"] .nav-list{ 
@@ -285,19 +287,50 @@ body:not(.page-home) .brand-text {
     color: var(--text); 
   }
   
+  /* NEW: Mobile language buttons in nav menu */
+  .mobile-lang-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .mobile-lang-btn:hover {
+    background: var(--glass);
+  }
+  
+  .mobile-lang-btn.active {
+    background: var(--brand);
+    color: #fff;
+  }
+  
+  :root[data-theme="dark"] .mobile-lang-btn.active {
+    background: var(--accent);
+    color: #111;
+  }
+  
+  /* Hide desktop language selector on mobile */
+  .language-select,
+  #language-switcher-select,
+  .language-label {
+    display: none !important;
+  }
+  
   .mobile-nav-toggle{
     display:inline-flex
   }
   
-  /* FIX: Hide brand text on ALL pages including home */
+  /* Hide brand text on ALL pages including home */
   .brand-text,
   body.page-home .brand-text{
-    display:none !important; /* Force hide even on homepage */
-  }
-  
-  /* Hide language label to save space */
-  .language-label{
-    display:none
+    display:none !important;
   }
   
   /* Ensure header doesn't overflow */
@@ -319,12 +352,6 @@ body:not(.page-home) .brand-text {
     gap: 6px;
   }
   
-  /* Smaller language select on mobile */
-  .language-select, #language-switcher-select{
-    padding: 6px 10px;
-    font-size: 0.9rem;
-  }
-  
   /* Theme toggle button proper size */
   .btn-icon{
     min-width: 40px;
@@ -335,9 +362,8 @@ body:not(.page-home) .brand-text {
   }
 }
 
-/* Additional mobile optimizations for smaller screens */
+/* Additional mobile optimizations */
 @media (max-width:520px){
-  /* Even more compact header */
   .header-inner{
     padding: 8px 10px;
     gap: 6px;
@@ -350,24 +376,16 @@ body:not(.page-home) .brand-text {
     font-size: 16px;
   }
   
-  .language-select, #language-switcher-select{
-    padding: 5px 8px;
-    font-size: 0.85rem;
-  }
-  
-  /* Smaller mobile nav toggle */
   .mobile-nav-toggle{
     min-width: 40px;
     min-height: 40px;
     font-size: 1.2rem;
   }
   
-  /* Container padding */
   .container{
     padding: 0 12px;
   }
   
-  /* Footer text size */
   .site-footer p{
     font-size: 0.85rem;
   }

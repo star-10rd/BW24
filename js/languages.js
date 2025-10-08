@@ -24,7 +24,7 @@
       if (typeof value === 'string') el.textContent = value;
     });
 
-    // NEW: Handle placeholder translations
+    // Handle placeholder translations
     $all('[data-placeholder-key]').forEach(el=>{
       const key = el.getAttribute('data-placeholder-key');
       if (!key) return;
