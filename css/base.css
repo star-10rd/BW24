@@ -287,7 +287,18 @@ body:not(.page-home) .brand-text {
     color: var(--text); 
   }
   
-  /* NEW: Mobile language buttons in nav menu */
+  /* Mobile language label styling */
+  .mobile-lang-label {
+    display: block;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Mobile language buttons in nav menu */
   .mobile-lang-btn {
     width: 100%;
     text-align: left;
@@ -316,10 +327,11 @@ body:not(.page-home) .brand-text {
     color: #111;
   }
   
-  /* Hide desktop language selector on mobile */
+  /* CRITICAL: Hide desktop language selector AND label on mobile */
   .language-select,
   #language-switcher-select,
-  .language-label {
+  .language-label,
+  #language-switcher-label {
     display: none !important;
   }
   

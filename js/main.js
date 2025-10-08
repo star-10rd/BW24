@@ -31,7 +31,7 @@
     });
   }
 
-  // NEW: Add mobile language buttons to nav menu
+  // UPDATED: Add mobile language buttons to nav menu with proper label
   function setupMobileLanguageSwitcher() {
     if (!navList) return;
     
@@ -43,17 +43,22 @@
       const existingLangItems = navList.querySelectorAll('.mobile-lang-item');
       existingLangItems.forEach(item => item.remove());
       
-      // Create language separator and buttons
+      const currentLang = localStorage.getItem('preferredLanguage') || 'en';
+      
+      // Language-specific label
+      const langLabel = currentLang === 'est' ? 'Keel:' : 'Language:';
+      
+      // Create separator
       const separator = document.createElement('li');
       separator.className = 'nav-separator mobile-lang-item';
       separator.innerHTML = '<hr style="border: none; border-top: 1px solid rgba(127,184,255,0.2); margin: 8px 0;">';
       
-      const langLabel = document.createElement('li');
-      langLabel.className = 'mobile-lang-item';
-      langLabel.innerHTML = '<span style="color: var(--muted); font-size: 0.85rem; padding: 8px 12px; display: block;">Language / Keel</span>';
+      // Create language label (language-specific)
+      const labelItem = document.createElement('li');
+      labelItem.className = 'mobile-lang-item';
+      labelItem.innerHTML = `<span class="mobile-lang-label">${langLabel}</span>`;
       
-      const currentLang = localStorage.getItem('preferredLanguage') || 'en';
-      
+      // Create language buttons
       const enBtn = document.createElement('li');
       enBtn.className = 'mobile-lang-item';
       enBtn.innerHTML = `<button class="mobile-lang-btn ${currentLang === 'en' ? 'active' : ''}" data-lang="en">English</button>`;
@@ -64,7 +69,7 @@
       
       // Append to nav menu
       navList.appendChild(separator);
-      navList.appendChild(langLabel);
+      navList.appendChild(labelItem);
       navList.appendChild(enBtn);
       navList.appendChild(estBtn);
       
