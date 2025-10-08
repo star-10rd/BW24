@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <title>BW 2024 - Daily Problems</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/daily-problems.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>BW 2025 — Daily Problems</title>
     
-    <!-- MathJax Configuration -->
+  <!-- include common styles -->
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/daily-problems.css" />
+  <link rel="icon" href="../favicon.ico" />
+
+  <!-- MathJax Configuration -->
     <script>
         window.MathJax = {
             tex: {
@@ -17,13 +21,13 @@
                 displayMath: [['$$', '$$'], ['\[', '\]'],['\\[', '\\]']]
             },
             chtml: {
-                scale: 1,  // Adjust the overall scaling of the math
-                minScaleAdjust: 100,  // Similar to the SVG renderer, adjust the minimum scaling
-                mtextInheritFont: true,  // Make math text inherit font from the surrounding content
+                scale: 1,
+                minScaleAdjust: 100,
+                mtextInheritFont: true,
             }
         };
     </script>
-    <!-- MathJax Script -->
+  <!-- MathJax Script -->
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
     
     <!-- Supabase JavaScript Client -->
@@ -31,68 +35,89 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.3.0/luxon.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
 </head>
-<body>
-    <header>
-        <h1 id="header-title">Baltic Way 2024 Olympiad Training</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html" data-key="home">Home</a></li>
-                <li><a href="../materials/" data-key="materials">Materials</a></li>
-                <li><a href="../tips/" data-key="tips">Tips & Strategies</a></li>
-                <li><a href="../daily-problems/" data-key="daily_problems">Daily Problems</a></li>
-                <li><a href="../contact/" data-key="contact">Contact</a></li>
-            </ul>
-            <!-- Language Switcher -->
-            <div class="language-switcher">
-                <label for="language-switcher-select" id="language-switcher-label">Language:</label>
-                <select id="language-switcher-select">
-                    <option value="en">English</option>
-                    <option value="est">Eesti</option>
-                </select>
-            </div>
-        </nav>
-    </header>
+<body class="page-daily">
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand"><a href="/" class="brand-link"><div class="brand-logo">BW</div><div class="brand-text">Baltic Way 2025</div></a></div>
+      <nav class="main-nav"><button class="mobile-nav-toggle" aria-expanded="false" aria-controls="primary-menu">☰</button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="../index.html" data-key="home">Home</a></li>
+          <li><a href="../materials/" data-key="materials">Materials</a></li>
+          <li><a href="../tips/" data-key="tips">Tips & Strategies</a></li>
+          <li><a href="../daily-problems/" data-key="daily_problems">Daily Problems</a></li>
+          <li><a href="../contact/" data-key="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-controls">
+        <label id="language-switcher-label" for="language-switcher-select">Language:</label>
+        <select id="language-switcher-select">
+          <option value="en">English</option>
+          <option value="est">Eesti</option>
+        </select>
+        <button id="theme-toggle" class="btn-icon">🌓</button>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <section class="daily-problems">
-            <h2 id="daily-problems-title">Daily Problems</h2>
-            <div class="date-display" id="current-date">
-                <!-- Current Date will be displayed here -->
-            </div>
-            <div class="topics-selector">
-                <button class="topic-btn active" data-topic="A">A</button>
-                <button class="topic-btn" data-topic="N">N</button>
-                <button class="topic-btn" data-topic="C">C</button>
-                <button class="topic-btn" data-topic="G">G</button>
-            </div>
-            <div class="problem-display">
-                <div class="problem-header">
-                    <div class="topic-indicator" id="topic-indicator">A</div>
-                    <div class="problem-name" id="problem-name">2023/A1</div>
-                </div>
-                <div class="problem-statement" id="problem-statement">
-                    <!-- Problem text will be injected here -->
-                </div>
-                <button class="random-btn" data-topic="A">Get a random problem</button>
-            </div>
-            <div class="random-problem-display" id="random-problem-display">
-                <!-- Random Problem will be displayed here -->
-            </div>
-            <div class="track-progress">
-                <a href="https://shorturl.at/FqNIC" target="_blank" rel="noopener noreferrer">
-                    Track your progress here
-                </a>
-            </div>
-        </section>
-        
-    </main>
+  <main class="container daily-problems">
+    <h2 id="daily-problems-title" data-key="daily_problems.title">Daily Problems</h2>
+    <div id="current-date" class="date-display" aria-live="polite"></div>
 
-    <footer>
-        <p>&copy; 2024 star-1ord. All rights reserved.</p>
-    </footer>
+    <div class="topics-selector" role="tablist" aria-label="Problem topics">
+      <button class="topic-btn active" data-topic="A" role="tab" aria-selected="true">A</button>
+      <button class="topic-btn" data-topic="N" role="tab">N</button>
+      <button class="topic-btn" data-topic="C" role="tab">C</button>
+      <button class="topic-btn" data-topic="G" role="tab">G</button>
+    </div>
 
-    <script src="../js/main.js"></script>
-    <script src="../js/languages.js"></script>
-    <script src="../js/daily-problems.js"></script>
+    <!-- Daily Problem Card -->
+    <div class="problem-card accent-top" role="region" aria-labelledby="daily-problems-title">
+      <div class="problem-body">
+        <div class="topic-indicator" id="topic-indicator">A</div>
+
+        <div style="flex:1" class="left-accent">
+          <div class="problem-meta" id="problem-name">2022/3</div>
+          <div id="problem-statement" class="problem-statement" tabindex="0">
+            <!-- injected statement -->
+          </div>
+
+          <button class="open-new-btn" id="daily-open-btn" data-key="daily_problems.open_in_new_tab">Open in new tab</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="random-trigger">
+      <button class="random-btn" data-topic="A" data-key="daily_problems.random_button">Get a random problem</button>
+    </div>
+
+    <!-- FIX ISSUE 3: Random problem card now in HTML for i18n support -->
+    <div id="random-problem-display" class="random-problem-display" style="display:none;">
+      <div class="problem-card accent-top">
+        <div class="problem-body">
+          <div class="topic-indicator" id="random-topic-indicator">N</div>
+
+          <div style="flex:1" class="left-accent">
+            <div class="problem-meta" id="random-problem-name">2020/19</div>
+            <div id="random-problem-statement" class="problem-statement">
+              <!-- injected random statement -->
+            </div>
+
+            <button class="open-new-btn" id="random-open-btn" data-key="daily_problems.open_in_new_tab">Open in new tab</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="track-progress">
+      <a href="https://shorturl.at/3UPy4" target="_blank" rel="noopener noreferrer" data-key="daily_problems.track_progress">Track your progress here</a>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><p>&copy; 2025 star-1ord. All rights reserved.</p></div></footer>
+
+  <!-- scripts: languages.js must be before page logic -->
+  <script src="../js/main.js"></script>
+  <script src="../js/languages.js"></script>
+  <script src="../js/daily-problems.js"></script>
 </body>
 </html>

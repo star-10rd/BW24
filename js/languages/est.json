@@ -1,30 +1,38 @@
-
 {
   "header": {
-      "title": "Balti Tee 2024 Treening",
-      "nav": {
-        "home": "Avaleht",
-        "materials": "Materjalid",
-        "tips": "Nipid & Strateegiad",
-        "daily_problems": "Päevaülesanded",
-        "contact": "Kontakt"
-      }
-    },
+    "title": "Balti Tee 2025 Treening",
+    "nav": {
+      "home": "Avaleht",
+      "materials": "Materjalid",
+      "tips": "Nipid & Strateegiad",
+      "daily_problems": "Päevaülesanded",
+      "contact": "Kontakt"
+    }
+  },
   "home": {
-    "upcoming_events": "Eelseisvad Sündmused"
+    "upcoming_events": "Eelseisvad Sündmused",
+    "show_past": "Näita möödunud",
+    "hero_cta_today": "Tänane ülesanne",
+    "hero_cta_browse": "Sirvi materjale"
   },
   "daily_problems": {
-      "title": "Päevaülesanded",
-      "date_display": "Kuupäev: ",
-      "random_button": "Proovi juhuslikku ülesannet",
-      "no_problems": "Ülesandeid pole saadaval",
-      "error_fetching": "Ülesande hankimisel ilmnes viga. Palun proovi hiljem uuesti.",
-      "no_random_problems": "Juhuslikke ülesandeid pole saadaval.",
-      "no_other_problems": "Muud ülesandeid pole saadaval.",
-      "track_progress": "Jälgi oma edusamme siin:"
-    },
-    "materials": {
+    "title": "Päevaülesanded",
+    "date_display": "Kuupäev: ",
+    "random_button": "Proovi juhuslikku ülesannet",
+    "open_in_new_tab": "Ava uuel lehel",
+    "back_to_daily": "Tagasi päevaülesannetele",
+    "no_problems": "Ülesandeid pole saadaval",
+    "error_fetching": "Ülesande hankimisel ilmnes viga. Palun proovi hiljem uuesti.",
+    "no_random_problems": "Juhuslikke ülesandeid pole saadaval.",
+    "no_other_problems": "Muud ülesanded pole saadaval.",
+    "track_progress": "Jälgi oma edusamme siin"
+  },
+  "materials": {
     "study_materials_title": "Õppematerjalid",
+    "search_placeholder": "Otsi materjale, teemasid, autoreid...",
+    "collapse_all": "Sulge kõik",
+    "expand_all": "Ava kõik",
+    "no_results": "Otsingule vastavaid materjale ei leitud. Proovi teisi märksõnu või tühjenda otsing.",
     "categories": {
       "general": "Üldine",
       "algebra": "Algebra",
@@ -33,12 +41,23 @@
       "number_theory": "Arvuteooria"
     }
   },
+  "tips": {
+    "title": "Võistlusnõuanded ja strateegiad"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "text": "Tagasiside, panuse või vigade korral kirjuta:",
+    "form_name_label": "Nimi",
+    "form_email_label": "E-post",
+    "form_message_label": "Sõnum",
+    "form_send": "Saada"
+  },
   "events": {
     "event_started": "See sündmus on alanud!",
     "list": [
       {
         "name": "Kohapealne ettevalmistus 1",
-        "date": "2024-10-26T10:00:00",
+        "date": "2025-10-18T10:10:00",
         "description": "Esimese treeninglaagri algus",
         "tooltip": "Ootame teid peagi näha."
       },
@@ -50,21 +69,27 @@
       },
       {
         "name": "Kohapealne ettevalmistus 3",
-        "date": "2024-11-11T10:00:00",
+        "date": "2025-11-10T10:10:00",
         "description": "Kolmanda treeninglaagri algus",
         "tooltip": "Ootame teid peagi näha."
       },
       {
         "name": "Balti Tee 1. päev",
-        "date": "2024-11-14T16:00:00",
-        "description": "Balti Tee 2024 ametlik algus, esimesed saabumised",
+        "date": "2025-11-13T16:00:00",
+        "description": "Balti Tee 2025 ametlik algus, esimesed saabumised",
         "tooltip": "Aeg uute sõprade leidmiseks."
       },
       {
         "name": "Võistlus",
-        "date": "2024-11-16T09:00:00",
-        "description": "Balti Tee 2024 võistluse algusaeg",
+        "date": "2025-11-15T09:00:00",
+        "description": "Balti Tee 2025 võistluse algusaeg",
         "tooltip": "Aeg uusi sõpru professionaalselt üle trumbata."
+      },
+      {
+        "name": "Lahtine võistlus",
+        "date": "2025-09-27T18:00:00",
+        "description": "Lahtine võistlus",
+        "tooltip": "Liitu harjutamiseks ja tagasisideks."
       }
     ]
   },
@@ -75,7 +100,7 @@
     "seconds": "Sekundit"
   },
   "footer": {
-    "footer_text": "© 2024 star-1ord. Kõik õigused kaitstud."
+    "footer_text": "© 2025 star-1ord. Kõik õigused kaitstud."
   },
   "language_switcher": {
     "label": "Keel:"

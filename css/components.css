@@ -1,0 +1,176 @@
+/* Cards */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(180deg, rgba(0,55,102,0.06), transparent);
+  padding: 56px 18px;
+  border-radius: 16px;
+  margin: 24px auto;
+}
+:root[data-theme="dark"] .hero {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent);
+}
+.hero-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+.hero h1 { margin: 0; font-size: 2rem; color: var(--brand); }
+.hero-sub { color: var(--muted); margin-top: 8px; }
+
+/* Hero CTA buttons with increased gap */
+.hero-cta { 
+  display: flex; 
+  gap: 16px;
+  justify-content: center; 
+  margin-top: 18px; 
+  flex-wrap: wrap;
+}
+
+/* Ghost button theme-aware */
+.btn-ghost {
+  background: transparent;
+  border: 2px solid var(--brand);
+  color: var(--brand);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 700;
+  transition: background .2s;
+}
+.btn-ghost:hover {
+  background: var(--brand);
+  color: #fff;
+}
+:root[data-theme="dark"] .btn-ghost {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+:root[data-theme="dark"] .btn-ghost:hover {
+  background: var(--accent);
+  color: #111;
+}
+
+/* FIX 1: Events grid - increased minimum width to prevent seconds overflow */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* Increased from 240px to 270px */
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.event-card {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  transition: background .2s, transform .15s;
+}
+.event-card:hover { transform: translateY(-2px); }
+
+.event-card h3 { margin: 0; font-size: 1.05rem; color: var(--brand); }
+:root[data-theme="dark"] .event-card h3 { color: var(--accent); }
+.event-card .desc { color: var(--muted); font-size: 0.95rem; }
+
+.counter { display: flex; gap: 8px; align-items: center; }
+
+.time-grid {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 56px;
+}
+.time-unit .number { font-weight: 800; font-size: 1.1rem; color: var(--text); }
+.time-unit .label { font-size: 0.8rem; color: var(--muted); }
+
+.event-progress {
+  height: 8px;
+  background: rgba(0,0,0,0.06);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.event-progress > i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--brand), var(--accent));
+  width: 0%;
+  transition: width 0.9s cubic-bezier(.3,.7,0,.9);
+}
+:root[data-theme="dark"] .event-progress {
+  background: rgba(255,255,255,0.06);
+}
+
+/* Materials accordion */
+.category-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, var(--brand), transparent);
+  color: #fff;
+  position: relative;
+}
+:root[data-theme="dark"] .category-header {
+  color: var(--text);
+  background: linear-gradient(90deg, var(--brand), transparent);
+}
+.category-header h3 { position: relative; margin: 0; }
+.category-header h3::after {
+  content:''; position:absolute; left:0; bottom:-6px; height:3px; width:0;
+  background: var(--accent); transition: width .28s ease;
+}
+.category-header:hover h3::after { width:60%; }
+
+.category-content {
+  background: var(--card);
+  padding: 0 18px 18px 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 320ms ease, padding 320ms ease;
+}
+.category[aria-expanded="true"] .category-content {
+  padding: 18px;
+  max-height: 480px;
+}
+
+.category-controls button {
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.countdown-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown-card .time {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 8px;
+  word-break: break-word;
+}
+
+.countdown-card .time span {
+  min-width: 60px;
+  text-align: center;
+}
