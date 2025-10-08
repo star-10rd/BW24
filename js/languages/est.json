@@ -10,10 +10,14 @@
     }
   },
   "home": {
-    "upcoming_events": "Eelseisvad Sündmused",
-    "show_past": "Näita möödunud",
-    "hero_cta_today": "Tänane ülesanne",
-    "hero_cta_browse": "Sirvi materjale"
+  "upcoming_events": "Eelseisvad Sündmused",
+  "past_events": "Möödunud Sündmused",
+  "all_events": "Kõik Sündmused",
+  "show_past": "Näita möödunud",
+  "show_all": "Näita kõiki",
+  "show_upcoming": "Näita eelseisvaid",
+  "hero_cta_today": "Tänane ülesanne",
+  "hero_cta_browse": "Sirvi materjale"
   },
   "daily_problems": {
     "title": "Päevaülesanded",

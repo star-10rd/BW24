@@ -10,10 +10,14 @@
     }
   },
   "home": {
-    "upcoming_events": "Upcoming Events",
-    "show_past": "Show past",
-    "hero_cta_today": "Today's Problem",
-    "hero_cta_browse": "Browse Materials"
+  "upcoming_events": "Upcoming Events",
+  "past_events": "Past Events",
+  "all_events": "All Events",
+  "show_past": "Show past",
+  "show_all": "Show all",
+  "show_upcoming": "Show upcoming",
+  "hero_cta_today": "Today's Problem",
+  "hero_cta_browse": "Browse Materials"
   },
   "daily_problems": {
     "title": "Daily Problems",

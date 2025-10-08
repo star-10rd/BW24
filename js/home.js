@@ -24,46 +24,43 @@ function initializeHome(){
       } else {
         toShow = parsed.slice();
       }
-      // fallback: if upcoming is empty, show all upcoming+past so page isn't blank
-      if (viewMode === 'upcoming' && toShow.length === 0) {
-        // keep upcoming empty but show hint; still render nothing
-      }
       toShow.forEach((ev, idx)=>{
         const card = createEventCard(ev, idx, translations);
         countersContainer.appendChild(card);
       });
       attachShowPastControl();
-      startCountdowns(parsed);
+      startCountdowns(parsed, translations);
     }
 
     function attachShowPastControl(){
-    const showPastBtn = document.getElementById('show-past');
-    const homeTitle = document.getElementById('home-title');
-    if (!showPastBtn || !homeTitle) return;
+      const showPastBtn = document.getElementById('show-past');
+      const homeTitle = document.getElementById('home-title');
+      if (!showPastBtn || !homeTitle) return;
 
-    function updateLabel() {
-      if (viewMode === 'upcoming') {
-        showPastBtn.textContent = 'Show past';
-        homeTitle.textContent = 'Upcoming Events';
-      } else if (viewMode === 'past') {
-        showPastBtn.textContent = 'Show all';
-        homeTitle.textContent = 'Past Events';
-      } else {
-        showPastBtn.textContent = 'Show upcoming';
-        homeTitle.textContent = 'All Events';
+      // FIXED: Use translations instead of hardcoded English
+      function updateLabel() {
+        if (viewMode === 'upcoming') {
+          showPastBtn.textContent = translations.home?.show_past || 'Show past';
+          homeTitle.textContent = translations.home?.upcoming_events || 'Upcoming Events';
+        } else if (viewMode === 'past') {
+          showPastBtn.textContent = translations.home?.show_all || 'Show all';
+          homeTitle.textContent = translations.home?.past_events || 'Past Events';
+        } else {
+          showPastBtn.textContent = translations.home?.show_upcoming || 'Show upcoming';
+          homeTitle.textContent = translations.home?.all_events || 'All Events';
+        }
       }
-    }
 
-    showPastBtn.onclick = () => {
-      if (viewMode === 'upcoming') viewMode = 'past';
-      else if (viewMode === 'past') viewMode = 'all';
-      else viewMode = 'upcoming';
+      showPastBtn.onclick = () => {
+        if (viewMode === 'upcoming') viewMode = 'past';
+        else if (viewMode === 'past') viewMode = 'all';
+        else viewMode = 'upcoming';
+        updateLabel();
+        render();
+      };
+
       updateLabel();
-      render();
-    };
-
-    updateLabel();
-  }
+    }
 
     render();
   }).catch(err => console.error('Could not load home translations', err));
@@ -94,9 +91,10 @@ function createEventCard(ev, idx, translations){
   return card;
 }
 
-function startCountdowns(allEvents){
+// FIXED: Accept translations parameter for event_started message
+function startCountdowns(allEvents, translations){
   clearInterval(window._bwHomeInterval);
-  // Use grid row sizing in CSS, ensure each card stretches
+  
   window._bwHomeInterval = setInterval(()=>{
     document.querySelectorAll('.event-card').forEach(card=>{
       const target = Number(card.dataset.target);
@@ -112,17 +110,14 @@ function startCountdowns(allEvents){
       card.querySelector('.minutes .number').textContent = String(minutes).padStart(2,'0');
       card.querySelector('.seconds .number').textContent = String(seconds).padStart(2,'0');
 
-      // new progress formula: non-linear mapping to show visible fill for long-range events
       const daysUntil = Math.max(0, Math.ceil((target - Date.now()) / (1000*60*60*24)));
-      // formula: pct = 1 / (1 + daysUntil/30) -> 0..1 then * 100
       const pct = Math.round(100 * (1 / (1 + daysUntil / 30)));
       card.querySelector('.event-progress > i').style.width = `${pct}%`;
 
-      // if event passed, set message
+      // FIXED: Use translation for event started message
       if (Date.now() > target) {
         const desc = card.querySelector('.desc');
-        if (desc) desc.textContent = 'This event has started!';
-        // full progress for past events:
+        if (desc) desc.textContent = translations?.events?.event_started || 'This event has started!';
         card.querySelector('.event-progress > i').style.width = `100%`;
       }
     });
