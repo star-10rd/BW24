@@ -18,8 +18,9 @@ npm run dev
 
 ```bash
 npm run check
+npm run content:check
 npm run build
-# or both:
+# or all quality gates:
 npm run verify
 ```
 
@@ -27,9 +28,11 @@ npm run verify
 
 ## Structure
 
-- `src/pages/` — routes
-- `src/layouts/` — page/document layouts
-- `src/components/` — reusable interface components
+- `src/pages/` — static routes
+- `src/components/` — reusable interface and problem presentation
+- `src/lib/problems/` — canonical display model and safe Markdown/math rendering
+- `src/fixtures/` — P2 renderer fixtures; replaced by generated canonical corpus data later
 - `src/i18n/` — English and Estonian UI text
-- `src/styles/` — shared design tokens and shell styling
+- `src/styles/` — design tokens, shell, mathematics, and problem styling
+- `scripts/` — build-time validation utilities
 - `public/` — files copied directly into the static build

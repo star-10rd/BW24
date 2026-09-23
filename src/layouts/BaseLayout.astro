@@ -1,4 +1,7 @@
 ---
+import '@fontsource/atkinson-hyperlegible-next/400.css';
+import '@fontsource/atkinson-hyperlegible-next/600.css';
+import '@fontsource/atkinson-hyperlegible-next/700.css';
 import type { PrimaryRoute } from '../config/site';
 import { getMessages, type Locale } from '../i18n';
 import MobileNav from '../components/MobileNav.astro';
@@ -47,7 +50,7 @@ const pageTitle = title === 'BW26' ? title : `${title} · BW26`;
   <body>
     <a class="skip-link" href="#main-content">{messages.common.skipToContent}</a>
     <SiteHeader locale={locale} current={current} path={path} />
-    <main id="main-content" class="page-main" tabindex="-1">
+    <main id="main-content" class="page-main">
       <slot />
     </main>
     <MobileNav locale={locale} current={current} />

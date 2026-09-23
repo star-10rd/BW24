@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-hidden="true">
+  <rect width="720" height="420" fill="white"/>
+  <g stroke="#d8e1e9" stroke-width="1">
+    <path d="M80 40V380 M140 40V380 M200 40V380 M260 40V380 M320 40V380 M380 40V380 M440 40V380 M500 40V380 M560 40V380 M620 40V380"/>
+    <path d="M60 80H660 M60 140H660 M60 200H660 M60 260H660 M60 320H660"/>
+  </g>
+  <g stroke="#153b63" stroke-width="3" fill="none">
+    <path d="M60 320H660 M140 380V40"/>
+    <path d="M140 320 L320 140 L560 260" stroke="#0055a5"/>
+  </g>
+  <g fill="#ffcc00" stroke="#153b63" stroke-width="2">
+    <circle cx="140" cy="320" r="5"/><circle cx="320" cy="140" r="5"/><circle cx="560" cy="260" r="5"/>
+  </g>
+</svg>

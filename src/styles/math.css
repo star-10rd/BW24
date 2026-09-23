@@ -1,0 +1,53 @@
+.problem-prose code.math-inline,
+.problem-prose code.math-display {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.problem-prose pre:has(> code.math-display) {
+  max-width: 100%;
+  margin: 1.45rem 0;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+  white-space: normal;
+}
+
+.problem-prose .katex {
+  font-size: 1.03em;
+}
+
+.problem-prose .katex-display {
+  max-width: 100%;
+  margin: 1.2rem 0;
+  padding: 0.2rem 0 0.45rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  text-align: center;
+}
+
+.problem-prose .katex-display > .katex {
+  min-width: max-content;
+  text-align: initial;
+}
+
+.problem-prose .katex-display::-webkit-scrollbar {
+  height: 0.45rem;
+}
+
+.problem-prose .katex-display::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--border-strong);
+}
+
+@media print {
+  .problem-prose .katex-display {
+    overflow: visible;
+  }
+}

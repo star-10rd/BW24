@@ -18,15 +18,15 @@
 }
 
 .site-brand {
-  color: var(--text);
-  font-size: 1rem;
-  font-weight: 780;
-  letter-spacing: -0.025em;
+  color: var(--brand);
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
   text-decoration: none;
 }
 
 .site-brand:hover {
-  color: var(--brand);
+  color: var(--brand-strong);
 }
 
 .desktop-nav {
@@ -42,14 +42,14 @@
   min-height: 2.75rem;
   align-items: center;
   color: var(--text-muted);
-  font-size: 0.91rem;
-  font-weight: 570;
+  font-size: 0.92rem;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .desktop-nav a:hover,
 .desktop-nav a[aria-current='page'] {
-  color: var(--text);
+  color: var(--brand);
 }
 
 .desktop-nav a[aria-current='page']::after {
@@ -58,7 +58,7 @@
   bottom: -1px;
   left: 0;
   height: 2px;
-  background: var(--brand);
+  background: var(--accent);
   content: '';
 }
 
@@ -84,14 +84,14 @@
 
 .language-switch {
   font-size: 0.76rem;
-  font-weight: 720;
+  font-weight: 700;
   letter-spacing: 0.045em;
 }
 
 .language-switch:hover,
 .theme-toggle:hover {
   background: var(--surface-subtle);
-  color: var(--text);
+  color: var(--brand);
 }
 
 .theme-icon {
@@ -123,7 +123,7 @@
 .content-shell {
   width: min(100% - 2rem, var(--shell-max));
   margin-inline: auto;
-  padding-block: clamp(3rem, 9vw, 6.5rem);
+  padding-block: clamp(3rem, 8vw, 6rem);
 }
 
 .content-shell--reading {
@@ -138,7 +138,8 @@
   padding-bottom: var(--space-7);
 }
 
-.foundation-list {
+.foundation-list,
+.problem-preview {
   max-width: var(--reading-max);
   border-top: 1px solid var(--border);
 }
@@ -156,8 +157,26 @@
   margin-bottom: 0;
 }
 
-.foundation-row p {
+.foundation-row p,
+.problem-preview p {
   color: var(--text-muted);
+}
+
+.problem-preview {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: var(--space-6);
+  margin-top: var(--space-7);
+  padding-block: var(--space-5);
+  border-bottom: 1px solid var(--border);
+}
+
+.problem-preview .kicker,
+.problem-preview h2,
+.problem-preview p,
+.problem-preview .text-action {
+  margin-bottom: 0;
 }
 
 .mobile-nav {
@@ -182,10 +201,11 @@
 
   .content-shell {
     width: min(100% - 2rem, var(--shell-max));
-    padding-block: 2.75rem 4rem;
+    padding-block: 2.5rem 4rem;
   }
 
-  .foundation-row {
+  .foundation-row,
+  .problem-preview {
     grid-template-columns: 1fr;
     gap: var(--space-2);
   }
@@ -217,7 +237,7 @@
     padding: var(--space-2) var(--space-1);
     color: var(--text-muted);
     font-size: clamp(0.7rem, 3.2vw, 0.8rem);
-    font-weight: 620;
+    font-weight: 600;
     line-height: 1.15;
     text-align: center;
     text-decoration: none;
@@ -225,11 +245,11 @@
 
   .mobile-nav a:hover,
   .mobile-nav a[aria-current='page'] {
-    color: var(--text);
+    color: var(--brand);
   }
 
   .mobile-nav a[aria-current='page'] {
-    box-shadow: inset 0 2px 0 var(--brand);
+    box-shadow: inset 0 2px 0 var(--accent);
   }
 }
 

@@ -1,3 +1,5 @@
+import type { Domain } from '../lib/problems/types';
+
 export const locales = ['en', 'et'] as const;
 export type Locale = (typeof locales)[number];
 
@@ -45,6 +47,20 @@ export type Messages = {
       title: string;
       description: string;
     };
+  };
+  problem: {
+    backToProblems: string;
+    fixtureNote: string;
+    statement: string;
+    solutions: string;
+    solution: string;
+    source: string;
+    alsoAppeared: string;
+    mathnetFutureNote: string;
+    previewTitle: string;
+    previewDescription: string;
+    previewAction: string;
+    domains: Record<Domain, string>;
   };
   notFound: {
     title: string;

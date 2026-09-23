@@ -25,16 +25,16 @@ export const et: Messages = {
     title: 'Täna',
     intro: 'Selge ja rahulik koht võistkonna ülesannete, treeningute ja materjalide jaoks.',
     problemsLabel: 'Ülesanded',
-    problemsText: 'Siia ühendub Baltic Way ülesannete kogu.',
+    problemsText: 'Siin loodud ülesandevaate peale ehitatakse staatiline Baltic Way arhiiv.',
     trainingLabel: 'Treening',
-    trainingText: 'Siin hakkavad paiknema valitud komplektid ja võistkonna treeningud.',
+    trainingText: 'Valitud komplektid ja võistkonna treeningud hakkavad kasutama samu kanoonilisi ülesandeid.',
     materialsLabel: 'Materjalid',
     materialsText: 'Konspektid ja teemamaterjalid jäävad neid toetavate ülesannete lähedale.',
   },
   sections: {
     problems: {
       title: 'Ülesanded',
-      description: 'Järgmise suure süsteemina valmib Baltic Way ülesannete kogu.',
+      description: 'Enne kogu Baltic Way arhiivi importimist viime lõpuni ülesande lugemise ja lahenduste kuvamise süsteemi.',
     },
     training: {
       title: 'Treening',
@@ -43,6 +43,25 @@ export const et: Messages = {
     materials: {
       title: 'Materjalid',
       description: 'Treeningmaterjalid korrastatakse teemade järgi ja seotakse sobivate ülesannetega.',
+    },
+  },
+  problem: {
+    backToProblems: 'Ülesanded',
+    fixtureNote: 'Renderduse test — see on sünteetiline testisisu, mitte Baltic Way arhiivi ülesanne.',
+    statement: 'Ülesande tekst',
+    solutions: 'Lahendused',
+    solution: 'Lahendus',
+    source: 'Allikas',
+    alsoAppeared: 'Esines ka kujul',
+    mathnetFutureNote: 'Kanooniline allikaviide ja MathNeti kirjeviited lisatakse korpuse importimisel.',
+    previewTitle: 'Ülesande renderdaja',
+    previewDescription: 'Tahtlikult nõudlik test matemaatika, jooniste, lahenduste, allikakirjete, tumeda režiimi ja eri ekraanisuuruste jaoks.',
+    previewAction: 'Ava test',
+    domains: {
+      A: 'Algebra',
+      N: 'Arvuteooria',
+      C: 'Kombinatoorika',
+      G: 'Geomeetria',
     },
   },
   notFound: {

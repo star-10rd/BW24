@@ -1,0 +1,87 @@
+---
+import '@fontsource/stix-two-text/400.css';
+import '@fontsource/stix-two-text/400-italic.css';
+import '@fontsource/stix-two-text/600.css';
+import 'katex/dist/katex.min.css';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getMessages, type Locale } from '../../i18n';
+import { formatAppearance, getPrimaryAppearance, getSecondaryAppearances, validateProblemDocument } from '../../lib/problems/model';
+import { renderProblemMarkdown } from '../../lib/problems/renderMarkdown';
+import type { ProblemDocument } from '../../lib/problems/types';
+import '../../styles/math.css';
+import '../../styles/problem.css';
+
+interface Props {
+  problem: ProblemDocument;
+  locale: Locale;
+  fixture?: boolean;
+}
+
+const { problem, locale, fixture = false } = Astro.props;
+validateProblemDocument(problem);
+
+const messages = getMessages(locale);
+const primaryAppearance = getPrimaryAppearance(problem);
+const secondaryAppearances = getSecondaryAppearances(problem);
+const statement = await renderProblemMarkdown(problem.statement.markdown, problem.assets, `${problem.id}: statement`);
+const renderedSolutions = await Promise.all(
+  problem.solutions.map(async (solution, index) => ({
+    ...solution,
+    label: `${messages.problem.solution} ${index + 1}`,
+    rendered: await renderProblemMarkdown(solution.markdown, problem.assets, `${problem.id}: ${solution.id}`),
+  })),
+);
+const domainName = messages.problem.domains[problem.domain];
+const topics = (problem.topics ?? []).slice(0, 2);
+---
+
+<div class="content-shell content-shell--problem">
+  <a class="problem-back" href={getRelativeLocaleUrl(locale, 'problems')}>
+    <span aria-hidden="true">←</span>
+    {messages.problem.backToProblems}
+  </a>
+
+  {fixture && <p class="fixture-note">{messages.problem.fixtureNote}</p>}
+
+  <article class="problem-main">
+    <header class="problem-heading">
+      <h1 class="problem-title">{formatAppearance(primaryAppearance)}</h1>
+      <p class="problem-domain">
+        <span class="domain-mark" aria-hidden="true">{problem.domain}</span>
+        <span class="problem-domain__separator" aria-hidden="true">·</span>
+        <span>{domainName}</span>
+      </p>
+      {topics.length > 0 && <p class="problem-topics">{topics.join(' · ')}</p>}
+    </header>
+
+    <section class="problem-prose problem-statement" lang={problem.statement.language} aria-label={messages.problem.statement} set:html={statement.html} />
+
+    {renderedSolutions.length > 0 && (
+      <section class="problem-solutions" aria-labelledby="solutions-title">
+        <h2 id="solutions-title">{messages.problem.solutions}</h2>
+        <div class="solution-list">
+          {renderedSolutions.map((solution) => (
+            <details class="solution-disclosure">
+              <summary>{solution.label}</summary>
+              <div class="problem-prose solution-body" lang={solution.language} set:html={solution.rendered.html} />
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <footer class="problem-source" aria-labelledby="source-title">
+      <h2 id="source-title">{messages.problem.source}</h2>
+      <p class="problem-source__primary">{formatAppearance(primaryAppearance)}</p>
+      {secondaryAppearances.length > 0 && (
+        <div class="problem-source__secondary">
+          <p>{messages.problem.alsoAppeared}</p>
+          <ul>
+            {secondaryAppearances.map((appearance) => <li>{formatAppearance(appearance)}</li>)}
+          </ul>
+        </div>
+      )}
+      <p class="problem-source__note">{messages.problem.mathnetFutureNote}</p>
+    </footer>
+  </article>
+</div>

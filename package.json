@@ -1,23 +1,39 @@
 {
   "name": "bw26",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
+    "content:check": "tsx scripts/content-check.ts",
     "build": "astro build",
-    "verify": "astro check && astro build",
+    "verify": "astro check && npm run content:check && astro build",
     "preview": "astro preview"
   },
   "engines": {
     "node": ">=22.12.0 <23 || >=24 <25 || >=26 <27"
   },
   "dependencies": {
-    "astro": "7.3.3"
+    "@fontsource/atkinson-hyperlegible-next": "5.3.0",
+    "@fontsource/stix-two-text": "5.3.0",
+    "astro": "7.3.3",
+    "katex": "0.16.47",
+    "rehype-katex": "7.0.1",
+    "rehype-sanitize": "6.0.0",
+    "rehype-stringify": "10.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-math": "6.0.0",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "unified": "11.0.5",
+    "unist-util-visit": "5.1.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
+    "@types/mdast": "4.0.4",
+    "@types/node": "22.19.20",
+    "tsx": "4.23.15",
     "typescript": "6.0.3"
   }
 }

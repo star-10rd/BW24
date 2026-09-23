@@ -1,0 +1,30 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+---
+
+<div class="content-shell content-shell--reading">
+  <header class="page-heading">
+    <h1>{messages.sections.problems.title}</h1>
+    <p class="lede">{messages.sections.problems.description}</p>
+  </header>
+
+  <section class="problem-preview" aria-labelledby="problem-preview-title">
+    <div>
+      <p class="kicker">P2</p>
+      <h2 id="problem-preview-title">{messages.problem.previewTitle}</h2>
+      <p>{messages.problem.previewDescription}</p>
+    </div>
+    <a class="text-action" href={getRelativeLocaleUrl(locale, 'problems/demo')}>
+      {messages.problem.previewAction}
+      <span aria-hidden="true">→</span>
+    </a>
+  </section>
+</div>

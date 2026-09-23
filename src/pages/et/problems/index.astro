@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getMessages } from '../../../i18n';
-import SectionView from '../../../views/SectionView.astro';
+import ProblemsView from '../../../views/ProblemsView.astro';
 
 const locale = 'et' as const;
 const messages = getMessages(locale);
@@ -9,5 +9,5 @@ const section = messages.sections.problems;
 ---
 
 <BaseLayout locale={locale} current="problems" path="problems" title={section.title} description={messages.meta.description}>
-  <SectionView {...section} />
+  <ProblemsView locale={locale} />
 </BaseLayout>

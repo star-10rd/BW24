@@ -25,16 +25,16 @@ export const en: Messages = {
     title: 'Today',
     intro: 'A focused place for the team’s problems, training, and materials.',
     problemsLabel: 'Problems',
-    problemsText: 'The Baltic Way problem library will connect here.',
+    problemsText: 'A static Baltic Way archive will grow from the problem renderer established here.',
     trainingLabel: 'Training',
-    trainingText: 'Curated sets and team sessions will live here.',
+    trainingText: 'Curated sets and team sessions will build on the same canonical problems.',
     materialsLabel: 'Materials',
     materialsText: 'Handouts and topic resources will stay close to the problems they support.',
   },
   sections: {
     problems: {
       title: 'Problems',
-      description: 'The Baltic Way problem library is the next major system to be built.',
+      description: 'The problem experience is being established before the full Baltic Way archive is imported.',
     },
     training: {
       title: 'Training',
@@ -43,6 +43,25 @@ export const en: Messages = {
     materials: {
       title: 'Materials',
       description: 'Training material will be structured by topic and connected to relevant problems.',
+    },
+  },
+  problem: {
+    backToProblems: 'Problems',
+    fixtureNote: 'Renderer fixture — this is synthetic test content, not an archived Baltic Way problem.',
+    statement: 'Problem statement',
+    solutions: 'Solutions',
+    solution: 'Solution',
+    source: 'Source',
+    alsoAppeared: 'Also appeared as',
+    mathnetFutureNote: 'Canonical source attribution and MathNet record references are added during corpus ingestion.',
+    previewTitle: 'Problem renderer',
+    previewDescription: 'A deliberately demanding fixture for mathematics, figures, solutions, source appearances, dark mode, and responsive reading.',
+    previewAction: 'Open fixture',
+    domains: {
+      A: 'Algebra',
+      N: 'Number Theory',
+      C: 'Combinatorics',
+      G: 'Geometry',
     },
   },
   notFound: {
