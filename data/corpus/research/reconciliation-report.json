@@ -1,0 +1,303 @@
+{
+  "schema": "bw26-final-reconciliation-report",
+  "finals": 719,
+  "versions": 719,
+  "mathnetRows": 853,
+  "same": 520,
+  "related": 25,
+  "none": 174,
+  "open": 0,
+  "canonicalSameVersionSourceLinks": 523,
+  "shortlistHandoffRows": 521,
+  "years": [
+    {
+      "year": 1990,
+      "finals": 19,
+      "same": 19,
+      "related": 0,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 1991,
+      "finals": 20,
+      "same": 16,
+      "related": 0,
+      "none": 4,
+      "open": 0
+    },
+    {
+      "year": 1992,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 1993,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 1994,
+      "finals": 20,
+      "same": 20,
+      "related": 0,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 1995,
+      "finals": 20,
+      "same": 18,
+      "related": 0,
+      "none": 2,
+      "open": 0
+    },
+    {
+      "year": 1996,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 1997,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 1998,
+      "finals": 20,
+      "same": 15,
+      "related": 0,
+      "none": 5,
+      "open": 0
+    },
+    {
+      "year": 1999,
+      "finals": 20,
+      "same": 20,
+      "related": 0,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 2000,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2001,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2002,
+      "finals": 20,
+      "same": 20,
+      "related": 0,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 2003,
+      "finals": 20,
+      "same": 18,
+      "related": 0,
+      "none": 2,
+      "open": 0
+    },
+    {
+      "year": 2004,
+      "finals": 20,
+      "same": 17,
+      "related": 0,
+      "none": 3,
+      "open": 0
+    },
+    {
+      "year": 2005,
+      "finals": 20,
+      "same": 19,
+      "related": 0,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2006,
+      "finals": 20,
+      "same": 18,
+      "related": 0,
+      "none": 2,
+      "open": 0
+    },
+    {
+      "year": 2007,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    },
+    {
+      "year": 2008,
+      "finals": 20,
+      "same": 18,
+      "related": 0,
+      "none": 2,
+      "open": 0
+    },
+    {
+      "year": 2009,
+      "finals": 20,
+      "same": 20,
+      "related": 0,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 2010,
+      "finals": 20,
+      "same": 18,
+      "related": 0,
+      "none": 2,
+      "open": 0
+    },
+    {
+      "year": 2011,
+      "finals": 20,
+      "same": 18,
+      "related": 2,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 2012,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    },
+    {
+      "year": 2013,
+      "finals": 20,
+      "same": 17,
+      "related": 2,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2014,
+      "finals": 20,
+      "same": 18,
+      "related": 1,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2015,
+      "finals": 20,
+      "same": 3,
+      "related": 1,
+      "none": 16,
+      "open": 0
+    },
+    {
+      "year": 2016,
+      "finals": 20,
+      "same": 18,
+      "related": 1,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2017,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    },
+    {
+      "year": 2018,
+      "finals": 20,
+      "same": 16,
+      "related": 3,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2019,
+      "finals": 20,
+      "same": 13,
+      "related": 6,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2020,
+      "finals": 20,
+      "same": 16,
+      "related": 1,
+      "none": 3,
+      "open": 0
+    },
+    {
+      "year": 2021,
+      "finals": 20,
+      "same": 15,
+      "related": 5,
+      "none": 0,
+      "open": 0
+    },
+    {
+      "year": 2022,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    },
+    {
+      "year": 2023,
+      "finals": 20,
+      "same": 16,
+      "related": 3,
+      "none": 1,
+      "open": 0
+    },
+    {
+      "year": 2024,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    },
+    {
+      "year": 2025,
+      "finals": 20,
+      "same": 0,
+      "related": 0,
+      "none": 20,
+      "open": 0
+    }
+  ],
+  "semanticAudit": "semantic-audit-v2"
+}

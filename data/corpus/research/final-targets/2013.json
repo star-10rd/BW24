@@ -1,0 +1,880 @@
+[
+  {
+    "appearanceId": "bw:2013:01",
+    "versionId": "v:bw:2013:01",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Assume that $n$ numbers are to be chosen from the table\n\n$$\n\\begin{array}{cccc}\n0 & 1 & \\cdots & n-1 \\\\\nn & n+1 & \\cdots & 2 n-1 \\\\\n\\vdots & \\vdots & \\ddots & \\vdots \\\\\n(n-1) n & (n-1) n+1 & \\cdots & n^{2}-1\n\\end{array}\n$$\n\nwith no two of them from the same row or the same column. Find the maximal value of the product of these $n$ numbers.\n",
+    "rawSha256": "a97c699a4c6edc9b8d988c7b738da5abe123574e5d1f7777da78083faa9e95df",
+    "matchNormalizedSha256": "ddb34582eddc3121ddd51b243c1dcd8ece415f2b70bc04882bb4d4269d11e590",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:02",
+    "versionId": "v:bw:2013:02",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $k$ and $n$ be positive integers and let $x_{1}, x_{2}, \\ldots, x_{k}, y_{1}, y_{2}, \\ldots, y_{n}$ be distinct integers. A polynomial $P$ with integer coefficients satisfies\n\n$$\nP\\left(x_{1}\\right)=P\\left(x_{2}\\right)=\\ldots=P\\left(x_{k}\\right)=54\n$$\n\nand\n\n$$\nP\\left(y_{1}\\right)=P\\left(y_{2}\\right)=\\ldots=P\\left(y_{n}\\right)=2013 .\n$$\n\nDetermine the maximal value of $k n$.\n",
+    "rawSha256": "eaaacd7ea8ff154065701a70367c11d3a7ee25ee16aca020ec11efeb86700671",
+    "matchNormalizedSha256": "149d89d04541a2cc5b495b45f5f32f8681d9d1a96dc59d9b0e514697a85988d7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:03",
+    "versionId": "v:bw:2013:03",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{R}$ denote the set of real numbers. Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ such that\n\n$$\nf(x f(y)+y)+f(-f(x))=f(y f(x)-y)+y \\quad \\text { for all } x, y \\in \\mathbb{R}\n$$\n",
+    "rawSha256": "da44c37ec351d27446ad22f51850bd142c9e0d8360b370eddf0c872e03a06368",
+    "matchNormalizedSha256": "a7212e5c6fd90e3e75abb59ad9302a7d78081834a3c1098dbd102e5bfa2b6d8a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:04",
+    "versionId": "v:bw:2013:04",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that the following inequality holds for all positive real numbers $x, y, z$ :\n\n$$\n\\frac{x^{3}}{y^{2}+z^{2}}+\\frac{y^{3}}{z^{2}+x^{2}}+\\frac{z^{3}}{x^{2}+y^{2}} \\geq \\frac{x+y+z}{2}\n$$\n",
+    "rawSha256": "567b09ff83c6b44d47966058f650fd015980cfdf2c7bc22c0beb3e50a050c6d1",
+    "matchNormalizedSha256": "b56636dbf9ff47905113a2a6106942a6ac202326cea4b72d94ecb604b1c01ba7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:05",
+    "versionId": "v:bw:2013:05",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Numbers 0 and 2013 are written at two opposite vertices of a cube. Some real numbers are to be written at the remaining 6 vertices of the cube. On each edge of the cube the difference between the numbers at its endpoints is written. When is the sum of squares of the numbers written on the edges minimal?\n",
+    "rawSha256": "15d2ce03855225767c683c2c5ecf3eb266f87f51ba6329a927c17674d904f09a",
+    "matchNormalizedSha256": "6530285a07f12b74d5b50d1730f2a7733f5a7666dec42916f9aac7e798c268e2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "5",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        5,
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:06",
+    "versionId": "v:bw:2013:06",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Santa Claus has at least $n$ gifts for $n$ children. For $i \\in\\{1,2, \\ldots, n\\}$, the $i$-th child considers $x_{i}>0$ of these items to be desirable. Assume that\n\n$$\n\\frac{1}{x_{1}}+\\ldots+\\frac{1}{x_{n}} \\leq 1\n$$\n\nProve that Santa Claus can give each child a gift that this child likes.\n",
+    "rawSha256": "3fd0470e87fae55040ded4b2d75fc25c63a69984748df2812994f6507b2ec198",
+    "matchNormalizedSha256": "c14cf8633cb7a990a4887a7c6eb089f180828347dc7b6816fa3ba3850eece19f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:07",
+    "versionId": "v:bw:2013:07",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A positive integer is written on a blackboard. Players $A$ and $B$ play the following game: in each move one has to choose a divisor $m$ of the number $n$ written on the blackboard for which $1<m<n$ and replace $n$ with $n-m$. Player $A$ makes the first move, players move alternately. The player who can't make a move loses the game. For which starting numbers is there a winning strategy for player $B$ ?\n",
+    "rawSha256": "b048d374c61bf2e649ec96f19aede81fd799ff4fe7cdd19a35f2f2a20697db52",
+    "matchNormalizedSha256": "fbbd52373aad99e49c75f6bc69980b34d2525f3deba89b9b415f0e98c38f7766",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:08",
+    "versionId": "v:bw:2013:08",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are $n$ rooms in a sauna, each has unlimited capacity. No room may be attended by a female and a male simultaneously. Moreover, males want to share a room only with males that they don't know and females want to share a room only with females that they know. Find the biggest number $k$ such that any $k$ couples can visit the sauna at the same time, given that two males know each other if and only if their wives know each other.\n",
+    "rawSha256": "41032b5eacb2049e3049b7a83dd32f5e7abb04b35585f6d8557de649ce430bfb",
+    "matchNormalizedSha256": "cd9bf94082901c0577410016281325874cea7c20f296954d027289495561a926",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:09",
+    "versionId": "v:bw:2013:09",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a country there are 2014 airports, no three of them lying on a line. Two airports are connected by a direct flight if and only if the line passing through them divides the country in two parts, each with 1006 airports in it. Show that there are no two airports such that one can travel from the first to the second, visiting each of the 2014 airports exactly once.\n",
+    "rawSha256": "9daa552b37ed37d734c31abbe11535d2e9f5c285079ddc78d49770feab66e85c",
+    "matchNormalizedSha256": "1b012ed353e2901ecb25c1b7f512cc9d1a1a471c1798ce9200449a4752aa7dab",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:10",
+    "versionId": "v:bw:2013:10",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A white equilateral triangle is split into $n^{2}$ equal smaller triangles by lines that are parallel to the sides of the triangle. Denote a line of triangles to be all triangles that are placed between two adjacent parallel lines that form the grid. In particular, a triangle in a corner is also considered to be a line of triangles.\nWe are to paint all triangles black by a sequence of operations of the following kind: choose a line of triangles that contains at least one white triangle and paint this line black (a possible situation with $n=6$ after four operations is shown in Figure 1; arrows show possible next operations in this situation). \n\n![Figure 1](figure:1)\n\nFind the smallest and largest possible number of operations.\n",
+    "rawSha256": "eadc25a50d57f15936e99f65c089a95ed3cc650aa1e21d6216ad6e29d9e7ea09",
+    "matchNormalizedSha256": "d93aba5bfcfaef4a142d324e4aef5ef3a2c80dbdcf87470b5c3cb52cdda60104",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2013:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:2013:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Example n=6 state and arrows for possible next operations."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:11",
+    "versionId": "v:bw:2013:11",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In an acute triangle $A B C$ with $A C>A B$, let $D$ be the projection of $A$ on $B C$, and let $E$ and $F$ be the projections of $D$ on $A B$ and $A C$, respectively. Let $G$ be the intersection point of the lines $A D$ and $E F$. Let $H$ be the second intersection point of the line $A D$ and the circumcircle of triangle $A B C$. Prove that\n\n$$\nA G \\cdot A H=A D^{2}\n$$\n",
+    "rawSha256": "42d36395e8a24b4bea608c02b8944c1eca276df5855054ea4ec83b8f0204eb81",
+    "matchNormalizedSha256": "bc58449719646ee76047f1ad9caa2ad1f07d204a2b464a9c3f7fc79800200bd2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "11",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        12,
+        13,
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:12",
+    "versionId": "v:bw:2013:12",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A trapezoid $A B C D$ with bases $A B$ and $C D$ is such that the circumcircle of the triangle $B C D$ intersects the line $A D$ in a point $E$, distinct from $A$ and $D$. Prove that the circumcircle of the triangle $A B E$ is tangent to the line $B C$.\n",
+    "rawSha256": "85498c627e84dd9cc78e19db6175dfbecfb6f7a7f549adb3235682c9fab6bbe6",
+    "matchNormalizedSha256": "9677a663934aa98a332d4b3c1d77db8e878dc7a43a90013fc9dc1ffa1332d56c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "12",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        15,
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:13",
+    "versionId": "v:bw:2013:13",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "All faces of a tetrahedron are right-angled triangles. It is known that three of its edges have the same length $s$. Find the volume of the tetrahedron.\n",
+    "rawSha256": "05845706e4552c11059fc28e0499bb13e30b0ea2e3ab70c21f3b3cb99a73e6e1",
+    "matchNormalizedSha256": "0c50818a0d51b6464a1253681148d4d0934247e445ac2799372c93b8c125e9bd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:14",
+    "versionId": "v:bw:2013:14",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Circles $\\alpha$ and $\\beta$ of the same radius intersect in two points, one of which is $P$. Denote by $A$ and $B$, respectively, the points diametrically opposite to $P$ on each of $\\alpha$ and $\\beta$. A third circle of the same radius passes through $P$ and intersects $\\alpha$ and $\\beta$ in the points $X$ and $Y$, respectively.\nShow that the line $X Y$ is parallel to the line $A B$.\n",
+    "rawSha256": "3dc2352fb6eb83bb61eaca38e98e3cccdfee40875315b74f1ab1bc4c24d858f8",
+    "matchNormalizedSha256": "c79a76992aee61045ae1d27537b7e9f5696ea01c05ae3e12c16733c222ec656b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:15",
+    "versionId": "v:bw:2013:15",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Four circles in a plane have a common center. Their radii form a strictly increasing arithmetic progression. Prove that there is no square with each vertex lying on a different circle.\n",
+    "rawSha256": "34fabc5288e6dd974d268dfbdd0f19ac656e7b86260b20619d51eab98fdfcc2d",
+    "matchNormalizedSha256": "b4164b51a5fa48bfecebc0819c805c3b88a0f40f26f14bddf010f3fee7e7c35c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:16",
+    "versionId": "v:bw:2013:16",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We call a positive integer $n$ delightful if there exists an integer $k, 1<k<n$, such that\n\n$$\n1+2+\\cdots+(k-1)=(k+1)+(k+2)+\\cdots+n\n$$\n\nDoes there exist a delightful number $N$ satisfying the inequalities\n\n$$\n2013^{2013}<\\frac{N}{2013^{2013}}<2013^{2013}+4 ?\n$$\n",
+    "rawSha256": "6fb56416a536b07476660b6535fccf34772bddfb0e3a1727f01cc516a204a3e1",
+    "matchNormalizedSha256": "6c36b942f25368ccffcb02a1846c94ad67c6da4ebfee206887e5c83ee77ac23d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:17",
+    "versionId": "v:bw:2013:17",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $c$ and $n>c$ be positive integers. Mary's teacher writes $n$ positive integers on a blackboard. Is it true that for all $n$ and $c$ Mary can always label the numbers written by the teacher by $a_{1}, \\ldots, a_{n}$ in such an order that the cyclic product $\\left(a_{1}-a_{2}\\right) \\cdot\\left(a_{2}-a_{3}\\right) \\cdot \\ldots \\cdot\\left(a_{n-1}-a_{n}\\right) \\cdot\\left(a_{n}-a_{1}\\right)$ would be congruent to either 0 or $c$ modulo $n$ ?\n",
+    "rawSha256": "af39f8016c4f473cf7ebbe30aecc40a28728d7e64e37d6ff5bc48eea5a2ef148",
+    "matchNormalizedSha256": "219b5e7d4abff797386b541ad13349e2eb041274d08d75e1e8b1c304eb151102",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "17",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        21,
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:18",
+    "versionId": "v:bw:2013:18",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs $(x, y)$ of integers such that $y^{3}-1=x^{4}+x^{2}$.\n",
+    "rawSha256": "6814d29aa85b62120613f43bb7a355aac94856c9e61b49134bfa34d01fd73aaa",
+    "matchNormalizedSha256": "97ce1deec89197abf28dce95b603866715c0b5c6a183692f182f84a5839352f6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        23
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:19",
+    "versionId": "v:bw:2013:19",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}$ be a positive integer and $a_{n}=5 a_{n-1}+4$, for all $n \\geq 1$. Can $a_{0}$ be chosen so that $a_{54}$ is a multiple of 2013?\n",
+    "rawSha256": "d70509f2b7da6c7e19096336924025eebaeebe4ba9c759bb9ca78d8c35349cdd",
+    "matchNormalizedSha256": "722a424bc65a04c3599a983728691d58a077785df2c010116345eb04b35dfffd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "19",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        24,
+        25
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2013:20",
+    "versionId": "v:bw:2013:20",
+    "officialSource": {
+      "sourceId": "bw-official:2013:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "612ee11358fa1fca6f510e677b8b5f2c9e4bdb58af57492da8c5f3a6c84d58ec",
+      "sourceBytes": 1204326,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all polynomials $f$ with non-negative integer coefficients such that for all primes $p$ and positive integers $n$ there exist a prime $q$ and a positive integer $m$ such that $f\\left(p^{n}\\right)=q^{m}$.\n",
+    "rawSha256": "c779b5c86542301285c06d8c65ebb3d9b50743e292f860a30a6c8a20c12bcf4c",
+    "matchNormalizedSha256": "d6a49b0607ff562c961ef91c2526db0021e0a6370a8ea801b75761d51eab8acf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw13sol.jsonl",
+      "fileSha256": "9c11f0eec2071332be35b78067f0cbc56a04350d516aa4ff6ccad53a1d05f868",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        26
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2013:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

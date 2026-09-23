@@ -1,0 +1,825 @@
+[
+  {
+    "appearanceId": "bw:2002:01",
+    "versionId": "v:bw:2002:01",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Solve the system of equations\n\n$$\n\\left\\{\\begin{array}{l}\na^{3}+3 a b^{2}+3 a c^{2}-6 a b c=1 \\\\\nb^{3}+3 b a^{2}+3 b c^{2}-6 a b c=1 \\\\\nc^{3}+3 c a^{2}+3 c b^{2}-6 a b c=1\n\\end{array}\\right.\n$$\n\nin real numbers.\n",
+    "rawSha256": "23a92bf946c6f5921b3319c507c5d54e9bbe5f6a2cc60f1bb9fbfdf9f0b9f27c",
+    "matchNormalizedSha256": "441a0b8d0a8dd79cd6412204608b5451ecd1fd4b161b1a42df1adda94381480b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:02",
+    "versionId": "v:bw:2002:02",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c, d$ be real numbers such that\n\n$$\n\\begin{aligned}\na+b+c+d & =-2 \\\\\na b+a c+a d+b c+b d+c d & =0\n\\end{aligned}\n$$\n\nProve that at least one of the numbers $a, b, c, d$ is not greater than -1 .\n",
+    "rawSha256": "f895242f398f4b67b84e0311921505065dbf7b24c232976f4ae4f21065de320b",
+    "matchNormalizedSha256": "6a78d6ea84b8b966cdf1c8c228bb321409636065a3a3a1501754dd2e22a19e01",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:03",
+    "versionId": "v:bw:2002:03",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all sequences $a_{0} \\leqslant a_{1} \\leqslant a_{2} \\leqslant \\ldots$ of real numbers such that\n\n$$\na_{m^{2}+n^{2}}=a_{m}^{2}+a_{n}^{2}\n$$\n\nfor all integers $m, n \\geqslant 0$.\n",
+    "rawSha256": "f24bc6a40e586f5f7d5310949f1bc254aa128e4b00c8d99120bc3f8e6b2fa81c",
+    "matchNormalizedSha256": "ca81441215f77b0dc93269c46f96da32a51497fac1be546fe2498e2fb04ad40f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:04",
+    "versionId": "v:bw:2002:04",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Prove that\n\n$$\n\\sum_{i=1}^{n} x_{i}\\left(1-x_{i}\\right)^{2} \\leqslant\\left(1-\\frac{1}{n}\\right)^{2}\n$$\n\nfor all nonnegative real numbers $x_{1}, x_{2}, \\ldots, x_{n}$ such that $x_{1}+x_{2}+\\cdots+x_{n}=1$.\n",
+    "rawSha256": "4d67543c424ed6107ae0d78bffbe969c4d3df0dc2a8994e02ec82eefa8c2ae32",
+    "matchNormalizedSha256": "30bfe535208f468394813b9f8fd07a225cc874f2409f39bec4e4778855156e4d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:05",
+    "versionId": "v:bw:2002:05",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs $(a, b)$ of positive rational numbers such that\n\n$$\n\\sqrt{a}+\\sqrt{b}=\\sqrt{2+\\sqrt{3}} .\n$$\n",
+    "rawSha256": "8aa52eb537bda501c76834db5ccd1501399ae7344e7a19b707be2e57f3bc0a97",
+    "matchNormalizedSha256": "647cd2692ed4fa3656eb70c7d279d86e128e4060f319cd095fb735ec9f1736aa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:06",
+    "versionId": "v:bw:2002:06",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The following solitaire game is played on an $m \\times n$ rectangular board, $m, n \\geqslant 2$, divided into unit squares. First, a rook is placed on some square. At each move, the rook can be moved an arbitrary number of squares horizontally or vertically, with the extra condition that each move has to be made in the $90^{\\circ}$ clockwise direction compared to the previous one (e.g. after a move to the left, the next one has to be done upwards, the next one to the right etc). For which values of $m$ and $n$ is it possible that the rook visits every square of the board exactly once and returns to the first square? (The rook is considered to visit only those squares it stops on, and not the ones it steps over.)\n",
+    "rawSha256": "81715f35a8a86ef743e5872b7121087a866a1dfced3f2602ff4b16d2e34a45c6",
+    "matchNormalizedSha256": "b40d8abb3761db16bd622fffb41e8567df2d8a317b52debf8ffceed3a3375993",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:07",
+    "versionId": "v:bw:2002:07",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We draw $n$ convex quadrilaterals in the plane. They divide the plane into regions (one of the regions is infinite). Determine the maximal possible number of these regions.\n",
+    "rawSha256": "55fa537e7e44cccbee52bb7eedf46e21847092e0740e8eeef22e39f4d7da629f",
+    "matchNormalizedSha256": "eb7ca9f3ab5c7bddcf96e38ecd73425b4a8b491ca6963a3c576d29ff4f8af015",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:08",
+    "versionId": "v:bw:2002:08",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be a set of $n \\geqslant 3$ points in the plane, no three of which are on a line. How many possibilities are there to choose a set $T$ of $\\left(\\begin{array}{c}n-1 \\\\ 2\\end{array}\\right)$ triangles, whose vertices are all in $P$, such that each triangle in $T$ has a side that is not a side of any other triangle in $T$ ?\n",
+    "rawSha256": "3348f2f9ad54c9595329187e0d2fa64ab646a139528846434e6eae9a63c8fa43",
+    "matchNormalizedSha256": "d92c2ca74464a204d1e7e766c1544713ebceb916c3932d8c1648a670232243f0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:09",
+    "versionId": "v:bw:2002:09",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two magicians show the following trick. The first magician goes out of the room. The second magician takes a deck of 100 cards labelled by numbers $1,2, \\ldots, 100$ and asks three spectators to choose in turn one card each. The second magician sees what card each spectator has taken. Then he adds one more card from the rest of the deck. Spectators shuffle these 4 cards, call the first magician and give him these 4 cards. The first magician looks at the 4 cards and \"guesses\" what card was chosen by the first spectator, what card by the second and what card by the third. Prove that the magicians can perform this trick.\n",
+    "rawSha256": "478333b7d838a9fe68033f9894229e0edf6411e31a2193dd175c23fe701d1d83",
+    "matchNormalizedSha256": "82a15e55391aa38d58bf16b60dfd80dae0acc41a921c70b78f46bfcaa71ccfda",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:10",
+    "versionId": "v:bw:2002:10",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $N$ be a positive integer. Two persons play the following game. The first player writes a list of positive integers not greater than 25 , not necessarily different, such that their sum is at least 200 . The second player wins if he can select some of these numbers so that their sum $S$ satisfies the condition $200-N \\leqslant S \\leqslant 200+N$. What is the smallest value of $N$ for which the second player has a winning strategy?\n",
+    "rawSha256": "17c9271ed37ab320b615ba63d55caa5722edd519336551974d973845646fa9b1",
+    "matchNormalizedSha256": "d7bce87b69949d21d11f534bcd1504b4d61f7712ae8580773e881e5719a23cc9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:11",
+    "versionId": "v:bw:2002:11",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Consider $n$ points in the plane such that no three of them are collinear and no two of the distances between them are equal. One by one, we connect each point to the two points nearest to it by line segments (if there are already other line segments drawn to this point, we do not erase these). Prove that there is no point from which line segments will be drawn to more than 11 points.\n",
+    "rawSha256": "a45d8277e38b82e93bd7967c0aff0bd12325ce83c178db7e54d3c370d4ab7c17",
+    "matchNormalizedSha256": "d97a43125691324ad20f46174e206cb6d0a739ea67bceaa3a802fb936b81c43d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:12",
+    "versionId": "v:bw:2002:12",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A set $S$ of four distinct points is given in the plane. It is known that for any point $X \\in S$ the remaining points can be denoted by $Y, Z$ and $W$ so that\n\n$$\n|X Y|=|X Z|+|X W| .\n$$\n\nProve that all the four points lie on a line.\n",
+    "rawSha256": "2d04c233acec9114e5abb3485690f6243d92b3e27f68deecf58e7cfa111cab2a",
+    "matchNormalizedSha256": "0ea0343b4abc1f43218469a299bca5aa4ca35a06b292a5008c3ecc3eb568985a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:13",
+    "versionId": "v:bw:2002:13",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with $\\angle B A C>\\angle B C A$, and let $D$ be a point on side $A C$ such that $|A B|=|B D|$. Furthermore, let $F$ be a point on the circumcircle of triangle $A B C$ such that line $F D$ is perpendicular to side $B C$ and points $F, B$ lie on different sides of line $A C$. Prove that line $F B$ is perpendicular to side $A C$.\n",
+    "rawSha256": "f7b714ff0529ac5dacfd9efdeff186428e3cf3a30d81285b7ed9635f3adcb174",
+    "matchNormalizedSha256": "43203ad1eaa0bda3275ce84cbbb72347b0d557fbb327fb50c930f6f3ce3b343c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:14",
+    "versionId": "v:bw:2002:14",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $L, M$ and $N$ be points on sides $A C, A B$ and $B C$ of triangle $A B C$, respectively, such that $B L$ is the bisector of angle $A B C$ and segments $A N, B L$ and $C M$ have a common point. Prove that if $\\angle A L B=\\angle M N B$ then $\\angle L N M=90^{\\circ}$.\n",
+    "rawSha256": "6d2c5915d470b995f7c950bf133569d60c97461d88090a6a037c7e23e299383a",
+    "matchNormalizedSha256": "de24272fc773e788078f27a08cbba09d3b94ce18b3e616873756cda3ab873e1f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:15",
+    "versionId": "v:bw:2002:15",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A spider and a fly are sitting on a cube. The fly wants to maximize the shortest path to the spider along the surface of the cube. Is it necessarily best for the fly to be at the point opposite to the spider? (\"Opposite\" means \"symmetric with respect to the center of the cube\".)\n",
+    "rawSha256": "6eba5d835daf001f4290dfd81b35e81037a3fd39aa652f478d2d126df0d201e8",
+    "matchNormalizedSha256": "4d93cffe87c76ae0d9b23dc8af35b7d54168da2054d28db5fe9594614b207230",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:16",
+    "versionId": "v:bw:2002:16",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all nonnegative integers $m$ such that\n\n$$\na_{m}=\\left(2^{2 m+1}\\right)^{2}+1\n$$\n\nis divisible by at most two different primes.\n",
+    "rawSha256": "cc5ba07d79c0baaee6350c31634a1e85073ab0eba5f580d043d0b59a6d019baf",
+    "matchNormalizedSha256": "6518cc9dab01cce7833a038eeea1524c4f0da9ac08fb14808a3e3d6ae2af15a7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:17",
+    "versionId": "v:bw:2002:17",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that the sequence\n\n$$\n\\left(\\begin{array}{l}\n2002 \\\\\n2002\n\\end{array}\\right),\\left(\\begin{array}{c}\n2003 \\\\\n2002\n\\end{array}\\right),\\left(\\begin{array}{l}\n2004 \\\\\n2002\n\\end{array}\\right), \\ldots\n$$\n\nconsidered modulo 2002, is periodic.\n",
+    "rawSha256": "237791ce122527fcb1082571a3a6f8c1d2c07509ead59d0898bbb56800667c50",
+    "matchNormalizedSha256": "37d5fc526fa3534b82f6cfa9f1efc63063fc8301d682efcda25edcc6fc9ae8e2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:18",
+    "versionId": "v:bw:2002:18",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all integers $n>1$ such that any prime divisor of $n^{6}-1$ is a divisor of $\\left(n^{3}-1\\right)\\left(n^{2}-1\\right)$.\n",
+    "rawSha256": "f4bd7c7e841977fac00776e0fb372a9c5d87c212ccad0f36abae527cf6cddf04",
+    "matchNormalizedSha256": "6636787bc53cc9d0f4497ea4d66d6d1fcf796e3e54d05d3a160968a5c454072d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:19",
+    "versionId": "v:bw:2002:19",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Prove that the equation\n\n$$\nx+y+\\frac{1}{x}+\\frac{1}{y}=3 n\n$$\n\ndoes not have solutions in positive rational numbers.\n",
+    "rawSha256": "d5f6c5a8d916c62c2e6569f38e6ceecd694a93eff40d4022b6ed7835c2a359af",
+    "matchNormalizedSha256": "d804748f874fc8321994b68721a2822b87d527e3ec5310ca7fb4d949055cea48",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw02sol.jsonl",
+      "fileSha256": "260e76098a85a9b8bafef42fd25b3584b1dec990be5ecaa5707126a447936cb2",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2002:20",
+    "versionId": "v:bw:2002:20",
+    "officialSource": {
+      "sourceId": "bw-official:2002:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "beb8d8de7a809d1c817acf9323f5e255db2908c2a7bcea4e663385a4100c593d",
+      "sourceBytes": 47810,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist an infinite non-constant arithmetic progression, each term of which is of the form $a^{b}$, where $a$ and $b$ are positive integers with $b \\geqslant 2$ ?\n",
+    "rawSha256": "690b5a0b13ccbf81585505d1b5d9ec67a069307e938d301828ce96d3417547a8",
+    "matchNormalizedSha256": "850587852a2ad803aa57646511e5f0f7bf3360db7815d4eef1392919c4da2acd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2002:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2002:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,845 @@
+[
+  {
+    "appearanceId": "bw:2004:01",
+    "versionId": "v:bw:2004:01",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a sequence $a_{1}, a_{2}, a_{3}, \\ldots$ of non-negative real numbers satisfying the conditions\n\n(1) $a_{n}+a_{2 n} \\geq 3 n$\n\n(2) $a_{n+1}+n \\leq 2 \\sqrt{a_{n} \\cdot(n+1)}$\n\nfor all indices $n=1,2 \\ldots$\n\n(a) Prove that the inequality $a_{n} \\geq n$ holds for every $n \\in \\mathbb{N}$.\n\n(b) Give an example of such a sequence.\n",
+    "rawSha256": "74f2f30fcf0a20730e2ed81de2f2568cd8c2df0be889e0e775272ceb79b083e7",
+    "matchNormalizedSha256": "05ef43c67172b77d5c23e2181bc2b82dc5209c3776dc74a20a1d4cd0cc32a100",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:02",
+    "versionId": "v:bw:2004:02",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P(x)$ be a polynomial with non-negative coefficients. Prove that if $P\\left(\\frac{1}{x}\\right) P(x) \\geq 1$ for $x=1$, then the same inequality holds for each positive $x$.\n",
+    "rawSha256": "0ae8a1bef6c28bbe3b3ba841db91940efc992ef96656b4704155ba91beb12e67",
+    "matchNormalizedSha256": "4e606e119f254b8f34d08ced4e8c7d3eeadbea2447f7ce3597ea83eedf7be29a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:03",
+    "versionId": "v:bw:2004:03",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p, q, r$ be positive real numbers and $n \\in \\mathbb{N}$. Show that if $p q r=1$, then\n\n$$\n\\frac{1}{p^{n}+q^{n}+1}+\\frac{1}{q^{n}+r^{n}+1}+\\frac{1}{r^{n}+p^{n}+1} \\leq 1\n$$\n",
+    "rawSha256": "677e444e7246e6e621622d40f503eaafc1e8b1cbed50a1055e78465a61091e39",
+    "matchNormalizedSha256": "bca1de77f67095f47ae2b61b7bec2d95080c4e02aa5ee4b3e33d4c320d582208",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:04",
+    "versionId": "v:bw:2004:04",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x_{1}, x_{2}, \\ldots, x_{n}$ be real numbers with arithmetic mean $X$. Prove that there is a positive integer $K$ such that the arithmetic mean of each of the lists $\\left\\{x_{1}, x_{2}, \\ldots, x_{K}\\right\\},\\left\\{x_{2}, x_{3}, \\ldots, x_{K}\\right\\}$, $\\ldots,\\left\\{x_{K-1}, x_{K}\\right\\},\\left\\{x_{K}\\right\\}$ is not greater than $X$.\n",
+    "rawSha256": "c512458e1212dd3fd1b6168fa1c1b2e27d9edc235808705fd63ea348d8aa6432",
+    "matchNormalizedSha256": "b5ff3cd4d7b0917003df91d5ac10c009ca56992db6267c0fbb4090218d1a6eed",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:05",
+    "versionId": "v:bw:2004:05",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine the range of the function $f$ defined for integers $k$ by\n\n$$\nf(k)=(k)_{3}+(2 k)_{5}+(3 k)_{7}-6 k\n$$\n\nwhere $(k)_{2 n+1}$ denotes the multiple of $2 n+1$ closest to $k$.\n",
+    "rawSha256": "6623fc9b6d650e245c211912a8cb271121581da7f4e98ec3822ae11ffd32501b",
+    "matchNormalizedSha256": "3bb21c8cfb173589ed12b86181ac2d8d32a333c643852c24e3a96c0354a17fd7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:06",
+    "versionId": "v:bw:2004:06",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A positive integer is written on each of the six faces of a cube. For each vertex of the cube we compute the product of the numbers on the three adjacent faces. The sum of these products is 1001. What is the sum of the six numbers on the faces?\n",
+    "rawSha256": "5a1a505e15ad5a9c9cd4eda1e9d949da072bb4e044ad52ef9e8dba70963fa39a",
+    "matchNormalizedSha256": "8965d35dd2f59a1a72f4b2396156dfa73c3defbffeee8970e07dd3ae7cfeb3be",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:07",
+    "versionId": "v:bw:2004:07",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all sets $X$ consisting of at least two positive integers such that for every pair $m, n \\in X$, where $n>m$, there exists $k \\in X$ such that $n=m k^{2}$.\n",
+    "rawSha256": "c5fded93d78f46f4064010c2aa8653f0a0e540dc1c7207c6a4caa8239424f8d2",
+    "matchNormalizedSha256": "e7b7683a822b05f36537ef650ac42aa06d987075f73c6d686b512a079960b0c6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2004:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:08",
+    "versionId": "v:bw:2004:08",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $f$ be a non-constant polynomial with integer coefficients. Prove that there is an integer $n$ such that $f(n)$ has at least 2004 distinct prime factors.\n",
+    "rawSha256": "e0664e6061ed0e7c6f1f2e9df8ba3708285fa1f7c8f4d93cae4527fa8ddc75ac",
+    "matchNormalizedSha256": "92685b879dc4282abf8db53921b81fabfdce72bb03d67002420d4f9280461b5d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:09",
+    "versionId": "v:bw:2004:09",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "$A$ set $S$ of $n-1$ natural numbers is given ( $n \\geq 3$ ). There exists at least two elements in this set whose difference is not divisible by $n$. Prove that it is possible to choose a non-empty subset of $S$ so that the sum of its elements is divisible by $n$.\n",
+    "rawSha256": "f9536630778f6c6c1e54852a6887dba6489a024b5c708e7ad063d706e261a79c",
+    "matchNormalizedSha256": "2aa0cb3959db52c306b8ec53a10c1e472cb2f071b256533a18230cef05feafa7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:10",
+    "versionId": "v:bw:2004:10",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is there an infinite sequence of prime numbers $p_{1}, p_{2}, \\ldots$ such that $\\left|p_{n+1}-2 p_{n}\\right|=1$ for each $n \\in \\mathbb{N}$ ?\n",
+    "rawSha256": "3ea807acac1f40347fff5bb743240b15b38efcd0416e38c14f0c80373fd6b7b8",
+    "matchNormalizedSha256": "2b9de5e3a60c7460e86247bbb0276f4e58cc11da12cd0a3d9df5e74d69d5cddd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2004:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:11",
+    "versionId": "v:bw:2004:11",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An $m \\times n$ table is given, in each cell of which a number +1 or -1 is written. It is known that initially exactly one -1 is in the table, all the other numbers being +1 . During a move, it is allowed to choose any cell containing -1 , replace this -1 by 0 , and simultaneously multiply all the numbers in the neighboring cells by -1 (we say that two cells are neighboring if they have a common side). Find all $(m, n)$ for which using such moves one can obtain the table containing zeroes only, regardless of the cell in which the initial -1 stands.\n",
+    "rawSha256": "63e6e0eaa23df79d28359fe2f4ce38974914135cbd721502e4c6f7a6e14edafc",
+    "matchNormalizedSha256": "3ed1c42a0442cda995ee247d33fe1d2be6c8621222491b42946ea2ef0095a016",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2004:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:12",
+    "versionId": "v:bw:2004:12",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are $2 n$ different numbers in a row. By one move we can interchange any two numbers or interchange any three numbers cyclically (choose $a, b, c$ and place a instead of $b, b$ instead of $c$ and $c$ instead of $a$ ). What is the minimal number of moves that is always sufficient to arrange the numbers in increasing order?\n",
+    "rawSha256": "bb48409e8aefd5236b4a693fe617f363a5c93c43a6ec07d28189346ca56ea1ab",
+    "matchNormalizedSha256": "f71a3fd51d4fae2cd93462a319b678a52211c84e1622cf3a9b35c0ed36c693db",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:13",
+    "versionId": "v:bw:2004:13",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The 25 member states of the European Union set up a committee with the following rules: (1) the committee should meet daily; (2) at each meeting, at least one member state should be represented; (3) at any two different meetings, a different set of member states should be represented; and (4) at the $n$ 'th meeting, for every $k<n$, the set of states represented should include at least one state that was represented at the k'th meeting. For how many days can the committee have its meetings?\n",
+    "rawSha256": "a032e4933f61aae14733ea4225e50ba32e69f33d026f3cd7f14dd95ea29ad197",
+    "matchNormalizedSha256": "e9919b7e7f45c4f9b66dcaebd8226e184f1c75d90d0f703a8c866d46d8a719bf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2004:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:14",
+    "versionId": "v:bw:2004:14",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We say that a pile is a set of four or more nuts. Two persons play the following game. They start with one pile of $n \\geq 4$ nuts. During a move a player takes one of the piles that they have and split it into two non-empty subsets (these sets are not necessarily piles, they can contain an arbitrary number of nuts). If the player cannot move, he loses. For which values of $n$ does the first player have a winning strategy?\n",
+    "rawSha256": "a8fbcce2157c73fe3f363ccdaf34266afc0bd3657667bed98b76d503733f882e",
+    "matchNormalizedSha256": "4e8e869bbb0cf24426777a5567465da9d3962cfb60ffaadce11e3d60234e6249",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2004:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:15",
+    "versionId": "v:bw:2004:15",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A circle is divided into 13 segments, numbered consecutively from 1 to 13. Five fleas called $A, B, C, D$ and $E$ are sitting in the segments 1,2,3,4 and 5. A flea is allowed to jump to an empty segment five positions away in either direction around the circle. Only one flea jumps at the same time, and two fleas cannot be in the same segment. After some jumps, the fleas are back in the segments 1,2,3,4,5, but possibly in some other order than they started. Which orders are possible?\n",
+    "rawSha256": "1c8d5de9e07aeccc7a7109139f2afabda715c6515032f8fa21e935f62e992990",
+    "matchNormalizedSha256": "66f344f0dcc84b95f3403cb05cac1da22b095d87853c5baf719397bb55cb477f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:16",
+    "versionId": "v:bw:2004:16",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Through a point $P$ exterior to a given circle pass a secant and a tangent to the circle. The secant intersects the circle at $A$ and $B$, and the tangent touches the circle at $C$ on the same side of the diameter thorugh $P$ as $A$ and $B$. The projection of $C$ on the diameter is $Q$. Prove that $Q C$ bisects $\\angle A Q B$.\n",
+    "rawSha256": "abb1682c0ff43b35c66badbb6bd796fccf37873e768b77fab2b7a27d6627ae0d",
+    "matchNormalizedSha256": "bb92e3dcea16279de73da52321befebc3aa457372bd114a8f03e5a5ca2380ba7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:17",
+    "versionId": "v:bw:2004:17",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a rectangle with side lengths 3 and 4 , and pick an arbitrary inner point on each side. Let $x, y, z$ and $u$ denote the side lengths of the quadrilateral spanned by these points. Prove that $25 \\leq x^{2}+y^{2}+z^{2}+u^{2} \\leq 50$.\n",
+    "rawSha256": "f44adfdba1be56eb8a090232ef7d1f2d11d7fe45b0bde7f80c248f6f02384caa",
+    "matchNormalizedSha256": "3fe865ce0b2320f71253ee1275fd9dc93fb29c4d14464739b1c74152472f4619",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:18",
+    "versionId": "v:bw:2004:18",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A ray emanating from the vertex $A$ of the triangle $A B C$ intersects the side $B C$ at $X$ and the circumcircle of $A B C$ at $Y$. Prove that $\\frac{1}{A X}+\\frac{1}{X Y} \\geq \\frac{4}{B C}$.\n",
+    "rawSha256": "f06ad61e77237da1a174de014af1555a30742c837015432e81a8a9d3a1110174",
+    "matchNormalizedSha256": "2db0ed2b854dd076e9a2dea269b07d56c8678f2b02ba0337f4f35f50ccc41bc8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:19",
+    "versionId": "v:bw:2004:19",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "$D$ is the midpoint of the side $B C$ of the given triangle $A B C . M$ is a point on the side $B C$ such that $\\angle B A M=\\angle D A C$. $L$ is the second intersection point of the circumcircle of the triangle $C A M$ with the side $A B . K$ is the second intersection point of the circumcircle of the triangle $B A M$ with the side $A C$. Prove that $K L \\| B C$.\n",
+    "rawSha256": "2edc276216a1dc910b23a147dd71226bf82bdeb9a0058e9be9ea8d5f740ab579",
+    "matchNormalizedSha256": "e7de2cdb596ca82e7d3b82b150aa30d440f4b092e8086d91502a2eaf28eb0350",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2004:20",
+    "versionId": "v:bw:2004:20",
+    "officialSource": {
+      "sourceId": "bw-official:2004:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "1fc44a3c6c168cdaa529351777f131bd6773ece2fa80fef12aba013d710ef16e",
+      "sourceBytes": 226497,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Three circular arcs $w_{1}, w_{2}, w_{3}$ with common endpoints $A$ and $B$ are on the same side of the line $A B ; w_{2}$ lies between $w_{1}$ and $w_{3}$. Two rays emanating from $B$ intersect these arcs at $M_{1}, M_{2}, M_{3}$ and $K_{1}, K_{2}, K_{3}$, respectively. Prove that $\\frac{M_{1} M_{2}}{M_{2} M_{3}}=\\frac{K_{1} K_{2}}{K_{2} K_{3}}$.\n",
+    "rawSha256": "5bfa1d585600603622944fa47acdbb34fe3216d5fda5f33ee11f39c31ade066a",
+    "matchNormalizedSha256": "d6c2231315b32310baa2e337b1022c5e544b8941d5ab5162a205b4e13c19cc8b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw04sol.jsonl",
+      "fileSha256": "681b64cb150352cbb817cbfc43a095bd0e29b68a63071666a2fa9584c23f0d3f",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2004:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

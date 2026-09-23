@@ -1,0 +1,792 @@
+[
+  {
+    "source": "mathnet-v0:0185",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.718299,
+    "margin": 0.071322,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.646977,
+    "statementPreview": "Let $\\mathbb{R}$ denote the set of real numbers. Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ x f(f(y)) + y f(y - x) = f(f(x + y) - x) f(y) $$ for all $x, y \\in \\mathbb{R}$."
+  },
+  {
+    "source": "mathnet-v0:0182",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.678003,
+    "margin": 0.078786,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.599217,
+    "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ f(x + f(y)) - f(x) = (x + f(y))^3 - x^3 $$ for all $x, y \\in \\mathbb{R}$."
+  },
+  {
+    "source": "mathnet-v0:01e2",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.55305,
+    "margin": 0.077703,
+    "secondAppearance": "bw:2021:01",
+    "secondCosine": 0.475346,
+    "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ that for all real $x$ and $y$ satisfy the equation $$ f(y^2 - f(x)) = yf(x)^2 + f(x^2y + y). $$"
+  },
+  {
+    "source": "mathnet-v0:01ig",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.539799,
+    "margin": 0.073686,
+    "secondAppearance": "bw:2021:01",
+    "secondCosine": 0.466113,
+    "statementPreview": "Let $D := \\mathbb{R} \\setminus \\{0,1\\}$. Find all functions $f:D \\rightarrow D$ which satisfy for any $x, y \\in \\mathbb{R}$ with $x, xy \\in D$ the equation $$ f(f(xy)) = 1 - \\frac{1}{y f(f(f(x)))} $$"
+  },
+  {
+    "source": "mathnet-v0:01cf",
+    "competition": "Baltic Way 2015 Shortlisted Problems",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.508362,
+    "margin": 0.08185,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.426512,
+    "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ satisfying, for all $x \\neq 0$ and all $y$, $$ f(x + y^2) = f(x) + f(y)^2 + \\frac{2f(xy)}{x}. $$"
+  },
+  {
+    "source": "mathnet-v0:01ca",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2003:16",
+    "cosine": 0.503818,
+    "margin": 0.165974,
+    "secondAppearance": "bw:1994:09",
+    "secondCosine": 0.337844,
+    "statementPreview": "Find all pairs of positive integers $(a, b)$ for which both numbers $4ab + 1$ and $ab^3 + 1$ are perfect squares."
+  },
+  {
+    "source": "mathnet-v0:01b5",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.498727,
+    "margin": 0.021851,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.476876,
+    "statementPreview": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a strictly increasing function, and $f(x) > x$ for every $x$. Assume that $$ f(x) + f^{-1}(x) = 2x $$ for all $x \\in \\mathbb{R}$. Show that $f(x) = x + f(0)$ for all $x \\in \\mathbb{R"
+  },
+  {
+    "source": "mathnet-v0:01bm",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2024:14",
+    "cosine": 0.488371,
+    "margin": 0.026891,
+    "secondAppearance": "bw:2020:13",
+    "secondCosine": 0.46148,
+    "statementPreview": "Let $ABC$ be a triangle with circumcircle $\\omega$. Let $D$, $E$ and $F$ be points on the sides $BC$, $CA$ and $AB$ such that the circumcircle of the triangle $DEF$ touches $\\omega$ at $A$. Let $G$ and $H$ be the interse"
+  },
+  {
+    "source": "mathnet-v0:01ht",
+    "competition": "Baltic Way 2021 Shortlist",
+    "bestAppearance": "bw:2012:08",
+    "cosine": 0.448621,
+    "margin": 0.156852,
+    "secondAppearance": "bw:2017:07",
+    "secondCosine": 0.291769,
+    "statementPreview": "A directed graph $G$ has 2021 vertices located on a circle, 101 directed edges go from each vertex of $G$ to the next 101 vertices in the counter-clockwise direction. We wish to colour the edges in such a way that for an"
+  },
+  {
+    "source": "mathnet-v0:01fm",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2012:08",
+    "cosine": 0.443171,
+    "margin": 0.236131,
+    "secondAppearance": "bw:2017:07",
+    "secondCosine": 0.20704,
+    "statementPreview": "In a directed graph $G$ outgoing degree of each vertex equals $3$ (loops and bidirectional edges are allowed and considered as cycles). Prove that the graph contains $2$ non-intersecting directed cycles."
+  },
+  {
+    "source": "mathnet-v0:01jl",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:2023:16",
+    "cosine": 0.442443,
+    "margin": 0.130379,
+    "secondAppearance": "bw:2004:08",
+    "secondCosine": 0.312063,
+    "statementPreview": "For a prime number $p$ and a polynomial $f$ with integer coefficients, define $\\text{Im}(p, f)$ be the set of integers $a \\in \\{0, 1, \\dots, p-1\\}$ such that there exists an integer $x$, for which $f(x) - a$ is divisible"
+  },
+  {
+    "source": "mathnet-v0:01ek",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:2022:15",
+    "cosine": 0.437746,
+    "margin": 0.008241,
+    "secondAppearance": "bw:2024:14",
+    "secondCosine": 0.429505,
+    "statementPreview": "Let $\\omega$ be a circle and $A$ a point outside of $\\omega$. Draw the tangents from $A$ to $\\omega$ and call the points of tangency $X$ and $Y$. Let $B$ and $C$ be points on the segments $AX$ and $AY$, respectively, suc"
+  },
+  {
+    "source": "mathnet-v0:01ik",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:2010:05",
+    "cosine": 0.429498,
+    "margin": 0.001727,
+    "secondAppearance": "bw:1998:07",
+    "secondCosine": 0.427771,
+    "statementPreview": "Find all (not necessarily strictly) monotonic functions $f: \\mathbb{R} \\to \\mathbb{R}$ with $$ f(x+y)^3 = f(x^3) + f(y^3) \\text{ for all } x, y \\in \\mathbb{R}. $$"
+  },
+  {
+    "source": "mathnet-v0:01ga",
+    "competition": "Baltic Way 2020",
+    "bestAppearance": "bw:2010:05",
+    "cosine": 0.42767,
+    "margin": 0.012234,
+    "secondAppearance": "bw:1998:07",
+    "secondCosine": 0.415436,
+    "statementPreview": "Find all functions $f : \\mathbb{R} \\setminus \\{0\\} \\to \\mathbb{R}$ so that $$ f\\left(\\frac{1}{x}\\right) \\ge 1 - f(x) \\ge x^2 f(x) $$ for all $x \\in \\mathbb{R} \\setminus \\{0\\}$."
+  },
+  {
+    "source": "mathnet-v0:01b6",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.427401,
+    "margin": 0.043159,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.384242,
+    "statementPreview": "A function $f$ defined on the set of real numbers $\\mathbb{R}$ and taking nonnegative real values satisfies the condition $$ f(x + y) \\le 2 \\max\\{f(x), f(y)\\} $$ for all $x, y \\in \\mathbb{R}$. Is it true that for each po"
+  },
+  {
+    "source": "mathnet-v0:01fw",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2017:11",
+    "cosine": 0.426952,
+    "margin": 0.016928,
+    "secondAppearance": "bw:2019:12",
+    "secondCosine": 0.410024,
+    "statementPreview": "Let $ABC$ be a triangle and $H$ its orthocenter. Let $P$ be an arbitrary point on segment $BC$. Prove that $H$ lies on the line passing through reflections of $P$ with respect to $AB$ and $AC$ iff triangle $ABC$ is right"
+  },
+  {
+    "source": "mathnet-v0:01f5",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.417295,
+    "margin": 0.035008,
+    "secondAppearance": "bw:2020:04",
+    "secondCosine": 0.382287,
+    "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ f(x^3 + y^3) = f(x^3) + 3x^3f(x)f(y) + 3f(x)(f(y))^2 + y^6f(y) $$ for every two real numbers $x$ and $y$."
+  },
+  {
+    "source": "mathnet-v0:0161",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2022:11",
+    "cosine": 0.417266,
+    "margin": 0.041256,
+    "secondAppearance": "bw:2021:14",
+    "secondCosine": 0.37601,
+    "statementPreview": "Let $AB$ be the diameter of the circle $\\Gamma$ with centre $O$ and let $C$ and $D$ be points on $\\Gamma$, on different sides on $AB$ and such that $AD$ and $CB$ intersect at $R$. The circumscribed circles of the triangl"
+  },
+  {
+    "source": "mathnet-v0:01id",
+    "competition": "Baltic Way 2021 Shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.399209,
+    "margin": 0.040724,
+    "secondAppearance": "bw:1998:01",
+    "secondCosine": 0.358486,
+    "statementPreview": "Find all $k \\in \\mathbb{Z}$ such that there exists a function $f : \\mathbb{Z} \\to \\mathbb{Z}$ satisfying $$ f(f(n)) = n + k $$ for all $n \\in \\mathbb{Z}$."
+  },
+  {
+    "source": "mathnet-v0:01gz",
+    "competition": "Baltic Way 2020",
+    "bestAppearance": "bw:2025:12",
+    "cosine": 0.384536,
+    "margin": 0.010337,
+    "secondAppearance": "bw:2024:12",
+    "secondCosine": 0.374199,
+    "statementPreview": "Let $\\omega$ and $I$ be the incircle and the incentre of a triangle $ABC$, respectively. Let $E$ and $F$ be the tangency points of $\\omega$ with the sides $AC$ and $AB$, respectively. The perpendicular bisector of $AI$ i"
+  },
+  {
+    "source": "mathnet-v0:01ck",
+    "competition": "Baltic Way 2015 Shortlisted Problems",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.384178,
+    "margin": 0.00582,
+    "secondAppearance": "bw:2016:08",
+    "secondCosine": 0.378358,
+    "statementPreview": "A function $f: \\mathbb{R} \\to \\mathbb{R}$ satisfies $$ f(f(a)) = f(a) \\quad \\text{and} \\quad f(a+b) = f(a) + f(b) $$ for all real numbers $a, b$. Prove that, for all real $x$, there exists a unique $y$ such that $f(y) = "
+  },
+  {
+    "source": "mathnet-v0:01fy",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2024:13",
+    "cosine": 0.378837,
+    "margin": 0.018482,
+    "secondAppearance": "bw:2008:16",
+    "secondCosine": 0.360355,
+    "statementPreview": "Let $X$, $Y$ be points on $AB$, $AC$ of triangle $ABC$, respectively, such that $B$, $C$, $X$, $Y$ lie on one circle. The median of triangle $ABC$ from $A$ intersects the perpendicular bisector of $XY$ at $P$. Find $\\ang"
+  },
+  {
+    "source": "mathnet-v0:01de",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2017:11",
+    "cosine": 0.374812,
+    "margin": 0.005042,
+    "secondAppearance": "bw:2019:12",
+    "secondCosine": 0.36977,
+    "statementPreview": "Let $ABC$ be a triangle and $D$ and $E$ points on the lines $CA$ and $BA$ such that $CD = AB$, $BE = AC$ and $A$, $D$ and $E$ lie on the same side of $BC$. Let $I$ be the incenter of $ABC$ and let $H$ be a point such tha"
+  },
+  {
+    "source": "mathnet-v0:018z",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:2022:15",
+    "cosine": 0.371778,
+    "margin": 0.01537,
+    "secondAppearance": "bw:2014:11",
+    "secondCosine": 0.356408,
+    "statementPreview": "Let $\\Gamma$ be a circle, and $A$ a point outside $\\Gamma$. For a point $B$ on $\\Gamma$, let $C$ be the third vertex of the equilateral triangle $ABC$ (with vertices $A$, $B$ and $C$ going clockwise). Find the path trace"
+  },
+  {
+    "source": "mathnet-v0:015d",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2020:02",
+    "cosine": 0.36949,
+    "margin": 0.029862,
+    "secondAppearance": "bw:1991:05",
+    "secondCosine": 0.339628,
+    "statementPreview": "Let $a$, $b$, $c$ be positive numbers such that $a$, $b$, $c > 1$ and $$ \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 2. $$ Prove that $\\sqrt{a+b+c} \\ge \\sqrt{a-1} + \\sqrt{b-1} + \\sqrt{c-1}$."
+  },
+  {
+    "source": "mathnet-v0:01i2",
+    "competition": "Baltic Way 2021 Shortlist",
+    "bestAppearance": "bw:2024:12",
+    "cosine": 0.359812,
+    "margin": 0.001625,
+    "secondAppearance": "bw:2014:14",
+    "secondCosine": 0.358187,
+    "statementPreview": "Let points $A$ and $B$ lie on circle $\\omega$ with center $O$. Assume that $O$ does not lie on line $AB$. Let point $C$ lie on segment $AB$ and denote by $M$ and $N$ the midpoints of segments $AC$ and $CB$, respectively."
+  },
+  {
+    "source": "mathnet-v0:01i0",
+    "competition": "Baltic Way 2021 Shortlist",
+    "bestAppearance": "bw:2015:15",
+    "cosine": 0.350173,
+    "margin": 0.008685,
+    "secondAppearance": "bw:2022:12",
+    "secondCosine": 0.341488,
+    "statementPreview": "Let $O$ be the circumcenter of triangle $ABC$. Let $D$, $E$ and $F$ be the reflection of $O$ over lines $BC$, $CA$ and $AB$, respectively. Show that lines $AD$, $BE$ and $CF$ are concurrent."
+  },
+  {
+    "source": "mathnet-v0:016p",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2015:11",
+    "cosine": 0.349042,
+    "margin": 0.052804,
+    "secondAppearance": "bw:1998:13",
+    "secondCosine": 0.296238,
+    "statementPreview": "In a rectangle $ABCD$ where $AB = 2BC$ the diagonals intersect in a point $E$, the angle bisector of the angle $\\angle CAD$ intersects the side $CD$ in a point $F$ and the diagonal $BD$ in a point $G$, and $EG = 25$. Det"
+  },
+  {
+    "source": "mathnet-v0:01jc",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:2012:15",
+    "cosine": 0.349016,
+    "margin": 0.027882,
+    "secondAppearance": "bw:2014:14",
+    "secondCosine": 0.321134,
+    "statementPreview": "Let $\\triangle ABC$ be an isosceles triangle with $|AB| = |AC|$. Let $D$ be an arbitrary point on segment $BC$. Let $X$ and $Y$ be points on $AB$ and $AC$, respectively, such that $XY \\parallel BC$ and $XY$ passes throug"
+  },
+  {
+    "source": "mathnet-v0:01ej",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:2017:11",
+    "cosine": 0.347878,
+    "margin": 0.031807,
+    "secondAppearance": "bw:2019:14",
+    "secondCosine": 0.316071,
+    "statementPreview": "Let $ABC$ be an acute triangle, $H$ its orthocentre, and $M$ the midpoint of $BC$. Furthermore, let $k_1$ and $k_2$ be the circle with diameter $AH$ and the circle with center $M$ that touches the circumcircle of triangl"
+  },
+  {
+    "source": "mathnet-v0:016l",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2022:11",
+    "cosine": 0.347803,
+    "margin": 0.002614,
+    "secondAppearance": "bw:2021:14",
+    "secondCosine": 0.345189,
+    "statementPreview": "Let $ABC$ be a given triangle. Let $\\Gamma_A$, $\\Gamma_B$ and $\\Gamma_C$ be circles with radius $\\rho$, centers $A'$, $B'$ and $C'$ respectively, and both the legs of angle $\\angle BAC$ are tangents to $\\Gamma_A$, both l"
+  },
+  {
+    "source": "mathnet-v0:018o",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:2017:16",
+    "cosine": 0.347744,
+    "margin": 0.076487,
+    "secondAppearance": "bw:2010:08",
+    "secondCosine": 0.271258,
+    "statementPreview": "There are $2011$ people in a city. For some period of time every day a group of at least $4$ people went to a restaurant to have dinner. No group of $3$ people went together to more than one dinner. Prove that there exis"
+  },
+  {
+    "source": "mathnet-v0:01ak",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2025:12",
+    "cosine": 0.346073,
+    "margin": 0.012226,
+    "secondAppearance": "bw:2018:14",
+    "secondCosine": 0.333847,
+    "statementPreview": "A circle $\\omega$ is tangent to the side $BC$ of a triangle $ABC$ at point $T$. The side $AB$ intersects $\\omega$ at points $P$ and $R$ ($A$ is closer to $P$ than $R$); the side $AC$ intersects $\\omega$ at points $Q$ and"
+  },
+  {
+    "source": "mathnet-v0:01f7",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.328454,
+    "margin": 0.013663,
+    "secondAppearance": "bw:2020:04",
+    "secondCosine": 0.314791,
+    "statementPreview": "Find all functions $f: \\mathbb{R} \\to [-2019, 2019]$, for which $$ 2f(f(x)) + f(f(-x)) + 8f(x) + 4f(-x) + 4x = 0 $$ for all real numbers $x$."
+  },
+  {
+    "source": "mathnet-v0:0173",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2017:10",
+    "cosine": 0.324783,
+    "margin": 0.028452,
+    "secondAppearance": "bw:1996:19",
+    "secondCosine": 0.296331,
+    "statementPreview": "Two players, Maker and Breaker are playing the following game: Maker starts, and the players take turns choosing distinct numbers from the set $\\{0, 1, \\dots, 10\\}$. Maker wins, if some of his chosen numbers form a stric"
+  },
+  {
+    "source": "mathnet-v0:017x",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:1995:18",
+    "cosine": 0.322882,
+    "margin": 0.077654,
+    "secondAppearance": "bw:2013:11",
+    "secondCosine": 0.245228,
+    "statementPreview": "Given an acute-angled triangle, describe all interior points whose orthogonal projections on the sides form a triangle similar to the original one."
+  },
+  {
+    "source": "mathnet-v0:0165",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2017:17",
+    "cosine": 0.317446,
+    "margin": 0.046622,
+    "secondAppearance": "bw:1991:09",
+    "secondCosine": 0.270824,
+    "statementPreview": "Determine all integral solutions of the equation $$ x^2y = (x + y)^2 + 1. $$"
+  },
+  {
+    "source": "mathnet-v0:01ab",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2025:14",
+    "cosine": 0.315342,
+    "margin": 0.052445,
+    "secondAppearance": "bw:2004:19",
+    "secondCosine": 0.262897,
+    "statementPreview": "A triangle $ABC$ satisfies $AB < AC$. Let $I$ be the center of the excircle tangent to the side $AC$. Point $P$ lies inside of the angle $BAC$, but outside of the triangle $ABC$ and satisfies $\\angle CPB = \\angle PBA + \\"
+  },
+  {
+    "source": "mathnet-v0:01dg",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2007:14",
+    "cosine": 0.314938,
+    "margin": 0.010373,
+    "secondAppearance": "bw:2016:17",
+    "secondCosine": 0.304564,
+    "statementPreview": "Let $ABCD$ be a convex quadrilateral. Let $P$ be a point such that $\\angle APC = \\angle BPD = 30^\\circ$. Prove that $$ 2(AB + AC + AD + BC + BD + CD) \\geq PA + PB + PC + PD. $$"
+  },
+  {
+    "source": "mathnet-v0:01a0",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2012:08",
+    "cosine": 0.312835,
+    "margin": 0.070171,
+    "secondAppearance": "bw:2018:07",
+    "secondCosine": 0.242664,
+    "statementPreview": "The degree of each vertex in a graph $G$ does not exceed $100$. We remove edges of this graph. In one step we can remove an arbitrary set of edges without common endpoints which is maximal (in a sense that if we add to t"
+  },
+  {
+    "source": "mathnet-v0:016w",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2024:15",
+    "cosine": 0.307808,
+    "margin": 0.046956,
+    "secondAppearance": "bw:2002:08",
+    "secondCosine": 0.260852,
+    "statementPreview": "Find out whether or not there exist two disjoint infinite sets $A$ and $B$ in the plane satisfying the following conditions: (i) No three points in $A \\cup B$ are collinear and the distance of any pair of points in $A \\c"
+  },
+  {
+    "source": "mathnet-v0:01ja",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:2017:11",
+    "cosine": 0.307351,
+    "margin": 0.024945,
+    "secondAppearance": "bw:2018:13",
+    "secondCosine": 0.282406,
+    "statementPreview": "Does there exist a scalene triangle whose incenter, circumcenter and orthocenter are collinear?"
+  },
+  {
+    "source": "mathnet-v0:01cs",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:1993:04",
+    "cosine": 0.302597,
+    "margin": 0.039872,
+    "secondAppearance": "bw:2023:05",
+    "secondCosine": 0.262725,
+    "statementPreview": "Prove that $$ \\sqrt{\\frac{1}{3x+1}} + \\sqrt{\\frac{x}{x+3}} \\ge 1 $$ holds for all $x > 0$. For which values of $x$ is there an equality?"
+  },
+  {
+    "source": "mathnet-v0:01fr",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2007:14",
+    "cosine": 0.301724,
+    "margin": 0.011008,
+    "secondAppearance": "bw:2016:17",
+    "secondCosine": 0.290716,
+    "statementPreview": "Let $ABCD$ be a convex quadrilateral such that $|AD| < |AB|$ and $|CD| < |CB|$. Prove that $\\angle ABC < \\angle ADC$."
+  },
+  {
+    "source": "mathnet-v0:0193",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:2007:15",
+    "cosine": 0.296913,
+    "margin": 0.007028,
+    "secondAppearance": "bw:1999:13",
+    "secondCosine": 0.289885,
+    "statementPreview": "Consider a right angled triangle $ABC$ with sides of length $3$, $4$, and $5$. Determine the greatest possible radius of a circle that is tangent to two among the lines $BC$, $CA$, and $AB$ and that in addition passes th"
+  },
+  {
+    "source": "mathnet-v0:01iz",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:2017:15",
+    "cosine": 0.288396,
+    "margin": 0.042375,
+    "secondAppearance": "bw:1998:10",
+    "secondCosine": 0.246021,
+    "statementPreview": "Find the least positive integer $n$ for which it is possible to draw an $n$-gon along the lines of a square grid, whose perimeter is $n$ and whose area is $n$. Here the boundary of the $n$-gon may not visit any point mor"
+  },
+  {
+    "source": "mathnet-v0:01g5",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2003:16",
+    "cosine": 0.284539,
+    "margin": 0.012912,
+    "secondAppearance": "bw:2007:20",
+    "secondCosine": 0.271626,
+    "statementPreview": "Let $p$ a prime number. Prove that $p^2 + p + 1$ is not a perfect cube."
+  },
+  {
+    "source": "mathnet-v0:01gd",
+    "competition": "Baltic Way 2020",
+    "bestAppearance": "bw:2003:04",
+    "cosine": 0.278344,
+    "margin": 0.012438,
+    "secondAppearance": "bw:2005:05",
+    "secondCosine": 0.265907,
+    "statementPreview": "Let $a$, $b$, $c$ be positive real numbers with $abc = 1$. Prove that $$ \\frac{a}{b(c+1)} + \\frac{b}{c(a+1)} + \\frac{c}{a(b+1)} \\ge \\frac{3}{2}. $$"
+  },
+  {
+    "source": "mathnet-v0:0172",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2012:07",
+    "cosine": 0.277941,
+    "margin": 0.011432,
+    "secondAppearance": "bw:2005:09",
+    "secondCosine": 0.266509,
+    "statementPreview": "Let $r$ be a positive integer. The following game is being played on a rectangular board divided into $20 \\times 12$ unit squares. One is allowed to move a piece from a square to another, if the distance between (the cen"
+  },
+  {
+    "source": "mathnet-v0:015q",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2017:16",
+    "cosine": 0.276826,
+    "margin": 0.045599,
+    "secondAppearance": "bw:2004:13",
+    "secondCosine": 0.231227,
+    "statementPreview": "The parliament of some country consists of several persons, some of them are friends. Computer prints all the lists of the members of the parliament such that no two persons in one list are friends. The number of these l"
+  },
+  {
+    "source": "mathnet-v0:01dt",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2013:03",
+    "cosine": 0.274132,
+    "margin": 0.028284,
+    "secondAppearance": "bw:1998:07",
+    "secondCosine": 0.245848,
+    "statementPreview": "Find all pairs $p, q$ of distinct primes, sets $D \\subseteq \\mathbb{R}$ and functions $f: D \\to D$ fulfilling $$ f^p(x) = x^p \\quad \\text{and} \\quad f^q(x) = x^q $$ for all $x \\in D$. (Here, $f^n$ denotes the $n$'th iter"
+  },
+  {
+    "source": "mathnet-v0:01ei",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:2007:14",
+    "cosine": 0.270839,
+    "margin": 0.039295,
+    "secondAppearance": "bw:1994:08",
+    "secondCosine": 0.231544,
+    "statementPreview": "A convex quadrilateral $ABCD$ is right-angled at $A$ and fulfils $BC + CD = 1$. Determine its greatest possible area."
+  },
+  {
+    "source": "mathnet-v0:01av",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2003:16",
+    "cosine": 0.269658,
+    "margin": 0.017849,
+    "secondAppearance": "bw:2019:19",
+    "secondCosine": 0.25181,
+    "statementPreview": "Let $x$ and $y$ be non-negative integer solutions of the equation $$ 2x^2 - 17xy + y^2 + x = 0. $$ Prove that $x$ is a perfect square."
+  },
+  {
+    "source": "mathnet-v0:017r",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2025:05",
+    "cosine": 0.268531,
+    "margin": 0.001153,
+    "secondAppearance": "bw:2010:03",
+    "secondCosine": 0.267378,
+    "statementPreview": "Prove the inequality for positive real numbers $x_1$, $x_2$, $\\dots$, $x_n$: $$ \\frac{x_1}{x_2+x_3} + \\frac{x_2}{x_3+x_4} + \\dots + \\frac{x_{n-2}}{x_{n-1}+x_n} + \\frac{x_{n-1}}{x_n+x_1} + \\frac{x_n}{x_1+x_2}  \\ge \\frac{x"
+  },
+  {
+    "source": "mathnet-v0:01jh",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:1998:01",
+    "cosine": 0.26665,
+    "margin": 0.02509,
+    "secondAppearance": "bw:2013:03",
+    "secondCosine": 0.24156,
+    "statementPreview": "Let $\\mathbb{Z}^+$ denote the set of positive integers, and $\\text{lcm}(n, m)$ the least positive integer that is divisible by both $n$ and $m$. Find all functions $f: \\mathbb{Z}^+ \\to \\mathbb{Z}^+$ such that $$ \\text{lc"
+  },
+  {
+    "source": "mathnet-v0:01c5",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2024:18",
+    "cosine": 0.263709,
+    "margin": 0.03016,
+    "secondAppearance": "bw:2006:19",
+    "secondCosine": 0.233549,
+    "statementPreview": "Let $S$ be a finite set of positive rational numbers. Let $x_1, x_2, x_3, \\dots$ be a sequence such that $x_1 = 0$ and for every positive integer $n$ there exists some $q_n \\in S$ such that $x_{n+1} = \\sqrt{x_n + q_n}$. "
+  },
+  {
+    "source": "mathnet-v0:01d9",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2018:07",
+    "cosine": 0.259022,
+    "margin": 0.002821,
+    "secondAppearance": "bw:2023:06",
+    "secondCosine": 0.2562,
+    "statementPreview": "Let $k$ and $t$ be integers with $1 \\le k/2 < t < k$. Each square of a $k \\times k$ checkerboard is coloured either red or blue. A move consists of choosing a row or a column with at most $t$ red squares and switching th"
+  },
+  {
+    "source": "mathnet-v0:017h",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:2012:19",
+    "cosine": 0.2553,
+    "margin": 0.017411,
+    "secondAppearance": "bw:1992:02",
+    "secondCosine": 0.237889,
+    "statementPreview": "For any positive integer $n$, define $$ X_n = \\frac{n!}{2010n^2 + 2010n + 1} $$ Show that $X_n$ is an integer for infinitely many $n$."
+  },
+  {
+    "source": "mathnet-v0:01hj",
+    "competition": "Baltic Way 2021 Shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.252509,
+    "margin": 0.001513,
+    "secondAppearance": "bw:2010:05",
+    "secondCosine": 0.250996,
+    "statementPreview": "Find all triples $(a, b, c)$ of real numbers such that $$ \\cos(ax) + \\cos(bx) = 2 \\cos(cx) $$ holds for all $x \\in \\mathbb{R}$."
+  },
+  {
+    "source": "mathnet-v0:01bs",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2010:12",
+    "cosine": 0.250212,
+    "margin": 0.022284,
+    "secondAppearance": "bw:2012:15",
+    "secondCosine": 0.227928,
+    "statementPreview": "The quadrilateral $Q$ has a longest side of length $b$ and a shortest side of length $a$. Form a new quadrilateral $Q'$ by joining the successive midpoints of the edges of $Q$. Supposing that $Q$ and $Q'$ are similar, pr"
+  },
+  {
+    "source": "mathnet-v0:01if",
+    "competition": "Baltic Way 2023 Shortlist",
+    "bestAppearance": "bw:1993:04",
+    "cosine": 0.247018,
+    "margin": 0.031059,
+    "secondAppearance": "bw:2023:05",
+    "secondCosine": 0.215959,
+    "statementPreview": "Let $n$ be a positive integer and let $a_1, a_2, \\dots, a_n$ and $b_1, b_2, \\dots, b_n$ be positive real numbers. Prove that $$ a_1 \\sqrt{\\frac{a_1}{b_1}} + a_2 \\sqrt{\\frac{a_2}{b_2}} + \\dots + a_n \\sqrt{\\frac{a_n}{b_n}}"
+  },
+  {
+    "source": "mathnet-v0:01eh",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:1998:11",
+    "cosine": 0.246397,
+    "margin": 0.015816,
+    "secondAppearance": "bw:1992:18",
+    "secondCosine": 0.230581,
+    "statementPreview": "Given a triangle $\\Delta$ with circumradius $R$ and inradius $r$, prove that the area of the circle with radius $R + r$ is at least 5 times greater than the area of the triangle $\\Delta$."
+  },
+  {
+    "source": "mathnet-v0:018w",
+    "competition": "Baltic Way 2011 Problem Shortlist",
+    "bestAppearance": "bw:1998:11",
+    "cosine": 0.244746,
+    "margin": 0.034002,
+    "secondAppearance": "bw:1992:17",
+    "secondCosine": 0.210744,
+    "statementPreview": "Let $a$, $b$, and $c$ be the lengths of the sides of a triangle, $R$ the radius of its circumcircle, and $r$ the radius of its incircle. Prove that $$ \\frac{Rr}{(a+b+c)^2} \\le \\frac{1}{54}. $$"
+  },
+  {
+    "source": "mathnet-v0:019v",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2007:10",
+    "cosine": 0.238262,
+    "margin": 0.006904,
+    "secondAppearance": "bw:2012:06",
+    "secondCosine": 0.231358,
+    "statementPreview": "There are some lamps in a row. Initially, some of the lamps are on, and the rest are off. We may change the states of the lamps by the following operations: (1) Change the state of the rightmost lamp; (2) Change the stat"
+  },
+  {
+    "source": "mathnet-v0:01aw",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2019:17",
+    "cosine": 0.23797,
+    "margin": 0.079085,
+    "secondAppearance": "bw:2008:07",
+    "secondCosine": 0.158885,
+    "statementPreview": "Find all pairs of natural numbers $p > q$ such that $$ \\frac{p+1}{p} \\cdot \\frac{q+1}{q} = \\frac{2013}{2011}. $$"
+  },
+  {
+    "source": "mathnet-v0:016n",
+    "competition": "BALTIC WAY",
+    "bestAppearance": "bw:1998:11",
+    "cosine": 0.231029,
+    "margin": 0.017183,
+    "secondAppearance": "bw:1996:06",
+    "secondCosine": 0.213846,
+    "statementPreview": "Let $a, b, c, d$ be real numbers such that $a, b \\le c, d$. Prove $$ (a + b + c + d)^2 \\ge 8(ac + bd). $$ When does equality hold?"
+  },
+  {
+    "source": "mathnet-v0:019s",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2003:04",
+    "cosine": 0.22489,
+    "margin": 0.007824,
+    "secondAppearance": "bw:2005:05",
+    "secondCosine": 0.217066,
+    "statementPreview": "Prove the inequality $$ \\frac{a}{a + \\sqrt{(a+b)(a+c)}} + \\frac{b}{b + \\sqrt{(b+c)(b+a)}} + \\frac{c}{c + \\sqrt{(c+a)(c+b)}} \\le 1, $$ in which $a$, $b$ and $c$ are assumed to be positive numbers."
+  },
+  {
+    "source": "mathnet-v0:01c6",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2024:18",
+    "cosine": 0.218819,
+    "margin": 0.025465,
+    "secondAppearance": "bw:2004:10",
+    "secondCosine": 0.193353,
+    "statementPreview": "A doubly infinite sequence $a_n$, for $n \\in \\mathbb{Z}$, has each $a_n$ equal to either $0$ or $1$. Prove that there exist numbers $p$ and $q > 1$ such that $a_{p+k} = a_{p+q+k}$ for $k = 0, 1, \\dots, q-1$."
+  },
+  {
+    "source": "mathnet-v0:019h",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2007:02",
+    "cosine": 0.213331,
+    "margin": 0.015567,
+    "secondAppearance": "bw:2021:03",
+    "secondCosine": 0.197765,
+    "statementPreview": "Determine all sequences $a_0, a_1, a_2, \\dots$ of positive reals such that $$ a_{n^2+m^2} = a_n a_m^n $$ for all $n, m$."
+  },
+  {
+    "source": "mathnet-v0:01fs",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2007:14",
+    "cosine": 0.206811,
+    "margin": 0.008577,
+    "secondAppearance": "bw:2013:13",
+    "secondCosine": 0.198235,
+    "statementPreview": "Two points $M$ and $N$ have been selected from the edge $BC$ of a tetrahedron $ABCD$ so that the point $M$ lies between $B$ and $N$, the point $N$ lies between $M$ and $C$, and the angle between the planes $AND$ and $ACD"
+  },
+  {
+    "source": "mathnet-v0:01d5",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2012:01",
+    "cosine": 0.193586,
+    "margin": 0.014056,
+    "secondAppearance": "bw:2005:08",
+    "secondCosine": 0.17953,
+    "statementPreview": "A *magic octagon* is an octagon whose sides go along the grid lines of a square grid and side lengths are $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ (in any order). What is the largest possible area of a magic octagon?"
+  },
+  {
+    "source": "mathnet-v0:01az",
+    "competition": "Baltic Way",
+    "bestAppearance": "bw:2008:02",
+    "cosine": 0.189864,
+    "margin": 0.01975,
+    "secondAppearance": "bw:2005:05",
+    "secondCosine": 0.170114,
+    "statementPreview": "Let $a, b, c > 0$ and $abc = 1$. Prove that $$ \\frac{a^{2014}}{1+2bc} + \\frac{b^{2014}}{1+2ca} + \\frac{c^{2014}}{1+2ab} \\ge \\frac{3}{ab+bc+ca} $$"
+  },
+  {
+    "source": "mathnet-v0:01dw",
+    "competition": "Baltic Way shortlist",
+    "bestAppearance": "bw:1998:07",
+    "cosine": 0.183058,
+    "margin": 0.00878,
+    "secondAppearance": "bw:1998:01",
+    "secondCosine": 0.174278,
+    "statementPreview": "A grasshopper is jumping along the set $\\mathbb{Z}$ of integers. He starts at the origin; and for each jump, he may decide whether to jump to the left or to the right. For each $n \\in \\mathbb{N}_0$, the $n$-th jump has l"
+  },
+  {
+    "source": "mathnet-v0:016d",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2015:19",
+    "cosine": 0.182674,
+    "margin": 0.04707,
+    "secondAppearance": "bw:2001:11",
+    "secondCosine": 0.135603,
+    "statementPreview": "Let $a$, $b$ and $n$ be positive integers with $\\text{GCD}(a, b) = 2009$. Prove that $$ \\text{GCD}(n^a - 1, n^b - 1) = n^{2009} - 1. $$"
+  },
+  {
+    "source": "mathnet-v0:01ao",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2024:09",
+    "cosine": 0.152968,
+    "margin": 0.016576,
+    "secondAppearance": "bw:2000:14",
+    "secondCosine": 0.136393,
+    "statementPreview": "$$ R(k) = \\underbrace{22\\dots22}_{k} 1. $$ Find all positive integers $n$ such that $$ 2013 \\mid R(10^n). $$"
+  },
+  {
+    "source": "mathnet-v0:016c",
+    "competition": "Baltic Way SHL",
+    "bestAppearance": "bw:2019:17",
+    "cosine": 0.145694,
+    "margin": 0.006115,
+    "secondAppearance": "bw:2002:19",
+    "secondCosine": 0.13958,
+    "statementPreview": "Show that for each integer $n$, $$ \\frac{1}{1+n}\\binom{4n+1}{2n} $$ is an integer."
+  },
+  {
+    "source": "mathnet-v0:019q",
+    "competition": "Baltic Way 2013",
+    "bestAppearance": "bw:2005:05",
+    "cosine": 0.130191,
+    "margin": 0.008013,
+    "secondAppearance": "bw:2003:04",
+    "secondCosine": 0.122178,
+    "statementPreview": "Prove that for positive $a$, $b$, $c$ and $l > m$ $$ \\frac{a^{3l} + a^{3m} + 1}{a^l + b^{l-m}a^m + b^l} + \\frac{b^{3l} + b^{3m} + 1}{b^l + c^{l-m}b^m + c^l} + \\frac{c^{3l} + c^{3m} + 1}{c^l + a^{l-m}c^m + a^l} \\ge a^m + "
+  },
+  {
+    "source": "mathnet-v0:01cv",
+    "competition": "Baltic Way 2016",
+    "bestAppearance": "bw:2007:20",
+    "cosine": 0.10257,
+    "margin": 0.00739,
+    "secondAppearance": "bw:2021:18",
+    "secondCosine": 0.09518,
+    "statementPreview": "Is it true that for any real numbers $a$, $b$, $c$ and $d$ satisfying $a^2 + b^2 + (a-b)^2 = c^2 + d^2 + (c-d)^2$ also the equality $$ a^3 + b^3 + (a-b)^3 = c^3 + d^3 + (c-d)^3 $$ $$ a^4 + b^4 + (a-b)^4 = c^4 + d^4 + (c-"
+  },
+  {
+    "source": "mathnet-v0:01fl",
+    "competition": "Baltic Way 2019",
+    "bestAppearance": "bw:2008:14",
+    "cosine": 0.07302,
+    "margin": 0.002106,
+    "secondAppearance": "bw:2025:10",
+    "secondCosine": 0.070914,
+    "statementPreview": "A *palindrome* is a word which is build using 2 letters and is equal to its reverse, for example: ABBA and ABABABABA are palindromes. Prove that any 2019-letter word (which uses 2 letters) is *build* by at most 808 palin"
+  }
+]

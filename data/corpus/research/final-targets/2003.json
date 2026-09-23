@@ -1,0 +1,844 @@
+[
+  {
+    "appearanceId": "bw:2003:01",
+    "versionId": "v:bw:2003:01",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{Q}_{+}$be the set of positive rational numbers. Find all functions $f: \\mathbb{Q}_{+} \\rightarrow \\mathbb{Q}_{+}$which for all $x \\in \\mathbb{Q}_{+}$fulfil\n\n(1) $f\\left(\\frac{1}{x}\\right)=f(x)$\n\n(2) $\\left(1+\\frac{1}{x}\\right) f(x)=f(x+1)$\n",
+    "rawSha256": "483e3c3bc52c4080d506cbc87b598e86c55e9775c3373bdc4d7d937a56a8eed2",
+    "matchNormalizedSha256": "d31ce726addb38a0e110114805074e07732fdf9bb489c920b9bc32d4b75a8228",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:02",
+    "versionId": "v:bw:2003:02",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that any real solution of\n\n$$\nx^{3}+p x+q=0\n$$\n\nsatisfies the inequality $4 q x \\leq p^{2}$.\n",
+    "rawSha256": "6db49cdb8e81757da75b431899996e62fa9a7e8e9e3f596e1018a4cbb4978501",
+    "matchNormalizedSha256": "88e2ed50458f29f24c6a78bcb9eefb5dc085cdef65e11df3b48c178f30c50dfa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "2",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:03",
+    "versionId": "v:bw:2003:03",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x, y$ and $z$ be positive real numbers such that $x y z=1$. Prove that\n\n$$\n(1+x)(1+y)(1+z) \\geq 2\\left(1+\\sqrt[3]{\\frac{y}{x}}+\\sqrt[3]{\\frac{z}{y}}+\\sqrt[3]{\\frac{x}{z}}\\right)\n$$\n",
+    "rawSha256": "3816bdb235e67a871f649fdca12e7406d07766576a0fc63a4329f9ddde54e714",
+    "matchNormalizedSha256": "bdd62984450bc2b01a8953393a5f6272942a090192834b2caaa102d9a7e4ff11",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "3",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        4,
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:04",
+    "versionId": "v:bw:2003:04",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ be positive real numbers. Prove that\n\n$$\n\\frac{2 a}{a^{2}+b c}+\\frac{2 b}{b^{2}+c a}+\\frac{2 c}{c^{2}+a b} \\leq \\frac{a}{b c}+\\frac{b}{c a}+\\frac{c}{a b} .\n$$\n",
+    "rawSha256": "79330e269e0d803921fd8004bc92a923cf819ab24e11eee0cf07cc67115c7cb9",
+    "matchNormalizedSha256": "63ba41d96f0e57c8d78a7661c959b5c9206b5cee9f693d8c9a57142ecb78dcf0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "4",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        6,
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:05",
+    "versionId": "v:bw:2003:05",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A sequence $\\left(a_{n}\\right)$ is defined as follows: $a_{1}=\\sqrt{2}, a_{2}=2$, and $a_{n+1}=a_{n} a_{n-1}^{2}$ for $n \\geq 2$. Prove that for every $n \\geq 1$ we have\n\n$$\n\\left(1+a_{1}\\right)\\left(1+a_{2}\\right) \\cdots\\left(1+a_{n}\\right)<(2+\\sqrt{2}) a_{1} a_{2} \\cdots a_{n} .\n$$\n",
+    "rawSha256": "6bc630202163ac2afa4e1251e16d1375165814d05b923ad2028425e4a1dd10a4",
+    "matchNormalizedSha256": "1cebdaf4c32ad5361f085ea02e62882d3bc05a567ff6d7d830882b0d4be71fc9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:06",
+    "versionId": "v:bw:2003:06",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geq 2$ and $d \\geq 1$ be integers with $d \\mid n$, and let $x_{1}, x_{2}, \\ldots, x_{n}$ be real numbers such that $x_{1}+x_{2}+\\cdots+x_{n}=0$. Prove that there are at least $\\left(\\begin{array}{l}n-1 \\\\ d-1\\end{array}\\right)$ choices of $d$ indices $1 \\leq i_{1}<i_{2}<\\cdots<i_{d} \\leq n$ such that $x_{i_{1}}+x_{i_{2}}+\\cdots+x_{i_{d}} \\geq 0$.\n",
+    "rawSha256": "13e061f8e2a4f087cd34c05b0c1cb31698f8679c515fdd371c41dc807160bbcf",
+    "matchNormalizedSha256": "5b804cbb6b2e99d091c822e2fc9703badb3d18f9a158264bf0738284404954e5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:07",
+    "versionId": "v:bw:2003:07",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $X$ be a subset of $\\{1,2,3, \\ldots, 10000\\}$ with the following property: If $a, b \\in X, a \\neq b$, then $a \\cdot b \\notin X$. What is the maximal number of elements in $X$ ?\n",
+    "rawSha256": "4bb2506732f6cc290e90729a84d6fc0c94bffd924e9ce930d8cb581e6c2d6d5a",
+    "matchNormalizedSha256": "87fc873e5327a0efa86afbcbc62a8245d2d49803cf091466b7cf81f338707ac2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:08",
+    "versionId": "v:bw:2003:08",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are 2003 pieces of candy on a table. Two players alternately make moves. A move consists of eating one candy or half of the candies on the table (the \"lesser half\" if there is an odd number of candies); at least one candy must be eaten at each move. The loser is the one who eats the last candy. Which player - the first or the second - has a winning strategy?\n",
+    "rawSha256": "c70923ac248654b2e350480af576fa133f0de80d62878108fa9494bda16dc6e8",
+    "matchNormalizedSha256": "9f9923347c42bc774d7125e68f5796d9be2d2ac5b5eaa4c4f54e5b85fe953de1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:09",
+    "versionId": "v:bw:2003:09",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "It is known that $n$ is a positive integer, $n \\leq 144$. Ten questions of type \"Is $n$ smaller than a?\" are allowed. Answers are given with a delay: The answer to the $i$ 'th question is given only after the $(i+1)$ 'st question is asked, $i=1,2, \\ldots, 9$. The answer to the tenth question is given immediately after it is asked. Find a strategy for identifying $n$.\n",
+    "rawSha256": "4497c1a5eddd2cb811a487b35ce2f1f1b7d0ef419d93b5798573b6adb675e4c8",
+    "matchNormalizedSha256": "b960d19048fcd7708f163895a7f4ccec176f088334fd3dab0edecaae109e54e5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:10",
+    "versionId": "v:bw:2003:10",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A lattice point in the plane is a point whose coordinates are both integral. The centroid of four points $\\left(x_{i}, y_{i}\\right), i=1,2,3,4$, is the point $\\left(\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}, \\frac{y_{1}+y_{2}+y_{3}+y_{4}}{4}\\right)$. Let $n$ be the largest natural number with the following property: There are $n$ distinct lattice points in the plane such that the centroid of any four of them is not a lattice point. Prove that $n=12$.\n",
+    "rawSha256": "6a45c12adc4fff14761cb4fd4ecb782b511bad1c27aed9988e9a6947f8431277",
+    "matchNormalizedSha256": "4e444b3cd339d6f10a809728f4b8c849606ea98022246d4ce831cd8760b27fd9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:11",
+    "versionId": "v:bw:2003:11",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to select 1000 points in a plane so that at least 6000 distances between two of them are equal?\n",
+    "rawSha256": "23c5eaab2747d72de0e49161f11a7ae71442335e5865ce1fe058371c1741af6f",
+    "matchNormalizedSha256": "7a7477822a972cbf7377e626821a4a413a902c0cbfafe89dcf87df9f94650eb1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:12",
+    "versionId": "v:bw:2003:12",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a square. Let $M$ be an inner point on side $B C$ and $N$ be an inner point on side $C D$ with $\\angle M A N=45^{\\circ}$. Prove that the circumcentre of $A M N$ lies on $A C$.\n",
+    "rawSha256": "fe23fac7bcf4c4a1af23ac79844eb8f4b2bd44c491c632a85f9f2f900ca6614b",
+    "matchNormalizedSha256": "97534bb108d63952818f1d211473ddb2821e0732a6b273657266abbd841d8837",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:13",
+    "versionId": "v:bw:2003:13",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a rectangle and $B C=2 \\cdot A B$. Let $E$ be the midpoint of $B C$ and $P$ an arbitrary inner point of $A D$. Let $F$ and $G$ be the feet of perpendiculars drawn correspondingly from $A$ to $B P$ and from $D$ to $C P$. Prove that the points $E, F, P, G$ are concyclic.\n",
+    "rawSha256": "e9950127c3e052e88618ceec4993ab7b318359fdc8e5010695845245fec2aa22",
+    "matchNormalizedSha256": "24a5445a7d7c08fbde291c8059d2c90c9006bc320aa74db59e373861ab58562c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:14",
+    "versionId": "v:bw:2003:14",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an arbitrary triangle and $A M B, B N C, C K A$ regular triangles outward of $A B C$. Through the midpoint of $M N$ a perpendicular to $A C$ is constructed; similarly through the midpoints of $N K$ resp. KM perpendiculars to $A B$ resp. $B C$ are constructed. Prove that these three perpendiculars intersect at the same point.\n",
+    "rawSha256": "c93fd0edc387c8a01060be70e79d5cb8d4960ec66b29fdbc2d63fe68aee147d7",
+    "matchNormalizedSha256": "93978e7c3ddb14b7347d79a61bb2cfa56431814340e041f0710ea386b613d7cb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "14",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        17,
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:15",
+    "versionId": "v:bw:2003:15",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be the intersection point of the diagonals $A C$ and $B D$ in a cyclic quadrilateral. $A$ circle through $P$ touches the side $C D$ in the midpoint $M$ of this side and intersects the segments $B D$ and $A C$ in the points $Q$ and $R$, respectively. Let $S$ be a point on the segment $B D$ such that $B S=D Q$. The parallel to $A B$ through $S$ intersects $A C$ at $T$. Prove that $A T=R C$.\n",
+    "rawSha256": "a73f58cd48003c9c0ca4ffabac050978e6d2b4eb1e8b038872d3379eee52ba77",
+    "matchNormalizedSha256": "de480c158b2089711062f5e2f193f4425f2faa0f617eacce9b65cc752b7ef635",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:16",
+    "versionId": "v:bw:2003:16",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs of positive integers $(a, b)$ such that $a-b$ is a prime and $a b$ is a perfect square.\n",
+    "rawSha256": "4c62ad3f10add33f8b19028b76aaa5bc98b7dceb3ba2dee969b17d537c8940c1",
+    "matchNormalizedSha256": "38adf8d89e92f0dbd26ef3b5b7afcc1768a8adedac7bb635f3aab09827baad4b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:17",
+    "versionId": "v:bw:2003:17",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "All the positive divisors of a positive integer $n$ are stored into an array in increasing order. Mary has to write a program which decides for an arbitrarily chosen divisor $d>1$ whether it is a prime. Let $n$ have $k$ divisors not greater than $d$. Mary claims that it suffices to check divisibility of $d$ by the first $\\lceil k / 2\\rceil$ divisors of $n$ : If a divisor of $d$ greater than 1 is found among them, then $d$ is composite, otherwise d is prime. Is Mary right?\n",
+    "rawSha256": "489d3449fc02fc01d55b96f9bac7dc0fc71764d0b64811d1ba12e654ce81fb6f",
+    "matchNormalizedSha256": "178f7c54e51ccce6a388e5d0f527943968ad7dc0a9700d700942d4d247d36073",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:18",
+    "versionId": "v:bw:2003:18",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Every integer is coloured with exactly one of the colours BLUE, GREEN, RED, YELLOW. Can this be done in such a way that if $a, b, c, d$ are not all 0 and have the same colour, then $3 a-2 b \\neq 2 c-3 d$ ?\n",
+    "rawSha256": "2efa70f55b34fcc70bcf264257f7ec9b6c094a82a5c47283727277a13d131d22",
+    "matchNormalizedSha256": "6fbd23c2a3d1e369457a4bba2be864ecb371eba42b1bfc06fbfe052ae9255c23",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2003:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:19",
+    "versionId": "v:bw:2003:19",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a$ and $b$ be positive integers. Prove that if $a^{3}+b^{3}$ is the square of an integer, then $a+b$ is not a product of two different prime numbers.\n",
+    "rawSha256": "1b38d45b46c4e29b84e531987af8595e1a028a726b2193b68df5d7ca4240bdb4",
+    "matchNormalizedSha256": "8c8cec94c46f10ddb6893b4fce1f31d7fc9aef80b00451d418f136a61bfe6738",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        24
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2003:20",
+    "versionId": "v:bw:2003:20",
+    "officialSource": {
+      "sourceId": "bw-official:2003:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "c7233a6aa108b57f040a0fb388bd4950d884522edc58dc4f1df01c32db75dd98",
+      "sourceBytes": 51343,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer such that the sum of all the positive divisors of $n$ (except $n$ ) plus the number of these divisors is equal to $n$. Prove that $n=2 m^{2}$ for some integer $m$.\n",
+    "rawSha256": "ca8091e95a1152cd03869d363f7ac9738798e1558f32091039c9447d6e878e56",
+    "matchNormalizedSha256": "a724cbd19632c643d75ca92fc3dd11f0965718101f1f81b73b768e36ae3ef113",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw03sol.jsonl",
+      "fileSha256": "a4724eed0f238e6087ee11c3058c9432c4e2f92516921938c48446b0df66364b",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        25
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2003:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

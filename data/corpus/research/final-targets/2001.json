@@ -1,0 +1,860 @@
+[
+  {
+    "appearanceId": "bw:2001:01",
+    "versionId": "v:bw:2001:01",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A set of 8 problems was prepared for an examination. Each student was given 3 of them. No two students received more than one common problem. What is the largest possible number of students?\n",
+    "rawSha256": "f28f2773d09209f80a75a432a5a58a5c39d7a242762f0d2511d1afb74c90f647",
+    "matchNormalizedSha256": "755eba23ea3d188b7512cd0b74d5ec61269c705305e2c595d1acefff7d0284a3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:02",
+    "versionId": "v:bw:2001:02",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geqslant 2$ be a positive integer. Find whether there exist $n$ pairwise nonintersecting nonempty subsets of $\\{1,2,3, \\ldots\\}$ such that each positive integer can be expressed in a unique way as a sum of at most $n$ integers, all from different subsets.\n",
+    "rawSha256": "53c665067093e6b86c6a34cb13b23bd19b2296d92c07626b43f6bdf9ee83f470",
+    "matchNormalizedSha256": "9049ddf704ffc5094dfebfb33a158e35bf58a0b1b9cf952fbbba1d715e023728",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:03",
+    "versionId": "v:bw:2001:03",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The numbers $1,2, \\ldots, 49$ are placed in a $7 \\times 7$ array, and the sum of the numbers in each row and in each column is computed. Some of these 14 sums are odd while others are even. Let $A$ denote the sum of all the odd sums and $B$ the sum of all even sums. Is it possible that the numbers were placed in the array in such a way that $A=B$ ?\n",
+    "rawSha256": "169570e2b82bd8605a482ae3b00ed9abac053e0917a13908edd0133fd7c02218",
+    "matchNormalizedSha256": "c22a43ae6ee87206682bd02b0f528cbbc71fa764451674a5d6984b3576cb1194",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:04",
+    "versionId": "v:bw:2001:04",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ and $q$ be two different primes. Prove that\n\n$$\n\\left\\lfloor\\frac{p}{q}\\right\\rfloor+\\left\\lfloor\\frac{2 p}{q}\\right\\rfloor+\\left\\lfloor\\frac{3 p}{q}\\right\\rfloor+\\ldots+\\left\\lfloor\\frac{(q-1) p}{q}\\right\\rfloor=\\frac{1}{2}(p-1)(q-1) .\n$$\n\n(Here $\\lfloor x\\rfloor$ denotes the largest integer not greater than $x$.)\n",
+    "rawSha256": "f3fcf76bd1fb98feb09c9917735ed5915af46c6d4a58b15600fa8c7ab23d7462",
+    "matchNormalizedSha256": "c79b8321d8020d713b446b11cc1cafe4060722d89cb16159d279427691a42b16",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:05",
+    "versionId": "v:bw:2001:05",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let 2001 given points on a circle be colored either red or green. In one step all points are recolored simultaneously in the following way: If both direct neighbors of a point $P$ have the same color as $P$, then the color of $P$ remains unchanged, otherwise $P$ obtains the other color. Starting with the first coloring $F_{1}$, we obtain the colorings $F_{2}, F_{3}, \\ldots$ after several recoloring steps. Prove that there is a number $n_{0} \\leqslant 1000$ such that $F_{n_{0}}=F_{n_{0}+2}$. Is the assertion also true if 1000 is replaced by 999 ?\n",
+    "rawSha256": "a7eaa10ea4f57b5049afba63a6cdfc82edc176262fead9d657629be7e2905ef1",
+    "matchNormalizedSha256": "590535cad576846b88449c2baac89f7d08fea075c7d0e4e406aa5eb10c8d59f6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:06",
+    "versionId": "v:bw:2001:06",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The points $A, B, C, D, E$ lie on the circle $c$ in this order and satisfy $A B \\| E C$ and $A C \\| E D$. The line tangent to the circle $c$ at $E$ meets the line $A B$ at $P$. The lines $B D$ and $E C$ meet at $Q$. Prove that $|A C|=|P Q|$.\n",
+    "rawSha256": "becdcd4a8f9dd7f866d867ec515a210946fbc7ff948cffb0dfebc8cf7f75f580",
+    "matchNormalizedSha256": "76d8d6d40647eaff0c2472cbb8a879a6cfc656452937a6a069587b8d772aca4d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:07",
+    "versionId": "v:bw:2001:07",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a parallelogram $A B C D$. A circle passing through $A$ meets the line segments $A B, A C$ and $A D$ at inner points $M, K, N$, respectively. Prove that\n\n$$\n|A B| \\cdot|A M|+|A D| \\cdot|A N|=|A K| \\cdot|A C| .\n$$\n",
+    "rawSha256": "44f557be9d3ea52eb7623ed3306a6778d2ae219475106dfc4ec4b177d7267664",
+    "matchNormalizedSha256": "ed12bcbe5d982d54617f6239fab1d7afd937975983501453bc759712c603032a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:08",
+    "versionId": "v:bw:2001:08",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral, and let $N$ be the midpoint of $B C$. Suppose further that $\\angle A N D=135^{\\circ}$. Prove that\n\n$$\n|A B|+|C D|+\\frac{1}{\\sqrt{2}} \\cdot|B C| \\geqslant|A D|\n$$\n",
+    "rawSha256": "b3d6b67f5b2bef471f63273de5d88ea7ee13e66cc57c4ac2fa804106870e0eb9",
+    "matchNormalizedSha256": "bb9b5fe504f2c189b3d1b7c476888e1bd7c8d1251d0b3d14435eb0f45b1fcf82",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:09",
+    "versionId": "v:bw:2001:09",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a rhombus $A B C D$, find the locus of the points $P$ lying inside the rhombus and satisfying $\\angle A P D+\\angle B P C=180^{\\circ}$.\n",
+    "rawSha256": "597ccf3ac80fe5ce9e029c4973906269e6daea721f666fccecce40fda6bef301",
+    "matchNormalizedSha256": "9e16cb5ef8a980a976f7f1935b8ca981136ce2cfeeb6fcd79bbc6688a0f47580",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:10",
+    "versionId": "v:bw:2001:10",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a triangle $A B C$, the bisector of $\\angle B A C$ meets the side $B C$ at the point $D$. Knowing that $|B D| \\cdot|C D|=|A D|^{2}$ and $\\angle A D B=45^{\\circ}$, determine the angles of triangle $A B C$.\n",
+    "rawSha256": "3e1c02a1f8897d26e9e6a543771d6fa1f46d00a717f341ff7822465e5ce23c1a",
+    "matchNormalizedSha256": "07b7c2bd46129ef4a299c0938bef6d4c7c82a498b56c896f309aeccdc64f3635",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:11",
+    "versionId": "v:bw:2001:11",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The real-valued function $f$ is defined for all positive integers. For any integers $a>1, b>1$ with $d=\\operatorname{gcd}(a, b)$, we have\n\n$$\nf(a b)=f(d) \\cdot\\left(f\\left(\\frac{a}{d}\\right)+f\\left(\\frac{b}{d}\\right)\\right),\n$$\n\nDetermine all possible values of $f(2001)$.\n",
+    "rawSha256": "b648ee5ad47e559a28e6c5abd450c85f1e4fea591f69124d2127f0cbb5930f95",
+    "matchNormalizedSha256": "6d2c6f335d33d29270c46d37e158f66c5c605ef5b60bfbd12cd8d7ad43207ecd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:12",
+    "versionId": "v:bw:2001:12",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{1}, a_{2}, \\ldots, a_{n}$ be positive real numbers such that $\\sum_{i=1}^{n} a_{i}^{3}=3$ and $\\sum_{i=1}^{n} a_{i}^{5}=5$. Prove that $\\sum_{i=1}^{n} a_{i}>\\frac{3}{2}$.\n",
+    "rawSha256": "42f7904994c81b1fb54669412d34d7a23f793c47e041ad5d4700b07b9eeece9d",
+    "matchNormalizedSha256": "ac399d080ac68ba7d8f80decc78396358f6ecb0c04033bee4fbafc65ac075359",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:13",
+    "versionId": "v:bw:2001:13",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}, a_{1}, a_{2}, \\ldots$ be a sequence of real numbers satisfying $a_{0}=1$ and $a_{n}=a_{\\lfloor 7 n / 9\\rfloor}+a_{\\lfloor n / 9\\rfloor}$ for $n=1,2, \\ldots$ Prove that there exists a positive integer $k$ with $a_{k}<\\frac{k}{2001 !}$.\n\n(Here $\\lfloor x\\rfloor$ denotes the largest integer not greater than $x$.)\n",
+    "rawSha256": "6710bac58f6f60b6329a4d1b4f6ef9cd68467c5c513ec5ccff504f1e813c0671",
+    "matchNormalizedSha256": "464a142925db365b59ca0b865270b6c87bd4e06bfce975112c26edf490b5b13d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:14",
+    "versionId": "v:bw:2001:14",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are $2 n$ cards. On each card some real number $x, 1 \\leqslant x \\leqslant 2$, is written (there can be different numbers on different cards). Prove that\nthe cards can be divided into two heaps with sums $s_{1}$ and $s_{2}$ so that $\\frac{n}{n+1} \\leqslant \\frac{s_{1}}{s_{2}} \\leqslant 1$.\n",
+    "rawSha256": "e952a6470c1a737f12a170853032ceebe1351fa40d28444a89ce525df972d841",
+    "matchNormalizedSha256": "d7257e1b83bc02d41947f04b8ebc47a8febfd49cab371bc96aece9787ba2afd4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:15",
+    "versionId": "v:bw:2001:15",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}, a_{1}, a_{2}, \\ldots$ be a sequence of positive real numbers satisfying $i \\cdot a_{i}^{2} \\geqslant(i+1) \\cdot a_{i-1} a_{i+1}$ for $i=1,2, \\ldots$ Furthermore, let $x$ and $y$ be positive reals, and let $b_{i}=x a_{i}+y a_{i-1}$ for $i=1,2, \\ldots$ Prove that the inequality $i \\cdot b_{i}^{2}>(i+1) \\cdot b_{i-1} b_{i+1}$ holds for all integers $i \\geqslant 2$.\n",
+    "rawSha256": "2cdcee89578a924b47587e202aa97ae3f3972b3b799ef1c012fd926e0a91aeb6",
+    "matchNormalizedSha256": "430ce3dfef2dba8e9e9690922404caa671ff1f47d00d37164728c8ed52f8de46",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:16",
+    "versionId": "v:bw:2001:16",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $f$ be a real-valued function defined on the positive integers satisfying the following condition: For all $n>1$ there exists a prime divisor $p$ of $n$ such that\n\n$$\nf(n)=f\\left(\\frac{n}{p}\\right)-f(p)\n$$\n\nGiven that $f(2001)=1$, what is the value of $f(2002)$ ?\n",
+    "rawSha256": "ac223beec253a85ba4211bfa28d2ddce5b5e5d3b50934e16ceb4ce6b5a2c59cb",
+    "matchNormalizedSha256": "7f6d579234fc124e737b7204b7f78357d23e3e3b15f789a8ee6aa75fcce140fe",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:17",
+    "versionId": "v:bw:2001:17",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Prove that at least $2^{n-1}+n$ numbers can be chosen from the set $\\left\\{1,2,3, \\ldots, 2^{n}\\right\\}$ such that for any two different chosen numbers $x$ and $y, x+y$ is not a divisor of $x \\cdot y$.\n",
+    "rawSha256": "f2147771b640ecc6193ed03b0ceda0662fd3a69be959fa0847b96c81bad60334",
+    "matchNormalizedSha256": "16c62c9f1005fb47f22d3a4151bf05ba6e1d11f26a7622ad89dab64ef2d495ba",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:18",
+    "versionId": "v:bw:2001:18",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a$ be an odd integer. Prove that $a^{2^{n}}+2^{2^{n}}$ and $a^{2^{m}}+2^{2^{m}}$ are relatively prime for all positive integers $n$ and $m$ with $n \\neq m$.\n",
+    "rawSha256": "96e6ed35cd222b54c5e731799c328758b35c3724d1079de77cf6650a662029e4",
+    "matchNormalizedSha256": "ae44af95d92dce6b50223e5570248e2e0e5a4780b9f3c439d762f21645f7860e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:19",
+    "versionId": "v:bw:2001:19",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "What is the smallest positive odd integer having the same number of positive divisors as 360 ?\n",
+    "rawSha256": "ec1a6ce0ec8fb537d33fc0be56884589daba4743598b8a1305b6e5cce0677231",
+    "matchNormalizedSha256": "04a370df6c7752ecfe5059d90dd6b5a1f5d03ce417e6ac9d620a06813bcdebc9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw01sol.jsonl",
+      "fileSha256": "714339434f0b90de58fdbf613fa3d65871f24f68729639c3a446a2b1220579ea",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2001:20",
+    "versionId": "v:bw:2001:20",
+    "officialSource": {
+      "sourceId": "bw-official:2001:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "56e74c8d1f506964b71c5f1c4cd188aa3376dbb69f02c365407d61004eb9b925",
+      "sourceBytes": 77526,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "From a sequence of integers $(a, b, c, d)$ each of the sequences\n\n$$\n(c, d, a, b),(b, a, d, c),(a+n c, b+n d, c, d),(a+n b, b, c+n d, d),\n$$\n\nfor arbitrary integer $n$ can be obtained by one step. Is it possible to obtain $(3,4,5,7)$ from $(1,2,3,4)$ through a sequence of such steps?\n",
+    "rawSha256": "62cde90cc9a70ca43006c9c82142c87ba7561a6004ef35cceb43c8063942a39d",
+    "matchNormalizedSha256": "5ed9c5850201cc47050c0c01b1dcb9a6396d5920bc024eb5f0e2a53b365bd2c7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2001:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2001:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

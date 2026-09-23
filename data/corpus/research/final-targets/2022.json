@@ -1,0 +1,828 @@
+[
+  {
+    "appearanceId": "bw:2022:01",
+    "versionId": "v:bw:2022:01",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $\\mathbb R^+$ denote the set of positive real numbers. Assume that $f:\\mathbb R^+\\to\\mathbb R^+$ is a function satisfying the equations\n\n$$\nf(x^3)=f(x)^3\\qquad\\text{and}\\qquad f(2x)=f(x)\n$$\n\nfor all $x\\in\\mathbb R^+$. Find all possible values of $f\\!\\left(\\sqrt[2022]{2}\\right)$.\n",
+    "rawSha256": "aa7a12ed248f394da990ee3701a542209e41d65d2b571cf7f00a4e81db1571e6",
+    "matchNormalizedSha256": "b09dd5c464516e2f9c8a4d75db3a86b03e3bc057f20dc84fe1546e8e7d8e34a2",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:02",
+    "versionId": "v:bw:2022:02",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "We define a sequence of natural numbers by the initial values $a_0=a_1=a_2=1$ and the recursion\n\n$$\na_n=\\left\\lfloor\\frac{n}{a_{n-1}a_{n-2}a_{n-3}}\\right\\rfloor\n$$\n\nfor all $n\\ge3$. Find the value of $a_{2022}$.\n",
+    "rawSha256": "1c297e0ac1ed67b3f88ed4bb34f6a2f17585a67700c121694502146258e44824",
+    "matchNormalizedSha256": "ea86922e3a272690b8ea9cbb463777723f3b291dbfd72c80ab60df9549b39254",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:03",
+    "versionId": "v:bw:2022:03",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "We call a two-variable polynomial $P(x,y)$ secretly one-variable if there exist polynomials $Q(x)$ and $R(x,y)$ such that $\\deg(Q)\\ge2$ and $P(x,y)=Q(R(x,y))$ (e.g. $x^2+1$ and $x^2y^2+1$ are secretly one-variable, but $xy+1$ is not).\n\nProve or disprove the following statement: If $P(x,y)$ is a polynomial such that both $P(x,y)$ and $P(x,y)+1$ can be written as the product of two non-constant polynomials, then $P$ is secretly one-variable.\n\nNote: All polynomials are assumed to have real coefficients.\n",
+    "rawSha256": "96f6e4963dc7e38821df7c9b61b99a52b8bfb0aa5d664d3e0b0b6e4f35b39f7d",
+    "matchNormalizedSha256": "b06f479945e83c9f7823c8ad7bde11a2c90ad85a6eb82c4a51770026f9cc5642",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:04",
+    "versionId": "v:bw:2022:04",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The positive real numbers $x,y,z$ satisfy $xy+yz+zx=1$. Prove that\n\n$$\n2(x^2+y^2+z^2)+\\frac43\\left(\\frac1{x^2+1}+\\frac1{y^2+1}+\\frac1{z^2+1}\\right)\\ge5.\n$$\n",
+    "rawSha256": "bba6c3c22bcbc33af7f7543708a1e90a312ccf480352bb8309855decf1d9f458",
+    "matchNormalizedSha256": "baace1378724d9eb36e5763e892d8e89625fd8f78b824e79e1ff30b5310302a8",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:05",
+    "versionId": "v:bw:2022:05",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $\\mathbb R$ denote the set of real numbers. Determine all functions $f:\\mathbb R\\to\\mathbb R$ such that $f(0)+1=f(1)$, and for any real numbers $x$ and $y$,\n\n$$\nf(xy-x)+f(x+f(y))=yf(x)+3.\n$$\n",
+    "rawSha256": "f0c11d321d7baa363d7c9a662cbdcf957ef42862b4031b75521bfeb5de60526d",
+    "matchNormalizedSha256": "efbe0f8308f3315ff45d4d7c47604da0d6a755707c3b5bbc4a15ee8087d734f0",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:06",
+    "versionId": "v:bw:2022:06",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Mattis is hosting a badminton tournament for 40 players on 20 courts numbered from 1 to 20. The players are distributed with 2 players on each court. In each round a winner is determined on each court. Afterwards, the player who lost on court 1, and the player who won on court 20 stay in place. For the remaining 38 players, the winner on court $i$ moves to court $i+1$ and the loser moves to court $i-1$. The tournament continues until every player has played every other player at least once. What is the minimal number of rounds the tournament can last?\n",
+    "rawSha256": "09221588fcd1a76a35b4932db61ecd9cece5e431bfce7f85c7af5e40a58c2980",
+    "matchNormalizedSha256": "922104aa002205dca39f342b5150af6e6176a07f28bd0e4ca999ac66d0e30c27",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:07",
+    "versionId": "v:bw:2022:07",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The writer Arthur has $n\\ge1$ co-authors who write books with him. Each book has a list of authors including Arthur himself. No two books have the same set of authors. At a party with all his co-authors, each co-author writes on a note how many books they remember having written with Arthur. Inspecting the numbers on the notes, they discover that the numbers written down are the first $n$ Fibonacci numbers (defined by $F_1=F_2=1$ and $F_{k+2}=F_{k+1}+F_k$). For which $n$ is it possible that none of the co-authors had a lapse of memory?\n",
+    "rawSha256": "b1fa778d8f506fc8516d617f2f40ebb89d6c69eb2deacb0876713168e07cd020",
+    "matchNormalizedSha256": "3d989eaa9fdea615d7356bf9637b2a844632b71a36dace74174ad563469e1434",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:08",
+    "versionId": "v:bw:2022:08",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For a natural number $n\\ge3$, we draw $n-3$ internal diagonals in a non self-intersecting, but not necessarily convex, $n$-gon, cutting the $n$-gon into $n-2$ triangles. It is known that the value (in degrees) of any angle in any of these triangles is a natural number and no two of these angle values are equal. What is the largest possible value of $n$?\n",
+    "rawSha256": "9dfba6fa958ee9365d1e3acfa8b3c3f52d9217945e2247e195caf95928c27c70",
+    "matchNormalizedSha256": "01c18a45f08fe9d80909d714a6ac13cb6f249418a30c5d8e03fcf692d015259e",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:09",
+    "versionId": "v:bw:2022:09",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Five elders are sitting around a large bonfire. They know that Oluf will put a hat of one of four colours (red, green, blue or yellow) on each elder's head, and after a short time for silent reflection each elder will have to write down one of the four colours on a piece of paper. Each elder will only be able to see the colour of their two neighbours' hats, not that of their own nor that of the remaining two elders' hats, and they also cannot communicate after Oluf starts putting the hats on.\n\nShow that the elders can devise a strategy ahead of time so that at most two elders will end up writing down the colour of their own hat.\n",
+    "rawSha256": "0f357fca976f813259b1cf66fdfda37e02d82294e91f64c44da8a1c207501bd4",
+    "matchNormalizedSha256": "d166cc3431fa812d530a059b37cd27677498be3dca2027d284c2031c758edb32",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:10",
+    "versionId": "v:bw:2022:10",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A natural number $a$ is said to be contained in the natural number $b$ if it is possible to obtain $a$ by erasing some digits from $b$ (in their decimal representations). For example, 123 is contained in 901523, but not contained in 3412.\n\nDoes there exist an infinite set of natural numbers such that no number in the set is contained in any other number from the set?\n",
+    "rawSha256": "9f303abe111b47e5cb7a1bc275d50d27ad64cacde86addeee3f7c7601783a7c2",
+    "matchNormalizedSha256": "7bea4e41e84ae76a3c67c29ae24d6193ca74fb57bf1380cf562c31cc6c42ecbe",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:11",
+    "versionId": "v:bw:2022:11",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABC$ be a triangle with circumcircle $\\Gamma$ and circumcentre $O$. The circle with centre on the line $AB$ and passing through the points $A$ and $O$ intersects $\\Gamma$ again in $D$. Similarly, the circle with centre on the line $AC$ and passing through the points $A$ and $O$ intersects $\\Gamma$ again in $E$. Prove that $BD$ is parallel with $CE$.\n",
+    "rawSha256": "28eb874bbe2e286a7cef0fb25c905477caeecce9ca58ce23715d2f480479d120",
+    "matchNormalizedSha256": "32d441de807001386f7f69b2e95d57325019b5eb50f04e8b3aa33f53d1382048",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:12",
+    "versionId": "v:bw:2022:12",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "An acute-angled triangle $ABC$ has altitudes $AD,BE$ and $CF$ (where $D,E$ and $F$ lie on the sides $BC,CA$ and $AB$, respectively). Let $Q$ be an interior point of the segment $AD$, and let the circumcircles of the triangles $QDF$ and $QDE$ meet the line $BC$ again at points $X$ and $Y$, respectively. Prove that $BX=CY$.\n",
+    "rawSha256": "d719779ee6af05878744b089e90eb59e9065261869ee018d1a359306c1be7e8f",
+    "matchNormalizedSha256": "b42891b768ab15cb8bcdc2b042e7abb4cc35dec722b00ed9a024f192394b5a7e",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:13",
+    "versionId": "v:bw:2022:13",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABCD$ be a cyclic quadrilateral with $AB<BC$ and $AD<DC$. Let $E$ and $F$ be points on the sides $BC$ and $CD$, respectively, such that $AB=BE$ and $AD=DF$. Let further $M$ denote the midpoint of the segment $EF$. Prove that $\\angle BMD=90^\\circ$.\n",
+    "rawSha256": "4c0f385cca467ddaf7b1b08d0a22c2e32a8b7e0fe5117403c46c6db38ad4239f",
+    "matchNormalizedSha256": "127f30fd0cd6d122c2a5c107433ba67cf0aa4ea447f0962560d6acc433585e33",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:14",
+    "versionId": "v:bw:2022:14",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $\\Gamma$ denote the circumcircle and $O$ the circumcentre of the acute-angled triangle $ABC$, and let $M$ be the midpoint of the segment $BC$.\n\nLet $T$ be the second intersection point of $\\Gamma$ and the line $AM$, and $D$ the second intersection point of $\\Gamma$ and the altitude from $A$. Let further $X$ be the intersection point of the lines $DT$ and $BC$. Let $P$ be the circumcentre of the triangle $XDM$. Prove that the circumcircle of the triangle $OPD$ passes through the midpoint of $XD$.\n",
+    "rawSha256": "43f69686a18ae79d1def03c08d788577450310dc87e9f6286109d958a93ed2a7",
+    "matchNormalizedSha256": "8c6cf08266f9d15b3f2935c255770c213263e3a4e2ff48b09cb88d6797a3a9e3",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:15",
+    "versionId": "v:bw:2022:15",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $\\Omega$ be a circle, and $B\\ne C$ two fixed points on $\\Omega$. Given a third point $A$ on $\\Omega$, let $X$ and $Y$ denote the feet of the altitudes from $B$ and $C$, respectively, in the triangle $ABC$. Prove that there exists a circle $\\Gamma$ such that $XY$ is tangent to $\\Gamma$ regardless of the choice of the point $A$.\n",
+    "rawSha256": "d77412f22968ba15aa9c52b75b56880545d1bddadb672dc94882e0a16901ec33",
+    "matchNormalizedSha256": "1a4f9b768f67debb89173070f921979411709e0dc9405201c4aab67ec7eaa715",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:16",
+    "versionId": "v:bw:2022:16",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $\\mathbb Z^+$ denote the set of positive integers. Find all functions $f:\\mathbb Z^+\\to\\mathbb Z^+$ satisfying the condition\n\n$$\nf(a)+f(b)\\mid(a+b)^2\n$$\n\nfor all $a,b\\in\\mathbb Z^+$.\n",
+    "rawSha256": "8782c58a98a8ecbc64f19df060eb9d621ea3145ae9b4f765fa943a5b89b7e4c5",
+    "matchNormalizedSha256": "e7c02934f91022e5ace694678f9a4990d011126dd13e8aef61bc8dd1dccb3cd2",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:17",
+    "versionId": "v:bw:2022:17",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $n$ be a positive integer such that the sum of its positive divisors is at least $2022n$. Prove that $n$ has at least 2022 distinct prime factors.\n",
+    "rawSha256": "3df4bfa33ab21ae938105faae5783b75287af8b2e7fa446467b5eeb88b802f5a",
+    "matchNormalizedSha256": "fe1d203f2c795ba9b893fed58840abfaba7f571a028cbd5472a33754a386f497",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:18",
+    "versionId": "v:bw:2022:18",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Find all pairs $(a,b)$ of positive integers such that $a\\le b$ and\n\n$$\n\\gcd(x,a)\\gcd(x,b)=\\gcd(x,20)\\gcd(x,22)\n$$\n\nholds for every positive integer $x$.\n",
+    "rawSha256": "24ae6f66370b386ddfeb9b4520f7e4b93cf1bccf27cb1e1801e2d36416323784",
+    "matchNormalizedSha256": "2a211a7f6ca9a7980fa27fe4e1633be86d9da90a2fb3e2aae30a5fce9c50c1c8",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:19",
+    "versionId": "v:bw:2022:19",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Find all triples $(x,y,z)$ of nonnegative integers such that\n\n$$\nx^5+x^4+1=3^y7^z.\n$$\n",
+    "rawSha256": "cbe326442ef56467ec75678d5670651be6d28f72faf1b92e78d0f1e155a3f0e3",
+    "matchNormalizedSha256": "6c5b4bed6d12d5ca0025cca3dcaab664899033de4de4cd7f8fa076b3aa3535c0",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2022:20",
+    "versionId": "v:bw:2022:20",
+    "officialSource": {
+      "sourceId": "bw-official:2022:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "36e2e43ecca82f812e09fde75053901e13ac69081513e35fcbc0db8f9a5fb2d4",
+      "sourceBytes": 126264,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Ingrid and Erik are playing a game. For a given odd prime $p$, the numbers $1,2,3,\\ldots,p-1$ are written on a blackboard. The players take turns making moves with Ingrid starting. A move consists of one of the players crossing out a number on the board that has not yet been crossed out. If the product of all currently crossed out numbers is $1\\pmod p$ after the move, the player whose move it was receives one point, otherwise zero points are awarded. The game ends after all numbers have been crossed out.\n\nThe player who has received the most points by the end of the game wins. If both players have the same score, the game ends in a draw. For each $p$, determine which player (if any) has a winning strategy.\n",
+    "rawSha256": "b2a30f2b5803ac18ce7b4b77c0a8b0fdece08d2c00f6d76a806514d0bb63b55f",
+    "matchNormalizedSha256": "d0791c830d05a16af12926e8dc21ddc9f3685f95d6999eb36f21a623ad3cc6aa",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2022:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2022:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,837 @@
+[
+  {
+    "appearanceId": "bw:2009:01",
+    "versionId": "v:bw:2009:01",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A monic polynomial $p(x)$ of degree $n\\ge2$ has exactly $n$ real roots, counted with multiplicity. We know that the coefficient of $x^n$ is 1, all the roots are less than or equal to 1, and $p(2)=3^n$. What values can $p(1)$ take?\n",
+    "rawSha256": "86665594d65ac259a92a22e7210910e8dbd7eb6ca13ad08e7362cf081f7574f9",
+    "matchNormalizedSha256": "29eb650462d29a7da949858a3f0f1adc3d42c9910b59fa75078ab86f3375be57",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:02",
+    "versionId": "v:bw:2009:02",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a_1,a_2,\\ldots,a_{100}$ be nonnegative integers satisfying the inequality\n\n$$\n\\begin{aligned}\n&a_1(a_1-1)\\cdots(a_1-20)+a_2(a_2-1)\\cdots(a_2-20)+\\cdots\\\\\n&\\qquad +a_{100}(a_{100}-1)\\cdots(a_{100}-20)\\le100\\cdot99\\cdot98\\cdots79.\n\\end{aligned}\n$$\n\nProve that $a_1+a_2+\\cdots+a_{100}\\le9900$.\n",
+    "rawSha256": "2f5dc5c86a5b931e59a5bfa43a4ff3fa1ccd44aaaaad9a5c848355bca2c2a2fe",
+    "matchNormalizedSha256": "51a54ff96dcaa5acb887af5e668bec646a7288061f908f11083b770937ef9a98",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:03",
+    "versionId": "v:bw:2009:03",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $n$ be a given positive integer. Show that we can choose numbers $c_k\\in\\{-1,1\\}$ $(1\\le k\\le n)$ such that\n\n$$\n0\\le \\sum_{k=1}^n c_k k^2\\le4.\n$$\n",
+    "rawSha256": "55793232cdf94f7248ce519ab4656e068317525354e8d36adaa9da29a1a6e547",
+    "matchNormalizedSha256": "d53f301563b60764e322eade261289a534f0dcfa5aee4b48b8d4fd5957060073",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:04",
+    "versionId": "v:bw:2009:04",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all integers $n>1$ for which the inequality\n\n$$\nx_1^2+x_2^2+\\cdots+x_n^2\\ge(x_1+x_2+\\cdots+x_{n-1})x_n\n$$\n\nholds for all real $x_1,x_2,\\ldots,x_n$.\n",
+    "rawSha256": "06dfbee3672668bc6cebe0af9e02d86f9b469e80b8edef610d42ca33a9e4be77",
+    "matchNormalizedSha256": "02ac0ceeb97745eb79808b003869c4eacb86a305cc9c51bc9bb46cb820d03337",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:05",
+    "versionId": "v:bw:2009:05",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $f_0=f_1=1$ and $f_{i+2}=f_{i+1}+f_i$ $(i\\ge0)$. Find all real solutions of the equation\n\n$$\nx^{2010}=f_{2009}x+f_{2008}.\n$$\n",
+    "rawSha256": "a251b39f16a7ba5d76e23e9eb47538bf58d2d5af7e713c323db545af127cfe84",
+    "matchNormalizedSha256": "d0d11ac39e67454ab72b92c928da29fcc0fd0570b9e9cae55d50cf2a82dd9c15",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:06",
+    "versionId": "v:bw:2009:06",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a$ and $b$ be integers such that the equation $x^3-ax^2-b=0$ has three integer roots. Prove that $b=dk^2$, where $d$ and $k$ are integers and $d$ divides $a$.\n",
+    "rawSha256": "df6dae6f108259a8d34d1c1ae51018d22530b1da346f28b2a54756feb8717e85",
+    "matchNormalizedSha256": "36de8d273da77ba5a2adb7380c22e4a928a87e4400e66b21eb5d8aee32b92a0e",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:07",
+    "versionId": "v:bw:2009:07",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Suppose that for a prime number $p$ and integers $a,b,c$ the following holds:\n\n$$\n6\\mid p+1,\\qquad p\\mid a+b+c,\\qquad p\\mid a^4+b^4+c^4.\n$$\n\nProve that $p\\mid a,b,c$.\n",
+    "rawSha256": "b2d85e0affe98b8652802218b408a24a0d1b0e1775324399ae7a1b83d967cb7d",
+    "matchNormalizedSha256": "9d326d1eaf4137906d88764c8c67074fa4b0a1683bab0897fe88405e4460267b",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:08",
+    "versionId": "v:bw:2009:08",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all positive integers $n$ for which there exists a partition of the set\n\n$$\n\\{n,n+1,n+2,\\ldots,n+8\\}\n$$\n\ninto two subsets such that the product of all elements of the first subset is equal to the product of all elements of the second subset.\n",
+    "rawSha256": "7b01a6846c27423b1fb80badd4ac72aad293fde297ab5d4288a4055d283525f5",
+    "matchNormalizedSha256": "9f8a43d18ebec1e2384f3d4f61550c62ee5a8db95ac2c6c70c3f2d086efd39b9",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:09",
+    "versionId": "v:bw:2009:09",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all positive integers $n$ for which $2^{n+1}-n^2$ is a prime number.\n",
+    "rawSha256": "b20f7902bca6643eeb474520aec81597b9924d1b2be4174242d535d8340b58ef",
+    "matchNormalizedSha256": "06e6fb08adda2fadfa436919f889455d3ba15d5cf50b15421349927bf1738834",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:10",
+    "versionId": "v:bw:2009:10",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $d(k)$ denote the number of positive divisors of a positive integer $k$. Prove that there exist infinitely many positive integers $M$ that cannot be written as\n\n$$\nM=\\left(\\frac{2\\sqrt n}{d(n)}\\right)^2\n$$\n\nfor any positive integer $n$.\n",
+    "rawSha256": "df715e3f3b9ef3fd4b78dfd5de0f5b5368a0b8449bf20958c0f7f978518b1800",
+    "matchNormalizedSha256": "a1658ffeb27fa55185e99d40ad9d628e21337173a162ae66c10e08b41024b543",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:11",
+    "versionId": "v:bw:2009:11",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $M$ be the midpoint of the side $AC$ of a triangle $ABC$, and let $K$ be a point on the ray $BA$ beyond $A$. The line $KM$ intersects the side $BC$ at the point $L$. $P$ is the point on the segment $BM$ such that $PM$ is the bisector of the angle $LPK$. The line $\\ell$ passes through $A$ and is parallel to $BM$. Prove that the projection of the point $M$ onto the line $\\ell$ belongs to the line $PK$.\n",
+    "rawSha256": "e8aabfab807f13736901b1106a7c39933efe29814563019182c65afc9bbc7e2b",
+    "matchNormalizedSha256": "59d74d653c8cfed88a9b66f17c88b6ef89c24a35eeeb4ade524fe66e62c5e15f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:12",
+    "versionId": "v:bw:2009:12",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In a quadrilateral $ABCD$ we have $AB\\parallel CD$ and $AB=2CD$. A line $\\ell$ is perpendicular to $CD$ and contains the point $C$. The circle with centre $D$ and radius $DA$ intersects the line $\\ell$ at points $P$ and $Q$. Prove that $AP\\perp BQ$.\n",
+    "rawSha256": "5ac763af561d605c81fcafedf5bd2c38e25aca3ef4ec3665331ad869aed8b630",
+    "matchNormalizedSha256": "0572b34f92d616b3b263068aa8a95fd8ef2594c667d6943e40f7900efc2a5f63",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:13",
+    "versionId": "v:bw:2009:13",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The point $H$ is the orthocentre of a triangle $ABC$, and the segments $AD,BE,CF$ are its altitudes. The points $I_1,I_2,I_3$ are the incentres of the triangles $EHF,FHD,DHE$, respectively. Prove that the lines $AI_1,BI_2,CI_3$ intersect at a single point.\n",
+    "rawSha256": "1fec0426ab1586505af6c075fbbb2ce2e596ac45fb6f0f59ec371999bddf361e",
+    "matchNormalizedSha256": "f9807fc96bead4e36463b372f277839d19833a292fb6929df0598e13a38ba163",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:14",
+    "versionId": "v:bw:2009:14",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For which $n\\ge2$ is it possible to find $n$ pairwise non-similar triangles $A_1,A_2,\\ldots,A_n$ such that each of them can be divided into $n$ pairwise non-similar triangles, each of them similar to one of $A_1,A_2,\\ldots,A_n$?\n",
+    "rawSha256": "38324611a838b3cd2ff6a34c91fe1a95981a52237a030d8559dbc425394b07ac",
+    "matchNormalizedSha256": "75c7728c02b40278352ea45db96251b6f41670f40c196fbfaeed522705f662ca",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:15",
+    "versionId": "v:bw:2009:15",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A unit square is cut into $m$ quadrilaterals $Q_1,\\ldots,Q_m$. For each $i=1,\\ldots,m$ let $S_i$ be the sum of the squares of the four sides of $Q_i$. Prove that\n\n$$\nS_1+\\cdots+S_m\\ge4.\n$$\n",
+    "rawSha256": "fd235fa3afc38663ea64a2e7fe0e98d413678cc59756b7c5f62ee9e4cb18506f",
+    "matchNormalizedSha256": "3ae24253181f9e97884d6072292929abd801a3d3e64324f4e71f8d97569de7fe",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:16",
+    "versionId": "v:bw:2009:16",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "An $n$-trønder walk is a walk starting at $(0,0)$, ending at $(2n,0)$ with no self intersection and not leaving the first quadrant, where every step is one of the vectors $(1,1)$, $(1,-1)$ or $(-1,1)$. (The figure shows the possible 2-trønder walks.)\n\n![Figure 1](figure:1)\n\nFind the number of $n$-trønder walks.\n",
+    "rawSha256": "924fd923867faa7c9b7e915234739c3d33e3cef81cb5c0870337fb9dc7ac048f",
+    "matchNormalizedSha256": "eeab8a30030882e4893fa65d65c507b8ac16831a6601de0cf1f80e95091a1138",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:2009:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "The three example 2-trønder walks shown with Problem 16."
+      }
+    ],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:17",
+    "versionId": "v:bw:2009:17",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Find the largest integer $n$ for which there exist $n$ different integers such that none of them are divisible by either of 7, 11, and 13, but the sum of any two of them is divisible by at least one of 7, 11, and 13.\n",
+    "rawSha256": "5dfe8de55992cd762f819c831716c42d4c2727ef83b73f01cafc82c54eb5f727",
+    "matchNormalizedSha256": "11ec8c0ad22896409bc4682ff0caa228d387201dbf5dc43b61f5425ecff3fdac",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:18",
+    "versionId": "v:bw:2009:18",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $n>2$ be an integer. In a country there are $n$ cities and every two of them are connected by a direct road. Each road is assigned an integer from the set $\\{1,2,\\ldots,m\\}$ (different roads may be assigned the same number). The priority of a city is the sum of the numbers assigned to roads which lead to it. Find the smallest $m$ for which it is possible that all cities have a different priority.\n",
+    "rawSha256": "1630ae38b7470f199d8d3a712cbdcc843b93b30980d9169826fee88264d15178",
+    "matchNormalizedSha256": "929bcad9d8939fe4ead5e6a54bc4d49e183cf266e3d7080504f5a0e0936c97cc",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:19",
+    "versionId": "v:bw:2009:19",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In a party of eight persons, each pair of persons either know each other or do not know each other. Each person knows exactly three of the others. Determine whether the following two conditions can be satisfied simultaneously:\n\n- for any three persons, at least two do not know each other;\n- for any four persons there are at least two who know each other.\n",
+    "rawSha256": "1aef8a8b087f79dd06f6308c9f5242ed64913868a629739bd96f6859a9d68efe",
+    "matchNormalizedSha256": "bd23fd401daefeccf25bb53ccadca6c018da92df00fc9ce4b7745b9875935c4f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2009:20",
+    "versionId": "v:bw:2009:20",
+    "officialSource": {
+      "sourceId": "bw-official:2009:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "1b2358180e5211d52a76bfe9504d03102f3c5ee333ec207ffa8a4a83359fada4",
+      "sourceBytes": 51051,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In the future city Baltic Way there are sixteen hospitals. Every night exactly four of them must be on duty for emergencies. Is it possible to arrange the schedule in such a way that after twenty nights every pair of hospitals have been on common duty exactly once?\n",
+    "rawSha256": "79a668b6081a3cdd9f0d58afd9a1be750e04b92d711899f56c3a67b857448c1d",
+    "matchNormalizedSha256": "2ce19d6c7272833d1bc2d4814f49aebb0793261b51f2cfc22d04ed3232265b6e",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2009:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2009:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

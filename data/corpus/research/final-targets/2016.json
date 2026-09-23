@@ -1,0 +1,863 @@
+[
+  {
+    "appearanceId": "bw:2016:01",
+    "versionId": "v:bw:2016:01",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs of primes $(p, q)$ such that\n\n$$\np^{3}-q^{5}=(p+q)^{2} .\n$$\n",
+    "rawSha256": "8f46919f574a986190fb6355fdd1cf47320f23010ad33c3745a208d4497f7a54",
+    "matchNormalizedSha256": "2cfeaff6398a567b7be0e22e3f7f79d9b36dfefbc8995fcad2d2729c59d30e80",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:02",
+    "versionId": "v:bw:2016:02",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove or disprove the following hypotheses.\n\na) For all $k \\geq 2$, each sequence of $k$ consecutive positive integers contains a number that is not divisible by any prime number less than $k$.\n\nb) For all $k \\geq 2$, each sequence of $k$ consecutive positive integers contains a number that is relatively prime to all other members of the sequence.\n",
+    "rawSha256": "30f12ccdb9c64f00a24a8d61b6e0cc9e9690a0abb140dc3b9ee7925b92fc387c",
+    "matchNormalizedSha256": "2c8c924feaf309ca97778a56caea51e76f8e2d89c6ba4b0bf2f04981c292bea7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:03",
+    "versionId": "v:bw:2016:03",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For which integers $n=1, \\ldots, 6$ does the equation\n\n$$\na^{n}+b^{n}=c^{n}+n\n$$\n\nhave a solution in integers?\n",
+    "rawSha256": "52bc3430178dfa7caee7f0d047d968421d88a9a2efe7333de79152d6aaadbe30",
+    "matchNormalizedSha256": "2b19e6bacb3204159b42eea0ae70ec3b4c7c4838b4817f89586480f5992794e7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:04",
+    "versionId": "v:bw:2016:04",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer and let $a, b, c, d$ be integers such that $n \\mid a+b+c+d$ and $n \\mid a^{2}+b^{2}+c^{2}+d^{2}$. Show that\n\n$$\nn \\mid a^{4}+b^{4}+c^{4}+d^{4}+4 a b c d .\n$$\n",
+    "rawSha256": "0216df0ae4f848da5e87a2e23193bf8bf4799ba18183eff058fe4dfad0c399cb",
+    "matchNormalizedSha256": "93f3b8f5fdc48745b8592d08a8712f882eff3f66f2323243233e4a824562ea50",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "4",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        4,
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:05",
+    "versionId": "v:bw:2016:05",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p>3$ be a prime such that $p \\equiv 3(\\bmod 4)$. Given a positive integer $a_{0}$, define the sequence $a_{0}, a_{1}, \\ldots$ of integers by $a_{n}=a_{n-1}^{2^{n}}$ for all $n=1,2, \\ldots$ Prove that it is possible to choose $a_{0}$ such that the subsequence $a_{N}, a_{N+1}, a_{N+2}, \\ldots$ is not constant modulo $p$ for any positive integer $N$.\n",
+    "rawSha256": "0fd29b338a08fe810019510ee31b8436c5abb08e1c2e3713090c33b720dd0baf",
+    "matchNormalizedSha256": "63584c73c8645d19527a2d7d5cd00bea6bc0d797ff359dc00400d3436718dd57",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:06",
+    "versionId": "v:bw:2016:06",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The set $\\{1,2, \\ldots, 10\\}$ is partitioned into three subsets $A, B$ and $C$. For each subset the sum of its elements, the product of its elements and the sum of the digits of all its elements are calculated. Is it possible that $A$ alone has the largest sum of elements, $B$ alone has the largest product of elements, and $C$ alone has the largest sum of digits?\n",
+    "rawSha256": "14d35b7498be93994c104144c74757e3dadd343af25b5d38aa5820d6587b900a",
+    "matchNormalizedSha256": "f49733e8636087ddfd4d034a42d0ec886ec9634d67b3555a9d92a7d060067ac5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:07",
+    "versionId": "v:bw:2016:07",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all positive integers $n$ for which\n\n$$\n3 x^{n}+n(x+2)-3 \\geq n x^{2}\n$$\n\nholds for all real numbers $x$.\n",
+    "rawSha256": "c8bc28c043784ee1d07059f6f6dfef27e2951318e06d253779833352b4e3785c",
+    "matchNormalizedSha256": "e8b69d52ce0bc54160990078d4c6ae070741631ff6364fe41b890c055c209130",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:08",
+    "versionId": "v:bw:2016:08",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all real numbers a for which there exists a non-constant function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ satisfying the following two equations for all $x \\in \\mathbb{R}$ :\ni) $\\quad f(a x)=a^{2} f(x)$ and\n\nii) $f(f(x))=a f(x)$.\n",
+    "rawSha256": "8e89764dedc072613c38fae6499cbd2069489813a035b7d5990f9ff21c132e2a",
+    "matchNormalizedSha256": "bf519f1dbee9762cf1233e64670c2bbdc810879dd46c30749a3be7f6e9b4ff0e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:09",
+    "versionId": "v:bw:2016:09",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all quadruples $(a, b, c, d)$ of real numbers that simultaneously satisfy the following equations:\n\n$$\n\\left\\{\\begin{aligned}\na^{3}+c^{3} & =2 \\\\\na^{2} b+c^{2} d & =0 \\\\\nb^{3}+d^{3} & =1 \\\\\na b^{2}+c d^{2} & =-6\n\\end{aligned}\\right.\n$$\n",
+    "rawSha256": "878fc5f8c23d5cf3c5af4c350414b465b0d90a5fc175c74015002228e50c41db",
+    "matchNormalizedSha256": "77845b2b09a3b194c5bd7f567ed57cadc8266688c114da80c7c1d5007f4d2f9b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "9",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        10,
+        11,
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:10",
+    "versionId": "v:bw:2016:10",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0,1}, a_{0,2}, \\ldots, a_{0,2016}$ be positive real numbers. For $n \\geq 0$ and $1 \\leq k<2016$ set\n\n$$\na_{n+1, k}=a_{n, k}+\\frac{1}{2 a_{n, k+1}} \\quad \\text { and } \\quad a_{n+1,2016}=a_{n, 2016}+\\frac{1}{2 a_{n, 1}} .\n$$\n\nShow that $\\max _{1 \\leq k \\leq 2016} a_{2016, k}>44$.\n",
+    "rawSha256": "796ec1db5976db6921bd94f7650d48c7b7b2f6fba432f84cd5c3d9ff215d5f30",
+    "matchNormalizedSha256": "67b0e762efb51cb9899a7cf0b6b5be549a03556a758ab6e875530555646b5399",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:11",
+    "versionId": "v:bw:2016:11",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The set $A$ consists of 2016 positive integers. All prime divisors of these numbers are smaller than 30. Prove that there are four distinct numbers $a, b, c$ and $d$ in $A$ such that abcd is a perfect square.\n",
+    "rawSha256": "63b39d2c0f62287ab6cd83a9be623c7fb4e2bc4a74c1b59ff018a2839875947d",
+    "matchNormalizedSha256": "7f31693702795a694674c6ae11abe988697ed7f8178dedca5ae130c5abaa12eb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:12",
+    "versionId": "v:bw:2016:12",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a hexagon (not necessarily convex) with side lengths 1, 2, 3, 4, 5, 6 (not necessarily in this order) that can be tiled with a) 31 b) 32 equilateral triangles with side length 1 ?\n",
+    "rawSha256": "0cc7091b5717f1d75720286020f68658bbe5a9649492ed3aa65bb089a77332c6",
+    "matchNormalizedSha256": "c58776653da181915ccefe5f687394d7b529985339016dd31dfe10a3fab43523",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:13",
+    "versionId": "v:bw:2016:13",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ numbers all equal to 1 be written on a blackboard. A move consists of replacing two numbers on\n\nthe board with two copies of their sum. It happens that after $h$ moves all $n$ numbers on the blackboard are equal to $m$. Prove that $h \\leq \\frac{1}{2} n \\log _{2} m$.\n",
+    "rawSha256": "cb4c4290d0bc0d3d0c501f166dcfb9bc0c8582b2687a942c745e3e784270214a",
+    "matchNormalizedSha256": "4542993acaad2d00f1b7392494416ec8789ace7bcf9bd650aa40e40ce6c90036",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2016:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:14",
+    "versionId": "v:bw:2016:14",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A cube consists of $4^{3}$ unit cubes each containing an integer. At each move, you choose a unit cube and increase by 1 all the integers in the neighbouring cubes having a face in common with the chosen cube. Is it possible to reach a position where all the $4^{3}$ integers are divisible by 3 , no matter what the starting position is?\n",
+    "rawSha256": "e7bebfef297fb27140a5416a59353cc0642837cd75168fdd86fde7d8f82cba6d",
+    "matchNormalizedSha256": "27e1df87c6044335ef5309c6bdf7ebb7c7e578e6807f73b82ad2195547cf55af",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:15",
+    "versionId": "v:bw:2016:15",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The Baltic Sea has 2016 harbours. There are two-way ferry connections between some of them. It is impossible to make a sequence of direct voyages $C_{1}-C_{2}-\\cdots-C_{1062}$ where all the harbours $C_{1}, \\ldots, C_{1062}$ are distinct. Prove that there exist two disjoint sets $A$ and $B$ of 477 harbours each, such that there is no harbour in $A$ with a direct ferry connection to a harbour in $B$.\n",
+    "rawSha256": "934c8390919cfa6829cfd525e9b9e472af94a8387de756f2387451a350f50eec",
+    "matchNormalizedSha256": "65fb416bf461d7ec0a8f4fcacc5d68faa7379d2c0a6243ff9e7cb00ff7b6b17d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:16",
+    "versionId": "v:bw:2016:16",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In triangle $A B C$, the points $D$ and $E$ are the intersections of the angular bisectors from $C$ and $B$ with the sides $A B$ and $A C$, respectively. Points $F$ and $G$ on the extensions of $A B$ and $A C$ beyond $B$ and $C$, respectively, satisfy $B F=C G=B C$. Prove that $F G \\| D E$.\n",
+    "rawSha256": "8f0200d81ee2453431973c81201f5ab05e49af9233803cbfb73a8d6d7bf3e010",
+    "matchNormalizedSha256": "bee36a99b6716f2dbe824841d14a855b6784a23ddd077e3d2b9ada9c94b1a720",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:17",
+    "versionId": "v:bw:2016:17",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral with $A B=A D$. Let $T$ be a point on the diagonal $A C$ such that $\\angle A B T+\\angle A D T=\\angle B C D$. Prove that $A T+A C \\geq A B+A D$.\n",
+    "rawSha256": "4a4c39879b1c64961c6b6f8ec40839ac3e2f72b7843521f5b84839fe34addc4f",
+    "matchNormalizedSha256": "96c9e80fe01273269ec309a0e8934a611e3324cd57c01b1547dadf0b62bb8f6c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:18",
+    "versionId": "v:bw:2016:18",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a parallelogram such that $\\angle B A D=60^{\\circ}$. Let $K$ and $L$ be the midpoints of $B C$ and $C D$, respectively. Assuming that $A B K L$ is a cyclic quadrilateral, find $\\angle A B D$.\n",
+    "rawSha256": "484a4c976272b23df4dc3f16d385d366cb1121d8a8841df6ab1cd2c52dc47d52",
+    "matchNormalizedSha256": "f31df8d06f891e17e9447f147169dc4da142f1c3bbd1732b38b04007ea7d98e2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:19",
+    "versionId": "v:bw:2016:19",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider triangles in the plane where each vertex has integer coordinates. Such a triangle can be legally transformed by moving one vertex parallel to the opposite side to a different point with integer coordinates. Show that if two triangles have the same area, then there exists a series of legal transformations that transforms one to the other.\n",
+    "rawSha256": "219dfcdafb4a25b36c4c2b26e3f845cbc57a4beed705fe21cd4d04dace04c19c",
+    "matchNormalizedSha256": "4ed2c3e50fdcd44992a14a743fe8f7bf46fd83cc44cdf404f2839d3a688bcae3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2016:20",
+    "versionId": "v:bw:2016:20",
+    "officialSource": {
+      "sourceId": "bw-official:2016:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "26ffdbe730eaeddd1c1df6613c5086197541c5f8b9f3cd1efd08efdd0c845f4b",
+      "sourceBytes": 313523,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a cyclic quadrilateral with $A B$ and $C D$ not parallel. Let $M$ be the midpoint of $C D$. Let $P$ be a point inside $A B C D$ such that $P A=P B=C M$. Prove that $A B, C D$ and the perpendicular bisector of $M P$ are concurrent.\n",
+    "rawSha256": "f7ad028c87c17781e12bb9068c2eb25aade9330cee81f7ee3567291aa3620e09",
+    "matchNormalizedSha256": "b3240f7dd29779dae7f9c0b182ac56fe9afdae3699de9da6fcfb52dfa9fed3a6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw16sol.jsonl",
+      "fileSha256": "929d77201402029cafb449a9916b03dcd0f24fea3c424f87d2e00d1025911b01",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        23
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2016:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

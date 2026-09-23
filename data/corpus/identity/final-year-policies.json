@@ -1,0 +1,1032 @@
+[
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "kind": "explicit-per-appearance"
+    },
+    "evidence": [
+      {
+        "kind": "curated-classification",
+        "note": "BW26 editorial A/N/C/G classification; official results/domain tables are unavailable before 1992. Each problem was reviewed by mathematical subject.",
+        "source": {
+          "locator": "Problems 1-19",
+          "sourceId": "bw-official:1990:problems"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 19
+    },
+    "year": 1990
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "kind": "explicit-per-appearance"
+    },
+    "evidence": [
+      {
+        "kind": "curated-classification",
+        "note": "BW26 editorial A/N/C/G classification; official results/domain tables are unavailable before 1992. Each problem was reviewed by mathematical subject.",
+        "source": {
+          "locator": "Problems 1-20",
+          "sourceId": "bw-official:1991:problems"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1991
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "N",
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1992:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1992
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "N",
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1993:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1993
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "G",
+        "C"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1994:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1994
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "N",
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1995:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1995
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "G",
+        "N",
+        "A",
+        "C"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1996:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1996
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "G",
+        "C"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1997:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1997
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "N",
+        "A",
+        "G",
+        "C"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1998:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1998
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:1999:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 1999
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "G",
+        "C",
+        "N",
+        "A"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2000:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2000
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "C",
+        "G",
+        "A",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2001:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2001
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2002:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2002
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2003:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2003
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2004:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2004
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2005:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2005
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2006:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2006
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2007:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2007
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2008:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2008
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "N",
+        "G",
+        "C"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2009:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2009
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2010:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2010
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2011:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2011
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2012:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2012
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2013:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2013
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2014:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2014
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2015:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2015
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "N",
+        "A",
+        "C",
+        "G"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2016:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2016
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2017:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2017
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2018:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2018
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2019:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2019
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2020:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2020
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2021:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2021
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2022:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2022
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2023:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2023
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2024:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2024
+  },
+  {
+    "acceptance": "frozen",
+    "domains": {
+      "blockSize": 5,
+      "kind": "block-order",
+      "order": [
+        "A",
+        "C",
+        "G",
+        "N"
+      ]
+    },
+    "evidence": [
+      {
+        "kind": "section-order",
+        "note": "Historical domain recovered from official results section order.",
+        "source": {
+          "locator": "official subject-section order",
+          "sourceId": "bw-official:2025:results"
+        }
+      }
+    ],
+    "numbering": {
+      "from": 1,
+      "kind": "range",
+      "to": 20
+    },
+    "year": 2025
+  }
+]

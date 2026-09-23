@@ -1,0 +1,833 @@
+[
+  {
+    "appearanceId": "bw:1990:01",
+    "versionId": "v:bw:1990:01",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Integers $1,2, \\ldots, n$ are written (in some order) on the circumference of a circle. What is the smallest possible sum of moduli of the differences of neighbouring numbers?\n",
+    "rawSha256": "3adcd50f557832d2f5e03a8ba3ac66b32cc704c7cceda4232579ff9acc4757ad",
+    "matchNormalizedSha256": "74e2e6e594bf32ffb41c86174148e7de18a5ab3334ad9f5fd3c375106112cc9c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:02",
+    "versionId": "v:bw:1990:02",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The squares of a squared paper are enumerated as follows:\n\n![Figure 1](figure:1)\n\nDevise a polynomial $p(m, n)$ of two variables $m, n$ such that for any positive integers $m$ and $n$ the number written in the square with coordinates $(m, n)$ will be equal to $p(m, n)$.\n",
+    "rawSha256": "a49d3e2291780420e18c9e0eb3781670b004d30ea6f02c82d06e063ce7592379",
+    "matchNormalizedSha256": "d4bb9255545830f8e9e973c633280f23d37db6017c5e9058746402590c9c7039",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:1990:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Enumeration diagram is part of the statement."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:03",
+    "versionId": "v:bw:1990:03",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}>0, c>0$ and\n\n$$\na_{n+1}=\\frac{a_{n}+c}{1-a_{n} c}, \\quad n=0,1, \\ldots\n$$\n\nIs it possible that the first 1990 terms $a_{0}, a_{1}, \\ldots, a_{1989}$ are all positive but $a_{1990}<0$ ?\n",
+    "rawSha256": "a6641eefe213f6ebcb6bea1e20f9c969f2be3c62e5a56f7f55feb6bab2944c59",
+    "matchNormalizedSha256": "3a200229bbe7d4b5710bcc2db6a407d15647d1c3e6511a289fa3435cb7505ec7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:04",
+    "versionId": "v:bw:1990:04",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that, for any real $a_{1}, a_{2}, \\ldots, a_{n}$,\n\n$$\n\\sum_{i, j=1}^{n} \\frac{a_{i} a_{j}}{i+j-1} \\geq 0\n$$\n",
+    "rawSha256": "cf28976c8c900afea680351472e0258774836d311063b58d5adef0b13d9baeeb",
+    "matchNormalizedSha256": "f48bf24d3497748bb65b7a2172cde98fbc21d8f16f6fbf2b6de6d058542929b9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:05",
+    "versionId": "v:bw:1990:05",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $*$ denote an operation, assigning a real number $a * b$ to each pair of real numbers ( $a, b)$ (e.g., $a * b=$ $a+b^{2}-17$ ). Devise an equation which is true (for all possible values of variables) provided the operation $*$ is commutative or associative and which can be false otherwise.\n",
+    "rawSha256": "eeabe312d262c17876518f6c00d512a7a24bffc2ebe2d24d80ce419633e8db0d",
+    "matchNormalizedSha256": "28644cc6df41be6f0bba2761ec8d35315081af674833017de479ad80a3c582f2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:06",
+    "versionId": "v:bw:1990:06",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a quadrangle, $|A D|=|B C|, \\angle A+\\angle B=120^{\\circ}$ and let $P$ be a point exterior to the quadrangle such that $P$ and $A$ lie at opposite sides of the line $D C$ and the triangle $D P C$ is equilateral. Prove that the triangle $A P B$ is also equilateral.\n",
+    "rawSha256": "41107376532b0e992e7604dd9ec542e22ab6be0831f5d3b5f26e68e86526dbdc",
+    "matchNormalizedSha256": "cf48e74cc63a91ed3b36cb63ab16c46bbf0e62d854d54b53735919bd15609eef",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:07",
+    "versionId": "v:bw:1990:07",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The midpoint of each side of a convex pentagon is connected by a segment with the intersection point of the medians of the triangle formed by the remaining three vertices of the pentagon. Prove that all five such segments intersect at one point.\n",
+    "rawSha256": "806683dd64f95556fd4ee31eb18868e4fa81198e1100f61586ce16c2748eeebd",
+    "matchNormalizedSha256": "a45e1992bf59602d47db991c1c9bf077c91fb5321817a9a6f673cb784720fc1d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:08",
+    "versionId": "v:bw:1990:08",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be a point on the circumcircle of a triangle $A B C$. It is known that the base points of the perpendiculars drawn from $P$ onto the lines $A B, B C$ and $C A$ lie on one straight line (called a Simson line). Prove that the Simson lines of two diametrically opposite points $P_{1}$ and $P_{2}$ are perpendicular.\n",
+    "rawSha256": "f08d8a484a07687e0ab376c8bdc2597603d5ad1607d5a54173e1e52fff9950f5",
+    "matchNormalizedSha256": "e6ad1c305ab2d0b489468a8b0a19f62c6f4c79f6bd28b9dc390029e2811cec3d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:09",
+    "versionId": "v:bw:1990:09",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two equal triangles are inscribed into an ellipse. Are they necessarily symmetrical with respect either to the axes or to the centre of the ellipse?\n",
+    "rawSha256": "d3663b80dff529cc4230386d904999467e68c1c03bd7c140d87046c75cfcec36",
+    "matchNormalizedSha256": "ee3d2c37d227a26c0ebdfc7b79cc1fc89d7d3e84685c280f42cf56ddb0914ba3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:10",
+    "versionId": "v:bw:1990:10",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A segment $A B$ of unit length is marked on the straight line $t$. The segment is then moved on the plane so that it remains parallel to $t$ at all times, the traces of the points $A$ and $B$ do not intersect and finally the segment returns onto $t$. How far can the point $A$ now be from its initial position?\n",
+    "rawSha256": "b9cc44e21e26763d108bbecf7c0f78b387ffee60907f0b4eee1481fe51ec3e63",
+    "matchNormalizedSha256": "a0ca09c0057af71fc61e209358a464cc30261968395cc2d800965bc40e69d0b7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:11",
+    "versionId": "v:bw:1990:11",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that the modulus of an integer root of a polynomial with integer coefficients cannot exceed the maximum of the moduli of the coefficients.\n",
+    "rawSha256": "3c9fed92fb072e26da16c49f6e7c7a8d5cbf5973a1c98bc0e94cb809e3170f55",
+    "matchNormalizedSha256": "e523cd26d72b27912e92ede4b97e49f072288ceaf0619864a0246c8fa662f810",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:12",
+    "versionId": "v:bw:1990:12",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $m$ and $n$ be positive integers. Prove that $25 m+3 n$ is divisible by 83 if and only if $3 m+7 n$ is divisible by 83 .\n",
+    "rawSha256": "e0508dd819f14e22ac0898d367961aaf7fb2d4f3773a2ea3da5a0db412a5f3a6",
+    "matchNormalizedSha256": "625ddff6987d18f13872a5d8f2492d11d417692f6a40261a744f571e31e96008",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:13",
+    "versionId": "v:bw:1990:13",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that the equation $x^{2}-7 y^{2}=1$ has infinitely many solutions in natural numbers.\n",
+    "rawSha256": "686c3c77d76a5df37e4421b9d2a6c83b97dfa31ef0550fe860384ee68929f1db",
+    "matchNormalizedSha256": "1dca4b4e23a765ef95d7ab4e17f60812cdc84a36928f69bb8227e41b01b395fc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:14",
+    "versionId": "v:bw:1990:14",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Do there exist 1990 relatively prime numbers such that all possible sums of two or more of these numbers are composite numbers?\n",
+    "rawSha256": "563c563d758ef18ba368d31d7e6956df89cb61becb85c1b4fdaacf822b0ed040",
+    "matchNormalizedSha256": "5f5af2d0ecd07698b94dc4a8a1190cf1eb0284adba92f7d4a35262a53a654b03",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:15",
+    "versionId": "v:bw:1990:15",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that none of the numbers\n\n$$\nF_{n}=2^{2^{n}}+1, \\quad n=0,1,2, \\ldots,\n$$\n\nis a cube of an integer.\n",
+    "rawSha256": "39ed512d5dbea581f9e90a2043c478553f8cc6c975276db41503dd1b56fd8183",
+    "matchNormalizedSha256": "97555e0c20b52077ede9cbea5ce2e19c62a3363526314a4e18392524c597c3c7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:16",
+    "versionId": "v:bw:1990:16",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A closed polygonal line is drawn on squared paper so that its links lie on the lines of the paper (the sides of the squares are equal to 1). The lengths of all links are odd numbers. Prove that the number of links is divisible by 4 .\n",
+    "rawSha256": "366214c88d31f5097fea3167c9c3efaf1f5f31ed622e8fe409fb5b5d0eec164d",
+    "matchNormalizedSha256": "e8765bb041bfda2fce3e338087d53b77b50b98199084f0ab052a85a2e19785a0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:17",
+    "versionId": "v:bw:1990:17",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In two piles there are 72 and 30 sweets respectively. Two students take, one after another, some sweets from one of the piles. Each time the number of sweets taken from a pile must be an integer multiple of the number of sweets in the other pile. Is it the beginner of the game or his adversary who can always assure taking the last sweet from one of the piles?\n",
+    "rawSha256": "7e9113c6c9edf7efe46d97caba37c80374acb18b576622abe05dfdb40dcd32dd",
+    "matchNormalizedSha256": "020acff01f1a76352875c246ff3434728aa9599d48df613e11cd941635fb3712",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:18",
+    "versionId": "v:bw:1990:18",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Positive integers $1,2, \\ldots, 100,101$ are written in the cells of a $101 \\times 101$ square grid so that each number is repeated 101 times. Prove that there exists either a column or a row containing at least 11 different numbers.\n",
+    "rawSha256": "74950397979b8fcfe553b5066dc9aa9ed33b88bac12cc10c523a81ee6e2e96b9",
+    "matchNormalizedSha256": "d462a6542b4709363165df4d490ae7369d047518096fb85723ed65045248841f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1990:19",
+    "versionId": "v:bw:1990:19",
+    "officialSource": {
+      "sourceId": "bw-official:1990:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "ac28c75a727178f3f3f7dc7f37cdf728eaa78c0e11a948160490aa2258528aa3",
+      "sourceBytes": 33894,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "What is the largest possible number of subsets of the set $\\{1,2, \\ldots, 2 n+1\\}$ such that the intersection of any two subsets consists of one or several consecutive integers?\n",
+    "rawSha256": "6cd33e7a4859b079034e745d8898e4c883ccb97c66957fc01ef2c80ce7a7cbcf",
+    "matchNormalizedSha256": "b67b46b3bfbfb456d538a238711ec9cb3b09a951764bd600720f2397af2678c0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw90sol.jsonl",
+      "fileSha256": "ed3af213682bc2fa7f650c5ccd9c5c8adb1e414cebfebe7c923bd99ee593154f",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1990:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

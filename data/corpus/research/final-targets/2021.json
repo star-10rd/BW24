@@ -1,0 +1,865 @@
+[
+  {
+    "appearanceId": "bw:2021:01",
+    "versionId": "v:bw:2021:01",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ that satisfy the equation\n\n$$\n(f(x))^{n} f(x+y)=(f(x))^{n+1}+x^{n} f(y)\n$$\n\nfor all $x, y \\in \\mathbb{R}$.\n",
+    "rawSha256": "ad62246c6d0c49feb01d7f8dfc2a17ffc0b7673ce7a663194cc9ddc1d9faba6a",
+    "matchNormalizedSha256": "c2ed28047c8136eca4456a70dcc95c235f8e7d38df82a8d93ff3879f49a75c19",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:02",
+    "versionId": "v:bw:2021:02",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ be the side lengths of a triangle. Prove that\n\n$$\n\\sqrt[3]{\\left(a^{2}+b c\\right)\\left(b^{2}+c a\\right)\\left(c^{2}+a b\\right)}>\\frac{a^{2}+b^{2}+c^{2}}{2} .\n$$\n",
+    "rawSha256": "354e56d7b9dd326688d55927ad594f17387c563f0d03cfc74fb1cb6fe3b0818f",
+    "matchNormalizedSha256": "d2396314c6e757a787224f571a7e110c11aa9bff7e6b598db9125b7992338a17",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:03",
+    "versionId": "v:bw:2021:03",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all infinite sequences $\\left(a_{1}, a_{2}, \\ldots\\right)$ of positive integers satisfying\n\n$$\na_{n+1}^{2}=1+(n+2021) a_{n}\n$$\n\nfor all $n \\geq 1$.\n",
+    "rawSha256": "0e809d121a6ef112b8664fef6ad4ba84b34b7c49136d6ccc3479238d1dcc79bf",
+    "matchNormalizedSha256": "7ba90bc3403d4563bbf495523c9bda79857abdce6ca415c08f5fed269d6626af",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2021:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:04",
+    "versionId": "v:bw:2021:04",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\Gamma$ be a circle in the plane and $S$ be a point on $\\Gamma$. Mario and Luigi drive around the circle $\\Gamma$ with their go-karts. They both start at $S$ at the same time. They both drive for exactly 6 minutes at constant speed counterclockwise around the track. During these 6 minutes, Luigi makes exactly one lap around $\\Gamma$ while Mario, who is three times as fast, makes three laps.\n\nWhile Mario and Luigi drive their go-karts, Princess Daisy positions herself such that she is always exactly in the middle of the chord between them. When she reaches a point she has already visited, she marks it with a banana.\n\nHow many points in the plane, apart from $S$, are marked with a banana by the end of the race?\n",
+    "rawSha256": "5f7aa177b8c1ea9751710d050e5b04f13b6ec6dd05ea55f294417e28c7dba12e",
+    "matchNormalizedSha256": "00a820b7df52487c8b7f9da1f3c27669930d08a1a133c833295dbe8ab50a73a7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "4",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        4,
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:05",
+    "versionId": "v:bw:2021:05",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x, y \\in \\mathbb{R}$ be such that $x=y(3-y)^{2}$ and $y=x(3-x)^{2}$. Find all possible values of $x+y$.\n",
+    "rawSha256": "08987db67946d9fe07c87c10d7192bd09741b66aee6f9b4152549047af42b96d",
+    "matchNormalizedSha256": "df3b087d3e7af70d18688dfa85dfd966c28dcf6c13c7c30844143cc8ae2811f5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "5",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        6,
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:06",
+    "versionId": "v:bw:2021:06",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer and $t$ be a non-zero real number. Let $a_{1}, a_{2}, \\ldots, a_{2 n-1}$ be real numbers (not necessarily distinct). Prove that there exist distinct indices $i_{1}, i_{2}, \\ldots, i_{n}$ such that, for all $1 \\leq k, l \\leq n$, we have $a_{i_{k}}-a_{i_{l}} \\neq t$.\n",
+    "rawSha256": "30cd41a05fbb8bc333a52a97d451786c2acb1652d881b4dab5cd0cec729e7600",
+    "matchNormalizedSha256": "573bfe38ebe0a9fb88c7d9abc282b1d9b256dd6e143320b4ce239bf06399b97f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:07",
+    "versionId": "v:bw:2021:07",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n>2$ be an integer. Anna, Edda and Magni play a game on a hexagonal board tiled with regular hexagons, with $n$ tiles on each side. The figure shows a board with 5 tiles on each side. The central tile is marked.\nThe game begins with a stone on a tile in one corner of the board. Edda and Magni are on the same team, playing against Anna, and they win if the stone is on the central tile at the end of any player's turn. Anna, Edda and Magni take turns moving the stone: Anna begins, then Edda and then Magni, and so on.\n\nThe rules for each player's turn are:\n\n- Anna has to move the stone to an adjacent tile, in any direction.\n\n![Figure 1](figure:1)\n\n- Edda has to move the stone straight by two tiles in any of the 6 possible directions.\n- Magni has a choice of passing his turn, or moving the stone straight by three tiles in any of the 6 possible directions.\n\nFind all $n$ for which Edda and Magni have a winning strategy.\n",
+    "rawSha256": "ed548be93bfb6f440c7daf09ee2425c9c829a303286597bce304b559ee79e77a",
+    "matchNormalizedSha256": "358eaed44ec4d77d4f7b8eb68146d29c3985f0a506a098783590a0c7484d313b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2021:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:2021:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Example hexagonal board with 5 tiles on each side and marked centre."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:08",
+    "versionId": "v:bw:2021:08",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We are given a collection of $2^{2^{k}}$ coins, where $k$ is a non-negative integer. Exactly one coin is fake. We have an unlimited number of service dogs. One dog is sick but we do not know which one. A test consists of three steps: select some coins from the collection of all coins; choose a service dog; the dog smells all of the selected coins at once. A healthy dog will bark if and only if the fake coin is amongst them. Whether the sick dog will bark or not is random.\n\nDevise a strategy to find the fake coin, using at most $2^{k}+k+2$ tests, and prove that it works.\n",
+    "rawSha256": "2e4584eddc53593601137539b97a77a192a7020511c8fd1ce7515241733e1a09",
+    "matchNormalizedSha256": "7859f03368b6cf3da4023e46a76b5fab7cb1f7135054cf4fc14d36aa2313934c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:09",
+    "versionId": "v:bw:2021:09",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We are given 2021 points on a plane, no three of which are collinear. Among any 5 of these points, at least 4 lie on the same circle. Is it necessarily true that at least 2020 of the points lie on the same circle?\n",
+    "rawSha256": "2079d2639f6bcd4b8e2065fbb6f64bfe33e775877fa83546b3aba18d68e49092",
+    "matchNormalizedSha256": "b64b364e990ba44dfd74cdf7e7a9e2c01373cb90789ba2cd1c70d765ebfbc3f1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:10",
+    "versionId": "v:bw:2021:10",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "John has a string of paper where $n$ real numbers $a_{i} \\in[0,1]$, for all $i \\in\\{1, \\ldots, n\\}$, are written in a row. Show that for any given $k<n$, he can cut the string of paper into $k$ non-empty pieces, between adjacent numbers, in such a way that the sum of the numbers on each piece does not differ from any other sum by more than 1 .\n",
+    "rawSha256": "e840e855bb01d88c6133d2b90e273be017906ef03be1712b44635b112ddf35af",
+    "matchNormalizedSha256": "04e01b202fa8bf577007fd2fe3526a8b5d779fc39319eb5664914cd38003fbf0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2021:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:11",
+    "versionId": "v:bw:2021:11",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A point $P$ lies inside a triangle $A B C$. The points $K$ and $L$ are the projections of $P$ onto $A B$ and $A C$, respectively. The point $M$ lies on the line $B C$ so that $K M=L M$, and the point $P^{\\prime}$ is symmetric to $P$ with respect to $M$. Prove that $\\angle B A P=\\angle P^{\\prime} A C$.\n",
+    "rawSha256": "e64628667e2eb29ece4b905711d599fded48f7915f144c24afd522a95de8c29a",
+    "matchNormalizedSha256": "3201184c13152668641d08bb54628594b3a7d890f2b818cc2bb18c99a3a692ed",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2021:problems",
+      "officialPages": [
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:12",
+    "versionId": "v:bw:2021:12",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $I$ be the incentre of a triangle $A B C$. Let $F$ and $G$ be the projections of $A$ onto the lines $B I$ and $C I$, respectively. Rays $A F$ and $A G$ intersect the circumcircles of the triangles $C F I$ and $B G I$ for the second time at points $K$ and $L$, respectively. Prove that the line $A I$ bisects the segment $K L$.\n",
+    "rawSha256": "688f7afdba91356980b5c04076e23a32e29d4446a5b5188f0f77c22533906834",
+    "matchNormalizedSha256": "c6907f26b5e992623d01bc564ec6032cf9faef4dddf83559609e11a2c6bcb237",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:13",
+    "versionId": "v:bw:2021:13",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $D$ be the foot of the $A$-altitude of an acute triangle $A B C$. The internal bisector of the angle $D A C$ intersects $B C$ at $K$. Let $L$ be the projection of $K$ onto $A C$. Let $M$ be the intersection point of $B L$ and $A D$. Let $P$ be the intersection point of $M C$ and $D L$. Prove that $P K \\perp A B$.\n",
+    "rawSha256": "fb620c935a8e62055cc9453a7e59b6bd766a9753d5ab828af368bff5f80a81c9",
+    "matchNormalizedSha256": "6a58e87b606515b4321574f601c7307108a42f6c1ba3a4d6288c9b18f1c65b72",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "13",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        16,
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:14",
+    "versionId": "v:bw:2021:14",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with circumcircle $\\Gamma$ and circumcentre $O$. Denote by $M$ the midpoint of $B C$. The point $D$ is the reflection of $A$ over $B C$, and the point $E$ is the intersection of $\\Gamma$ and the ray $M D$. Let $S$ be the circumcentre of the triangle $A D E$. Prove that the points $A, E, M, O$, and $S$ lie on the same circle.\n",
+    "rawSha256": "45328ff54c1348ff2e85066beabcf588cd79296ce383b914a73fb3b329776573",
+    "matchNormalizedSha256": "56d70f2e584ac4a50bf7df291e33c3f310f8f78a15b67b873635861985cd5072",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:15",
+    "versionId": "v:bw:2021:15",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For which positive integers $n \\geq 4$ does there exist a convex $n$-gon with side lengths $1,2, \\ldots, n$ (in some order) and with all of its sides tangent to the same circle?\n",
+    "rawSha256": "8c2062742a6b6dae55ac2d66c6690a0e181baa69216469bd62bd383e7efa8d72",
+    "matchNormalizedSha256": "b7d6b5cbf64bc109e4c3529a79e5606874e13f23b44d5f890b288c03857f18c4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:16",
+    "versionId": "v:bw:2021:16",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that no non-zero integers $a, b, x, y$ satisfy\n\n$$\n\\left\\{\\begin{array}{l}\na x-b y=16, \\\\\na y+b x=1 .\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "6e490166e0fa085fedac53813e15897b9b198ccec816e957f8fa8b23d63bc3c9",
+    "matchNormalizedSha256": "e8a8fc6da610809fb9066979f94ad45926f33e1d80ece4286d2a8498704a9bb6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:17",
+    "versionId": "v:bw:2021:17",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Distinct positive integers $a, b, c, d$ satisfy\n\n$$\n\\left\\{\\begin{array}{l}\na \\mid b^{2}+c^{2}+d^{2}, \\\\\nb \\mid a^{2}+c^{2}+d^{2}, \\\\\nc \\mid a^{2}+b^{2}+d^{2}, \\\\\nd \\mid a^{2}+b^{2}+c^{2},\n\\end{array}\\right.\n$$\n\nand none of them is larger than the product of the three others. What is the largest possible number of primes among them?\n",
+    "rawSha256": "12599407301b94bed4e5576252cb46843a1ba87a86013010777d3a26d5fe1475",
+    "matchNormalizedSha256": "e5879bbade7732dc3e8ad47ee03a5d09d8e455322ab34549c9374f1e773495fa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:18",
+    "versionId": "v:bw:2021:18",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all integer triples $(a, b, c)$ satisfying the equation\n\n$$\n5 a^{2}+9 b^{2}=13 c^{2}\n$$\n",
+    "rawSha256": "518796ff81ee2d0433a055c9694ba605d4980bda75a513239afd3d11d9cb9553",
+    "matchNormalizedSha256": "94804c03dfda05a6d2c71ed03db52f3f20ad9812f9b9f6b447564198f33fcb7c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2021:problems",
+      "officialPages": [
+        3,
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          3,
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:19",
+    "versionId": "v:bw:2021:19",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all polynomials $p$ with integer coefficients such that the number $p(a)-p(b)$ is divisible by $a+b$ for all integers $a, b$, provided that $a+b \\neq 0$.\n",
+    "rawSha256": "9d5738b25eacac938cf55c2f68bed05204a70174184f9ff9009c80c323fdbf4b",
+    "matchNormalizedSha256": "913a6bba7d50a52c07cf0e4fca81adddc55d65cd4f825a92cdadf91fe8346c43",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        23
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2021:20",
+    "versionId": "v:bw:2021:20",
+    "officialSource": {
+      "sourceId": "bw-official:2021:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "4892f16ba8f53a9f33a1c4403a1dfe86aca02870401d8adefc9a07b830df87dd",
+      "sourceBytes": 220730,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geq 2$ be an integer. Given numbers $a_{1}, a_{2}, \\ldots, a_{n} \\in\\{1,2,3, \\ldots, 2 n\\}$ such that $\\operatorname{lcm}\\left(a_{i}, a_{j}\\right)>2 n$ for all $1 \\leq i<j \\leq n$, prove that\n\n$$\na_{1} a_{2} \\cdots a_{n} \\mid(n+1)(n+2) \\cdots(2 n-1)(2 n) .\n$$\n",
+    "rawSha256": "94a3720b5904e3c11a2667ccfaabbf68473987d8c7648012ac8bd2a2be1aa3a8",
+    "matchNormalizedSha256": "8aed11bc025096cc87f566033c3ff3a02caf0d11ba1c86ce7daf71dd3f218ab2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw21sol.jsonl",
+      "fileSha256": "6fb59ba46065c33ba154f77d3b0822533fb522e2135ce16fa52ca48733ab7f7d",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        24
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2021:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

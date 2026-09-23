@@ -1,0 +1,872 @@
+[
+  {
+    "appearanceId": "bw:1994:01",
+    "versionId": "v:bw:1994:01",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a \\circ b=a+b-a b$. Find all triples $(x, y, z)$ of integers such that $(x \\circ y) \\circ z+(y \\circ z) \\circ x+(z \\circ x) \\circ y=0$.\n",
+    "rawSha256": "fb115222b634501aeb64e3cacfe6122f3197b72d1e36b78aa3fd18dd6b9af56b",
+    "matchNormalizedSha256": "0f12cca2d214dba5edfe74d4cb4f9a4e40a0711c7f566e7bdbcfa99787d82248",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:02",
+    "versionId": "v:bw:1994:02",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{1}, a_{2}, \\ldots, a_{9}$ be any non-negative numbers such that $a_{1}=a_{9}=0$ and at least one of the numbers is non-zero. Prove that for some $i, 2 \\leq i \\leq 8$, the inequality $a_{i-1}+a_{i+1}<2 a_{i}$ holds. Will the statement remain true if we change the number 2 in the last inequality to $1.9 ?$\n",
+    "rawSha256": "bd4f1c917361dcfafd61dcef226e59ca37e1353d2e2e0c5291e47def2d4ac2b1",
+    "matchNormalizedSha256": "15fffbf1f54c70283734cfc5c1884afbd67c22ddc7942873af62de290ce576ba",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:03",
+    "versionId": "v:bw:1994:03",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the largest value of the expression\n\n$$\nx y+x \\sqrt{1-y^{2}}+y \\sqrt{1-x^{2}}-\\sqrt{\\left(1-x^{2}\\right)\\left(1-y^{2}\\right)}\n$$\n",
+    "rawSha256": "bed9d97b2c3a451b11fccd1862cb83faa9bbef0f15a3b6b3f7969e408d148d67",
+    "matchNormalizedSha256": "adcca364d43741dc2d0f0154099b6db69b95b0339ce935fa5c1114f7a3e60d01",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:04",
+    "versionId": "v:bw:1994:04",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is there an integer $n$ such that $\\sqrt{n-1}+\\sqrt{n+1}$ is a rational number?\n",
+    "rawSha256": "45064f5638b92d0e0506c476dc3800b7e8f50c34b12dc1915666f8562556210c",
+    "matchNormalizedSha256": "89fc00b57ee322efb7b45840fec32b5a89933f8ec474ded6cfe9cf5cfd750ed4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:05",
+    "versionId": "v:bw:1994:05",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p(x)$ be a polynomial with integer coefficients such that both equations $p(x)=1$ and $p(x)=3$ have integer solutions. Can the equation $p(x)=2$ have two different integer solutions?\n",
+    "rawSha256": "a681ef641dc22cb5b15be9190f2aa47de715a17c18cd8e65abd99f4e6be9f2b2",
+    "matchNormalizedSha256": "ab0b08efa31462cf698fe1bef4997214b7a419b95f7a37206204bc57820983c4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:06",
+    "versionId": "v:bw:1994:06",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that any irreducible fraction $\\frac{p}{q}$, where $p$ and $q$ are positive integers and $q$ is odd, is equal to a fraction $\\frac{n}{2^{k}-1}$ for some positive integers $n$ and $k$.\n",
+    "rawSha256": "9a9173899a8a71a862d2077a6331013dacf4456bee6a97c07f90914489c3ff5c",
+    "matchNormalizedSha256": "c7300892ff8c54ab898c049428244a19a2d235eee929ba607beb6806aa90d39c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:07",
+    "versionId": "v:bw:1994:07",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p>2$ be a prime number and $1+\\frac{1}{2^{3}}+\\frac{1}{3^{3}}+\\cdots+\\frac{1}{(p-1)^{3}}=\\frac{m}{n}$ where $m$ and $n$ are relatively prime. Show that $m$ is a multiple of $p$.\n",
+    "rawSha256": "138f1a12955edae9b79dc2afbc0348745f775210751834a1b0317c26dbf2116d",
+    "matchNormalizedSha256": "f4e7cc113af3a5e92201bed5113f681ea732f8765fa4f268e9cdc5ca8d8f5c7f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:08",
+    "versionId": "v:bw:1994:08",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that for any integer $a \\geq 5$ there exist integers $b$ and $c, c \\geq b \\geq a$, such that $a, b, c$ are the lengths of the sides of a right-angled triangle.\n",
+    "rawSha256": "16ad1a6b4d4aa9057bb25cd2ac2e2a3be17ab4fff06839e10192a779bca224b3",
+    "matchNormalizedSha256": "0b0868712d2d245c875581df42c91b772feb68ea8835c0bbf8ba48d8f34baeb2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:09",
+    "versionId": "v:bw:1994:09",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs of positive integers $(a, b)$ such that $2^{a}+3^{b}$ is the square of an integer.\n",
+    "rawSha256": "0ff0472885d75cc025dd5f202d90b5bc740355265467c20376777f49e0f974a3",
+    "matchNormalizedSha256": "810c4ae2f10c1e134d9d0ccc521cc5dfdc9d781a4dca1136d71b8361eebe4600",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:10",
+    "versionId": "v:bw:1994:10",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "How many positive integers satisfy the following three conditions:\n\n(i) All digits of the number are from the set $\\{1,2,3,4,5\\}$;\n\n(ii) The absolute value of the difference between any two consecutive digits is 1 ;\n\n(iii) The integer has 1994 digits?\n",
+    "rawSha256": "fbc2afac20770e0dfd48e683b12e8b93efbc5bd7664525fe783c164c6a1bf69b",
+    "matchNormalizedSha256": "577bc743c480320ed61a09caf9220310af5f0ce7af356178df87406463bbe646",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:11",
+    "versionId": "v:bw:1994:11",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $N S$ and $E W$ be two perpendicular diameters of a circle $\\mathcal{C}$. A line $l$ touches $\\mathcal{C}$ at point $S$. Let $A$ and $B$ be two points on $\\mathcal{C}$, symmetric with respect to the diameter $E W$. Denote the intersection points of $l$ with the lines $N A$ and $N B$ by $A^{\\prime}$ and $B^{\\prime}$, respectively. Show that $\\left|S A^{\\prime}\\right| \\cdot\\left|S B^{\\prime}\\right|=|S N|^{2}$.\n",
+    "rawSha256": "5a5738ba5f97e63bf505abf9e87d27ebcd2639ebea5c6b79b9a844a08ebeaf86",
+    "matchNormalizedSha256": "148d50be525b5e494bb5d8a3834a2f2e99596f6b62ffdd2f2bc81b6679b2d0f7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:12",
+    "versionId": "v:bw:1994:12",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The inscribed circle of the triangle $A_{1} A_{2} A_{3}$ touches the sides $A_{2} A_{3}, A_{3} A_{1}$ and $A_{1} A_{2}$ at points $S_{1}, S_{2}, S_{3}$, respectively. Let $O_{1}, O_{2}, O_{3}$ be the centres of the inscribed circles of triangles $A_{1} S_{2} S_{3}, A_{2} S_{3} S_{1}$ and $A_{3} S_{1} S_{2}$, respectively. Prove that the straight lines $O_{1} S_{1}, O_{2} S_{2}$ and $O_{3} S_{3}$ intersect at one point.\n",
+    "rawSha256": "a4975b836b70ccfc740afb53b26a64f5bba6f252501ce65ec259736a34a300c3",
+    "matchNormalizedSha256": "9bd9a6571f605c991dcc657bb65fee94cbb315e2626f0cdb826dfa83cc4512a7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:13",
+    "versionId": "v:bw:1994:13",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the smallest number $a$ such that a square of side $a$ can contain five disks of radius 1 so that no two of the disks have a common interior point.\n",
+    "rawSha256": "24f07e9534e5dcd02f5a9f2917d882c3376daf6cc68b123c72e1d4f679c1f4e3",
+    "matchNormalizedSha256": "517918a6beb190b137f2519a34c64a5fd4995f2d16d0b56bb0a410e5a9652875",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:14",
+    "versionId": "v:bw:1994:14",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\alpha, \\beta, \\gamma$ be the angles of a triangle opposite to its sides with lengths $a, b$ and $c$, respectively. Prove the inequality\n\n$$\na \\cdot\\left(\\frac{1}{\\beta}+\\frac{1}{\\gamma}\\right)+b \\cdot\\left(\\frac{1}{\\gamma}+\\frac{1}{\\alpha}\\right)+c \\cdot\\left(\\frac{1}{\\alpha}+\\frac{1}{\\beta}\\right) \\geq 2 \\cdot\\left(\\frac{a}{\\alpha}+\\frac{b}{\\beta}+\\frac{c}{\\gamma}\\right) \\cdot\n$$\n",
+    "rawSha256": "1d3af7f54abf3fba8b7a04698f5ba7d78329985a323c94fc9a9ce27dc18b724e",
+    "matchNormalizedSha256": "61e847bd634b9868e9471661df801ab2a2e563a18ea76303ee64e3589c91cc32",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:15",
+    "versionId": "v:bw:1994:15",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a triangle such that the lengths of all its sides and altitudes are integers and its perimeter is equal to 1995 ?\n",
+    "rawSha256": "70f7e933a372b728aedac36f36577a081f3d151241923ade4d5b7a1e2e89b7af",
+    "matchNormalizedSha256": "06c7d959d73b7af919336eeb2c831423b3e5f6d79f525bed7392cca07e02c7ee",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:16",
+    "versionId": "v:bw:1994:16",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The Wonder Island is inhabited by Hedgehogs. Each Hedgehog consists of three segments of unit length having a common endpoint, with all three angles between them equal to $120^{\\circ}$ (see figure).\n\n![Figure 1](figure:1)\n Given that all Hedgehogs are lying flat on the island and no two of them touch each other, prove that there is a finite number of Hedgehogs on Wonder Island.\n",
+    "rawSha256": "7351ede4781beca104885cdbc64e239ba1936a02936cc97ebe0049c255125a7c",
+    "matchNormalizedSha256": "9df10c204eb44778f550a17cdf59d5f159cd6b592f33645488323b355ffa883a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1994:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:1994:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Hedgehog diagram shown beside Problem 16; statement also defines the shape in words."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:17",
+    "versionId": "v:bw:1994:17",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a certain kingdom, the king has decided to build 25 new towns on 13 uninhabited islands so that on each island there will be at least one town. Direct ferry connections will be established between any pair of new towns which are on different islands. Determine the least possible number of these connections.\n",
+    "rawSha256": "a83b08133587f77dedd9136613daa65267487e3baf98a4281c40b20b7345c712",
+    "matchNormalizedSha256": "80433f6a3b851d476e51fcb6bdea685d35f6c96e4a61108bc003a0391d3cb6ba",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:18",
+    "versionId": "v:bw:1994:18",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are $n$ lines $(n>2)$ given in the plane. No two of the lines are parallel and no three of them intersect at one point. Every point of intersection of these lines is labelled with a natural number between 1 and $n-1$. Prove that, if and only if $n$ is even, it is possible to assign the labels in such a way that every line has all the numbers from 1 to $n-1$ at its points of intersection with the other $n-1$ lines.\n",
+    "rawSha256": "adedeba6599acfa704f46c2c420942a14a5a7334ef8dab127d48f1fcfb6c6a69",
+    "matchNormalizedSha256": "828141661d3acc3d32efa8aa2313867d354e94c6572231b22fadcea582bb29c6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:19",
+    "versionId": "v:bw:1994:19",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The Wonder Island Intelligence Service has 16 spies in Tartu. Each of them watches on some of his colleagues. It is known that if spy $A$ watches on spy $B$ then $B$ does not watch on $A$. Moreover, any 10 spies can be numbered in such a way that the first spy watches on the second, the second watches on the third, .., the tenth watches on the first. Prove that any 11 spies can also be numbered in a similar manner.\n",
+    "rawSha256": "438e4ac1377b866f5a9863d3849efe120f32e209c49c27d32c0bd20e650909a6",
+    "matchNormalizedSha256": "fbb4df7e023404772a7452bb323138fe91147d7610838f0dc686b532da1cacf9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1994:20",
+    "versionId": "v:bw:1994:20",
+    "officialSource": {
+      "sourceId": "bw-official:1994:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "ce8d7488840afcfd3911e134cc67831b89219936112f062d30cbe50c430d6e3b",
+      "sourceBytes": 95904,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An equilateral triangle is divided into 9000000 congruent equilateral triangles by lines parallel to its sides. Each vertex of the small triangles is coloured in one of three colours. Prove that there exist three points of the same colour being the vertices of a triangle with its sides parallel to the sides of the original triangle.\n",
+    "rawSha256": "3cd96b54456c09db376a3e33861349e7206be3a5523cb30214153441502458fa",
+    "matchNormalizedSha256": "9f82628902b9ad40fb9c0fc028618683078c2279ffb9f4d1d2894e9c07a33cb4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw94sol.jsonl",
+      "fileSha256": "5d8fc64e10f96991ffc196a055fc125d28403f3efa8c08ea09e07f855d9d7785",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1994:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

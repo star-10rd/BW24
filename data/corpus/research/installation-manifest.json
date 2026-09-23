@@ -1,0 +1,16 @@
+{
+  "schema": "bw26-corpus-installation",
+  "schemaVersion": 2,
+  "baseGitCommit": "0f9cf7eb509a0161cf57901317f8b2909433b56c",
+  "finals": 719,
+  "versions": 719,
+  "mathnetRows": 853,
+  "same": 520,
+  "related": 25,
+  "none": 174,
+  "open": 0,
+  "canonicalSameVersionSourceLinks": 523,
+  "shortlistHandoffRows": 521,
+  "semanticAudit": "semantic-audit-v2",
+  "t1cDecisionSha256": "430240e78f7ed9e680e0963e0e2472e753bbad02d63d2d2c5fe154a1f8e2c71b"
+}

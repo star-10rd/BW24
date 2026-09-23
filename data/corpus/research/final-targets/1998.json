@@ -1,0 +1,860 @@
+[
+  {
+    "appearanceId": "bw:1998:01",
+    "versionId": "v:bw:1998:01",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{Z}^{+}$be the set of all positive integers. Find all functions $f: \\mathbb{Z}^{+} \\rightarrow \\mathbb{Z}^{+}$ satisfying the following conditions for all $x, y \\in \\mathbb{Z}^{+}$:\n\n$$\n\\begin{aligned}\nf(x, x) & =x, \\\\\nf(x, y) & =f(y, x), \\\\\n(x+y) f(x, y) & =y f(x, x+y) .\n\\end{aligned}\n$$\n",
+    "rawSha256": "3cfa6ba6060c334f6402e7d83f9e85a9412edd872c57259ff7f26286268f945f",
+    "matchNormalizedSha256": "09a0322dd2b348db25a82a74492c4eeb11f6500795cb2e6705d810d640600a3b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:02",
+    "versionId": "v:bw:1998:02",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A triple of positive integers $(a, b, c)$ is called quasi-Pythagorean if there exists a triangle with lengths of the sides $a, b, c$ and the angle opposite to the side $c$ equal to $120^{\\circ}$. Prove that if $(a, b, c)$ is a quasi-Pythagorean triple then $c$ has a prime divisor greater than 5 .\n",
+    "rawSha256": "63cc1de56a425359b74025a0f5645f7db30be073266b470d1a68e3d491280d2c",
+    "matchNormalizedSha256": "fda68ec90fc76e8b34ec09a7934e015118418c094d685025a73765516369f7cc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:03",
+    "versionId": "v:bw:1998:03",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all pairs of positive integers $x, y$ which satisfy the equation\n\n$$\n2 x^{2}+5 y^{2}=11(x y-11) \\text {. }\n$$\n",
+    "rawSha256": "5e822f27146cd50d746e69da73fab51b0ef60561f385c7ed514b8eb3fb1550e5",
+    "matchNormalizedSha256": "b8af1fac7a637df9afa94413e8c162ef9c6d5246d4aa6a96bf2018ea376350c0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:04",
+    "versionId": "v:bw:1998:04",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be a polynomial with integer coefficients. Suppose that for $n=1,2,3, \\ldots, 1998$ the number $P(n)$ is a three-digit positive integer. Prove that the polynomial $P$ has no integer roots.\n",
+    "rawSha256": "18156ac051da923852bf8c5719dc82637b3b0d26c9557c3a5436661fc22e5369",
+    "matchNormalizedSha256": "ad92b6d9493aa172ffe33f75539c325f55797cab0816877d38f1eb69072f2494",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:05",
+    "versionId": "v:bw:1998:05",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a$ be an odd digit and $b$ an even digit. Prove that for every positive integer $n$ there exists a positive integer, divisible by $2^{n}$, whose decimal representation contains no digits other than $a$ and $b$.\n",
+    "rawSha256": "8cb34fad8f7f30e32d331d13ae56035e521c0ad390f1798f1be0dce6ae4f8227",
+    "matchNormalizedSha256": "3fbad952c87cd45726ddabcfbeaae19e36a57d533abfcce83e6177054c8f2351",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:06",
+    "versionId": "v:bw:1998:06",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be a polynomial of degree 6 and let $a, b$ be real numbers such that $0<a<b$. Suppose that $P(a)=P(-a), P(b)=P(-b)$ and $P^{\\prime}(0)=0$. Prove that $P(x)=P(-x)$ for all real $x$.\n",
+    "rawSha256": "6c0f8a15d0bf1f0c95cff1670c9aa4966b78de54c3c72a1b0f9e8d00422b304d",
+    "matchNormalizedSha256": "8d9c66f84818bfbfd203ea05c6d7fdb0c86c07b858acc79d503a87d31f2f7fbd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:07",
+    "versionId": "v:bw:1998:07",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{R}$ be the set of all real numbers. Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ satisfying for all $x, y \\in \\mathbb{R}$ the equation\n\n$$\nf(x)+f(y)=f(f(x) f(y)) .\n$$\n",
+    "rawSha256": "f3cd781d056dc09bbba5afdf09a02e55b1841f80c7e15243ac54b4c3a86e8767",
+    "matchNormalizedSha256": "708099a2699597a69bedaa1417fe2d531cb69f21824669ec5d87561524571145",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:08",
+    "versionId": "v:bw:1998:08",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P_{k}(x)=1+x+x^{2}+\\cdots+x^{k-1}$. Show that\n\n$$\n\\sum_{k=1}^{n}\\left(\\begin{array}{l}\nn \\\\\nk\n\\end{array}\\right) P_{k}(x)=2^{n-1} P_{n}\\left(\\frac{1+x}{2}\\right)\n$$\n\nfor every real number $x$ and every positive integer $n$.\n",
+    "rawSha256": "d52788a98272d2b5cbcdf88c043716a0884b7e27fcd4ba31cb5e5e9e69e86d95",
+    "matchNormalizedSha256": "a1a4623767aaf9d8cc6306251072adce80d4f61f1d449dfd92e39d7e27c6d2e8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:09",
+    "versionId": "v:bw:1998:09",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the numbers $\\alpha, \\beta$ satisfy $0<\\alpha<\\beta<\\pi / 2$ and let $\\gamma$ and $\\delta$ be the numbers defined by the conditions:\n\n(i) $0<\\gamma<\\pi / 2$, and $\\tan \\gamma$ is the arithmetic mean of $\\tan \\alpha$ and $\\tan \\beta$;\n\n(ii) $0<\\delta<\\pi / 2$, and $\\frac{1}{\\cos \\delta}$ is the arithmetic mean of $\\frac{1}{\\cos \\alpha}$ and $\\frac{1}{\\cos \\beta}$.\n\nProve that $\\gamma<\\delta$.\n",
+    "rawSha256": "a0011ee2785eeb80416349dafa2debe02c7bfbe29d3c081efef316852938271e",
+    "matchNormalizedSha256": "d88d582b87e06263d4d83f21ae715eed74b847ee61cad1c273eb5d4d6b5d03fd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:10",
+    "versionId": "v:bw:1998:10",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geqslant 4$ be an even integer. A regular $n$-gon and a regular $(n-1)$-gon are inscribed into the unit circle. For each vertex of the $n$-gon consider the distance from this vertex to the nearest vertex of the $(n-1)$-gon, measured along the circumference. Let $S$ be the sum of these $n$ distances. Prove that $S$ depends only on $n$, and not on the relative position of the two polygons.\n",
+    "rawSha256": "3d66bcb51418c1afd38f7024bd99d599dc5f5ac105f461cad3e012d86573456f",
+    "matchNormalizedSha256": "16bf0d17a6101030512f522d5f36911db0b9f7d1236aa22f17c1d21fdeb56cbc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:11",
+    "versionId": "v:bw:1998:11",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b$ and $c$ be the lengths of the sides of a triangle with circumradius $R$. Prove that\n\n$$\nR \\geqslant \\frac{a^{2}+b^{2}}{2 \\sqrt{2 a^{2}+2 b^{2}-c^{2}}} .\n$$\n\nWhen does equality hold?\n",
+    "rawSha256": "b816886b97f35ea17c06089883a97254d3fcedaff245a19786f1b899ef93fd00",
+    "matchNormalizedSha256": "a0883ba3e9505b5b8d46fe5595b041599e3094431cce46cbedf7737c6d28b74d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:12",
+    "versionId": "v:bw:1998:12",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a triangle $A B C, \\angle B A C=90^{\\circ}$. Point $D$ lies on the side $B C$ and satisfies $\\angle B D A=2 \\angle B A D$. Prove that\n\n$$\n\\frac{1}{|A D|}=\\frac{1}{2}\\left(\\frac{1}{|B D|}+\\frac{1}{|C D|}\\right)\n$$\n",
+    "rawSha256": "c61078b62f471c6dbce00f4ac331131ad94288581ab7c22233c12a0bfbba36fa",
+    "matchNormalizedSha256": "a870fcd296cd3d124bc82299bb191c87434dd21109b60e0dd47a02af638f81bd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:13",
+    "versionId": "v:bw:1998:13",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a convex pentagon $A B C D E$, the sides $A E$ and $B C$ are parallel and $\\angle A D E=\\angle B D C$. The diagonals $A C$ and $B E$ intersect at $P$. Prove that $\\angle E A D=\\angle B D P$ and $\\angle C B D=\\angle A D P$.\n",
+    "rawSha256": "5e4cd2bbbf1340eb537383905caf87d5360768ac53d5f1cf6708983b7b3513f2",
+    "matchNormalizedSha256": "290ca19736bea826d2118dc5b44112c8f2070c8637da5e38e1da4ef30a3ccf13",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:14",
+    "versionId": "v:bw:1998:14",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a triangle $A B C$ with $|A B|<|A C|$. The line passing through $B$ and parallel to $A C$ meets the external bisector of angle $B A C$ at $D$. The line passing through $C$ and parallel to $A B$ meets this bisector at $E$. Point $F$ lies on the side $A C$ and satisfies the equality $|F C|=|A B|$. Prove that $|D F|=|F E|$.\n",
+    "rawSha256": "1e006d9d8bfbc5dae8c56d5a1cfa0f8870a9f775eabb53adedba96470c89b354",
+    "matchNormalizedSha256": "847b612d74e0c855b54f4cde0442b35767d1bcd0c89b84568f1cac1dc3617bad",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:15",
+    "versionId": "v:bw:1998:15",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given an acute triangle $A B C$. Point $D$ is the foot of the perpendicular from $A$ to $B C$. Point $E$ lies on the segment $A D$ and satisfies the equation\n\n$$\n\\frac{|A E|}{|E D|}=\\frac{|C D|}{|D B|}\n$$\n\nPoint $F$ is the foot of the perpendicular from $D$ to $B E$. Prove that $\\angle A F C=90^{\\circ}$.\n",
+    "rawSha256": "b0550424ab745d22c5693401440cc280027997837fb6c5285e41541b4d0b8983",
+    "matchNormalizedSha256": "b052141c2f0ccd3e37fcc0eab917e9e5a7f66b723a5a26481da3a9f7e58fd607",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:16",
+    "versionId": "v:bw:1998:16",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to cover a $13 \\times 13$ chessboard with forty-two tiles of size $4 \\times 1$ so that only the central square of the chessboard remains uncovered? (It is assumed that each tile covers exactly four squares of the chessboard, and the tiles do not overlap.)\n",
+    "rawSha256": "21a5e5fab90815f5c3dd925b5abf23a607dde093076840ef026fccd3abf83308",
+    "matchNormalizedSha256": "93ea9ca95b6f328b25290a54c64d1b3ef1afb66e4cc832d99d0d920c428515ef",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:17",
+    "versionId": "v:bw:1998:17",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ and $k$ be positive integers. There are $n k$ objects (of the same size) and $k$ boxes, each of which can hold $n$ objects. Each object is coloured in one of $k$ different colours. Show that the objects can be packed in the boxes so that each box holds objects of at most two colours.\n",
+    "rawSha256": "44d147723b9706183df96f24e9dac180d02ee3c233e6fa266cfecb5fda1cec50",
+    "matchNormalizedSha256": "3223d91192ea3c31cae79a6499f9fb844cac83d4f6b6aa7fb2c09f88fb4dfaa9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:18",
+    "versionId": "v:bw:1998:18",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive integers $n$ for which there exists a set $S$ with the following properties:\n\n(i) $S$ consists of $n$ positive integers, all smaller than $2^{n-1}$;\n\n(ii) for any two distinct subsets $A$ and $B$ of $S$, the sum of the elements of $A$ is different from the sum of the elements of $B$.\n",
+    "rawSha256": "3cd3031dcfcac97dac469363e45996dada1219b8e5883f4cfe7bfe1648d54f88",
+    "matchNormalizedSha256": "36215a821b752c2f257deea6711067452075432eb3a768300621b6a8422d7724",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:19",
+    "versionId": "v:bw:1998:19",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a ping-pong match between two teams, each consisting of 1000 players. Each player played against each player of the other team exactly once (there are no draws in ping-pong). Prove that there exist ten players, all from the same team, such that every member of the other team has lost his game against at least one of those ten players.\n",
+    "rawSha256": "703bcb8177f7007cf01acd4c358c239aa3a2b2b2bdcf5e122512d3459aa6e8b9",
+    "matchNormalizedSha256": "352a15ace8a144639e921e93e366641a66248b5241656c8223398619eaa85e3c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw98sol.jsonl",
+      "fileSha256": "c5ac6dede570c88b73cbd9d35ee3b78105279cf04a483cd5a2f9352192bd7197",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1998:20",
+    "versionId": "v:bw:1998:20",
+    "officialSource": {
+      "sourceId": "bw-official:1998:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "00837a7493315b2ca01940bbd8d9d4b930883043c5b3d7c78604af07751e911f",
+      "sourceBytes": 91539,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We say that an integer $m$ covers the number 1998 if $1,9,9,8$ appear in this order as digits of $m$. (For instance, 1998 is covered by 215993698 but not by 213326798 .) Let $k(n)$ be the number of positive integers that cover 1998 and have exactly $n$ digits $(n \\geqslant 5)$, all different from 0 . What is the remainder of $k(n)$ in division by 8 ?\n",
+    "rawSha256": "18ce9686cfdbb95f972779bfc115b05b1bda98be431bf58166c5f4d072745932",
+    "matchNormalizedSha256": "c1d0d6adf6857229a9f0357a586546f30586b336ea67b1825b5c5b684699b91e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1998:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1998:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

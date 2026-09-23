@@ -1,0 +1,18 @@
+{
+  "format": "parquet",
+  "reader": "bw26-mathnet-parquet-v1",
+  "shards": [
+    {
+      "index": 0,
+      "rows": 427,
+      "sha256": "a4bbb1becd33c028272ae39eed33913f7142dfcd540b864620dcbba36e15763f"
+    },
+    {
+      "index": 1,
+      "rows": 426,
+      "sha256": "affe4a1ceeb931d4fe8c968f8023f222c8933c732f2631a578c6af3c85b3e4da"
+    }
+  ],
+  "sourceSnapshot": "mathnet-v0",
+  "totalRows": 853
+}

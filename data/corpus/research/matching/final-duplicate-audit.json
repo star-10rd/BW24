@@ -1,0 +1,36 @@
+{
+  "appearances": 719,
+  "normalizedDuplicateGroups": [],
+  "highSimilarityPairs": [
+    {
+      "a": "bw:1998:07",
+      "b": "bw:2010:05",
+      "charCosine": 0.756559,
+      "ratio": 0.715026
+    },
+    {
+      "a": "bw:2017:05",
+      "b": "bw:2023:04",
+      "charCosine": 0.755033,
+      "ratio": 0.840989
+    },
+    {
+      "a": "bw:2010:05",
+      "b": "bw:2017:05",
+      "charCosine": 0.752238,
+      "ratio": 0.710843
+    },
+    {
+      "a": "bw:2017:05",
+      "b": "bw:2020:04",
+      "charCosine": 0.743081,
+      "ratio": 0.889734
+    },
+    {
+      "a": "bw:2010:05",
+      "b": "bw:2013:03",
+      "charCosine": 0.738519,
+      "ratio": 0.882051
+    }
+  ]
+}

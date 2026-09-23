@@ -1,0 +1,860 @@
+[
+  {
+    "appearanceId": "bw:1992:01",
+    "versionId": "v:bw:1992:01",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ and $q$ be two consecutive odd prime numbers. Prove that $p+q$ is a product of at least three positive integers greater than 1 (not necessarily different).\n",
+    "rawSha256": "b7505cedd3b9b1b5c80f5826b33c505421ced6ca6f31eef3735ea9158d5fd2fc",
+    "matchNormalizedSha256": "7c3d9cb89039efc838ebc6b5ad3b129a135da420f77403d4e0b5ba89639b5eb4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:02",
+    "versionId": "v:bw:1992:02",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Denote by $d(n)$ the number of all positive divisors of a positive integer $n$ (including 1 and $n$ ). Prove that there are infinitely many $n$ such that $\\frac{n}{d(n)}$ is an integer.\n",
+    "rawSha256": "d7f13c85133f7e341cf107e542ba1d94ad9340df1745c34c2c2d2dab8735db88",
+    "matchNormalizedSha256": "348ae0deb3330b1cc07d8d6dd0c3c1f9234ff7efe748434bcb66b24373509432",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:03",
+    "versionId": "v:bw:1992:03",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find an infinite non-constant arithmetic progression of positive integers such that each term is neither a sum of two squares, nor a sum of two cubes (of positive integers).\n",
+    "rawSha256": "0f4b5bcd4175af49bbd3efefe3cd3aded63e1ae532b8492b5ff9aa77e5a2fd9b",
+    "matchNormalizedSha256": "a731bf852f0d69aa8a55bc212d61d123d335c5935c0e7f787c8118dcfb747784",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:04",
+    "versionId": "v:bw:1992:04",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to draw a hexagon with vertices in the knots of an integer lattice so that the squares of the lengths of the sides are six consecutive positive integers?\n",
+    "rawSha256": "b12f0074af8a4c7fb0a2c87200a348088a1e9aaa34d45f029288588ca7dff1cf",
+    "matchNormalizedSha256": "c03db101e0875b3f2df33bc78abfd89fa8af26832a00e07b5095ce47eaa8ac6f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:05",
+    "versionId": "v:bw:1992:05",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given that $a^{2}+b^{2}+(a+b)^{2}=c^{2}+d^{2}+(c+d)^{2}$, prove that $a^{4}+b^{4}+(a+b)^{4}=c^{4}+d^{4}+(c+d)^{4}$.\n",
+    "rawSha256": "f4cbfa381a5c005409bee734ccc3add6a68ca9f4b4cd11706e0e54e839454cca",
+    "matchNormalizedSha256": "dce6883fc4355ebade8467c2bd61e51da527be9bf5d55e1c6b2410d971c9eb76",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:06",
+    "versionId": "v:bw:1992:06",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that the product of the 99 numbers of the form $\\frac{k^{3}-1}{k^{3}+1}$ where $k=2,3, \\ldots, 100$, is greater than $\\frac{2}{3}$.\n",
+    "rawSha256": "0af9ab26b70a953d2ba917aa0b526bb94ff0f81449944fa71b76dcbe7cf08c46",
+    "matchNormalizedSha256": "0b79aec4c43c5ea9fcc59de87d48e71028b69548035d1f5056bb07372a4743d7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:07",
+    "versionId": "v:bw:1992:07",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a=\\sqrt[1992]{1992}$. Which number is greater:\n\n$$\n\\left.a^{a^{a^{a}}}\\right\\} 1992\n$$\n\nor 1992 ?\n",
+    "rawSha256": "8fe3e6a5f9dfd2d4b9e02de5357f0a5a3c1d4caff092525fb6c2a342de91e010",
+    "matchNormalizedSha256": "b42faf37f467c99e045493aa4f30cd3ae8181d73b97781c919c7e229983c451e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:08",
+    "versionId": "v:bw:1992:08",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all integers satisfying the equation $2^{x} \\cdot(4-x)=2 x+4$.\n",
+    "rawSha256": "9d0c529184ce30b242248e1a8937494b759880755b6d087fcfd677423d11e4fa",
+    "matchNormalizedSha256": "00fcbe569be556efe72685fd92dfca5ff5d6aa17131836e8130ff0f02bca895d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:09",
+    "versionId": "v:bw:1992:09",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A polynomial $f(x)=x^{3}+a x^{2}+b x+c$ is such that $b<0$ and $a b=9 c$. Prove that the polynomial has three different real roots.\n",
+    "rawSha256": "67bf885553fe20e529fc740a751816cced706b639e01bfacd9b979701bfa37be",
+    "matchNormalizedSha256": "4b6ea102164381f8e34f5756b2b40fa7bcada11215d3a411ba0c2bede595c925",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:10",
+    "versionId": "v:bw:1992:10",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all fourth degree polynomials $p(x)$ such that the following four conditions are satisfied:\n\n(i) $p(x)=p(-x)$ for all $x$.\n\n(ii) $p(x) \\geq 0$ for all $x$.\n\n(iii) $p(0)=1$.\n\n(iv) $p(x)$ has exactly two local minimum points $x_{1}$ and $x_{2}$ such that $\\left|x_{1}-x_{2}\\right|=2$.\n",
+    "rawSha256": "097b072de9d4c3f8afefe3effbb7354dd1f7b9ccc9dcfede4c4856c718e4f1ac",
+    "matchNormalizedSha256": "7c3034811a4e17fe3af33591a3cae5b6d92ede325b4aba4322fd0a885968bb16",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:11",
+    "versionId": "v:bw:1992:11",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{Q}^{+}$denote the set of positive rational numbers. Show that there exists one and only one function $f: \\mathbb{Q}^{+} \\rightarrow \\mathbb{Q}^{+}$satisfying the following conditions:\n\n(i) If $0<q<\\frac{1}{2}$ then $f(q)=1+f\\left(\\frac{q}{1-2 q}\\right)$.\n\n(ii) If $1<q \\leq 2$ then $f(q)=1+f(q-1)$.\n\n(iii) $f(q) \\cdot f\\left(\\frac{1}{q}\\right)=1$ for all $q \\in \\mathbb{Q}^{+}$.\n",
+    "rawSha256": "bf1a64d143b9e0d2ccc1c1fc07f3852664d0a5933e4f0ad3d4d7c170668578bc",
+    "matchNormalizedSha256": "d2e528729d9826c2781dbb74c513f60fd6a4713aeefb0c8f516442e40ba63f01",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:12",
+    "versionId": "v:bw:1992:12",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{N}$ denote the set of positive integers. Let $\\varphi: \\mathbb{N} \\rightarrow \\mathbb{N}$ be a bijective function and assume that there exists a finite limit\n\n$$\n\\lim _{n \\rightarrow \\infty} \\frac{\\varphi(n)}{n}=L\n$$\n\nWhat are the possible values of $L$ ?\n",
+    "rawSha256": "fcd249395c8135d26cc765f93ef427d10c66900a81c8e39026671449b6e3d9f0",
+    "matchNormalizedSha256": "4e4472575abbeb6ddfb360e90164151e7d62788d981fc5264147ca95f2713592",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:13",
+    "versionId": "v:bw:1992:13",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for any positive $x_{1}, x_{2}, \\ldots, x_{n}$ and $y_{1}, y_{2}, \\ldots, y_{n}$ the inequality\n\n$$\n\\sum_{i=1}^{n} \\frac{1}{x_{i} y_{i}} \\geq \\frac{4 n^{2}}{\\sum_{i=1}^{n}\\left(x_{i}+y_{i}\\right)^{2}}\n$$\n\nholds.\n",
+    "rawSha256": "4aef311542f42883dc177eeab37cfbcf34f00da11db5abef097fdf91075acde7",
+    "matchNormalizedSha256": "6281147acbf59d1090b60f7bec7df7f7e6509187d8e48689194aaf9eca059507",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:14",
+    "versionId": "v:bw:1992:14",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There is a finite number of towns in a country. They are connected by one direction roads. It is known that, for any two towns, one of them can be reached from the other one. Prove that there is a town such that all the remaining towns can be reached from it.\n",
+    "rawSha256": "2e463e448c52f21f2caa534eefac04809e3f014319fc2ef21a802e90b69948c2",
+    "matchNormalizedSha256": "9e269a8280b7d0282a05a5edcdb245deea4770343d411ef8fe25ed3baa53fbe9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:15",
+    "versionId": "v:bw:1992:15",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Noah has to fit 8 species of animals into 4 cages of the ark. He plans to put species in each cage. It turns out that, for each species, there are at most 3 other species with which it cannot share the accommodation. Prove that there is a way to assign the animals to their cages so that each species shares a cage with compatible species.\n",
+    "rawSha256": "0bf9809897704b1d0ef05e1dc4236955ea89325c6a936d6ec9f3ba929daaaa50",
+    "matchNormalizedSha256": "4dea584a57f41638f9cee03358a3f1bfc5609da7a3f0075e4aea57e041216658",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:16",
+    "versionId": "v:bw:1992:16",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "All faces of a convex polyhedron are parallelograms. Can the polyhedron have exactly 1992 faces?\n",
+    "rawSha256": "8d2aadabb6449b2d01924095a390241d8da99ac599808de00660eadd720ef403",
+    "matchNormalizedSha256": "a103f3f1b25500a11ef40a97e0642480fed2d1a2c76d20f7b82be3ed7f1dab46",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:17",
+    "versionId": "v:bw:1992:17",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Quadrangle $A B C D$ is inscribed in a circle with radius 1 in such a way that one diagonal, $A C$, is a diameter of the circle, while the other diagonal, $B D$, is as long as $A B$. The diagonals intersect in $P$. It is known that the length of $P C$ is $\\frac{2}{5}$. How long is the side $C D$ ?\n",
+    "rawSha256": "019a616a802be94df1ed5b2fd003bd8059efdf7dbbb6667bc3d5baa3fb6919d5",
+    "matchNormalizedSha256": "69a9b3f549ad5ec42151cbec1aed96c88188049ef66e64eabcbed7ae8506341d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1992:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:18",
+    "versionId": "v:bw:1992:18",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that in a non-obtuse triangle the perimeter of the triangle is always greater than two times the diameter of the circumcircle.\n",
+    "rawSha256": "ef6d39dbad0b8dec61eeee7d7a1e572733ba71eb5b29a715177a1678dd50183c",
+    "matchNormalizedSha256": "d95bb627eca189995f4ea1c2a925b5b56b7cf5c16b31cc46be3c67c767f7aae3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:19",
+    "versionId": "v:bw:1992:19",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $C$ be a circle in the plane. Let $C_{1}$ and $C_{2}$ be non-intersecting circles touching $C$ internally at points $A$ and $B$ respectively. Let $t$ be a common tangent of $C_{1}$ and $C_{2}$, touching them at points $D$ and $E$ respectively, such that both $C_{1}$ and $C_{2}$ are on the same side of $t$. Let $F$ be the point of intersection of $A D$ and $B E$. Show that $F$ lies on $C$.\n",
+    "rawSha256": "fb583463839dd90020d1bfdb38f135e98e04d363f0998bfb9a7247e2c08233e1",
+    "matchNormalizedSha256": "0c9a7756074977544cdd15053c2a4466d5d0f2de2e88cc18e01f9720b18047c8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1992:20",
+    "versionId": "v:bw:1992:20",
+    "officialSource": {
+      "sourceId": "bw-official:1992:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "0757931223c6002f54426e106d1697e5706aae0e8bf7e0447e67c95decde8b3b",
+      "sourceBytes": 84086,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a \\leq b \\leq c$ be the sides of a right triangle, and let $2 p$ be its perimeter. Show that\n\n$$\np(p-c)=(p-a)(p-b)=S\n$$\n\nwhere $S$ is the area of the triangle.\n",
+    "rawSha256": "468589f67abaf772533ae023505ae5d5295fff1263bff66cd93964f035c53ec7",
+    "matchNormalizedSha256": "66e02ee0072aeec9c955da6568090d7ef7586d9d247ff5ee8fedcd065e348861",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw92sol.jsonl",
+      "fileSha256": "d61515993ca4440ee0c54dad759050abbae2e3193a579f7ed22711dccb02d86c",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1992:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

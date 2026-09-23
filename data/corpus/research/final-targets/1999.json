@@ -1,0 +1,858 @@
+[
+  {
+    "appearanceId": "bw:1999:01",
+    "versionId": "v:bw:1999:01",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all real numbers $a, b, c, d$ that satisfy the following system of equations.\n\n$$\n\\left\\{\\begin{array}{r}\na b c+a b+b c+c a+a+b+c=1 \\\\\nb c d+b c+c d+d b+b+c+d=9 \\\\\nc d a+c d+d a+a c+c+d+a=9 \\\\\nd a b+d a+a b+b d+d+a+b=9\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "13a2ef04b2b1f3d79f939c0d6a8647f5f117bac15644ea87396b22698fdcdfd4",
+    "matchNormalizedSha256": "997c2e97111067bcf52a25ae25ecd4fa9a7dc4b32293aedf72d4ad93bfc0baf9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:02",
+    "versionId": "v:bw:1999:02",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive integers $n$ with the property that the third root of $n$ is obtained by removing the last three decimal digits of $n$.\n",
+    "rawSha256": "aee7dc0da0f3302d61da7e6fa63ad95ffc4910e25a8b34d8dfb7de6c70c95a54",
+    "matchNormalizedSha256": "669d6dc6056ac2adead17e6185e818475c6ee1c4a3d8be0c2c9709ca081725d3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:03",
+    "versionId": "v:bw:1999:03",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive integers $n \\geqslant 3$ such that the inequality\n\n$$\na_{1} a_{2}+a_{2} a_{3}+\\cdots+a_{n-1} a_{n}+a_{n} a_{1} \\leqslant 0\n$$\n\nholds for all real numbers $a_{1}, a_{2}, \\ldots, a_{n}$ which satisfy $a_{1}+\\cdots+a_{n}=0$.\n",
+    "rawSha256": "aedcc50db87236863d5fcbc9ec78bbc3a4cdee0339e3aa8dd6d5284005572709",
+    "matchNormalizedSha256": "6ae2f6e16b32f7e7d1aff641bbc529a4b5a4f6ccb33ddd2eed204d3b9e82af4a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:04",
+    "versionId": "v:bw:1999:04",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For all positive real numbers $x$ and $y$ let\n\n$$\nf(x, y)=\\min \\left(x, \\frac{y}{x^{2}+y^{2}}\\right) .\n$$\n\nShow that there exist $x_{0}$ and $y_{0}$ such that $f(x, y) \\leqslant f\\left(x_{0}, y_{0}\\right)$ for all positive $x$ and $y$, and find $f\\left(x_{0}, y_{0}\\right)$.\n",
+    "rawSha256": "d740ede17067f00a09aab7135844e5896d70fec94d0b74e3960d637782ebe321",
+    "matchNormalizedSha256": "534712015b0a70911eb636442f0694cd95f62109356fe0e9bc23bef7b2cbafa0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:05",
+    "versionId": "v:bw:1999:05",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The point $(a, b)$ lies on the circle $x^{2}+y^{2}=1$. The tangent to the circle at this point meets the parabola $y=x^{2}+1$ at exactly one point. Find all such points $(a, b)$.\n",
+    "rawSha256": "03eb308fc85ac939dd30917940f53926d23c59d9438ff1bfad4b717b06bc459d",
+    "matchNormalizedSha256": "7853ce1078a3283abbff5bce0be366d47db8aad01f25fdc6212cd156f3fd116f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:06",
+    "versionId": "v:bw:1999:06",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "What is the least number of moves it takes a knight to get from one corner of an $n \\times n$ chessboard, where $n \\geqslant 4$, to the diagonally opposite corner?\n",
+    "rawSha256": "f99665eea4bd07ecc11065f2603cb73408850359ade63476829e015bde45631c",
+    "matchNormalizedSha256": "8d0d5a389349c5f4eb386e4dde1a9046bd4e24efb4cb961441703e5df54dbaf7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:07",
+    "versionId": "v:bw:1999:07",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two squares on an $8 \\times 8$ chessboard are called adjacent if they have a common edge or common corner. Is it possible for a king to begin in some\nsquare and visit all squares exactly once in such a way that all moves except the first are made into squares adjacent to an even number of squares already visited?\n",
+    "rawSha256": "18dc20d0439c049aa135a6b8e1a330c600c884814e38fdaa3742593218166b8c",
+    "matchNormalizedSha256": "9b35ce0d8e7988d5a6e7006c32e1db20f293e2d8f59a64af721847334c206366",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:08",
+    "versionId": "v:bw:1999:08",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "We are given 1999 coins. No two coins have the same weight. A machine is provided which allows us with one operation to determine, for any three coins, which one has the middle weight. Prove that the coin that is the 1000 -th by weight can be determined using no more than 1000000 operations and that this is the only coin whose position by weight can be determined using this machine.\n",
+    "rawSha256": "a9e050068cec88b17f74daa73810039b152fbcf662834a323189d9d9414ceab0",
+    "matchNormalizedSha256": "ad86a8dcaebfe2aa7fc8fb67c2e81a16f2f9d17b2b1175daf2fedf6116fb510b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:09",
+    "versionId": "v:bw:1999:09",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A cube with edge length 3 is divided into 27 unit cubes. The numbers $1,2, \\ldots, 27$ are distributed arbitrarily over the unit cubes, with one number in each cube. We form the 27 possible row sums (there are nine such sums of three integers for each of the three directions parallel to the edges of the cube). At most how many of the 27 row sums can be odd?\n",
+    "rawSha256": "34093860b682f5eff9e72e2ee3b3a0511491b3721dfddc84a8cb5275b3174840",
+    "matchNormalizedSha256": "a7498c825b29cb6e1f0a1c3e83951bd6e80c212abb9c7e13868cb594369f0bbc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:10",
+    "versionId": "v:bw:1999:10",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Can the points of a disc of radius 1 (including its circumference) be partitioned into three subsets in such a way that no subset contains two points separated by distance 1 ?\n",
+    "rawSha256": "bbb3e7f0aa5440799a813fddafc9feac30649dff7401ca52c0bdb17247cd6e44",
+    "matchNormalizedSha256": "34e48bfba114f7b5fe551d5f8bd2e0823b1dfc0a8c01a0a4206017c0e4720d07",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:11",
+    "versionId": "v:bw:1999:11",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for any four points in the plane, no three of which are collinear, there exists a circle such that three of the four points are on the circumference and the fourth point is either on the circumference or inside the circle.\n",
+    "rawSha256": "ee8b37ec6647a209323be2cd1de79fb931c81c456d86fd6575a246a131773c1d",
+    "matchNormalizedSha256": "4886654b6e203192964c352527f013ff713f7cefd31e3730f1b1b6b410537557",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:12",
+    "versionId": "v:bw:1999:12",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a triangle $A B C$ it is given that $2|A B|=|A C|+|B C|$. Prove that the incentre of $A B C$, the circumcentre of $A B C$, and the midpoints of $A C$ and $B C$ are concyclic.\n",
+    "rawSha256": "bfa4c525fca75c9cade22bce19aa475d0c45248b64be8643dcee40a183f720d6",
+    "matchNormalizedSha256": "b4580cf5e452f3f2563a787535a05e0e929cefa637debb9157c3982462995e66",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:13",
+    "versionId": "v:bw:1999:13",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The bisectors of the angles $A$ and $B$ of the triangle $ABC$ meet the sides $BC$ and $CA$ at the points $D$ and $E$, respectively. Assuming that $AE+BD=AB$, determine the angle $C$.\n",
+    "rawSha256": "c24f6be6504ca0900da6d2184799e591a977d2e7f25eb71388c1d616c32fa75f",
+    "matchNormalizedSha256": "665b1ada2f30c50a46d1e55b53ab3d27220d7d6790ca33434ee9de935d025181",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1999:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:14",
+    "versionId": "v:bw:1999:14",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an isosceles triangle with $|A B|=|A C|$. Points $D$ and $E$ lie on the sides $A B$ and $A C$, respectively. The line passing through $B$ and parallel to $A C$ meets the line $D E$ at $F$. The line passing through $C$ and parallel to $A B$ meets the line $D E$ at $G$. Prove that\n\n$$\n\\frac{[D B C G]}{[F B C E]}=\\frac{|A D|}{|A E|}\n$$\n\nwhere $[P Q R S]$ denotes the area of the quadrilateral $P Q R S$.\n",
+    "rawSha256": "714ef86f2e02e9485486b217afbfd154b2147305af6a9220b5016a0ddaa6d01c",
+    "matchNormalizedSha256": "0d1fbadb22b9788002f531d623675149f854f7b8bc6e77dd1983c773bd8562c2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:15",
+    "versionId": "v:bw:1999:15",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with $\\angle C=60^{\\circ}$ and $|A C|<|B C|$. The point $D$ lies on the side $B C$ and satisfies $|B D|=|A C|$. The side $A C$ is extended to the point $E$ where $|A C|=|C E|$. Prove that $|A B|=|D E|$.\n",
+    "rawSha256": "236dc7c487727a4f60557765a025359045ab693a60b1cd6f0af47e3c3c9eef28",
+    "matchNormalizedSha256": "7a5e3dc511a3d322516460c042d61fa2fa43069d12be556f37689590d32b71cb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:16",
+    "versionId": "v:bw:1999:16",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the smallest positive integer $k$ which is representable in the form $k=19^{n}-5^{m}$ for some positive integers $m$ and $n$.\n",
+    "rawSha256": "a9e34ac876ced1f9e1ca2a4d14ab78fa666134645bc5f6d5caed130e1d3ad0bf",
+    "matchNormalizedSha256": "83a18bb1fae626a1bf7c50f3fbee7d4e19872a7ac84235ed2a8198790d97f4db",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:17",
+    "versionId": "v:bw:1999:17",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a finite sequence of integers $c_{1}, \\ldots, c_{n}$ such that all the numbers $a+c_{1}, \\ldots, a+c_{n}$ are primes for more than one but not infinitely many different integers $a$ ?\n",
+    "rawSha256": "afa3f4b8a80f88e816e01e0958e00120dfc7097974181b6a688f0fb6e2843adb",
+    "matchNormalizedSha256": "f52c8e1422cc5a484d93eb2f7f6eefba186c876ce777c896759dde0c68eca617",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:18",
+    "versionId": "v:bw:1999:18",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $m$ be a positive integer such that $m \\equiv 2(\\bmod 4)$. Show that there exists at most one factorization $m=a b$ where $a$ and $b$ are positive integers satisfying $0<a-b<\\sqrt{5+4 \\sqrt{4 m+1}}$.\n",
+    "rawSha256": "6984c0ff0fa9836d5974905e783abd67afb2d46e5752137778d8bc96583ef9d5",
+    "matchNormalizedSha256": "37f2cf43e52399a8ef01a21e6f5cf76204fbb058d8018efa2088ab1c030b3422",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:19",
+    "versionId": "v:bw:1999:19",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that there exist infinitely many even positive integers $k$ such that for every prime $p$ the number $p^{2}+k$ is composite.\n",
+    "rawSha256": "c54b2659cce2bf06d472e1b16234de338fa048356f7512ac93608d0919857c66",
+    "matchNormalizedSha256": "9de1b3fae7c5b44cd2209b31dae7927f608864a297dc06a05a3334253b1c8c30",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw99sol.jsonl",
+      "fileSha256": "bd1151010b2a9e950adb5a1f3f533fa33ec425b704e1e2da2872125df13afa0a",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1999:20",
+    "versionId": "v:bw:1999:20",
+    "officialSource": {
+      "sourceId": "bw-official:1999:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "8bca5fa7a259071000d73a94ef2479c04570a1cccfe7d2d2e81b70d67b072ec9",
+      "sourceBytes": 76144,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ and $d$ be prime numbers such that $a>3 b>6 c>12 d$ and $a^{2}-b^{2}+c^{2}-d^{2}=1749$. Determine all possible values of $a^{2}+b^{2}+c^{2}+d^{2}$.\n",
+    "rawSha256": "7db6ed8feb505216c1c9ad6f89039360ad8b5a6ffca81ff89f3bc9f9f73e1ca1",
+    "matchNormalizedSha256": "ffdbca1df582957dcc084f22e86deb008e0d3280aa77ae70bff602f26b6156c8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1999:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1999:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

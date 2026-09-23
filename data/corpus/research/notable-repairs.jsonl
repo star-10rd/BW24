@@ -1,0 +1,6 @@
+{"appearanceId":"bw:1995:14","kind":"semantic-repair","detail":"Removed a non-official figure-based transcription and restored the official jump rule: common vertex but no common side."}
+{"appearanceId":"bw:2005:15","kind":"semantic-repair","detail":"Corrected malformed transcription: intersection point is H (not O); a and b intersect at X; c and d intersect at Y."}
+{"appearanceId":"bw:2020:19","kind":"semantic-repair","detail":"Corrected transcription bars to the official floor expression floor(sqrt(3) d(n))."}
+{"appearanceId":"bw:2023:19","kind":"semantic-repair","detail":"Corrected the exponent to the official tower 2^(2^(2^2023)), not a product 2*2023 in the exponent."}
+{"appearanceIds":["bw:1992:17","bw:1995:14","bw:2008:20","bw:2016:13","bw:2021:03","bw:2021:11","bw:2024:08"],"kind":"figure-reconciliation","detail":"Removed AI-MO images that are not figures in the official final statement (solution/header/document images or spurious attachments)."}
+{"appearanceIds":["bw:1994:16","bw:2013:10","bw:2018:07"],"kind":"figure-reconciliation","detail":"Added logical figure references for figures present in the official problem sheet but absent from AI-MO statement metadata."}

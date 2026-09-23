@@ -1,0 +1,887 @@
+[
+  {
+    "appearanceId": "bw:1997:01",
+    "versionId": "v:bw:1997:01",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all functions $f$ from the real numbers to the real numbers, different from the zero function, such that $f(x) f(y)=f(x-y)$ for all real numbers $x$ and $y$.\n",
+    "rawSha256": "a889fe6cce05a74e45b0ac795e05cefb8bcb072c618032d3d8d88b8d4f086129",
+    "matchNormalizedSha256": "416cd289e23cb275f31e636975d8e86428c13d4ad412fea5b0a3a08e88ee60ba",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "1",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        1,
+        3,
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:02",
+    "versionId": "v:bw:1997:02",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a sequence $a_{1}, a_{2}, a_{3}, \\ldots$ of positive integers in which every positive integer occurs exactly once. Prove that there exist integers $\\ell$ and $m$, $1<\\ell<m$, such that $a_{1}+a_{m}=2 a_{\\ell}$.\n",
+    "rawSha256": "53be48beba89776bb1ba213abb5d332efbebd2b9de6bd4b9b47dae47785fe708",
+    "matchNormalizedSha256": "42c6347d250a8e94af66318d3fb1c5c3dc11bfd45601353e569eacee9ec9c60e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "2",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        2,
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:03",
+    "versionId": "v:bw:1997:03",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x_{1}=1$ and $x_{n+1}=x_{n}+\\left\\lfloor\\frac{x_{n}}{n}\\right\\rfloor+2$ for $n=1,2,3, \\ldots$, where $\\lfloor x\\rfloor$ denotes the largest integer not greater than $x$. Determine $x_{1997}$.\n",
+    "rawSha256": "60fc96c4a6a503b30a5560180fa054ed2ed9088e2c9c8945a3ac144219a704df",
+    "matchNormalizedSha256": "2ebce5618a171bb6cbb0b7b904d21ba6331c8fd27ec73442fd48776d35878bfb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:04",
+    "versionId": "v:bw:1997:04",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that the arithmetic mean $a$ of $x_{1}, \\ldots, x_{n}$ satisfies\n\n$$\n\\left(x_{1}-a\\right)^{2}+\\cdots+\\left(x_{n}-a\\right)^{2} \\leqslant \\frac{1}{2}\\left(\\left|x_{1}-a\\right|+\\cdots+\\left|x_{n}-a\\right|\\right)^{2} .\n$$\n",
+    "rawSha256": "8b040353179b3f95c3292b5242321f8b0c94e31cafdaa17a999234f2583eb4d2",
+    "matchNormalizedSha256": "c13ce75381b03eacd3281bd75cd5664d61f260a42e8ef221ad926fa29054fce3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:05",
+    "versionId": "v:bw:1997:05",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a sequence $u_{0}, u_{1}, \\ldots$ of positive integers, $u_{0}$ is arbitrary, and for any non-negative integer $n$,\n\n$$\nu_{n+1}= \\begin{cases}\\frac{1}{2} u_{n} & \\text { for even } u_{n} \\\\ a+u_{n} & \\text { for odd } u_{n}\\end{cases}\n$$\n\nwhere $a$ is a fixed odd positive integer. Prove that the sequence is periodic from a certain step.\n",
+    "rawSha256": "b86c051eb200a9cba79f3dff23952d357b2e7ac9526394901ee8df38f0016315",
+    "matchNormalizedSha256": "881f4ec1c61634d1811fa13b1f7efa063a3408ac0c34e8f11eeb6796441dee9e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:06",
+    "versionId": "v:bw:1997:06",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all triples $(a, b, c)$ of non-negative integers satisfying $a \\geqslant b \\geqslant c$ and $1 \\cdot a^{3}+9 \\cdot b^{2}+9 \\cdot c+7=1997$.\n",
+    "rawSha256": "0fa5e7310cfc6c11eb3cbf13306b9fc6470ee54ef36cc33622c6b060d04de54e",
+    "matchNormalizedSha256": "049c89fa7c71fe68dbfc7ed2adf1686f5d1b2ddade15104c04538619ce143bd0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:07",
+    "versionId": "v:bw:1997:07",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ and $Q$ be polynomials with integer coefficients. Suppose that the integers $a$ and $a+1997$ are roots of $P$, and that $Q(1998)=2000$. Prove that the equation $Q(P(x))=1$ has no integer solutions.\n",
+    "rawSha256": "cac267562daecbc5d6b56dcd7691433e671248acc7d4cb69a78c9df6c5718e71",
+    "matchNormalizedSha256": "ee470ed46be199d0fe477c7297d508461e8e7fa817ef2bb6e34392e49a46d13c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:08",
+    "versionId": "v:bw:1997:08",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "If we add 1996 and 1997, we first add the unit digits 6 and 7. Obtaining 13, we write down 3 and \"carry\" 1 to the next column. Thus we make a carry. Continuing, we see that we are to make three carries in total:\n\n$$\n\\begin{array}{r}\n111 \\\\\n1996 \\\\\n+1997 \\\\\n\\hline 3993\n\\end{array}\n$$\n\nDoes there exist a positive integer $k$ such that adding $1996 \\cdot k$ to $1997 \\cdot k$ no carry arises during the whole calculation?\n",
+    "rawSha256": "c33231da8e05477b04ebeb6b2d8625a6a2909b7db1987b80ecc9ef53d448ca8b",
+    "matchNormalizedSha256": "e2fccbb4577a14c4d9d4d938aa8ed57cb90e9e6637e6438e27c1e678fa2fd466",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:09",
+    "versionId": "v:bw:1997:09",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The worlds in the Worlds' Sphere are numbered $1,2,3, \\ldots$ and connected so that for any integer $n \\geqslant 1$, Gandalf the Wizard can move in both directions between any worlds with numbers $n, 2 n$ and $3 n+1$. Starting his travel from an arbitrary world, can Gandalf reach every other world?\n",
+    "rawSha256": "f51d55bb88183a1e7ae532489cba4453cfdb0886c0504b27696c0f5532b6614b",
+    "matchNormalizedSha256": "4b9d04e3a864da4e5d7fafe1d67d61bb9093d68e2e85f38b747c6261109e3092",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:10",
+    "versionId": "v:bw:1997:10",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that in every sequence of 79 consecutive positive integers written in the decimal system, there is a positive integer whose sum of digits is divisible by 13 .\n",
+    "rawSha256": "aee7890ac2b5b1dad6cd9e7c33842971186c4c89fddf92033c765a027c51b9b1",
+    "matchNormalizedSha256": "84e852d98e97c93c1a7f1a882ad776f3b49f6b4f547ddfa2af8fbf60160def94",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:11",
+    "versionId": "v:bw:1997:11",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On two parallel lines, the distinct points $A_{1}, A_{2}, A_{3}, \\ldots$ respectively $B_{1}$, $B_{2}, B_{3}, \\ldots$ are marked in such a way that $\\left|A_{i} A_{i+1}\\right|=1$ and $\\left|B_{i} B_{i+1}\\right|=2$ for $i=1,2, \\ldots$ (see Figure). Provided that $\\angle A_{1} A_{2} B_{1}=\\alpha$, find the infinite sum $\\angle A_{1} B_{1} A_{2}+\\angle A_{2} B_{2} A_{3}+\\angle A_{3} B_{3} A_{4}+\\ldots$\n\n![Figure 1](figure:1)\n",
+    "rawSha256": "e92c5499a5eff6f01923390cf91f7d95a60dd707266bead3409ae4bd27c18796",
+    "matchNormalizedSha256": "2e15a4b19c61e150ea96734a09610b1da521db0f29fb271402b34c30ba395795",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:1997:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Parallel-line configuration shown beside Problem 11."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:12",
+    "versionId": "v:bw:1997:12",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two circles $\\mathcal{C}_{1}$ and $\\mathcal{C}_{2}$ intersect in $P$ and $Q$. A line through $P$ intersects $\\mathcal{C}_{1}$ and $\\mathcal{C}_{2}$ again in $A$ and $B$, respectively, and $X$ is the midpoint of $A B$. The line through $Q$ and $X$ intersects $\\mathcal{C}_{1}$ and $\\mathcal{C}_{2}$ again in $Y$ and $Z$, respectively. Prove that $X$ is the midpoint of $Y Z$.\n",
+    "rawSha256": "bd405ac04e9b4072bdb6987f437d94ef571cea5475a2eaa36f805fbc497f26e3",
+    "matchNormalizedSha256": "9c60c94358f4959669648e9b969764c1637359ecb44e77d4ab4123fcb3132e95",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:13",
+    "versionId": "v:bw:1997:13",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Five distinct points $A, B, C, D$ and $E$ lie on a line with\n\n$$\n|A B|=|B C|=|C D|=|D E| \\text {. }\n$$\n\nThe point $F$ lies outside the line. Let $G$ be the circumcentre of triangle $A D F$ and $H$ be the circumcentre of triangle $B E F$. Show that lines $G H$ and $F C$ are perpendicular.\n\n![Figure 1](figure:1)\n",
+    "rawSha256": "b9fe754a38427d04a8881b9889ac7b8970add9cfd87e97ba45eab57480a213fc",
+    "matchNormalizedSha256": "87e437132b461eafbb6284491728a36d359acedaee451d8b7843dec99d571cbf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:1997:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Configuration shown beside Problem 13."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:14",
+    "versionId": "v:bw:1997:14",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In the triangle $A B C,|A C|^{2}$ is the arithmetic mean of $|B C|^{2}$ and $|A B|^{2}$. Show that $\\cot ^{2} B \\geqslant \\cot A \\cot C$.\n",
+    "rawSha256": "3e989c9b7981b0fb7bd724915685f9ea3d3f51e9c10df37cd03339393499bb0f",
+    "matchNormalizedSha256": "c87426a2cedb6182b484941c66a56486e99121744d062321fa44dce37b18bcdd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:15",
+    "versionId": "v:bw:1997:15",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In the acute triangle $A B C$, the bisectors of $\\angle A, \\angle B$ and $\\angle C$ intersect the circumcircle again in $A_{1}, B_{1}$ and $C_{1}$, respectively. Let $M$ be the point of intersection of $A B$ and $B_{1} C_{1}$, and let $N$ be the point of intersection of $B C$ and $A_{1} B_{1}$. Prove that $M N$ passes through the incentre of triangle $A B C$.\n",
+    "rawSha256": "2bfa381af539c8eb1bf18eb5db60f1bf1508e074668e5e8fb02ed731fa19b8a5",
+    "matchNormalizedSha256": "957d347b6951b4d45e4c478c43d8fac27dff85bebbc31feabd4f46fd5f8a556d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:16",
+    "versionId": "v:bw:1997:16",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On a $5 \\times 5$ chessboard, two players play the following game. The first player places a knight on some square. Then the players alternately move the knight according to the rules of chess, starting with the second player. It is not allowed to move the knight to a square that has been visited previously. The player who cannot move loses. Which of the two players has a winning strategy?\n",
+    "rawSha256": "98881b7e875e71d745a768e7bd0f73b8e521d70881eca31b6ad69adb597707d9",
+    "matchNormalizedSha256": "07e03dc2a82531ad223da66d40ec578e3d0f7a4c242ce5f0c919239a4e593403",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:17",
+    "versionId": "v:bw:1997:17",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A rectangle can be divided into $n$ equal squares. The same rectangle can also be divided into $n+76$ equal squares. Find all possible values of $n$.\n",
+    "rawSha256": "0d25a84b1bf5653fb1e3d209aa1186b8d44cdff143a2cf019f0cdb445c8f3b46",
+    "matchNormalizedSha256": "b7a280d2e0c297e0700d8d12d107539f3847ebacdff63e69362a2d4ee7fe6dca",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:18",
+    "versionId": "v:bw:1997:18",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "a) Prove the existence of two infinite sets $A$ and $B$, not necessarily disjoint, of non-negative integers such that each non-negative integer $n$ is uniquely representable in the form $n=a+b$ with $a \\in A, b \\in B$.\n\nb) Prove that for each such pair $(A, B)$, either $A$ or $B$ contains only multiples of some integer $k>1$.\n",
+    "rawSha256": "5586c026c28ba9c4c9bbd135bcc6fdde84b6fdd45f7d772ae400fb3f1e505c2c",
+    "matchNormalizedSha256": "e3053d3e032878f73789a0fd3d46236fbaea7aee61aa9d6026ed6e30d9dadc4a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:19",
+    "versionId": "v:bw:1997:19",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a forest each of $n$ animals $(n \\geqslant 3)$ lives in its own cave, and there is exactly one separate path between any two of these caves. Before the election for King of the Forest some of the animals make an election campaign. Each campaign-making animal visits each of the other caves exactly once,\nuses only the paths for moving from cave to cave, never turns from one path to another between the caves and returns to its own cave in the end of its campaign. It is also known that no path between two caves is used by more than one campaign-making animal.\n\na) Prove that for any prime $n$, the maximum possible number of campaign-making animals is $\\frac{n-1}{2}$;\n\nb) Find the maximum number of campaign-making animals for $n=9$.\n",
+    "rawSha256": "fe469855162176bd1cd5f2f81c09e6e6e1cd232e2495e99827f22330729091a3",
+    "matchNormalizedSha256": "d0aa2c1a08d998b0c3d87d0962f639f5091c834c33442d7a983f8b13dae69977",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw97sol.jsonl",
+      "fileSha256": "093aa373f096ebbffd041f4ae09de3fc0dd99077d102e7bde352b7f4163d424a",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1997:20",
+    "versionId": "v:bw:1997:20",
+    "officialSource": {
+      "sourceId": "bw-official:1997:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "4b2e147a34010ca17e6c7addedd4bb8fbaa2bbd8120967984acd77c0f66680ad",
+      "sourceBytes": 151250,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Twelve cards lie in a row. The cards are of three kinds: with both sides white, both sides black, or with a white and a black side. Initially, nine of the twelve cards have a black side up. The cards 1-6 are turned, and subsequently four of the twelve cards have a black side up. Now cards $4-9$ are turned, and six cards have a black side up. Finally, the cards 1-3 and 10-12 are turned, after which five cards have a black side up. How many cards of each kind are there?\n",
+    "rawSha256": "ed005886a9c3ee3a03b0895ac30207cc8dcc76331a154be8ac5f9e406a5dcdd2",
+    "matchNormalizedSha256": "7473b3790b6143190e460cedad3fb5c947218eacbe3fc6b712ec03e9c737141f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1997:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1997:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

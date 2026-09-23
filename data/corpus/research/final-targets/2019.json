@@ -1,0 +1,825 @@
+[
+  {
+    "appearanceId": "bw:2019:01",
+    "versionId": "v:bw:2019:01",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For all non-negative real numbers $x,y,z$ with $x\\ge y$, prove the inequality\n\n$$\n\\frac{x^3-y^3+z^3+1}{6}\\ge(x-y)\\sqrt{xyz}.\n$$\n",
+    "rawSha256": "489cec82af6e5923242070a8fd3d5be2cd365ae2f067731242ab81931c5b913b",
+    "matchNormalizedSha256": "2332823d84e0e4b5e660a1f65d21ce63a00d4f0136c97762b4da3ed5e145ee94",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:02",
+    "versionId": "v:bw:2019:02",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $(F_n)$ be the sequence defined recursively by $F_1=F_2=1$ and $F_{n+1}=F_n+F_{n-1}$ for $n\\ge2$. Find all pairs of positive integers $(x,y)$ such that\n\n$$\n5F_x-3F_y=1.\n$$\n",
+    "rawSha256": "5692cc5c9dba1b8576c53d996292ca033d68d3eec19a8eaf8daf760427ffed0e",
+    "matchNormalizedSha256": "f9063547531e1692f265f1907c00acc1e1d7ab1adda7b5dede1406486cfc4994",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:03",
+    "versionId": "v:bw:2019:03",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Find all functions $f:\\mathbb R\\to\\mathbb R$ such that\n\n$$\nf(xf(y)-y^2)=(y+1)f(x-y)\n$$\n\nholds for all $x,y\\in\\mathbb R$.\n",
+    "rawSha256": "dfe6dea477118dce05ae1918f30b28d16ccccc61b0bbcf41086b366ef04f60f4",
+    "matchNormalizedSha256": "16b8517a2c8f1df60fe2657fbc7df76e4e5ddc4f0c237cae2996dca7f5f230ec",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:04",
+    "versionId": "v:bw:2019:04",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all integers $n$ for which there exist an integer $k\\ge2$ and positive integers $x_1,x_2,\\ldots,x_k$ so that\n\n$$\nx_1x_2+x_2x_3+\\cdots+x_{k-1}x_k=n\n$$\n\nand\n\n$$\nx_1+x_2+\\cdots+x_k=2019.\n$$\n",
+    "rawSha256": "6f2fb295e96866795bef5d84d48dc89ec06a5f522a1305f7d7ccd7b42ab5bd38",
+    "matchNormalizedSha256": "e4e72858f9f962ecf1bfa481960ba3e206b3769d857dbce162471c8c8b2ebc97",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:05",
+    "versionId": "v:bw:2019:05",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The $2m$ numbers\n\n$$\n1\\cdot2,\\ 2\\cdot3,\\ 3\\cdot4,\\ \\ldots,\\ 2m(2m+1)\n$$\n\nare written on a blackboard, where $m\\ge2$ is an integer. A move consists of choosing three numbers $a,b,c$, erasing them from the board and writing the single number\n\n$$\n\\frac{abc}{ab+bc+ca}.\n$$\n\nAfter $m-1$ such moves, only two numbers will remain on the blackboard. Supposing one of these is $\\frac43$, show that the other is larger than 4.\n",
+    "rawSha256": "f35d8216b875d84498222463751c42a05f49202f98f4f5e081cbe9b1bb4ed83e",
+    "matchNormalizedSha256": "c3602fa65385b9175a01ec7b0b71b22378001b7ff8a4adae4e4fcf301c027a03",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:06",
+    "versionId": "v:bw:2019:06",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Alice and Bob play the following game. They write the expressions $x+y$, $x-y$, $x^2+xy+y^2$ and $x^2-xy+y^2$ each on a separate card. The four cards are shuffled and placed face down on a table. One of the cards is turned over, revealing the expression written on it, after which Alice chooses any two of the four cards, and gives the other two to Bob. All cards are then revealed. Now Alice picks one of the variables $x$ and $y$, assigns a real value to it, and tells Bob what value she assigned and to which variable. Then Bob assigns a real value to the other variable.\n\nFinally, they both evaluate the product of the expressions on their two cards. Whoever gets the larger result wins. Which player, if any, has a winning strategy?\n",
+    "rawSha256": "5ab44ed730a95bc20a54a7f296c58363969e9b73c72911e72b30548a10ed767b",
+    "matchNormalizedSha256": "ad007d37a0f59c1034e0ce50badd6d5935b278879ca73949941c14b3f8af60c1",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:07",
+    "versionId": "v:bw:2019:07",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Find the smallest integer $k\\ge2$ such that for every partition of the set $\\{2,3,\\ldots,k\\}$ into two parts, at least one of these parts contains (not necessarily distinct) numbers $a,b$ and $c$ with $ab=c$.\n",
+    "rawSha256": "d16d72c8d2715c18f12ce9615bed4e3dfa56d2db3866ede9c6183e94a35cfdb2",
+    "matchNormalizedSha256": "f6db8afb07e95db48720c1c3d0c921be8eea42908b572322b8f049f1c21c5f08",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:08",
+    "versionId": "v:bw:2019:08",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "There are 2019 cities in the country of Balticwayland. Some pairs of cities are connected by non-intersecting bidirectional roads, each road connecting exactly 2 cities. It is known that for every pair of cities $A$ and $B$ it is possible to drive from $A$ to $B$ using at most 2 roads. There are 62 cops trying to catch a robber. The cops and robber all know each others' locations at all times. Each night, the robber can choose to stay in her current city or move to a neighbouring city via a direct road. Each day, each cop has the same choice of staying or moving, and they coordinate their actions. The robber is caught if she is in the same city as a cop at any time. Prove that the cops can always catch the robber.\n",
+    "rawSha256": "0e0f183c796846a4d4a469a5665bc16df4440c2c86927a44093e9c86d7554bc8",
+    "matchNormalizedSha256": "de4f13e9119eb8d194802782373e91d98fad07733621f1c56990be6f87551fd9",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:09",
+    "versionId": "v:bw:2019:09",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For a positive integer $n$, consider all nonincreasing functions $f:\\{1,\\ldots,n\\}\\to\\{1,\\ldots,n\\}$. Some of them have a fixed point (i.e. a $c$ such that $f(c)=c$), some do not. Determine the difference between the sizes of the two sets of functions.\n\nRemark. A function $f$ is nonincreasing if $f(x)\\ge f(y)$ holds for all $x\\le y$.\n",
+    "rawSha256": "22fa69a2e7a50872159a94b0e9d5f299d40ec9d62143a760b36a957ef1d5d4c9",
+    "matchNormalizedSha256": "d590b6e49e04bcc14e58bca6972b09357f83ce3c90f41d6291c492c38ae843f5",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:10",
+    "versionId": "v:bw:2019:10",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "There are 2019 points given in the plane. A child wants to draw $k$ (closed) discs in such a manner, that for any two distinct points there exists a disc that contains exactly one of these two points. What is the minimal $k$, such that for any initial configuration of points it is possible to draw $k$ discs with the above property?\n",
+    "rawSha256": "a6c014b551fe68acecc7c413f18e54429edc4044d289e5ba47368d1cf08c2242",
+    "matchNormalizedSha256": "ec433ec4c3d751cf31bc8d1deb9619a805045d872e49b399c518ff928937d3fc",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:11",
+    "versionId": "v:bw:2019:11",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABC$ be a triangle with $AB=AC$. Let $M$ be the midpoint of $BC$. Let the circles with diameters $AC$ and $BM$ intersect at points $M$ and $P$. Let $MP$ intersect $AB$ at $Q$. Let $R$ be a point on $AP$ such that $QR\\parallel BP$. Prove that $CP$ bisects $\\angle RCB$.\n",
+    "rawSha256": "6cd2cc76bda1954b2e701ee246e0609c0c14734f95b43decef20ee81b7f6d1b8",
+    "matchNormalizedSha256": "d47abb7d129545977cad1be5b74d7a523cb688b60213fca4ced88c38f6d5f315",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:12",
+    "versionId": "v:bw:2019:12",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABC$ be a triangle and $H$ its orthocenter. Let $D$ be a point lying on the segment $AC$ and let $E$ be the point on the line $BC$ such that $BC\\perp DE$. Prove that $EH\\perp BD$ if and only if $BD$ bisects $AE$.\n",
+    "rawSha256": "bfbd9d3765e9576cc6184ef9c3d56c33a97ffd57bbd91cf57cda79c9a13b061d",
+    "matchNormalizedSha256": "fa9f268cd58d9b3bfe7186e1529e8aebb3785d7d02c63989935640df527d1315",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:13",
+    "versionId": "v:bw:2019:13",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABCDEF$ be a convex hexagon in which $AB=AF$, $BC=CD$, $DE=EF$ and $\\angle ABC=\\angle EFA=90^\\circ$. Prove that $AD\\perp CE$.\n",
+    "rawSha256": "0c89c1fb36e0a4f5d93d7486f793bc299180f59011affadfa76f5568de9b90c8",
+    "matchNormalizedSha256": "e85a5c856cf3b2341523263c1d92df995f259dff34f4c815a60f3b26f5d2beb1",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:14",
+    "versionId": "v:bw:2019:14",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABC$ be a triangle with $\\angle ABC=90^\\circ$, and let $H$ be the foot of the altitude from $B$. The points $M$ and $N$ are the midpoints of the segments $AH$ and $CH$, respectively. Let $P$ and $Q$ be the second points of intersection of the circumcircle of the triangle $ABC$ with the lines $BM$ and $BN$, respectively. The segments $AQ$ and $CP$ intersect at the point $R$. Prove that the line $BR$ passes through the midpoint of the segment $MN$.\n",
+    "rawSha256": "c8f408991614a79afe50d06646392ab1656fea22ed2a691ddd072d2cd219618a",
+    "matchNormalizedSha256": "dbecc92af5306346503882f1f65f1234ca8d1610a918eaab75b94b9d389018d5",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:15",
+    "versionId": "v:bw:2019:15",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $n\\ge4$, and consider a (not necessarily convex) polygon $P_1P_2\\ldots P_n$ in the plane. Suppose that, for each $P_k$, there is a unique vertex $Q_k\\ne P_k$ among $P_1,\\ldots,P_n$ that lies closest to it. The polygon is then said to be hostile if $Q_k\\ne P_{k+1}$ for all $k$ (where $P_0=P_n$, $P_{n+1}=P_1$).\n\n(a) Prove that no hostile polygon is convex.\n\n(b) Find all $n\\ge4$ for which there exists a hostile $n$-gon.\n",
+    "rawSha256": "77def28bf67019eb9e59f299b4f2b3342e131b11b20dc87c39b637c27b0cb818",
+    "matchNormalizedSha256": "d3778bf0f7e15c1f4c4a36577af9a959b6609e93f67fdb2460d31a5933a5b9d7",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:16",
+    "versionId": "v:bw:2019:16",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For a positive integer $N$, let $f(N)$ be the number of ordered pairs of positive integers $(a,b)$ such that the number\n\n$$\n\\frac{ab}{a+b}\n$$\n\nis a divisor of $N$. Prove that $f(N)$ is always a perfect square.\n",
+    "rawSha256": "9b91dac2f096607b996ad222505473a03d5388ecf097ab26a69f9156cf485ec6",
+    "matchNormalizedSha256": "b2b858cf940de0b6c68230a36ffcb9a77a90dcd524e704e286b6117d79882594",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:17",
+    "versionId": "v:bw:2019:17",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $p$ be an odd prime. Show that for every integer $c$, there exists an integer $a$ such that\n\n$$\na^{\\frac{p+1}{2}}+(a+c)^{\\frac{p+1}{2}}\\equiv c\\pmod p.\n$$\n",
+    "rawSha256": "1b0ce8b10f4f03a4fd7068c502f0198e1e096d67d4e8c86d79cbd6e425166eab",
+    "matchNormalizedSha256": "3607f6cb1655b8d5dfc88081ecaff885d2a24edfaa01ce653f7a4fc4a81e8091",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:18",
+    "versionId": "v:bw:2019:18",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a,b,c$ be odd positive integers such that $a$ is not a perfect square and\n\n$$\na^2+a+1=3(b^2+b+1)(c^2+c+1).\n$$\n\nProve that at least one of the numbers $b^2+b+1$ and $c^2+c+1$ is composite.\n",
+    "rawSha256": "c24d3a45e9b9b133d93709862623fefb74f11c05e956006c29ccf4477cd6ee89",
+    "matchNormalizedSha256": "360ce5adad00637497397192de8200b1b9d53f740bc74a0469ce6ed7d526b283",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:19",
+    "versionId": "v:bw:2019:19",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Prove that the equation\n\n$$\n7^x=1+y^2+z^2\n$$\n\nhas no solutions over positive integers.\n",
+    "rawSha256": "28c1924f95f37d8468aa703d2f2bb69bdac78105dccb83aa785902964b51fa80",
+    "matchNormalizedSha256": "b15acbc9290bcf2b68b2c0e106b5066a49dcfa8d7f7de3462f7b433ebeb17ea0",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2019:20",
+    "versionId": "v:bw:2019:20",
+    "officialSource": {
+      "sourceId": "bw-official:2019:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "3d1b45bcb3ab1c4f1018a86e1e0ea935d8a064b15bf7e055f75180094c15682e",
+      "sourceBytes": 138092,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let us consider a polynomial $P(x)$ with integer coefficients satisfying\n\n$$\nP(-1)=-4,\\qquad P(-3)=-40,\\qquad P(-5)=-156.\n$$\n\nWhat is the largest possible number of integers $x$ satisfying\n\n$$\nP(P(x))=x^2?\n$$\n",
+    "rawSha256": "5be7dbc5561be2213edfa0247a566c4b36cece39876cb7b14f47920681a31532",
+    "matchNormalizedSha256": "a900ece447875baa48cf71d372d7e52f895da397e72e03ed5ae2b64962ae039f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2019:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2019:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

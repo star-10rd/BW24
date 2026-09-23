@@ -1,0 +1,48 @@
+{
+  "schema": "bw26-official-target-verification-completion",
+  "status": "pass",
+  "scope": "BW final fixed mathematical appearances 1990-2025",
+  "reviewBundleSha256": "a7544b63fc6cb822bc6865035afb6aacdd538ccc96436ba8e3ad586358a26f0f",
+  "decisionsSha256": "430240e78f7ed9e680e0963e0e2472e753bbad02d63d2d2c5fe154a1f8e2c71b",
+  "officialProblemPdfs": 36,
+  "targets": 719,
+  "frozen": 719,
+  "unresolved": 0,
+  "decisionActions": {
+    "acceptCandidate": 500,
+    "replaceStatement": 219
+  },
+  "targetOrigins": {
+    "directOfficialPdfTranscriptions": 121,
+    "candidateBasedTargets": 598
+  },
+  "reviewPrep": {
+    "automaticProblemHeadingsLocated": 679,
+    "segmentationWarningsResolvedByVisualReview": 40,
+    "2011PdfTextExtraction": "empty; verified from exact PDF render"
+  },
+  "candidateCleanup": {
+    "answerTailsRemoved": 74,
+    "sourceDocumentContaminationRemoved": 10,
+    "falseFiguresRemoved": 7,
+    "officialFiguresAdded": 3,
+    "explicitSemanticRepairs": 4,
+    "nonStatementSuffixesRemoved": 2
+  },
+  "figures": {
+    "problemsWithFigures": 14,
+    "figureRecords": 15,
+    "requiredForMeaning": 8
+  },
+  "knownDangerousTargetChecks": {
+    "bw:2014:01": "2^23 in final cosine factor; denominator 2^24",
+    "bw:2015:02": "all (1-a_i^n) factors present",
+    "bw:2016:20": "concurrent (not concurrent or parallel)",
+    "bw:2020:19": "floor expression verified",
+    "bw:2021:16": "ax-by=16 verified",
+    "bw:2021:20": "1 <= i < j <= n range verified",
+    "bw:2023:19": "exponent tower verified"
+  },
+  "nextGate": "M1 exact MathNet-v0 853-row inventory, then F1 global 719 x 853 reconciliation",
+  "repoMutation": false
+}

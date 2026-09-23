@@ -1,0 +1,41 @@
+import { readdir } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { assertBw26RepoRoot, corpusPaths, readJson, readJsonl } from './io';
+import { runFoundationStressTests } from './fixtures/foundation';
+import { loadCanonicalState } from './state';
+import { validateCanonicalState } from './validation';
+
+function assert(cond: unknown, message: string): asserts cond { if (!cond) throw new Error(message); }
+const root=process.cwd(); await assertBw26RepoRoot(root);
+const state=await loadCanonicalState(root);
+await validateCanonicalState(state,{repoRoot:root,checkCuratedFiles:true,enforceFinalPolicyCompleteness:true});
+await runFoundationStressTests();
+const manifest=await readJson<any>(resolve(root,corpusPaths.installationManifest));
+assert(manifest.schema==='bw26-corpus-installation' && manifest.schemaVersion===2,'invalid corpus installation manifest');
+assert(manifest.finals===719 && manifest.versions===719 && manifest.mathnetRows===853,'installation cardinality mismatch');
+assert(manifest.same===520 && manifest.related===25 && manifest.none===174 && manifest.open===0,'reconciliation counts must be 520/25/174/0');
+assert(manifest.canonicalSameVersionSourceLinks===523,'expected 523 canonical same-Version source links');
+assert(manifest.shortlistHandoffRows===521,'expected 521 shortlist handoff rows');
+assert(state.appearances.length===719 && state.versions.length===719,'canonical identity must contain 719 appearances and versions');
+assert(state.sourceLinks.length===523,'canonical source-link count mismatch');
+assert(state.contentSelections.length===0 && state.assetBindings.length===0,'P3B must not silently select public content/assets');
+const items=await readJsonl<any>(resolve(root,corpusPaths.mathnetItems));
+const sols=await readJsonl<any>(resolve(root,corpusPaths.mathnetSolutions));
+const imgs=await readJsonl<any>(resolve(root,corpusPaths.mathnetImages));
+const summary=await readJson<any>(resolve(root,corpusPaths.mathnetSummary));
+assert(items.length===853 && new Set(items.map(x=>x.source)).size===853,'MathNet inventory must contain 853 unique rows');
+assert(sols.length===902,'MathNet solution index must contain 902 solutions');
+assert(imgs.length===183 && new Set(imgs.map(x=>x.sha256)).size===183,'MathNet image index must contain 183 unique images');
+assert(summary.rows===853 && summary.solutionFiles===902 && summary.imageFiles===183,'MathNet inventory summary mismatch');
+const recon=await readJsonl<any>(resolve(root,corpusPaths.finalReconciliation));
+assert(recon.length===719 && new Set(recon.map(x=>x.appearanceId)).size===719,'reconciliation must contain 719 unique finals');
+const counts=new Map<string,number>(); for(const r of recon){ counts.set(r.outcome,(counts.get(r.outcome)??0)+1); assert(r.rowsSearched===853 && r.searchStatus==='complete' && r.acceptance==='frozen',`${r.appearanceId}: reconciliation search not frozen/complete`); }
+assert(counts.get('same-version-found')===520 && counts.get('related-only')===25 && counts.get('none-found')===174 && !counts.get('unresolved'),'reconciliation outcome mismatch');
+const handoff=await readJsonl<any>(resolve(root,corpusPaths.shortlistHandoff)); assert(handoff.length===521,'shortlist handoff must contain 521 rows');
+const semantic=await readJsonl<any>(resolve(root,corpusPaths.semanticAudit)); assert(semantic.length===20 && semantic.every(x=>x.reviewProtocol==='semantic-audit-v2' && x.acceptance==='frozen'),'semantic audit v2 missing/incomplete');
+const early=await readJsonl<any>(resolve(root,corpusPaths.earlyDomainReview)); assert(early.length===39 && early.every(x=>x.acceptance==='frozen'),'1990-91 curated-domain review must contain 39 frozen records');
+const targetDir=resolve(root,'data/corpus/research/final-targets'); const targetFiles=(await readdir(targetDir)).filter(x=>/^\d{4}\.json$/.test(x)).sort(); assert(targetFiles.length===36,'expected 36 frozen target year files');
+let nt=0; for(const file of targetFiles){ const rows=await readJson<any[]>(resolve(targetDir,file)); for(const t of rows){ nt++; assert(t.verificationStatus==='frozen' && t.materializationStatus==='materialized',`${t.appearanceId}: target not frozen/materialized`); } } assert(nt===719,'frozen target count mismatch');
+const report=await readJson<any>(resolve(root,corpusPaths.reconciliationReport)); assert(report.same===520 && report.related===25 && report.none===174 && report.open===0 && report.canonicalSameVersionSourceLinks===523,'reconciliation report mismatch');
+console.log('BW26 corpus validation passed.');
+console.log(JSON.stringify({finals:719,versions:719,mathnetRows:853,same:520,related:25,none:174,open:0,sourceLinks:523,shortlistHandoff:521},null,2));

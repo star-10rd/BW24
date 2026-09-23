@@ -1,0 +1,941 @@
+[
+  {
+    "appearanceId": "bw:2011:01",
+    "versionId": "v:bw:2011:01",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The real numbers $x_{1}, \\ldots, x_{2011}$ satisfy\n\n$$\nx_{1}+x_{2}=2 x_{1}^{\\prime}, \\quad x_{2}+x_{3}=2 x_{2}^{\\prime}, \\quad \\ldots, \\quad x_{2011}+x_{1}=2 x_{2011}^{\\prime}\n$$\n\nwhere $x_{1}^{\\prime}, x_{2}^{\\prime}, \\ldots, x_{2011}^{\\prime}$ is a permutation of $x_{1}, x_{2}, \\ldots, x_{2011}$. Prove that $x_{1}=x_{2}=\\cdots=x_{2011}$.\n",
+    "rawSha256": "3bb7b7f6a97a0570f955fb2cb57169d2fe4bae5b196610fdf15849be8841e362",
+    "matchNormalizedSha256": "ba075bb49df9b7ac62aba4e4433e1c27031b3832c28fba080a47aa9609021dd5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw11sol.jsonl",
+      "fileSha256": "b976d33d19593eca0d4adbd0a23614f60176cb418bcd4626d2573a4e6ea7730c",
+      "problemLabel": "A-1",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:02",
+    "versionId": "v:bw:2011:02",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $f:\\mathbb Z\\to\\mathbb Z$ be a function such that, for all integers $x$ and $y$,\n\n$$\nf(f(x)-y)=f(y)-f(f(x)).\n$$\n\nShow that $f$ is bounded, i.e. that there is a constant $C$ such that\n\n$$\n-C<f(x)<C\n$$\n\nfor all integers $x$.\n",
+    "rawSha256": "b9a325352d0114d9c65dd5db7f4a1ad53205408a376a44241f76e628b6f12dc7",
+    "matchNormalizedSha256": "f216e8edaca6138fb555af3dcc38bdbbb4416a7b8e3d047439ebae24e477722f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:03",
+    "versionId": "v:bw:2011:03",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A sequence $a_1,a_2,a_3,\\ldots$ of non-negative integers is such that $a_{n+1}$ is the last digit of $a_n^n+a_{n-1}$ for all $n>2$. Is it always true that for some $n_0$ the sequence $a_{n_0},a_{n_0+1},a_{n_0+2},\\ldots$ is periodic?\n",
+    "rawSha256": "47f838f6a3d5bea6fd86dc81115dd62b863dab755df96aff489d17688b186784",
+    "matchNormalizedSha256": "e0c3898a2ba252dff19722c748e7204ee6c7daeb339678356f873d1c6798fec3",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:04",
+    "versionId": "v:bw:2011:04",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a,b,c,d$ be non-negative reals such that $a+b+c+d=4$. Prove the inequality\n\n$$\n\\frac{a}{a^3+8}+\\frac{b}{b^3+8}+\\frac{c}{c^3+8}+\\frac{d}{d^3+8}\\le\\frac49.\n$$\n",
+    "rawSha256": "38fe7182f5838d7b5ffcd323ffdfb89dd58da83aa1ad46e556c3d45a640339f4",
+    "matchNormalizedSha256": "fcfac20cd2f9a7f35be3abdf2acccc06cd2edc7cf4292f062f21a28a65e0bf70",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:05",
+    "versionId": "v:bw:2011:05",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $f:\\mathbb R\\to\\mathbb R$ be a function such that\n\n$$\nf(f(x))=x^2-x+1\n$$\n\nfor all real numbers $x$. Determine $f(0)$.\n",
+    "rawSha256": "fb2283ff97c882e627f46fd1e0fa4db272392a52d3c611174ab3c271cfc9e782",
+    "matchNormalizedSha256": "c77171e4dcdd50e4c3b581f1440c0b108d9e6b267b45bb846fddb504fc0c8fed",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:06",
+    "versionId": "v:bw:2011:06",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $n$ be a positive integer. Prove that the number of lines which go through the origin and precisely one other point with integer coordinates $(x,y)$, $0\\le x,y\\le n$, is at least $\\frac{n^2}{4}$.\n",
+    "rawSha256": "37c7aff5f5a892a6eab44ef99b3f81c54def30dd8613c100f829355ddd7efb49",
+    "matchNormalizedSha256": "aaf9d6349c68923e678853bed0c8cf9c60c82911b7bc05b2d80bc46a5a701b45",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:07",
+    "versionId": "v:bw:2011:07",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $T$ denote the 15-element set $\\{10a+b:a,b\\in\\mathbb Z,\\ 1\\le a<b\\le6\\}$. Let $S$ be a subset of $T$ in which all six digits $1,2,\\ldots,6$ appear and in which no three elements together use all these six digits. Determine the largest possible size of $S$.\n",
+    "rawSha256": "3d8536e24e0f2457dd9c4e87f69b33e39555c69067b1f2afb6c31db33567245c",
+    "matchNormalizedSha256": "74dafa6dd78e087250da37811b992ba824814151018b52ebbeb27e76c9fd3a53",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:08",
+    "versionId": "v:bw:2011:08",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In Greifswald there are three schools called $A$, $B$ and $C$, each of which is attended by at least one student. Among any three students, one from $A$, one from $B$ and one from $C$, there are two knowing each other and two not knowing each other. Prove that at least one of the following holds:\n\n- Some student from $A$ knows all students from $B$.\n- Some student from $B$ knows all students from $C$.\n- Some student from $C$ knows all students from $A$.\n",
+    "rawSha256": "fb7184ea7be1575f1a532e117cdf616fb70593b65477bd889907942c342ff0b3",
+    "matchNormalizedSha256": "c7c433d02490be41718b920ff9ee8c8c723c626e2769e75ece31ac4cdb9bec22",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:09",
+    "versionId": "v:bw:2011:09",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Given a rectangular grid, split into $m\\times n$ squares, a colouring of the squares in two colours (black and white) is called valid if it satisfies the following conditions:\n\n- All squares touching the border of the grid are coloured black.\n- No four squares forming a $2\\times2$-square are coloured in the same colour.\n- No four squares forming a $2\\times2$-square are coloured in such a way that only diagonally touching squares have the same colour.\n\nWhich grid sizes $m\\times n$ (with $m,n\\ge3$) have a valid colouring?\n",
+    "rawSha256": "da0a75241b9a1924430a75b9f81d1e38697430b90148f82cf31fa57f56fc8452",
+    "matchNormalizedSha256": "b09b3422b23c0dfeeb07a7878ad6b44516262f8310e56336afb0302b23a69afa",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:10",
+    "versionId": "v:bw:2011:10",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Two persons play the following game with integers. The initial number is $2011^{2011}$. The players move in turns. Each move consists of subtraction of an integer between 1 and 2010 inclusive, or division by 2011, rounding down to the closest integer when necessary. The player who first obtains a non-positive integer wins. Which player has a winning strategy?\n",
+    "rawSha256": "88784d6709c4b067880e933cc0b7a10740b1a5b06e6603c87e8d6d6870bb9827",
+    "matchNormalizedSha256": "1365fd6397caa6068607049029ab02aff21fd2ae9acce3efcd665ec231279ce0",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:11",
+    "versionId": "v:bw:2011:11",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B$ and $C D$ be two diameters of the circle $\\mathcal{C}$. For an arbitrary point $P$ on $\\mathcal{C}$, let $R$ and $S$ be the feet of the perpendiculars from $P$ to $A B$ and $C D$, respectively. Show that the length of $R S$ is independent of the choice of $P$.\n",
+    "rawSha256": "7e6625deba392757a40d13e7af09a0102969bcb623c648195b09d5ae4392d034",
+    "matchNormalizedSha256": "b9651c0ad37d6d16d168abd40572965a71309159393b4ec42ccc2c76ab199b9a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:12",
+    "versionId": "v:bw:2011:12",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $P$ be a point inside a square $ABCD$ such that $PA:PB:PC$ is $1:2:3$. Determine the angle $\\angle BPA$.\n",
+    "rawSha256": "92dfe199c28b9ac623a72fd8d4a91b4e44e8a6f6d54c4809f9d7a7dc15edf063",
+    "matchNormalizedSha256": "64d6ac339c5c1854f44de332d13e8e44011012ed8983c13ca53e031b5303189e",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:13",
+    "versionId": "v:bw:2011:13",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $E$ be an interior point of the convex quadrilateral $A B C D$. Construct triangles $\\triangle A B F$, $\\triangle B C G, \\triangle C D H$ and $\\triangle D A I$ on the outside of the quadrilateral such that the similarities $\\triangle A B F \\sim \\triangle D C E, \\triangle B C G \\sim \\triangle A D E, \\triangle C D H \\sim \\triangle B A E$ and $\\triangle D A I \\sim \\triangle C B E$ hold. Let $P$, $Q, R$ and $S$ be the projections of $E$ on the lines $A B, B C, C D$ and $D A$, respectively. Prove that if the quadrilateral $P Q R S$ is cyclic, then\n\n$$\nE F \\cdot C D=E G \\cdot D A=E H \\cdot A B=E I \\cdot B C .\n$$\n",
+    "rawSha256": "7e40c594a84854d19ec06c36757d45a7be11050a6a97ce1fb2ca6ce741472578",
+    "matchNormalizedSha256": "2c6d5ff2e397ab5c6560bfa9b2b20fcca4f8f6e458f70fc764af0b133fd0d2a1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw11sol.jsonl",
+      "fileSha256": "b976d33d19593eca0d4adbd0a23614f60176cb418bcd4626d2573a4e6ea7730c",
+      "problemLabel": "G-3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:14",
+    "versionId": "v:bw:2011:14",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The incircle of a triangle $A B C$ touches the sides $B C, C A, A B$ at $D, E, F$, respectively. Let $G$ be a point on the incircle such that $F G$ is a diameter. The lines $E G$ and $F D$ intersect at $H$. Prove that $C H \\| A B$.\n",
+    "rawSha256": "8ae2ade1f37dfd2dd2b93ab4ed797b5149cd0accbed525afd3937458e403760a",
+    "matchNormalizedSha256": "a48e79263ed53fdf241e564fa1ca297ed8ebe077def0bc99a99232447c231468",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw11sol.jsonl",
+      "fileSha256": "b976d33d19593eca0d4adbd0a23614f60176cb418bcd4626d2573a4e6ea7730c",
+      "problemLabel": "G-4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:15",
+    "versionId": "v:bw:2011:15",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral such that $\\angle A D B=\\angle B D C$. Suppose that a point $E$ on the side $A D$ satisfies the equality\n\n$$\nA E \\cdot E D+B E^{2}=C D \\cdot A E .\n$$\n\nShow that $\\angle E B A=\\angle D C B$.\n",
+    "rawSha256": "2e8dc5e9b5e62c8e2c26728d33fac900c8ef15e6a0ed3ee096f09ec3ecf549ea",
+    "matchNormalizedSha256": "92505cae83c160221f240064d18cd1de76d3bd3298cedefbbb16653070915e91",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw11sol.jsonl",
+      "fileSha256": "b976d33d19593eca0d4adbd0a23614f60176cb418bcd4626d2573a4e6ea7730c",
+      "problemLabel": "G-5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:16",
+    "versionId": "v:bw:2011:16",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a$ be any integer. Define the sequence $x_0,x_1,\\ldots$ by $x_0=a$, $x_1=3$ and\n\n$$\nx_n=2x_{n-1}-4x_{n-2}+3\n$$\n\nfor all $n>1$. Determine the largest integer $k_a$ for which there exists a prime $p$ such that $p^{k_a}$ divides $x_{2011}-1$.\n",
+    "rawSha256": "4e3674b90f198b46db2202e5d51bcabf1ac7891849cfbcee03c76c3bc0fd31b6",
+    "matchNormalizedSha256": "86863eb11237d2c1c4d6eee4e6deb11f9804af7bfc5a0ddd294003ab68dc6991",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:17",
+    "versionId": "v:bw:2011:17",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all positive integers $d$ such that whenever $d$ divides a positive integer $n$, $d$ will also divide any integer obtained by rearranging the digits of $n$.\n",
+    "rawSha256": "15646d12e374706d45bdd36580c12b3099bec4323bff8c788df3595e0ccdbb05",
+    "matchNormalizedSha256": "788f5fb3b109898f0a53202f45a184bed01511659d815c83d2c3a99d0f2985a7",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:18",
+    "versionId": "v:bw:2011:18",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Determine all pairs $(p,q)$ of primes for which both $p^2+q^3$ and $q^2+p^3$ are perfect squares.\n",
+    "rawSha256": "601c47bb00200e6e2bddb5171806e874024fa2d2ab9696d3a2e0c361ea740b36",
+    "matchNormalizedSha256": "7bfc7449457866d63704549bd02af1d8adea0b978a47f5547cc6609e528d622f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:19",
+    "versionId": "v:bw:2011:19",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $p\\ne3$ be a prime number. Show that there is a non-constant arithmetic sequence of positive integers $x_1,x_2,\\ldots,x_p$ such that the product of the terms of the sequence is a cube.\n",
+    "rawSha256": "76b8dd177995bbb1a7ca68cee2221a1501a4c5888ac4dbfca602f9f0d49878d3",
+    "matchNormalizedSha256": "bfcbe8adc31bb1f294b2881a84cc4bb93b465ba271edcb33e7fd86d7ce1b6c41",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2011:20",
+    "versionId": "v:bw:2011:20",
+    "officialSource": {
+      "sourceId": "bw-official:2011:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "166e89f9e7b4311656543b2f72ebcaa01d450ed4d38ccb5c6f210568dbc65ab9",
+      "sourceBytes": 595434,
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "An integer $n\\ge1$ is called balanced if it has an even number of distinct prime divisors. Prove that there exist infinitely many positive integers $n$ such that there are exactly two balanced numbers among $n,n+1,n+2$ and $n+3$.\n",
+    "rawSha256": "8f5fdbe324181bc58d6148e681272b925f3b80a810fae8f9467087356aee6f93",
+    "matchNormalizedSha256": "3acd3db591746334b48f50ed9318d738785b89f6ea6da2767382a33074f27647",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2011:problems",
+      "officialPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2011:problems",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

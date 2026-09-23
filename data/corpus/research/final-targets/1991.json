@@ -1,0 +1,864 @@
+[
+  {
+    "appearanceId": "bw:1991:01",
+    "versionId": "v:bw:1991:01",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the smallest positive integer $n$ having the property: for any set of $n$ distinct integers $a_{1}, a_{2}, \\ldots, a_{n}$ the product of all differences $a_{i}-a_{j}, i<j$ is divisible by 1991 .\n",
+    "rawSha256": "5829a103633f9d1dd6a20177987a26dffdfd3bd00d7c1a5cecd98cf289d593f3",
+    "matchNormalizedSha256": "0fe124aa351fbe71bf40601e4b98167441ac5596943075e4517fd3fc51b517e1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:02",
+    "versionId": "v:bw:1991:02",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that there are no positive integers $n$ and $m>1$ such that $102^{1991}+103^{1991}=n^{m}$.\n",
+    "rawSha256": "ff9ef7cf55ab465d3542ab1b240516767f1387f0b40708660d25c0c32c74b499",
+    "matchNormalizedSha256": "9893911c064f44d785cb6c0c9431cadb19f073912ee46b0fcb37309f2e00fed5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:03",
+    "versionId": "v:bw:1991:03",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are 20 cats priced from $\\$ 12$ to $\\$ 15$ and 20 sacks priced from 10 cents to $\\$ 1$ for sale (all prices are different). Prove that each of two boys, John and Peter, can buy a cat in a sack paying the same amount of money.\n",
+    "rawSha256": "5072fe2a2cdfe553866e820e340a22738ffd61d804b5055411fef897f619894d",
+    "matchNormalizedSha256": "bcec7256cdbcb122908e86572667602ae12778dcc6a5c79cc96d7d9c53a80576",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:04",
+    "versionId": "v:bw:1991:04",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ be a polynomial with integer coefficients such that $p(-n)<p(n)<n$ for some integer $n$. Prove that $p(-n)<-n$.\n",
+    "rawSha256": "9c86f8f24f3aadc4d4d10b54dccc738236f58a78aca74473739f80c9f1a1d0a6",
+    "matchNormalizedSha256": "8e069366e63176979ca98edd6840656156bf54bae9102b2ea5443f5fa10d7e7a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:05",
+    "versionId": "v:bw:1991:05",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For any positive numbers $a, b, c$ prove the inequalities\n\n$$\n\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{2}{a+b}+\\frac{2}{b+c}+\\frac{2}{c+a} \\geq \\frac{9}{a+b+c} .\n$$\n",
+    "rawSha256": "792aa2a590f3087457a329efad596fcb130d92649bf75f6eb097d11fcface752",
+    "matchNormalizedSha256": "63ffca815184170c5bfb308fe9476830ce516c8d14ade3ce5f5568c060982cd4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:06",
+    "versionId": "v:bw:1991:06",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $[x]$ be the integer part of a number $x$, and $\\{x\\}=x-[x]$. Solve the equation\n\n$$\n[x] \\cdot\\{x\\}=1991 x .\n$$\n",
+    "rawSha256": "5d7fbba3e3bcaf977447b0edba68e324fa8e2913691fe4043464087c3d34ac50",
+    "matchNormalizedSha256": "24ccf2317b0f4a5ae0e9886510537e5acd19170316fd416af3006f949bd29bb5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:07",
+    "versionId": "v:bw:1991:07",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A, B, C$ be the angles of an acute-angled triangle. Prove the inequality\n\n$$\n\\sin A+\\sin B>\\cos A+\\cos B+\\cos C\n$$\n",
+    "rawSha256": "65667d7cc9197f11f30e33e1fd32044b8867734aadc484782fed2dcf88de6100",
+    "matchNormalizedSha256": "76cc0c84915fa7e78af78bb1ba8fa194d7b914d316839bb0b4f0848a7313e138",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:08",
+    "versionId": "v:bw:1991:08",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c, d, e$ be distinct real numbers. Prove that the equation\n\n$$\n\\begin{aligned}\n& (x-a)(x-b)(x-c)(x-d) \\\\\n& +(x-a)(x-b)(x-c)(x-e) \\\\\n& +(x-a)(x-b)(x-d)(x-e) \\\\\n& +(x-a)(x-c)(x-d)(x-e) \\\\\n& +(x-b)(x-c)(x-d)(x-e)=0\n\\end{aligned}\n$$\n\nhas 4 distinct real solutions.\n",
+    "rawSha256": "5320032562972ad17b5f2dc83dd71f6d013dc2f07b55525e91e1e38ac3556461",
+    "matchNormalizedSha256": "fd7d427478a22724f249db9b34557c429e3e94720816c595753a23cf609599a0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:09",
+    "versionId": "v:bw:1991:09",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the number of solutions of the equation $a e^{x}=x^{3}$.\n",
+    "rawSha256": "258094f32220304e6a9c935b2b37ab7f529c8cc3e6c6be1320239e85135b916c",
+    "matchNormalizedSha256": "02dfcba9b13f1689ba7cca4b40f23c1be9c2582c1365732abda833974b3884cf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:10",
+    "versionId": "v:bw:1991:10",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Express the value of $\\sin 3^{\\circ}$ in radicals.\n",
+    "rawSha256": "f6f22bd0b3a285f0e23870f904884ce4c0f714fc9bdfc95445ed795c2b7f838f",
+    "matchNormalizedSha256": "769f231a765ca72cf90cf6ef87ca3053678f3c7ee58bdce9b72bb21f9d489923",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:11",
+    "versionId": "v:bw:1991:11",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "All positive integers from 1 to 1000000 are divided into two groups consisting of numbers with odd or even sums of digits respectively. Which group contains more numbers?\n",
+    "rawSha256": "47af872a699d860daabd0ec12a07c3e03f05e954428fd2655ffee80e0c79f21a",
+    "matchNormalizedSha256": "cf4ba6031654c6d3e0472fb73c489aa0058eb483bd23e04141fabf31a6fd5da9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:12",
+    "versionId": "v:bw:1991:12",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The vertices of a convex 1991-gon are enumerated with integers from 1 to 1991. Each side and diagonal of the 1991-gon is coloured either red or blue. Prove that, for an arbitrary renumeration of vertices, one can find integers $k$ and $l$ such that the line connecting vertices with numbers $k$ and $l$ before the renumeration has the same colour as the line between the vertices having these numbers after the renumeration.\n",
+    "rawSha256": "563dfd02ae5d4084d650ba18d33d106fc864e2a546d0fb9e0504236f82dce0f8",
+    "matchNormalizedSha256": "921a048a3745c3597dd7389edb461f6893cdf1605ee06e5176db85edc9c646cc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:13",
+    "versionId": "v:bw:1991:13",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An equilateral triangle is divided into 25 congruent triangles enumerated with numbers from 1 to 25 . Prove that one can find two triangles having a common side and with the difference of the numbers assigned to them greater than 3 .\n",
+    "rawSha256": "2460e4f6715f09fb2606e84d7718c13b12bb5765d532346fc673635133ac5500",
+    "matchNormalizedSha256": "124b786854d980b8faaf9b95d896dba40e08a3475ae8203724c5ef7465c82c92",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:14",
+    "versionId": "v:bw:1991:14",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A castle has a number of halls and $n$ doors. Every door leads into another hall or outside. Every hall has at least two doors. A knight enters the castle. In any hall, he can choose any door for exit except the one he just used to enter that hall. Find a strategy allowing the knight to get outside after visiting no more than $2 n$ halls (a hall is counted each time it is entered).\n",
+    "rawSha256": "652c79efc9715baaa91af6ba755a4abc99d779b6946718c3bc4f3a1d49c9b773",
+    "matchNormalizedSha256": "e0ea9a5b44f5dee0b956a465d3126a9926da8eb2ca977496dbacc27ad138dfd1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:15",
+    "versionId": "v:bw:1991:15",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In each of the squares of a chess board an arbitrary integer is written. A king starts to move on the board. As the king moves, 1 is added to the number in each square it \"visits\". Is it always possible to make the numbers on the chess board:\n\n(a) all even;\n\n(b) all divisible by 3 ;\n\n(c) all equal?\n",
+    "rawSha256": "9c7611a47ffd8e0cf4613317a67a50a3cb5a575304f23e4383ef7cf1ffe68bdc",
+    "matchNormalizedSha256": "85ee57f92be6ec2157c5636c8905cd63d6ac031eddc49755ac8e9b4be479a7fd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:16",
+    "versionId": "v:bw:1991:16",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let two circles $C_{1}$ and $C_{2}$ (with radii $r_{1}$ and $r_{2}$ ) touch each other externally, and let $l$ be their common tangent. A third circle $C_{3}$ (with radius $r_{3}<\\min \\left(r_{1}, r_{2}\\right)$ ) is externally tangent to the two given circles and tangent to the line $l$. Prove that\n\n$$\n\\frac{1}{\\sqrt{r_{3}}}=\\frac{1}{\\sqrt{r_{1}}}+\\frac{1}{\\sqrt{r_{2}}}\n$$\n",
+    "rawSha256": "542fd4f9d58282054879480c7c70cebea30f1cba85e8a566be76d68c3afee299",
+    "matchNormalizedSha256": "bc21c8cf22adb5b5b4de71e37478fd043fe10e6826adcbd849131536cd2d34be",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:17",
+    "versionId": "v:bw:1991:17",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the coordinate planes have the reflection property. A beam falls onto one of them. How does the final direction of the beam after reflecting from all three coordinate planes depend on its initial direction?\n",
+    "rawSha256": "e1da40111ec79a8f8487b05b8d9bff9a57d28d41e3841f6ff42c2147cc51f57b",
+    "matchNormalizedSha256": "c2ed9c6d8ebc59a5098536eb0b56c0b58245b7c5d0f1d74c31e8be29cc8e15c7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:18",
+    "versionId": "v:bw:1991:18",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to put two tetrahedra of volume $\\frac{1}{2}$ without intersection into a sphere with radius 1 ?\n",
+    "rawSha256": "c40b58e178fb54c42163e1f11e481191fdf86c65341523cdfb588cfd2ab4d440",
+    "matchNormalizedSha256": "388d05748b06a624864de82123e5e872c769503663cd2f02c22a38a26207635c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:19",
+    "versionId": "v:bw:1991:19",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let's expand a little bit three circles, touching each other externally, so that three pairs of intersection points appear. Denote by $A_{1}, B_{1}, C_{1}$ the three so obtained \"external\" points and by $A_{2}, B_{2}, C_{2}$ the corresponding \"internal\" points. Prove the equality\n\n$$\n\\left|A_{1} B_{2}\\right| \\cdot\\left|B_{1} C_{2}\\right| \\cdot\\left|C_{1} A_{2}\\right|=\\left|A_{1} C_{2}\\right| \\cdot\\left|C_{1} B_{2}\\right| \\cdot\\left|B_{1} A_{2}\\right| .\n$$\n",
+    "rawSha256": "a8438cc9387d4c3ef3b4badab5c483f828a15c52db9ff55b19118f89ab36d9d7",
+    "matchNormalizedSha256": "98d17de6353345cde884c4a2b3f284021de6828fcbc8578e531f7b5b8abe8eac",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1991:20",
+    "versionId": "v:bw:1991:20",
+    "officialSource": {
+      "sourceId": "bw-official:1991:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "02ed2a85359feffa3d452f57dda1fb2e202407db8a329f53c44181e56c9ee899",
+      "sourceBytes": 32458,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider two points $A\\left(x_{1}, y_{1}\\right)$ and $B\\left(x_{2}, y_{2}\\right)$ on the graph of the function $y=\\frac{1}{x}$ such that $0<x_{1}<x_{2}$ and $|A B|=2 \\cdot|O A|(O$ is the reference point, i.e., $O(0,0))$. Let $C$ be the midpoint of the segment $A B$. Prove that the angle between the $x$-axis and the ray $O A$ is equal to three times the angle between $x$-axis and the ray $O C$.\n",
+    "rawSha256": "03ddccc6c16b824d6c3bc4ab331d41812388f6a860befce5137dc8ed0175a1ef",
+    "matchNormalizedSha256": "98630236b52a460fc42b87d5bf01773a9731a65560e89928fb9418c59492cc80",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw91sol.jsonl",
+      "fileSha256": "e531f84c7dd9aa58f0cec2fd0799bfc4f8527495c9bafdc07fb18e74e800944e",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1991:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

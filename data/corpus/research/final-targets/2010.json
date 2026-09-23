@@ -1,0 +1,865 @@
+[
+  {
+    "appearanceId": "bw:2010:01",
+    "versionId": "v:bw:2010:01",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all quadruples of real numbers $(a, b, c, d)$ satisfying the system of equations\n\n$$\n\\left\\{\\begin{array}{l}\n(b+c+d)^{2010}=3 a \\\\\n(a+c+d)^{2010}=3 b \\\\\n(a+b+d)^{2010}=3 c \\\\\n(a+b+c)^{2010}=3 d\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "682b89fe7aef5be2ee14b427e419bf5ac6e7584d8d0b4f8137952e7b56b4834a",
+    "matchNormalizedSha256": "6a922c23492cfd3b34c14800e0a1e35744d16ab57c33f30fb65a5fe963a17d30",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:02",
+    "versionId": "v:bw:2010:02",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x$ be a real number such that $0<x<\\frac{\\pi}{2}$. Prove that\n\n$$\n\\cos ^{2}(x) \\cot (x)+\\sin ^{2}(x) \\tan (x) \\geq 1 \\text {. }\n$$\n",
+    "rawSha256": "b48d48c545cf49a53b001128de7a1192b7f66f8e970c278966c168034c660003",
+    "matchNormalizedSha256": "2fce875c617b2100e6e153d517c1dd1e3f891d0b5299c4b749e9d89189b770b0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:03",
+    "versionId": "v:bw:2010:03",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x_{1}, x_{2}, \\ldots, x_{n}(n \\geq 2)$ be real numbers greater than 1 . Suppose that $\\left|x_{i}-x_{i+1}\\right|<1$ for $i=1,2, \\ldots, n-1$. Prove that\n\n$$\n\\frac{x_{1}}{x_{2}}+\\frac{x_{2}}{x_{3}}+\\ldots+\\frac{x_{n-1}}{x_{n}}+\\frac{x_{n}}{x_{1}}<2 n-1\n$$\n",
+    "rawSha256": "2e7e6f079b037cb2be343f67152676f22839b6e9d5a5ecb2e072e31cc6f6da14",
+    "matchNormalizedSha256": "b30d849637fd71dc4fed51c1bb9966dc51cef6105bcd52867b71af52d165d495",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:04",
+    "versionId": "v:bw:2010:04",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all polynomials $P(x)$ with real coefficients such that\n\n$$\n(x-2010) P(x+67)=x P(x)\n$$\n\nfor every integer $x$.\n",
+    "rawSha256": "5617bba5a6c899482e547ddb56f6ed38220763455f31503964820c18215e1299",
+    "matchNormalizedSha256": "eb33c81c3cf01f328f17c4eb0de6c6e739fa6a2b6bb0afd30c28d9129a1f5ddf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:05",
+    "versionId": "v:bw:2010:05",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{R}$ denote the set of real numbers. Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ such that\n\n$$\nf\\left(x^{2}\\right)+f(x y)=f(x) f(y)+y f(x)+x f(x+y)\n$$\n\nfor all $x, y \\in \\mathbb{R}$.\n",
+    "rawSha256": "112337024032f02606cc4bf8b2af9ba5f1a5706b18b2cee0e93c2eb79a3b6ed4",
+    "matchNormalizedSha256": "a66dea4e748d67265d0ec88061240563428821094864273962e3c148812d6cfd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:06",
+    "versionId": "v:bw:2010:06",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An $n \\times n$ board is coloured in $n$ colours such that the main diagonal (from top-left to bottom-right) is coloured in the first colour; the two adjacent diagonals are coloured in the second colour; the two next diagonals (one from above and one from below) are coloured in the third colour, etc.; the two corners (top-right and bottom-left) are coloured in the $n$-th colour. It happens that it is possible to place on the board $n$ rooks, no two attacking each other and such that no two rooks stand on cells of the same colour. Prove that $n \\equiv 0(\\bmod 4)$ or $n \\equiv 1$ $(\\bmod 4)$.\n",
+    "rawSha256": "99daad5a119cf7589627e8e02ca8822a25282e158e46a3ec678fc0dfc9b78788",
+    "matchNormalizedSha256": "c017c20315cbac6aa27594e6fb903b95b7bf55109862d75435626985b0bafac2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:07",
+    "versionId": "v:bw:2010:07",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are some cities in a country; one of them is the capital. For any two cities $A$ and $B$ there is a direct flight from $A$ to $B$ and a direct flight from $B$ to $A$, both having the same price. Suppose that all round trips with exactly one landing in every city have the same total cost. Prove that all round trips that miss the capital and with exactly one landing in every remaining city cost the same.\n",
+    "rawSha256": "eb27d806bbd5d0ffa6113e6e35a0c1e279488c26a739886fc60799d6f3bd9273",
+    "matchNormalizedSha256": "512ca245b820ccf804245c1d594ba61a74c84686c6d3ed387c5c37df7149c2af",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:08",
+    "versionId": "v:bw:2010:08",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a club with 30 members, every member initially had a hat. One day each member sent his hat to a different member (a member could have received more than one hat). Prove that there exists a group of 10 members such that no one in the group has received a hat from another one in the group.\n",
+    "rawSha256": "6c9de023923d923834e962d097ecf5f419ffce0f3aaa6023872734c2ebe39fa7",
+    "matchNormalizedSha256": "8a9d8e737fce4eb245c95c71750cfdbb7b91ae835239ed362227a7bf1ff2da45",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:09",
+    "versionId": "v:bw:2010:09",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There is a pile of 1000 matches. Two players each take turns and can take 1 to 5 matches. It is also allowed at most 10 times during the whole game to take 6 matches, for example 7 exceptional moves can be done by the first player and 3 moves by the second and then no more exceptional moves are allowed. Whoever takes the last match wins. Determine which player has a winning strategy.\n",
+    "rawSha256": "613e92a63287325fcf11820ff9b4562431edf4783356626481ec3bb31ed83dd8",
+    "matchNormalizedSha256": "a2edd6d9e52e37c605bd7374d9fce523ba14eec25e499ca06d82237c990a93d5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:10",
+    "versionId": "v:bw:2010:10",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be an integer with $n \\geq 3$. Consider all dissections of a convex $n$-gon into triangles by $n-3$ non-intersecting diagonals, and all colourings of the triangles with black and white so that triangles with a common side are always of a different colour. Find the least possible number of black triangles.\n",
+    "rawSha256": "43047311b6a79ad4ce17736be896e7c83dc3af744ed241a34d3591d4edb747dc",
+    "matchNormalizedSha256": "10372f00809280756d98366a7616acfba2d648b57dd57c53dfceb5e2feb804b2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "10",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        10,
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:11",
+    "versionId": "v:bw:2010:11",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a square and let $S$ be the point of intersection of its diagonals $A C$ and $B D$. Two circles $k, k^{\\prime}$ go through $A, C$ and $B, D$; respectively. Furthermore, $k$ and $k^{\\prime}$ intersect in exactly two different points $P$ and $Q$. Prove that $S$ lies on $P Q$.\n",
+    "rawSha256": "d16a361e58f069d58ea61bb4d47e3044b1e5e6e641a8ad7b9600fd6172a3e6f7",
+    "matchNormalizedSha256": "09df45645707c5893405d5e900ef7dcc789f3c28889b999137781226969150e7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:12",
+    "versionId": "v:bw:2010:12",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral with precisely one pair of parallel sides.\n\na) Show that the lengths of its sides $A B, B C, C D, D A$ (in this order) do not form an arithmetic progression.\n\nb) Show that there is such a quadrilateral for which the lengths of its sides $A B, B C, C D$, $D A$ form an arithmetic progression after the order of the lengths is changed.\n",
+    "rawSha256": "cdf72769b9bb9c7b65c6d33f9b08c375456368aa194e23cfdd0c6198c3703600",
+    "matchNormalizedSha256": "f563520b47cc6a66ece952e644a0b9948141e0e89a633ffbe8aade1e54fa56fd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:13",
+    "versionId": "v:bw:2010:13",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In an acute triangle $A B C$, the segment $C D$ is an altitude and $H$ is the orthocentre. Given that the circumcentre of the triangle lies on the line containing the bisector of the angle $D H B$, determine all possible values of $\\angle C A B$.\n",
+    "rawSha256": "4933eaafbf90b29529d1e7b6cdf4d8858c61754aa4f084c40c1b9cf9cc56c7f1",
+    "matchNormalizedSha256": "fa92799404bf9a211b934608964f8e4abd2f10472d390cd755a2ccb41490d371",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:14",
+    "versionId": "v:bw:2010:14",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Assume that all angles of a triangle $A B C$ are acute. Let $D$ and $E$ be points on the sides $A C$ and $B C$ of the triangle such that $A, B, D$, and $E$ lie on the same circle. Further suppose the circle through $D, E$, and $C$ intersects the side $A B$ in two points $X$ and $Y$. Show that the midpoint of $X Y$ is the foot of the altitude from $C$ to $A B$.\n",
+    "rawSha256": "bcc1b6fad0dc8e183405ada7f283badbfa5a1f007d715e3b30927e5a316134cd",
+    "matchNormalizedSha256": "72bdd0ad0af810a8cc9217c9124d6ac009b3735b1e1e5fdf56c4174fa17c6db6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:15",
+    "versionId": "v:bw:2010:15",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The points $M$ and $N$ are chosen on the angle bisector $A L$ of a triangle $A B C$ such that $\\angle A B M=\\angle A C N=23^{\\circ} . X$ is a point inside the triangle such that $B X=C X$ and $\\angle B X C=2 \\angle B M L$. Find $\\angle M X N$.\n",
+    "rawSha256": "50881e73ec4054e35fdcb165fd260385b31cf31fdd28dcc5a0100c49660c3758",
+    "matchNormalizedSha256": "f5d5bbf32c272a77ce13724f589de6df8e308d8493e5891f5798985f1092b0d7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:16",
+    "versionId": "v:bw:2010:16",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For a positive integer $k$, let $d(k)$ denote the number of divisors of $k$ (e.g. $d(12)=6$ ) and let $s(k)$ denote the digit sum of $k$ (e.g. $s(12)=3$ ). A positive integer $n$ is said to be amusing if there exists a positive integer $k$ such that $d(k)=s(k)=n$. What is the smallest amusing odd integer greater than 1 ?\n",
+    "rawSha256": "2bd26c49776fcb78b931b223fbd745638c7049ea964eae9c869135c8bc51a88b",
+    "matchNormalizedSha256": "e37b986f36b455e32816b962821bc3ddb129952143dc89c4ec2f0b1ca2eb8714",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:17",
+    "versionId": "v:bw:2010:17",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all positive integers $n$ such that the decimal representation of $n^{2}$ consists of odd digits only.\n",
+    "rawSha256": "b50e12f211764dd488ee2a5a0dfffa1a9a2997068068799fb603a326d5a98905",
+    "matchNormalizedSha256": "0c79f248c1c7f2dd6f2889d207f64bfa420531a02d996c5c93108d799a55fae0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:18",
+    "versionId": "v:bw:2010:18",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ be a prime number. For each $k, 1 \\leq k \\leq p-1$, there exists a unique integer denoted by $k^{-1}$ such that $1 \\leq k^{-1} \\leq p-1$ and $k^{-1} \\cdot k \\equiv 1(\\bmod p)$. Prove that the sequence\n\n$$\n1^{-1}, \\quad 1^{-1}+2^{-1}, \\quad 1^{-1}+2^{-1}+3^{-1}, \\quad \\ldots, \\quad 1^{-1}+2^{-1}+\\cdots+(p-1)^{-1}\n$$\n\n(addition modulo $p$ ) contains at most $(p+1) / 2$ distinct elements.\n",
+    "rawSha256": "c13ff18cd4f42f7609f57310a1a7ec7791ab7fbe4c45f452947d96352ad776a2",
+    "matchNormalizedSha256": "704932c50b3dd149601a90c08858d351e1681d854306085025efdaf7c611342c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:19",
+    "versionId": "v:bw:2010:19",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For which $k$ do there exist $k$ pairwise distinct primes $p_{1}, p_{2}, \\ldots, p_{k}$ such that\n\n$$\np_{1}^{2}+p_{2}^{2}+\\cdots+p_{k}^{2}=2010 ?\n$$\n",
+    "rawSha256": "12c271b292aef18f5076966fc6e29c14d49444c283668db5884334b8704e25b1",
+    "matchNormalizedSha256": "e104dce8ce4af1d37433a04c0d7177e5c40c418918a610815cf4d7a04df5346e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2010:20",
+    "versionId": "v:bw:2010:20",
+    "officialSource": {
+      "sourceId": "bw-official:2010:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "0d88046a04db299462c8fee753a49337adad8640356988227362cc3ed6101d0e",
+      "sourceBytes": 146283,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive integers $n$ for which there exists an infinite subset $A$ of the set $\\mathbb{N}$ of positive integers such that for all pairwise distinct $a_{1}, \\ldots, a_{n} \\in A$ the numbers $a_{1}+\\cdots+a_{n}$ and $a_{1} \\cdots a_{n}$ are coprime.\n",
+    "rawSha256": "f822ce7649da7ba66d18346d5bf0bd12df59dbea8cd4c5665e9514e0321d3a7d",
+    "matchNormalizedSha256": "1d5b8cba4d7f0acb6f85121fbfbcebb1d0e39482adfebfcea1bdacd52363931c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw10sol.jsonl",
+      "fileSha256": "bb69eada30f8f68364716fde6e32eddc57af4620df8ee119fe98c9af9da2fe97",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2010:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

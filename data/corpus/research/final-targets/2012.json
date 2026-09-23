@@ -1,0 +1,863 @@
+[
+  {
+    "appearanceId": "bw:2012:01",
+    "versionId": "v:bw:2012:01",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The numbers from 1 to 360 are partitioned into 9 subsets of consecutive integers and the sums of the numbers in each subset are arranged in the cells of a $3 \\times 3$ square. Is it possible that the square turns out to be a magic square?\n\nRemark: A magic square is a square in which the sums of the numbers in each row, in each column and in both diagonals are all equal.\n",
+    "rawSha256": "57b6c8737b05a4d6578bb731029258e226aef301874c36cd8feb51e45997d66c",
+    "matchNormalizedSha256": "6a38292faac469bea5d2088ac65a51cb15da8c176c6b8d2f70df1182e6eb2845",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2012:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:02",
+    "versionId": "v:bw:2012:02",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ be real numbers. Prove that\n\n$$\na b+b c+c a+\\max \\{|a-b|,|b-c|,|c-a|\\} \\leq 1+\\frac{1}{3}(a+b+c)^{2} .\n$$\n",
+    "rawSha256": "e3d7b66d4a47ff08c1bdf86db96c49c2cd872407a6dec52d13317249260bbdaf",
+    "matchNormalizedSha256": "26dd6c9fca454d3abdd1f34868e56c285ab4b066d30d73af47b379ed546ecbc6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "2",
+      "recordsForProblem": 6,
+      "sourceLines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:03",
+    "versionId": "v:bw:2012:03",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "a) Show that the equation\n\n$$\n\\lfloor x\\rfloor\\left(x^{2}+1\\right)=x^{3},\n$$\n\nwhere $\\lfloor x\\rfloor$ denotes the largest integer not larger than $x$, has exactly one real solution in each interval between consecutive positive integers.\n\nb) Show that none of the positive real solutions of this equation is rational.\n",
+    "rawSha256": "b6d9837a7778535ec29e302fb5e87f44a6a710d963a2675d1ef9878da0c7f5a8",
+    "matchNormalizedSha256": "6d06d0c6d9889937de6841cd461267b1035f84a3a608159ddbd94aefc5ae70f0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:04",
+    "versionId": "v:bw:2012:04",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for infinitely many pairs $(a, b)$ of integers the equation\n\n$$\nx^{2012}=a x+b\n$$\n\nhas among its solutions two distinct real numbers whose product is 1 .\n",
+    "rawSha256": "e6b9cadc760082e45fc5463e2adf2871299f7dffb204b1734f84b2de947dbc3d",
+    "matchNormalizedSha256": "018f70d1dce78e1dae9f61bb68857344809b978914387e2273ef49adef48ba5e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "4",
+      "recordsForProblem": 4,
+      "sourceLines": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:05",
+    "versionId": "v:bw:2012:05",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ for which\n\n$$\nf(x+y)=f(x-y)+f(f(1-x y))\n$$\n\nholds for all real numbers $x$ and $y$.\n",
+    "rawSha256": "b0c9060a2533c41edca72150c80b7d0df4dfaeda24049d64485e09634951518e",
+    "matchNormalizedSha256": "93d146700341ef1093b8dc6a7fee944dd407afa39484c6d81ca8b03111cb740c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2012:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:06",
+    "versionId": "v:bw:2012:06",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are 2012 lamps arranged on a table. Two persons play the following game. In each move the player flips the switch of one lamp, but he must never get back an arrangement of the lit lamps that has already been on the table. A player who cannot move loses. Which player has a winning strategy?\n",
+    "rawSha256": "b2ef11b1ed0a359ba8bf7d34c2dc4dada99f39016641af504702ad9446298cb9",
+    "matchNormalizedSha256": "63c8f4a0edaa1a2f21d9fc2c5f6625e298eb240b3fd1eb43d757055419b74053",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2012:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:07",
+    "versionId": "v:bw:2012:07",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On a $2012 \\times 2012$ board, some cells on the top-right to bottom-left diagonal are marked. None of the marked cells is in a corner. Integers are written in each cell of this board in the following way. All the numbers in the cells along the upper and the left sides of the board are 1's. All the numbers in the marked cells are 0's. Each of the other cells contains a number that is equal to the sum of its upper neighbour and its left neighbour. Prove that the number in the bottom right corner is not divisible by 2011 .\n",
+    "rawSha256": "c4db45f8050cdaa617e6dcf75606454a0ffd1024c844c4347dcd10c32e16cf67",
+    "matchNormalizedSha256": "4fd1845c94e89f11e4cf55ab770353d5bef312b1644029776c73f2d166722af1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "7",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        17,
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:08",
+    "versionId": "v:bw:2012:08",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A directed graph does not contain directed cycles. The number of edges in any directed path does not exceed 99. Prove that it is possible to colour the edges of the graph in 2 colours so that the number of edges in any single-coloured directed path in the graph will not exceed 9 .\n",
+    "rawSha256": "9bd99cb2f4455df4336f07bf48324669cbefd16ddf9d0a5bfb16fc36e14d9342",
+    "matchNormalizedSha256": "b0c65e87cea0ce5f874f39237b1fdc480ed56c2f6f3f993fd7aba11a7359893d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:09",
+    "versionId": "v:bw:2012:09",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Zeroes are written in all cells of a $5 \\times 5$ board. We can take an arbitrary cell and increase by 1 the number in this cell and all cells having a common side with it. Is it possible to obtain the number 2012 in all cells simultaneously?\n",
+    "rawSha256": "7d647c04fdaa0e5b35a7b61b98a6a36dd73ff86ba8bda39a378a1f44c503187e",
+    "matchNormalizedSha256": "d601bf94edd0c4c9d6d20c20a37e905221dbc906461410b05e0cf21ed5d717f7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2012:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:10",
+    "versionId": "v:bw:2012:10",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two players $A$ and $B$ play the following game. Before the game starts, $A$ chooses 1000 not necessarily different odd primes, and then $B$ chooses half of them and writes them on a blackboard. In each turn a player chooses a positive integer $n$, erases some primes $p_{1}, p_{2}, \\ldots, p_{n}$ from the blackboard and writes all the prime factors of $p_{1} p_{2} \\ldots p_{n}-2$ instead (if a prime occurs several times in the prime factorization of $p_{1} p_{2} \\ldots p_{n}-2$, it is written as many times as it occurs). Player $A$ starts, and the player whose move leaves the blackboard empty loses the game. Prove that one of the two players has a winning strategy and determine who.\n\nRemark: Since 1 has no prime factors, erasing a single 3 is a legal move.\n",
+    "rawSha256": "16e283d676096fb37fbbbb657643648fc4adef22996a8446e006a462ad86e06e",
+    "matchNormalizedSha256": "26ab874dfdbe378491705ecb72aedf9fa523a055cd578ac27946c7cb487d531f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:11",
+    "versionId": "v:bw:2012:11",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with $\\angle A=60^{\\circ}$. The point $T$ lies inside the triangle in such a way that $\\angle A T B=\\angle B T C=\\angle C T A=120^{\\circ}$. Let $M$ be the midpoint of $B C$. Prove that $T A+T B+T C=2 A M$.\n",
+    "rawSha256": "5c2c64d8b51d8e850702dd91aef102924221b817f202ff24c0a9cf888e824c38",
+    "matchNormalizedSha256": "4f96c332de466ce9fc04b4aaf97a5872e27cbf74a6fb5da5dbe8d2c4b6136331",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "11",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        23,
+        24,
+        25
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:12",
+    "versionId": "v:bw:2012:12",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P_{0}, P_{1}, \\ldots, P_{8}=P_{0}$ be successive points on a circle and $Q$ be a point inside the polygon $P_{0} P_{1} \\ldots P_{7}$ such that $\\angle P_{i-1} Q P_{i}=45^{\\circ}$ for $i=1, \\ldots, 8$. Prove that the sum\n\n$$\n\\sum_{i=1}^{8} P_{i-1} P_{i}{ }^{2}\n$$\n\nis minimal if and only if $Q$ is the centre of the circle.\n",
+    "rawSha256": "df930a740643b1d6f57ee03a15f3f2168a12164c436e38371e697d69c08e454b",
+    "matchNormalizedSha256": "0a7a9b3f3dcb226d902f2e556ebbbd16b1761a4ed4d13a5e2b3e4f70dc7a47a2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        26
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:13",
+    "versionId": "v:bw:2012:13",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle, and let $H$ be its orthocentre. Denote by $H_{A}, H_{B}$ and $H_{C}$ the second intersection of the circumcircle with the altitudes from $A, B$ and $C$ respectively. Prove that the area of $\\triangle H_{A} H_{B} H_{C}$ does not exceed the area of $\\triangle A B C$.\n",
+    "rawSha256": "b7f5a43fb01da9a08474eb24ae769dfc6e9c2d2c687619ae1abe396ee9d00e9d",
+    "matchNormalizedSha256": "a7e1b03ee8e56af5c57ce91f994efabedb0931873c0688a11f907bc59ddb4900",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "13",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        27,
+        28
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:14",
+    "versionId": "v:bw:2012:14",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a triangle $A B C$, let its incircle touch the sides $B C, C A, A B$ at $D, E, F$, respectively. Let $G$ be the midpoint of the segment $D E$. Prove that $\\angle E F C=$ $\\angle G F D$.\n",
+    "rawSha256": "4e698c03670697163a7a016d66dd27cd074808ba361e11f47c82b83eacd9f465",
+    "matchNormalizedSha256": "d34c3b02daa70be3d0d4981cd9f12197f3abc04661d4fcf4ca77b43866915a62",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "14",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        29,
+        30
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:15",
+    "versionId": "v:bw:2012:15",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The circumcentre $O$ of a given cyclic quadrilateral $A B C D$ lies inside the quadrilateral but not on the diagonal $A C$. The diagonals of the quadrilateral intersect at $I$.\n\nThe circumcircle of the triangle $A O I$ meets the sides $A D$ and $A B$ at points $P$ and $Q$, respectively; the circumcircle of the triangle $C O I$ meets the sides $C B$ and $C D$ at points $R$ and $S$, respectively. Prove that $P Q R S$ is a parallelogram.\n",
+    "rawSha256": "020d7b5c88e8d3d38cb50b58d0c924ac49952257399a7898e24d0d1929ae1112",
+    "matchNormalizedSha256": "ae39dd00552fac603468dd024e5a432bd6de6771c20e895823fc2031b68979b7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        31
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:16",
+    "versionId": "v:bw:2012:16",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n, m$ and $k$ be positive integers satisfying $(n-1) n(n+1)=m^{k}$. Prove that $k=1$.\n",
+    "rawSha256": "470a709d22d30e9d265846d3ea5ae5dba3d07a4e5d0aa9f3f1cebb3d5dc82d36",
+    "matchNormalizedSha256": "3fb02c50c0fee1ba7883fb374ac3f18fda53763ed72135e04907d5826ea5401f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        32
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:17",
+    "versionId": "v:bw:2012:17",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $d(n)$ denote the number of positive divisors of $n$. Find all triples $(n, k, p)$, where $n$ and $k$ are positive integers and $p$ is a prime number, such that\n\n$$\nn^{d(n)}-1=p^{k} .\n$$\n",
+    "rawSha256": "0ec2f76571a32e1180f6bb26b4dee83cf6f121019314968c5c973881d6b57d69",
+    "matchNormalizedSha256": "99fdce5c276486f3b329828627c1535a949af8ae074dd7886d7575e9b6094b87",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        33
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:18",
+    "versionId": "v:bw:2012:18",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all triples $(a, b, c)$ of integers satisfying $a^{2}+b^{2}+c^{2}=20122012$.\n",
+    "rawSha256": "bf5c95c70347b609146c07d1e428a3f60f418722d6cb587b6a4daf6beaf46987",
+    "matchNormalizedSha256": "369a60522444b1168d1fdd22ba127f79cbd4bca42116618beb0e82ede756cd82",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        34
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:19",
+    "versionId": "v:bw:2012:19",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that $n^{n}+(n+1)^{n+1}$ is composite for infinitely many positive integers $n$.\n",
+    "rawSha256": "2069fb53da8095e85321fbebcdfbc7787464a34c007591366a2b996340122d9e",
+    "matchNormalizedSha256": "2332cfe5003c6b13a629c075487b3f68e77d7058d683422ea47c74f7576e5035",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        35
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2012:20",
+    "versionId": "v:bw:2012:20",
+    "officialSource": {
+      "sourceId": "bw-official:2012:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "2d89750798ef5702a7421818d21d1a944f2aa1badd86cdb53b795ecbc2ea4475",
+      "sourceBytes": 48530,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all integer solutions of the equation $2 x^{6}+y^{7}=11$.\n",
+    "rawSha256": "3a0ddb997a0141e42627426e1448ebeec8ee4fe50664afb675d4c125094ec7f4",
+    "matchNormalizedSha256": "6675a71aa6dff62a5e99af2b9ddeec9829191b5a0e6dc1136ee2a5e422ba50f2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw12sol.jsonl",
+      "fileSha256": "e123446583f5be9ea775a5a5f4e9567fa7ef4968044c071ec5a36c19ed8c1a96",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        36
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2012:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

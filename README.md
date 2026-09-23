@@ -37,21 +37,22 @@ npm run verify
 - `scripts/` — build-time validation utilities
 - `public/` — files copied directly into the static build
 
-<!-- BW26-P3A -->
-## P3 curation foundation
+<!-- BW26-CORPUS -->
+## Corpus reconciliation layer
 
-P3 is the offline research/curation/compiler layer that will eventually replace the P2 fixtures with the canonical Baltic Way corpus. P3A establishes the data contracts and validation boundary; it does not yet compile public problem pages.
-
-```bash
-npm run p3:validate
-npm run p3:format
-npm run p3:report
-```
-
-The pinned MathNet Parquet inputs are external research inputs rather than runtime website dependencies. Put exact files in `.cache/p3/sources/mathnet-v0/` (or set `BW26_MATHNET_V0_DIR`) and verify them with:
+The offline corpus layer lives under `data/corpus/` with tooling under `scripts/corpus/`. It freezes 719 official fixed Baltic Way final appearances (1990-2025), 719 final mathematical Versions, and a reviewed global reconciliation against all 853 rows of the pinned MathNet-v0 snapshot.
 
 ```bash
-npm run p3:source:verify
+npm run corpus:validate
+npm run corpus:format
+npm run corpus:report
+npm run corpus:report -- --year 2021
 ```
 
-Canonical accepted data lives under `data/p3/identity/` and `data/p3/curation/`. Provisional checkpoints and unresolved work stay under `data/p3/research/` and never silently become public identity.
+The pinned MathNet Parquet shards remain external research inputs. Put the exact files in `.cache/corpus/sources/mathnet-v0/` (or set `BW26_MATHNET_V0_DIR`) and verify that they reproduce the tracked compact indexes with:
+
+```bash
+npm run corpus:source:verify
+```
+
+Canonical identity and accepted same-Version source links live under `data/corpus/identity/` and `data/corpus/curation/`. Research reconciliation evidence stays under `data/corpus/research/` and is never compiled directly into public problem pages. Public statement, solution, and image selection remains a later curation step.

@@ -1,0 +1,868 @@
+[
+  {
+    "appearanceId": "bw:2020:01",
+    "versionId": "v:bw:2020:01",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}>0$ be a real number, and let\n\n$$\na_{n}=\\frac{a_{n-1}}{\\sqrt{1+2020 \\cdot a_{n-1}^{2}}}, \\quad \\text { for } n=1,2, \\ldots, 2020\n$$\n\nShow that $a_{2020}<\\frac{1}{2020}$.\n",
+    "rawSha256": "ad73bcb655ef27e74486837b5645ee95634a08c0c63e2918a79e486e7aff3602",
+    "matchNormalizedSha256": "9e65269dadd94bfecd279be58c89c655e178a7f978de81376d79a688309f9118",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:02",
+    "versionId": "v:bw:2020:02",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ be positive real numbers such that $a b c=1$. Prove that\n\n$$\n\\frac{1}{a \\sqrt{c^{2}+1}}+\\frac{1}{b \\sqrt{a^{2}+1}}+\\frac{1}{c \\sqrt{b^{2}+1}}>2 .\n$$\n",
+    "rawSha256": "c7496e0457a00efad29d676a2159252276b291cc416519d202c9f383c0cd8f45",
+    "matchNormalizedSha256": "275218aee8b9713eb6cb16994125a71542ddc5c03bddf71297a9cdcc4bf9b4fd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:03",
+    "versionId": "v:bw:2020:03",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A real sequence $\\left(a_{n}\\right)_{n=0}^{\\infty}$ is defined recursively by $a_{0}=2$ and the recursion formula\n\n$$\na_{n}= \\begin{cases}a_{n-1}^{2} & \\text { if } a_{n-1}<\\sqrt{3} \\\\ \\frac{a_{n-1}^{2}}{3} & \\text { if } a_{n-1} \\geqslant \\sqrt{3}\\end{cases}\n$$\n\nAnother real sequence $\\left(b_{n}\\right)_{n=1}^{\\infty}$ is defined in terms of the first by the formula\n\n$$\nb_{n}= \\begin{cases}0 & \\text { if } a_{n-1}<\\sqrt{3} \\\\ \\frac{1}{2^{n}} & \\text { if } a_{n-1} \\geqslant \\sqrt{3}\\end{cases}\n$$\n\nvalid for each $n \\geqslant 1$. Prove that\n\n$$\nb_{1}+b_{2}+\\cdots+b_{2020}<\\frac{2}{3}\n$$\n",
+    "rawSha256": "f4662b18d201e874139e216b7ccf5d98ef11e5f7f036a33c9ced787f191da915",
+    "matchNormalizedSha256": "74e171470b5c59c24001b88ec3e1363daba4e23ca95a1fa39b63cbddababc75f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:04",
+    "versionId": "v:bw:2020:04",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ so that\n\n$$\nf(f(x)+x+y)=f(x+y)+y f(y)\n$$\n\nfor all real numbers $x, y$.\n",
+    "rawSha256": "f4792a8a1842e80070db4ea241e91fd15facfc8a514059f5af2e54d08d83a715",
+    "matchNormalizedSha256": "22bbca311bf0a7a394454e8a0621e83a4037c77dbed812882c7c945956d631ca",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "4",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        4,
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:05",
+    "versionId": "v:bw:2020:05",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all real numbers $x, y, z$ so that\n\n$$\n\\begin{aligned}\nx^{2} y+y^{2} z+z^{2} & =0 \\\\\nz^{3}+z^{2} y+z y^{3}+x^{2} y & =\\frac{1}{4}\\left(x^{4}+y^{4}\\right)\n\\end{aligned}\n$$\n",
+    "rawSha256": "d2185a38c6ac9ff0762fac5f7efa9802e809944febc76c64a3f5a2ae28cadecd",
+    "matchNormalizedSha256": "e403145138b17c85e55b18d77d0786bb9156bb21b0107ae0bb4fbeabee8853dd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:06",
+    "versionId": "v:bw:2020:06",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n>2$ be a given positive integer. There are $n$ guests at Georg's bachelor party and each guest is friends with at least one other guest. Georg organizes a party game among the guests. Each guest receives a jug of water such that there are no two guests with the same amount of water in their jugs. All guests now proceed simultaneously as follows. Every guest takes one cup for each of his friends at the party and distributes all the water from his jug evenly in the cups. He then passes a cup to each of his friends. Each guest having received a cup of water from each of his friends pours the water he has received into his jug. What is the smallest possible number of guests that do not have the same amount of water as they started with?\n",
+    "rawSha256": "9b9a06a1c451d78d485d787eaa14c4a3b987c3c03c828eef8efa8676b42f9167",
+    "matchNormalizedSha256": "13695a6b5f79fbcda6ff6e08fb3e4d7253dd9edd150e96009e02cee4a2f6f8d7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:07",
+    "versionId": "v:bw:2020:07",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A mason has bricks with dimensions $2 \\times 5 \\times 8$ and other bricks with dimensions $2 \\times 3 \\times 7$. She also has a box with dimensions $10 \\times 11 \\times 14$. The bricks and the box are all rectangular parallelepipeds. The mason wants to pack bricks into the box filling its entire volume and with no bricks sticking out. Find all possible values of the total number of bricks that she can pack.\n",
+    "rawSha256": "4f4038271645281ca6661ef8c9cd8644b4defb8f6978e38b807ccb52b9d5e555",
+    "matchNormalizedSha256": "5bde47bdc678e17b226a8fb79420e61c543578f88abc081a76364ca9a3426f56",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:08",
+    "versionId": "v:bw:2020:08",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a given positive integer. A restaurant offers a choice of $n$ starters, $n$ main dishes, $n$ desserts and $n$ wines. A merry company dines at the restaurant, with each guest choosing a starter, a main dish, a dessert and a wine. No two people place exactly the same order. It turns out that there is no collection of $n$ guests such that their orders coincide in three of these aspects, but in the fourth one they all differ. (For example, there are no $n$ people that order exactly the same three courses of food, but $n$ different wines.) What is the maximal number of guests?\n",
+    "rawSha256": "7d1ba09f515b951ce247644c4f35456d3fdc924d2f19ab57d9ea58147ed7418a",
+    "matchNormalizedSha256": "f62770c48435b0c95867b628fb2b969e18b798a63a1e2f41e3689f919367f7b9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:09",
+    "versionId": "v:bw:2020:09",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Each vertex $v$ and each edge $e$ of a graph $G$ are assigned numbers $f(v) \\in\\{1,2\\}$ and $f(e) \\in\\{1,2,3\\}$, respectively. Let $S(v)$ be the sum of numbers assigned to the edges incident to $v$ plus the number $f(v)$. We say that an assignment $f$ is cool if $S(u) \\neq S(v)$ for every pair $(u, v)$ of adjacent (i.e. connected by an edge) vertices in $G$. Prove that for every graph there exists a cool assignment.\n",
+    "rawSha256": "0458cf152ce1adc778c04de6676e2c9e00de4b269469efa8afa757417d2fbddd",
+    "matchNormalizedSha256": "b87993d547eda78ffc28e5cf7e400fb5a0180bfa422aa8a3c147337936c6c9fe",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:10",
+    "versionId": "v:bw:2020:10",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Alice and Bob are playing hide and seek. Initially, Bob chooses a secret fixed point $B$ in the unit square. Then Alice chooses a sequence of points $P_{0}, P_{1}, \\ldots, P_{N}$ in the plane. After choosing $P_{k}$ (but before choosing $P_{k+1}$ ) for $k \\geqslant 1$, Bob tells \"warmer\" if $P_{k}$ is closer to $B$ than $P_{k-1}$, otherwise he says \"colder\". After Alice has chosen $P_{N}$ and heard Bob's answer, Alice chooses a final point $A$. Alice wins if the distance $A B$ is at most $\\frac{1}{2020}$, otherwise Bob wins. Show that if $N=18$, Alice cannot guarantee a win.\n",
+    "rawSha256": "77feb6fe28f158d269ad6578e66d220881018f9e7fbec9d2a81441fea560be77",
+    "matchNormalizedSha256": "48298499e84cdf507fb275c3b27517c18df45427b559b0e888547a77f139a9a7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:11",
+    "versionId": "v:bw:2020:11",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with $A B>A C$. The internal angle bisector of $\\angle B A C$ intersects the side $B C$ at $D$. The circles with diameters $B D$ and $C D$ intersect the circumcircle of $\\triangle A B C$ a second time at $P \\neq B$ and $Q \\neq C$, respectively. The lines $P Q$ and $B C$ intersect at $X$. Prove that $A X$ is tangent to the circumcircle of $\\triangle A B C$.\n",
+    "rawSha256": "10f1e978d455ddfc1ed8f4e9fcfc6bcd5480525b8c241f740c3b3e9f476979f6",
+    "matchNormalizedSha256": "78320ceae6f8331e01bd7bf63a4edc0bb2bc4814af6d44501177869b50783b18",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "11",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        12,
+        13,
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:12",
+    "versionId": "v:bw:2020:12",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with circumcircle $\\omega$. The internal angle bisectors of $\\angle A B C$ and $\\angle A C B$ intersect $\\omega$ at $X \\neq B$ and $Y \\neq C$, respectively. Let $K$ be a point on $C X$ such that $\\angle K A C=90^{\\circ}$. Similarly, let $L$ be a point on $B Y$ such that $\\angle L A B=90^{\\circ}$. Let $S$ be the midpoint of $\\operatorname{arc} C A B$ of $\\omega$. Prove that $S K=S L$.\n",
+    "rawSha256": "2c1cf47553606c383ceab6316ba355761ea1a3ea49fe193f5ea50bfbd6e57404",
+    "matchNormalizedSha256": "687ed8949522f26a15d76c01bbdb764839892c648ea20255b1c52a014d2c473c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "12",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        15,
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:13",
+    "versionId": "v:bw:2020:13",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with circumcircle $\\omega$. Let $\\ell$ be the tangent line to $\\omega$ at $A$. Let $X$ and $Y$ be the projections of $B$ onto lines $\\ell$ and $A C$, respectively. Let $H$ be the orthocenter of $B X Y$. Let $C H$ intersect $\\ell$ at $D$. Prove that $B A$ bisects angle $C B D$.\n",
+    "rawSha256": "53ba6bfa1f3b1ff951db7626f8555f6f15294cca8ea3b5df63fa9c12d24774df",
+    "matchNormalizedSha256": "650af703f5caecd51c6b73701f06d8c4701a66671e50bd23d32d8c7953866dfa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "13",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        17,
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:14",
+    "versionId": "v:bw:2020:14",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An acute triangle $A B C$ is given and let $H$ be its orthocenter. Let $\\omega$ be the circle through $B, C$ and $H$, and let $\\Gamma$ be the circle with diameter $A H$. Let $X \\neq H$ be the other intersection point of $\\omega$ and $\\Gamma$, and let $\\gamma$ be the reflection of $\\Gamma$ over $A X$.\n\nSuppose $\\gamma$ and $\\omega$ intersect again at $Y \\neq X$, and line $A H$ and $\\omega$ intersect again at $Z \\neq H$. Show that the circle through $A, Y, Z$ passes through the midpoint of segment $B C$.\n",
+    "rawSha256": "2705f5af249f25391fffce5e90da6bf84b875021482473e28e92e9d9903ed2a1",
+    "matchNormalizedSha256": "27c3bda288c851de6087a771f6cc1a8a4a39f52f9e840945fda5fa61fd8e6549",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:15",
+    "versionId": "v:bw:2020:15",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On a plane, Bob chooses 3 points $A_{0}, B_{0}, C_{0}$ (not necessarily distinct) such that $A_{0} B_{0}+B_{0} C_{0}+C_{0} A_{0}=1$. Then he chooses points $A_{1}, B_{1}, C_{1}$ (not necessarily distinct) in such a way that $A_{1} B_{1}=A_{0} B_{0}$ and $B_{1} C_{1}=B_{0} C_{0}$. Next he chooses points $A_{2}, B_{2}, C_{2}$ as a permutation of points $A_{1}, B_{1}, C_{1}$. Finally, Bob chooses points $A_{3}, B_{3}, C_{3}$ (not necessarily distinct) in such a way that $A_{3} B_{3}=A_{2} B_{2}$ and $B_{3} C_{3}=B_{2} C_{2}$. What are the smallest and the greatest possible values of $A_{3} B_{3}+B_{3} C_{3}+C_{3} A_{3}$ Bob can obtain?\n",
+    "rawSha256": "8492c785266210d3b5202b4dfa53a51b6656884c699b309afd03eeefa0dccea9",
+    "matchNormalizedSha256": "fa23010c332bf6839e9b3565b9f8825764693ca61f0bcbb161545d81e53853b1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:16",
+    "versionId": "v:bw:2020:16",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Richard and Kaarel are taking turns to choose numbers from the set $\\{1, \\ldots, p-1\\}$ where $p>3$ is a prime. Richard is the first one to choose. A number which has been chosen by one of the players cannot be chosen again by either of the players. Every number chosen by Richard is multiplied with the next number chosen by Kaarel. Kaarel wins the game if at any moment after his turn the sum of all of the products calculated so far is divisible by $p$. Richard wins if this does not happen, i.e. the players run out of numbers before any of the sums is divisible by $p$. Can either of the players guarantee their victory regardless of their opponent's moves and if so, which one?\n",
+    "rawSha256": "ba7ab930abf4f5a16f7eb3e1f98c994524556f0429cfbd1cf459fd029da7c57b",
+    "matchNormalizedSha256": "016aafc21e1ed65413366a7e99f5a628357b7721f78ef35b114f7e87d813679d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "16",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        21,
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:17",
+    "versionId": "v:bw:2020:17",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For a prime number $p$ and a positive integer $n$, denote by $f(p, n)$ the largest integer $k$ such that $p^{k} \\mid n$ !. Let $p$ be a given prime number and let $m$ and $c$ be given positive integers. Prove that there exist infinitely many positive integers $n$ such that $f(p, n) \\equiv c$ $(\\bmod m)$.\n",
+    "rawSha256": "20355511c7afe6b60f94506743d138d6a4f1585e02c3af3de98590252204b406",
+    "matchNormalizedSha256": "c950264c1af655b39c00849e3a3f8b2766e54b113bf3b2dcff529ec6831aa192",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "17",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        23,
+        24
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:18",
+    "versionId": "v:bw:2020:18",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geqslant 1$ be a positive integer. We say that an integer $k$ is a fan of $n$ if $0 \\leqslant k \\leqslant n-1$ and there exist integers $x, y, z \\in \\mathbb{Z}$ such that\n\n$$\n\\begin{aligned}\nx^{2}+y^{2}+z^{2} & \\equiv 0 \\quad(\\bmod n) ; \\\\\nx y z & \\equiv k \\quad(\\bmod n) .\n\\end{aligned}\n$$\n\nLet $f(n)$ be the number of fans of $n$. Determine $f(2020)$.\n",
+    "rawSha256": "90565ee1355b1dba03679b904e5f81f063c20b68ab978155c35e80c559f272f8",
+    "matchNormalizedSha256": "b99695d4f8ded23f5ce96549614bf84b0689d8d0510f0cdaf971d8a1cf281355",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        25
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:19",
+    "versionId": "v:bw:2020:19",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Denote by $d(n)$ the number of positive divisors of a positive integer $n$. Prove that there are infinitely many positive integers $n$ such that $\\lfloor \\sqrt{3}\\,d(n)\\rfloor$ divides $n$.\n",
+    "rawSha256": "6400562f3024dfcfdc2e6ff747173783ed66f3676b991060da9a0acc9d133dc7",
+    "matchNormalizedSha256": "77263cbabfc815f82ebd2de43004324034b2ce7628c597f4085ce45659c33f4e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2020:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2020:20",
+    "versionId": "v:bw:2020:20",
+    "officialSource": {
+      "sourceId": "bw-official:2020:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "8b2ead27d52e67ba6cecf6ec44eff83514258a12c8a3bba8b6ee28ccb628ec08",
+      "sourceBytes": 200226,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A$ and $B$ be sets of positive integers with $|A| \\geq 2$ and $|B| \\geq 2$. Let $S$ be a set consisting of $|A|+|B|-1$ numbers of the form $a b$ where $a \\in A$ and $b \\in B$. Prove that there exist pairwise distinct $x, y, z \\in S$ such that $x$ is a divisor of $y z$.\n",
+    "rawSha256": "65b9107cf864803f47ef27636bd1abe4648e6850e9029ecb0f87eecf89831703",
+    "matchNormalizedSha256": "9e81a11bd686ff11f9b90acbc38b587ed331aaa87191ccd41ab6d03ca3345c97",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw20sol.jsonl",
+      "fileSha256": "bae9f1f6875afb40dd0f1cd2fc692c85a4998ec25cb59327592169d85f2a922b",
+      "problemLabel": "20",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        29,
+        30
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2020:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

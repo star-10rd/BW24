@@ -1,0 +1,858 @@
+[
+  {
+    "appearanceId": "bw:1993:01",
+    "versionId": "v:bw:1993:01",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "$\\overline{a_{1} a_{2} a_{3}}$ and $\\overline{a_{3} a_{2} a_{1}}$ are two three-digit decimal numbers, with $a_{1}, a_{3}$ being different non-zero digits. The squares of these numbers are five-digit numbers $\\overline{b_{1} b_{2} b_{3} b_{4} b_{5}}$ and $\\overline{b_{5} b_{4} b_{3} b_{2} b_{1}}$ respectively. Find all such threedigit numbers.\n",
+    "rawSha256": "8eac39f8312434bdfaf8188b89ea4ddddaad5802f770810ec157333e20f6abe1",
+    "matchNormalizedSha256": "8faaac5354e554e6ff4b925da63005b114ca36522cab25723df89eab948601eb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:02",
+    "versionId": "v:bw:1993:02",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Do there exist positive integers $a>b>1$ such that for each positive integer $k$ there exists a positive integer $n$ for which $a n+b$ is a $k$ th power of a positive integer?\n",
+    "rawSha256": "41ab82c4b860468be57b9e2d1a91ceda522231d1b6f397c714b3aa73b563ac3f",
+    "matchNormalizedSha256": "e5cd17b94367ed156b105263abf4f17287c85bda3584101528ddec10e1906642",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:03",
+    "versionId": "v:bw:1993:03",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let's call a positive integer \"interesting\" if it is a product of two (distinct or equal) prime numbers. What is the greatest number of consecutive positive integers all of which are \"interesting\"?\n",
+    "rawSha256": "541ea5d4f5b38d736608b6129c625f73731ce985cb9fa5900838083af4fe8811",
+    "matchNormalizedSha256": "a716242a942a4164de6043a19f12d8079dd4012e57c2e5018262ef30d6823b6e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:04",
+    "versionId": "v:bw:1993:04",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all integers $n$ for which\n\n$$\n\\sqrt{\\frac{25}{2}+\\sqrt{\\frac{625}{4}-n}}+\\sqrt{\\frac{25}{2}-\\sqrt{\\frac{625}{4}-n}}\n$$\n\nis an integer.\n",
+    "rawSha256": "6ee805d4883c82d173f321e02c4229873dbfdffe2a989244385b367ed8ff40cb",
+    "matchNormalizedSha256": "331af44c75ff53d21b88c75fb2ef68486316fea6cc325ffe5bb5c1ca1ed34a22",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:05",
+    "versionId": "v:bw:1993:05",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for any odd positive integer $n, n^{12}-n^{8}-n^{4}+1$ is divisible by $2^{9}$.\n",
+    "rawSha256": "79dd4f7ff6dd4f4f67e8c55ae524cff3e5d228f4850b1490c42e648cc0e88beb",
+    "matchNormalizedSha256": "975643819f1a7510612608bff2801884823efe688b61cc7348f985b49a728ac2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:06",
+    "versionId": "v:bw:1993:06",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Suppose two functions $f(x)$ and $g(x)$ are defined for all $x$ such that $2<x<4$ and satisfy $2<f(x)<4$, $2<g(x)<4, f(g(x))=g(f(x))=x$ and $f(x) \\cdot g(x)=x^{2}$ for all such values of $x$. Prove that $f(3)=g(3)$.\n",
+    "rawSha256": "582867d6b7f7c2c35534757b855c30d5bcf9272b9185ee0b54d4f377c846ca18",
+    "matchNormalizedSha256": "764c1063d01f680c1a9a4d137e06277d41d8838842c4de8ed682ac18d0ae70b0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:07",
+    "versionId": "v:bw:1993:07",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Solve the system of equations in integers:\n\n$$\n\\left\\{\\begin{array}{l}\nz^{x}=y^{2 x} \\\\\n2^{z}=4^{x} \\\\\nx+y+z=20 .\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "bdc37a37751a106d82debe453a7787f2379d30ac6f3f438880fb06a71899cd0a",
+    "matchNormalizedSha256": "555596e596249229eff7858b52e0a06d8aaf1f13f920b4e7559b86b4d75388fe",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:08",
+    "versionId": "v:bw:1993:08",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Compute the sum of all positive integers whose digits form either a strictly increasing or a strictly decreasing sequence.\n",
+    "rawSha256": "8a762869cc3ac3346164529b05d07cd6391704ecffb15f38b757b53ccd1b0de0",
+    "matchNormalizedSha256": "b62f0fce57ed88d9e384deab80fab154bdb2df66200ad6f63c940d41f92af764",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:09",
+    "versionId": "v:bw:1993:09",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Solve the system of equations:\n\n$$\n\\left\\{\\begin{array}{l}\nx^{5}=y+y^{5} \\\\\ny^{5}=z+z^{5} \\\\\nz^{5}=t+t^{5} \\\\\nt^{5}=x+x^{5} .\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "e4117a6c1c0ecc93407ba72b8a0ea8a5ce29dd8d919ad3187f3c3cd1a4454158",
+    "matchNormalizedSha256": "f141c5062d3e9075ec4a53f5538562af7428e6731cee12bba545a3e6e5343d5b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:10",
+    "versionId": "v:bw:1993:10",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{1}, a_{2}, \\ldots, a_{n}$ and $b_{1}, b_{2}, \\ldots, b_{n}$ be two finite sequences consisting of $2 n$ different real numbers. Rearranging each of the sequences in the increasing order we obtain $a_{1}^{\\prime}, a_{2}^{\\prime}, \\ldots, a_{n}^{\\prime}$ and $b_{1}^{\\prime}, b_{2}^{\\prime}, \\ldots, b_{n}^{\\prime}$. Prove that\n\n$$\n\\max _{1 \\leq i \\leq n}\\left|a_{i}-b_{i}\\right| \\geq \\max _{1 \\leq i \\leq n}\\left|a_{i}^{\\prime}-b_{i}^{\\prime}\\right| .\n$$\n",
+    "rawSha256": "87e34729e73bdd6b4ac0720c499378a33d3768c3a91815c31f5ff008c4875626",
+    "matchNormalizedSha256": "f2153a24d50d7faa450d504adc8379b1ba232c30d81f2289baaf5af25cc82347",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:11",
+    "versionId": "v:bw:1993:11",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An equilateral triangle is divided into $n^{2}$ congruent equilateral triangles. A spider stands at one of the vertices, a fly at another. Alternately each of them moves to a neighbouring vertex. Prove that the spider can always catch the fly.\n",
+    "rawSha256": "2a997fd4186091bc5f651470af629b2e5f9020b326b2d772473acefe8347281d",
+    "matchNormalizedSha256": "5c73c7447d864e5f20dff02012eedbfa8c4038b902ef4bbb4b7d25f8cc07c421",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:12",
+    "versionId": "v:bw:1993:12",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are 13 cities in a certain kingdom. Between some pairs of cities two-way direct bus, train or plane connections are established. What is the least possible number of connections to be established in order that choosing any two means of transportation one can go from any city to any other without using the third kind of vehicle?\n",
+    "rawSha256": "89a6dd89c32c88aacbb1d2cd435c785466a5de0cb052b2228f0d9cf18cc7e39a",
+    "matchNormalizedSha256": "3194abc8532a1f54147b81d219c52b176e60f1f9aaec713d0bffc23ceabc0d38",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:13",
+    "versionId": "v:bw:1993:13",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An equilateral triangle $A B C$ is divided into 100 congruent equilateral triangles. What is the greatest number of vertices of small triangles that can be chosen so that no two of them lie on a line that is parallel to any of the sides of the triangle $A B C$ ?\n",
+    "rawSha256": "5d25c055d3383f8db257868c6649ac30e25f40013035df9f12bcd7ca0c6026b3",
+    "matchNormalizedSha256": "cc3d0ea029903af6f33c683bd825f95ccccc6413b29524cd6ffdb39cef1aa390",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:14",
+    "versionId": "v:bw:1993:14",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A square is divided into 16 equal squares, obtaining the set of 25 different vertices. What is the least number of vertices one must remove from this set, so that no 4 points of the remaining set are the vertices of any square with sides parallel to the sides of the initial square?\n",
+    "rawSha256": "204bd1a5d9cc9b078077974f0e961ad45fd6029bdbd62b3bb3e00c27a904a849",
+    "matchNormalizedSha256": "fd946347d093057815c2cca61b12785d9e84a6cc3e726651002ff7dda88b27de",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1993:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:15",
+    "versionId": "v:bw:1993:15",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On each face of two dice some positive integer is written. The two dice are thrown and the numbers on the top faces are added. Determine whether one can select the integers on the faces so that the possible sums are $2,3,4,5,6,7,8,9,10,11,12,13$, all equally likely?\n",
+    "rawSha256": "b1d517129508d7665cd2e34dd67f9ba4ddcf838e990ef00a3274060d60786f32",
+    "matchNormalizedSha256": "2ba1fe0663abc5a1c1a71e247b2cfc620fe25efc69e8117932ac04c768c834cb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:16",
+    "versionId": "v:bw:1993:16",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two circles, both with the same radius $r$, are placed in the plane without intersecting each other. A line in the plane intersects the first circle at the points $A, B$ and the other at the points $C, D$ so that $|A B|=|B C|=|C D|=14 \\mathrm{~cm}$. Another line intersects the circles at points $E, F$ and $G, H$ respectively, so that $|E F|=|F G|=|G H|=6 \\mathrm{~cm}$. Find the radius $r$.\n",
+    "rawSha256": "f182998e9a94c4efda1eb3145bc138c6400078051debbf2445bd132587fe03db",
+    "matchNormalizedSha256": "c02e8691cbac48494a728db98883bf132f93158f4039c73c42d9cdb996c850b1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:17",
+    "versionId": "v:bw:1993:17",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let's consider three pairwise non-parallel straight lines in the plane. Three points are moving along these lines with different non-zero velocities, one on each line (we consider the movement as having taken place for infinite time and continuing infinitely in the future). Is it possible to determine these straight lines, the velocities of each moving point and their positions at some \"zero\" moment in such a way that the points never were, are or will be collinear?\n",
+    "rawSha256": "c55d351ca1a6126206dda411c45962fb7941ebf17b54ffabdaba26100929d490",
+    "matchNormalizedSha256": "03927589dd37f10dd8ca69b77d2b1fcd48c54ef1aa7cd26de8f4c2eac92f32c3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:18",
+    "versionId": "v:bw:1993:18",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In the triangle $ABC$, $|AB|=15$, $|BC|=12$, $|AC|=13$. Let the median $AM$ and bisector $BK$ intersect at point $O$, where $M\\in BC$, $K\\in AC$. Let $OL\\perp AB$, $L\\in AB$. Prove that $\\angle OLK=\\angle OLM$.\n",
+    "rawSha256": "ad9383e276cc7d2acc392225a68dde507ccb0dfede237ee00dff618ce53a4613",
+    "matchNormalizedSha256": "beec357197e806c9b48d705a708da46c78834fafc9ea7192ccd8a5ac469efd9f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1993:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:19",
+    "versionId": "v:bw:1993:19",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A convex quadrangle $A B C D$ is inscribed in a circle with the centre $O$. The angles $\\angle A O B, \\angle B O C, \\angle C O D$ and $\\angle D O A$, taken in some order, are of the same size as the angles of quadrangle $A B C D$. Prove that $A B C D$ is a square.\n",
+    "rawSha256": "3dfaa20211a0ffea6123ed00109dd6a2002947dc311d2104198785140984b293",
+    "matchNormalizedSha256": "85ef8146037fe0b4733823931cb8d7968a68b3f1f7be028670dc3b4242c4f20b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1993:20",
+    "versionId": "v:bw:1993:20",
+    "officialSource": {
+      "sourceId": "bw-official:1993:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "c4cbcbe528896f72c788a80b61d4b8b6c1168d8833c1cf56252536685ced0ecf",
+      "sourceBytes": 82182,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $Q$ be a unit cube. We say a tetrahedron is \"good\" if all its edges are equal and all its vertices lie on the boundary of $Q$. Find all possible volumes of \"good\" tetrahedra.\n",
+    "rawSha256": "e3e24c7c1dff2728056bddf511f30aea6b7156aa56b812c3484bc17ae3e7aee9",
+    "matchNormalizedSha256": "a8348193eec15968d67387362ca2c73d6f9e635ef90bef34654830b569dec722",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw93sol.jsonl",
+      "fileSha256": "2f557d2c2eba179c72b34718985c5e64b6158fcb80f51202d78e1d72242e3e8f",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1993:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

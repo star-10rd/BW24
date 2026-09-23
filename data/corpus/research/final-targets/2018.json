@@ -1,0 +1,884 @@
+[
+  {
+    "appearanceId": "bw:2018:01",
+    "versionId": "v:bw:2018:01",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A finite collection of positive real numbers (not necessarily distinct) is balanced if each number is less than the sum of the others. Find all $m \\geq 3$ such that every balanced finite collection of $m$ numbers can be split into three parts with the property that the sum of the numbers in each part is less than the sum of the numbers in the two other parts.\n",
+    "rawSha256": "caea8e4263d9aac08d54592b07ee2a25c852cca1bdcd9b8b2ad56fd721e23b0f",
+    "matchNormalizedSha256": "6b2f14d6523f73fc2ead7399986d5af67180a3ca2fa328d94cb8e331e87fd701",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:02",
+    "versionId": "v:bw:2018:02",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A $100 \\times 100$ table is given. For each $k, 1 \\leq k \\leq 100$, the $k$-th row of the table contains the numbers $1,2, \\ldots, k$ in increasing order (from left to right) but not necessarily in consecutive cells; the remaining $100-k$ cells are filled with zeroes. Prove that there exist two columns such that the sum of the numbers in one of the columns is at least 19 times as large as the sum of the numbers in the other column.\n",
+    "rawSha256": "7464cef0d28de654dd170bcdb0aba60c2e48a6288d769c6dcba1f873e2251b4a",
+    "matchNormalizedSha256": "37f80420d92df041c2c3c14af10ecb7586a921c1ada6ba69ba71074b3c5fa6cb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:03",
+    "versionId": "v:bw:2018:03",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c, d$ be positive real numbers such that $a b c d=1$. Prove the inequality\n\n$$\n\\frac{1}{\\sqrt{a+2 b+3 c+10}}+\\frac{1}{\\sqrt{b+2 c+3 d+10}}+\\frac{1}{\\sqrt{c+2 d+3 a+10}}+\\frac{1}{\\sqrt{d+2 a+3 b+10}} \\leq 1 .\n$$\n",
+    "rawSha256": "3b6642a56980806f60471a7b55aec266f2a277c37f5ba909e775ffd1cd8eb5b8",
+    "matchNormalizedSha256": "40aa66ea3de3126693df4ed18e70667400ad7e1b4b51ecd6615bd58452f92009",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:04",
+    "versionId": "v:bw:2018:04",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all functions $f:[0,+\\infty) \\rightarrow[0,+\\infty)$, such that for any positive integer $n$ and for any non-negative real numbers $x_{1}, \\ldots, x_{n}$\n\n$$\nf\\left(x_{1}^{2}+\\cdots+x_{n}^{2}\\right)=f\\left(x_{1}\\right)^{2}+\\cdots+f\\left(x_{n}\\right)^{2} .\n$$\n",
+    "rawSha256": "b960979bb5a4810be24d5105ae0a93f9528aac979728522d37be28163c3a05eb",
+    "matchNormalizedSha256": "e599136e7d59f7757226c96357ed980f2663632f6e74a0f8dd7189e542eb6d54",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:05",
+    "versionId": "v:bw:2018:05",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A polynomial $f(x)$ with real coefficients is called generating, if for each polynomial $\\varphi(x)$ with real coefficients there exist a positive integer $k$ and polynomials $g_{1}(x), \\ldots, g_{k}(x)$ with real coefficients such that\n\n$$\n\\varphi(x)=f\\left(g_{1}(x)\\right)+\\cdots+f\\left(g_{k}(x)\\right) .\n$$\n\nFind all generating polynomials.\n",
+    "rawSha256": "e0655dd9ece08989a74c0f3f612f8f4751c6b005524053483eb323f9d78e38ce",
+    "matchNormalizedSha256": "64b6cb2b876460bd8376c330c0e99a2d257f210a604465dd847d2d3e41782270",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:06",
+    "versionId": "v:bw:2018:06",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Elfie the Elf travels in $\\mathbb{R}^{3}$. She starts at the origin: $(0,0,0)$. In each turn she can teleport to any point with integer coordinates which lies at distance exactly $\\sqrt{n}$ from her current location. However, teleportation is a complicated procedure. Elfie starts off normal but she turns strange with her first teleportation. Next time she teleports she becomes normal again, then strange again... etc.\n\nFor which $n$ can Elfie travel to any given point with integer coordinates and be normal when she gets there?\n",
+    "rawSha256": "5b7fdb48ab8175a1ca72981713d504b97cfe94ea54467bb798e4c03155bf914e",
+    "matchNormalizedSha256": "2394459103b4aefed36e9fb4ebecec1de112ff630650c9a8f75c5d632f45cbe3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:07",
+    "versionId": "v:bw:2018:07",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On a $16 \\times 16$ torus as shown all 512 edges are colored red or blue.\n\n![Figure 1](figure:1)\n A coloring is good if every vertex is an endpoint of an even number of red edges. A move consists of switching the color of each of the 4 edges of an arbitrary cell. What is the largest number of good colorings such that none of them can be converted to another by a sequence of moves?\n",
+    "rawSha256": "c9307c1b544c098d6acd441a4888236ea2d3c6a0b97d9f9bd3b7683729de4cfd",
+    "matchNormalizedSha256": "3c629a713e509481e4a31fbf4a2b4cf8294d4c7d2106bd3fbe0e73d7c249cfa6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2018:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2018:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "16 x 16 torus topology illustration shown with Problem 7."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:08",
+    "versionId": "v:bw:2018:08",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A graph has $N$ vertices. An invisible hare sits in one of the vertices. A group of hunters tries to kill the hare. In each move all of them shoot simultaneously: each hunter shoots at a single vertex, they choose the target vertices cooperatively. If the hare was in one of the target vertices during a shoot, the hunt is finished. Otherwise the hare can stay in its vertex or jump to one of the neighboring vertices.\n\nThe hunters know an algorithm that allows them to kill the hare in at most $N$ ! moves. Prove that then there exists an algorithm that allows them to kill the hare in at most $2^{N}$ moves.\n",
+    "rawSha256": "37ecb3137e512debe2c1b16e472d969857d4769994aeb47c1e8234819f68ae36",
+    "matchNormalizedSha256": "d9474e5a605f3f87a288bf3d4478647393951e171e3ce461690d282412478b0e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:09",
+    "versionId": "v:bw:2018:09",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Olga and Sasha play a game on an infinite hexagonal grid. They take turns in placing a stone on a free hexagon of their choice. Olga starts the game. Just before the 2018th stone is placed, a new rule comes into play. A stone may now be placed only on those free hexagons having at least two occupied neighbors.\n\nA player loses when she or he either is unable to make a move, or has filled a pattern of the rhomboid shape as shown (rotated in any possible way). Determine which player, if any, possesses a winning strategy.\n\n![Figure 1](figure:1)\n",
+    "rawSha256": "6adfa0052f459beb93d6798ece62a8732675dbff285ea7df7428b3bff711334b",
+    "matchNormalizedSha256": "1cb1e967d95c499c31c33f1a67acc56806adc85c49955e77a0321b0a517f6bd8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2018:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Forbidden rhomboid pattern shown with Problem 9."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:10",
+    "versionId": "v:bw:2018:10",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The integers from 1 to $n$ are written, one on each of $n$ cards. The first player removes one card. Then the second player removes two cards with consecutive integers. After that the first player removes three cards with consecutive integers. Finally, the second player removes four cards with consecutive integers. What is the smallest value of $n$ for which the second player can ensure that he completes both his moves?\n",
+    "rawSha256": "248fe81a00b50deef6e1eb110fe3afb8c08aa17c57bf079f1e84e85a9d50be23",
+    "matchNormalizedSha256": "130a3fbf6f807b3c931795f8c1c8e016a54b4405ec391efd5dc70d328aa393d6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:11",
+    "versionId": "v:bw:2018:11",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The points $A, B, C, D$ lie, in this order, on a circle $\\omega$, where $A D$ is a diameter of $\\omega$. Furthermore, $A B=B C=a$ and $C D=c$ for some relatively prime integers $a$ and $c$. Show that if the diameter $d$ of $\\omega$ is also an integer, then either $d$ or $2 d$ is a perfect square.\n",
+    "rawSha256": "e13c4a3abe48fea73b161797740ddca505f2c681c90eebc7c47d38edd762c09b",
+    "matchNormalizedSha256": "5c3dfb69fc5296dc9ad05b620e17d1fa97363f8148b0c4a5494797179e31e20d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:12",
+    "versionId": "v:bw:2018:12",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The altitudes $B B_{1}$ and $C C_{1}$ of an acute triangle $A B C$ intersect in point $H$. Let $B_{2}$ and $C_{2}$ be points on the segments $B H$ and $C H$, respectively, such that $B B_{2}=B_{1} H$ and $C C_{2}=C_{1} H$. The circumcircle of the triangle $B_{2} H C_{2}$ intersects the circumcircle of the triangle $A B C$ in points $D$ and $E$. Prove that the triangle $D E H$ is right-angled.\n",
+    "rawSha256": "8efdadaef9efc8a4c278b68d80f4b6ce50d82de0fafbea7b65b371c29e95dde5",
+    "matchNormalizedSha256": "39501cc0ac12a8af40a14189fb685767a3bbfee554fd7724ac167309271d0a7f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:13",
+    "versionId": "v:bw:2018:13",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The bisector of the angle $A$ of a triangle $A B C$ intersects $B C$ in a point $D$ and intersects the circumcircle of the triangle $A B C$ in a point $E$. Let $K, L, M$ and $N$ be the midpoints of the segments $A B, B D, C D$ and $A C$, respectively. Let $P$ be the circumcenter of the triangle $E K L$, and $Q$ be the circumcenter of the triangle $E M N$. Prove that $\\angle P E Q=\\angle B A C$.\n",
+    "rawSha256": "61836713ec2483beca2b72492e7c0c12f17bbe0397b8ba90c488bf524bc2be62",
+    "matchNormalizedSha256": "f257f0d087a68d7a707c707d2bbccfad939032f04541c759d192fd674bece0ec",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:14",
+    "versionId": "v:bw:2018:14",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A quadrilateral $A B C D$ is circumscribed about a circle $\\omega$. The intersection point of $\\omega$ and the diagonal $A C$, closest to $A$, is $E$. The point $F$ is diametrically opposite to the point $E$ on the circle $\\omega$. The tangent to $\\omega$ at the point $F$ intersects lines $A B$ and $B C$ in points $A_{1}$ and $C_{1}$, and lines $A D$ and $C D$ in points $A_{2}$ and $C_{2}$, respectively. Prove that $A_{1} C_{1}=A_{2} C_{2}$.\n",
+    "rawSha256": "8a68c922b5db2593e2b2bb99b535d7ccbdfd2a72930ee31729b13f87ecdbbfab",
+    "matchNormalizedSha256": "a8e15bf2365889221a2de57bfd066eea338731b16a717af8d36753f674e4ecb9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:15",
+    "versionId": "v:bw:2018:15",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two circles in the plane do not intersect and do not lie inside each other. We choose diameters $A_{1} B_{1}$ and $A_{2} B_{2}$ of these circles such that the segments $A_{1} A_{2}$ and $B_{1} B_{2}$ intersect. Let $A$ and $B$ be the midpoints of the segments $A_{1} A_{2}$ and $B_{1} B_{2}$, and $C$ be the intersection point of these segments. Prove that the orthocenter of the triangle $A B C$ belongs to a fixed line that does not depend on the choice of the diameters.\n",
+    "rawSha256": "42c3cf58a1dbacf7d84a0607db952e764a3b9de7fbf9f8e983dcb17a1c7f05bd",
+    "matchNormalizedSha256": "7a02c52b50233edce0011f47c09d9be8c92399e3fc54fd61f4d76c50ea72e48d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:16",
+    "versionId": "v:bw:2018:16",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ be an odd prime. Find all positive integers $n$ for which $\\sqrt{n^{2}-n p}$ is a positive integer.\n",
+    "rawSha256": "9093bcd789fd4047cccb18cc2a81ff66936aa8a1d3c3da643a501b9efedf41ce",
+    "matchNormalizedSha256": "24d1f8948aca071e45f3e4738e1d4be659ba5bc357cd67c3431ddaf6631e865f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:17",
+    "versionId": "v:bw:2018:17",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for any positive integers $p, q$ such that $\\sqrt{11}>\\frac{p}{q}$, the following inequality holds:\n\n$$\n\\sqrt{11}-\\frac{p}{q}>\\frac{1}{2 p q}\n$$\n",
+    "rawSha256": "14ffeee0ad47e9660e716cf8b920d3989596073e1c7d3ff7e14e6da785ec7fd2",
+    "matchNormalizedSha256": "b0eddd938c2d255110dac048751b7805d0ecb07890f9bcc19125eb4145dd9b3b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:18",
+    "versionId": "v:bw:2018:18",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geq 3$ be an integer such that $4 n+1$ is a prime number. Prove that $4 n+1$ divides $n^{2 n}-1$.\n",
+    "rawSha256": "67ba83fcf2be6b0a1dbdb818382e42a13a1d2cc7609bc7f8e780d5a32b9be915",
+    "matchNormalizedSha256": "43b286ebb4ec0eb6d658625a94698a7a34019781b390a279106eb43f305a952b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:19",
+    "versionId": "v:bw:2018:19",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An infinite set $B$ consisting of positive integers has the following property. For each $a, b \\in B$ with $a>b$ the number $\\frac{a-b}{(a, b)}$ belongs to $B$. Prove that $B$ contains all positive integers. Here $(a, b)$ is the greatest common divisor of numbers $a$ and $b$.\n",
+    "rawSha256": "a53fe27a7426e06ca97b025851bde92d7bb06a83fa59b528392b65c8ab1b28a5",
+    "matchNormalizedSha256": "49ac1853754a2d4d0d2186484d7882dbffd481432ad8f11caeb214cd0dbeef62",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2018:20",
+    "versionId": "v:bw:2018:20",
+    "officialSource": {
+      "sourceId": "bw-official:2018:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "63b08befcc74cec9e0d1a615b7eb5d300647084a5a7a44830bfd2057139c7284",
+      "sourceBytes": 203699,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all the triples of positive integers $(a, b, c)$ for which the number\n\n$$\n\\frac{(a+b)^{4}}{c}+\\frac{(b+c)^{4}}{a}+\\frac{(c+a)^{4}}{b}\n$$\n\nis an integer and $a+b+c$ is a prime.\n",
+    "rawSha256": "cc3cd2ad977e7e87711420f0fe03787faabf668cb51d77443a5632e53311615c",
+    "matchNormalizedSha256": "e73c26036373a42cbde5fbc7234e20d0db586a6379e321569ef5f82cde162bdf",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw18sol.jsonl",
+      "fileSha256": "9732f8551288b7a85a605bc5cbf2e9457e2c9be5b4f1bd7e4f4c48102557dc4e",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2018:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

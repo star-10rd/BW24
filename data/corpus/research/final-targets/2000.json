@@ -1,0 +1,862 @@
+[
+  {
+    "appearanceId": "bw:2000:01",
+    "versionId": "v:bw:2000:01",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $K$ be a point inside the triangle $A B C$. Let $M$ and $N$ be points such that $M$ and $K$ are on opposite sides of the line $A B$, and $N$ and $K$ are on opposite sides of the line $B C$. Assume that\n\n$$\n\\angle M A B=\\angle M B A=\\angle N B C=\\angle N C B=\\angle K A C=\\angle K C A .\n$$\n\nShow that $M B N K$ is a parallelogram.\n",
+    "rawSha256": "1ca75128f2fe08af1d884ce2b37f4805751030467a249bc9740e59e8e90f6695",
+    "matchNormalizedSha256": "35e36032e487b3bc068f40ea5ac0266f84861fe67281e196c059c756a0cf57db",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:02",
+    "versionId": "v:bw:2000:02",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given an isosceles triangle $A B C$ with $\\angle A=90^{\\circ}$. Let $M$ be the midpoint of $A B$. The line passing through $A$ and perpendicular to $C M$ intersects the side $B C$ at $P$. Prove that $\\angle A M C=\\angle B M P$.\n",
+    "rawSha256": "86ada37ac2c3a158a627e646329d6528564b015fdada1cf9803bae2655d90215",
+    "matchNormalizedSha256": "fc6afb3e121dd9751cad45b4a794bbfb6affa13a1e3a5b4eca84808604cf80d1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:03",
+    "versionId": "v:bw:2000:03",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a triangle $A B C$ with $\\angle A=90^{\\circ}$ and $|A B| \\neq|A C|$. The points $D, E, F$ lie on the sides $B C, C A, A B$, respectively, in such a way that $A F D E$ is a square. Prove that the line $B C$, the line $F E$ and the line tangent at the point $A$ to the circumcircle of the triangle $A B C$ intersect in one point.\n",
+    "rawSha256": "2c3b2b61e6e31baa8abdd716de11dec84d925debb9ab52d4c808c465ace1c9b7",
+    "matchNormalizedSha256": "2fff4158fba001e9ded0cb1c5b4f3047de49c47768f5c239a9458fd18a9db53d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:04",
+    "versionId": "v:bw:2000:04",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given a triangle $A B C$ with $\\angle A=120^{\\circ}$. The points $K$ and $L$ lie on the sides $A B$ and $A C$, respectively. Let $B K P$ and $C L Q$ be equilateral triangles constructed outside the triangle $A B C$. Prove that\n\n$$\n|P Q| \\geqslant \\frac{\\sqrt{3}}{2} \\cdot(|A B|+|A C|) .\n$$\n",
+    "rawSha256": "fbc9cb3ec1faea4ea5cd22d67345fd5ec545deff8daa516575af61aeccad4030",
+    "matchNormalizedSha256": "bde5dff425c9487d52bb1ee6ec76c5e627d1a179ee843441d11f17fde13b44b9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:05",
+    "versionId": "v:bw:2000:05",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle such that $\\frac{|B C|}{|A B|-|B C|}=\\frac{|A B|+|B C|}{|A C|}$. Determine the ratio $\\angle A: \\angle C$.\n",
+    "rawSha256": "435ac20ff7bcd0676d9b9eebee6e226ba88c77ad46b84e24dd1cf0ef1b50b278",
+    "matchNormalizedSha256": "4da3d5cec506afedb5d6b48b012aaaa707e946f982bf22eaab9964338eb13500",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:06",
+    "versionId": "v:bw:2000:06",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Fredek runs a private hotel. He claims that whenever $n \\geqslant 3$ guests visit the hotel, it is possible to select two guests who have equally many acquaintances among the other guests, and who also have a common acquaintance or a common unknown among the guests. For which values of $n$ is Fredek right?\n\n(Acquaintance is a symmetric relation.)\n",
+    "rawSha256": "16d7f6fcfb95dc23de7c09bdd98fd53ea7214bd319f59c8f8f3e1e360cb59f97",
+    "matchNormalizedSha256": "dfc2b1bdf47b2245d812476fd98bed6dd8fdab6b0f93511ed48f2e910029037d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:07",
+    "versionId": "v:bw:2000:07",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a $40 \\times 50$ array of control buttons, each button has two states: $\\mathrm{ON}$ and OFF. By touching a button, its state and the states of all buttons in the same row and in the same column are switched. Prove that the array of control buttons may be altered from the all-OFF state to the all-ON state by touching buttons successively, and determine the least number of touches needed to do so.\n",
+    "rawSha256": "abd83014e2ecbdce0e9dda2f46af0e3d1f24cda3c218037e5daab1ebbc6be50e",
+    "matchNormalizedSha256": "ba6d8a9936f1e413577ee0c361d53dfa23490eed65899f67278c0f557e6e5d50",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:08",
+    "versionId": "v:bw:2000:08",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Fourteen friends met at a party. One of them, Fredek, wanted to go to bed early. He said goodbye to 10 of his friends, forgot about the remaining 3 , and went to bed. After a while he returned to the party, said goodbye to 10 of his friends (not necessarily the same as before), and went to bed. Later Fredek came back a number of times, each time saying goodbye to exactly 10 of his friends, and then went back to bed. As soon as he had said goodbye to each of his friends at least once, he did not come back again. In the morning Fredek realised that he had said goodbye a different number of times to each of his thirteen friends! What is the smallest possible number of times that Fredek returned to the party?\n",
+    "rawSha256": "72c7945bd807802c890a3e6971bc4193ec19b827b446954f6726f2c089c98385",
+    "matchNormalizedSha256": "e2cc61c46a825e0333a65b1b6e5e7a3445d3e58958b6e75f3e7444e6b539f791",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:09",
+    "versionId": "v:bw:2000:09",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There is a frog jumping on a $2 k \\times 2 k$ chessboard, composed of unit squares. The frog's jumps are of length $\\sqrt{1+k^{2}}$ and they carry the frog from the center of a square to the center of another square. Some $m$ squares of the board are marked with an $x$, and all the squares into which the frog can jump from an $x$ 'd square (whether they carry an $x$ or not) are marked with an $\\circ$. There are $n \\circ$ 'd squares. Prove that $n \\geqslant m$.\n",
+    "rawSha256": "dd0be7f4541a723fb35eb017f43c35efc4227c75054ebff38657aaf9735342b6",
+    "matchNormalizedSha256": "d24e73a02087765512a9e8ea310920462104b6031844b6ab43c10316b892467a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:10",
+    "versionId": "v:bw:2000:10",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Two positive integers are written on the blackboard. Initially, one of them is 2000 and the other is smaller than 2000. If the arithmetic mean $m$ of the two numbers on the blackboard is an integer, the following operation is allowed: one of the two numbers is erased and replaced by $m$. Prove that this operation cannot be performed more than ten times. Give an example where the operation can be performed ten times.\n",
+    "rawSha256": "72b3ced47153cf1e93b06334523b5ea171ddf7ee425a64f3008caaff4871fe32",
+    "matchNormalizedSha256": "5df8a1b0e591f0c8f4fb2a5026f592f1b300234230b551fc8a713c788911150c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:11",
+    "versionId": "v:bw:2000:11",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A sequence of positive integers $a_{1}, a_{2}, \\ldots$ is such that for each $m$ and $n$ the following holds: if $m$ is a divisor of $n$ and $m<n$, then $a_{m}$ is a divisor of $a_{n}$ and $a_{m}<a_{n}$. Find the least possible value of $a_{2000}$.\n",
+    "rawSha256": "a47ea796d0e5e3ffdc09546bee0a9a3401dacc2deafb1fa3398358e2ee2e4aab",
+    "matchNormalizedSha256": "c7c5aac036a14e284a6b6363c2432642ec1c4a8810135790c7e119797fe1b1dd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:12",
+    "versionId": "v:bw:2000:12",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x_{1}, x_{2}, \\ldots, x_{n}$ be positive integers such that no one of them is an initial fragment of any other (for example, 12 is an initial fragment of $\\underline{12}, \\underline{12} 5$ and\n\n12405). Prove that\n\n$$\n\\frac{1}{x_{1}}+\\frac{1}{x_{2}}+\\cdots+\\frac{1}{x_{n}}<3\n$$\n",
+    "rawSha256": "890736067aa05f51d35d57abae0b52f3df0e737899f72a2d94762cb4848e9694",
+    "matchNormalizedSha256": "cbb09be9de6e2dcc66f3917fd724ecb2500288f051ede56e154c2f656844f4ab",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:13",
+    "versionId": "v:bw:2000:13",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{1}, a_{2}, \\ldots, a_{n}$ be an arithmetic progression of integers such that $i$ divides $a_{i}$ for $i=1,2, \\ldots, n-1$ and $n$ does not divide $a_{n}$. Prove that $n$ is a power of a prime.\n",
+    "rawSha256": "66d27ef7b011bc43ffdce5c1f315a4d3a71ab910dda6144719d2f05bfec7f019",
+    "matchNormalizedSha256": "7dc853ddaa224d732c38fdd04995824b886cafc07de963dd55da566d14ba701f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:14",
+    "versionId": "v:bw:2000:14",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all positive integers $n$ such that $n$ is equal to 100 times the number of positive divisors of $n$.\n",
+    "rawSha256": "585aa7391a50ca872f5aaf450d768878aba43a58877c37dd96b79c93c5e4063a",
+    "matchNormalizedSha256": "f25699abb1bb12c3b90f5e4fce14ea92b0a6f1dd4bf5b5eb27f23ac6852fc4d9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:15",
+    "versionId": "v:bw:2000:15",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer not divisible by 2 or 3 . Prove that for all integers $k$, the number $(k+1)^{n}-k^{n}-1$ is divisible by $k^{2}+k+1$.\n",
+    "rawSha256": "2c1422f941110c20dbb747afc4df142c7b431a1e5deff056c639ce02bc82d1c6",
+    "matchNormalizedSha256": "d30ff860de91c547df6bd30cdfbe3e1dba34fa41a18052b0c85a0e30a52989aa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:16",
+    "versionId": "v:bw:2000:16",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for all positive real numbers $a, b, c$ we have\n\n$$\n\\sqrt{a^{2}-a b+b^{2}}+\\sqrt{b^{2}-b c+c^{2}} \\geqslant \\sqrt{a^{2}+a c+c^{2}} .\n$$\n",
+    "rawSha256": "84ac0cf7f08932d78ade357d69c2cd5f092dacb95dcc975e88fd24304d0d9d95",
+    "matchNormalizedSha256": "83a63554b844bee521640b76564db091ab9ca13e6a4a50d940fe2bda2baae8b9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:17",
+    "versionId": "v:bw:2000:17",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all real solutions to the following system of equations:\n\n$$\n\\left\\{\\begin{aligned}\nx+y+z+t & =5 \\\\\nx y+y z+z t+t x & =4 \\\\\nx y z+y z t+z t x+t x y & =3 \\\\\nx y z t & =-1\n\\end{aligned}\\right.\n$$\n",
+    "rawSha256": "e9506b369236abb41256b59100ce06e5dc5331cc0653dbc3f38a111138c63868",
+    "matchNormalizedSha256": "734a80ea04b1894d3ba6b2607707976fb112350fbb577635bd45d6b26aa8d835",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:18",
+    "versionId": "v:bw:2000:18",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive real numbers $x$ and $y$ satisfying the equation\n\n$$\nx+y+\\frac{1}{x}+\\frac{1}{y}+4=2 \\cdot(\\sqrt{2 x+1}+\\sqrt{2 y+1}) .\n$$\n",
+    "rawSha256": "24cac7b683abbb059884a0e46782b71ae31a370897169c301a403a66b22584b8",
+    "matchNormalizedSha256": "59f5e4c6dd0cd4f8d706b1948aa98027bf675e5ec11b2b6b010d3af40b1925d8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:19",
+    "versionId": "v:bw:2000:19",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $t \\geqslant \\frac{1}{2}$ be a real number and $n$ a positive integer. Prove that\n\n$$\nt^{2 n} \\geqslant(t-1)^{2 n}+(2 t-1)^{n}\n$$\n",
+    "rawSha256": "1a7fe9e8d38442c05bd3979c59359bcabad34de79395e1a64b812df3f2382bae",
+    "matchNormalizedSha256": "018d094c29a88d34a437c402f0ef83a82a983951561dcdb28c357ae2256906ef",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw00sol.jsonl",
+      "fileSha256": "817ce8b75b7f97f3f6fd4acd6e72a88b99c3e84d04520366373cd48e65cf6434",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2000:20",
+    "versionId": "v:bw:2000:20",
+    "officialSource": {
+      "sourceId": "bw-official:2000:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "557d06cdd138f55ba38cf19c71f176f0ef39f163246f3f5d12989a2a71833bbc",
+      "sourceBytes": 83286,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For every positive integer $n$, let\n\n$$\nx_{n}=\\frac{(2 n+1) \\cdot(2 n+3) \\cdots \\cdots \\cdot(4 n-1) \\cdot(4 n+1)}{2 n \\cdot(2 n+2) \\cdots \\cdots \\cdot(4 n-2) \\cdot 4 n}\n$$\n\nProve that $\\frac{1}{4 n}<x_{n}-\\sqrt{2}<\\frac{2}{n}$.\n",
+    "rawSha256": "44fa5d097ac9cf5c794203b5c9d90f31e3b4d0da937ba3faece96e0710846314",
+    "matchNormalizedSha256": "596695b987e9c797f3aa04d3f8ae3408024e1012f8561e37599608415c249c71",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2000:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2000:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

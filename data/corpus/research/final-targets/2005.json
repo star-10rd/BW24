@@ -1,0 +1,872 @@
+[
+  {
+    "appearanceId": "bw:2005:01",
+    "versionId": "v:bw:2005:01",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}$ be a positive integer. Define the sequence $a_{n}, n \\geq 0$, as follows: If\n\n$$\na_{n}=\\sum_{i=0}^{j} c_{i} 10^{i}\n$$\n\nwhere $c_{i}$ are integers with $0 \\leq c_{i} \\leq 9$, then\n\n$$\na_{n+1}=c_{0}^{2005}+c_{1}^{2005}+\\cdots+c_{j}^{2005} .\n$$\n\nIs it possible to choose $a_{0}$ so that all the terms in the sequence are distinct?\n",
+    "rawSha256": "b5d4e4b94352f0621d50e5e6f89d3b6595220e3c2166fc16c1eb1e585881564d",
+    "matchNormalizedSha256": "a17868cb091b462bd33be73b3002083aa2f1b62f127ca10cdb43c4988bf46c77",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:02",
+    "versionId": "v:bw:2005:02",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\alpha, \\beta$ and $\\gamma$ be three angles with $0 \\leq \\alpha, \\beta, \\gamma<90^{\\circ}$ and $\\sin \\alpha+\\sin \\beta+\\sin \\gamma=1$. Show that\n\n$$\n\\tan ^{2} \\alpha+\\tan ^{2} \\beta+\\tan ^{2} \\gamma \\geq \\frac{3}{8}\n$$\n",
+    "rawSha256": "ef389a76967298b8bb7ffc40c840c06f2ab8965412409d11b786d4545aefbe49",
+    "matchNormalizedSha256": "70d4c6aac3cb6e12ed8e71caf0c96f0e540865f1661989d27103f8956919b88f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:03",
+    "versionId": "v:bw:2005:03",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider the sequence $a_{k}$ defined by $a_{1}=1, a_{2}=\\frac{1}{2}$,\n\n$$\na_{k+2}=a_{k}+\\frac{1}{2} a_{k+1}+\\frac{1}{4 a_{k} a_{k+1}} \\quad \\text { for } k \\geq 1\n$$\n\nProve that\n\n$$\n\\frac{1}{a_{1} a_{3}}+\\frac{1}{a_{2} a_{4}}+\\frac{1}{a_{3} a_{5}}+\\cdots+\\frac{1}{a_{98} a_{100}}<4\n$$\n",
+    "rawSha256": "2de54122e36f84f47f6ed4fbf1a6188b93eac53360eb7497ea7f37318de40424",
+    "matchNormalizedSha256": "36d7aff169918a04aa805664e3d9a46cfaa15479e88fffcdcc142834ac04a43a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:04",
+    "versionId": "v:bw:2005:04",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find three different polynomials $P(x)$ with real coefficients such that $P\\left(x^{2}+1\\right)=P(x)^{2}+1$ for all real $x$.\n",
+    "rawSha256": "b8b6019b3ee8f8848ca4e6f8851aebf27f7175843ef1308cd7b64cd1246e3336",
+    "matchNormalizedSha256": "7ed1363e08f44189bf622cedc01a7f3e686bc0b1be721d57d0c5a56bd5661fb5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:05",
+    "versionId": "v:bw:2005:05",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c$ be positive real numbers with $a b c=1$. Prove that\n\n$$\n\\frac{a}{a^{2}+2}+\\frac{b}{b^{2}+2}+\\frac{c}{c^{2}+2} \\leq 1\n$$\n",
+    "rawSha256": "b7423f93e89d7af8ba58dfa92d62b32976b0875db29adb1879b4d71b2b8cc438",
+    "matchNormalizedSha256": "a87d8bcee65f51a8dc7ae26dcfea65fd4a29dd731e415fde8e97aa71230e1e09",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:06",
+    "versionId": "v:bw:2005:06",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $K$ and $N$ be positive integers with $1 \\leq K \\leq N$. A deck of $N$ different playing cards is shuffled by repeating the operation of reversing the order of the $K$ topmost cards and moving these to the bottom of the deck. Prove that the deck will be back in its initial order after a number of operations not greater than $4 \\cdot N^{2} / K^{2}$.\n",
+    "rawSha256": "d1d835be6df6b6454e74f2f3adf2d74cf7ea7faa2b80327b7eb364d05e90c0bd",
+    "matchNormalizedSha256": "52f82fb4779caf53c93c97523864eb9eabb2b7327ca6d424ddb24f79e6028c53",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:07",
+    "versionId": "v:bw:2005:07",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A rectangular array has $n$ rows and six columns, where $n>2$. In each cell there is written either 0 or 1 . All rows in the array are different from each other. For each pair of rows $\\left(x_{1}, x_{2}, \\ldots, x_{6}\\right)$ and $\\left(y_{1}, y_{2}, \\ldots, y_{6}\\right)$, the row $\\left(x_{1} y_{1}, x_{2} y_{2}, \\ldots, x_{6} y_{6}\\right)$ can also be found in the array. Prove that there is a column in which at least half of the entries are zeroes.\n",
+    "rawSha256": "cd9b6b34d0c2d87fd6a21563b7455b71ab70d8e20543dece33a770096c04b57e",
+    "matchNormalizedSha256": "227cb0aee388010b829495e98e0b736e993b7f49396f25198913a3635fcd8b1d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:08",
+    "versionId": "v:bw:2005:08",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a grid of $25 \\times 25$ unit squares. Draw with a red pen contours of squares of any size on the grid. What is the minimal number of squares we must draw in order to colour all the lines of the grid?\n",
+    "rawSha256": "886a0d7c01e773e9f28a1f1dbc9756b8115147b692df99c8e9166306ffc61211",
+    "matchNormalizedSha256": "04460f3e64379a92b5c19c4b47881681627f9625dd4fec3ee8de980cc7cc6fc8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:09",
+    "versionId": "v:bw:2005:09",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A rectangle is divided into $200 \\times 3$ unit squares. Prove that the number of ways of splitting this rectangle into rectangles of size $1 \\times 2$ is divisible by 3 .\n",
+    "rawSha256": "2ebc6a014ec8db34990943b92f39a1d976dc1fdadd908e3c0ab7f04f0c60ebcd",
+    "matchNormalizedSha256": "761aa7c1134c8faf46d0478e622aadcab97e7303a13a0e31d93b84404e6320f3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:10",
+    "versionId": "v:bw:2005:10",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $m=30030=2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$ and let $M$ be the set of its positive divisors which have exactly two prime factors. Determine the minimal integer $n$ with the following property: for any choice of numbers from $M$, there exist three numbers $a, b, c$ among them satisfying $a \\cdot b \\cdot c=m$.\n",
+    "rawSha256": "edfa7f6929249d5d8e86698496a481c6965a5a899f62afd50071a6111c73bcbf",
+    "matchNormalizedSha256": "bd8f4640c3dab443507911153c8b4ad1c7f51eff6f0c2a51fac56f5ed9944f94",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:11",
+    "versionId": "v:bw:2005:11",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the points $D$ and $E$ lie on the sides $B C$ and $A C$, respectively, of the triangle $A B C$, satisfying $B D=A E$. The line joining the circumcentres of the triangles $A D C$ and $B E C$ meets the lines $A C$ and $B C$ at $K$ and $L$, respectively. Prove that $K C=L C$.\n",
+    "rawSha256": "9ab9668bdfe3303406e85f1162f45ad7a18ee2d09c82788f827485bff9c06f6c",
+    "matchNormalizedSha256": "4d0d7dba28bcd1ce41ea9960af2a066ed22b0c76769d6ac71ff6a62eeb4aad09",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:12",
+    "versionId": "v:bw:2005:12",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral such that $B C=A D$. Let $M$ and $N$ be the midpoints of $A B$ and $C D$, respectively. The lines $A D$ and $B C$ meet the line $M N$ at $P$ and $Q$, respectively. Prove that $C Q=D P$.\n",
+    "rawSha256": "03bdf2f2d4e95d7a717a2d3aeb2000f9dcbfa3d105b0b0381696ad49a92c3335",
+    "matchNormalizedSha256": "e7028e9ffb6535e9ee1ea9c729dcc47061c2dc7cb36ca886cc3b036d43a2a26b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:13",
+    "versionId": "v:bw:2005:13",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "What is the smallest number of circles of radius $\\sqrt{2}$ that are needed to cover a rectangle\n\n(a) of size $6 \\times 3$ ?\n\n(b) of size $5 \\times 3$ ?\n",
+    "rawSha256": "3b5bff42e0b98450da57ebc3d10ff5f986aa0c8bbd9e9bc984d7e6d0c362bac1",
+    "matchNormalizedSha256": "8d04a0652da7ecc65a1741e7e9e43934c6c06f823fc2a6f47a363dcc57c64e15",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:14",
+    "versionId": "v:bw:2005:14",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the medians of the triangle $A B C$ meet at $M$. Let $D$ and $E$ be different points on the line $B C$ such that $D C=C E=A B$, and let $P$ and $Q$ be points on the segments $B D$ and $B E$, respectively, such that $2 B P=P D$ and $2 B Q=Q E$. Determine $\\angle P M Q$.\n",
+    "rawSha256": "992f72121878e50f8c63820e9d0a0f65b84d16604b0f4a82a6b252d201de2b65",
+    "matchNormalizedSha256": "93a2639cb3a0c4a19eb64295db6c702fbcef0782e51c3ceda22b863b75d2c19c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:15",
+    "versionId": "v:bw:2005:15",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the lines $e$ and $f$ be perpendicular and intersect each other at $H$. Let $A$ and $B$ lie on $e$ and $C$ and $D$ lie on $f$, such that all the five points $A,B,C,D$ and $H$ are distinct. Let the lines $b$ and $d$ pass through $B$ and $D$ respectively, perpendicularly to $AC$; let the lines $a$ and $c$ pass through $A$ and $C$ respectively, perpendicularly to $BD$. Let $a$ and $b$ intersect at $X$ and $c$ and $d$ intersect at $Y$. Prove that $XY$ passes through $H$.\n",
+    "rawSha256": "981e55e392fb92d10472e513c9e2904a432b19231688a86b398c7280b55e142d",
+    "matchNormalizedSha256": "c10e02380783f58cab9093cb50e9f4c9500e5742e2102e0728ea61926d761470",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:16",
+    "versionId": "v:bw:2005:16",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ be a prime number and let $n$ be a positive integer. Let $q$ be a positive divisor of $(n+1)^{p}-n^{p}$. Show that $q-1$ is divisible by $p$.\n",
+    "rawSha256": "6f9745df6b1b58d084e36cf27be811a54e85d39d664ed16acd82a58697b95fa9",
+    "matchNormalizedSha256": "6fed87b7330aa5531b6f0686c49733aae8731d421b777891db03b74e73ca4b57",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:17",
+    "versionId": "v:bw:2005:17",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A sequence $\\left(x_{n}\\right), n \\geq 0$, is defined as follows: $x_{0}=a, x_{1}=2$ and $x_{n}=2 x_{n-1} x_{n-2}-$ $x_{n-1}-x_{n-2}+1$ for $n>1$. Find all integers a such that $2 x_{3 n}-1$ is a perfect square for all $n \\geq 1$.\n",
+    "rawSha256": "71d05bed1ff9b41c7f358994ec9e0c4ee360f86525875b940122939683bd433f",
+    "matchNormalizedSha256": "e8325e79dd9675c6cb53b6633381670de4624dfada1f91fca7f47ccf58a192dd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:18",
+    "versionId": "v:bw:2005:18",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $x$ and $y$ be positive integers and assume that $z=4 x y /(x+y)$ is an odd integer. Prove that at least one divisor of $z$ can be expressed in the form $4 n-1$ where $n$ is a positive integer.\n",
+    "rawSha256": "f7640646f014514e5016bdfd42a2aed7ea0782e3e6291d427887f0be4eb9f0a1",
+    "matchNormalizedSha256": "a669f51d82fd71cc2b5394b494cf97a3b0802b48f8aa5522a94befd811f93d81",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw05sol.jsonl",
+      "fileSha256": "0dd5c565b83aae535abb1ef8a01a2e04a90da4db1bc29713229ecae6c03448c5",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:19",
+    "versionId": "v:bw:2005:19",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to find 2005 different positive square numbers such that their sum is also a square number?\n",
+    "rawSha256": "22144ad7375f2442b194581854696c525dc324db7d08adcb7957127af8608508",
+    "matchNormalizedSha256": "ef330975581aaa73ea6cce9dc9df565f6ae94283fdeb4d2a4b4bfb498db6a938",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2005:20",
+    "versionId": "v:bw:2005:20",
+    "officialSource": {
+      "sourceId": "bw-official:2005:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "7189e1ce1a57fe2aacaa783588e16a8b0707c4a5b106ae688d3cb26ea2a16739",
+      "sourceBytes": 75129,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all positive integers $n=p_{1} p_{2} \\cdots p_{k}$ which divide $\\left(p_{1}+1\\right)\\left(p_{2}+1\\right) \\cdots\\left(p_{k}+1\\right)$, where $p_{1} p_{2} \\cdots p_{k}$ is the factorization of $n$ into prime factors (not necessarily distinct).\n",
+    "rawSha256": "5039a5fafd9dc8e8a1a0194c5b474ce6bba5bf49dee00a1693176c59bc8a6128",
+    "matchNormalizedSha256": "f58155d468ab30bcc10602f572492450bfdbfd6ec2ff4df9b33df568d305856f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2005:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2005:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,860 @@
+[
+  {
+    "appearanceId": "bw:1995:01",
+    "versionId": "v:bw:1995:01",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all triples $(x, y, z)$ of positive integers satisfying the system of equations\n\n$$\n\\left\\{\\begin{array}{l}\nx^{2}=2(y+z) \\\\\nx^{6}=y^{6}+z^{6}+31\\left(y^{2}+z^{2}\\right)\n\\end{array}\\right.\n$$\n",
+    "rawSha256": "393ae0b7c3dff487b5b80a46c3463d01b15a39d5d8a81eca1042ceaeef32c96c",
+    "matchNormalizedSha256": "4e13551dbea9cf461fdf28734f727c635e9395557ec76d4b8b1094fe234d3d91",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:02",
+    "versionId": "v:bw:1995:02",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a$ and $k$ be positive integers such that $a^{2}+k$ divides $(a-1) a(a+1)$. Prove that $k \\geq a$.\n",
+    "rawSha256": "e29b2798eb921e4cbe9911685927d32d2bd844435a91a345780daf5b7d78ab5f",
+    "matchNormalizedSha256": "624fc35af0adcf7e276990fb292bd403ff2cb313d2bedc83f058a32d64d1ea28",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:03",
+    "versionId": "v:bw:1995:03",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The positive integers $a, b, c$ are pairwise relatively prime, $a$ and $c$ are odd and the numbers satisfy the equation $a^{2}+b^{2}=c^{2}$. Prove that $b+c$ is a square of an integer.\n",
+    "rawSha256": "6abf83f62350357fd4b3135e0873e565b73ee4e6b19d24767efb20d0e9ad6f48",
+    "matchNormalizedSha256": "7403b7dd4484649b1e9d762d204477c0b9f45c062bf7ba95f08887e9e493aeae",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:04",
+    "versionId": "v:bw:1995:04",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "John is older than Mary. He notices that if he switches the two digits of his age (an integer), he gets Mary's age. Moreover, the difference between the squares of their ages is the square of an integer. How old are Mary and John?\n",
+    "rawSha256": "4e31e968079f7f4484311687a4ce741db26a0e5d274ca280705065bc1358a425",
+    "matchNormalizedSha256": "1a9d836ae63fd15a4b08763d38e9b2bc14c11e2e63632cc42aec9b55443661f7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:05",
+    "versionId": "v:bw:1995:05",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a<b<c$ be three positive integers. Prove that among any $2 c$ consecutive positive integers there exist three different numbers $x, y, z$ such that $a b c$ divides $x y z$.\n",
+    "rawSha256": "1569fc1f0f16a890ad8675d92c4adc7516281a990fcf786803d2f128f01d9ede",
+    "matchNormalizedSha256": "e00b16f1cded1ceb0a86c8f188beafb171e6735709acd6d98d4c848c43e4d31d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:06",
+    "versionId": "v:bw:1995:06",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for positive $a, b, c, d$\n\n$$\n\\frac{a+c}{a+b}+\\frac{b+d}{b+c}+\\frac{c+a}{c+d}+\\frac{d+b}{d+a} \\geq 4 .\n$$\n",
+    "rawSha256": "2a151e0a029bd1d44aa27bdf252f928b91e73ca3babe37bcaf2c3aebea6f605b",
+    "matchNormalizedSha256": "dc3ab34ac8177077b7a08c11fe2946e11b698336f397bb7db368229b0180e89c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:07",
+    "versionId": "v:bw:1995:07",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that $\\sin ^{3} 18^{\\circ}+\\sin ^{2} 18^{\\circ}=1 / 8$.\n",
+    "rawSha256": "877fb6d30f0cb93406d2fe7b30aa8a2663109d3597bdd6c6feeb5eeae36b9bf3",
+    "matchNormalizedSha256": "0889b7200661c106694f82a56f811b4f4a0a6153742c37924e500f12886abdcb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:08",
+    "versionId": "v:bw:1995:08",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The real numbers $a, b$ and $c$ satisfy the inequalities $|a| \\geq|b+c|,|b| \\geq|c+a|$ and $|c| \\geq|a+b|$. Prove that $a+b+c=0$.\n",
+    "rawSha256": "89feb95e8ba64868b165c90f768e0ed1d59843f154565fcff42703f624772bac",
+    "matchNormalizedSha256": "f0506505610d6420a46709358d4c816ad6fb08410335e2f37bed8418c0b5aca2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:09",
+    "versionId": "v:bw:1995:09",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that\n\n$$\n\\frac{1995}{2}-\\frac{1994}{3}+\\frac{1993}{4}-\\cdots-\\frac{2}{1995}+\\frac{1}{1996}=\\frac{1}{999}+\\frac{3}{1000}+\\cdots+\\frac{1995}{1996} .\n$$\n",
+    "rawSha256": "1a35255c0afec1d8cf0ef3f34c9249de367a93a925d2cd6fdd5a738efcaeef93",
+    "matchNormalizedSha256": "17908927b6b0b99d006c874f851dceb5f653814511d4cbbe8366bffa2202454e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:10",
+    "versionId": "v:bw:1995:10",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all real-valued functions $f$ defined on the set of all non-zero real numbers such that:\n\n(i) $f(1)=1$,\n\n(ii) $f\\left(\\frac{1}{x+y}\\right)=f\\left(\\frac{1}{x}\\right)+f\\left(\\frac{1}{y}\\right)$ for all non-zero $x, y, x+y$,\n\n(iii) $(x+y) f(x+y)=x y f(x) f(y)$ for all non-zero $x, y, x+y$.\n",
+    "rawSha256": "54a47d917eb843d455daee79a0e568f0155d6bf7bfdc59fd4883de7c44c6072d",
+    "matchNormalizedSha256": "73e0d31cdaa7ac845916dbedeb67ce435a5cbbac1794f5c5a031cf1c32b37745",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:11",
+    "versionId": "v:bw:1995:11",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In how many ways can the set of integers $\\{1,2, \\ldots, 1995\\}$ be partitioned into three nonempty sets so that none of these sets contains two consecutive integers?\n",
+    "rawSha256": "24f40dc19f2ce7ecee9f9ab51105737cd53f4669d6e0e0ecd424c8eaebf87a11",
+    "matchNormalizedSha256": "814df580c548a2f1dc12c6d7c80679c5055562e4e2962ee6f688f9e7db5f9441",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:12",
+    "versionId": "v:bw:1995:12",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Assume we have 95 boxes and 19 balls distributed in these boxes in an arbitrary manner. We take six new balls at a time and place them in six of the boxes, one ball in each of the six. Can we, by repeating this process a suitable number of times, achieve a situation in which each of the 95 boxes contains an equal number of balls?\n",
+    "rawSha256": "b23c067e79b5cba0ccbbf2719fc9c5b7a8d89462193cf5e18c3ffe41ef921e7c",
+    "matchNormalizedSha256": "055a6d1cbb3b77bc8e71d23b74e3350cbda0d90da85b189b46b91bcaac1418c3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:13",
+    "versionId": "v:bw:1995:13",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider the following two person game. A number of pebbles are situated on the table. Two players make their moves alternately. A move consists of taking off the table $x$ pebbles where $x$ is the square of any positive integer. The player who is unable to make a move loses. Prove that there are infinitely many initial situations in which the second player can win no matter how his opponent plays.\n",
+    "rawSha256": "1f66d14251f926fe565aecfa8fc9fdffdafb5ad0b5c18a8ed24abb027660a6a6",
+    "matchNormalizedSha256": "efe88965c3e1ff6b7dd5cc62ce9384925d1e72ec1318ffa3a3d52789be479371",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:14",
+    "versionId": "v:bw:1995:14",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are $n$ fleas on an infinite sheet of triangulated paper. Initially the fleas are in different small triangles, all of which are inside some equilateral triangle consisting of $n^{2}$ small triangles. Once a second each flea jumps from its original triangle to one of the three small triangles having a common vertex but no common side with it. For which natural numbers $n$ does there exist an initial configuration such that after a finite number of jumps all the $n$ fleas can meet in a single small triangle?\n",
+    "rawSha256": "c5c444aafbc840f52c6d44d58e15c3c37b6012680f8ddd81c025251b3a59d27f",
+    "matchNormalizedSha256": "a46a1786f6b1662c791ee698e57c32568363249f254db51266906b439a9326c0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:1995:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:15",
+    "versionId": "v:bw:1995:15",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A polygon with $2 n+1$ vertices is given. Show that it is possible to label the vertices and midpoints of the sides of the polygon, using all the numbers $1,2, \\ldots, 4 n+2$, so that the sums of the three numbers assigned to each side are all equal.\n",
+    "rawSha256": "5f922c2fce118bb5fbd6874178d8c1c2f01bcb22ba655c4114901089c98821a8",
+    "matchNormalizedSha256": "1d5e469ec6d852e49e69ebe19ca1de6310cf96f52d84b04c47eb8401c54efac6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:16",
+    "versionId": "v:bw:1995:16",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In the triangle $A B C$, let $l$ be the bisector of the external angle at $C$. The line through the midpoint $O$ of the segment $A B$ parallel to $l$ meets the line $A C$ at $E$. Determine $|C E|$, if $|A C|=7$ and $|C B|=4$.\n",
+    "rawSha256": "d7622654bfd5dae97196109221df8a8159d4d1c5ec5ced72d2a952346f30bfa0",
+    "matchNormalizedSha256": "f4d57c0f2aca39c9730588cd90e89852b4bfa9391a5173bd66fc086070a49f0a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:17",
+    "versionId": "v:bw:1995:17",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that there exists a number $\\alpha$ such that for any triangle $A B C$ the inequality\n\n$$\n\\max \\left(h_{A}, h_{B}, h_{C}\\right) \\leq \\alpha \\cdot \\min \\left(m_{A}, m_{B}, m_{C}\\right)\n$$\n\nholds, where $h_{A}, h_{B}, h_{C}$ denote the lengths of the altitudes and $m_{A}, m_{B}, m_{C}$ denote the lengths of the medians. Find the smallest possible value of $\\alpha$.\n",
+    "rawSha256": "5805add759caeddfbe1bcc3efb6105e248d9ab4aeb7a13f93d3b85c3b6157103",
+    "matchNormalizedSha256": "269cc76289f30eb0e45ee25a648ad52ef5ac62fcc6a42d712a48e972279a0435",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:18",
+    "versionId": "v:bw:1995:18",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $M$ be the midpoint of the side $A C$ of a triangle $A B C$ and let $H$ be the foot point of the altitude from $B$. Let $P$ and $Q$ be the orthogonal projections of $A$ and $C$ on the bisector of angle $B$. Prove that the four points $M, H, P$ and $Q$ lie on the same circle.\n",
+    "rawSha256": "664ad522939cd3b39e4726d75cc5fbe0b01472b700b7e7df55f2bb366822cdec",
+    "matchNormalizedSha256": "a10511d44ef39ec6ecffe68fb8f876b51696a28b6a295584dde1e6e6ec69799a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:19",
+    "versionId": "v:bw:1995:19",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The following construction is used for training astronauts: A circle $C_{2}$ of radius $2 R$ rolls along the inside of another, fixed circle $C_{1}$ of radius $n R$, where $n$ is an integer greater than 2 . The astronaut is fastened to a third circle $C_{3}$ of radius $R$ which rolls along the inside of circle $C_{2}$ in such a way that the touching point of the circles $C_{2}$ and $C_{3}$ remains at maximum distance from the touching point of the circles $C_{1}$ and $C_{2}$ at all times (see Figure 3).\n\nHow many revolutions (relative to the ground) does the astronaut perform together with the circle $C_{3}$ while the circle $C_{2}$ completes one full lap around the inside of circle $C_{1}$ ?\n",
+    "rawSha256": "e0bf7127455f888221a0e815c07040f8edf4f9a6a341207a80a01ffa8efbe777",
+    "matchNormalizedSha256": "ddb745a4526bc5e3c3fe79bf32749b18e57be84bb43ca16c4e74a31ec193af7a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:1995:20",
+    "versionId": "v:bw:1995:20",
+    "officialSource": {
+      "sourceId": "bw-official:1995:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "08d51bfa9f1e0d2592182c878d1b668f1eaa564910686734c65701221aa0b7a2",
+      "sourceBytes": 79191,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that if both coordinates of every vertex of a convex pentagon are integers, then the area of this pentagon is not less than $\\frac{5}{2}$.\n",
+    "rawSha256": "680a419b2625b230d5b984e7b7811abf956c67188d723f9f58450246abca3a35",
+    "matchNormalizedSha256": "221d24e12616bbf3782313febe8f66fbbdf10a6361c958a9dce5cf19af32656a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw95sol.jsonl",
+      "fileSha256": "98a9b4861b316398b4d7c2738c70f29bf0524f2a7abc0f9cf85dd62272c33493",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:1995:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

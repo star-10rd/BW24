@@ -1,0 +1,58 @@
+{
+  "schema": "bw26-mathnet-v0-inventory",
+  "version": 1,
+  "rows": 853,
+  "uniqueIds": 853,
+  "solutions": {
+    "0": 8,
+    "1": 794,
+    "2": 45,
+    "3": 6
+  },
+  "images": {
+    "0": 725,
+    "1": 93,
+    "2": 23,
+    "3": 8,
+    "4": 1,
+    "5": 2,
+    "6": 1
+  },
+  "totalImages": 183,
+  "uniqueImageHashes": 183,
+  "imageMediaTypes": {
+    "image/jpeg": 92,
+    "image/png": 91
+  },
+  "languages": {
+    "": 719,
+    "English": 134
+  },
+  "competitions": {
+    "Baltic Way": 258,
+    "BALTIC WAY": 52,
+    "Baltic Way 2011 Problem Shortlist": 52,
+    "Baltic Way 2013": 52,
+    "Baltic Way 2023 Shortlist": 48,
+    "Baltic Way 2019": 46,
+    "Baltic Way SHL": 42,
+    "Baltic Way 2020": 41,
+    "Baltic Way shortlist": 40,
+    "Baltic Way 2016": 39,
+    "Baltic Way 2021 Shortlist": 38,
+    "Baltic Way 2002 mathematical team contest": 20,
+    "Baltic Way 1992": 19,
+    "Baltic Way 1993": 19,
+    "Baltic Way 1997": 19,
+    "Baltic Way 2005": 19,
+    "Baltic Way 2008": 18,
+    "Baltic Way 2015 Shortlisted Problems": 16,
+    "Baltic Way 1998": 15
+  },
+  "statementFiles": 853,
+  "solutionFiles": 902,
+  "imageFiles": 183,
+  "itemsSha256": "9775aa07b746dd3d7ab3359ca83c49ee8a5b911d7142b1cf37bf1597098022e4",
+  "imageIndexSha256": "90c52f281edacc534109e05d2f7c6a323bc0331e8211a45d9baa026f8f44914a",
+  "solutionIndexSha256": "780c364c6bf8bd2382aa5a0dfc467861360caec9062f9412c0b69be0ec137692"
+}

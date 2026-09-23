@@ -1,0 +1,864 @@
+[
+  {
+    "appearanceId": "bw:2023:01",
+    "versionId": "v:bw:2023:01",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all strictly increasing sequences $1=a_{1}<a_{2}<a_{3}<\\cdots$ of positive integers satisfying\n\n$$\n3\\left(a_{1}+a_{2}+\\cdots+a_{n}\\right)=a_{n+1}+a_{n+2}+\\cdots+a_{2 n}\n$$\n\nfor all positive integers $n$.\n",
+    "rawSha256": "e150878706e2830aa43e9d703c20d00f9c0ed5b1750e9f3fcab1a0b7beafbb63",
+    "matchNormalizedSha256": "6d9d8b5c4a468ad18b749d1f19c5976f4d88d2015347291aaab0969caabb5918",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:02",
+    "versionId": "v:bw:2023:02",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{1}, a_{2}, \\ldots, a_{2023}$ be positive real numbers with\n\n$$\na_{1}+a_{2}^{2}+a_{3}^{3}+\\cdots+a_{2023}^{2023}=2023\n$$\n\nShow that\n\n$$\na_{1}^{2023}+a_{2}^{2022}+\\cdots+a_{2022}^{2}+a_{2023}>1+\\frac{1}{2023} .\n$$\n",
+    "rawSha256": "ef52b5250a9e45f0f8019d42b330c998ac823e469bb0f3904fc2e66602351e65",
+    "matchNormalizedSha256": "709a2f405dc7c86d6411df3047c902f8293116fbf7cf57a0fc0cb339dd5b4841",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:03",
+    "versionId": "v:bw:2023:03",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Denote a set of equations in the real numbers with variables $x_{1}, x_{2}, x_{3} \\in \\mathbb{R}$ Flensburgian if there exists an $i \\in\\{1,2,3\\}$ such that every solution of the set of equations where all the variables are pairwise different, satisfies $x_{i}>x_{j}$ for all $j \\neq i$.\n\nDetermine for which positive integers $n \\geq 2$, the following set of two equations\n\n$$\na^{n}+b=a \\text { and } c^{n+1}+b^{2}=a b\n$$\n\nin the three real variables $a, b, c$ is Flensburgian.\n",
+    "rawSha256": "391e27db436f813b1b7b2336c72cedd1dda8840e7f2e454ec4c58fe9d7567c60",
+    "matchNormalizedSha256": "d3a6b30127bccb220812b328f0955496fb290664f7161635408d00c97987f030",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:04",
+    "versionId": "v:bw:2023:04",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ that satisfy\n\n$$\nf(f(x)+y)+x f(y)=f(x y+y)+f(x)\n$$\n\nfor all real numbers $x$ and $y$.\n",
+    "rawSha256": "9cf1c78598009547dd05973deecddb2d399a7c6b90ac5b7860370ba243b17147",
+    "matchNormalizedSha256": "c2f8ec16cfe731cc6f35be883e76e5623ee12e2b3bded4e90b8c44344221ce9f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:05",
+    "versionId": "v:bw:2023:05",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the smallest positive real number $\\alpha$, such that\n\n$$\n\\frac{x+y}{2} \\geq \\alpha \\sqrt{x y}+(1-\\alpha) \\sqrt{\\frac{x^{2}+y^{2}}{2}}\n$$\n\nfor all positive real numbers $x$ and $y$.\n",
+    "rawSha256": "e66ad9c22f56617610aa427149aec186b35290e4b39aca48ccff008a2611e1b5",
+    "matchNormalizedSha256": "655d5cccaf006b7557604beeafb863de3fa8312f4a73d7b7bef343da06081a6a",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:06",
+    "versionId": "v:bw:2023:06",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. Each cell of an $n \\times n$ table is coloured in one of $k$ colours where every colour is used at least once. Two different colours $A$ and $B$ are said to touch each other, if there exists a cell coloured in $A$ sharing a side with a cell coloured in $B$. The table is coloured in such a way that each colour touches at most 2 other colours. What is the maximal value of $k$ in terms of $n$ ?\n",
+    "rawSha256": "147b818de253d3ab29932a847629a0b0b49a6f7ea9d76383b1abfe5b4e941804",
+    "matchNormalizedSha256": "799566b1c9fae4afb900d58cccf0629005e0eafab7a9f90120ff77617dc435a5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:07",
+    "versionId": "v:bw:2023:07",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A robot moves in the plane in a straight line, but every one meter it turns $90^{\\circ}$ to the right or to the left. At some point it reaches its starting point without having visited any other point more than once, and stops immediately. What are the possible path lengths of the robot?\n",
+    "rawSha256": "9c4f75b649845fc627e7e54838d3ef68c7b9d4c557fd425f51a57be6803ba24d",
+    "matchNormalizedSha256": "4fcb5d7bd178a45cfbbc01406b4824ecca7ce5b5797162ef94aacfcf3c33e7c4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:08",
+    "versionId": "v:bw:2023:08",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In the city of Flensburg there is a single, infinitely long, street with houses numbered 2, 3, .. The police in Flensburg is trying to catch a thief who every night moves from the house where she is currently hiding to one of its neighbouring houses.\n\nTo taunt the local law enforcement the thief reveals every morning the highest prime divisor of the number of the house she has moved to.\n\nEvery Sunday afternoon the police searches a single house, and they catch the thief if they search the house she is currently occupying. Does the police have a strategy to catch the thief in finite time?\n",
+    "rawSha256": "c499dde165b9645d4663e4927260daed5db10b77d6e98924cff3bd8f287ee924",
+    "matchNormalizedSha256": "93c835db6d0cf7f17bcf2f0c8f98c7c514dd7596d4fa241c39c5a0110a573028",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:09",
+    "versionId": "v:bw:2023:09",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine if there exists a triangle that can be cut into 101 congruent triangles.\n",
+    "rawSha256": "3ee65a2ba97d53ef8326079416e1af7357d68f4f0120710c3c6e30857b10244e",
+    "matchNormalizedSha256": "91bfe41ded8ab236bcc28134313a9546abb4045a38427af349fdb62079effef4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:10",
+    "versionId": "v:bw:2023:10",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "On a circle, $n \\geq 3$ points are marked. Each marked point is coloured red, green or blue. In one step, one can erase two neighbouring marked points of different colours and mark a new point between the locations of the erased points with the third colour. In a final state, all marked points have the same colour which is called the colour of the final state. Find all $n$ for which there exists an initial state of $n$ marked points with one missing colour, from which one can reach a final state of any of the three colours by applying a suitable sequence of steps.\n",
+    "rawSha256": "81a722d29a72acdab2628285a931486a91564394eb04f13ae33bdd73e4e05e2f",
+    "matchNormalizedSha256": "ec937d04ebd89efa3b66f18beb29369c78a9b575bcc8bd6b74cbfa030d43e132",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:11",
+    "versionId": "v:bw:2023:11",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "$\\quad$ Let $A B C$ be a triangle and let $J$ be the centre of the $A$-excircle. The reflection of $J$ in $B C$ is $K$. The points $E$ and $F$ are on $B J$ and $C J$, respectively, such that $\\angle E A B=\\angle C A F=90^{\\circ}$. Prove that $\\angle F K E+\\angle F J E=$ $180^{\\circ}$.\n\nRemark: The $A$-excircle is the circle that touches the side $B C$ and the extensions of $A C$ and $A B$.\n",
+    "rawSha256": "0e8f4c7a9b2b037e2cd517f68d43c01cbe3d1d63b9fbb752632988fe18b99224",
+    "matchNormalizedSha256": "a3ae48e7bba5ef07f00a7c021eadc897cfe4a81042b9bddf85b4a04023b3ffcc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:12",
+    "versionId": "v:bw:2023:12",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with $A B>A C$. The internal angle bisector of $\\angle B A C$ intersects $B C$ at $D$. Let $O$ be the circumcentre of $A B C$. Let $A O$ intersect the segment $B C$ at $E$. Let $J$ be the incentre of $A E D$. Prove that if $\\angle A D O=45^{\\circ}$ then $O J=J D$.\n",
+    "rawSha256": "5fac5760dd94f5f9e014515c32bce445a6ca480411aeead6856100fce066dcc0",
+    "matchNormalizedSha256": "0dfaf80676fce36d2a3f786a77cd3fab820bdbc356e32e84c18d8588881ebbbe",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:13",
+    "versionId": "v:bw:2023:13",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with $A B<A C$ and incentre $I$. Let $D$ be the projection of $I$ onto $B C$. Let $H$ be the orthocentre of $A B C$. Given $\\angle I D H=\\angle C B A-\\angle A C B$, prove that $A H=2 \\cdot I D$.\n",
+    "rawSha256": "6090dfdf87e7dffaf04ea2b5af33f856f45bc3e2d154515a1aa3ebacbf5ec221",
+    "matchNormalizedSha256": "b2cceb202ad9647e07ba0efa70a348b8b71c12822d7da025892f9c8e21943ebb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:14",
+    "versionId": "v:bw:2023:14",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle with centroid $G$. Let $D, E$ and $F$ be the circumcentres of $B C G, C A G$ and $A B G$, respectively. Let $X$ be the intersection of the perpendiculars from $E$ to $A B$ and from $F$ to $A C$. Prove that $D X$ bisects the segment $E F$.\n",
+    "rawSha256": "92c7c32dc6cd918b0810fa558ba05f230375423bece67873c26e0531ee57ead8",
+    "matchNormalizedSha256": "be46be85115661997d1153331d3b49973845ce18d3244a7e640e73d76dfbe6f6",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:15",
+    "versionId": "v:bw:2023:15",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\omega_{1}$ and $\\omega_{2}$ be circles with no common points, such that neither circle lies inside the other. Points $M$ and $N$ are chosen on the circles $\\omega_{1}$ and $\\omega_{2}$, respectively, such that the tangent to the circle $\\omega_{1}$ at $M$ and the tangent to the circle $\\omega_{2}$ at $N$ intersect at $P$ and such that $P M N$ is an isosceles triangle with $P M=P N$. The circles $\\omega_{1}$ and $\\omega_{2}$ meet the segment $M N$ again at $A$ and $B$, respectively. The line $P A$ meets the circle $\\omega_{1}$ again at $C$ and the line $P B$ meets the circle $\\omega_{2}$ again at $D$. Prove that $\\angle B C N=\\angle A D M$.\n",
+    "rawSha256": "dc4487c1a334ca87d69150f78c18c78265ecf2983dc8ae045d6c8e143b423d4f",
+    "matchNormalizedSha256": "00c888c100224de02a399901687726ee2ee51bfa0f185e27fb0f27190312993e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          3,
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:16",
+    "versionId": "v:bw:2023:16",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that there exist nonconstant polynomials $f$ and $g$ with integer coefficients such that, for infinitely many primes $p$, there are no integers $x$ and $y$ with $p \\mid f(x)-g(y)$.\n",
+    "rawSha256": "930a51337f29d64d39225811ec40cd02ea0b67da89d7d89a793074f1b99e4047",
+    "matchNormalizedSha256": "689b5d0e566bf17392971bb699e3a77195e4e8a7ceef1805de4703ed60af82e3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:17",
+    "versionId": "v:bw:2023:17",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $S(m)$ be the sum of the digits of the positive integer $m$. Find all pairs $(a, b)$ of positive integers such that $S\\left(a^{b+1}\\right)=a^{b}$.\n",
+    "rawSha256": "df5cae288804a8c5b896d0b24c0911aef1464f5b62e282e84f2b0672d2b202e5",
+    "matchNormalizedSha256": "49700b0bdcbbbff0cd8fc1b2de22bf473614311839916d8be92b3b341b0a41bd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:18",
+    "versionId": "v:bw:2023:18",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p>7$ be a prime number and let $A$ be a subset of $\\{0,1, \\ldots, p-1\\}$ consisting of at least $\\frac{p-1}{2}$ elements. Show that for each integer $r$, there exist (not necessarily distinct) numbers $a, b, c, d \\in A$ such that\n\n$$\na b-c d \\equiv r \\quad(\\bmod p)\n$$\n",
+    "rawSha256": "e998fdfc400e51541705703ae2249265105955cc74e2c392728cefbd2b641f5d",
+    "matchNormalizedSha256": "6fa2ccb78ce7d90520a65af224b53f0ff5409825584fd4e17257e4f9fb4f5f40",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:19",
+    "versionId": "v:bw:2023:19",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that the sum of the digits of $2^{2^{2^{2023}}}$ is greater than 2023.\n",
+    "rawSha256": "edc9bb81c901d3f5cbbe8fb2170763d93945e63500ef181d2bd063ee1649e1ff",
+    "matchNormalizedSha256": "7b851309db27b46bbeb4544ce4a39f37a7a9420f01110933708452b79f62b737",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2023:problems",
+      "officialPages": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2023:20",
+    "versionId": "v:bw:2023:20",
+    "officialSource": {
+      "sourceId": "bw-official:2023:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "1858e41199c24ddf97d2d6524cc0ca139371bb37f20a0b1e109132d847445334",
+      "sourceBytes": 305655,
+      "pages": [
+        4
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n$ be a positive integer. A German set in an $n \\times n$ square grid is a set of $n$ cells which contains exactly one cell in each row and column. Given a labelling of the cells with the integers from 1 to $n^{2}$ using each integer exactly once, we say that an integer is a German product if it is the product of the labels of the cells in a German set.\n\n(a) Let $n=8$. Determine whether there exists a labelling of an $8 \\times 8$ grid such that the following condition is fulfilled: The difference of any two German products is always divisible by 65 .\n\n(b) Let $n=10$. Determine whether there exists a labelling of a $10 \\times 10$ grid such that the following condition is fulfilled: The difference of any two German products is always divisible by 101.\n",
+    "rawSha256": "ef77b8c5bfa52a68281c8e6f21a74dd9ece8c91c3b5e78dbb30ee7aa602916f6",
+    "matchNormalizedSha256": "8cb3498efae05f6af8d1493892c31863b8b0f314e26a5b8fb4af57d9b2d02b7e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw23sol.jsonl",
+      "fileSha256": "afdf05f2dc2563e084566e39c4cf065faaa791c18d2ec74721dcae8ce75b19c7",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2023:problems",
+        "pages": [
+          4
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

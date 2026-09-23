@@ -1,0 +1,833 @@
+[
+  {
+    "appearanceId": "bw:2008:01",
+    "versionId": "v:bw:2008:01",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all polynomials $p(x)$ with real coefficients such that\n\n$$\np\\left((x+1)^{3}\\right)=(p(x)+1)^{3}\n$$\n\nand\n\n$$\np(0)=0\n$$\n",
+    "rawSha256": "fe3631b47d1872d7e0509af481f70bbf0aa7c0153981d96072e7b728623928f1",
+    "matchNormalizedSha256": "4feadea0217f9927057a57de794cea6e4e7cd6b34f8a204a27e019a5ff7dce50",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:02",
+    "versionId": "v:bw:2008:02",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that if the real numbers $a, b$ and $c$ satisfy $a^{2}+b^{2}+c^{2}=3$ then\n\n$$\n\\frac{a^{2}}{2+b+c^{2}}+\\frac{b^{2}}{2+c+a^{2}}+\\frac{c^{2}}{2+a+b^{2}} \\geq \\frac{(a+b+c)^{2}}{12} .\n$$\n\nWhen does equality hold?\n",
+    "rawSha256": "1317f68d5d02f3008089fc8af629d932d7d97465efefff67156553f2f064ca95",
+    "matchNormalizedSha256": "ce9df8447a37ad2dcf4b95968f1b71f812024921409dc1ad19de1f1bea50d4a8",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:03",
+    "versionId": "v:bw:2008:03",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist an angle $\\alpha \\in(0, \\pi / 2)$ such that $\\sin \\alpha, \\cos \\alpha, \\tan \\alpha$ and $\\cot \\alpha$, taken in some order, are consecutive terms of an arithmetic progression?\n",
+    "rawSha256": "3d2a1a22471f5c401595caceb770e85a15d50ce8002cb481cf0a3c1750652f87",
+    "matchNormalizedSha256": "9f74fd7d6c05edd0676551027b7cea008ab3e39e475750098b61f0ec36802660",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:04",
+    "versionId": "v:bw:2008:04",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The polynomial $P$ has integer coefficients and $P(x)=5$ for five different integers $x$. Show that there is no integer $x$ such that $-6 \\leq P(x) \\leq 4$ or $6 \\leq P(x) \\leq 16$.\n",
+    "rawSha256": "48879cca45f94289a7c1b22dca2d699ec6554aba18907097907b4a9e0a60b19e",
+    "matchNormalizedSha256": "427358e08ae236d63c41e062b6969ddce10490e973bc3f1335a6f3a42bd501f2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "4",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:05",
+    "versionId": "v:bw:2008:05",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Suppose that Romeo and Juliet each have a regular tetrahedron to the vertices of which some positive real numbers are assigned. They associate each edge of their tetrahedra with the product of the two numbers assigned to its end points. Then they write on each face of their tetrahedra the sum of the three numbers associated to its three edges. The four numbers written on the faces of Romeo's tetrahedron turn out to coincide with the four numbers written on Juliet's tetrahedron. Does it follow that the four numbers assigned to the vertices of Romeo's tetrahedron are identical to the four numbers assigned to the vertices of Juliet's tetrahedron?\n",
+    "rawSha256": "af3fab9974d8ff94258e6537b4b98ff65c34e68fa5b94e5cae0f8b11faa88c7d",
+    "matchNormalizedSha256": "143f606c7e315563dbe398f1894c66fdbecb182609032d79c49fd108f7e9a4d0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:06",
+    "versionId": "v:bw:2008:06",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all finite sets of positive integers with at least two elements such that for any two numbers $a, b(a>b)$ belonging to the set, the number $\\frac{b^{2}}{a-b}$ belongs to the set, too.\n",
+    "rawSha256": "c6b3e930f4bd525f56f97298e455d5fd0efc55d500c2f7759567c31920388499",
+    "matchNormalizedSha256": "f452e0ace21d14910f77617d911501e8c54e949e1d7eb848a7e133a57ddb06a5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:07",
+    "versionId": "v:bw:2008:07",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "How many pairs $(m, n)$ of positive integers with $m<n$ fulfill the equation\n\n$$\n\\frac{3}{2008}=\\frac{1}{m}+\\frac{1}{n} ?\n$$\n",
+    "rawSha256": "18cfcff2e00753317c3c85ad282962d743d6f44191fe42f0d1801086830e2a95",
+    "matchNormalizedSha256": "203210d40561ffc360c73bd5e1001f85d14a26d0371e7301e671dfe45d960d12",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:08",
+    "versionId": "v:bw:2008:08",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a set $A$ of positive integers such that the least element of $A$ equals 1001 and the product of all elements of $A$ is a perfect square. What is the least possible value of the greatest element of $A$ ?\n",
+    "rawSha256": "138c7db6d98e6e121f2391a4d3c3da1f5f0089fdcf2c4d6d2554f8270341c812",
+    "matchNormalizedSha256": "69ec56c11b16eab642f4e094dc226654aec0b5b82c6af1d2203574940f8ac769",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:09",
+    "versionId": "v:bw:2008:09",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Suppose that the positive integers $a$ and $b$ satisfy the equation\n\n$$\na^{b}-b^{a}=1008 .\n$$\n\nProve that $a$ and $b$ are congruent modulo 1008.\n",
+    "rawSha256": "d5b012f5c43330c12b9fc63cc1ebbec3ecd2fff94accb33c1b61ed216cdb6f7e",
+    "matchNormalizedSha256": "7475fdfb95fe0d0e364f9f4f923bfb4b9389e0ce8d86b40e46b296be439fd804",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:10",
+    "versionId": "v:bw:2008:10",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For a positive integer $n$, let $S(n)$ denote the sum of its digits. Find the largest possible value of the expression $\\frac{S(n)}{S(16 n)}$.\n",
+    "rawSha256": "b2a2ad32d17b813143f289a3df8ed4eafdecc8cd94686a77aa7acfa7ab753d59",
+    "matchNormalizedSha256": "17e087b41f160109c4291f0fe53c244fac8f978e0f6361f71d8b53367000c1da",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:11",
+    "versionId": "v:bw:2008:11",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a subset $A$ of 84 elements of the set $\\{1,2, \\ldots, 169\\}$ such that no two elements in the set add up to 169 . Show that $A$ contains a perfect square.\n",
+    "rawSha256": "62132ad239bec611eb0366632d5f2633153134dcfccc7dbb912e1d038789c744",
+    "matchNormalizedSha256": "390bb34c4ad498f4621ea7e1b54b1d36bda4c396182f27a37a3e02a8799f4854",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:12",
+    "versionId": "v:bw:2008:12",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a school class with $3 n$ children, any two children make a common present to exactly one other child. Prove that for all odd $n$ it is possible that the following holds:\n\nFor any three children $A, B$ and $C$ in the class, if $A$ and $B$ make a present to $C$ then $A$ and $C$ make a present to $B$.\n",
+    "rawSha256": "11b66829089befbb8ca91f246766f5b20d935986ddb24e9ee404cae3748de506",
+    "matchNormalizedSha256": "3118204ce3a43496f65d5e2dc4eac8f0791d6738fd34212c9e939a6136441634",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:13",
+    "versionId": "v:bw:2008:13",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For an upcoming international mathematics contest, the participating countries were asked to choose from nine combinatorics problems. Given how hard it usually is to agree, nobody was surprised that the following happened:\n\n- Every country voted for exactly three problems.\n- Any two countries voted for different sets of problems.\n- Given any three countries, there was a problem none of them voted for.\n\nFind the maximal possible number of participating countries.\n",
+    "rawSha256": "67ee0cc552f8c8b601d576ed9558e920b34a9814a15a553aea372628f082b4ab",
+    "matchNormalizedSha256": "d73929c9f43847d06e8692d06f9dda07f4cf8404ef27893971b5377ef9e9d048",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:14",
+    "versionId": "v:bw:2008:14",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible to build a $4 \\times 4 \\times 4$ cube from blocks of the following shape consisting of 4 unit cubes?\n\n![Figure 1](figure:1)\n",
+    "rawSha256": "c8cc1ab87f6f5cb738db8e28cb71356b0ca429e029dff90017b9e656529f5427",
+    "matchNormalizedSha256": "f3894f91ece781638ff2f8f5cd29fc07bd7b130a5e243b66a2998aea8e5578a1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2008:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Four-cube block shape defining the construction piece."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:15",
+    "versionId": "v:bw:2008:15",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Some $1 \\times 2$ dominoes, each covering two adjacent unit squares, are placed on a board of size $n \\times n$ so that no two of them touch (not even at a corner). Given that the total area covered by the dominoes is 2008 , find the least possible value of $n$.\n",
+    "rawSha256": "135934672893630ac0b2bc22d3e2446e7694e1190052c78724004b6a79cf230a",
+    "matchNormalizedSha256": "ce21bb6fda459fbe20476dddd28274e8f929bb44710f089024ac6eb93885924c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:16",
+    "versionId": "v:bw:2008:16",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a parallelogram. The circle with diameter $A C$ intersects the line $B D$ at points $P$ and $Q$. The perpendicular to the line $A C$ passing through the point $C$ intersects the lines $A B$ and $A D$ at points $X$ and $Y$, respectively. Prove that the points $P, Q, X$ and $Y$ lie on the same circle.\n",
+    "rawSha256": "979cb03c3e48c47240109ce5607eec9259d68cdc22e09d2852091bcd39999a3f",
+    "matchNormalizedSha256": "83f3a5a786616a68c00a6008a8598e4940b4c841378ff112ee0318880f778ce9",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:17",
+    "versionId": "v:bw:2008:17",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Assume that $a, b, c$ and $d$ are the sides of a quadrilateral inscribed in a given circle. Prove that the product $(a b+c d)(a c+b d)(a d+b c)$ acquires its maximum when the quadrilateral is a square.\n",
+    "rawSha256": "bc66e2a613ccb65b3c33b15b3437f262fd74ef1f0bdca6f16c07ad6a4bc9192d",
+    "matchNormalizedSha256": "3b9e351f2220db2974c881c2d67bb9562476c99d194dc23a8bd9565582322e0e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:18",
+    "versionId": "v:bw:2008:18",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B$ be a diameter of a circle $S$, and let $L$ be the tangent at $A$. Furthermore, let $c$ be a fixed, positive real, and consider all pairs of points $X$ and $Y$ lying on $L$, on opposite sides of $A$, such that $|A X| \\cdot|A Y|=c$. The lines $B X$ and $B Y$ intersect $S$ at points $P$ and $Q$, respectively. Show that all the lines $P Q$ pass through a common point.\n",
+    "rawSha256": "535a140818fb517329a476555f0af5c2121441a562c1d7ec274d6b65988ca471",
+    "matchNormalizedSha256": "23f0df2a87792f0d0c3010671470da53f3a57dc03b5a5d625fa7fbbb37807eec",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "18",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        19,
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:19",
+    "versionId": "v:bw:2008:19",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a circle of diameter 1, some chords are drawn. The sum of their lengths is greater than 19. Prove that there is a diameter intersecting at least 7 chords.\n",
+    "rawSha256": "d6a97049eddaea03b8ff3a13068968116f4dd4cc5d5b4ab7f436ae94b8cca888",
+    "matchNormalizedSha256": "2f1c48e92fd285dfbf721c3f6321ad8d361d351766c2a230b025453a9b367e79",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw08sol.jsonl",
+      "fileSha256": "de8dfbcf2dc66066b1f3000b6c89ae5b384f28301d5380a09cdbd43ec9c61b4a",
+      "problemLabel": "19",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2008:20",
+    "versionId": "v:bw:2008:20",
+    "officialSource": {
+      "sourceId": "bw-official:2008:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "5602f656871642e5e27208b2e87188e060ff35096d6181183694a05bb59a097c",
+      "sourceBytes": 107436,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $M$ be a point on $B C$ and $N$ be a point on $A B$ such that $A M$ and $C N$ are angle bisectors of the triangle $A B C$. Given that\n\n$$\n\\frac{\\angle B N M}{\\angle M N C}=\\frac{\\angle B M N}{\\angle N M A}\n$$\n\nprove that the triangle $A B C$ is isosceles.\n",
+    "rawSha256": "e6cafcbeaa23ed9ec44628ec5b1a29a9d3029e6789e82af26731bc9a2f231568",
+    "matchNormalizedSha256": "177f341283699e6dfb583178d43546ebe5b4f17efa8bee59a1ac11e0da0ead1f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2008:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2008:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

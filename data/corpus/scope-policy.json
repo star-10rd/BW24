@@ -1,0 +1,24 @@
+{
+  "schema": "bw26-corpus-scope",
+  "version": 2,
+  "contestItemUniverse": {
+    "years": "1990-2025",
+    "numberedItems": 720,
+    "note": "The official 1990 problem sheet numbers 20 items; item 20 is a creative task asking the team to propose an original competition problem and solution."
+  },
+  "mathematicalProblemCorpus": {
+    "appearances": 719,
+    "inclusionRule": "Include fixed mathematical problems that can be represented as a problem statement/version. Exclude meta/creative tasks that ask contestants to author a new problem rather than solve a fixed mathematical problem.",
+    "exclusions": [
+      {
+        "series": "BW",
+        "year": 1990,
+        "number": 20,
+        "kind": "creative-meta-task",
+        "officialTextSummary": "Propose an original competition problem together with its solution.",
+        "reason": "No fixed mathematical problem/version exists to classify or publish; forcing it into A/N/C/G or ProblemDocument would fabricate semantics.",
+        "evidenceStatus": "official-problem-sheet-confirmed; official problems-and-solutions document contains solutions only through item 19"
+      }
+    ]
+  }
+}

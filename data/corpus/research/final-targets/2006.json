@@ -1,0 +1,823 @@
+[
+  {
+    "appearanceId": "bw:2006:01",
+    "versionId": "v:bw:2006:01",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For a sequence $a_{1}, a_{2}, a_{3}, \\ldots$ of real numbers it is known that\n\n$$\na_{n}=a_{n-1}+a_{n+2} \\quad \\text { for } n=2,3,4, \\ldots\n$$\n\nWhat is the largest number of its consecutive elements that can all be positive?\n",
+    "rawSha256": "369ca5c96ac4c7dc5415f130d11019500fa4ae123c2a4842e968ecb152923a12",
+    "matchNormalizedSha256": "5135c2e2ec5801f44eca7516b964296006c8386d1dd279403401b0df0398f012",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:02",
+    "versionId": "v:bw:2006:02",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Suppose that the real numbers $a_{i} \\in[-2,17], i=1,2, \\ldots, 59$, satisfy $a_{1}+a_{2}+\\cdots+a_{59}=0$. Prove that\n\n$$\na_{1}^{2}+a_{2}^{2}+\\cdots+a_{59}^{2} \\leq 2006 .\n$$\n",
+    "rawSha256": "b1057e7cecd8241bb732adc4183424a4ab3586f9e417ab069b81ea8142ac2f7e",
+    "matchNormalizedSha256": "a8f892540a5e6128b275e0211a45902e1fa1257bd6dfe2a1fd6038dfb2581a90",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:03",
+    "versionId": "v:bw:2006:03",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Prove that for every polynomial $P(x)$ with real coefficients there exist a positive integer $m$ and polynomials $P_{1}(x), P_{2}(x), \\ldots, P_{m}(x)$ with real coefficients such that\n\n$$\nP(x)=\\left(P_{1}(x)\\right)^{3}+\\left(P_{2}(x)\\right)^{3}+\\cdots+\\left(P_{m}(x)\\right)^{3} .\n$$\n",
+    "rawSha256": "676b6320bc5d8dcd2a7449a7ac9e59cffb87e950809689111ea761120d48ba00",
+    "matchNormalizedSha256": "320550ce1f64430d83fa5f7d5ea6dd109231340a850b045c6d4ab8a17a9e0684",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:04",
+    "versionId": "v:bw:2006:04",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, c, d, e, f$ be non-negative real numbers satisfying $a+b+c+d+e+f=6$. Find the maximal possible value of\n\n$$\na b c+b c d+c d e+d e f+e f a+f a b\n$$\n\nand determine all 6-tuples $(a, b, c, d, e, f)$ for which this maximal value is achieved.\n",
+    "rawSha256": "8ed0f641a6a59a3c7948111dcfc6a03700603f42bed22f00681b1c3ed18bef73",
+    "matchNormalizedSha256": "bc86c7bc8371c5ac6e24d4cc5e279b0ee65350340d9476b287e4cceda96ea66b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:05",
+    "versionId": "v:bw:2006:05",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An occasionally unreliable professor has devoted his last book to a certain binary operation $*$. When this operation is applied to any two integers, the result is again an integer. The operation is known to satisfy the following axioms:\n\n(a) $x *(x * y)=y$ for all $x, y \\in \\mathbb{Z}$;\n\n(b) $(x * y) * y=x$ for all $x, y \\in \\mathbb{Z}$.\n\nThe professor claims in his book that\n\n(C1) the operation $*$ is commutative: $x * y=y * x$ for all $x, y \\in \\mathbb{Z}$.\n\n(C2) the operation $*$ is associative: $(x * y) * z=x *(y * z)$ for all $x, y, z \\in \\mathbb{Z}$.\n\nWhich of these claims follow from the stated axioms?\n",
+    "rawSha256": "e4e88a71cb2e1fdcf8fdbcc2e9d50f6367c702e2e360c71b21875fda2f79f172",
+    "matchNormalizedSha256": "f789e77d9c681826a771df67bfd438e5aaebefdcc8ff2310ce6697b343afa578",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:06",
+    "versionId": "v:bw:2006:06",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine the maximal size of a set of positive integers with the following properties:\n\n(1) The integers consist of digits from the set $\\{1,2,3,4,5,6\\}$.\n\n(2) No digit occurs more than once in the same integer.\n\n(3) The digits in each integer are in increasing order.\n\n(4) Any two integers have at least one digit in common (possibly at different positions).\n\n(5) There is no digit which appears in all the integers.\n",
+    "rawSha256": "417a492750684a39e4901f09dca3cc537d0eececb2dea35565f61ff6b6f6957a",
+    "matchNormalizedSha256": "9b45ce20a95af31ebc59937c47ded4ce71226a527c55ca1a5f77ff0cdca34b35",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:07",
+    "versionId": "v:bw:2006:07",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A photographer took some pictures at a party with 10 people. Each of the 45 possible pairs of people appears together on exactly one photo, and each photo depicts two or three people. What is the smallest possible number of photos taken?\n",
+    "rawSha256": "e4ff9a621233a1a1b62ca03c1aff584143c07ca5c5aa9765013155b1495e2b96",
+    "matchNormalizedSha256": "e93ac83e1fbad01e816836a57b2b3b60792ac0cd652d3144713404e914528fbe",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:08",
+    "versionId": "v:bw:2006:08",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The director has found out that six conspiracies have been set up in his department, each of them involving exactly three persons. Prove that the director can split the department in two laboratories so that none of the conspirative groups is entirely in the same laboratory.\n",
+    "rawSha256": "517eb2965f7c8f3ba3c3496fbff0bde4a33041e87a9fe4679971fe9eac4d3a53",
+    "matchNormalizedSha256": "7d3692cdf6a20bc556f2e99c6fbd2e30c731ce4461b81fbc3ff94eba1ecb1707",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:09",
+    "versionId": "v:bw:2006:09",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "To every vertex of a regular pentagon a real number is assigned. We may perform the following operation repeatedly: we choose two adjacent vertices of the pentagon and replace each of the two numbers assigned to these vertices by their arithmetic mean. Is it always possible to obtain the position in which all five numbers are zeroes, given that in the initial position the sum of all five numbers is equal to zero?\n",
+    "rawSha256": "cf93f22b10f2de60ade490c2cd1e597b6a447bf923184460634f0b98cd428571",
+    "matchNormalizedSha256": "2aa04b1cc453b045d99b9350a6669ede63ee67ba9c140b11561dae3fe29c5de4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:10",
+    "versionId": "v:bw:2006:10",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "162 pluses and 144 minuses are placed in a $30 \\times 30$ table in such a way that each row and each column contains at most 17 signs. (No cell contains more than one sign.) For every plus we count the number of minuses in its row and for every minus we count the number of pluses in its column. Find the maximum of the sum of these numbers.\n",
+    "rawSha256": "9215d23f8159ea7f9e7e4383abc637b5ab4d5bb8f5cb50c517db00eda758ee31",
+    "matchNormalizedSha256": "61af8d0bae06392816e83bace02416b73f8c2e056d714c738ea0498816c65dcb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:11",
+    "versionId": "v:bw:2006:11",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The altitudes of a triangle are 12,15 and 20. What is the area of the triangle?\n",
+    "rawSha256": "66b3eff90cb9e309790429e51cf22e8ae35ce0860550407f7130bf8be7628258",
+    "matchNormalizedSha256": "4ec02ed49cd43c1be7bea6c5f65898a662f04699757d9f9534bf5558b543df00",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:12",
+    "versionId": "v:bw:2006:12",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle, let $B_{1}$ be the midpoint of the side $A B$ and $C_{1}$ the midpoint of the side $A C$. Let $P$ be the point of intersection, other than $A$, of the circumscribed circles around the triangles $A B C_{1}$ and $A B_{1} C$. Let $P_{1}$ be the point of intersection, other than $A$, of the line $A P$ with the circumscribed circle around the triangle $A B_{1} C_{1}$. Prove that $2 A P=3 A P_{1}$.\n",
+    "rawSha256": "83be327e006abd9358ddf0bfc20f972281b15d505d475c20ba9d1a18b0399d0b",
+    "matchNormalizedSha256": "2634ed97abe675d85671e4fa4687d6c5dc65e34fa751acac5e26a7edd4cb30fa",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:13",
+    "versionId": "v:bw:2006:13",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a triangle $A B C$, points $D, E$ lie on sides $A B, A C$ respectively. The lines $B E$ and $C D$ intersect at $F$. Prove that if\n\n$$\nB C^{2}=B D \\cdot B A+C E \\cdot C A,\n$$\n\nthen the points $A, D, F, E$ lie on a circle.\n",
+    "rawSha256": "b1bde8f4e97223a779d1cffcb315daa9508e1ada861adc97347b6534271c758c",
+    "matchNormalizedSha256": "86f7488a5852890e408af03bce0f19c9db8e5119af821afb55c401746713e83e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:14",
+    "versionId": "v:bw:2006:14",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There are 2006 points marked on the surface of a sphere. Prove that the surface can be cut into 2006 congruent pieces so that each piece contains exactly one of these points inside it.\n",
+    "rawSha256": "9a792d4bc3fa32a882a3032924a5bc140026de92bbd56f7d1a92b8f227c91679",
+    "matchNormalizedSha256": "dac465bf06cb87d75366a3a88ec1663b5161817cb5b45dfbea284756b2985249",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:15",
+    "versionId": "v:bw:2006:15",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let the medians of the triangle $A B C$ intersect at the point $M$. A line $t$ through $M$ intersects the circumcircle of $A B C$ at $X$ and $Y$ so that $A$ and $C$ lie on the same side of $t$. Prove that $B X \\cdot B Y=A X \\cdot A Y+C X \\cdot C Y$.\n",
+    "rawSha256": "27e2c048a2dfb18068a12f741347c69ee730cbfeea4dbf1c6da21f92c85049c3",
+    "matchNormalizedSha256": "8d5cf85f822f922cd81f4ce7ebccadf3441228784cf7a1a397e4c655b991c51d",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:16",
+    "versionId": "v:bw:2006:16",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Are there four distinct positive integers such that adding the product of any two of them to 2006 yields a perfect square?\n",
+    "rawSha256": "e02a26744b62eca5902223a925082d5aec34cdfc046a7a0e54ea9a70b9d579cf",
+    "matchNormalizedSha256": "71641a50f541e34f2678aee5e2bba68e160858c535203adb40c6d1d1eb02be5b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:17",
+    "versionId": "v:bw:2006:17",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all positive integers $n$ such that $3^{n}+1$ is divisible by $n^{2}$.\n",
+    "rawSha256": "bae39d2bb144b39f1cbc27f7f22f1efaf6119a8f4088e9360cc52ad583ff1c8e",
+    "matchNormalizedSha256": "25f0a0c5ceb3ad81a0ac516fe85a4256183116ea26a0f4b852d6be9350695cc4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:18",
+    "versionId": "v:bw:2006:18",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For a positive integer $n$ let $a_{n}$ denote the last digit of $n^{\\left(n^{n}\\right)}$. Prove that the sequence $\\left(a_{n}\\right)$ is periodic and determine the length of the minimal period.\n",
+    "rawSha256": "723fd3c634100ce8958968f2f82ed280619b730a159313bd7c40886957c5bccd",
+    "matchNormalizedSha256": "90101978a6975c7478a5672501d4cec7272f96802a88b67be1ab4c9c8a755755",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:19",
+    "versionId": "v:bw:2006:19",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a sequence $a_{1}, a_{2}, a_{3}, \\ldots$ of positive integers such that the sum of every $n$ consecutive elements is divisible by $n^{2}$ for every positive integer $n$ ?\n",
+    "rawSha256": "15984886df470a705a336181ccd046027cf6682f582252b214d4c8ae491286b4",
+    "matchNormalizedSha256": "e55f48575b5e55e36a844e9380e6816594c21cd453a42af85c75022c360958eb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2006:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2006:20",
+    "versionId": "v:bw:2006:20",
+    "officialSource": {
+      "sourceId": "bw-official:2006:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "62bc6762feba7e73fd931372403f58d29413ae3f6d2347fd1e55df1c7e35241b",
+      "sourceBytes": 111314,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A 12-digit positive integer consisting only of digits 1,5 and 9 is divisible by 37. Prove that the sum of its digits is not equal to 76.\n",
+    "rawSha256": "6a358dcf9939d6361c2131997b0358e9fdb4f7143877c814704c4525903acd25",
+    "matchNormalizedSha256": "0a65fc7a5b4231596fc6b7eb716017882d0ce368fbbd6b3e6657b2dc4886c92b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw06sol.jsonl",
+      "fileSha256": "33f754e01bde6e71d01007d8e29a2f00895d37f3e172b1174f42b93ab89a0099",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2006:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

@@ -1,0 +1,828 @@
+[
+  {
+    "appearanceId": "bw:2014:01",
+    "versionId": "v:bw:2014:01",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Show that\n\n$$\n\\cos \\left(56^{\\circ}\\right) \\cdot \\cos \\left(2 \\cdot 56^{\\circ}\\right) \\cdot \\cos \\left(2^{2} \\cdot 56^{\\circ}\\right) \\cdot \\ldots \\cdot \\cos \\left(2^{23} \\cdot 56^{\\circ}\\right)=\\frac{1}{2^{24}}\n$$\n",
+    "rawSha256": "b7905bd44eed327c85f45235ecf3239c0694a39e9261a60dca683f8c00aa5b4c",
+    "matchNormalizedSha256": "963f3fa97c677a1e626de396fb4c15bdf1b137d57ac286c68ad24b59eb7e867c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:02",
+    "versionId": "v:bw:2014:02",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}, a_{1}, \\ldots, a_{N}$ be real numbers satisfying $a_{0}=a_{N}=0$ and\n\n$$\na_{i+1}-2 a_{i}+a_{i-1}=a_{i}^{2}\n$$\n\nfor $i=1,2, \\ldots, N-1$. Prove that $a_{i} \\leqslant 0$ for $i=1,2, \\ldots, N-1$.\n",
+    "rawSha256": "1d798d19872f687bd89d5f1f607ff179ad28973f1bce03ff8d0866275fc91536",
+    "matchNormalizedSha256": "d10360b94195dccf2c72f34ea4d5a85b4fcdc5214024f57a0c8e84af2d7dcc66",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:03",
+    "versionId": "v:bw:2014:03",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Positive real numbers $a, b, c$ satisfy $\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3$. Prove the inequality\n\n$$\n\\frac{1}{\\sqrt{a^{3}+b}}+\\frac{1}{\\sqrt{b^{3}+c}}+\\frac{1}{\\sqrt{c^{3}+a}} \\leqslant \\frac{3}{\\sqrt{2}} .\n$$\n",
+    "rawSha256": "b42c8e6fae4d6995c931bfc2eef4a9b96d4db7eb391a8209eb3bbf7095906423",
+    "matchNormalizedSha256": "a82a8a24412ad76789111313dcce772f7d2e5d190a25914782390c5b793bb656",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:04",
+    "versionId": "v:bw:2014:04",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all functions $f$ defined on all real numbers and taking real values such that\n\n$$\nf(f(y))+f(x-y)=f(x f(y)-x)\n$$\n\nfor all real numbers $x, y$.\n",
+    "rawSha256": "2c9f27783b3d59cd55d8bc7cd79cc12acfc0e41c728fc37b032773d009e8b1eb",
+    "matchNormalizedSha256": "b713150eb875c2b75e5da2d33d408234e5d12dcc8ed2e84d17ec2670be3ada03",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:05",
+    "versionId": "v:bw:2014:05",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Given positive real numbers $a, b, c, d$ that satisfy equalities\n\n$$\na^{2}+d^{2}-a d=b^{2}+c^{2}+b c \\quad \\text { and } \\quad a^{2}+b^{2}=c^{2}+d^{2}\n$$\n\nfind all possible values of the expression $\\frac{a b+c d}{a d+b c}$.\n",
+    "rawSha256": "9e1ef8fe3ddae5312f92c8bf692f9326741a205f8d5c536991eb3c8b163aef2b",
+    "matchNormalizedSha256": "b592d32c0e78d5f262b78fda4b7bd90a404a38a258c36c75e40c06f91a62bc37",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:06",
+    "versionId": "v:bw:2014:06",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In how many ways can we paint 16 seats in a row, each red or green, in such a way that the number of consecutive seats painted in the same colour is always odd?\n",
+    "rawSha256": "f808325c5debbaaa9fa6ce7d6be71164e575c04b7d7e71c7ed2a60d0ea76ed6d",
+    "matchNormalizedSha256": "2577db4bc15f693df913f7d47905c09ee3a3577a8cf7037f0812477b3f9fe36e",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:07",
+    "versionId": "v:bw:2014:07",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p_{1}, p_{2}, \\ldots, p_{30}$ be a permutation of the numbers $1,2, \\ldots, 30$. For how many permutations does the equality $\\sum_{k=1}^{30}\\left|p_{k}-k\\right|=450$ hold?\n",
+    "rawSha256": "8fca757fdfc602450ee5eb2cc9a1898ce5fd67f4d694674917539fcbcfb535e8",
+    "matchNormalizedSha256": "00c8adf66b7da27eaefd3d79805d3ff65a4b01e332848c868db93cdda1bf968f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:08",
+    "versionId": "v:bw:2014:08",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Albert and Betty are playing the following game. There are 100 blue balls in a red bowl and 100 red balls in a blue bowl. In each turn a player must make one of the following moves:\n\na) Take two red balls from the blue bowl and put them in the red bowl.\n\nb) Take two blue balls from the red bowl and put them in the blue bowl.\n\nc) Take two balls of different colors from one bowl and throw the balls away.\n\nThey take alternate turns and Albert starts. The player who first takes the last red ball from the blue bowl or the last blue ball from the red bowl wins. Determine who has a winning strategy.\n",
+    "rawSha256": "9d801ded5fd09ad387a92e3be530da4f2ce1abbeaa54b84c9b5e5642def6d33e",
+    "matchNormalizedSha256": "089b82ff95fe6d7b6b0ec8e9879c157f650610bc508c562b58b6e0bd96103edb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:09",
+    "versionId": "v:bw:2014:09",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "What is the least possible number of cells that can be marked on an $n \\times n$ board such that for each $m>\\frac{n}{2}$ both diagonals of any $m \\times m$ sub-board contain a marked cell?\n",
+    "rawSha256": "ad2f4567cda4eb4b954ebc5512da0167f65224b4109a0220e976cfd1c9eb77c2",
+    "matchNormalizedSha256": "ae620b685566dfd25513581aeaf8823cf7878e6e073af00e8bf8e58c8661aed1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:10",
+    "versionId": "v:bw:2014:10",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "In a country there are 100 airports. Super-Air operates direct flights between some pairs of airports (in both directions). The traffic of an airport is the number of airports it has a direct Super-Air connection with. A new company, Concur-Air, establishes a direct flight between two airports if and only if the sum of their traffics is at least 100. It turns out that there exists a round-trip of Concur-Air flights that lands in every airport exactly once. Show that then there also exists a round-trip of Super-Air flights that lands in every airport exactly once.\n",
+    "rawSha256": "b53535c91e4081782dc0bef24c5d9bacff752851845ed2e7a8a9d06a228cbfe4",
+    "matchNormalizedSha256": "793caffea37934b4c10b6d8a844996ec6574969e50eb01701a2ee55e7edd4861",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:11",
+    "versionId": "v:bw:2014:11",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\Gamma$ be the circumcircle of an acute triangle $A B C$. The perpendicular to $A B$ from $C$ meets $A B$ at $D$ and $\\Gamma$ again at $E$. The bisector of angle $C$ meets $A B$ at $F$ and $\\Gamma$ again at $G$. The line $G D$ meets $\\Gamma$ again at $H$ and the line $H F$ meets $\\Gamma$ again at $I$. Prove that $A I=E B$.\n",
+    "rawSha256": "bda4f7c240ec94447edd93297a277ca3c1b8fbe5d41da038a214e5cc9f8af8fc",
+    "matchNormalizedSha256": "362c327fdc284e6eb15606ab4be490ce7e8e77d7cfda034ac9d6b84a100b46f2",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "11",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        12
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:12",
+    "versionId": "v:bw:2014:12",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Triangle $A B C$ is given. Let $M$ be the midpoint of the segment $A B$ and $T$ be the midpoint of the arc $B C$ not containing $A$ of the circumcircle of $A B C$. The point $K$ inside the triangle $A B C$ is such that $M A T K$ is an isosceles trapezoid with $A T \\| M K$. Show that $A K=K C$.\n",
+    "rawSha256": "49996aa7e4bf0bfe4633ea01889bd6fc6ea333bdb8a8fcc1253c333e879ed480",
+    "matchNormalizedSha256": "1c5644ee8849467b1e30c9925ca47eb9f3a8677591e1882afb0e5251811d0b48",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:13",
+    "versionId": "v:bw:2014:13",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a square inscribed in a circle $\\omega$ and let $P$ be a point on the shorter arc $A B$ of $\\omega$. Let $C P \\cap B D=R$ and $D P \\cap A C=S$. Show that triangles $A R B$ and $D S R$ have equal areas.\n",
+    "rawSha256": "262ca809b3f6087cffd18698c88764aab7d387f498bdf0a39834959ab1681081",
+    "matchNormalizedSha256": "a1109b57ecd3867ffbe269ea217736451af4844c2654c5c9738067ac1d5a958f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:14",
+    "versionId": "v:bw:2014:14",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C D$ be a convex quadrilateral such that the line $B D$ bisects the angle $A B C$. The circumcircle of triangle $A B C$ intersects the sides $A D$ and $C D$ in the points $P$ and $Q$, respectively. The line through $D$ and parallel to $A C$ intersects the lines $B C$ and $B A$ at the points $R$ and $S$, respectively. Prove that the points $P, Q, R$ and $S$ lie on a common circle.\n",
+    "rawSha256": "58a97ba5d46b3a037dbb54ec91259d8d90d7e187177de908617b91a9487e6cb3",
+    "matchNormalizedSha256": "6487f23b991f2e41dcb05ee4732bfc077cc8f914a38d467ddbfe702fe33e3103",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "14",
+      "recordsForProblem": 3,
+      "sourceLines": [
+        15,
+        16,
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:15",
+    "versionId": "v:bw:2014:15",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "The sum of the angles $A$ and $C$ of a convex quadrilateral $A B C D$ is less than $180^{\\circ}$. Prove that\n\n$$\nA B \\cdot C D+A D \\cdot B C<A C(A B+A D)\n$$\n",
+    "rawSha256": "f985078419602bb5c0b91ee40261bf475d556e3534cca41497f3ecc138f33ee0",
+    "matchNormalizedSha256": "ba41365c97abfd5682691ecd4c7ea60bda8052901f7d88ec0c44d9d5c419c7b7",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "15",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        18,
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:16",
+    "versionId": "v:bw:2014:16",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine whether $712 !+1$ is a prime number.\n",
+    "rawSha256": "53b2d0d55d6fd9ce6ac32790355024ff1bccb151621a1dde937c45c515aa5640",
+    "matchNormalizedSha256": "ebdd701bfa9aa40651bea66ddba5d3da842d8649ebde0bfb47c966602d1cff5b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:17",
+    "versionId": "v:bw:2014:17",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Do there exist pairwise distinct rational numbers $x, y$ and $z$ such that\n\n$$\n\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}}+\\frac{1}{(z-x)^{2}}=2014 ?\n$$\n",
+    "rawSha256": "db88258f7aced3ece78eee66aeb3915f54d16511bdd6183f882ec46ac24adc18",
+    "matchNormalizedSha256": "1c18e4449c95464b86e19f6d575f079bc2f6c69cf73619f7a93ec20e8edffc7c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:18",
+    "versionId": "v:bw:2014:18",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p$ be a prime number, and let $n$ be a positive integer. Find the number of quadruples $\\left(a_{1}, a_{2}, a_{3}, a_{4}\\right)$ with $a_{i} \\in\\left\\{0,1, \\ldots, p^{n}-1\\right\\}$ for $i=1,2,3,4$ such that\n\n$$\np^{n} \\mid\\left(a_{1} a_{2}+a_{3} a_{4}+1\\right) .\n$$\n",
+    "rawSha256": "e5868fd6d4f88f29d11b1c4dc3ba6677d598811bbc0d4b134feeb5ff10f241ac",
+    "matchNormalizedSha256": "bc6c259c4d1de3b1a6ad2038eb12f7deab827f56c9eb52212b6cfbc3f22537ae",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:19",
+    "versionId": "v:bw:2014:19",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $m$ and $n$ be relatively prime positive integers. Determine all possible values of\n\n$$\n\\operatorname{gcd}\\left(2^{m}-2^{n}, 2^{m^{2}+m n+n^{2}}-1\\right) .\n$$\n",
+    "rawSha256": "a95c73c7c2031c285e84e0d9ccf11b4b727034feaed359f62002e5721361950e",
+    "matchNormalizedSha256": "5f6bdcf360b6f74e6beda5a9d05b66308de4ea2d53bb4fb1d1584cdc8831db0b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2014:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2014:20",
+    "versionId": "v:bw:2014:20",
+    "officialSource": {
+      "sourceId": "bw-official:2014:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "1795050e1482fb95124131832943b393dc706b3182866e9aa5f8eb8bd73f0917",
+      "sourceBytes": 173117,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Consider a sequence of positive integers $a_{1}, a_{2}, a_{3}, \\ldots$ such that for $k \\geqslant 2$ we have\n\n$$\na_{k+1}=\\frac{a_{k}+a_{k-1}}{2015^{i}}\n$$\n\nwhere $2015^{i}$ is the maximal power of 2015 that divides $a_{k}+a_{k-1}$. Prove that if this sequence is periodic then its period is divisible by 3 .\n",
+    "rawSha256": "2ad929beb22b4a41246b44693ea4b3cb3d14a21a0f8d1a2149b204d374c1c657",
+    "matchNormalizedSha256": "47eb18ae93ad305ff82ee5d2c029191bcabc820720259292b3fd36179cd2f142",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw14sol.jsonl",
+      "fileSha256": "b47eb7eb921ca69ab765a93d073c783f0cf208053df295a75e2fa2c35c198b30",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        24
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2014:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

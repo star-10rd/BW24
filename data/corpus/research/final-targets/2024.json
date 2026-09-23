@@ -1,0 +1,822 @@
+[
+  {
+    "appearanceId": "bw:2024:01",
+    "versionId": "v:bw:2024:01",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\alpha$ be a non-zero real number. Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ such that\n\n$$\nx f(x+y)=(x+\\alpha y) f(x)+x f(y)\n$$\n\nfor all $x, y \\in \\mathbb{R}$.\n",
+    "rawSha256": "c331d858b3314a847e6125d633ad2bef4765055e5eb9b6ef3e6bff54bd4a023b",
+    "matchNormalizedSha256": "d8cf327513a3ed9982f210d0f4b8dc041cd428d6b6e8ae391603812f079308b5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:02",
+    "versionId": "v:bw:2024:02",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $\\mathbb{R}^{+}$be the set of all positive real numbers. Find all functions $f: \\mathbb{R}^{+} \\rightarrow \\mathbb{R}^{+}$such that\n\n$$\n\\frac{f(a)}{1+a+c a}+\\frac{f(b)}{1+b+a b}+\\frac{f(c)}{1+c+b c}=1\n$$\n\nfor all $a, b, c \\in \\mathbb{R}^{+}$that satisfy $a b c=1$.\n",
+    "rawSha256": "e370a26ef51c88fa65d96d2f9bc8c9f3d26473852cfbd46c3268893fd56604ea",
+    "matchNormalizedSha256": "bddc6e32ca269bfaeda7b3d321e853b11833cb080a8554be049ad1038fd66615",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:03",
+    "versionId": "v:bw:2024:03",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Positive real numbers $a_{1}, a_{2}, \\ldots, a_{2024}$ are written on the blackboard. A move consists of choosing two numbers $x$ and $y$ on the blackboard, erasing them and writing the number $\\frac{x^{2}+6 x y+y^{2}}{x+y}$ on the blackboard. After 2023 moves, only one number $c$ will remain on the blackboard. Prove that\n\n$$\nc<2024\\left(a_{1}+a_{2}+\\ldots+a_{2024}\\right)\n$$\n",
+    "rawSha256": "ef18f4e0fecae9e7dca2113ea47ec700a196640ddbf1bbe52b15882a8f80500f",
+    "matchNormalizedSha256": "ed1563704a7336148a8594ab196664395470c544e7af1c38265f6dda3ff324a1",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        4
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:04",
+    "versionId": "v:bw:2024:04",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find the largest real number $\\alpha$ such that, for all non-negative real numbers $x, y$ and $z$, the following inequality holds:\n\n$$\n(x+y+z)^{3}+\\alpha\\left(x^{2} z+y^{2} x+z^{2} y\\right) \\geq \\alpha\\left(x^{2} y+y^{2} z+z^{2} x\\right) .\n$$\n",
+    "rawSha256": "6cfa14502aba461854fd661585ab0bdfd40fb0bc8062117cdcdd93ae312a53f9",
+    "matchNormalizedSha256": "632a19ef4e2ed920dbb11b529472a3996fdd7502ea4db526bfe107f8c8c90ecd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:05",
+    "versionId": "v:bw:2024:05",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all positive real numbers $\\lambda$ such that every sequence $a_{1}, a_{2}, \\ldots$ of positive real numbers satisfying\n\n$$\na_{n+1}=\\lambda \\cdot \\frac{a_{1}+a_{2}+\\ldots+a_{n}}{n}\n$$\n\nfor all $n \\geq 2024^{2024}$ is bounded.\nRemark: A sequence $a_{1}, a_{2}, \\ldots$ of positive real numbers is bounded if there exists a real number $M$ such that $a_{i}<M$ for all $i=1,2, \\ldots$\n",
+    "rawSha256": "aa5a54062332aea8b2a446348e902419badd82e256be1cb3cfae9421ca72130a",
+    "matchNormalizedSha256": "93ee340de340ab2ddea6c0e10f6af262c6d2297c043971b48fcdf90038761e91",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:06",
+    "versionId": "v:bw:2024:06",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A labyrinth is a system of 2024 caves and 2023 non-intersecting (bidirectional) corridors, each of which connects exactly two caves, where each pair of caves is connected through some sequence of corridors. Initially, Erik is standing in a corridor connecting some two caves. In a move, he can walk through one of the caves to another corridor that connects that cave to a third cave. However, when doing so, the corridor he was just in will magically disappear and get replaced by a new one connecting the end of his new corridor to the beginning of his old one (i.e., if Erik was in a corridor connecting caves $a$ and $b$ and he walked through cave $b$ into a corridor that connects caves $b$ and $c$, then the corridor between caves $a$ and $b$ will disappear and a new corridor between caves $a$ and $c$ will appear).\n\nSince Erik likes designing labyrinths and has a specific layout in mind for his next one, he is wondering whether he can transform the labyrinth into that layout using these moves. Prove that this is in fact possible, regardless of the original layout and his starting position there.\n",
+    "rawSha256": "8823fd4bd572cd35be4f4a09ce37040a8e9b31fb974ec6a6e3bf0749fdb6fbb7",
+    "matchNormalizedSha256": "f6c07ad8977c1607d72b67a041595ca6b78bc62cb02cc54916b5f2d399bdd6a3",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "6",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        7,
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:07",
+    "versionId": "v:bw:2024:07",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A $45\\times45$ grid has had the central unit square removed. For which positive integers $n$ is it possible to cut the remaining area into $1\\times n$ and $n\\times1$ rectangles?\n",
+    "rawSha256": "9532c2b9816b68320e27ac0612c062a1e9580fb984d303fd05a5c45f6faff60d",
+    "matchNormalizedSha256": "ebaea6c72a50056faca46922d5251e37026f1ed26b43659894ecad496ebd6cdc",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:08",
+    "versionId": "v:bw:2024:08",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a, b, n$ be positive integers such that $a+b \\leq n^{2}$. Alice and Bob play a game on an (initially uncoloured) $n \\times n$ grid as follows:\n\n- First, Alice paints $a$ cells green.\n- Then, Bob paints $b$ other (i.e. uncoloured) cells blue.\n\nAlice wins if she can find a path of non-blue cells starting with the bottom left cell and ending with the top right cell (where a path is a sequence of cells such that any two consecutive ones have a common side), otherwise Bob wins. Determine, in terms of $a, b$ and $n$, who has a winning strategy.\n",
+    "rawSha256": "3f30a48ac79f7c4f412dcd0affacf6c3e90cb9200d156474276f1e9140500631",
+    "matchNormalizedSha256": "faa7241ce204af1c4fcde9f793791baf1a0dd51279f9919621572adc723f9bbd",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:09",
+    "versionId": "v:bw:2024:09",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $S$ be a finite set. For a positive integer $n$, we say that a function $f: S \\rightarrow S$ is an $n$-th power if there exists some function $g: S \\rightarrow S$ such that\n\n$$\nf(x)=\\underbrace{g(g(\\ldots g(x) \\ldots))}_{g \\text { applied } n \\text { times }}\n$$\n\nfor each $x \\in S$.\nSuppose that a function $f: S \\rightarrow S$ is an $n$-th power for each positive integer $n$. Is it necessarily true that $f(f(x))=f(x)$ for each $x \\in S$ ?\n",
+    "rawSha256": "0a26a66d70a4238f53f86d7fae84f1396bcf7b1bdb385883c2cc8e68aba29b23",
+    "matchNormalizedSha256": "993d6dbfe3cd41bba8b0069e2c16bdcb5ba3052d10c6ab190daa060045319d53",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:10",
+    "versionId": "v:bw:2024:10",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A frog is located on a unit square of an infinite grid oriented according to the cardinal directions. The frog makes moves consisting of jumping either one or two squares in the direction it is facing, and then turning according to the following rules:\n(i) If the frog jumps one square, it then turns $90^{\\circ}$ to the right;\n(ii) If the frog jumps two squares, it then turns $90^{\\circ}$ to the left.\n\nIs it possible for the frog to reach the square exactly 2024 squares north of the initial square after some finite number of moves if it is initially facing:\n(a) North;\n(b) East?\n",
+    "rawSha256": "de4beb1d5948bbafd7e3cb7248a1beda1b4f72c0ec71f336d14d07320322ab81",
+    "matchNormalizedSha256": "99a9b58b5dd00a4534b687a321db4f91887965cd432f788640fe3a0fa85e1bba",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:11",
+    "versionId": "v:bw:2024:11",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $ABCD$ be a cyclic quadrilateral with circumcentre $O$ and with $AC$ perpendicular to $BD$. Points $X$ and $Y$ lie on the circumcircle of the triangle $BOD$ such that $\\angle AXO=\\angle CYO=90^\\circ$. Let $M$ be the midpoint of $AC$. Prove that $BD$ is tangent to the circumcircle of the triangle $MXY$.\n",
+    "rawSha256": "99a310de3572b8bcdd0f0f66acada377e37c57f882c258b544e2ac2cae32112b",
+    "matchNormalizedSha256": "ec4c23e64bef44ef93927dcb415658c1b39bf6f5a56ba35f6a57588ea528a549",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:12",
+    "versionId": "v:bw:2024:12",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with circumcircle $\\omega$ such that $A B<A C$. Let $M$ be the midpoint of the arc $B C$ of $\\omega$ containing the point $A$, and let $X \\neq M$ be the other point on $\\omega$ such that $A X=A M$. Points $E$ and $F$ are chosen on sides $A C$ and $A B$ of the triangle $A B C$, respectively, such that $E X=E C$ and $F X=F B$. Prove that $A E=A F$.\n",
+    "rawSha256": "6dfaf22160dd487f2248f964527ef334e6cdafcf933dca2ddbf950d5ab1405cd",
+    "matchNormalizedSha256": "fb9867ba267b27e45dc48e5dcab060910dbdfe52bd3d23c292982893a4271e45",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "12",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        14,
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:13",
+    "versionId": "v:bw:2024:13",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with orthocentre $H$. Let $D$ be a point outside the circumcircle of triangle $A B C$ such that $\\angle A B D=\\angle D C A$. The reflection of $A B$ in $B D$ intersects $C D$ at $X$. The reflection of $A C$ in $C D$ intersects $B D$ at $Y$. The lines through $X$ and $Y$ perpendicular to $A C$ and $A B$, respectively, intersect at $P$. Prove that points $D, P$ and $H$ are collinear.\n",
+    "rawSha256": "bb4e7be3ca8be0a609e94ed50b3b0ec557d720fbd84d32956c5fdb280e921965",
+    "matchNormalizedSha256": "d47af73917836308c955b1e9bc27937944ee4902fa4a3973791b89cb7dde2061",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:14",
+    "versionId": "v:bw:2024:14",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be an acute triangle with circumcircle $\\omega$. The altitudes $A D, B E$ and $C F$ of the triangle $A B C$ intersect at point $H$. A point $K$ is chosen on the line $E F$ such that $K H \\| B C$. Prove that the reflection of $H$ in $K D$ lies on $\\omega$.\n",
+    "rawSha256": "73f219c8e4790069b1f0fdeec2a798c884dab5a4f7490c87fce3cb7751338dd3",
+    "matchNormalizedSha256": "b1b40345d67e9d4aaf64dc88d4c11f120ae82739821cb89001611fac4fa0232c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:15",
+    "versionId": "v:bw:2024:15",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "There is a set of $N \\geq 3$ points in the plane, such that no three of them are collinear. Three points $A$, $B, C$ in the set are said to form a Baltic triangle if no other point in the set lies on the circumcircle of triangle $A B C$. Assume that there exists at least one Baltic triangle.\nShow that there exist at least $\\frac{N}{3}$ Baltic triangles.\n",
+    "rawSha256": "730e4243b3bd090202b48ee4654f93e765796585365478803ba72b7f7f8e4d72",
+    "matchNormalizedSha256": "7a8daf6d23cb703202210b11fc6aeb3a86b81e2fd47d6f0d09efe9c52958dcb5",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          2,
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:16",
+    "versionId": "v:bw:2024:16",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine all composite positive integers $n$ such that, for each positive divisor $d$ of $n$, there are integers $k \\geq 0$ and $m \\geq 2$ such that $d=k^{m}+1$.\n",
+    "rawSha256": "44552c741ce793a9b6744ef7478d7910592ed707f7695f47f69ae6be41506dde",
+    "matchNormalizedSha256": "c78dd427a383405d4f398c08b0d518ae2d326e835623243a6c04834a042f0466",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:17",
+    "versionId": "v:bw:2024:17",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Do there exist infinitely many quadruples $(a,b,c,d)$ of positive integers such that the number\n\n$$\na!+b!-c!-d!\n$$\n\nis prime and\n\n$$\n2\\le d\\le c\\le b\\le a\\le d^{2024}?\n$$\n",
+    "rawSha256": "c486bb76ae02b50ba9aa8980060b1ff74829e7793523faa2fbc0be4c3f853bb9",
+    "matchNormalizedSha256": "59a0c56eee90514b90dfa620138a642b29d7f922d01dcdceb4e1785b6cb2d315",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:18",
+    "versionId": "v:bw:2024:18",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "An infinite sequence $a_{1}, a_{2}, \\ldots$ of positive integers is such that $a_{n} \\geq 2$ and $a_{n+2}$ divides $a_{n+1}+a_{n}$ for all $n \\geq 1$. Prove that there exists a prime which divides infinitely many terms of the sequence.\n",
+    "rawSha256": "4e1fbaca56fb8e1520d813bbe426aa72a1b52a0b4189bffb38ae95dced231e22",
+    "matchNormalizedSha256": "7cb537f031881aa9ada392eae566bb1577bc4334b857454381b20885d6230745",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw24sol.jsonl",
+      "fileSha256": "80ba707d877e5ef6d617a00eb4f7a2d1b2a9d80f80fe3cdf8e619869f600f3f6",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        21
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:19",
+    "versionId": "v:bw:2024:19",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a positive integer $N$ which is divisible by at least 2024 distinct primes and whose positive divisors $1=d_{1}<d_{2}<\\ldots<d_{k}=N$ are such that the number\n\n$$\n\\frac{d_{2}}{d_{1}}+\\frac{d_{3}}{d_{2}}+\\ldots+\\frac{d_{k}}{d_{k-1}}\n$$\n\nis an integer?\n",
+    "rawSha256": "66b8768e9fe2a5e7e44eb0d0d1b4de99f037bff584890b40a0e91f454f9c96c3",
+    "matchNormalizedSha256": "4abab487d47a6f78f2590c909d2952bf64d2497e069ef983f466ed46c0bc5cdb",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2024:20",
+    "versionId": "v:bw:2024:20",
+    "officialSource": {
+      "sourceId": "bw-official:2024:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "d2f22a53d7282f34d555bdc8e29526a25f2eee5bb413ad1f27efb44c5b82f61b",
+      "sourceBytes": 253946,
+      "pages": [
+        3
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Positive integers $a, b$ and $c$ satisfy the system of equations\n\n$$\n\\left\\{\\begin{aligned}\n(a b-1)^{2} & =c\\left(a^{2}+b^{2}\\right)+a b+1 \\\\\na^{2}+b^{2} & =c^{2}+a b\n\\end{aligned}\\right.\n$$\n\n(a) Prove that $c+1$ is a perfect square.\n(b) Find all such triples $(a, b, c)$.\n",
+    "rawSha256": "b4ace536f1457fce10588477f835eef74f83f9068347d874b61728dfbbd7861d",
+    "matchNormalizedSha256": "219050d036840df0a5147c59c432e816c5ccd0f1b694c20c49e2349cdb226887",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2024:problems",
+      "officialPages": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2024:problems",
+        "pages": [
+          3
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

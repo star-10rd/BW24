@@ -1,0 +1,837 @@
+[
+  {
+    "appearanceId": "bw:2007:01",
+    "versionId": "v:bw:2007:01",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "For a positive integer $n$ consider any partition of the set $\\{1,2,\\ldots,2n\\}$ into $n$ two-element subsets $P_1,P_2,\\ldots,P_n$. In each subset $P_i$, let $p_i$ be the product of the two numbers in $P_i$. Prove that\n\n$$\n\\frac1{p_1}+\\frac1{p_2}+\\cdots+\\frac1{p_n}<1.\n$$\n",
+    "rawSha256": "c8aa8ab047ad0346d10bccd6bc81ad7cfd36049db1babc2547677a52d9e54d02",
+    "matchNormalizedSha256": "cc98d8576a96f81ffb155b8ae63ffff8e5de7fcce68300e049ca717aecd26e1f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:02",
+    "versionId": "v:bw:2007:02",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A sequence of integers $a_1,a_2,a_3,\\ldots$ is called exact if\n\n$$\na_n^2-a_m^2=a_{n-m}a_{n+m}\n$$\n\nfor any $n>m$. Prove that there exists an exact sequence with $a_1=1$, $a_2=0$, and determine $a_{2007}$.\n",
+    "rawSha256": "03799347c9d08b82dd00c83cc52e61636b4ad4fd6698bd9a07bd4f1a751ad74e",
+    "matchNormalizedSha256": "e901f8011afd1500ef037f9b1fc4baa41bffe94d3d23c8958111db729313cc94",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:03",
+    "versionId": "v:bw:2007:03",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Suppose that $F,G,H$ are polynomials of degree at most $2n+1$ with real coefficients such that:\n\n1. For all real $x$ we have $F(x)\\le G(x)\\le H(x)$.\n2. There exist distinct real numbers $x_1,x_2,\\ldots,x_n$ such that $F(x_i)=H(x_i)$ for $i=1,2,\\ldots,n$.\n3. There exists a real number $x_0$ different from $x_1,x_2,\\ldots,x_n$ such that $F(x_0)+H(x_0)=2G(x_0)$.\n\nProve that $F(x)+H(x)=2G(x)$ for all real numbers $x$.\n",
+    "rawSha256": "a7a1b9996d7b2417d92cbe24be0d793cdee1bfce41ec8b783a1564ebdd6c1ea4",
+    "matchNormalizedSha256": "c8de5825ef9909ff6c2f4ba3f2ea382ed6fd9a1110638b6f9cf541e8480aee79",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:04",
+    "versionId": "v:bw:2007:04",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a_1,a_2,\\ldots,a_n$ be positive real numbers, and let $S=a_1+a_2+\\cdots+a_n$. Prove that\n\n$$\n(2S+n)(2S+a_1a_2+a_2a_3+\\cdots+a_na_1)\\ge 9\\left(\\sqrt{a_1a_2}+\\sqrt{a_2a_3}+\\cdots+\\sqrt{a_na_1}\\right)^2.\n$$\n",
+    "rawSha256": "2022596f7be1620ff7675ba3560e12bd35131199799de4beb41f4a0236450b06",
+    "matchNormalizedSha256": "7f9029b68be9ba3225ba75b914f72af7c56dce531116269b627b525d87e4e096",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:05",
+    "versionId": "v:bw:2007:05",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A function $f$ is defined on the set of all real numbers except $0$ and takes all real values except $1$. It is also known that\n\n$$\nf(xy)=f(x)f(-y)-f(x)+f(y)\n$$\n\nfor any $x,y\\ne0$, and that\n\n$$\nf(f(x))=\\frac{1}{f(1/x)}\n$$\n\nfor any $x\\notin\\{0,1\\}$. Determine all such functions $f$.\n",
+    "rawSha256": "8b38af7d0943af05bab5a4c3026d5aef656a1ec7999275c50a9ff190f90066ae",
+    "matchNormalizedSha256": "a79a4ca3c3d139943fbd16acb622362f546667d3a137e24c6b7825c620b70e63",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:06",
+    "versionId": "v:bw:2007:06",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Freddy writes down numbers $1,2,\\ldots,n$ in some order. Then he makes a list of all pairs $(i,j)$ such that $1\\le i<j\\le n$ and the $i$th number is bigger than the $j$th number in his permutation. After that, Freddy repeats the following action while possible: choose a pair $(i,j)$ from the current list, interchange the $i$th and the $j$th number in the current permutation, and delete $(i,j)$ from the list. Prove that Freddy can choose pairs in such an order that, after the process finishes, the numbers in the permutation are ordered ascendingly.\n",
+    "rawSha256": "81e8c6ec1d5b29fcdac0f2539e7c293e59e6d61f4d15713e6ed366da3c3df1da",
+    "matchNormalizedSha256": "63bb900a85087ebbb21d050609d8a45207db20d7a6a9f443b7456c51cd79c554",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:07",
+    "versionId": "v:bw:2007:07",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A squiggle is composed of six regular triangles with side length 1 as shown in the figure below.\n\n![Figure 1](figure:1)\n\nDetermine all possible integers $n$ such that a regular triangle with side length $n$ can be fully covered with squiggles (rotations and reflections of squiggles are allowed, overlappings are not).\n",
+    "rawSha256": "2afd371bddef812f9d1b379ae2f37626fbfc1723ee5e81120cc20f9921c1d641",
+    "matchNormalizedSha256": "0c68f12ad051316e1ad2efdd69761caab8ec10a5e1175fcd2c41e17a580b5442",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        1,
+        2
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2007:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "The six-triangle squiggle shown below Problem 7."
+      }
+    ],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:08",
+    "versionId": "v:bw:2007:08",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Call a set $A$ of integers non-isolated if for every $a\\in A$ at least one of the numbers $a-1$ and $a+1$ also belongs to $A$. Prove that the number of five-element non-isolated subsets of $\\{1,2,\\ldots,n\\}$ is $(n-4)^2$.\n",
+    "rawSha256": "f9593ba593a6f97a7d5c13e4acc53dea38f65a23ee665260540e5b260bf4fb77",
+    "matchNormalizedSha256": "365c559c4888121d6f57ad12e9ab4015d86303846662ed80e04dc771e4151c1f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:09",
+    "versionId": "v:bw:2007:09",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "A society has to elect a board of governors. Each member of the society has chosen 10 candidates for the board, but he will be happy if at least one of them will be on the board. For each six members of the society there exists a board consisting of two persons making all of these six members happy. Prove that a board consisting of 10 persons can be elected making every member of the society happy.\n",
+    "rawSha256": "d1cb98c158ca63fda711bd7d72d71715ef8735b5e957f1af9215c4383d27d152",
+    "matchNormalizedSha256": "15456ffa0069027fb3821e91a95c258f6b88c4e7a77156346c23855e80a056f6",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:10",
+    "versionId": "v:bw:2007:10",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "We are given an $18\\times18$ table, all of whose cells may be black or white. Initially all the cells are coloured white. We may perform the following operation: choose one column or one row and change the colour of all cells in this column or row. Is it possible by repeating the operation to obtain a table with exactly 16 black cells?\n",
+    "rawSha256": "ec31bdce0916472031493169ecb2f6fe683cd55a59f579a182dc653883d99a51",
+    "matchNormalizedSha256": "14e19cb167c623d515bd135aefdbf8455565841a1af15f44df4c98b10ef1190f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:11",
+    "versionId": "v:bw:2007:11",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In triangle $ABC$ let $AD$, $BE$ and $CF$ be the altitudes. Let the points $P,Q,R$ and $S$ fulfil the following requirements:\n\n1. $P$ is the circumcentre of triangle $ABC$.\n2. All the segments $PQ$, $QR$ and $RS$ are equal to the circumradius of triangle $ABC$.\n3. The oriented segment $PQ$ has the same direction as the oriented segment $AD$. Similarly, $QR$ has the same direction as $BE$, and $RS$ has the same direction as $CF$.\n\nProve that $S$ is the incentre of triangle $ABC$.\n",
+    "rawSha256": "65635ba718cfd2e7a498a7cf019c58b757e72e106214f99b5bd59442cc2a2bbe",
+    "matchNormalizedSha256": "4941525efc5f89627763e7eaa901aee0af40924ae1080b71dc12c192502d6538",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:12",
+    "versionId": "v:bw:2007:12",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $M$ be a point on the arc $\\wideparen{AB}$ of the circumcircle of the triangle $ABC$ which does not contain $C$. Suppose that the projections of $M$ onto the lines $AB$ and $BC$ lie on the sides themselves, not on their extensions. Denote these projections by $X$ and $Y$, respectively. Let $K$ and $N$ be the midpoints of $AC$ and $XY$, respectively. Prove that $\\angle MNK=90^\\circ$.\n",
+    "rawSha256": "b4bc8f4cfe111d7bba997f72d1b65dc2107ec0ab57cbd509bb69f1a7789146e5",
+    "matchNormalizedSha256": "a24ae738bf866ce0a918b6016bea6248e07a6d4bee48e9c0adb5800055a4230b",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:13",
+    "versionId": "v:bw:2007:13",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $t_1,t_2,\\ldots,t_k$ be different straight lines in space, where $k>1$. Prove that points $P_i$ on $t_i$, $i=1,\\ldots,k$, exist such that $P_{i+1}$ is the projection of $P_i$ on $t_{i+1}$ for $i=1,\\ldots,k-1$, and $P_1$ is the projection of $P_k$ on $t_1$.\n",
+    "rawSha256": "9a6f44e12f7d2df53802e85bea91cdb546c2b082fcd4b8ba67814d56a600f5e2",
+    "matchNormalizedSha256": "00d765e8b3d9cb4017f1b311dda2cc031d30977ca03d67f790465ce61ec59cd9",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:14",
+    "versionId": "v:bw:2007:14",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "In a convex quadrilateral $ABCD$ we have $\\angle ADC=90^\\circ$. Let $E$ and $F$ be the projections of $B$ onto the lines $AD$ and $AC$, respectively. Assume that $F$ lies between $A$ and $C$, that $A$ lies between $D$ and $E$, and that the line $EF$ passes through the midpoint of the segment $BD$. Prove that the quadrilateral $ABCD$ is cyclic.\n",
+    "rawSha256": "4471742214531c8fdef5a1dd1c8e92f1dcd9d558461c34485fb65d644f337d32",
+    "matchNormalizedSha256": "ddf89754be4f4738f33e9ece23630c02f1db5849e996d8598d7f7a091456ef9c",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:15",
+    "versionId": "v:bw:2007:15",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "The incircle of the triangle $ABC$ touches the side $AC$ at the point $D$. Another circle passes through $D$ and touches the rays $BC$ and $BA$, the latter at the point $A$. Determine the ratio $AD/DC$.\n",
+    "rawSha256": "39f1da7838a3f0615fafed6452a2227b77e66951649250caf2111f1b14f21093",
+    "matchNormalizedSha256": "496aa4a2bab6c5f6674be1584bd7bc4dc043b3b2a74ff81ac37eecd6401eb0f6",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:16",
+    "versionId": "v:bw:2007:16",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a$ and $b$ be rational numbers such that $s=a+b=a^2+b^2$. Prove that $s$ can be written as a fraction where the denominator is relatively prime to 6.\n",
+    "rawSha256": "8be171ea6ba8feaecf293030f27b7b60e400c6b497b4ffdb033bf449be662ed7",
+    "matchNormalizedSha256": "dc3799f37b9057577a9f22207a8bc158f9411f08eef6ca04b7e0dcf624789895",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:17",
+    "versionId": "v:bw:2007:17",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $x,y,z$ be positive integers such that\n\n$$\n\\frac{x+1}{y}+\\frac{y+1}{z}+\\frac{z+1}{x}\n$$\n\nis an integer. Let $d$ be the greatest common divisor of $x,y$ and $z$. Prove that\n\n$$\nd\\le \\sqrt[3]{xy+yz+zx}.\n$$\n",
+    "rawSha256": "e60709d9d479c3ee70681ded78b2667e1604bed706d79d721f82d7443f68a37d",
+    "matchNormalizedSha256": "a07c69f4d5fd456617d43941b54694a71a2b80ee1102a347a1545af6b804f4f5",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:18",
+    "versionId": "v:bw:2007:18",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a,b,c,d$ be non-zero integers, such that the only quadruple of integers $(x,y,z,t)$ satisfying the equation\n\n$$\nax^2+by^2+cz^2+dt^2=0\n$$\n\nis $x=y=z=t=0$. Does it follow that the numbers $a,b,c,d$ have the same sign?\n",
+    "rawSha256": "758879787f9baa0c1c121acd0c30eeb714e93297a575e8a22b11ad2662878d65",
+    "matchNormalizedSha256": "e215c100c700e1adef2f582cc034fd9dfc56317469987f1d9d48c605bf003d2f",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:19",
+    "versionId": "v:bw:2007:19",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $r$ and $k$ be positive integers such that all prime divisors of $r$ are greater than 50.\n\nA positive integer, whose decimal representation (without leading zeroes) has at least $k$ digits, will be called nice if every sequence of $k$ consecutive digits of this decimal representation forms a number (possibly with leading zeroes) which is a multiple of $r$.\n\nProve that if there exist infinitely many nice numbers, then the number $10^k-1$ is nice as well.\n",
+    "rawSha256": "7bb2758f40049d1bd76e2b097f51284b34877a1e6874db24c08cfe6a020cc2c7",
+    "matchNormalizedSha256": "cf82907e787216ee36dc2daf7928d11b23987277b774fafd19d6898d17f04f3d",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2007:20",
+    "versionId": "v:bw:2007:20",
+    "officialSource": {
+      "sourceId": "bw-official:2007:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "0101202c39d2586213aeb350e82ba9d43ba5d2265b9730a69d0b81d9900fd3e3",
+      "sourceBytes": 187353,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "targetFormat": "statement-markdown",
+    "statementMarkdown": "Let $a$ and $b$ be positive integers, $b<a$, such that $a^3+b^3+ab$ is divisible by $ab(a-b)$. Prove that $ab$ is a perfect cube.\n",
+    "rawSha256": "fce888526eedcf575a28e78bbd8e57e8e53b85b45f4415e768cbf72a2e45feea",
+    "matchNormalizedSha256": "3680b827e23b911d85e430e496e04be07ea157afe793d8ece4837f00f0d2d06b",
+    "matchNormalizer": "final-match-v1",
+    "statementFigureStatus": "unknown-until-materialized",
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "transcriptionSource": {
+      "kind": "official-pdf-transcription",
+      "sourceId": "bw-official:2007:problems",
+      "officialPages": [
+        2
+      ]
+    },
+    "figures": [],
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2007:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]

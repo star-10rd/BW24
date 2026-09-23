@@ -10,5 +10,9 @@ dist/
 .DS_Store
 npm-debug.log*
 
-data/p3/generated/*
-!data/p3/generated/README.md
+data/corpus/generated/*
+!data/corpus/generated/README.md
+
+# Python caches
+__pycache__/
+*.py[cod]

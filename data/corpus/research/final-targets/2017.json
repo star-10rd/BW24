@@ -1,0 +1,902 @@
+[
+  {
+    "appearanceId": "bw:2017:01",
+    "versionId": "v:bw:2017:01",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 1",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $a_{0}, a_{1}, a_{2}, \\ldots$ be an infinite sequence of real numbers satisfying $\\frac{a_{n-1}+a_{n+1}}{2} \\geq a_{n}$ for all positive integers $n$. Show that\n\n$$\n\\frac{a_{0}+a_{n+1}}{2} \\geq \\frac{a_{1}+a_{2}+\\ldots+a_{n}}{n}\n$$\n\nholds for all positive integers $n$.\n",
+    "rawSha256": "de4c40cf1727eeaee7cad25bad27124e5a5091604358231fe067831ea0efef09",
+    "matchNormalizedSha256": "7b765af75ca83c971b65a1805ce54f6ef5417e62856e8148ecc12eb6ff6e50bc",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "1",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        1
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:02",
+    "versionId": "v:bw:2017:02",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 2",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Does there exist a finite set of real numbers such that their sum equals 2 , the sum of their squares equals 3 , the sum of their cubes equals 4 and the sum of their ninth powers equals 10 ?\n",
+    "rawSha256": "ce6dfe5be94e3c21c74e8d3838561df912928a15ee83c7a90dfe722027a3f8d3",
+    "matchNormalizedSha256": "a12bffe992447453e28c5966d255bd59805a14759603595f0cd721dabbcd9f17",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "2",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        2
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:03",
+    "versionId": "v:bw:2017:03",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 3",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Positive integers $x_{1}, \\ldots, x_{m}$ (not necessarily distinct) are written on a blackboard. It is known that each of the numbers $F_{1}, \\ldots, F_{2018}$ can be represented as a sum of one or more of the numbers on the blackboard. What is the smallest possible value of $m$ ?\n\n(Here $F_{1}, \\ldots, F_{2018}$ are the first 2018 Fibonacci numbers: $F_{1}=F_{2}=1, F_{k+1}=F_{k}+F_{k-1}$ for $k>1$.)\n",
+    "rawSha256": "cd1893992def34824bf7f22b4c5d4ec903279ce755aa27226a0711a1a6d3456e",
+    "matchNormalizedSha256": "3788c7178d3f29a656a88d10c0f142c6a1b31b815f880e8c07769aacf5611009",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "3",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        3
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:04",
+    "versionId": "v:bw:2017:04",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 4",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A linear form in $k$ variables is an expression of the form $P\\left(x_{1}, \\ldots, x_{k}\\right)=a_{1} x_{1}+\\ldots+a_{k} x_{k}$ with real constants $a_{1}, \\ldots, a_{k}$. Prove that there exist a positive integer $n$ and linear forms $P_{1}, \\ldots, P_{n}$ in 2017 variables such that the equation\n\n$$\nx_{1} \\cdot x_{2} \\cdot \\ldots \\cdot x_{2017}=P_{1}\\left(x_{1}, \\ldots, x_{2017}\\right)^{2017}+\\ldots+P_{n}\\left(x_{1}, \\ldots, x_{2017}\\right)^{2017}\n$$\n\nholds for all real numbers $x_{1}, \\ldots, x_{2017}$.\n",
+    "rawSha256": "aefe54b9cf7211901c9d2f991a1b1b27802b294aa302157ce7dcdabca9358e96",
+    "matchNormalizedSha256": "30090eef039be7651837d312eea3659d10d066dd5666c6d03597a78cc162099c",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "4",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        4,
+        5
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:05",
+    "versionId": "v:bw:2017:05",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 5",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Find all functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ such that\n\n$$\nf\\left(x^{2} y\\right)=f(x y)+y f(f(x)+y)\n$$\n\nfor all real numbers $x$ and $y$.\n",
+    "rawSha256": "c6abfb140ffbcd22fa93f32d09610d9483d190a1cde168644e102e3014656133",
+    "matchNormalizedSha256": "95bd001fa0b13e3a80909db3ee0713f2081665752d83ab4dd6d95ac6cd4fd403",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "5",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        6
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:06",
+    "versionId": "v:bw:2017:06",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 6",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Fifteen stones are placed on a $4 \\times 4$ board, one in each cell, the remaining cell being empty. Whenever two stones are on neighbouring cells (having a common side), one may jump over the other to the opposite neighbouring cell, provided this cell is empty. The stone jumped over is removed from the board.\n\n![Figure 1](figure:1)\n\nFor which initial positions of the empty cell is it possible to end up with exactly one stone on the board?\n",
+    "rawSha256": "8206b558ffc226c5d2bb62066d93b4504db96c63f35b1351c6bf522a716351a4",
+    "matchNormalizedSha256": "d6f89cf2e7798c3c3fbdb3a65fa58e36d5d17926e25652d3160bb26948e7d24f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "6",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        7
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": false,
+        "officialSource": {
+          "sourceId": "bw-official:2017:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Move illustration shown with Problem 6."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:07",
+    "versionId": "v:bw:2017:07",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 7",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Each edge of a complete graph on 30 vertices is coloured either red or blue. It is allowed to choose a nonmonochromatic triangle and change the colour of the two edges of the same colour to make the triangle monochromatic. Prove that by using this operation repeatedly it is possible to make the entire graph monochromatic.\n\n(A complete graph is a graph where any two vertices are connected by an edge.)\n",
+    "rawSha256": "c735238b9ae2aff27e8851cf725cec1d8d66afa5175dc8912ccbe8dad696aaaa",
+    "matchNormalizedSha256": "1711c8efd1d6cd1399cee9f85feac5be2ae9853efa9c5eed9c017954a15c7b97",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "7",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        8
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:08",
+    "versionId": "v:bw:2017:08",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 8",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A chess knight has injured his leg and is limping. He alternates between a normal move and a short move where he moves to any diagonally neighbouring cell.\n\n![Figure 1](figure:1)\n\nNormal move\n\n![Figure 2](figure:2)\n\nShort move\n\nThe limping knight moves on a $5 \\times 6$ cell chessboard starting with a normal move. What is the largest number of moves he can make if he is starting from a cell of his own choice and is not allowed to visit any cell (including the initial cell) more than once?\n",
+    "rawSha256": "51e5cc48fc77cc189b4197e40b5c7011a15f2f9cae07dcb06b917299aff31867",
+    "matchNormalizedSha256": "e80e0edd8cd1eb90d5dd34d8779ed98fa1e3acb6bf4ba67afd9afbd945574113",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "8",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        9
+      ]
+    },
+    "figures": [
+      {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2017:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Normal knight move illustration."
+      },
+      {
+        "key": "figure:2",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2017:problems",
+          "page": 1,
+          "figureIndex": 2
+        },
+        "verificationStatus": "verified",
+        "note": "Short diagonal move illustration."
+      }
+    ],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:09",
+    "versionId": "v:bw:2017:09",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 9",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "A positive integer $n$ is Danish if a regular hexagon can be partitioned into $n$ congruent polygons. Prove that there are infinitely many positive integers $n$ such that both $n$ and $2^{n}+n$ are Danish.\n",
+    "rawSha256": "1e175e75116c0775d1400ec04e789e12ea7f1af703ab9d2a85623f3fa00ac605",
+    "matchNormalizedSha256": "7f2a7eb2693f370482d6116d9391486c8beeb60fb040039508aa6a0866dfdf74",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "9",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        10
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          1,
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:10",
+    "versionId": "v:bw:2017:10",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 10",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Maker and Breaker are building a wall. Maker has a supply of green cubical building blocks, and Breaker has a supply of red ones, all of the same size. On the ground, a row of $m$ squares has been marked in chalk as place-holders. Maker and Breaker now take turns in placing a block either directly on one of these squares, or on top of another block already in place, in such a way that the height of each column never exceeds $n$. Maker places the first block.\n\nMaker bets that he can form a green row, i.e. all $m$ blocks at a certain height are green. Breaker bets that he can prevent Maker from achieving this. Determine all pairs $(m, n)$ of positive integers for which Maker can make sure he wins the bet.\n",
+    "rawSha256": "ca62c9999443357d8dad90ed062fac14352915dc982b9a6a75a9346e158a7424",
+    "matchNormalizedSha256": "ab6c1400c9d9c68a776189bd065049e6cd8ed75277c35149a6ca69ce62d9fa90",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "10",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        11
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:11",
+    "versionId": "v:bw:2017:11",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 11",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $H$ and $I$ be the orthocentre and incentre, respectively, of an acute angled triangle $A B C$. The circumcircle of the triangle $B C I$ intersects the segment $A B$ at the point $P$ different from $B$. Let $K$ be the projection of $H$ onto $A I$ and $Q$ the reflection of $P$ in $K$. Show that $B, H$ and $Q$ are collinear.\n",
+    "rawSha256": "ecefcc4f862dc459b3bad83a1d2263b04ea50d7448a2a20f552bc966ca47f497",
+    "matchNormalizedSha256": "0dec56d04ae831c84ff68ad4309f1152a29075d000ae1a0dd6b19880de644c34",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "11",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        12,
+        13
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:12",
+    "versionId": "v:bw:2017:12",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 12",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Line $\\ell$ touches circle $S_{1}$ in the point $X$ and circle $S_{2}$ in the point $Y$. We draw a line $m$ which is parallel to $\\ell$ and intersects $S_{1}$ in a point $P$ and $S_{2}$ in a point $Q$. Prove that the ratio $X P / Y Q$ does not depend on the choice of $m$.\n",
+    "rawSha256": "97f70ff83c60a127cff42ab9b16d66bd1e30fda4e37d6267a00cbd31824f3950",
+    "matchNormalizedSha256": "7b436798499d154cd3d9f5e1b6000eb174be0cab001bf370322be9fe0ae6b3e4",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "12",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        14
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:13",
+    "versionId": "v:bw:2017:13",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 13",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $A B C$ be a triangle in which $\\angle A B C=60^{\\circ}$. Let $I$ and $O$ be the incentre and circumcentre of $A B C$, respectively. Let $M$ be the midpoint of the arc $B C$ of the circumcircle of $A B C$, which does not contain the point $A$. Determine $\\angle B A C$ given that $M B=O I$.\n",
+    "rawSha256": "85fc26ec17e5c52cb54e01f28031cd3cea303f3de25796d33e8d4d6f1ad0d9fa",
+    "matchNormalizedSha256": "ebf570d85680e2a96dfb60678063bdc8c57d216ae4f6abf792494b134b0d93ea",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "13",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        15
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:14",
+    "versionId": "v:bw:2017:14",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 14",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $P$ be a point inside the acute angle $\\angle B A C$. Suppose that $\\angle A B P=\\angle A C P=90^{\\circ}$. The points $D$ and $E$ are on the segments $B A$ and $C A$, respectively, such that $B D=B P$ and $C P=C E$. The points $F$ and $G$ are on the segments $A C$ and $A B$, respectively, such that $D F$ is perpendicular to $A B$ and $E G$ is perpendicular to $A C$. Show that $P F=P G$.\n",
+    "rawSha256": "85d7cd1c1a558a2d464dfd8d1e6361df2187d4f0a93df54e1a8888d503ec75df",
+    "matchNormalizedSha256": "d0e5f648ca61e722ac7a4cd3c3a1a43433e4fdaabe69ff22c9082430752a4264",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "14",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        16
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:15",
+    "versionId": "v:bw:2017:15",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 15",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $n \\geq 3$ be an integer. What is the largest possible number of interior angles greater than $180^{\\circ}$ in an $n$-gon in the plane, given that the $n$-gon does not intersect itself and all its sides have the same length?\n",
+    "rawSha256": "d970361455d9ef761ece379ea39046e2dbd8d5222dc347a8714cfaa83fc2856e",
+    "matchNormalizedSha256": "9cab2cd446af6e9600ed554852e46d8441633060ac1c2164eaa0b46ad2576e54",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "15",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        17
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:16",
+    "versionId": "v:bw:2017:16",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 16",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Is it possible for any group of people to choose a positive integer $N$ and assign a positive integer to each person in the group such that the product of two persons' numbers is divisible by $N$ if and only if they are friends?\n",
+    "rawSha256": "5ae57c736deb57f85ce7975a5508f1721e1c4ef3d906613c25c8af2f939803d0",
+    "matchNormalizedSha256": "f8d8069599c472b5fd34ee5e9dbd99868d81c57d2671f22daffff6adfe2f5311",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "16",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        18
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:17",
+    "versionId": "v:bw:2017:17",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 17",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Determine whether the equation\n\n$$\nx^{4}+y^{3}=z !+7\n$$\n\nhas an infinite number of solutions in positive integers.\n",
+    "rawSha256": "fd8e72ac9a84eb55ea570d0e3b90cb3f28a48a1ae73b8797ce3908c8860e30e2",
+    "matchNormalizedSha256": "56cb52d83ce14f231e0a5856dc2e0af290ece772c4e7dd704ccc8393052cc94f",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "17",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        19
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:18",
+    "versionId": "v:bw:2017:18",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 18",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $p>3$ be a prime and let $a_{1}, a_{2}, \\ldots, a_{\\frac{p-1}{2}}$ be a permutation of $1,2, \\ldots, \\frac{p-1}{2}$. For which $p$ is it always possible to determine the sequence $a_{1}, a_{2}, \\ldots, a_{\\frac{p-1}{2}}$ if for all $i, j \\in\\left\\{1,2, \\ldots, \\frac{p-1}{2}\\right\\}$ with $i \\neq j$ the residue of $a_{i} a_{j}$ modulo $p$ is known?\n",
+    "rawSha256": "394e5efa4a6582cad23bb5c5a086603180a86fd03dbae83e24a5c493c3e666f4",
+    "matchNormalizedSha256": "0096e327734e300466966a47664333187b016fb245f392653d89dddd4afe2080",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "18",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        20
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:19",
+    "versionId": "v:bw:2017:19",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 19",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "For an integer $n \\geq 1$ let $a(n)$ denote the total number of carries which arise when adding 2017 and $n \\cdot 2017$. The first few values are given by $a(1)=1, a(2)=1, a(3)=0$, which can be seen from the following:\n\n| 001 | 001 | 000 |\n| :---: | :---: | :---: |\n| 2017 | 4034 | 6051 |\n| +2017 | +2017 | +2017 |\n| $=4034$ | $=6051$ | $=8068$ |\n\nProve that\n\n$$\na(1)+a(2)+\\ldots+a\\left(10^{2017}-2\\right)+a\\left(10^{2017}-1\\right)=10 \\cdot \\frac{10^{2017}-1}{9}\n$$\n",
+    "rawSha256": "572f007533b7d18d4f949d353f078487850f4b6761f86b0864bae2b2d9218130",
+    "matchNormalizedSha256": "4d77189d51cf6b574297dcbc610fb327da1bd4ca4e2197940555a539888f7bb0",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "19",
+      "recordsForProblem": 2,
+      "sourceLines": [
+        21,
+        22
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  },
+  {
+    "appearanceId": "bw:2017:20",
+    "versionId": "v:bw:2017:20",
+    "officialSource": {
+      "sourceId": "bw-official:2017:problems",
+      "locator": "Problem 20",
+      "sourceSha256": "f8d842885c6e6db4a1e040412fe73e5cbc4fb0b75564a34eed4aec3a934660e6",
+      "sourceBytes": 373158,
+      "pages": [
+        2
+      ]
+    },
+    "language": "en",
+    "statementMarkdown": "Let $S$ be the set of all ordered pairs $(a, b)$ of integers with $0<2 a<2 b<2017$ such that $a^{2}+b^{2}$ is a multiple of 2017. Prove that\n\n$$\n\\sum_{(a, b) \\in S} a=\\frac{1}{2} \\sum_{(a, b) \\in S} b\n$$\n",
+    "rawSha256": "bd43ee69e5b7e2b34c50852545e19d08fb0e123efcc470ccadfe784a839d1945",
+    "matchNormalizedSha256": "191c8e3e1bdde49e644de5ae9084c2357f31e95109511c9627b356824c66669b",
+    "matchNormalizer": "final-match-v1",
+    "transcriptionSource": {
+      "kind": "ai-mo-segmented",
+      "revision": "fc1dcb54ac0daa4aaff38dff92e2bfa538588166",
+      "file": "en-bw17sol.jsonl",
+      "fileSha256": "fdcec8c5e214b56a46c01042307aceb29c7d891eeab76fb25a956db7b9df4f35",
+      "problemLabel": "20",
+      "recordsForProblem": 1,
+      "sourceLines": [
+        23
+      ]
+    },
+    "figures": [],
+    "materializationStatus": "materialized",
+    "verificationStatus": "frozen",
+    "verificationEvidence": [
+      {
+        "kind": "transcription-check",
+        "sourceId": "bw-official:2017:problems",
+        "pages": [
+          2
+        ],
+        "result": "verified",
+        "method": "visual-pdf-check"
+      }
+    ]
+  }
+]
