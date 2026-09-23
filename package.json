@@ -8,8 +8,12 @@
     "check": "astro check",
     "content:check": "tsx scripts/content-check.ts",
     "build": "astro build",
-    "verify": "astro check && npm run content:check && astro build",
-    "preview": "astro preview"
+    "verify": "astro check && npm run content:check && npm run p3:validate && astro build",
+    "preview": "astro preview",
+    "p3:validate": "tsx scripts/p3/validate.ts",
+    "p3:format": "tsx scripts/p3/format.ts",
+    "p3:report": "tsx scripts/p3/report.ts",
+    "p3:source:verify": "tsx scripts/p3/source-adapters/mathnet-v0.ts"
   },
   "engines": {
     "node": ">=22.12.0 <23 || >=24 <25 || >=26 <27"
@@ -34,6 +38,7 @@
     "@types/mdast": "4.0.4",
     "@types/node": "22.19.20",
     "tsx": "4.23.15",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "zod": "4.6.5"
   }
 }

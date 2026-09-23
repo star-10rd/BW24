@@ -1,0 +1,1465 @@
+{
+  "checkpoint": "BW26 P3 final-BW audit 2011-2019",
+  "status": "research-checkpoint-not-final-corpus",
+  "basis": [
+    "user-supplied numbered final statements for 2011-2019",
+    "pinned MathNet v0 853-row census/provenance previews",
+    "targeted official-derived AI-MO cross-checks for detected discrepancies"
+  ],
+  "classification": {
+    "linked": "same final problem; no material discrepancy observed in available preview",
+    "equivalent_edit": "same mathematics with editorial/story reformulation",
+    "related_variant": "clearly related source version but statement differs enough that final content must come from official final source",
+    "corrupt": "MathNet statement has a concrete apparent defect relative to final source",
+    "missing": "no MathNet counterpart found"
+  },
+  "summary": [
+    {
+      "year": 2011,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 20,
+      "missing": 0,
+      "missingNumbers": [],
+      "nonExactNumbers": [
+        3
+      ]
+    },
+    {
+      "year": 2012,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 0,
+      "missing": 20,
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": []
+    },
+    {
+      "year": 2013,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 19,
+      "missing": 1,
+      "missingNumbers": [
+        3
+      ],
+      "nonExactNumbers": [
+        6,
+        17
+      ]
+    },
+    {
+      "year": 2014,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 19,
+      "missing": 1,
+      "missingNumbers": [
+        20
+      ],
+      "nonExactNumbers": [
+        1,
+        6
+      ]
+    },
+    {
+      "year": 2015,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 4,
+      "missing": 16,
+      "missingNumbers": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "year": 2016,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 19,
+      "missing": 1,
+      "missingNumbers": [
+        1
+      ],
+      "nonExactNumbers": [
+        13,
+        15,
+        20
+      ]
+    },
+    {
+      "year": 2017,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 0,
+      "missing": 20,
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": []
+    },
+    {
+      "year": 2018,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 19,
+      "missing": 1,
+      "missingNumbers": [
+        7
+      ],
+      "nonExactNumbers": [
+        1,
+        19,
+        20
+      ]
+    },
+    {
+      "year": 2019,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 19,
+      "missing": 1,
+      "missingNumbers": [
+        17
+      ],
+      "nonExactNumbers": [
+        6,
+        8,
+        10,
+        18
+      ]
+    }
+  ],
+  "records": [
+    {
+      "year": 2011,
+      "number": 1,
+      "canonicalId": "bw-2011-01",
+      "mathnetId": "0181",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 2,
+      "canonicalId": "bw-2011-02",
+      "mathnetId": "0188",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 3,
+      "canonicalId": "bw-2011-03",
+      "mathnetId": "0189",
+      "linkStatus": "corrupt",
+      "note": "MathNet preview changes the recurrence materially: it has last digit of a_n + a_{n-1}, while the supplied final statement has last digit of a_n^n + a_{n-1}; MathNet also says positive rather than non-negative."
+    },
+    {
+      "year": 2011,
+      "number": 4,
+      "canonicalId": "bw-2011-04",
+      "mathnetId": "018b",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 5,
+      "canonicalId": "bw-2011-05",
+      "mathnetId": "018c",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 6,
+      "canonicalId": "bw-2011-06",
+      "mathnetId": "018i",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 7,
+      "canonicalId": "bw-2011-07",
+      "mathnetId": "018j",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 8,
+      "canonicalId": "bw-2011-08",
+      "mathnetId": "018k",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 9,
+      "canonicalId": "bw-2011-09",
+      "mathnetId": "018l",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 10,
+      "canonicalId": "bw-2011-10",
+      "mathnetId": "018p",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 11,
+      "canonicalId": "bw-2011-11",
+      "mathnetId": "018t",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 12,
+      "canonicalId": "bw-2011-12",
+      "mathnetId": "018s",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 13,
+      "canonicalId": "bw-2011-13",
+      "mathnetId": "018r",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 14,
+      "canonicalId": "bw-2011-14",
+      "mathnetId": "018x",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 15,
+      "canonicalId": "bw-2011-15",
+      "mathnetId": "018y",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 16,
+      "canonicalId": "bw-2011-16",
+      "mathnetId": "0194",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 17,
+      "canonicalId": "bw-2011-17",
+      "mathnetId": "0195",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 18,
+      "canonicalId": "bw-2011-18",
+      "mathnetId": "0199",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 19,
+      "canonicalId": "bw-2011-19",
+      "mathnetId": "0183",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2011,
+      "number": 20,
+      "canonicalId": "bw-2011-20",
+      "mathnetId": "019b",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2012,
+      "number": 1,
+      "canonicalId": "bw-2012-01",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 2,
+      "canonicalId": "bw-2012-02",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 3,
+      "canonicalId": "bw-2012-03",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 4,
+      "canonicalId": "bw-2012-04",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 5,
+      "canonicalId": "bw-2012-05",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 6,
+      "canonicalId": "bw-2012-06",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 7,
+      "canonicalId": "bw-2012-07",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 8,
+      "canonicalId": "bw-2012-08",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 9,
+      "canonicalId": "bw-2012-09",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 10,
+      "canonicalId": "bw-2012-10",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 11,
+      "canonicalId": "bw-2012-11",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 12,
+      "canonicalId": "bw-2012-12",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 13,
+      "canonicalId": "bw-2012-13",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 14,
+      "canonicalId": "bw-2012-14",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 15,
+      "canonicalId": "bw-2012-15",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 16,
+      "canonicalId": "bw-2012-16",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 17,
+      "canonicalId": "bw-2012-17",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 18,
+      "canonicalId": "bw-2012-18",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 19,
+      "canonicalId": "bw-2012-19",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2012,
+      "number": 20,
+      "canonicalId": "bw-2012-20",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2013,
+      "number": 1,
+      "canonicalId": "bw-2013-01",
+      "mathnetId": "019i",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 2,
+      "canonicalId": "bw-2013-02",
+      "mathnetId": "019n",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 3,
+      "canonicalId": "bw-2013-03",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2013,
+      "number": 4,
+      "canonicalId": "bw-2013-04",
+      "mathnetId": "019p",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 5,
+      "canonicalId": "bw-2013-05",
+      "mathnetId": "01a7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 6,
+      "canonicalId": "bw-2013-06",
+      "mathnetId": "019x",
+      "linkStatus": "equivalent_edit",
+      "note": "MathNet uses a capitalist/business-trip story where the final uses Santa Claus; mathematical structure appears equivalent."
+    },
+    {
+      "year": 2013,
+      "number": 7,
+      "canonicalId": "bw-2013-07",
+      "mathnetId": "019y",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 8,
+      "canonicalId": "bw-2013-08",
+      "mathnetId": "019z",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 9,
+      "canonicalId": "bw-2013-09",
+      "mathnetId": "01a1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 10,
+      "canonicalId": "bw-2013-10",
+      "mathnetId": "01a8",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 11,
+      "canonicalId": "bw-2013-11",
+      "mathnetId": "01a9",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 12,
+      "canonicalId": "bw-2013-12",
+      "mathnetId": "01ac",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 13,
+      "canonicalId": "bw-2013-13",
+      "mathnetId": "01ah",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 14,
+      "canonicalId": "bw-2013-14",
+      "mathnetId": "01aj",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 15,
+      "canonicalId": "bw-2013-15",
+      "mathnetId": "01am",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 16,
+      "canonicalId": "bw-2013-16",
+      "mathnetId": "01an",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 17,
+      "canonicalId": "bw-2013-17",
+      "mathnetId": "01ap",
+      "linkStatus": "related_variant",
+      "note": "MathNet preview uses n+1 written integers with a distinguished c not divisible by n; final statement is phrased with n>c and n integers. Treat as related until full comparison is frozen."
+    },
+    {
+      "year": 2013,
+      "number": 18,
+      "canonicalId": "bw-2013-18",
+      "mathnetId": "01as",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 19,
+      "canonicalId": "bw-2013-19",
+      "mathnetId": "01at",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2013,
+      "number": 20,
+      "canonicalId": "bw-2013-20",
+      "mathnetId": "019k",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 1,
+      "canonicalId": "bw-2014-01",
+      "mathnetId": "01ax",
+      "linkStatus": "corrupt",
+      "note": "MathNet 01ax has RHS 1/2^23; supplied/official-derived final has 1/2^24."
+    },
+    {
+      "year": 2014,
+      "number": 2,
+      "canonicalId": "bw-2014-02",
+      "mathnetId": "01ay",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 3,
+      "canonicalId": "bw-2014-03",
+      "mathnetId": "01b1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 4,
+      "canonicalId": "bw-2014-04",
+      "mathnetId": "01b4",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 5,
+      "canonicalId": "bw-2014-05",
+      "mathnetId": "01b7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 6,
+      "canonicalId": "bw-2014-06",
+      "mathnetId": "01ba",
+      "linkStatus": "related_variant",
+      "note": "MathNet preview starts with a general n-seat formulation; final asks specifically for 16 seats. Full row comparison required before reuse."
+    },
+    {
+      "year": 2014,
+      "number": 7,
+      "canonicalId": "bw-2014-07",
+      "mathnetId": "01bb",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 8,
+      "canonicalId": "bw-2014-08",
+      "mathnetId": "01bg",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 9,
+      "canonicalId": "bw-2014-09",
+      "mathnetId": "01bh",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 10,
+      "canonicalId": "bw-2014-10",
+      "mathnetId": "01bk",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 11,
+      "canonicalId": "bw-2014-11",
+      "mathnetId": "01bl",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 12,
+      "canonicalId": "bw-2014-12",
+      "mathnetId": "01bn",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 13,
+      "canonicalId": "bw-2014-13",
+      "mathnetId": "01bp",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 14,
+      "canonicalId": "bw-2014-14",
+      "mathnetId": "01br",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 15,
+      "canonicalId": "bw-2014-15",
+      "mathnetId": "01bt",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 16,
+      "canonicalId": "bw-2014-16",
+      "mathnetId": "01bw",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 17,
+      "canonicalId": "bw-2014-17",
+      "mathnetId": "01by",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 18,
+      "canonicalId": "bw-2014-18",
+      "mathnetId": "01c3",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 19,
+      "canonicalId": "bw-2014-19",
+      "mathnetId": "01c4",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2014,
+      "number": 20,
+      "canonicalId": "bw-2014-20",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 1,
+      "canonicalId": "bw-2015-01",
+      "mathnetId": "01cb",
+      "linkStatus": "corrupt",
+      "note": "MathNet 01cb gives n(n+1)/2 vertices; final has (n+1)(n+2)/2."
+    },
+    {
+      "year": 2015,
+      "number": 2,
+      "canonicalId": "bw-2015-02",
+      "mathnetId": "01cm",
+      "linkStatus": "corrupt",
+      "note": "MathNet 01cm preview omits the (1-a_n^n) factor on the left side; final includes all n factors."
+    },
+    {
+      "year": 2015,
+      "number": 3,
+      "canonicalId": "bw-2015-03",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 4,
+      "canonicalId": "bw-2015-04",
+      "mathnetId": "01cp",
+      "linkStatus": "related_variant",
+      "note": "MathNet uses a parameter K kilograms; final specializes to 10 kg. Related/generalized version, not identical text."
+    },
+    {
+      "year": 2015,
+      "number": 5,
+      "canonicalId": "bw-2015-05",
+      "mathnetId": "01ce",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2015,
+      "number": 6,
+      "canonicalId": "bw-2015-06",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 7,
+      "canonicalId": "bw-2015-07",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 8,
+      "canonicalId": "bw-2015-08",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 9,
+      "canonicalId": "bw-2015-09",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 10,
+      "canonicalId": "bw-2015-10",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 11,
+      "canonicalId": "bw-2015-11",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 12,
+      "canonicalId": "bw-2015-12",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 13,
+      "canonicalId": "bw-2015-13",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 14,
+      "canonicalId": "bw-2015-14",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 15,
+      "canonicalId": "bw-2015-15",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 16,
+      "canonicalId": "bw-2015-16",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 17,
+      "canonicalId": "bw-2015-17",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 18,
+      "canonicalId": "bw-2015-18",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 19,
+      "canonicalId": "bw-2015-19",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2015,
+      "number": 20,
+      "canonicalId": "bw-2015-20",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2016,
+      "number": 1,
+      "canonicalId": "bw-2016-01",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2016,
+      "number": 2,
+      "canonicalId": "bw-2016-02",
+      "mathnetId": "01dq",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 3,
+      "canonicalId": "bw-2016-03",
+      "mathnetId": "01dr",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 4,
+      "canonicalId": "bw-2016-04",
+      "mathnetId": "01ds",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 5,
+      "canonicalId": "bw-2016-05",
+      "mathnetId": "01dm",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 6,
+      "canonicalId": "bw-2016-06",
+      "mathnetId": "01cr",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 7,
+      "canonicalId": "bw-2016-07",
+      "mathnetId": "01cu",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 8,
+      "canonicalId": "bw-2016-08",
+      "mathnetId": "01cw",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 9,
+      "canonicalId": "bw-2016-09",
+      "mathnetId": "01cy",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 10,
+      "canonicalId": "bw-2016-10",
+      "mathnetId": "01cz",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 11,
+      "canonicalId": "bw-2016-11",
+      "mathnetId": "01d0",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 12,
+      "canonicalId": "bw-2016-12",
+      "mathnetId": "01d3",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 13,
+      "canonicalId": "bw-2016-13",
+      "mathnetId": "01d4",
+      "linkStatus": "equivalent_edit",
+      "note": "MathNet uses a mobile-operator/account story for the same replace-two-by-two-copies-of-sum process; treat as equivalent edit."
+    },
+    {
+      "year": 2016,
+      "number": 14,
+      "canonicalId": "bw-2016-14",
+      "mathnetId": "01d6",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 15,
+      "canonicalId": "bw-2016-15",
+      "mathnetId": "01d2",
+      "linkStatus": "equivalent_edit",
+      "note": "MathNet states the graph version; final states the Baltic Sea/harbours version. Mathematical content equivalent."
+    },
+    {
+      "year": 2016,
+      "number": 16,
+      "canonicalId": "bw-2016-16",
+      "mathnetId": "01da",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 17,
+      "canonicalId": "bw-2016-17",
+      "mathnetId": "01dc",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 18,
+      "canonicalId": "bw-2016-18",
+      "mathnetId": "01dd",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 19,
+      "canonicalId": "bw-2016-19",
+      "mathnetId": "01df",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2016,
+      "number": 20,
+      "canonicalId": "bw-2016-20",
+      "mathnetId": "01dh",
+      "linkStatus": "related_variant",
+      "note": "MathNet concludes concurrent or parallel; supplied final concludes concurrent. Treat as revised variant, not automatic statement reuse."
+    },
+    {
+      "year": 2017,
+      "number": 1,
+      "canonicalId": "bw-2017-01",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 2,
+      "canonicalId": "bw-2017-02",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 3,
+      "canonicalId": "bw-2017-03",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 4,
+      "canonicalId": "bw-2017-04",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 5,
+      "canonicalId": "bw-2017-05",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 6,
+      "canonicalId": "bw-2017-06",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 7,
+      "canonicalId": "bw-2017-07",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 8,
+      "canonicalId": "bw-2017-08",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 9,
+      "canonicalId": "bw-2017-09",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 10,
+      "canonicalId": "bw-2017-10",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 11,
+      "canonicalId": "bw-2017-11",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 12,
+      "canonicalId": "bw-2017-12",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 13,
+      "canonicalId": "bw-2017-13",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 14,
+      "canonicalId": "bw-2017-14",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 15,
+      "canonicalId": "bw-2017-15",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 16,
+      "canonicalId": "bw-2017-16",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 17,
+      "canonicalId": "bw-2017-17",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 18,
+      "canonicalId": "bw-2017-18",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 19,
+      "canonicalId": "bw-2017-19",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2017,
+      "number": 20,
+      "canonicalId": "bw-2017-20",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "canonicalId": "bw-2018-01",
+      "mathnetId": "01du",
+      "linkStatus": "equivalent_edit",
+      "note": "MathNet has an equivalent set-sum formulation of the balanced-collection problem."
+    },
+    {
+      "year": 2018,
+      "number": 2,
+      "canonicalId": "bw-2018-02",
+      "mathnetId": "01dz",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 3,
+      "canonicalId": "bw-2018-03",
+      "mathnetId": "01e0",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 4,
+      "canonicalId": "bw-2018-04",
+      "mathnetId": "01e1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 5,
+      "canonicalId": "bw-2018-05",
+      "mathnetId": "01dv",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 6,
+      "canonicalId": "bw-2018-06",
+      "mathnetId": "01e7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 7,
+      "canonicalId": "bw-2018-07",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2018,
+      "number": 8,
+      "canonicalId": "bw-2018-08",
+      "mathnetId": "01ea",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 9,
+      "canonicalId": "bw-2018-09",
+      "mathnetId": "01eb",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 10,
+      "canonicalId": "bw-2018-10",
+      "mathnetId": "01e4",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 11,
+      "canonicalId": "bw-2018-11",
+      "mathnetId": "01ed",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 12,
+      "canonicalId": "bw-2018-12",
+      "mathnetId": "01el",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 13,
+      "canonicalId": "bw-2018-13",
+      "mathnetId": "01em",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 14,
+      "canonicalId": "bw-2018-14",
+      "mathnetId": "01en",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 15,
+      "canonicalId": "bw-2018-15",
+      "mathnetId": "01eg",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 16,
+      "canonicalId": "bw-2018-16",
+      "mathnetId": "01es",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 17,
+      "canonicalId": "bw-2018-17",
+      "mathnetId": "01et",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 18,
+      "canonicalId": "bw-2018-18",
+      "mathnetId": "01eu",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2018,
+      "number": 19,
+      "canonicalId": "bw-2018-19",
+      "mathnetId": "01ew",
+      "linkStatus": "related_variant",
+      "note": "MathNet uses non-negative integers and concludes all non-negative integers; final uses positive integers. Related variant."
+    },
+    {
+      "year": 2018,
+      "number": 20,
+      "canonicalId": "bw-2018-20",
+      "mathnetId": "01ep",
+      "linkStatus": "related_variant",
+      "note": "MathNet uses non-negative triples; final uses positive triples. Related variant."
+    },
+    {
+      "year": 2019,
+      "number": 1,
+      "canonicalId": "bw-2019-01",
+      "mathnetId": "01f3",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 2,
+      "canonicalId": "bw-2019-02",
+      "mathnetId": "01f6",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 3,
+      "canonicalId": "bw-2019-03",
+      "mathnetId": "01f8",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 4,
+      "canonicalId": "bw-2019-04",
+      "mathnetId": "01f0",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 5,
+      "canonicalId": "bw-2019-05",
+      "mathnetId": "01f1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 6,
+      "canonicalId": "bw-2019-06",
+      "mathnetId": "01fh",
+      "linkStatus": "related_variant",
+      "note": "MathNet preview has the four expressions placed on two double-sided cards, while the final uses four separate cards. Related variant."
+    },
+    {
+      "year": 2019,
+      "number": 7,
+      "canonicalId": "bw-2019-07",
+      "mathnetId": "01fi",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 8,
+      "canonicalId": "bw-2019-08",
+      "mathnetId": "01fn",
+      "linkStatus": "equivalent_edit",
+      "note": "MathNet uses the equivalent graph-of-diameter-2 formulation of the Balticwayland/cops problem."
+    },
+    {
+      "year": 2019,
+      "number": 9,
+      "canonicalId": "bw-2019-09",
+      "mathnetId": "01fe",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 10,
+      "canonicalId": "bw-2019-10",
+      "mathnetId": "01ff",
+      "linkStatus": "related_variant",
+      "note": "MathNet preview is a general \"several points\" disc-separation formulation; final fixes 2019 points. Related/generalized variant."
+    },
+    {
+      "year": 2019,
+      "number": 11,
+      "canonicalId": "bw-2019-11",
+      "mathnetId": "01ft",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 12,
+      "canonicalId": "bw-2019-12",
+      "mathnetId": "01fv",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 13,
+      "canonicalId": "bw-2019-13",
+      "mathnetId": "01fx",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 14,
+      "canonicalId": "bw-2019-14",
+      "mathnetId": "01fp",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 15,
+      "canonicalId": "bw-2019-15",
+      "mathnetId": "01fq",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 16,
+      "canonicalId": "bw-2019-16",
+      "mathnetId": "01fz",
+      "linkStatus": "linked",
+      "note": "MathNet 01fz is the correct 2019 row; the same statement also appears misattributed as MathNet 01h8 under Baltic Way 2020."
+    },
+    {
+      "year": 2019,
+      "number": 17,
+      "canonicalId": "bw-2019-17",
+      "mathnetId": null,
+      "linkStatus": "missing"
+    },
+    {
+      "year": 2019,
+      "number": 18,
+      "canonicalId": "bw-2019-18",
+      "mathnetId": "01g3",
+      "linkStatus": "related_variant",
+      "note": "MathNet 01g3 assumes b,c are odd primes; final only assumes odd positive integers. Materially revised variant."
+    },
+    {
+      "year": 2019,
+      "number": 19,
+      "canonicalId": "bw-2019-19",
+      "mathnetId": "01g7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2019,
+      "number": 20,
+      "canonicalId": "bw-2019-20",
+      "mathnetId": "01g0",
+      "linkStatus": "linked"
+    }
+  ]
+}

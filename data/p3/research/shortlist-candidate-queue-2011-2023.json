@@ -1,0 +1,3198 @@
+{
+  "checkpoint": "BW26 P3 shortlist/variant candidate queue 2011-2023",
+  "status": "research-queue",
+  "warning": "Remaining rows are NOT automatically shortlist-only. Each requires positive appearance/version evidence.",
+  "summary": [
+    {
+      "yearAssociation": 2011,
+      "blockRows": 52,
+      "knownFinalLinkedRows": 20,
+      "remainingRows": 32,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2013,
+      "blockRows": 52,
+      "knownFinalLinkedRows": 19,
+      "remainingRows": 33,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2014,
+      "blockRows": 50,
+      "knownFinalLinkedRows": 19,
+      "remainingRows": 31,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2015,
+      "blockRows": 16,
+      "knownFinalLinkedRows": 4,
+      "remainingRows": 12,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2016,
+      "blockRows": 39,
+      "knownFinalLinkedRows": 19,
+      "remainingRows": 20,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2018,
+      "blockRows": 40,
+      "knownFinalLinkedRows": 19,
+      "remainingRows": 21,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2019,
+      "blockRows": 46,
+      "knownFinalLinkedRows": 19,
+      "remainingRows": 27,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2020,
+      "blockRows": 41,
+      "knownFinalLinkedRows": 17,
+      "remainingRows": 24,
+      "knownDuplicateMisattributionRows": 1
+    },
+    {
+      "yearAssociation": 2021,
+      "blockRows": 38,
+      "knownFinalLinkedRows": 20,
+      "remainingRows": 18,
+      "knownDuplicateMisattributionRows": 0
+    },
+    {
+      "yearAssociation": 2023,
+      "blockRows": 48,
+      "knownFinalLinkedRows": 18,
+      "remainingRows": 30,
+      "knownDuplicateMisattributionRows": 0
+    }
+  ],
+  "rows": [
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0182",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ f(x + f(y)) - f(x) = (x + f(y))^3 - x^3 $$ for all $x, y \\in \\mathbb{R}$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity",
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0184",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $P$ be a polynomial of degree $2011$. Show that there exists an arithmetic sequence $x_1, x_2, \\dots, x_{2011}$ such that $$ \\sum_{k=1}^{2011} P(x_k) = 2011. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Intermediate Value Theorem"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0185",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $\\mathbb{R}$ denote the set of real numbers. Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ x f(f(y)) + y f(y - x) = f(f(x + y) - x) f(y) $$ for all $x, y \\in \\mathbb{R}$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0186",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "The non-negative real numbers $a$, $b$, $c$ satisfy $a + b + c = 1$. What is the largest possible value of $$ a^2b + ab^2 + b^2c + bc^2 + a^2c + ac^2? $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0187",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "For any real number $a$ we define a sequence $x_0, x_1, \\dots$ such that $x_0 = a$ and $x_{i+1} = 3x_i - x_i^3$ for all $i \\ge 0$. Determine the number of reals $a$ for which $x_{2011} = x_0$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018a",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $x$, $y$, $z$, $t$ be positive real numbers such that $xyzt = 1$ and $$ \\frac{x}{y} + \\frac{y}{z} + \\frac{z}{t} + \\frac{t}{x} \\leq x + y + z + t. $$ Prove that $$ \\frac{y}{x} + \\frac{z}{y} + \\frac{t}{z} + \\frac{x}{t}",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018d",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Compute the sum $$ \\sum_{n=1}^{\\infty} \\frac{F_n}{10^{n+1}} $$ where $F_n$ is the $n$th Fibonacci number given by $F_1 = F_2 = 1$ and $F_{n+1} = F_n + F_{n-1}$ for all $n \\geq 2$.",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Generating functions",
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018e",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "In an urn there are $100$ balls each coloured either blue, red or green. If you draw (without repetitions) two balls randomly from the urn, the probability of getting two balls of different colour is $58\\%$, and the prob",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018f",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Call an *n*-tuple $(a_1, \\dots, a_n)$ of real numbers *stable* if the sums $a_1 + a_2 + \\dots + a_k$ where $0 < k \\le n$, as well as the sums $a_n + a_{n-1} + \\dots + a_{n-k}$ where $0 \\le k < n$, are either all negative",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018g",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "A $2011 \\times 2011$ square grid is divided into triangles by the diagonals of the squares. What is the total number of isosceles triangles in the figure?",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Enumeration with symmetry",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018h",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Aino and Väinö start to play the game GCD($m, n$) where $m$ and $n$ are positive integers. In the beginning there are two piles of stones on the table, one with $m$ stones, another with $n$ stones. The one whose turn it ",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018m",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Math competition is held in $8$ different levels of difficulty. The organizing committee has to prepare $5$ problems for each level. The same problem can be used for more than one level, but each two levels can have at m",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018n",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "In a group of $n$ people everyone has at least $k$ friends. Each day every member of the group shares with all his friends all the news that he received in the previous days. Suppose that if some information is revealed ",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Graph Theory",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018o",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "There are $2011$ people in a city. For some period of time every day a group of at least $4$ people went to a restaurant to have dinner. No group of $3$ people went together to more than one dinner. Prove that there exis",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018q",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "A deck consists of $3n$ cards, $n$ each colored red, green and blue in denominations $1$ through $n$. We choose a subset $S$ of the denominations and deal all cards of the chosen denominations into three equal size hands",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Algebraic properties of binomial coefficients"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018u",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $A$ and $B$ be two circles, external to each other. Let $\\ell$ be a line not meeting the circles. For any point $X$ on $\\ell$, let $E$ be a point of contact of a tangent to $A$ through $X$, and $F$ a point of contact",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Triangles > Triangle inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018v",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "A circulator is an instrument which draws the circumcircle of three given points in the plane (if the points happen to be collinear, it draws the line through them). Is it possible to construct, only with the help of a c",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Inversion",
+        "Geometry > Plane Geometry > Circles",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018w",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $a$, $b$, and $c$ be the lengths of the sides of a triangle, $R$ the radius of its circumcircle, and $r$ the radius of its incircle. Prove that $$ \\frac{Rr}{(a+b+c)^2} \\le \\frac{1}{54}. $$",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Triangles > Triangle inequalities",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "018z",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Let $\\Gamma$ be a circle, and $A$ a point outside $\\Gamma$. For a point $B$ on $\\Gamma$, let $C$ be the third vertex of the equilateral triangle $ABC$ (with vertices $A$, $B$ and $C$ going clockwise). Find the path trace",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Circles"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0190",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Suppose that the quadrilateral $ABCD$ satisfies $\\angle ABD = 30^\\circ$, $\\angle CDB = 20^\\circ$ and $\\angle BCA = \\angle ACD = 40^\\circ$. Determine $\\angle DAC$.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0191",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "The side of a triangle is subdivided by the bisector of its opposite angle into two segments of lengths $1$ and $3$. Determine all possible values of the area of that triangle.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Circle of Apollonius",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0192",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Two disks are placed inside a square. What is the maximal proportion of the square that can be covered by the disks, if they are not permitted to overlap? Is it possible to cover more if overlap is allowed?",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0193",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Consider a right angled triangle $ABC$ with sides of length $3$, $4$, and $5$. Determine the greatest possible radius of a circle that is tangent to two among the lines $BC$, $CA$, and $AB$ and that in addition passes th",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0196",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Find all functions $f$ from the set of all positive integers to the same set such that, for all positive integers $a_1, \\dots, a_k$ with $k > 0$, the sum $a_1 + \\dots + a_k$ divides the sum $f(a_1) + \\dots + f(a_k)$.",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Number Theory > Divisibility / Factorization"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0197",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "For any natural number $n$, denote by $N(n)$ the number of digits of $n$ and by $S(n)$ the sum of digits of $n$. (Assume that numbers do not start with zero.) Which digits can occur in a natural number $n$ if $\\frac{n}{S",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Other",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "0198",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Decide, whether there exists a set $M$ consisting of five integers such that for any integer $k$ not divisible by $5$ there exist $a, b \\in M$ such that $a - b + k$ is divisible by $25$.",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems",
+        "Number Theory > Modular Arithmetic > Polynomials mod p",
+        "Algebra > Algebraic Expressions > Polynomials > Symmetric functions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019a",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Prove that there exist infinitely many natural numbers $n$ such that all prime factors of $n^2 + 1$ are less than $n$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Number Theory > Modular Arithmetic > Polynomials mod p"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019c",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Find the smallest value of $k$ with the following property: Among any $k$ consecutive positive integers there exists a number $n$ such that the sum of all positive divisors of $n$ is even.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > σ (sum of divisors)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019d",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "All ten-digit numbers composed of digits $1$ and $2$ are divided by $1024$ (with the remainder). How many different reminders are obtained by these calculations?",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Modular Arithmetic"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019e",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Nonnegative integers $a$ and $b$ have the following property: $d(na) \\ge d(nb)$ for each positive integer $n$ (where $d(k)$ is the number of divisors of $k$). Prove that $a$ is divisible by $b$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > τ (number of divisors)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019f",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "A number $N$, written in decimal notation, consists of $2011$ digits. All the digits are $1$, except the middle digit. If $N$ is divisible by $13$, find the middle digit.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2011,
+      "sourceId": "019g",
+      "rawCompetition": "Baltic Way 2011 Problem Shortlist",
+      "statementPreview": "Find all integer solutions to the equation $$ 2x^3 - y^2 = 3. $$",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Modular Arithmetic"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019h",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Determine all sequences $a_0, a_1, a_2, \\dots$ of positive reals such that $$ a_{n^2+m^2} = a_n a_m^n $$ for all $n, m$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019j",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $a_1 = 1$, $a_2 = 10$ and $a_{n+1} = 2a_n + 3a_{n-1}$, $n > 1$. Then the infinite sum $$ P(x) = \\sum_{i=1}^{\\infty} a_i x^i, $$ is defined and finite for $x \\in ] -\\frac{1}{3}, \\frac{1}{3}[$. Find all $y \\in \\mathbb{",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations",
+        "Discrete Mathematics > Combinatorics > Generating functions",
+        "Number Theory > Divisibility / Factorization"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019l",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Prove the inequality $$ \\frac{1}{k} + \\frac{1}{k+1} + \\dots + \\frac{1}{n} \\ge \\frac{2(n-k+1)}{n+k} $$ for all pairs $(n, k)$ of positive integers such that $k \\le n$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019m",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $0 \\le a, b, c \\le 1$ be distinct real numbers. Determine the minimum value of $$ \\frac{1}{|a-b|^3} + \\frac{1}{|b-c|^3} + \\frac{1}{|c-a|^3}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019o",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Polynomials $P(x)$ and $Q(x)$ of rational coefficients are sums of three squares of polynomials of rational coefficients. Show that polynomial $P(x) \\cdot Q(x)$ is a sum of four squares of polynomials of rational coeffic",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019q",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Prove that for positive $a$, $b$, $c$ and $l > m$ $$ \\frac{a^{3l} + a^{3m} + 1}{a^l + b^{l-m}a^m + b^l} + \\frac{b^{3l} + b^{3m} + 1}{b^l + c^{l-m}b^m + c^l} + \\frac{c^{3l} + c^{3m} + 1}{c^l + a^{l-m}c^m + a^l} \\ge a^m + ",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019r",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "A set $a_1 \\ge a_2 \\ge \\dots \\ge a_{100n}$ of positive numbers has the following property. For any subset of $2n + 1$ numbers, the sum of $n$ maximal numbers in this subset is greater than the sum of the remaining $n + 1",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Equations and Inequalities > Combinatorial optimization",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019s",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Prove the inequality $$ \\frac{a}{a + \\sqrt{(a+b)(a+c)}} + \\frac{b}{b + \\sqrt{(b+c)(b+a)}} + \\frac{c}{c + \\sqrt{(c+a)(c+b)}} \\le 1, $$ in which $a$, $b$ and $c$ are assumed to be positive numbers.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019t",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "In a one man game there are $n$ boxes numbered $1, 2, 3, \\dots, n$. In the beginning there are $21k$ balls in box $k$, $k = 1, 2, 3, \\dots, n$. In each turn you take two balls from box $k$, put one of the balls in box $k",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Number Theory > Divisibility / Factorization"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019u",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "For which positive integers $k$ can the integers $1, 2, 3, \\dots, (2k)^2$ be arranged as a $2k \\times 2k$ table in such a way that all row sums and column sums were of the same parity, opposite to that of $k$?",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019v",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "There are some lamps in a row. Initially, some of the lamps are on, and the rest are off. We may change the states of the lamps by the following operations: (1) Change the state of the rightmost lamp; (2) Change the stat",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "019w",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $k$ and $n$ be two integers satisfying $1 \\le k < n$. Consider $kn + 1$ rooks placed on an $n \\times n$-chessboard. Prove that among them one may find $k + 1$ rooks no two of which attack each other.",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a0",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "The degree of each vertex in a graph $G$ does not exceed $100$. We remove edges of this graph. In one step we can remove an arbitrary set of edges without common endpoints which is maximal (in a sense that if we add to t",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Graph Theory > Matchings, Marriage Lemma, Tutte's theorem",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a2",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Does there exist a figure on the squared plane that can be split onto dominoes by exactly 17 ways?",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a3",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $B_n$ be a number of ways to partition a $n$-element set onto non-empty parts. For example, $B_3 = 5$ because we have the following partitions of the 3-element set $\\{a, b, c\\}$: $$ \\{a, b, c\\}; \\quad \\{a\\}, \\{b, c\\}",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Enumeration with symmetry",
+        "Number Theory > Modular Arithmetic"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a4",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "A cube $10 \\times 10 \\times 10$ is split into $1000$ unit cubes. The $5 \\times 5 \\times 5$ sub-cube in the corner of the big cube is colored black, all other small cubes are white. In one operation we can change colors o",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Geometry > Solid Geometry > Other 3D problems"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a5",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Livia has a deck of $n$ cards. She proceeds to discard the cards of the deck according to the following pattern: In each consecutive round, she will remove the cards numbered $1$, $2$, $4$, $6$, $8$, \\ldots\\ (i.e., the c",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Algebra > Intermediate Algebra > Logarithmic functions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01a6",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Prove that there are at least 2013 different values of $m$, such that $m \\times m$ square grid can be cut along grid lines into pieces $D_1, D_2, \\dots, D_n$, such that $D_i$ consists of exactly $i$ cells.",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Diophantine Equations > Pell's equations",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01aa",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Three line segments, all of length $1$, form a connected figure on the plane. Any point that is common to two of these line segments is an endpoint of both segments. Find the maximum area of the convex hull of the figure",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Geometric Inequalities > Jensen/smoothing",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Trigonometry",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ab",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "A triangle $ABC$ satisfies $AB < AC$. Let $I$ be the center of the excircle tangent to the side $AC$. Point $P$ lies inside of the angle $BAC$, but outside of the triangle $ABC$ and satisfies $\\angle CPB = \\angle PBA + \\",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ad",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "$D$ is a point inside triangle $ABC$. The circle $S_1$ inscribed in the triangle $ABD$ touches the circle $S_2$ inscribed in the triangle $CBD$. Prove that the intersection point of outer common tangent lines of circles ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Inscribed/circumscribed quadrilaterals"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ae",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "$A$ and $B$ are points on a given circle. Points $C$ and $D$ move along the circle such that $C$ and $D$ are on the same side of the line $AB$ and the length of the segment $CD$ does not change. $I_1$ and $I_2$ are incen",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01af",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Circles $S_1$ and $S_2$ intersect in points $P$ and $Q$ and lay inside an inscribed quadrilateral $ABCD$. $S_1$ touches the sides $AB$, $BC$ and $AD$; $S_2$ touches the sides $CD$, $BC$ and $AD$. The lines $PQ$, $AB$, $C",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ag",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Consider a triangle *ABC*, satisfying $BC < \\frac{AC+AB}{2}$. Prove that $\\angle BAC < \\frac{\\angle CBA+\\angle ACB}{2}$.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle inequalities",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ai",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $ABC$ be a triangle, and let $X$, $Y$, $Z$ be points on $BC$, $CA$, $AB$, respectively. Suppose that $AX$, $BY$ and $CZ$ intersect in a point $P$. Prove that $$ \\frac{AP}{AX} + \\frac{BP}{BY} + \\frac{CP}{CZ} = 2. $$",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Concurrency and Collinearity > Ceva's theorem",
+        "Geometry > Plane Geometry > Advanced Configurations > Isogonal/isotomic conjugates, barycentric coordinates"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ak",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "A circle $\\omega$ is tangent to the side $BC$ of a triangle $ABC$ at point $T$. The side $AB$ intersects $\\omega$ at points $P$ and $R$ ($A$ is closer to $P$ than $R$); the side $AC$ intersects $\\omega$ at points $Q$ and",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Concurrency and Collinearity > Ceva's theorem",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Circles > Radical axis theorem"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01al",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "*A* and *B* are two convex polygons without common points. None of them is fully contained inside the other one. Prove that there exists such a line *l* that does not intersect each of the polygons and *A* and *B* lie on",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Combinatorial Geometry > Convex hulls",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ao",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "$$ R(k) = \\underbrace{22\\dots22}_{k} 1. $$ Find all positive integers $n$ such that $$ 2013 \\mid R(10^n). $$",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Residues and Primitive Roots > Multiplicative order",
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01aq",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "$$ a^b b^c c^a = p. $$ Find all triples $(a, b, c)$ of integers (not necessarily positive) such that the equation holds, where $p$ is a prime number.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01ar",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $X = \\{x_0, \\dots, x_{n-1}\\}$ be an $n$-element set of real numbers such that $0 < |x_0| \\le \\dots \\le |x_{n-1}|$. Prove that the sums of elements of all subsets of $X$ are $2^n$ consecutive members of an arithmetic ",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01au",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "$$ 3 \\cdot 5^x - 2 \\cdot 6^y = 3 $$ in positive integers $x$, $y$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Modular Arithmetic",
+        "Number Theory > Residues and Primitive Roots > Multiplicative order"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01av",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Let $x$ and $y$ be non-negative integer solutions of the equation $$ 2x^2 - 17xy + y^2 + x = 0. $$ Prove that $x$ is a perfect square.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2013,
+      "sourceId": "01aw",
+      "rawCompetition": "Baltic Way 2013",
+      "statementPreview": "Find all pairs of natural numbers $p > q$ such that $$ \\frac{p+1}{p} \\cdot \\frac{q+1}{q} = \\frac{2013}{2011}. $$",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01az",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $a, b, c > 0$ and $abc = 1$. Prove that $$ \\frac{a^{2014}}{1+2bc} + \\frac{b^{2014}}{1+2ca} + \\frac{c^{2014}}{1+2ab} \\ge \\frac{3}{ab+bc+ca} $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b0",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Real numbers $x$ and $y$ are such that $x^4 y^2 + y^4 + 2x^3 y + 6x^2 y + x^2 + 8 \\le 0$. Prove that $x \\ge -1/6$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities",
+        "Algebra > Intermediate Algebra > Quadratic functions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b2",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $a_0, a_1, \\dots, a_N$ be real numbers where $a_0 = a_N = 0$. Prove the inequality $$ a_1^2 + a_2^2 + \\dots + a_{N-1}^2 \\le C \\left((a_1 - a_0)^2 + (a_2 - a_1)^2 + \\dots + (a_N - a_{N-1})^2\\right), $$ where $C = \\fra",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products",
+        "Algebra > Linear Algebra > Vectors",
+        "Algebra > Linear Algebra > Matrices"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b3",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "For fixed positive integers $a$ and $b$, find all strictly increasing functions $f$ from positive integers to positive integers such that, for any positive integer $n > a$, $$ f(f(n - a) + n) = n + b. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity",
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b5",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a strictly increasing function, and $f(x) > x$ for every $x$. Assume that $$ f(x) + f^{-1}(x) = 2x $$ for all $x \\in \\mathbb{R}$. Show that $f(x) = x + f(0)$ for all $x \\in \\mathbb{R",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b6",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "A function $f$ defined on the set of real numbers $\\mathbb{R}$ and taking nonnegative real values satisfies the condition $$ f(x + y) \\le 2 \\max\\{f(x), f(y)\\} $$ for all $x, y \\in \\mathbb{R}$. Is it true that for each po",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b8",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Does there exist a positive integer $m$ and a polynomial $P(x)$ with real coefficients for which $x^m + x + 2 = P(P(x))$ for all real $x$?",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Algebraic Expressions > Polynomials > Irreducibility: Rational Root Theorem, Gauss's Lemma, Eisenstein"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01b9",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Prove that, for any positive integers $d$ and $m$, a polynomial of degree $d$ with real coefficients cannot be expressed by a product of $m$ periodic functions. (A function $f: \\mathbb{R} \\to \\mathbb{R}$ is called *perio",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials",
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bc",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "A rectangle of size $m \\times n$ consisting of $m \\cdot n$ squares of size $1 \\times 1$ is given. Compute the sum of areas of all subrectangles consisting of some of the $m \\cdot n$ squares.",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bd",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $n \\ge 4$ be an even integer. In how many ways can one select four different positive integers $k$, $1 \\le k \\le n$, so that the sum of two of the chosen numbers equals the sum of the other two?",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01be",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "A square-shaped pizza with a side length $30$ cm is cut into pieces. All cuts are parallel to the sides, and the total length of them is $240$ cm. Show that there is a piece which has an area at least $36\\ \\text{cm}^2$.",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bf",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Two players play a game on an $N \\times N$ board. The players alternately mark a cell in such a way that there is never a diagonal on the board containing two marked cells. For which $N > 0$ does the starting player have",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bi",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "There is a big crowd of boys and girls. Is it always possible to give them hats of $100$ colors (everybody gets one hat) such that if some boy is familiar with at least $2014$ girls then all these girls have hats of at l",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bj",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Is it possible to subdivide a convex $2014$-gon, by means of diagonals that do not intersect, into triangles, in such a way that each vertex be incident to an odd number of triangles?",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Combinatorial Geometry",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bm",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $ABC$ be a triangle with circumcircle $\\omega$. Let $D$, $E$ and $F$ be points on the sides $BC$, $CA$ and $AB$ such that the circumcircle of the triangle $DEF$ touches $\\omega$ at $A$. Let $G$ and $H$ be the interse",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bo",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Points $X$, $Y$, $Z$ lie on a line $k$ in this order. Let $\\omega_1$, $\\omega_2$, $\\omega_3$ be three circles of diameters $XZ$, $XY$, $YZ$, respectively. Line $l$ passing through point $Y$ intersects $\\omega_1$ at point",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bq",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $ABC$ be a triangle with $AB \\neq AC$. The angle bisector of $\\angle BAC$ intersects $BC$ in $D$. The circle with diameter $AD$ intersects $AC$ again in $P$, and $BC$ again in $Q$. The point $R \\neq Q$ lies on the li",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Transformations",
+        "Geometry > Plane Geometry > Circles",
+        "Geometry > Plane Geometry > Triangles"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bs",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "The quadrilateral $Q$ has a longest side of length $b$ and a shortest side of length $a$. Form a new quadrilateral $Q'$ by joining the successive midpoints of the edges of $Q$. Supposing that $Q$ and $Q'$ are similar, pr",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bu",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Does there exist positive real numbers $a$ and $b$ such that $\\lfloor an + b \\rfloor$ is a prime for each positive integer $n$?",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bv",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $p$ be a prime number. Find $$ 1! \\cdot 2^2 + 2! \\cdot 3^2 + 3! \\cdot 4^2 + \\dots + (p-3)! \\cdot (p-2)^2 \\quad \\mod p. $$",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Telescoping series",
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bx",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Determine all quadruples of consecutive positive integers such that three of the numbers are sides and one the area of a right triangle. (Units of length and area are compatible.)",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Geometry > Plane Geometry > Triangles",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01bz",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Prove that for any positive integer $d$ it is possible to find two distinct positive integers $n_1$ and $n_2$ such that * $n_2$ can be obtained from $n_1$ by permuting its digits, * both $n_1$ and $n_2$ are divisible by ",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Prealgebra / Basic Algebra > Integers",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c0",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "A sequence of positive integers $\\{s_i\\}$ is constructed in the following way: $s_1 = 2$, and for all $i > 1$ $s_i$ is the least number that is larger than $s_{i-1}$ and contains digit: * \"2\" if $i = 1$ (mod 4) * \"0\" if ",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Prealgebra / Basic Algebra > Integers",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c1",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Show that there exist two distinct positive integers $a, b$, each having exactly 2014 digits (in base ten; initial zeroes disallowed), with the following properties. * The digits of $b$ are those of $a$ in reverse order.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c2",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $T(a)$ be the sum of digits of $a$. For which $R \\in \\mathbb{N}$ does there exist an $n \\in \\mathbb{N}$ such that $\\frac{T(n^2)}{T(n)} = R$?",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Other",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c5",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $S$ be a finite set of positive rational numbers. Let $x_1, x_2, x_3, \\dots$ be a sequence such that $x_1 = 0$ and for every positive integer $n$ there exists some $q_n \\in S$ such that $x_{n+1} = \\sqrt{x_n + q_n}$. ",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Algebra > Prealgebra / Basic Algebra > Fractions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c6",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "A doubly infinite sequence $a_n$, for $n \\in \\mathbb{Z}$, has each $a_n$ equal to either $0$ or $1$. Prove that there exist numbers $p$ and $q > 1$ such that $a_{p+k} = a_{p+q+k}$ for $k = 0, 1, \\dots, q-1$.",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Logic",
+        "Discrete Mathematics > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c7",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $\\omega(n)$ denote the number of distinct prime factors of a positive integer $n$. Show that there are infinitely many positive integers $n$ such that $\\omega(n) < \\omega(n+1) < \\omega(n+2)$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c8",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Let $q$ be a fixed positive rational number. Call number $x$ *charismatic* if there exist a positive integer $n$ and integers $\\alpha_1, \\alpha_2, \\dots, \\alpha_n$ such that $$ x = (q+1)^{\\alpha_1} \\cdot (q+2)^{\\alpha_2}",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01c9",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Find integers $0 < a_1 < a_2 < a_3 < a_4$ such that for any $1 \\le k < l \\le 4$ number $a_k \\cdot a_l + 1$ is a square of an integer.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Pell's equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2014,
+      "sourceId": "01ca",
+      "rawCompetition": "Baltic Way",
+      "statementPreview": "Find all pairs of positive integers $(a, b)$ for which both numbers $4ab + 1$ and $ab^3 + 1$ are perfect squares.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Pell's equations",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cc",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Consider four positive real numbers $a$, $b$, $c$ and $d$, satisfying $$ a^2 + ab + b^2 = 3c^2 \\quad \\text{and} \\quad a^3 + a^2b + ab^2 + b^3 = 4d^3. $$ Prove that $$ a + b + d \\le 3c. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities",
+        "Algebra > Algebraic Expressions > Polynomials > Symmetric functions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cd",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Which number is greater, $$ sin 1 - cos 1 \\quad \\text{or} \\quad \\frac{1}{4} ? $$",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Equations and Inequalities > Jensen / smoothing",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Trigonometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cf",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ satisfying, for all $x \\neq 0$ and all $y$, $$ f(x + y^2) = f(x) + f(y)^2 + \\frac{2f(xy)}{x}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cg",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Let $a$ and $b$ be positive numbers. Find all pairs of functions $f, g: \\mathbf{R} \\to \\mathbf{R}$, each assuming the value $1$ and fulfilling, for any $y \\ne 0$ and any $x$, the equations $$ f\\left(\\frac{1}{y^2}g(xy) - ",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01ch",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Prove that, for positive $x$, $y$, $z$, the following inequality holds: $$ (x + y + z)(4x + y + 2z)(2x + y + 8z) \\geq \\frac{375}{2}xyz. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01ci",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "For $x \\geq \\frac{1}{2}$, what is the largest possible value of the expression $$ \\frac{x^4 - x^2}{x^6 + 16x^3 - 1}? $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Intermediate Algebra > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cj",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "The numbers $$ \\frac{1}{2016}, \\frac{2}{2016}, \\frac{3}{2016}, \\dots, \\frac{2015}{2016} $$ are written on a blackboard. With each move, one may erase any two numbers $a$ and $b$ and replace them with $$ 3ab - 2a - 2b + 2",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01ck",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "A function $f: \\mathbb{R} \\to \\mathbb{R}$ satisfies $$ f(f(a)) = f(a) \\quad \\text{and} \\quad f(a+b) = f(a) + f(b) $$ for all real numbers $a, b$. Prove that, for all real $x$, there exists a unique $y$ such that $f(y) = ",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity",
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cl",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Let $m$ and $n$ be positive integers and let the integer $X \\ge \\max(m, n)$. Show that there exist integers $u$ and $v$, not both equal to $0$, such that $$ \\max(|u|, |v|) \\le \\sqrt{X} \\quad \\text{and} \\quad 0 \\le m u + ",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cn",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Let $B$, $A$, $L$, $T$, $I$, $C$ be positive numbers. Find all possible values of the expression $$ \\frac{BA}{(C+B)(A+L)} + \\frac{LT}{(A+L)(T+I)} + \\frac{IC}{(T+I)(C+B)}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities",
+        "Algebra > Prealgebra / Basic Algebra > Fractions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01co",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "Let $P$ be a real polynomial of degree $2015$ and $Q$ a real quadratic polynomial. Could it be that the polynomial $P(Q(x))$ has precisely the roots $$ -2014, -2013, \\dots, -2, -1, 1, 2, \\dots, 2014, 2015, 2016? $$",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Vieta's formulas",
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2015,
+      "sourceId": "01cq",
+      "rawCompetition": "Baltic Way 2015 Shortlisted Problems",
+      "statementPreview": "In the parliament of Neverland, all legislative work is carried out in committees of three people. The constitution dictates that any four people can be in at most two committees. We call a collection of committees a *cl",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01cs",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Prove that $$ \\sqrt{\\frac{1}{3x+1}} + \\sqrt{\\frac{x}{x+3}} \\ge 1 $$ holds for all $x > 0$. For which values of $x$ is there an equality?",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01ct",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Find all combinations of four integers $(a, b, c, d)$ satisfying the equations $$ \\begin{cases} -a^2 + b^2 + c^2 + d^2 = 1 \\\\ 3a + b + c + d = 1. \\end{cases} $$",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01cv",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Is it true that for any real numbers $a$, $b$, $c$ and $d$ satisfying $a^2 + b^2 + (a-b)^2 = c^2 + d^2 + (c-d)^2$ also the equality $$ a^3 + b^3 + (a-b)^3 = c^3 + d^3 + (c-d)^3 $$ $$ a^4 + b^4 + (a-b)^4 = c^4 + d^4 + (c-",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01cx",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Find all real solutions of the equation $$ \\frac{(x + y)(2 - \\sin(x + y))}{4 \\sin^2(x + y)} = \\frac{xy}{x + y}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01d1",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Prove that $$ \\sum_{k=1}^{n} (-1)^k \\binom{n}{k} \\binom{kn}{n} = (-n)^n $$",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Inclusion-exclusion",
+        "Discrete Mathematics > Combinatorics > Algebraic properties of binomial coefficients"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01d5",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "A *magic octagon* is an octagon whose sides go along the grid lines of a square grid and side lengths are $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$ (in any order). What is the largest possible area of a magic octagon?",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01d7",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "All $n$-digit positive integers from $10^{n-1}$ to $10^n - 1$ are concatenated in the increasing order. What is the largest possible value of $k$ for which it is possible to find in this sequence of digits the same $k$-d",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01d8",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "There are $n$ students at a school. It is known that, for any two students $A$ and $B$, either $A$ loves $B$ or $B$ loves $A$ (but not both). (A student may thus be in love with several other students.) A *love triangle*",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01d9",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $k$ and $t$ be integers with $1 \\le k/2 < t < k$. Each square of a $k \\times k$ checkerboard is coloured either red or blue. A move consists of choosing a row or a column with at most $t$ red squares and switching th",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01db",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $M$ and $N$ be the midpoints of the sides $AC$ and $AB$, respectively, of an acute triangle $ABC$. Let $\\omega_B$ be the circle centered at $M$ passing through $B$, and let $\\omega_C$ be the circle centered at $N$ pa",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01de",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $ABC$ be a triangle and $D$ and $E$ points on the lines $CA$ and $BA$ such that $CD = AB$, $BE = AC$ and $A$, $D$ and $E$ lie on the same side of $BC$. Let $I$ be the incenter of $ABC$ and let $H$ be a point such tha",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Transformations > Translation",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dg",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $ABCD$ be a convex quadrilateral. Let $P$ be a point such that $\\angle APC = \\angle BPD = 30^\\circ$. Prove that $$ 2(AB + AC + AD + BC + BD + CD) \\geq PA + PB + PC + PD. $$",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals",
+        "Geometry > Plane Geometry > Triangles > Triangle inequalities",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01di",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $ABC$ be a triangle and let $P$ be a point such that $AP$ is the angle bisector of $\\angle BAC$ and segment $BC$ bisects segment $AP$. Prove that perimeter of triangle $ABC$ is greater than or equal to perimeter of t",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dj",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Starting with three points $A$, $B$, $C$ in general position and the circumcircle $k$ of $\\triangle ABC$, a step consists of drawing a line $l$ and obtaining all points of intersection of $l$ with the lines already drawn",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dk",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Prove that $$ \\sqrt{1 + \\frac{1}{n^2} + \\frac{1}{(n+1)^2}} $$ is rational for every positive integer $n$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Prealgebra / Basic Algebra > Fractions"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dl",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Let $a_1, \\dots, a_{2016}$ and $b_1, \\dots, b_{2016}$ be two reorderings of the numbers $1, \\dots, 2016$. Prove that $$ 2017 \\mid a_i b_i - a_j b_j $$ for some distinct indices $i$ and $j$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dn",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Do there exist positive integers $a, b, c$, such they have no common divisor and $$ ab + bc + ca = (a + b - c)(b + c - a)(c + a - b)? $$",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Modular Arithmetic > Polynomials mod p"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01do",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Determine all positive integers $a$ and all primes $p$ fulfilling the equation $$ (a - p)^3 = a + p. $$",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dp",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "A finite sequence $d_{n-1}, d_{n-2}, \\dots, d_1, d_0$ of digits is called a *stable final segment of length $n$* if it has the following property: If $m$ is any positive integer such that the last $n$ digits of $m$ are $",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Modular Arithmetic > Chinese remainder theorem",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2016,
+      "sourceId": "01dt",
+      "rawCompetition": "Baltic Way 2016",
+      "statementPreview": "Find all pairs $p, q$ of distinct primes, sets $D \\subseteq \\mathbb{R}$ and functions $f: D \\to D$ fulfilling $$ f^p(x) = x^p \\quad \\text{and} \\quad f^q(x) = x^q $$ for all $x \\in D$. (Here, $f^n$ denotes the $n$'th iter",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01dw",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "A grasshopper is jumping along the set $\\mathbb{Z}$ of integers. He starts at the origin; and for each jump, he may decide whether to jump to the left or to the right. For each $n \\in \\mathbb{N}_0$, the $n$-th jump has l",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Modular Arithmetic",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01dx",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let there be an operator $*$. Given an expression that includes this operator, one can make the following transformations: 1. An expression of the form $x * (y * z)$ can be rewritten as $((1 * x) * y) * z$; 2. An express",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Logic"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01dy",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $a_1, a_2, \\dots, a_{100}$ be a permutation of numbers $1, 2, \\dots, 100$. Denote by $N$ the number of different values of the sums $$ \\sum_{i=u}^{v} a_i, \\quad \\text{where} \\quad 1 \\le u \\le v \\le 100. $$ Is it poss",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e2",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ that for all real $x$ and $y$ satisfy the equation $$ f(y^2 - f(x)) = yf(x)^2 + f(x^2y + y). $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e3",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Compute the following product: $$ \\prod_{m=1}^{2018} \\frac{(2m-1)^4 + \\frac{1}{4}}{(2m)^4 + \\frac{1}{4}} $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Algebraic Expressions > Sequences and Series > Telescoping series"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e5",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Grandfather has a finite number of empty dustbins in his attic. Each dustbin is a rectangular parallelepiped with integral side lengths. A dustbin can be thrown away into another iff the side lengths of these dustbins ca",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms",
+        "Discrete Mathematics > Algorithms",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e6",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $M$ be a subset of a plane sufficing following properties: 1) There is no single line $k$, such that $M \\subset k$. 2) For any parallelogram $ABCD$ if $A, B, C \\in M$, then $D \\in M$. 3) If $A, B \\in M$, then $|AB| >",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Translation",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Vectors"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e8",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $b_i$, $c_i$, $0 \\le i \\le 100$ be two sequences of positive integers with two exceptions: $c_0 = 0$, $b_{100} = 0$. Several villages are connected by roads, each road connects two villages which are called neighbour",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01e9",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "One of the cells of $20 \\times 20$ torus contains a buried treasure. Today, in order to find the treasure we select several rectangles $1 \\times 4$ or $4 \\times 1$ on this torus and ask the sapper to investigate them by ",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle",
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ec",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "There are $2019$ plates placed around a round table and on each of them there is one coin. Alice and Bob are playing a game that proceeds in rounds indefinitely as follows. In each round, Alice first chooses a plate on w",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ee",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $\\omega_1$ and $\\omega_2$ be two circles with centers $O_1$ and $O_2$, respectively, with $O_2$ lying on $\\omega_1$. Let $A$ be a common point of $\\omega_1$ and $\\omega_2$. A line through $A$ intersects $\\omega_1$ in",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ef",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $ABCD$ be a trapezoid with $AD \\parallel BC$ and $\\angle ADC = \\angle BAD$, and let $\\ell$ be a line not intersecting the linesegments $AC$ or $BD$. Assume that $\\ell$ intersects the lines $AC, AD, BC, BD$ and $CD$ i",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Advanced Configurations > Miquel point"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01eh",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Given a triangle $\\Delta$ with circumradius $R$ and inradius $r$, prove that the area of the circle with radius $R + r$ is at least 5 times greater than the area of the triangle $\\Delta$.",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Geometric Inequalities > Jensen/smoothing",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ei",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "A convex quadrilateral $ABCD$ is right-angled at $A$ and fulfils $BC + CD = 1$. Determine its greatest possible area.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Trigonometry",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ej",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $ABC$ be an acute triangle, $H$ its orthocentre, and $M$ the midpoint of $BC$. Furthermore, let $k_1$ and $k_2$ be the circle with diameter $AH$ and the circle with center $M$ that touches the circumcircle of triangl",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ek",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $\\omega$ be a circle and $A$ a point outside of $\\omega$. Draw the tangents from $A$ to $\\omega$ and call the points of tangency $X$ and $Y$. Let $B$ and $C$ be points on the segments $AX$ and $AY$, respectively, suc",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01eo",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Prove that there are infinitely many positive integers $n$, which are not divisible by $10$ and such that $s(n^2) < s(n) - 5$ where $s(n)$ is the sum of digits of $n$.",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Other",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01eq",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Find all quadruples $(x, y, z, t)$ of positive integers that satisfy the system of equations $$ \\begin{cases} xyz = t! \\\\ (x+1)(y+1)(z+1) = (t+1)! \\end{cases} $$",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01er",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let's say that a digit is *eternal* for a positive integer $n$, if it is contained in every multiple of $n$. Find all digits which are eternal for at least one positive integer.",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Divisibility / Factorization",
+        "Number Theory > Modular Arithmetic",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ev",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Let $\\mathbb{T} = \\{1, 3, 6, 10, 15, \\dots\\}$ be the set of triangular numbers, i.e. numbers of the form $T_n = \\frac{n(n+1)}{2}$. Let $f$ be a function defined on the set of positive integers such that 1) $f(n)$ is a po",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2018,
+      "sourceId": "01ex",
+      "rawCompetition": "Baltic Way shortlist",
+      "statementPreview": "Prove that there exist only finitely many triples of positive integers $(n, a, b)$ such that: $$ n! = 2^a - 2^b. $$",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Divisibility / Factorization",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities",
+        "Algebra > Algebraic Expressions > Sequences and Series > Floors and ceilings"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01ey",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Does there exist a polynomial $f(x)$ with integer coefficients of degree four such that for any integer $k$, the polynomial $f(x) + k$ is either irreducible or has a rational root?",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Irreducibility: Rational Root Theorem, Gauss's Lemma, Eisenstein",
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01ez",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Prove that for arbitrary positive integer $n$ the following inequality holds $$ \\frac{1}{1^2 + 2019} + \\frac{1}{2^2 + 2019} + \\dots + \\frac{1}{n^2 + 2019} < \\frac{1}{22}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01f2",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Determine all positive integers $n$ with the following property: For any integer $k$ the polynomial $x^n + k$ is either irreducible or has an integer root.",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Irreducibility: Rational Root Theorem, Gauss's Lemma, Eisenstein",
+        "Algebra > Algebraic Expressions > Polynomials > Vieta's formulas",
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Intermediate Algebra > Complex numbers",
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01f4",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Does there exist a positive integer $n$ such that the first and the second digit of $2^n$ (in decimal notation) are 3 and 9, respectively?",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Other",
+        "Algebra > Intermediate Algebra > Exponential functions",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01f5",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that $$ f(x^3 + y^3) = f(x^3) + 3x^3f(x)f(y) + 3f(x)(f(y))^2 + y^6f(y) $$ for every two real numbers $x$ and $y$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01f7",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Find all functions $f: \\mathbb{R} \\to [-2019, 2019]$, for which $$ 2f(f(x)) + f(f(-x)) + 8f(x) + 4f(-x) + 4x = 0 $$ for all real numbers $x$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers",
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01f9",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Find the smallest positive integer that cannot be written in the form $\\binom{a}{2} + \\binom{b}{2} + c$ with nonnegative integers $a, b, c$ satisfying $a \\ge b \\ge c$ and $a + b \\le 2019$.",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Equations and Inequalities > Combinatorial optimization",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fa",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "A fair $k$-die is a die with $k$ sides and the numbers $1, 2, \\dots, k$ written one on each side such that the probability of getting one of these numbers when rolling the die is exactly $\\frac{1}{k}$ for each number. Le",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Recursion, bijection"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fb",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Magician puts on the $3 \\times 100$ board cards with numbers from $1$ to $300$ in a \"snake-like\" line so that consecutive numbers are side-to-side adjacent (either horizontally or vertically, not diagonally). The numbers",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fc",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "A hacker is locked into an underground industrial complex. She is presented with a computer screen, on which appears a long message of length $72$, consisting of the symbols $E$, $X$, $I$, $T$, exactly $18$ letters of ea",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Algorithms"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fd",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "The two women Inger and Ellen play the following game. On a large piece of paper are $2019$ six-pointed snowflakes $*$, placed in general position (and not touching). Each of the six arms of the snowflake has an extreme ",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms",
+        "Geometry > Plane Geometry > Combinatorial Geometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fg",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "On a board the numbers $1, 2, 3, \\ldots, 500$ are written. In a game two players $A$ and $B$ take turns alternately and $A$ starts. In each turn they have to erase two numbers $n$ and $2n$ on the board. If a player can n",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fj",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $S$ be a finite set with $n \\ge 2$ elements. Two players, $A$ and $B$, alternately choose nonempty proper subsets of $S$, where (1) it is not allowed to choose a set that contains a set previously chosen by any playe",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fk",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $M(n)$ be the minimum number of cells that must be coloured in the $6 \\times n$ square grid to ensure that every $2 \\times 3$ rectangle (in any orientation) contains a coloured cell. Is it true that $M(n) = p_n + k_n",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fl",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "A *palindrome* is a word which is build using 2 letters and is equal to its reverse, for example: ABBA and ABABABABA are palindromes. Prove that any 2019-letter word (which uses 2 letters) is *build* by at most 808 palin",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fm",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "In a directed graph $G$ outgoing degree of each vertex equals $3$ (loops and bidirectional edges are allowed and considered as cycles). Prove that the graph contains $2$ non-intersecting directed cycles.",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Graph Theory",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fo",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "A circle with center $O$ passes through the vertices $B$ and $C$ of the triangle $ABC$ and intersects for the second time segments $AB$ and $AC$ in points $C_1$ and $B_1$ correspondingly. The lines $AO$, $BB_1$ and $CC_1",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Advanced Configurations > Polar triangles, harmonic conjugates"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fr",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $ABCD$ be a convex quadrilateral such that $|AD| < |AB|$ and $|CD| < |CB|$. Prove that $\\angle ABC < \\angle ADC$.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle inequalities",
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fs",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Two points $M$ and $N$ have been selected from the edge $BC$ of a tetrahedron $ABCD$ so that the point $M$ lies between $B$ and $N$, the point $N$ lies between $M$ and $C$, and the angle between the planes $AND$ and $ACD",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Solid Geometry > Volume",
+        "Geometry > Plane Geometry > Advanced Configurations > Isogonal/isotomic conjugates, barycentric coordinates",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fu",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $ABC$ be a scalene triangle. Let $P$ be an interior point of $ABC$ such that $AP \\perp BC$. Assume that $BP$ and $CP$ intersect $AC$ and $AB$ at $X$ and $Y$, respectively. Prove that $AX = AY$ iff there exists a circ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Concurrency and Collinearity > Ceva's theorem",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Quadrilaterals > Quadrilaterals with perpendicular diagonals",
+        "Geometry > Plane Geometry > Advanced Configurations > Polar triangles, harmonic conjugates",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fw",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $ABC$ be a triangle and $H$ its orthocenter. Let $P$ be an arbitrary point on segment $BC$. Prove that $H$ lies on the line passing through reflections of $P$ with respect to $AB$ and $AC$ iff triangle $ABC$ is right",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Advanced Configurations > Simson line",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01fy",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $X$, $Y$ be points on $AB$, $AC$ of triangle $ABC$, respectively, such that $B$, $C$, $X$, $Y$ lie on one circle. The median of triangle $ABC$ from $A$ intersects the perpendicular bisector of $XY$ at $P$. Find $\\ang",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Advanced Configurations > Brocard point, symmedians",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01g1",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "For a positive integer $n$ it is known that the number $\\sqrt{12n^2 + 1}$ also is a positive integer. Prove that the number $$ \\sqrt{\\frac{\\sqrt{12n^2 + 1} + 1}{2}} $$ also is a positive integer.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01g2",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Prove that there are infinitely many different triangles in the coordinate plane whose vertices have integer coordinates and whose side lengths are consecutive integers.",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Triangles",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Cartesian coordinates",
+        "Number Theory > Diophantine Equations > Pell's equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01g4",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Chessboard has a form of $n \\times n$ torus, where $n = 2^{2k} + 1$. Prove that $n$ queens in the cells $(i, 2^k \\cdot i)$ ($1 \\le i \\le n$, multiplication modulo $n$) do not attack each other. ![](attached_image_1.png)",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Modular Arithmetic > Inverses mod n"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01g5",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "Let $p$ a prime number. Prove that $p^2 + p + 1$ is not a perfect cube.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Number Theory > Residues and Primitive Roots > Quadratic residues"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2019,
+      "sourceId": "01g6",
+      "rawCompetition": "Baltic Way 2019",
+      "statementPreview": "A positive integer $N$ is called a *lighthouse number* if it has the following property. Any positive integer not exceeding $N$ which is relatively prime to it has at most two prime factors (possibly equal). Determine wh",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01g9",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "We call a positive integer $N$ splendid, if $$ N = (a - b)^2 + (b - c)^2 + (c - a)^2 $$ for some integers $a$, $b$ and $c$. If $M$ and $N$ are splendid positive integers, is the sum $M + N$ or the product $MN$ also neces",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Symmetric functions",
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01ga",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Find all functions $f : \\mathbb{R} \\setminus \\{0\\} \\to \\mathbb{R}$ so that $$ f\\left(\\frac{1}{x}\\right) \\ge 1 - f(x) \\ge x^2 f(x) $$ for all $x \\in \\mathbb{R} \\setminus \\{0\\}$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gc",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $a$, $b$ and $c$ be positive real numbers such that $a > b + c$. Prove that $$ (a^2 - b^2 - c^2)(a^5 - b^5 - c^5) \\le (a^3 - b^3 - c^3)(a^4 - b^4 - c^4). $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Linear Algebra > Vectors"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gd",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $a$, $b$, $c$ be positive real numbers with $abc = 1$. Prove that $$ \\frac{a}{b(c+1)} + \\frac{b}{c(a+1)} + \\frac{c}{a(b+1)} \\ge \\frac{3}{2}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01ge",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Find the smallest positive integer $k$ with a property: for any three points with integer coordinates on a plane $$ L_{\\max} - L_{\\min} > \\frac{1}{\\sqrt{k} \\cdot L_{\\max}}, $$ where $L_{\\max}$ and $L_{\\min}$ are respecti",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Cartesian coordinates",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing",
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gf",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Find all triples $x, y, z$ of real numbers such that the following system holds: $$ \\begin{cases} x^3 + y = z^2 \\\\ y^3 + z = x^2 \\\\ z^3 + x = y^2 \\end{cases} $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Prealgebra / Basic Algebra > Simple Equations",
+        "Algebra > Intermediate Algebra > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gh",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Find all polynomial functions $P(x, y)$ with real coefficients which for all real numbers $x$ and $y$ satisfy $$ P(x + y, x - y) = 2P(x, y). $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gk",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "In a school with $n$ students, a team of students must be chosen to clean the school. A team of students is called *good* if the school principal believes that they can manage to clean the school. It is known that at lea",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Expected values"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gl",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "6 lines are chosen in 3-dimensional space. Find the largest number of points at which at least 3 of the chosen lines intersect.",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Geometry > Solid Geometry > Other 3D problems",
+        "Geometry > Solid Geometry > 3D Shapes"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gn",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Prove that there exists a polygon on a square grid that can be tiled with dominoes ($1 \\times 2$ or $2 \\times 1$ figures) in exactly 2020 ways.",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01go",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Each vertex of complete bipartite graph $K_{128,128}$ is occupied by a person. In the beginning all the persons are unfamiliar. If the persons are in the adjacent vertices, they immediately get to know each other. It is ",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Graph Theory > Matchings, Marriage Lemma, Tutte's theorem",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gr",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Consider $2n$ rays (half-lines) in the plane such that no two rays are parallel (the endpoints of the rays may coincide). Prove that there exists a line in the plane that does not pass through any of the endpoints and in",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gu",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Figure shows two non-intersecting circles $\\alpha$ and $\\beta$ in space. We say that circle $\\alpha$ *devours* circle $\\beta$ since one chord of $\\beta$ (solid) is strictly contained in a chord of $\\alpha$ (dashed). The ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Solid Geometry > Other 3D problems",
+        "Geometry > Plane Geometry > Circles > Radical axis theorem"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gv",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $ABCDE$ be a convex pentagon inscribed in a circle $\\omega$ such that $CD \\parallel BE$. The line tangent to $\\omega$ at $B$ intersects the line $AC$ at a point $F$ such that $A$ lies between the points $C$ and $F$. ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gx",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $\\omega$ be a semicircle with diameter $XY$. Let $M$ be the midpoint of $XY$. Let $A$ be an arbitrary point on $\\omega$ such that $AX < AY$. Let $B$ and $C$ be points lying on the segments $XM$ and $YM$, respectively",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Concurrency and Collinearity > Menelaus' theorem",
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Quadrilaterals"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01gz",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $\\omega$ and $I$ be the incircle and the incentre of a triangle $ABC$, respectively. Let $E$ and $F$ be the tangency points of $\\omega$ with the sides $AC$ and $AB$, respectively. The perpendicular bisector of $AI$ i",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Transformations > Spiral similarity",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h1",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Consider the Euclidean plane, the points $A = (0,0)$ and $B = (1,0)$ and the open half-strip $$ S = \\{(x, y) : 0 < x < 1, y > 0\\} $$ with width 1 and vertices $A$ and $B$. Find all functions $f: S \\to S$ satisfying the f",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h2",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $A$, $B$, $C$, $P$ and $Q$ be five pairwise different points in the plane. Suppose that $A$, $B$ and $C$ are not collinear and that $$ \\frac{AP}{BP} = \\frac{AQ}{BQ} = \\frac{21}{20}, $$ $$ \\frac{BP}{CP} = \\frac{BQ}{CQ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Circles > Circle of Apollonius",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Cartesian coordinates"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h3",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "For $n = \\prod_i p_i^{e_i}$ ($p_i$ primes, $e_i$ positive integers), define $\\psi(n) = \\prod_i (p_i + 1)^{e_i - 1}$. Show that by repeated application of $\\psi$, we may transform any starting number into a number of the ",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h5",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "For a positive integer $n$, we let $s(n)$ denote the sum of the proper divisors of $n$ (excluding $n$ itself). Does there exist a positive integer $a$ for which the equation $$ s(n) = a + n $$ has infinitely many solutio",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > σ (sum of divisors)",
+        "Number Theory > Divisibility / Factorization > Prime numbers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h6",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "An integer valued function $f(n)$ is multiplicative (that means $f(ab) = f(a)f(b)$ for all coprime $a$ and $b$) and satisfies the equation $$ f(m + k - 3) = f(m) + f(k) - f(3) \\quad \\text{for all primes } m \\text{ and } ",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h8",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Let $N$ be a positive integer. Determine the number of pairs, $(a, b)$, of positive integers $a$ and $b$ such that the number $$ \\frac{ab}{a+b} $$ is a divisor of $N$.",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > τ (number of divisors)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "known-duplicate-misattribution"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01h9",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "(a) Is there a positive integer $a$ such that $((a^2 - 2)^3 + 1)^a - 1$ is a perfect square? (b) Is there a positive integer $a$ such that $((a^2 - 2)^3 + 1)^{a+1} - 1$ is a perfect square?",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2020,
+      "sourceId": "01hc",
+      "rawCompetition": "Baltic Way 2020",
+      "statementPreview": "Prove that there are infinitely many mutually coprime positive integers $a$, $b$ and $c$ such that $$ \\left\\lfloor \\frac{a^2}{2020} \\right\\rfloor + \\left\\lfloor \\frac{b^2}{2020} \\right\\rfloor = \\left\\lfloor \\frac{c^2}{20",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Diophantine Equations > Pythagorean triples",
+        "Algebra > Algebraic Expressions > Sequences and Series > Floors and ceilings",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hd",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $a$ be a real number. Prove that there exist real numbers $b$ and $c$ such that the inequalities $$ \\min \\{\\sin(x), \\sin(a+x)\\} \\le b \\sin(x+c) \\le \\max \\{\\sin(x), \\sin(a+x)\\} $$ hold for all real numbers $x$ and the",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Trigonometry"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hg",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $a, b, c$ be real numbers, representing the side lengths of a triangle. Prove that $$ 4(a + b)(a + c)(b + c) \\ge (a + b + c)^3. $$",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Geometric Inequalities > Jensen/smoothing",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hi",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Given is a triangle with real side lengths $a$, $b$, $c$ and real area $A$. Prove that $$ 3a^2 + 3b^2 - c^2 \\ge 4\\sqrt{3}A. $$",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Geometric Inequalities > Triangle inequalities",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Trigonometry",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hj",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Find all triples $(a, b, c)$ of real numbers such that $$ \\cos(ax) + \\cos(bx) = 2 \\cos(cx) $$ holds for all $x \\in \\mathbb{R}$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hl",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Determine all integers $C$ for which there exists a sequence $(a_1, a_2, ...)$ of positive integers satisfying $$ a_{n+1}^2 = C + (n + 2021)a_n $$ for all $n \\ge 1$.",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations",
+        "Algebra > Equations and Inequalities > Linear and quadratic inequalities",
+        "Number Theory > Diophantine Equations > Techniques: modulo, size analysis, order analysis, inequalities"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hn",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $p$ be a polynomial with real coefficients and $n \\ge 1$ be an integer. Prove that there exists a non-zero polynomial $q$ such that the coefficients of $p \\cdot q$ vanish for each power that is not a multiple of $n$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations",
+        "Algebra > Linear Algebra > Vectors"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01ho",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Given an equilateral triangle, find all positive integers $n$ such that it can be partitioned into $n$ equilateral triangles (not necessarily of the same size).",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Triangles",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci",
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01ht",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "A directed graph $G$ has 2021 vertices located on a circle, 101 directed edges go from each vertex of $G$ to the next 101 vertices in the counter-clockwise direction. We wish to colour the edges in such a way that for an",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Graph Theory",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hv",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let's call the intersection of two segments *almost perfect* if for each of them the length of the segment is at least $2021$ times the distance between its midpoint and the intersection point. Prove that there exists a ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Triangles",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hx",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "A convex $n$-gon is triangulated with triangulation $P$ of $n-3$ non-intersecting diagonals. An *independent set* of vertices is a set of vertices of $P$ where no two vertices are connected by a side or by a diagonal. Le",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments",
+        "Discrete Mathematics > Graph Theory"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hy",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $I$ be the incenter of a triangle $ABC$. Let the incircle of $ABC$ be tangent to $CA$ and $AB$ at $E$ and $F$, respectively. Lines $BI$ and $CI$ intersect line $EF$ at $Y$ and $Z$, respectively. Denote by $M$, $N$ mi",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Advanced Configurations > Polar triangles, harmonic conjugates",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01hz",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $\\triangle ABC$ be an acute triangle. Denote by $E$ and $F$ the feet of the altitudes from $B$ and $C$, respectively. Let $H$ be the intersection of $BE$ and $CF$. Let $D$ be on the same side of line $BC$ as $A$ and ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Advanced Configurations > Brocard point, symmedians",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01i0",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $O$ be the circumcenter of triangle $ABC$. Let $D$, $E$ and $F$ be the reflection of $O$ over lines $BC$, $CA$ and $AB$, respectively. Show that lines $AD$, $BE$ and $CF$ are concurrent.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Concurrency and Collinearity > Desargues theorem",
+        "Geometry > Plane Geometry > Transformations > Translation"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01i2",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let points $A$ and $B$ lie on circle $\\omega$ with center $O$. Assume that $O$ does not lie on line $AB$. Let point $C$ lie on segment $AB$ and denote by $M$ and $N$ the midpoints of segments $AC$ and $CB$, respectively.",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing",
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Transformations > Spiral similarity"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01i3",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Let $\\omega_1$ and $\\omega_3$ be two circles, touching externally in a common point $P$. Let further $\\omega_2$ and $\\omega_4$ be two circles touching externally in $P$. Suppose that for $i \\in \\{1, 2, 3, 4\\}$ $\\omega_i$",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Transformations > Inversion",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01i6",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Assume that $ABCD$ is a cyclic quadrilateral with circumcircle $\\Omega$. Assume lines $AB$ and $CD$ intersect at point $P$ and lines $AD$ and $BC$ intersect at $Q$. Let $\\Gamma$ be the circumcircle of triangle $APQ$. The",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Transformations > Spiral similarity",
+        "Geometry > Plane Geometry > Transformations > Inversion",
+        "Geometry > Plane Geometry > Advanced Configurations > Miquel point",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01ic",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "$A$ is a 20-element set of residue classes modulo $397$. Prove that for any non-negative integer $n$ there exist $x_1, x_2, x_3, x_4 \\in A$, such that $x_1 \\neq x_2$ and $$ (x_1 - x_2)n \\equiv x_3 - x_4 \\pmod{397} $$",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Pigeonhole principle",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2021,
+      "sourceId": "01id",
+      "rawCompetition": "Baltic Way 2021 Shortlist",
+      "statementPreview": "Find all $k \\in \\mathbb{Z}$ such that there exists a function $f : \\mathbb{Z} \\to \\mathbb{Z}$ satisfying $$ f(f(n)) = n + k $$ for all $n \\in \\mathbb{Z}$.",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations > Injectivity / surjectivity",
+        "Algebra > Algebraic Expressions > Functional Equations > Existential quantifiers",
+        "Discrete Mathematics > Combinatorics > Enumeration with symmetry",
+        "Algebra > Prealgebra / Basic Algebra > Integers"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01if",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $n$ be a positive integer and let $a_1, a_2, \\dots, a_n$ and $b_1, b_2, \\dots, b_n$ be positive real numbers. Prove that $$ a_1 \\sqrt{\\frac{a_1}{b_1}} + a_2 \\sqrt{\\frac{a_2}{b_2}} + \\dots + a_n \\sqrt{\\frac{a_n}{b_n}}",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Polynomials > Polynomial operations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ig",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $D := \\mathbb{R} \\setminus \\{0,1\\}$. Find all functions $f:D \\rightarrow D$ which satisfy for any $x, y \\in \\mathbb{R}$ with $x, xy \\in D$ the equation $$ f(f(xy)) = 1 - \\frac{1}{y f(f(f(x)))} $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ih",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Find the smallest possible value of $$ \\frac{x^{2023} + 203}{17x^7 + 7x^{17}} $$ over all positive real numbers $x$.",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ik",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Find all (not necessarily strictly) monotonic functions $f: \\mathbb{R} \\to \\mathbb{R}$ with $$ f(x+y)^3 = f(x^3) + f(y^3) \\text{ for all } x, y \\in \\mathbb{R}. $$",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Algebraic Expressions > Functional Equations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01il",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "For sets $S$ and $T$ consisting of positive real numbers, define $S + T = \\{s + t \\mid s \\in S, t \\in T\\}$ and $\\frac{1}{S} = \\{\\frac{1}{s} \\mid s \\in S\\}$. Define the sets $A_1, A_2, A_3, \\dots$ recursively by $A_1 = \\{",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Catalan numbers, partitions",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01in",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $n$ be a positive integer, $x_1, \\dots, x_n$ and $y_1, \\dots, y_n$ be positive real numbers satisfying $x_n = n$ and $y_i y_{i+1} \\ge 1$ for $1 \\le i < n$ and $y_n y_1 \\ge 1$. Moreover, let $x_0 = 0$. Determine the m",
+      "domainHint": "A",
+      "topics": [
+        "Algebra > Equations and Inequalities > Cauchy-Schwarz",
+        "Algebra > Equations and Inequalities > QM-AM-GM-HM / Power Mean",
+        "Algebra > Equations and Inequalities > Jensen / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01iq",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "The Euclidean plane is dissected into several disjoint *bounded* regions (not further subdivided) by $n$ intersecting equilateral triangles of side length $1$. Determine the smallest value of $n$ such that the number of ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Combinatorial Geometry",
+        "Geometry > Plane Geometry > Transformations > Rotation",
+        "Geometry > Plane Geometry > Triangles"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ir",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "For positive integers $n$, $k$ let $S(n, k)$ be the number of ways to partition a set with $n$ elements into $k$ non-empty parts. For example $S(3, 2) = 3$, because there are three ways to partition the set $\\{1, 2, 3\\}$",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Inclusion-exclusion",
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01is",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Fifty marbles are lying in a heap. Alfred and Bodil take turns in removing a positive number of marbles, Alfred starts and at each step the number of marbles removed needs to be a prime or a square. The winner is the one",
+      "domainHint": "C",
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Games / greedy algorithms",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01it",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "The Perseverance is NASA's Mars rover exploring this planet. Every day it starts in home base and then goes north, south, east or west. Every one kilometer the robot makes one $90^\\circ$ turn. Moreover, the robot doesn't",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Geometry > Plane Geometry > Miscellaneous > Constructions and loci"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01iv",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $n$ be a positive integer. In this problem, we consider labellings of the squares of a chessboard of size $n \\times n$ with the natural numbers from $1$ to $n^2$ such that every number is used exactly once. Given suc",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Residues and Primitive Roots > Primitive roots mod p / p^n",
+        "Number Theory > Residues and Primitive Roots > Multiplicative order",
+        "Number Theory > Modular Arithmetic > Fermat / Euler / Wilson theorems",
+        "Discrete Mathematics > Graph Theory > Matchings, Marriage Lemma, Tutte's theorem",
+        "Algebra > Linear Algebra > Matrices"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ix",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $n > 1$ be an integer and let an $2 \\times n$ grid be given, where the cells are labelled as $(x, y)$ with $1 \\le x \\le 2$ and $1 \\le y \\le n$. A grasshopper lives on the grid and occasionally jumps from one cell to ",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Equations and Inequalities > Combinatorial optimization",
+        "Discrete Mathematics > Combinatorics > Coloring schemes, extremal arguments"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01iz",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Find the least positive integer $n$ for which it is possible to draw an $n$-gon along the lines of a square grid, whose perimeter is $n$ and whose area is $n$. Here the boundary of the $n$-gon may not visit any point mor",
+      "domainHint": null,
+      "topics": [
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Cartesian coordinates",
+        "Geometry > Plane Geometry > Analytic / Coordinate Methods > Vectors",
+        "Geometry > Plane Geometry > Geometric Inequalities > Optimization in geometry",
+        "Geometry > Plane Geometry > Miscellaneous > Distance chasing",
+        "Discrete Mathematics > Combinatorics > Invariants / monovariants"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j2",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $k$ be a non-negative integer and let $A$ be a nonempty finite set. We define a word from the alphabet $A$ of length $k$ as a sequence of elements of $A$ of length $k$. (Notice that by definition the empty sequence i",
+      "domainHint": null,
+      "topics": [
+        "Discrete Mathematics > Combinatorics > Recursion, bijection",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing",
+        "Discrete Mathematics > Combinatorics > Counting two ways",
+        "Discrete Mathematics > Combinatorics > Generating functions",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j4",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "In an acute triangle $\\triangle ABC$ with $|AB| \\neq |AC|$, the angle bisector of $\\angle BAC$ intersects side $BC$ and $\\odot(ABC)$ at the points $D$ and $M_A$, respectively. Let points $X$ and $Y$ be the feet of perpen",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j5",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "In an acute scalene triangle $\\triangle ABC$ points $P, Q$ lie on the smaller arcs $\\widehat{AB}$ and $\\widehat{AC}$, respectively, and are the intersection of the midline parallel to $BC$ with the circumcircle of $\\tria",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Transformations > Spiral similarity",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j6",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $\\triangle ABC$ be an acute triangle and $P$ be an inner point of $\\triangle ABC$. Let $K$, $L$ and $M$ be the reflections of $P$ across $BC$, $AC$ and $AB$, respectively. Let $D$ and $E$ be the second points of inte",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Advanced Configurations > Isogonal/isotomic conjugates, barycentric coordinates",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j8",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $ABCDEF$ be a cyclic and convex hexagon. A point $P$ is called *admissible* if it does not lie on the circumcircle of $ABCDEF$ or on any of the lines $AD$, $BE$ and $CF$. An admissible point is called *fantastic* if ",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Circles > Radical axis theorem",
+        "Geometry > Plane Geometry > Circles > Coaxal circles"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01j9",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Does there exist a scalene triangle whose incenter lies on its Euler line?",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Advanced Configurations > Isogonal/isotomic conjugates, barycentric coordinates",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01ja",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Does there exist a scalene triangle whose incenter, circumcenter and orthocenter are collinear?",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Concurrency and Collinearity"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jc",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $\\triangle ABC$ be an isosceles triangle with $|AB| = |AC|$. Let $D$ be an arbitrary point on segment $BC$. Let $X$ and $Y$ be points on $AB$ and $AC$, respectively, such that $XY \\parallel BC$ and $XY$ passes throug",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Advanced Configurations > Simson line",
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01je",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "In a triangle $\\triangle ABC$ let the incircle be tangent to $BC$, $CA$, $AB$ at $D$, $E$, $F$, respectively, and let the excircle opposite to $A$ be tangent to $BC$, $CA$, $AB$ at $P$, $Q$, $R$, respectively. Let $EX$ a",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Transformations > Homothety",
+        "Geometry > Plane Geometry > Triangles > Triangle trigonometry",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jg",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "In an acute triangle $\\triangle ABC$ with $|AB| \\neq |AC|$, the perpendicular bisectors of sides $AC$ and $AB$ intersect segment $BC$ at points $D$ and $E$, respectively. The tangents to $\\odot(ABC)$ at the points $B$ an",
+      "domainHint": "G",
+      "topics": [
+        "Geometry > Plane Geometry > Triangles > Triangle centers: centroid, incenter, circumcenter, orthocenter, Euler line, nine-point circle",
+        "Geometry > Plane Geometry > Circles > Tangents",
+        "Geometry > Plane Geometry > Quadrilaterals > Cyclic quadrilaterals",
+        "Geometry > Plane Geometry > Concurrency and Collinearity",
+        "Geometry > Plane Geometry > Miscellaneous > Angle chasing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jh",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $\\mathbb{Z}^+$ denote the set of positive integers, and $\\text{lcm}(n, m)$ the least positive integer that is divisible by both $n$ and $m$. Find all functions $f: \\mathbb{Z}^+ \\to \\mathbb{Z}^+$ such that $$ \\text{lc",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Factorization techniques",
+        "Algebra > Algebraic Expressions > Functional Equations",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jj",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "For a positive integer $m$, let $S(m)$ denote the positive integer whose decimal representation is equal to the octal representation of $m$. For example, $S(64) = 100$, $S(100) = 144$, $S(2023) = 3747$. Two positive inte",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)",
+        "Number Theory > Other"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jk",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $\\mathbb{Z}^+$ be the set of positive integers and $(F_n)_{n \\in \\mathbb{Z}^+}$ be the Fibonacci sequence defined by $F_1 = F_2 = 1$ and $F_{n+1} = F_n + F_{n-1}$ for $n \\ge 2$. Consider the number $$ N = 2^{2022}F_{",
+      "domainHint": null,
+      "topics": [
+        "Algebra > Algebraic Expressions > Sequences and Series > Recurrence relations",
+        "Algebra > Algebraic Expressions > Sequences and Series > Sums and products",
+        "Number Theory > Divisibility / Factorization",
+        "Discrete Mathematics > Combinatorics > Induction / smoothing"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jl",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "For a prime number $p$ and a polynomial $f$ with integer coefficients, define $\\text{Im}(p, f)$ be the set of integers $a \\in \\{0, 1, \\dots, p-1\\}$ such that there exists an integer $x$, for which $f(x) - a$ is divisible",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Modular Arithmetic > Polynomials mod p",
+        "Number Theory > Residues and Primitive Roots > Quadratic residues"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jm",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "For integers $a$ and $n > 0$, we say that $a$ is *n-expressible* if it can be written as a sum of distinct positive divisors of $n$. The natural number $n$ is *good* if $a$ being *n-expressible* implies $a-1$ being *n-ex",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > σ (sum of divisors)",
+        "Number Theory > Divisibility / Factorization > Prime numbers",
+        "Number Theory > Divisibility / Factorization > Greatest common divisors (gcd)"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jn",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $p$ be an odd prime. Let $a_1, a_2, \\dots, a_{p-1}$ be integers such that $i \\cdot a_i \\equiv 1 \\pmod{p}$, for all $i = 1, 2, \\dots, p-1$. Prove that $$ 2^p - 2 \\equiv p(a_1 - a_2 + \\dots + a_{p-2} - a_{p-1}) \\pmod{p",
+      "domainHint": null,
+      "topics": [
+        "Number Theory > Modular Arithmetic > Inverses mod n",
+        "Discrete Mathematics > Combinatorics > Algebraic properties of binomial coefficients"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    },
+    {
+      "yearAssociation": 2023,
+      "sourceId": "01jo",
+      "rawCompetition": "Baltic Way 2023 Shortlist",
+      "statementPreview": "Let $\\delta(n)$ denote the number of positive divisors of $n$ and let $\\phi(n)$ denote the number of non-negative integers less than $n$ and relatively prime to $n$. Find all positive integers $n$ such that $\\delta(n) \\c",
+      "domainHint": "N",
+      "topics": [
+        "Number Theory > Number-Theoretic Functions > φ (Euler's totient)",
+        "Number Theory > Number-Theoretic Functions > τ (number of divisors)",
+        "Number Theory > Divisibility / Factorization > Factorization techniques"
+      ],
+      "provisionalDisposition": "unresolved-shortlist-or-variant"
+    }
+  ]
+}

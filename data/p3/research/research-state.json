@@ -1,0 +1,51 @@
+{
+  "checkpoint": "BW26 P3 research state after final-manifest completion",
+  "finalManifest": {
+    "years": "1990-2025",
+    "officialAppearances": 719,
+    "status": "complete-input"
+  },
+  "mathnet": {
+    "rows": 853,
+    "finalRelatedRowsByAppearance": 544,
+    "finalAppearancesWithNoKnownRelatedRow": 175,
+    "note": "544 counts appearances with a related source, not distinct source rows and not necessarily exact final versions."
+  },
+  "closedOrNearlyClosed": [
+    "Final appearance universe 1990-2025",
+    "Per-year final MathNet relation coverage counts",
+    "MathNet source integrity/census",
+    "Recent 2011-2025 per-problem source-link checkpoints",
+    "Source-block chronology/association sufficient to stop trusting raw competition labels"
+  ],
+  "remainingResearchGates": [
+    {
+      "gate": "F1 final-version reconciliation",
+      "doneWhen": "All 719 final appearances have SAME_VERSION / REVISED_VERSION / CORRUPT / NO_SOURCE decisions with evidence; 2011-2025 checkpoint records promoted to frozen."
+    },
+    {
+      "gate": "S1 shortlist identity reconstruction",
+      "doneWhen": "All genuine BW-SL appearances have year + official A/C/G/N code and positive evidence; leftover MathNet rows have explicit dispositions."
+    },
+    {
+      "gate": "V1 final-shortlist lineage",
+      "doneWhen": "Every intersection is classified same-version, editorial-equivalent, revised-version, or unrelated."
+    },
+    {
+      "gate": "C1 content closure",
+      "doneWhen": "Every publishable version has selected statement, verified-compatible solutions, and resolved local assets."
+    },
+    {
+      "gate": "G1 generation",
+      "doneWhen": "Deterministic importer emits P2 ProblemDocument data/assets; validators pass; site works with network disconnected."
+    }
+  ],
+  "doNotDo": [
+    "Do not infer BW vs BW-SL from MathNet competition label alone",
+    "Do not treat every leftover row as shortlist",
+    "Do not auto-merge fuzzy matches",
+    "Do not reuse a solution from a revised version without compatibility verification",
+    "Do not perform silent source corrections inside importer code",
+    "Do not make runtime depend on MathNet/AoPS/official/HuggingFace URLs"
+  ]
+}

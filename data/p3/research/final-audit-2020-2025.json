@@ -1,0 +1,1086 @@
+{
+  "checkpoint": "BW26 P3 final-vs-MathNet audit 2020-2025",
+  "status": "audited-research-checkpoint",
+  "basis": [
+    "User-supplied numbered final statements for 2020-2025",
+    "Pinned MathNet-v0 853-row census/source rows",
+    "Official/official-derived statement spot checks for material discrepancies"
+  ],
+  "semantics": {
+    "mathnetRelated": "A related MathNet row is identified; it does not imply exact final-version or publishable coverage.",
+    "missing": "No related MathNet-v0 row is currently known after the audit; fallback content is required unless later evidence changes this."
+  },
+  "classification": {
+    "linked": "No material discrepancy recorded in this pass.",
+    "equivalent_edit": "Editorially different but mathematical task treated as equivalent.",
+    "related_variant": "Same lineage but materially revised statement/version.",
+    "corrupt": "MathNet representation has a concrete defect relative to the final version.",
+    "missing": "No related MathNet row identified."
+  },
+  "summary": [
+    {
+      "year": 2020,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 17,
+      "noKnownRelatedMathNetRow": 3,
+      "missingNumbers": [
+        2,
+        4,
+        18
+      ],
+      "nonExactNumbers": [
+        6,
+        19
+      ]
+    },
+    {
+      "year": 2021,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 20,
+      "noKnownRelatedMathNetRow": 0,
+      "missingNumbers": [],
+      "nonExactNumbers": [
+        5,
+        7,
+        8,
+        16,
+        20
+      ]
+    },
+    {
+      "year": 2022,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 0,
+      "noKnownRelatedMathNetRow": 20,
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": []
+    },
+    {
+      "year": 2023,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 18,
+      "noKnownRelatedMathNetRow": 2,
+      "missingNumbers": [
+        4,
+        16
+      ],
+      "nonExactNumbers": [
+        1,
+        8,
+        17,
+        19,
+        20
+      ]
+    },
+    {
+      "year": 2024,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 0,
+      "noKnownRelatedMathNetRow": 20,
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": []
+    },
+    {
+      "year": 2025,
+      "officialFinalProblems": 20,
+      "mathnetRelated": 0,
+      "noKnownRelatedMathNetRow": 20,
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "nonExactNumbers": []
+    }
+  ],
+  "statusCounts": {
+    "linked": 43,
+    "missing": 65,
+    "related_variant": 2,
+    "corrupt": 3,
+    "equivalent_edit": 7
+  },
+  "totals": {
+    "officialFinalProblems": 120,
+    "mathnetRelated": 55,
+    "noKnownRelatedMathNetRow": 65
+  },
+  "records": [
+    {
+      "year": 2020,
+      "number": 1,
+      "canonicalId": "bw-2020-01",
+      "mathnetId": "01g8",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 2,
+      "canonicalId": "bw-2020-02",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2020,
+      "number": 3,
+      "canonicalId": "bw-2020-03",
+      "mathnetId": "01gg",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 4,
+      "canonicalId": "bw-2020-04",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2020,
+      "number": 5,
+      "canonicalId": "bw-2020-05",
+      "mathnetId": "01gb",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 6,
+      "canonicalId": "bw-2020-06",
+      "mathnetId": "01gi",
+      "linkStatus": "related_variant",
+      "note": "MathNet has n>1 and a birthday-party formulation; the official final uses n>2 and a bachelor-party formulation, so it is not safe to treat as identical final text."
+    },
+    {
+      "year": 2020,
+      "number": 7,
+      "canonicalId": "bw-2020-07",
+      "mathnetId": "01gm",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 8,
+      "canonicalId": "bw-2020-08",
+      "mathnetId": "01gp",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 9,
+      "canonicalId": "bw-2020-09",
+      "mathnetId": "01gq",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 10,
+      "canonicalId": "bw-2020-10",
+      "mathnetId": "01gj",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 11,
+      "canonicalId": "bw-2020-11",
+      "mathnetId": "01gs",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 12,
+      "canonicalId": "bw-2020-12",
+      "mathnetId": "01gw",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 13,
+      "canonicalId": "bw-2020-13",
+      "mathnetId": "01gy",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 14,
+      "canonicalId": "bw-2020-14",
+      "mathnetId": "01h0",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 15,
+      "canonicalId": "bw-2020-15",
+      "mathnetId": "01gt",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 16,
+      "canonicalId": "bw-2020-16",
+      "mathnetId": "01h7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 17,
+      "canonicalId": "bw-2020-17",
+      "mathnetId": "01ha",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2020,
+      "number": 18,
+      "canonicalId": "bw-2020-18",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2020,
+      "number": 19,
+      "canonicalId": "bw-2020-19",
+      "mathnetId": "01hb",
+      "linkStatus": "corrupt",
+      "note": "MathNet uses a ceiling around sqrt(3)*d(n); the final statement uses a floor."
+    },
+    {
+      "year": 2020,
+      "number": 20,
+      "canonicalId": "bw-2020-20",
+      "mathnetId": "01h4",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 1,
+      "canonicalId": "bw-2021-01",
+      "mathnetId": "01hf",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 2,
+      "canonicalId": "bw-2021-02",
+      "mathnetId": "01hh",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 3,
+      "canonicalId": "bw-2021-03",
+      "mathnetId": "01hk",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "canonicalId": "bw-2021-04",
+      "mathnetId": "01hm",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 5,
+      "canonicalId": "bw-2021-05",
+      "mathnetId": "01he",
+      "linkStatus": "equivalent_edit",
+      "note": "Same mathematical task, with editorial/naming reformulation."
+    },
+    {
+      "year": 2021,
+      "number": 6,
+      "canonicalId": "bw-2021-06",
+      "mathnetId": "01hr",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 7,
+      "canonicalId": "bw-2021-07",
+      "mathnetId": "01hs",
+      "linkStatus": "equivalent_edit",
+      "note": "Same game structure with changed participant names."
+    },
+    {
+      "year": 2021,
+      "number": 8,
+      "canonicalId": "bw-2021-08",
+      "mathnetId": "01hu",
+      "linkStatus": "equivalent_edit",
+      "note": "Equivalent final wording differs from shortlist/source wording."
+    },
+    {
+      "year": 2021,
+      "number": 9,
+      "canonicalId": "bw-2021-09",
+      "mathnetId": "01hw",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 10,
+      "canonicalId": "bw-2021-10",
+      "mathnetId": "01hp",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 11,
+      "canonicalId": "bw-2021-11",
+      "mathnetId": "01i1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 12,
+      "canonicalId": "bw-2021-12",
+      "mathnetId": "01i4",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "canonicalId": "bw-2021-13",
+      "mathnetId": "01i5",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 14,
+      "canonicalId": "bw-2021-14",
+      "mathnetId": "01i7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 15,
+      "canonicalId": "bw-2021-15",
+      "mathnetId": "01hq",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 16,
+      "canonicalId": "bw-2021-16",
+      "mathnetId": "01i8",
+      "linkStatus": "related_variant",
+      "note": "MathNet/shortlist has ax-by=256; the final has ax-by=16. Treat as a revised version, not the same exact statement."
+    },
+    {
+      "year": 2021,
+      "number": 17,
+      "canonicalId": "bw-2021-17",
+      "mathnetId": "01i9",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 18,
+      "canonicalId": "bw-2021-18",
+      "mathnetId": "01ia",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 19,
+      "canonicalId": "bw-2021-19",
+      "mathnetId": "01ib",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2021,
+      "number": 20,
+      "canonicalId": "bw-2021-20",
+      "mathnetId": "01ie",
+      "linkStatus": "corrupt",
+      "note": "MathNet quantifies 1<=i<j<=2n although only a_1,...,a_n are defined; final uses j<=n."
+    },
+    {
+      "year": 2022,
+      "number": 1,
+      "canonicalId": "bw-2022-01",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 2,
+      "canonicalId": "bw-2022-02",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 3,
+      "canonicalId": "bw-2022-03",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 4,
+      "canonicalId": "bw-2022-04",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 5,
+      "canonicalId": "bw-2022-05",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 6,
+      "canonicalId": "bw-2022-06",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "canonicalId": "bw-2022-07",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 8,
+      "canonicalId": "bw-2022-08",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 9,
+      "canonicalId": "bw-2022-09",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 10,
+      "canonicalId": "bw-2022-10",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 11,
+      "canonicalId": "bw-2022-11",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "canonicalId": "bw-2022-12",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 13,
+      "canonicalId": "bw-2022-13",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 14,
+      "canonicalId": "bw-2022-14",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 15,
+      "canonicalId": "bw-2022-15",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 16,
+      "canonicalId": "bw-2022-16",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 17,
+      "canonicalId": "bw-2022-17",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 18,
+      "canonicalId": "bw-2022-18",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 19,
+      "canonicalId": "bw-2022-19",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2022,
+      "number": 20,
+      "canonicalId": "bw-2022-20",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2023,
+      "number": 1,
+      "canonicalId": "bw-2023-01",
+      "mathnetId": "01ii",
+      "linkStatus": "equivalent_edit",
+      "note": "Sequence/function formulation differs editorially while preserving the mathematical task."
+    },
+    {
+      "year": 2023,
+      "number": 2,
+      "canonicalId": "bw-2023-02",
+      "mathnetId": "01ij",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 3,
+      "canonicalId": "bw-2023-03",
+      "mathnetId": "01im",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 4,
+      "canonicalId": "bw-2023-04",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2023,
+      "number": 5,
+      "canonicalId": "bw-2023-05",
+      "mathnetId": "01io",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 6,
+      "canonicalId": "bw-2023-06",
+      "mathnetId": "01ip",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 7,
+      "canonicalId": "bw-2023-07",
+      "mathnetId": "01iu",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 8,
+      "canonicalId": "bw-2023-08",
+      "mathnetId": "01iy",
+      "linkStatus": "equivalent_edit",
+      "note": "Equivalent wording differs from final."
+    },
+    {
+      "year": 2023,
+      "number": 9,
+      "canonicalId": "bw-2023-09",
+      "mathnetId": "01j0",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 10,
+      "canonicalId": "bw-2023-10",
+      "mathnetId": "01j1",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 11,
+      "canonicalId": "bw-2023-11",
+      "mathnetId": "01j3",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 12,
+      "canonicalId": "bw-2023-12",
+      "mathnetId": "01jb",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "canonicalId": "bw-2023-13",
+      "mathnetId": "01jd",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 14,
+      "canonicalId": "bw-2023-14",
+      "mathnetId": "01jf",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 15,
+      "canonicalId": "bw-2023-15",
+      "mathnetId": "01j7",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 16,
+      "canonicalId": "bw-2023-16",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2023,
+      "number": 17,
+      "canonicalId": "bw-2023-17",
+      "mathnetId": "01jp",
+      "linkStatus": "equivalent_edit",
+      "note": "Equivalent formulation/nickname differs from final."
+    },
+    {
+      "year": 2023,
+      "number": 18,
+      "canonicalId": "bw-2023-18",
+      "mathnetId": "01jq",
+      "linkStatus": "linked"
+    },
+    {
+      "year": 2023,
+      "number": 19,
+      "canonicalId": "bw-2023-19",
+      "mathnetId": "01ji",
+      "linkStatus": "corrupt",
+      "note": "MathNet has the wrong exponent tower: 2^(2^(2^2023)); final is 2^(2^(2*2023))."
+    },
+    {
+      "year": 2023,
+      "number": 20,
+      "canonicalId": "bw-2023-20",
+      "mathnetId": "01iw",
+      "linkStatus": "equivalent_edit",
+      "note": "Terminology differs (e.g. transversal/German product) while the mathematical construction is the same."
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "canonicalId": "bw-2024-01",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "canonicalId": "bw-2024-02",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 3,
+      "canonicalId": "bw-2024-03",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "canonicalId": "bw-2024-04",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 5,
+      "canonicalId": "bw-2024-05",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "canonicalId": "bw-2024-06",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "canonicalId": "bw-2024-07",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "canonicalId": "bw-2024-08",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 9,
+      "canonicalId": "bw-2024-09",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 10,
+      "canonicalId": "bw-2024-10",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 11,
+      "canonicalId": "bw-2024-11",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "canonicalId": "bw-2024-12",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 13,
+      "canonicalId": "bw-2024-13",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 14,
+      "canonicalId": "bw-2024-14",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "canonicalId": "bw-2024-15",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 16,
+      "canonicalId": "bw-2024-16",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 17,
+      "canonicalId": "bw-2024-17",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 18,
+      "canonicalId": "bw-2024-18",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 19,
+      "canonicalId": "bw-2024-19",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2024,
+      "number": 20,
+      "canonicalId": "bw-2024-20",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 1,
+      "canonicalId": "bw-2025-01",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 2,
+      "canonicalId": "bw-2025-02",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 3,
+      "canonicalId": "bw-2025-03",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 4,
+      "canonicalId": "bw-2025-04",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 5,
+      "canonicalId": "bw-2025-05",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 6,
+      "canonicalId": "bw-2025-06",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 7,
+      "canonicalId": "bw-2025-07",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 8,
+      "canonicalId": "bw-2025-08",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 9,
+      "canonicalId": "bw-2025-09",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 10,
+      "canonicalId": "bw-2025-10",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 11,
+      "canonicalId": "bw-2025-11",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 12,
+      "canonicalId": "bw-2025-12",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 13,
+      "canonicalId": "bw-2025-13",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 14,
+      "canonicalId": "bw-2025-14",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 15,
+      "canonicalId": "bw-2025-15",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 16,
+      "canonicalId": "bw-2025-16",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 17,
+      "canonicalId": "bw-2025-17",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 18,
+      "canonicalId": "bw-2025-18",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "canonicalId": "bw-2025-19",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    },
+    {
+      "year": 2025,
+      "number": 20,
+      "canonicalId": "bw-2025-20",
+      "mathnetId": null,
+      "linkStatus": "missing",
+      "note": "No related MathNet-v0 source row identified in the global/current audit."
+    }
+  ]
+}

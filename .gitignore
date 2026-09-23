@@ -9,3 +9,6 @@ dist/
 
 .DS_Store
 npm-debug.log*
+
+data/p3/generated/*
+!data/p3/generated/README.md
