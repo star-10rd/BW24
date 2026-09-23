@@ -1,0 +1,34 @@
+---
+import { site } from '../config/site';
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+---
+
+<div class="content-shell content-shell--reading">
+  <header class="page-heading page-heading--home">
+    <p class="kicker">{messages.home.kicker}</p>
+    <h1>{messages.home.title}</h1>
+    <p class="lede">{messages.home.intro}</p>
+  </header>
+
+  <section class="foundation-list" aria-label={`${site.name} foundation`}>
+    <div class="foundation-row">
+      <h2>{messages.home.problemsLabel}</h2>
+      <p>{messages.home.problemsText}</p>
+    </div>
+    <div class="foundation-row">
+      <h2>{messages.home.trainingLabel}</h2>
+      <p>{messages.home.trainingText}</p>
+    </div>
+    <div class="foundation-row">
+      <h2>{messages.home.materialsLabel}</h2>
+      <p>{messages.home.materialsText}</p>
+    </div>
+  </section>
+</div>

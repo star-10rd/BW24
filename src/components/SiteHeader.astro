@@ -1,0 +1,40 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { site, type PrimaryRoute } from '../config/site';
+import { getMessages, type Locale } from '../i18n';
+import LanguageSwitch from './LanguageSwitch.astro';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  locale: Locale;
+  current: PrimaryRoute | null;
+  path: string;
+}
+
+const { locale, current, path } = Astro.props;
+const messages = getMessages(locale);
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href={getRelativeLocaleUrl(locale, '')} aria-label={`${site.name} — ${messages.nav.today}`}>
+      {site.name}
+    </a>
+
+    <nav class="desktop-nav" aria-label={messages.nav.label}>
+      {site.primaryNavigation.map((item) => (
+        <a
+          href={getRelativeLocaleUrl(locale, item.path)}
+          aria-current={current === item.id ? 'page' : undefined}
+        >
+          {messages.nav[item.id]}
+        </a>
+      ))}
+    </nav>
+
+    <div class="site-actions">
+      <LanguageSwitch locale={locale} path={path} />
+      <ThemeToggle locale={locale} />
+    </div>
+  </div>
+</header>

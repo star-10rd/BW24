@@ -1,0 +1,55 @@
+---
+import type { PrimaryRoute } from '../config/site';
+import { getMessages, type Locale } from '../i18n';
+import MobileNav from '../components/MobileNav.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import '../styles/tokens.css';
+import '../styles/global.css';
+import '../styles/shell.css';
+
+interface Props {
+  locale: Locale;
+  current: PrimaryRoute | null;
+  path: string;
+  title: string;
+  description?: string;
+}
+
+const { locale, current, path, title, description } = Astro.props;
+const messages = getMessages(locale);
+const pageTitle = title === 'BW26' ? title : `${title} · BW26`;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description ?? messages.meta.description} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <title>{pageTitle}</title>
+    <script is:inline>
+      (() => {
+        try {
+          const stored = localStorage.getItem('theme');
+          const theme = stored === 'light' || stored === 'dark'
+            ? stored
+            : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch {
+          // CSS still honors the operating-system theme when storage is unavailable.
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">{messages.common.skipToContent}</a>
+    <SiteHeader locale={locale} current={current} path={path} />
+    <main id="main-content" class="page-main" tabindex="-1">
+      <slot />
+    </main>
+    <MobileNav locale={locale} current={current} />
+  </body>
+</html>

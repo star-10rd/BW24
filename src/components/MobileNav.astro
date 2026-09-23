@@ -1,0 +1,26 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { site, type PrimaryRoute } from '../config/site';
+import { getMessages, type Locale } from '../i18n';
+
+interface Props {
+  locale: Locale;
+  current: PrimaryRoute | null;
+}
+
+const { locale, current } = Astro.props;
+const messages = getMessages(locale);
+---
+
+<nav class="mobile-nav" aria-label={messages.nav.label}>
+  <div class="mobile-nav__inner">
+    {site.primaryNavigation.map((item) => (
+      <a
+        href={getRelativeLocaleUrl(locale, item.path)}
+        aria-current={current === item.id ? 'page' : undefined}
+      >
+        {messages.nav[item.id]}
+      </a>
+    ))}
+  </div>
+</nav>

@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getMessages } from '../../../i18n';
+import SectionView from '../../../views/SectionView.astro';
+
+const locale = 'et' as const;
+const messages = getMessages(locale);
+const section = messages.sections.materials;
+---
+
+<BaseLayout locale={locale} current="materials" path="materials" title={section.title} description={messages.meta.description}>
+  <SectionView {...section} />
+</BaseLayout>
