@@ -1,0 +1,18 @@
+{
+  "schema": "bw26-p3d-completion-summary",
+  "version": 1,
+  "publicVersions": 786,
+  "selectedPublicationStatements": 769,
+  "statementSourceGaps": 17,
+  "requiredStatementAssetGaps": 0,
+  "selectedSolutionVersions": 564,
+  "selectedSolutionFiles": 588,
+  "publicSolutionUnresolved": 222,
+  "officialFinalSourceBytesRequired": 205,
+  "shortlistSolutionSourceUnknown": 17,
+  "primaryClassifications": 786,
+  "subtopicReviewedVersions": 786,
+  "controlledSubtopics": 32,
+  "publicationComplete": false,
+  "note": "All locally defensible P3D statement-asset and classification work is frozen. The remaining publication blockers are source material: 17 shortlist statement texts, 205 final solution source files not locally supplied, and 17 shortlist solutions with no defensible local source yet."
+}

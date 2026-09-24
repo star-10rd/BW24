@@ -72,7 +72,7 @@ P3D remains responsible for selecting public statements, solutions, topics, and 
 <!-- BW26-P3D -->
 ## P3D publication curation
 
-Schema v4 keeps the P3C identity graph unchanged and adds a first-class public classification registry plus locally curated publication content. The local-evidence installation selects 764 of the 786 public statements, 564 public Versions with reviewed local solution material, locally bound statement/solution figures, and primary-domain classifications for all 786 public Versions. Publication completeness is intentionally not claimed: exact remaining source/materialization gaps are frozen under `data/corpus/research/p3d/` rather than filled speculatively.
+Schema v4 keeps the P3C identity graph unchanged and adds a first-class public classification registry plus locally curated publication content. The P3D publication layer now selects 769 of the 786 public statements, resolves every required local statement-figure dependency, selects reviewed local solution material for 564 public Versions, and freezes primary-domain plus controlled subtopic classifications for all 786 public Versions. Publication completeness is intentionally not claimed: the remaining 17 statement-source gaps and 222 unresolved solution states are frozen under `data/corpus/research/p3d/` rather than filled speculatively.
 
 ## v3 packaging fix
 

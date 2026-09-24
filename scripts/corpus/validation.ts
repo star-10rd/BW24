@@ -446,6 +446,8 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
     // first-class P3D classification supplies the publication domain without
     // mutating the frozen P3C identity graph.
     if (canonicalDomain && classification.primaryDomain !== canonicalDomain) throw new Error(`${classification.versionId}: classification domain ${classification.primaryDomain} disagrees with canonical domain ${canonicalDomain}`);
+    if (classification.subtopics.length < 1 || classification.subtopics.length > 3) throw new Error(`${classification.versionId}: classification requires one to three reviewed subtopics`);
+    if (new Set(classification.subtopics).size !== classification.subtopics.length) throw new Error(`${classification.versionId}: classification repeats a subtopic`);
     for (const subtopic of classification.subtopics) {
       const item = taxonomySubtopics.get(subtopic);
       if (!item) throw new Error(`${classification.versionId}: unknown subtopic ${subtopic}`);

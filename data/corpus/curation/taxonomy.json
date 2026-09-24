@@ -1,4 +1,6 @@
 {
+  "schema": "bw26-topic-taxonomy",
+  "version": 1,
   "domains": [
     {
       "id": "A",
@@ -17,8 +19,167 @@
       "label": "Number Theory"
     }
   ],
-  "note": "P3D v1 freezes complete primary-domain classification. Controlled subtopics remain intentionally empty until separately reviewed; raw MathNet topic strings are research seeds only.",
-  "schema": "bw26-topic-taxonomy",
-  "subtopics": [],
-  "version": 1
+  "subtopics": [
+    {
+      "id": "functional-equations",
+      "label": "Functional equations",
+      "domain": "A"
+    },
+    {
+      "id": "polynomials",
+      "label": "Polynomials",
+      "domain": "A"
+    },
+    {
+      "id": "equations-and-inequalities",
+      "label": "Equations and inequalities",
+      "domain": "A"
+    },
+    {
+      "id": "sequences-and-recurrences",
+      "label": "Sequences and recurrences",
+      "domain": "A"
+    },
+    {
+      "id": "algebraic-manipulation",
+      "label": "Algebraic manipulation",
+      "domain": "A"
+    },
+    {
+      "id": "extremal-algebra",
+      "label": "Extremal algebra",
+      "domain": "A"
+    },
+    {
+      "id": "algebraic-structures",
+      "label": "Algebraic structures",
+      "domain": "A"
+    },
+    {
+      "id": "counting",
+      "label": "Counting and enumeration",
+      "domain": "C"
+    },
+    {
+      "id": "pigeonhole-and-extremal",
+      "label": "Pigeonhole and extremal arguments",
+      "domain": "C"
+    },
+    {
+      "id": "invariants",
+      "label": "Invariants and monovariants",
+      "domain": "C"
+    },
+    {
+      "id": "graph-theory",
+      "label": "Graph theory",
+      "domain": "C"
+    },
+    {
+      "id": "games-and-strategies",
+      "label": "Games and strategies",
+      "domain": "C"
+    },
+    {
+      "id": "colorings-and-configurations",
+      "label": "Colorings and configurations",
+      "domain": "C"
+    },
+    {
+      "id": "induction-and-recursion",
+      "label": "Induction and recursion",
+      "domain": "C"
+    },
+    {
+      "id": "algorithms-and-processes",
+      "label": "Algorithms and processes",
+      "domain": "C"
+    },
+    {
+      "id": "triangles-and-centers",
+      "label": "Triangles and centers",
+      "domain": "G"
+    },
+    {
+      "id": "circles-and-tangency",
+      "label": "Circles and tangency",
+      "domain": "G"
+    },
+    {
+      "id": "cyclic-geometry",
+      "label": "Cyclic geometry",
+      "domain": "G"
+    },
+    {
+      "id": "angles-and-distances",
+      "label": "Angles and distances",
+      "domain": "G"
+    },
+    {
+      "id": "transformations",
+      "label": "Transformations",
+      "domain": "G"
+    },
+    {
+      "id": "coordinates-and-vectors",
+      "label": "Coordinates and vectors",
+      "domain": "G"
+    },
+    {
+      "id": "geometric-inequalities",
+      "label": "Geometric inequalities",
+      "domain": "G"
+    },
+    {
+      "id": "constructions-and-loci",
+      "label": "Constructions, loci, concurrency and collinearity",
+      "domain": "G"
+    },
+    {
+      "id": "combinatorial-geometry",
+      "label": "Combinatorial geometry and dissections",
+      "domain": "G"
+    },
+    {
+      "id": "solid-geometry",
+      "label": "Solid geometry",
+      "domain": "G"
+    },
+    {
+      "id": "divisibility-and-factorization",
+      "label": "Divisibility and factorization",
+      "domain": "N"
+    },
+    {
+      "id": "primes",
+      "label": "Primes",
+      "domain": "N"
+    },
+    {
+      "id": "modular-arithmetic",
+      "label": "Modular arithmetic",
+      "domain": "N"
+    },
+    {
+      "id": "diophantine-equations",
+      "label": "Diophantine equations",
+      "domain": "N"
+    },
+    {
+      "id": "gcd-and-lcm",
+      "label": "GCD and LCM",
+      "domain": "N"
+    },
+    {
+      "id": "orders-and-residues",
+      "label": "Orders and residues",
+      "domain": "N"
+    },
+    {
+      "id": "arithmetic-functions",
+      "label": "Arithmetic functions",
+      "domain": "N"
+    }
+  ],
+  "note": "P3D completion pass freezes a compact controlled subtopic vocabulary. Raw MathNet topics are evidence seeds only; every public Version receives one to three reviewed controlled subtopics, with statement-based fallback where MathNet has no topic metadata."
 }

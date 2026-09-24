@@ -269,7 +269,7 @@ export type TopicTaxonomy = z.infer<typeof TopicTaxonomySchema>;
 export const ClassificationRecordSchema = z.object({
   versionId: z.string().min(1),
   primaryDomain: DomainSchema,
-  subtopics: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)),
+  subtopics: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)).min(1).max(3),
   acceptance: AcceptanceSchema,
   evidence: z.array(EvidenceRefSchema).min(1),
 }).strict();

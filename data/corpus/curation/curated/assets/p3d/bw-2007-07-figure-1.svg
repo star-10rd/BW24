@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" role="img" aria-labelledby="title desc">
+<title id="title">Six-triangle squiggle</title>
+<desc id="desc">Six unit equilateral triangles on a triangular lattice: three upward triangles in a row, two downward triangles between them, and one upward triangle above the right-hand pair.</desc>
+<g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 210 L80 106 L140 210 Z"/>
+  <path d="M140 210 L200 106 L260 210 Z"/>
+  <path d="M260 210 L320 106 L380 210 Z"/>
+  <path d="M80 106 L140 210 L200 106 Z"/>
+  <path d="M200 106 L260 210 L320 106 Z"/>
+  <path d="M200 106 L260 2 L320 106 Z"/>
+</g>
+</svg>

@@ -6,6 +6,8 @@ const c=new Map<string,number>(); for(const x of s.candidateSelection as any[]){
 const selectedStatements=(s.contentSelections as any[]).length;
 const verifiedSolutions=(s.contentSelections as any[]).filter((x:any)=>x.solutions.status==='verified').length;
 const unresolvedSelected=(s.contentSelections as any[]).filter((x:any)=>x.solutions.status==='unresolved').length;
+const reviewedSubtopics=(s.classifications as any[]).filter((x:any)=>Array.isArray(x.subtopics)&&x.subtopics.length>0).length;
+const statementAssetBindings=(s.assetBindings as any[]).filter((x:any)=>x.owner?.kind==='statement').length;
 console.log('BW26 corpus report'); console.log('------------------');
 console.log(`Final appearances:          ${finals.length}`); console.log('Final Versions:             719');
 console.log(`Candidate sets:             ${s.candidateSets.length}`); console.log(`Candidate appearances:      ${cand.length}`);
@@ -20,6 +22,7 @@ console.log(`Verified local solutions:    ${verifiedSolutions}`);
 console.log(`Selected statement solutions unresolved: ${unresolvedSelected}`);
 console.log(`Public solution unresolved:  ${786-verifiedSolutions}`);
 console.log(`Asset bindings:              ${(s.assetBindings as any[]).length}`);
+console.log(`Statement asset bindings:    ${statementAssetBindings}`);
 console.log(`Primary classifications:     ${(s.classifications as any[]).length}`);
-console.log(`Reviewed subtopics:          ${(s.taxonomy as any).subtopics.length}`);
+console.log(`Subtopic-reviewed Versions:  ${reviewedSubtopics}`);
 console.log('Publication completeness:    INCOMPLETE (explicit P3D gap ledgers retained)');

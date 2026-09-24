@@ -131,13 +131,17 @@ function baseState(): CanonicalState {
         { id: 'A', label: 'Algebra' }, { id: 'C', label: 'Combinatorics' },
         { id: 'G', label: 'Geometry' }, { id: 'N', label: 'Number Theory' },
       ],
-      subtopics: [],
+      subtopics: [
+        { id: 'algebraic-manipulation', label: 'Algebraic manipulation', domain: 'A' },
+        { id: 'divisibility-and-factorization', label: 'Divisibility and factorization', domain: 'N' },
+        { id: 'triangles-and-centers', label: 'Triangles and centers', domain: 'G' },
+      ],
     },
     classifications: [
-      { versionId: 'v:bw:2096:01', primaryDomain: 'A', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2096 problem 1' }, kind: 'curated-classification' }] },
-      { versionId: 'v:bw:2097:01', primaryDomain: 'N', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2097 problem 1' }, kind: 'curated-classification' }] },
-      { versionId: 'v:bw:2098:01', primaryDomain: 'G', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2098 problem 1' }, kind: 'curated-classification' }] },
-      { versionId: 'v:bw:2099:01', primaryDomain: 'A', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2099 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2096:01', primaryDomain: 'A', subtopics: ['algebraic-manipulation'], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2096 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2097:01', primaryDomain: 'N', subtopics: ['divisibility-and-factorization'], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2097 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2098:01', primaryDomain: 'G', subtopics: ['triangles-and-centers'], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2098 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2099:01', primaryDomain: 'A', subtopics: ['algebraic-manipulation'], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2099 problem 1' }, kind: 'curated-classification' }] },
     ],
     assetBindings: [
       {
