@@ -1,14 +1,13 @@
 import type { AppearanceRecord, FinalYearPolicy, SourceRef } from './schema';
 
-export function makeAppearanceId(series: 'BW' | 'BW-SL', year: number, number: string): string {
+export function makeAppearanceId(series: 'BW' | 'BW-CAND', year: number, number: string): string {
   if (series === 'BW') {
     if (!/^\d+$/.test(number)) throw new Error(`BW number must be numeric: ${number}`);
     return `bw:${year}:${String(Number(number)).padStart(2, '0')}`;
   }
-
-  const normalized = number.trim().toUpperCase();
-  if (!/^[ANCG]\d+$/.test(normalized)) throw new Error(`BW-SL number must be A#/N#/C#/G#: ${number}`);
-  return `bw-sl:${year}:${normalized.toLowerCase()}`;
+  const normalized = number.trim().toLowerCase();
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(normalized)) throw new Error(`BW-CAND internal key invalid: ${number}`);
+  return `bw-cand:${year}:${normalized}`;
 }
 
 export function makeVersionId(anchorAppearanceId: string): string {
@@ -23,7 +22,7 @@ export function appearanceSortKey(appearance: AppearanceRecord): string {
   const seriesOrder = appearance.series === 'BW' ? '0' : '1';
   const number = appearance.series === 'BW'
     ? String(Number(appearance.number)).padStart(4, '0')
-    : appearance.number.toUpperCase().replace(/^(.)/, '$1').replace(/(\d+)$/, (digits) => digits.padStart(4, '0'));
+    : appearance.number.toLowerCase();
   return `${seriesOrder}:${String(appearance.year).padStart(4, '0')}:${number}`;
 }
 
@@ -43,10 +42,9 @@ export function resolveAppearanceDomain(
   appearance: AppearanceRecord,
   policies: readonly FinalYearPolicy[],
 ): 'A' | 'N' | 'C' | 'G' {
-  if (appearance.series === 'BW-SL') {
-    const code = appearance.number.trim().toUpperCase();
-    if (!/^[ANCG]\d+$/.test(code)) throw new Error(`${appearance.id}: invalid BW-SL code ${appearance.number}`);
-    return code[0] as 'A' | 'N' | 'C' | 'G';
+  if (appearance.series === 'BW-CAND') {
+    if (!appearance.domain) throw new Error(`${appearance.id}: candidate domain is not frozen`);
+    return appearance.domain;
   }
 
   const policy = policies.find((entry) => entry.year === appearance.year);

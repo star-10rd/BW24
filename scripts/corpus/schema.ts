@@ -19,6 +19,10 @@ export type SourceRef = z.infer<typeof SourceRefSchema>;
 
 export const EvidenceKindSchema = z.enum([
   'official-number',
+  'candidate-set-membership',
+  'source-label',
+  'selection-outcome',
+  'coverage-audit',
   'explicit-label',
   'section-order',
   'document-order',
@@ -67,16 +71,61 @@ export const FinalYearPolicySchema = z.object({
 }).strict();
 export type FinalYearPolicy = z.infer<typeof FinalYearPolicySchema>;
 
-export const AppearanceRecordSchema = z.object({
-  id: z.string().min(1),
-  series: z.enum(['BW', 'BW-SL']),
+export const CandidateStageSchema = z.enum(['proposal', 'candidate-set', 'longlist', 'shortlist']);
+export type CandidateStage = z.infer<typeof CandidateStageSchema>;
+
+export const CandidateSetRecordSchema = z.object({
+  id: z.string().regex(/^bw-candset:[0-9]{4}:[a-z0-9-]+$/),
   year: z.number().int().min(1980).max(2100),
-  number: z.string().min(1),
-  domain: DomainSchema.optional(),
+  stage: CandidateStageSchema,
+  evidenceConfidence: z.enum(['high', 'medium', 'partial', 'secondary-only']),
+  historicalTitle: z.string().min(1).nullable(),
   acceptance: AcceptanceSchema,
   evidence: z.array(EvidenceRefSchema).min(1),
+  note: z.string().min(1).optional(),
 }).strict();
+export type CandidateSetRecord = z.infer<typeof CandidateSetRecordSchema>;
+
+export const CandidateYearCoverageRecordSchema = z.object({
+  year: z.number().int().min(1980).max(2100),
+  candidateCorpusStatus: z.enum(['unrecovered','substantial-recovered','partial-recovered','geometry-only-secondary-recovered']),
+  historicalCompleteness: z.enum(['not-established','not-proven-complete','known-or-likely-partial','partial','complete']),
+  notes: z.array(z.string()),
+  acceptance: AcceptanceSchema,
+  evidence: z.array(EvidenceRefSchema),
+}).strict();
+export type CandidateYearCoverageRecord = z.infer<typeof CandidateYearCoverageRecordSchema>;
+
+export const AppearanceRecordSchema = z.discriminatedUnion('series', [
+  z.object({
+    id: z.string().min(1), series: z.literal('BW'), year: z.number().int().min(1980).max(2100),
+    number: z.string().min(1), domain: DomainSchema.optional(), acceptance: AcceptanceSchema, evidence: z.array(EvidenceRefSchema).min(1),
+  }).strict(),
+  z.object({
+    id: z.string().min(1), series: z.literal('BW-CAND'), year: z.number().int().min(1980).max(2100),
+    number: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/), candidateSetId: z.string().regex(/^bw-candset:[0-9]{4}:[a-z0-9-]+$/),
+    nativeLabel: z.string().min(1).optional(), domain: DomainSchema.optional(), acceptance: AcceptanceSchema, evidence: z.array(EvidenceRefSchema).min(1),
+  }).strict(),
+]);
 export type AppearanceRecord = z.infer<typeof AppearanceRecordSchema>;
+
+export const CandidateSelectionRecordSchema = z.object({
+  appearanceId: z.string().min(1),
+  outcome: z.enum(['selected','not-selected','unresolved']),
+  finalAppearanceId: z.string().min(1).optional(),
+  versionRelation: z.enum(['same-version','revised-into']).optional(),
+  basis: z.enum(['frozen-p3b-same-version','frozen-p3b-related-version','secondary-final-label-plus-statement-match','all-20-final-ancestors-recovered','secondary-final-marking-absence-with-complete-geometry-final-accounting','no-frozen-final-relation']),
+  acceptance: AcceptanceSchema, evidence: z.array(EvidenceRefSchema).min(1), note: z.string().min(1).optional(),
+}).strict().superRefine((value,ctx)=>{
+  if(value.outcome==='selected' && (!value.finalAppearanceId || !value.versionRelation)) ctx.addIssue({code:'custom',message:'selected candidate requires finalAppearanceId and versionRelation'});
+  if(value.outcome!=='selected' && (value.finalAppearanceId || value.versionRelation)) ctx.addIssue({code:'custom',message:'non-selected/unresolved candidate must not name a final relation'});
+});
+export type CandidateSelectionRecord = z.infer<typeof CandidateSelectionRecordSchema>;
+
+export const PublicShortlistRecordSchema = z.object({
+  appearanceId: z.string().min(1), versionId: z.string().min(1), basis: z.string().min(1), acceptance: AcceptanceSchema, evidence: z.array(EvidenceRefSchema).min(1),
+}).strict();
+export type PublicShortlistRecord = z.infer<typeof PublicShortlistRecordSchema>;
 
 export const VersionRecordSchema = z.object({
   id: z.string().min(1),
@@ -237,7 +286,7 @@ export type ReviewRecord = z.infer<typeof ReviewRecordSchema>;
 
 export const SchemaVersionSchema = z.object({
   schema: z.literal('bw26-corpus'),
-  schemaVersion: z.literal(2),
+  schemaVersion: z.literal(3),
 }).strict();
 export type SchemaVersion = z.infer<typeof SchemaVersionSchema>;
 

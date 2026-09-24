@@ -13,7 +13,7 @@ const match = (item: string) => ({
 
 function baseState(): CanonicalState {
   return {
-    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 2 },
+    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 3 },
     sources: [
       {
         id: 'mathnet-v0',
@@ -42,29 +42,60 @@ function baseState(): CanonicalState {
       acceptance: 'frozen',
       evidence: [official(`${year} final`)],
     })),
+    candidateSets: [
+      {
+        id: 'bw-candset:2099:fixture-shortlist',
+        year: 2099,
+        stage: 'shortlist',
+        evidenceConfidence: 'high',
+        historicalTitle: 'Fixture shortlist',
+        acceptance: 'frozen',
+        evidence: [official('2099 shortlist')],
+      },
+    ],
+    candidateYearCoverage: Array.from({ length: 36 }, (_, index) => ({
+      year: 1990 + index,
+      candidateCorpusStatus: 'unrecovered' as const,
+      historicalCompleteness: 'not-established' as const,
+      notes: [],
+      acceptance: 'frozen' as const,
+      evidence: [],
+    })),
+    candidateSelection: [
+      {
+        appearanceId: 'bw-cand:2099:a1',
+        outcome: 'selected',
+        finalAppearanceId: 'bw:2099:01',
+        versionRelation: 'revised-into',
+        basis: 'frozen-p3b-related-version',
+        acceptance: 'frozen',
+        evidence: [official('2099 shortlist A1 selected/revised into final')],
+      },
+    ],
+    publicShortlistOnly: [],
     appearances: [
       { id: 'bw:2096:01', series: 'BW', year: 2096, number: '1', domain: 'A', acceptance: 'frozen', evidence: [official('2096 problem 1')] },
       { id: 'bw:2097:01', series: 'BW', year: 2097, number: '1', domain: 'N', acceptance: 'frozen', evidence: [official('2097 problem 1')] },
       { id: 'bw:2098:01', series: 'BW', year: 2098, number: '1', domain: 'G', acceptance: 'frozen', evidence: [official('2098 problem 1')] },
       { id: 'bw:2099:01', series: 'BW', year: 2099, number: '1', domain: 'A', acceptance: 'frozen', evidence: [official('2099 problem 1')] },
-      { id: 'bw-sl:2099:a1', series: 'BW-SL', year: 2099, number: 'A1', acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2099 shortlist A1' }, kind: 'explicit-label' }] },
+      { id: 'bw-cand:2099:a1', series: 'BW-CAND', year: 2099, number: 'a1', candidateSetId: 'bw-candset:2099:fixture-shortlist', nativeLabel: 'A1', acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2099 shortlist A1' }, kind: 'explicit-label' }] },
     ],
     versions: [
       { id: 'v:bw:2096:01', publicId: 'fixture-normal', primaryAppearanceId: 'bw:2096:01', appearanceIds: ['bw:2096:01'], acceptance: 'frozen', evidence: [] },
       { id: 'v:bw:2097:01', publicId: 'fixture-duplicate', primaryAppearanceId: 'bw:2097:01', appearanceIds: ['bw:2097:01'], acceptance: 'frozen', evidence: [] },
       { id: 'v:bw:2098:01', publicId: 'fixture-corrupt', primaryAppearanceId: 'bw:2098:01', appearanceIds: ['bw:2098:01'], acceptance: 'frozen', evidence: [] },
-      { id: 'v:bw-sl:2099:a1', publicId: 'fixture-shortlist-revision', primaryAppearanceId: 'bw-sl:2099:a1', appearanceIds: ['bw-sl:2099:a1'], acceptance: 'frozen', evidence: [] },
+      { id: 'v:bw-cand:2099:a1', publicId: 'fixture-shortlist-revision', primaryAppearanceId: 'bw-cand:2099:a1', appearanceIds: ['bw-cand:2099:a1'], acceptance: 'frozen', evidence: [] },
       { id: 'v:bw:2099:01', publicId: 'fixture-final-revision', primaryAppearanceId: 'bw:2099:01', appearanceIds: ['bw:2099:01'], acceptance: 'frozen', evidence: [] },
     ],
     versionRelations: [
-      { fromVersionId: 'v:bw-sl:2099:a1', toVersionId: 'v:bw:2099:01', kind: 'revised-into', acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: 'revision note' }, kind: 'independent-cross-check' }] },
+      { fromVersionId: 'v:bw-cand:2099:a1', toVersionId: 'v:bw:2099:01', kind: 'revised-into', acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: 'revision note' }, kind: 'independent-cross-check' }] },
     ],
     sourceLinks: [
       { source: { sourceId: 'mathnet-v0', item: 'normal' }, versionId: 'v:bw:2096:01', relation: 'same-version', statementFidelity: 'exact', metadata: 'consistent', acceptance: 'frozen', evidence: [match('normal')] },
       { source: { sourceId: 'mathnet-v0', item: 'dup-primary' }, versionId: 'v:bw:2097:01', relation: 'same-version', statementFidelity: 'exact', metadata: 'consistent', acceptance: 'frozen', evidence: [match('dup-primary')] },
       { source: { sourceId: 'mathnet-v0', item: 'dup-wrong-year' }, versionId: 'v:bw:2097:01', relation: 'same-version', statementFidelity: 'exact', metadata: 'misattributed', duplicateOf: { sourceId: 'mathnet-v0', item: 'dup-primary' }, acceptance: 'frozen', evidence: [match('dup-wrong-year')] },
       { source: { sourceId: 'mathnet-v0', item: 'corrupt' }, versionId: 'v:bw:2098:01', relation: 'same-version', statementFidelity: 'corrupt', metadata: 'consistent', acceptance: 'frozen', evidence: [match('corrupt')] },
-      { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, versionId: 'v:bw-sl:2099:a1', relation: 'same-version', statementFidelity: 'exact', metadata: 'consistent', acceptance: 'frozen', evidence: [match('shortlist')] },
+      { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, versionId: 'v:bw-cand:2099:a1', relation: 'same-version', statementFidelity: 'exact', metadata: 'consistent', acceptance: 'frozen', evidence: [match('shortlist')] },
       { source: { sourceId: 'mathnet-v0', item: 'final' }, versionId: 'v:bw:2099:01', relation: 'same-version', statementFidelity: 'exact', metadata: 'consistent', acceptance: 'frozen', evidence: [match('final')] },
     ],
     contentSelections: [
@@ -84,7 +115,7 @@ function baseState(): CanonicalState {
         solutions: { status: 'unavailable', items: [] },
       },
       {
-        versionId: 'v:bw-sl:2099:a1',
+        versionId: 'v:bw-cand:2099:a1',
         statement: { language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, field: 'problem_markdown' } }, acceptance: 'frozen' },
         solutions: { status: 'verified', items: [{ id: 'solution-1', language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, field: 'solutions_markdown', index: 0 } }, compatibility: 'native', acceptance: 'frozen' }] },
       },
@@ -127,7 +158,7 @@ export async function runFoundationStressTests(): Promise<void> {
 
   const invalidMerge = structuredClone(valid);
   const version = (invalidMerge.versions as Array<Record<string, unknown>>).find((entry) => entry.id === 'v:bw:2099:01')!;
-  version.appearanceIds = ['bw:2099:01', 'bw-sl:2099:a1'];
+  version.appearanceIds = ['bw:2099:01', 'bw-cand:2099:a1'];
   version.evidence = [{ source: { sourceId: 'fixture-official', locator: 'same-version claim' }, kind: 'statement-match' }];
   await assert.rejects(
     () => validateCanonicalState(invalidMerge, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true }),

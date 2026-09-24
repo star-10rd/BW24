@@ -1,0 +1,236 @@
+[
+  {
+    "year": 1990,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1991,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1992,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1993,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1994,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1995,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1996,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1997,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1998,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 1999,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2000,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2001,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2002,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2003,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2004,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2005,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2006,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2007,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2008,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": []
+  },
+  {
+    "year": 2009,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2010,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2011,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2012,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Secondary 2009–2020 geometry collection explicitly omits 2012."
+    ]
+  },
+  {
+    "year": 2013,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2014,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2015,
+    "candidateCorpusStatus": "partial-recovered",
+    "historicalCompleteness": "known-or-likely-partial",
+    "notes": [
+      "MathNet has 16 handoff rows; independent geometry reproduction contributes 13 geometry candidates outside that block."
+    ]
+  },
+  {
+    "year": 2016,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2017,
+    "candidateCorpusStatus": "geometry-only-secondary-recovered",
+    "historicalCompleteness": "partial",
+    "notes": [
+      "No MathNet handoff rows; secondary geometry reproduction gives g1–g14 and five final mappings."
+    ]
+  },
+  {
+    "year": 2018,
+    "candidateCorpusStatus": "partial-recovered",
+    "historicalCompleteness": "known-or-likely-partial",
+    "notes": [
+      "MathNet has 40 rows and image provenance stem bw18shortlist; secondary geometry collection explicitly omits 2018."
+    ]
+  },
+  {
+    "year": 2019,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2020,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [
+      "Recovered secondary source explicitly calls the set a Longlist; official 2020 regulations used a Problem Selection Committee."
+    ]
+  },
+  {
+    "year": 2021,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [
+      "Official organizer page names a Short List Selection Committee; regulations document Jury selection/editing process."
+    ]
+  },
+  {
+    "year": 2022,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Official regulations/programme prove pre-contest problem selection, but no candidate booklet recovered."
+    ]
+  },
+  {
+    "year": 2023,
+    "candidateCorpusStatus": "substantial-recovered",
+    "historicalCompleteness": "not-proven-complete",
+    "notes": []
+  },
+  {
+    "year": 2024,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Official regulations prove selection from country-submitted problems with editing allowed; no candidate booklet recovered."
+    ]
+  },
+  {
+    "year": 2025,
+    "candidateCorpusStatus": "unrecovered",
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Final contest sources are available; no candidate booklet recovered in current research."
+    ]
+  }
+]

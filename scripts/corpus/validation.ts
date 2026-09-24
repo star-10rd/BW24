@@ -2,6 +2,10 @@ import { access } from 'node:fs/promises';
 import { isAbsolute, normalize, resolve } from 'node:path';
 import {
   AppearanceRecordSchema,
+  CandidateSetRecordSchema,
+  CandidateYearCoverageRecordSchema,
+  CandidateSelectionRecordSchema,
+  PublicShortlistRecordSchema,
   AssetBindingRecordSchema,
   ContentSelectionRecordSchema,
   FinalYearPolicySchema,
@@ -13,6 +17,10 @@ import {
   VersionRecordSchema,
   VersionRelationSchema,
   type AppearanceRecord,
+  type CandidateSetRecord,
+  type CandidateYearCoverageRecord,
+  type CandidateSelectionRecord,
+  type PublicShortlistRecord,
   type AssetBindingRecord,
   type ContentRef,
   type ContentSelectionRecord,
@@ -30,6 +38,10 @@ export type CanonicalState = {
   sources: unknown[];
   mathnetLock: unknown;
   finalYearPolicies: unknown[];
+  candidateSets: unknown[];
+  candidateYearCoverage: unknown[];
+  candidateSelection: unknown[];
+  publicShortlistOnly: unknown[];
   appearances: unknown[];
   versions: unknown[];
   versionRelations: unknown[];
@@ -226,6 +238,10 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
 
   const sources = parseArray('sources', state.sources, SourceRegistryRecordSchema);
   const policies = parseArray('finalYearPolicies', state.finalYearPolicies, FinalYearPolicySchema);
+  const candidateSets = parseArray('candidateSets', state.candidateSets, CandidateSetRecordSchema);
+  const candidateCoverage = parseArray('candidateYearCoverage', state.candidateYearCoverage, CandidateYearCoverageRecordSchema);
+  const candidateSelection = parseArray('candidateSelection', state.candidateSelection, CandidateSelectionRecordSchema);
+  const publicShortlist = parseArray('publicShortlistOnly', state.publicShortlistOnly, PublicShortlistRecordSchema);
   const appearances = parseArray('appearances', state.appearances, AppearanceRecordSchema);
   const versions = parseArray('versions', state.versions, VersionRecordSchema);
   const relations = parseArray('versionRelations', state.versionRelations, VersionRelationSchema);
@@ -236,6 +252,10 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
 
   ensureUnique(sources, (record) => record.id, 'source id');
   ensureUnique(policies, (record) => String(record.year), 'final-year policy');
+  ensureUnique(candidateSets, (record) => record.id, 'candidate set id');
+  ensureUnique(candidateCoverage, (record) => String(record.year), 'candidate year coverage');
+  ensureUnique(candidateSelection, (record) => record.appearanceId, 'candidate selection record');
+  ensureUnique(publicShortlist, (record) => record.appearanceId, 'public shortlist appearance');
   ensureUnique(appearances, (record) => record.id, 'appearance id');
   ensureUnique(appearances, (record) => `${record.series}:${record.year}:${record.number.toUpperCase()}`, 'official appearance');
   ensureUnique(versions, (record) => record.id, 'version id');
@@ -254,6 +274,16 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
       throw new Error(`${source.id}: SHA-256 is only meaningful for immutable file/repository-like sources`);
     }
   }
+
+  for (const set of candidateSets) {
+    validateEvidence(set.evidence, sourceIds, `candidate set ${set.id}`);
+    if (set.year !== Number(set.id.split(':')[1])) throw new Error(`${set.id}: candidate set year mismatch`);
+  }
+  if (candidateCoverage.length !== 36 || candidateCoverage[0]?.year !== 1990 || candidateCoverage[candidateCoverage.length-1]?.year !== 2025) {
+    throw new Error('candidate year coverage must contain 1990–2025 exactly');
+  }
+  for (const c of candidateCoverage) validateEvidence(c.evidence, sourceIds, `candidate coverage ${c.year}`);
+  const candidateSetById = new Map(candidateSets.map((set) => [set.id, set]));
 
   for (const policy of policies) {
     validateEvidence(policy.evidence, sourceIds, `final-year policy ${policy.year}`);
@@ -283,11 +313,12 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
       if (!expectedFinalNumbers(policy).includes(String(Number(appearance.number)))) {
         throw new Error(`${appearance.id}: problem number is outside final-year policy.`);
       }
-    }
-
-    const resolvedDomain = resolveAppearanceDomain(appearance, policies);
-    if (appearance.domain && appearance.domain !== resolvedDomain) {
-      throw new Error(`${appearance.id}: stored domain ${appearance.domain} disagrees with resolved domain ${resolvedDomain}`);
+      const resolvedDomain = resolveAppearanceDomain(appearance, policies);
+      if (appearance.domain && appearance.domain !== resolvedDomain) throw new Error(`${appearance.id}: stored domain ${appearance.domain} disagrees with resolved domain ${resolvedDomain}`);
+    } else {
+      const set = candidateSetById.get(appearance.candidateSetId);
+      if (!set) throw new Error(`${appearance.id}: unknown candidate set ${appearance.candidateSetId}`);
+      if (set.year !== appearance.year) throw new Error(`${appearance.id}: candidate set year mismatch`);
     }
   }
 
@@ -323,11 +354,11 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
       const owner = appearanceOwners.get(appearanceId);
       if (owner) throw new Error(`${appearanceId}: appearance belongs to both ${owner} and ${version.id}`);
       appearanceOwners.set(appearanceId, version.id);
-      const domain = resolveAppearanceDomain(appearance, policies);
-      if (versionDomain && versionDomain !== domain) {
-        throw new Error(`${version.id}: appearances disagree on domain (${versionDomain} vs ${domain})`);
+      const domain = appearance.series === 'BW' ? resolveAppearanceDomain(appearance, policies) : appearance.domain;
+      if (domain) {
+        if (versionDomain && versionDomain !== domain) throw new Error(`${version.id}: appearances disagree on domain (${versionDomain} vs ${domain})`);
+        versionDomain = domain;
       }
-      versionDomain = domain;
     }
   }
   for (const appearance of appearances) {
@@ -342,6 +373,31 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
     validateEvidence(relation.evidence, sourceIds, `version relation ${relation.fromVersionId} -> ${relation.toVersionId}`);
   }
   assertAcyclic(relations);
+
+  const candidateAppearanceIds = new Set(appearances.filter((a) => a.series === 'BW-CAND').map((a) => a.id));
+  if (candidateSelection.length !== candidateAppearanceIds.size) throw new Error('every candidate appearance must have exactly one selection record');
+  const selectionByAppearance = new Map(candidateSelection.map((s) => [s.appearanceId, s]));
+  for (const id of candidateAppearanceIds) if (!selectionByAppearance.has(id)) throw new Error(`${id}: missing candidate selection record`);
+  for (const selection of candidateSelection) {
+    if (!candidateAppearanceIds.has(selection.appearanceId)) throw new Error(`${selection.appearanceId}: selection record targets non-candidate appearance`);
+    validateEvidence(selection.evidence, sourceIds, `candidate selection ${selection.appearanceId}`);
+    if (selection.outcome === 'selected') {
+      const final = appearanceById.get(selection.finalAppearanceId!);
+      if (!final || final.series !== 'BW') throw new Error(`${selection.appearanceId}: selected final is not a BW appearance`);
+      const ownerCandidate = appearanceOwners.get(selection.appearanceId);
+      const ownerFinal = appearanceOwners.get(selection.finalAppearanceId!);
+      if (selection.versionRelation === 'same-version' && ownerCandidate !== ownerFinal) throw new Error(`${selection.appearanceId}: same-version selection does not share final Version`);
+      if (selection.versionRelation === 'revised-into' && !relations.some((r) => r.fromVersionId === ownerCandidate && r.toVersionId === ownerFinal)) throw new Error(`${selection.appearanceId}: revised selection lacks candidate→final Version relation`);
+    }
+  }
+  const publicIds = new Set(publicShortlist.map((p) => p.appearanceId));
+  for (const p of publicShortlist) {
+    const s = selectionByAppearance.get(p.appearanceId);
+    if (!s || s.outcome !== 'not-selected') throw new Error(`${p.appearanceId}: public shortlist entry must have frozen not-selected outcome`);
+    if (appearanceOwners.get(p.appearanceId) !== p.versionId) throw new Error(`${p.appearanceId}: public shortlist version mismatch`);
+    validateEvidence(p.evidence, sourceIds, `public shortlist ${p.appearanceId}`);
+  }
+  for (const s of candidateSelection) if (s.outcome === 'not-selected' && !publicIds.has(s.appearanceId)) throw new Error(`${s.appearanceId}: frozen not-selected candidate missing from public shortlist projection`);
 
   const linksBySource = sourceLinksBySource(sourceLinks);
   for (const link of sourceLinks) {

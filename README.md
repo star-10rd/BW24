@@ -56,3 +56,15 @@ npm run corpus:source:verify
 ```
 
 Canonical identity and accepted same-Version source links live under `data/corpus/identity/` and `data/corpus/curation/`. Research reconciliation evidence stays under `data/corpus/research/` and is never compiled directly into public problem pages. Public statement, solution, and image selection remains a later curation step.
+<!-- BW26-P3C -->
+## P3C candidate-selection corpus
+
+Corpus schema v3 adds a recoverable Baltic Way pre-contest candidate layer without changing the frozen 719-final corpus. The installed identity graph contains 543 documented candidate appearances across 13 recovered candidate sets. It records 223 selected candidates, 67 candidates with frozen not-selected evidence, and 253 historically unresolved selection outcomes. The strict public shortlist-only projection contains only the 67 frozen not-selected candidates; absence of a final match is never treated by itself as proof of non-selection. Historical completeness is explicitly not claimed.
+
+```bash
+npm run corpus:validate
+npm run corpus:report
+npm run corpus:source:verify
+```
+
+P3D remains responsible for selecting public statements, solutions, topics, and assets.

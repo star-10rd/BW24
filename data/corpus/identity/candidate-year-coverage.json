@@ -1,0 +1,468 @@
+[
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1990
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1991
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1992
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1993
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1994
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1995
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1996
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1997
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1998
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 1999
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2000
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2001
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2002
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2003
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2004
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2005
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2006
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2007
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [],
+    "year": 2008
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2009.",
+        "source": {
+          "locator": "candidate coverage 2009",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2009
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2010.",
+        "source": {
+          "locator": "candidate coverage 2010",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2010
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2011.",
+        "source": {
+          "locator": "candidate coverage 2011",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2011
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Secondary collection explicitly reports 2012 missing.",
+        "source": {
+          "locator": "missing 2012",
+          "sourceId": "bw-cand-secondary:geometry-2009-2020"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Secondary 2009–2020 geometry collection explicitly omits 2012."
+    ],
+    "year": 2012
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2013.",
+        "source": {
+          "locator": "candidate coverage 2013",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2013
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2014.",
+        "source": {
+          "locator": "candidate coverage 2014",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2014
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "partial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2015.",
+        "source": {
+          "locator": "candidate coverage 2015",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "known-or-likely-partial",
+    "notes": [
+      "MathNet has 16 handoff rows; independent geometry reproduction contributes 13 geometry candidates outside that block."
+    ],
+    "year": 2015
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2016.",
+        "source": {
+          "locator": "candidate coverage 2016",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2016
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "geometry-only-secondary-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Secondary source recovers geometry-only shortlist material g1–g14.",
+        "source": {
+          "locator": "2017",
+          "sourceId": "bw-cand-secondary:geometry-2009-2020"
+        }
+      }
+    ],
+    "historicalCompleteness": "partial",
+    "notes": [
+      "No MathNet handoff rows; secondary geometry reproduction gives g1–g14 and five final mappings."
+    ],
+    "year": 2017
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "partial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2018.",
+        "source": {
+          "locator": "candidate coverage 2018",
+          "sourceId": "mathnet-v0"
+        }
+      },
+      {
+        "kind": "coverage-audit",
+        "note": "Secondary collection explicitly reports 2018 missing while MathNet contains a partial block.",
+        "source": {
+          "locator": "missing 2018",
+          "sourceId": "bw-cand-secondary:geometry-2009-2020"
+        }
+      }
+    ],
+    "historicalCompleteness": "known-or-likely-partial",
+    "notes": [
+      "MathNet has 40 rows and image provenance stem bw18shortlist; secondary geometry collection explicitly omits 2018."
+    ],
+    "year": 2018
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2019.",
+        "source": {
+          "locator": "candidate coverage 2019",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2019
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2020.",
+        "source": {
+          "locator": "candidate coverage 2020",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [
+      "Recovered secondary source explicitly calls the set a Longlist; official 2020 regulations used a Problem Selection Committee."
+    ],
+    "year": 2020
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2021.",
+        "source": {
+          "locator": "candidate coverage 2021",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [
+      "Official organizer page names a Short List Selection Committee; regulations document Jury selection/editing process."
+    ],
+    "year": 2021
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Official regulations establish the selection process but no candidate booklet is recovered.",
+        "source": {
+          "locator": "Jury selection",
+          "sourceId": "bw-cand-official:2022:regulations"
+        }
+      },
+      {
+        "kind": "coverage-audit",
+        "note": "Official programme schedules problem selection.",
+        "source": {
+          "locator": "selection of problems",
+          "sourceId": "bw-cand-official:2022:programme"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Official regulations/programme prove pre-contest problem selection, but no candidate booklet recovered."
+    ],
+    "year": 2022
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "substantial-recovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Pinned MathNet-v0 contains recovered candidate material for 2023.",
+        "source": {
+          "locator": "candidate coverage 2023",
+          "sourceId": "mathnet-v0"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-proven-complete",
+    "notes": [],
+    "year": 2023
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [
+      {
+        "kind": "coverage-audit",
+        "note": "Official regulations establish the selection process but no candidate booklet is recovered.",
+        "source": {
+          "locator": "Jury selection",
+          "sourceId": "bw-cand-official:2024:regulations"
+        }
+      }
+    ],
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Official regulations prove selection from country-submitted problems with editing allowed; no candidate booklet recovered."
+    ],
+    "year": 2024
+  },
+  {
+    "acceptance": "frozen",
+    "candidateCorpusStatus": "unrecovered",
+    "evidence": [],
+    "historicalCompleteness": "not-established",
+    "notes": [
+      "Final contest sources are available; no candidate booklet recovered in current research."
+    ],
+    "year": 2025
+  }
+]

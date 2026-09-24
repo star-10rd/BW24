@@ -9,3 +9,9 @@ This directory is the durable offline corpus layer between external olympiad sou
 - `generated/`: disposable/reproducible outputs only.
 
 The public website must never compile directly from `research/` or infer canonical identity from fuzzy matches. Final-corpus reconciliation freezes 719 official fixed mathematical final appearances for 1990-2025 and reconciles them globally against all 853 rows of the pinned MathNet-v0 snapshot.
+
+## P3C candidate-selection layer
+
+Schema v3 adds a recoverable pre-contest candidate layer (`BW-CAND`). It preserves 719 final appearances unchanged while recording 543 documented candidate appearances across 13 recovered candidate sets. Historical coverage is explicitly incomplete: 253 candidate selection outcomes remain unresolved and are not projected into the public shortlist-only set. The strict public projection currently contains 67 candidates with frozen not-selected evidence.
+
+Candidate identity lives under `identity/candidate-sets.jsonl`, `candidate-selection.jsonl`, `candidate-year-coverage.json`, and `public-shortlist-only.jsonl`. The website must not infer additional public shortlist problems from research rows or from absence of a final match.

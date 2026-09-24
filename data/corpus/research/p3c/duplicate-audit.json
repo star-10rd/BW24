@@ -1,0 +1,54 @@
+{
+  "acceptedMathNetCandidateOccurrences": 515,
+  "exactNormalizedDuplicateGroups": [],
+  "knownExcludedDuplicate": {
+    "source": "mathnet-v0:01h8",
+    "duplicateOf": "mathnet-v0:01fz"
+  },
+  "fuzzyReviewThreshold": 0.72,
+  "fuzzyReviewPairs": [
+    {
+      "similarity": 0.858,
+      "a": "mathnet-v0:01hg",
+      "b": "mathnet-v0:01hh",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.844,
+      "a": "mathnet-v0:0182",
+      "b": "mathnet-v0:01f8",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.828,
+      "a": "mathnet-v0:01hk",
+      "b": "mathnet-v0:01hl",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.802,
+      "a": "mathnet-v0:01ce",
+      "b": "mathnet-v0:01e2",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.785,
+      "a": "mathnet-v0:019h",
+      "b": "mathnet-v0:01hk",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.769,
+      "a": "mathnet-v0:01f8",
+      "b": "mathnet-v0:01ga",
+      "reviewDisposition": "not-established-duplicate"
+    },
+    {
+      "similarity": 0.768,
+      "a": "mathnet-v0:015k",
+      "b": "mathnet-v0:019g",
+      "reviewDisposition": "not-established-duplicate"
+    }
+  ],
+  "conclusion": "No additional exact normalized duplicates remain after excluding 01h8. Fuzzy pairs are review leads only and do not establish identity."
+}

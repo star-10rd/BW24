@@ -1,0 +1,27 @@
+{
+  "schema": "bw26-p3c-canonical-freeze",
+  "version": 1,
+  "baseGitCommit": "f953697f660bf202fdb7f3ac7634f46408cac10c",
+  "finalAppearances": 719,
+  "finalVersions": 719,
+  "candidateSets": 13,
+  "candidateAppearances": 543,
+  "sharedCandidateFinalVersions": 197,
+  "revisedCandidateVersions": 26,
+  "candidateOnlyVersions": 320,
+  "newCandidateVersions": 346,
+  "totalAppearances": 1262,
+  "totalVersions": 1065,
+  "selectionOutcomes": {
+    "selected": 223,
+    "unresolved": 253,
+    "not-selected": 67
+  },
+  "publicShortlistOnly": 67,
+  "selectionUnresolved": 253,
+  "sourceLinks": 880,
+  "versionRelations": 26,
+  "historicalCompletenessClaim": false,
+  "publicProjectionPolicy": "strict-evidence-v1",
+  "note": "Public shortlist-only includes only frozen not-selected outcomes: 32 from 2011, 18 from 2021 (all 20 final ancestors recovered in-set), plus 17 secondary-reconstructed geometry candidates from 2015/2017 whose selected peers are explicitly marked and all five geometry finals are accounted for."
+}

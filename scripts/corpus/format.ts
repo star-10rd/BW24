@@ -23,6 +23,9 @@ const root = process.cwd();
 await assertBw26RepoRoot(root);
 
 await formatJsonl(resolve(root, corpusPaths.sourceRegistry), (value) => value.id);
+await formatJsonl(resolve(root, corpusPaths.candidateSets), (value) => value.id);
+await formatJsonl(resolve(root, corpusPaths.candidateSelection), (value) => value.appearanceId);
+await formatJsonl(resolve(root, corpusPaths.publicShortlistOnly), (value) => value.appearanceId);
 await formatJsonl(resolve(root, corpusPaths.appearances), (value: AppearanceRecord) => appearanceSortKey(value));
 await formatJsonl(resolve(root, corpusPaths.versions), (value) => value.id);
 await formatJsonl(resolve(root, corpusPaths.versionRelations), (value) => `${value.fromVersionId}|${value.toVersionId}`);
@@ -34,6 +37,7 @@ await formatJsonl(resolve(root, corpusPaths.reviews), (value) => value.id);
 const policies = await readJson<any[]>(resolve(root, corpusPaths.finalYearPolicies));
 policies.sort((a, b) => a.year - b.year);
 await writeJson(resolve(root, corpusPaths.finalYearPolicies), stable(policies));
+const candidateCoverage = await readJson<any[]>(resolve(root, corpusPaths.candidateYearCoverage)); candidateCoverage.sort((a,b)=>a.year-b.year); await writeJson(resolve(root, corpusPaths.candidateYearCoverage), stable(candidateCoverage));
 await writeJson(resolve(root, corpusPaths.schemaVersion), stable(await readJson(resolve(root, corpusPaths.schemaVersion))));
 await writeJson(resolve(root, corpusPaths.mathnetLock), stable(await readJson(resolve(root, corpusPaths.mathnetLock))));
 

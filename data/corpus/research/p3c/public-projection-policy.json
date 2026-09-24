@@ -1,0 +1,13 @@
+{
+  "schemaVersionTarget": 3,
+  "candidateSeries": "BW-CAND",
+  "principles": [
+    "Preserve the 719-final P3B subset exactly.",
+    "Model pre-contest material using native stage/labels where supported; do not force one IMO-style shortlist numbering system.",
+    "Separate candidate appearance identity, historical selection outcome, and mathematical Version fidelity.",
+    "A selected unchanged candidate may share a Version with a final only when same-Version fidelity is actually established.",
+    "A selected revised candidate uses candidate-version revised-into final-version when strict Version difference is established.",
+    "Do not infer public shortlist-only status solely from absence of a P3B final relation."
+  ],
+  "publicProjection": "Eligible BW-CAND appearances are public shortlist-only only after historical selection outcome is not-selected and the Version graph has no BW-final sharing/revised path."
+}

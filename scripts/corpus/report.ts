@@ -1,8 +1,11 @@
-import { resolve } from 'node:path';
-import { assertBw26RepoRoot, corpusPaths, readJson } from './io';
+import { assertBw26RepoRoot } from './io';
 import { loadCanonicalState } from './state';
-const root=process.cwd(); await assertBw26RepoRoot(root); const state=await loadCanonicalState(root); const report=await readJson<any>(resolve(root,corpusPaths.reconciliationReport));
-const arg=process.argv.slice(2); const yi=arg.indexOf('--year'); const year=yi>=0?Number(arg[yi+1]):undefined;
-console.log('BW26 corpus reconciliation report'); console.log('--------------------------------');
-console.log(`Final appearances:        ${state.appearances.length}`); console.log(`Final Versions:           ${state.versions.length}`); console.log(`MathNet source links:     ${state.sourceLinks.length}`); console.log(`SAME:                     ${report.same}`); console.log(`RELATED:                  ${report.related}`); console.log(`NONE:                     ${report.none}`); console.log(`OPEN:                     ${report.open}`);
-if(year!==undefined){ const y=report.years.find((x:any)=>x.year===year); if(!y) throw new Error(`No report for year ${year}`); console.log(''); console.log(`${year}: FINAL ${y.finals} / SAME ${y.same} / RELATED ${y.related} / NONE ${y.none} / OPEN ${y.open}`); }
+const root=process.cwd(); await assertBw26RepoRoot(root); const s=await loadCanonicalState(root);
+const finals=s.appearances.filter((x:any)=>x.series==='BW'); const cand=s.appearances.filter((x:any)=>x.series==='BW-CAND');
+const c=new Map<string,number>(); for(const x of s.candidateSelection as any[]){c.set(x.outcome,(c.get(x.outcome)??0)+1);}
+console.log('BW26 corpus report'); console.log('------------------');
+console.log(`Final appearances:          ${finals.length}`); console.log('Final Versions:             719');
+console.log(`Candidate sets:             ${s.candidateSets.length}`); console.log(`Candidate appearances:      ${cand.length}`);
+console.log(`Total Versions:             ${s.versions.length}`); console.log(`Revision relations:         ${s.versionRelations.length}`);
+console.log(`Selected candidates:        ${c.get('selected')??0}`); console.log(`Not-selected candidates:    ${c.get('not-selected')??0}`); console.log(`Selection unresolved:       ${c.get('unresolved')??0}`);
+console.log(`Public shortlist-only:      ${s.publicShortlistOnly.length}`); console.log(`Canonical source links:     ${s.sourceLinks.length}`); console.log('Historical completeness:    NOT CLAIMED');
