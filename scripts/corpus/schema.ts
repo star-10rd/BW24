@@ -187,13 +187,22 @@ export const ContentRefSchema = z.union([
 ]);
 export type ContentRef = z.infer<typeof ContentRefSchema>;
 
+const SelectedStatementSchema = z.object({
+  language: z.literal('en'),
+  ref: ContentRefSchema,
+  acceptance: AcceptanceSchema,
+}).strict();
+
+const UnavailableStatementSchema = z.object({
+  status: z.literal('unavailable'),
+  acceptance: z.literal('frozen'),
+  reason: z.string().min(1),
+  evidence: z.array(EvidenceRefSchema).min(1),
+}).strict();
+
 export const ContentSelectionRecordSchema = z.object({
   versionId: z.string().min(1),
-  statement: z.object({
-    language: z.literal('en'),
-    ref: ContentRefSchema,
-    acceptance: AcceptanceSchema,
-  }).strict(),
+  statement: z.union([SelectedStatementSchema, UnavailableStatementSchema]),
   solutions: z.object({
     status: z.enum(['verified', 'unavailable', 'unresolved']),
     items: z.array(z.object({
@@ -203,6 +212,8 @@ export const ContentSelectionRecordSchema = z.object({
       compatibility: z.enum(['native', 'verified-compatible', 'adapted']),
       acceptance: AcceptanceSchema,
     }).strict()),
+    reason: z.string().min(1).optional(),
+    evidence: z.array(EvidenceRefSchema).min(1).optional(),
   }).strict(),
   topics: z.union([
     z.object({ kind: z.literal('source'), ref: ContentRefSchema }).strict(),
@@ -214,6 +225,9 @@ export const ContentSelectionRecordSchema = z.object({
   }
   if (value.solutions.status !== 'verified' && value.solutions.items.length !== 0) {
     ctx.addIssue({ code: 'custom', path: ['solutions', 'items'], message: `${value.solutions.status} solutions must not contain selected items` });
+  }
+  if (value.solutions.status === 'unavailable' && (!value.solutions.reason || !value.solutions.evidence)) {
+    ctx.addIssue({ code: 'custom', path: ['solutions'], message: 'unavailable solutions require reason and evidence' });
   }
 });
 export type ContentSelectionRecord = z.infer<typeof ContentSelectionRecordSchema>;
@@ -316,7 +330,7 @@ export type ReviewRecord = z.infer<typeof ReviewRecordSchema>;
 
 export const SchemaVersionSchema = z.object({
   schema: z.literal('bw26-corpus'),
-  schemaVersion: z.literal(4),
+  schemaVersion: z.literal(5),
 }).strict();
 export type SchemaVersion = z.infer<typeof SchemaVersionSchema>;
 

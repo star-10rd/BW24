@@ -19,15 +19,9 @@ import {
   VersionRecordSchema,
   VersionRelationSchema,
   type AppearanceRecord,
-  type CandidateSetRecord,
-  type CandidateYearCoverageRecord,
-  type CandidateSelectionRecord,
-  type PublicShortlistRecord,
   type AssetBindingRecord,
   type ContentRef,
   type ContentSelectionRecord,
-  type TopicTaxonomy,
-  type ClassificationRecord,
   type EvidenceRef,
   type ReviewRecord,
   type SourceLinkRecord,
@@ -469,21 +463,35 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
 
   const selectionByVersion = new Map(selections.map((selection) => [selection.versionId, selection]));
   const safeStatementFidelity = new Set(['exact', 'equivalent']);
+  if (enforcePublicCorpusCompleteness) {
+    if (selections.length !== publicVersionIds.size) throw new Error(`every public Version requires one resolved content selection (${selections.length}/${publicVersionIds.size})`);
+    for (const id of publicVersionIds) if (!selectionByVersion.has(id)) throw new Error(`${id}: missing public content selection`);
+    if (selections.some((selection) => selection.solutions.status === 'unresolved')) throw new Error('final publication corpus must not contain unresolved solution states');
+  }
 
   for (const selection of selections) {
     if (!versionById.has(selection.versionId)) throw new Error(`${selection.versionId}: content selection targets unknown version`);
-    validateContentRefSource(selection.statement.ref, sourceIds, `${selection.versionId}: statement`);
+    if (!publicVersionIds.has(selection.versionId)) throw new Error(`${selection.versionId}: content selection targets non-public Version`);
 
-    if (selection.statement.ref.kind === 'source-field') {
-      if (selection.statement.ref.ref.field !== 'problem_markdown') {
-        throw new Error(`${selection.versionId}: statement source must select problem_markdown`);
+    if ('status' in selection.statement) {
+      validateEvidence(selection.statement.evidence, sourceIds, `${selection.versionId}: unavailable statement`);
+    } else {
+      validateContentRefSource(selection.statement.ref, sourceIds, `${selection.versionId}: statement`);
+      if (selection.statement.ref.kind === 'source-field') {
+        if (selection.statement.ref.ref.field !== 'problem_markdown') {
+          throw new Error(`${selection.versionId}: statement source must select problem_markdown`);
+        }
+        const links = linksBySource.get(sourceRefKey(selection.statement.ref.ref.source)) ?? [];
+        const link = links.find((item) => item.versionId === selection.versionId);
+        if (!link) throw new Error(`${selection.versionId}: selected statement source is not linked to this version`);
+        if (!safeStatementFidelity.has(link.statementFidelity)) {
+          throw new Error(`${selection.versionId}: ${link.statementFidelity} source statement cannot be selected directly; use curated replacement`);
+        }
       }
-      const links = linksBySource.get(sourceRefKey(selection.statement.ref.ref.source)) ?? [];
-      const link = links.find((item) => item.versionId === selection.versionId);
-      if (!link) throw new Error(`${selection.versionId}: selected statement source is not linked to this version`);
-      if (!safeStatementFidelity.has(link.statementFidelity)) {
-        throw new Error(`${selection.versionId}: ${link.statementFidelity} source statement cannot be selected directly; use curated replacement`);
-      }
+    }
+
+    if (selection.solutions.status === 'unavailable') {
+      validateEvidence(selection.solutions.evidence ?? [], sourceIds, `${selection.versionId}: unavailable solutions`);
     }
 
     const solutionIds = new Set<string>();
@@ -522,12 +530,15 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
     }
 
     if (checkCuratedFiles) {
-      const paths = [curatedPath(selection.statement.ref)];
+      const paths: Array<string | null> = [];
+      if (!('status' in selection.statement)) paths.push(curatedPath(selection.statement.ref));
       for (const solution of selection.solutions.items) paths.push(curatedPath(solution.ref));
       if (selection.topics?.kind === 'source') paths.push(curatedPath(selection.topics.ref));
       for (const path of paths) if (path) await validateCuratedPath(repoRoot, path, selection.versionId);
-      const statementPath = curatedPath(selection.statement.ref);
-      if (statementPath) await validateCuratedMarkdownAssets(repoRoot, statementPath, selection.versionId, { kind: 'statement' }, assetBindings);
+      if (!('status' in selection.statement)) {
+        const statementPath = curatedPath(selection.statement.ref);
+        if (statementPath) await validateCuratedMarkdownAssets(repoRoot, statementPath, selection.versionId, { kind: 'statement' }, assetBindings);
+      }
       for (const solution of selection.solutions.items) {
         const solutionPath = curatedPath(solution.ref);
         if (solutionPath) await validateCuratedMarkdownAssets(repoRoot, solutionPath, selection.versionId, { kind: 'solution', id: solution.id }, assetBindings);

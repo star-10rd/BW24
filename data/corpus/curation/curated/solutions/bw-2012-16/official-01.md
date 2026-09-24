@@ -1,0 +1,1 @@
+Since $\operatorname{gcd}(n,(n-1)(n+1))=1$, if $(n-1) n(n+1)$ is a $k$-th power for $k \geq 1$, then $n$ and $(n-1)(n+1)=n^{2}-1$ must be $k$-th powers as well. Then $n=m_{1}^{k}$ and $n^{2}-1=m_{2}^{k}=\left(m_{1}^{2}\right)^{k}-1$. But the difference of two positive $k$-th powers can never be 1 , if $k>1$. So $k=1$.

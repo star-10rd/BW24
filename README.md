@@ -72,8 +72,4 @@ P3D remains responsible for selecting public statements, solutions, topics, and 
 <!-- BW26-P3D -->
 ## P3D publication curation
 
-Schema v4 keeps the P3C identity graph unchanged and adds a first-class public classification registry plus locally curated publication content. The P3D publication layer now selects 769 of the 786 public statements, resolves every required local statement-figure dependency, selects reviewed local solution material for 564 public Versions, and freezes primary-domain plus controlled subtopic classifications for all 786 public Versions. Publication completeness is intentionally not claimed: the remaining 17 statement-source gaps and 222 unresolved solution states are frozen under `data/corpus/research/p3d/` rather than filled speculatively.
-
-## v3 packaging fix
-
-This revision canonicalizes classifications.jsonl to the repository formatter byte order before packaging; corpus content/counts are unchanged from v2.
+Schema v5 keeps the P3C identity graph unchanged and closes the P3D publication-state model. All 786 public Versions now have resolved statement and solution states: 769 statements are locally selected and 17 historically unrecovered shortlist statements are explicitly unavailable with evidence; 739 Versions have verified local solution material and 47 historically unrecovered solution states are explicitly unavailable with evidence. No public statement or solution remains unresolved. All required selected-content assets are local, and primary-domain plus controlled subtopic classifications remain complete for all 786 public Versions. P3D publication completeness is therefore claimed in the resolved-state sense: completeness never means inventing content that the historical source record does not supply.

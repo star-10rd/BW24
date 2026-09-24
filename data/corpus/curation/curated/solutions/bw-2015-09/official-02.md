@@ -1,0 +1,1 @@
+(found by Saint Petersburg). For the case of $n$ odd, consider the complete graph on the vertices $1, \ldots, n$ with $\frac{n(n-1)}{2}$ edges. The degree of each vertex is $n-1$, which is even, hence an Euler cycle $v_{1} v_{2} \cdots v_{\frac{n(n-1)}{2}} v_{1}$ exists. Place card number $i$ into stack number $v_{i}$. The magic pairs correspond to edges in the cycle.

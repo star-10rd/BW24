@@ -1,8 +1,11 @@
 {
   "schema": "bw26-p3d-solution-completion-summary",
-  "version": 1,
-  "publicSolutionUnresolved": 222,
-  "officialFinalSourceBytesRequired": 205,
-  "shortlistSourceUnknown": 17,
-  "note": "The remaining solution gap is content-source materialization/research, not a schema or identity gap. Full local solution publication is not claimed until authoritative source bytes are supplied and reviewed."
+  "version": 2,
+  "verifiedLocalSolutionVersions": 739,
+  "selectedLocalSolutionFiles": 800,
+  "explicitlyUnavailableSolutions": 47,
+  "publicSolutionUnresolved": 0,
+  "exceptionalOfficialFinalUnavailable": 30,
+  "shortlistSolutionUnavailable": 17,
+  "note": "All solution states are resolved. 30 final problems (2009/2019/2022) and 17 shortlist-only Versions remain explicitly unavailable because no defensible source was recovered; no solutions were synthesized."
 }

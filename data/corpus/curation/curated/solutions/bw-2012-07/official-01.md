@@ -1,0 +1,5 @@
+Let a peg go on the board, stepping from a cell to the neighbor cell right or below. Then the number in the bottom right corner of the board is equal to the number of paths of the peg from the top left corner to the bottom right corner, which do not visit the marked cells.
+
+The total number of paths (including those that pass through the marked cells) equals $\left(\begin{array}{l}4022 \\ 2011\end{array}\right)$; this number is not divisible by 2011, because 2011 is a prime number. The number of paths that pass through the $k$-th cell of the diagonal equals $\left(\begin{array}{c}2011 \\ k\end{array}\right)^{2}$, because in order to visit this cell starting from the corner the peg should make 2011 steps, $k$ of which are horizontal, and others are vertical; and after the visit it also should make 2011 steps, $k$ of which is vertical. Since $k \neq 0,2011$ (because the marked cells are not in the corner) this number is divisible by 2011.
+
+So the number in the low right corner equals the difference of the number that is not divisible by 2011 and several numbers that are divisible by 2011 .

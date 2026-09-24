@@ -1,0 +1,5 @@
+Let the line $O C$ intersect $A B$ in point $P$. As $A M$ is a median, we have $\frac{|A P|}{|P B|}=\frac{|A K|}{|K C|}$ (this obviously holds if $|A B|=|A C|$ and the equality is preserved under uniform compression of the plane along $B K)$. Applying the sine theorem to the triangles $A B K$ and $B C K$ we obtain $\frac{|A P|}{|P B|}=\frac{|A K|}{|K C|}=\frac{|A B|}{|B C|}=\frac{5}{4}$ (see Figure 6). As $|A P|+|P B|=|A B|=15$, we have $|A P|=\frac{25}{3}$ and $|P B|=\frac{20}{3}$. Thus $|A C|^{2}-|B C|^{2}=$ $25=|A P|^{2}-|B P|^{2}$ and $|A C|^{2}-|A P|^{2}=|B C|^{2}-|B P|^{2}$. Applying now the cosine theorem to the triangles $A P C$ and $B P C$ we get $\cos \angle A P C=\cos \angle B P C$, i.e., $P=L$. As above, we can use a compression of the plane to show that $K P \| B C$ and therefore $\angle O P K=\angle O C B$. As $|B M|=|M C|$ and $\angle B P C=90^{\circ}$ we have $\angle O C B=\angle O P M$. Combining these equalities, we get $\angle O L K=\angle O P K=\angle O C B=\angle O P M=\angle O L M$.
+
+![](figure-6.png)
+
+Figure 6

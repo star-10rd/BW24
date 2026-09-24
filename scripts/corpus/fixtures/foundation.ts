@@ -13,7 +13,7 @@ const match = (item: string) => ({
 
 function baseState(): CanonicalState {
   return {
-    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 4 },
+    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 5 },
     sources: [
       {
         id: 'mathnet-v0',
@@ -107,17 +107,12 @@ function baseState(): CanonicalState {
       {
         versionId: 'v:bw:2097:01',
         statement: { language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'dup-primary' }, field: 'problem_markdown' } }, acceptance: 'frozen' },
-        solutions: { status: 'unavailable', items: [] },
+        solutions: { status: 'unavailable', items: [], reason: 'Fixture source intentionally unavailable.', evidence: [official('fixture unavailable solution')] },
       },
       {
         versionId: 'v:bw:2098:01',
         statement: { language: 'en', ref: { kind: 'curated-file', path: 'data/corpus/curation/curated/statements/fixture-corrupt.md', evidence: [{ source: { sourceId: 'fixture-official', locator: '2098 problem 1' }, kind: 'transcription-check' }] }, acceptance: 'frozen' },
-        solutions: { status: 'unavailable', items: [] },
-      },
-      {
-        versionId: 'v:bw-cand:2099:a1',
-        statement: { language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, field: 'problem_markdown' } }, acceptance: 'frozen' },
-        solutions: { status: 'verified', items: [{ id: 'solution-1', language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, field: 'solutions_markdown', index: 0 } }, compatibility: 'native', acceptance: 'frozen' }] },
+        solutions: { status: 'unavailable', items: [], reason: 'Fixture source intentionally unavailable.', evidence: [official('fixture unavailable solution')] },
       },
       {
         versionId: 'v:bw:2099:01',

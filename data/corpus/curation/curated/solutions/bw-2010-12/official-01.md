@@ -1,0 +1,3 @@
+Assume that the lengths of the sides form an arithmetic progression with the first term $a$ and the difference $d$. Suppose that sides $A B$ and $C D$ are parallel, $|A B|>|C D|$ and let $E$ be a point on $A B$ such that $|B E|=|C D|$. Then $|D E|=|C B|$ as opposite sides of a parallelogram, so $|A D|$ and $|D E|$ are two non-consequent terms of the arithmetic progression and $|A D|-|D E|= \pm 2 d$. Further, $|A E|=|A B|-|D C|=2 d$. We get a contradiction to the triangle inequality $|A E|>|| A D|-| D E \mid$.
+
+We take a triangle with sides $3,3,2$ and add a parallelogram with sides 1 and 2 on the side of length 2 to obtain a trapezoid. Then the lengths of the sides are 1, 2, 4, 3 .

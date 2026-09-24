@@ -19,4 +19,4 @@ Candidate identity lives under `identity/candidate-sets.jsonl`, `candidate-selec
 <!-- BW26-P3D -->
 ## P3D publication layer
 
-Schema v4 adds `curation/taxonomy.json` and `curation/classifications.jsonl` while preserving the P3C identity model. Public content selections point only to local curated files. Research/source gaps remain explicit under `research/p3d/`; the website must not read remote sources or research paths at runtime.
+Schema v5 preserves the P3C identity model while completing the P3D publication-state contract. Every one of the 786 public Versions has a resolved statement and solution state. Selected publication content points only to local curated files; historically unrecovered content is represented explicitly as `unavailable` with source evidence rather than guessed or left unresolved. The website must not read remote sources or `research/` paths at runtime. Publication completeness means every public content state is resolved, not that every historical statement or solution source was recoverable.

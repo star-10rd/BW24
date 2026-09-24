@@ -1,0 +1,18 @@
+{
+  "schema": "bw26-p3d-final-completion-summary",
+  "version": 1,
+  "publicVersions": 786,
+  "selectedPublicationStatements": 769,
+  "explicitlyUnavailableStatements": 17,
+  "statementUnresolved": 0,
+  "verifiedLocalSolutionVersions": 739,
+  "explicitlyUnavailableSolutionVersions": 47,
+  "solutionUnresolved": 0,
+  "selectedSolutionFiles": 800,
+  "assetBindings": 207,
+  "primaryClassifications": 786,
+  "subtopicReviewedVersions": 786,
+  "controlledSubtopics": 32,
+  "publicationComplete": true,
+  "completenessDefinition": "Every public Version has a resolved statement state and a resolved solution state; unavailable means the final source audit exhausted defensible supplied/authoritative sources without fabricating content."
+}

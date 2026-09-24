@@ -1,0 +1,3 @@
+Let $\omega$ be the circumcircle of $A B C D$. Let $A B$ and $C D$ intersect at $X$. Let $\omega_{1}$ and $\omega_{2}$ be the circles with centers $P$ and $M$ and with equal radius $P B=M C=r$. The power of $X$ with respect to $\omega$ and $\omega_{1}$ equals $X A \cdot X B$ and with respect to $\omega$ and $\omega_{2} X D \cdot X C$. The latter power also equals $(X M+$ $r)(X M-r)=X M^{2}-r^{2}$. Analogously, the first power is $X P^{2}-r^{2}$. But since $X A \cdot X B=X D \cdot X C$, we must have $X M^{2}=X P^{2}$ or $X M=X P . X$ indeed is on the perpendicular bisector of $P M$, and we are done.
+
+![](figure-1.png)
