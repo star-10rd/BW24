@@ -1,0 +1,3 @@
+Solution:
+
+If $k=1$, it is obvious how to do the packing. Now assume $k>1$. There are not more than $n$ objects of a certain colour - say, pink - and also not fewer than $n$ objects of some other colour - say, grey. Pack all pink objects into one box; if there is space left, fill the box up with grey objects. Then remove that box together with its contents; the problem gets reduced to an analogous one with $k-1$ boxes and $k-1$ colours. Assuming inductively that the task can be done in that case, we see that it can also be done for $k$ boxes and colours. The general result follows by induction.

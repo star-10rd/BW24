@@ -1,0 +1,3 @@
+Though the problem is taken from the recent article (A. Guo. Winning strategies for aperiodic subtraction games // arXiv: 1108.1239v2), it could be known for the smaller numbers, say, for $2$ instead of $2011$.
+
+The initial numbers $N$ for which the second player has a winning strategy are those ones that have odd numbers of trailing $0$'s in base $2011$ (i.e. if the biggest power of $2011$ that divides $N$ is odd). The main difficulty of the problem is to invent this answer. The proof is trivial: each move of the first player makes this biggest power to be even, and after that the second player can make this power odd by a suitable move.

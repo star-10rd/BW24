@@ -1,4 +1,4 @@
-import { access } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import { isAbsolute, normalize, resolve } from 'node:path';
 import {
   AppearanceRecordSchema,
@@ -8,6 +8,8 @@ import {
   PublicShortlistRecordSchema,
   AssetBindingRecordSchema,
   ContentSelectionRecordSchema,
+  TopicTaxonomySchema,
+  ClassificationRecordSchema,
   FinalYearPolicySchema,
   MathNetLockSchema,
   ReviewRecordSchema,
@@ -24,6 +26,8 @@ import {
   type AssetBindingRecord,
   type ContentRef,
   type ContentSelectionRecord,
+  type TopicTaxonomy,
+  type ClassificationRecord,
   type EvidenceRef,
   type ReviewRecord,
   type SourceLinkRecord,
@@ -48,6 +52,8 @@ export type CanonicalState = {
   sourceLinks: unknown[];
   contentSelections: unknown[];
   assetBindings: unknown[];
+  taxonomy: unknown;
+  classifications: unknown[];
   reviews: unknown[];
 };
 
@@ -55,6 +61,7 @@ export type ValidationOptions = {
   repoRoot?: string;
   checkCuratedFiles?: boolean;
   enforceFinalPolicyCompleteness?: boolean;
+  enforcePublicCorpusCompleteness?: boolean;
 };
 
 function ensureUnique<T>(items: readonly T[], key: (item: T) => string, label: string): void {
@@ -108,6 +115,24 @@ async function validateCuratedPath(repoRoot: string, path: string, context: stri
     throw new Error(`${context}: curated path must live under data/corpus/curation/curated/: ${path}`);
   }
   await access(resolve(repoRoot, normalized));
+}
+
+async function validateCuratedMarkdownAssets(
+  repoRoot: string,
+  path: string,
+  versionId: string,
+  owner: { kind: 'statement' } | { kind: 'solution'; id: string },
+  assetBindings: readonly AssetBindingRecord[],
+): Promise<void> {
+  const source = await readFile(resolve(repoRoot, path), 'utf8');
+  const imagePattern = /!\[[^\]]*\]\(([^)]+)\)/g;
+  for (const match of source.matchAll(imagePattern)) {
+    const key = match[1]!.trim();
+    if (/^(?:https?:|data:)/i.test(key)) throw new Error(`${versionId}: curated Markdown must not contain remote/embedded image ${key}`);
+    const exists = assetBindings.some((binding) => binding.versionId === versionId
+      && binding.sourceKey === key && JSON.stringify(binding.owner) === JSON.stringify(owner));
+    if (!exists) throw new Error(`${versionId}: curated Markdown image ${key} has no asset binding for ${JSON.stringify(owner)}`);
+  }
 }
 
 function connectedByRevision(
@@ -232,6 +257,7 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
   const repoRoot = options.repoRoot ?? process.cwd();
   const checkCuratedFiles = options.checkCuratedFiles ?? true;
   const enforceFinalPolicyCompleteness = options.enforceFinalPolicyCompleteness ?? true;
+  const enforcePublicCorpusCompleteness = options.enforcePublicCorpusCompleteness ?? true;
 
   SchemaVersionSchema.parse(state.schemaVersion);
   MathNetLockSchema.parse(state.mathnetLock);
@@ -248,6 +274,8 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
   const sourceLinks = parseArray('sourceLinks', state.sourceLinks, SourceLinkRecordSchema);
   const selections = parseArray('contentSelections', state.contentSelections, ContentSelectionRecordSchema);
   const assetBindings = parseArray('assetBindings', state.assetBindings, AssetBindingRecordSchema);
+  const taxonomy = TopicTaxonomySchema.parse(state.taxonomy);
+  const classifications = parseArray('classifications', state.classifications, ClassificationRecordSchema);
   const reviews = parseArray('reviews', state.reviews, ReviewRecordSchema);
 
   ensureUnique(sources, (record) => record.id, 'source id');
@@ -264,6 +292,7 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
   ensureUnique(sourceLinks, (record) => sourceRefKey(record.source), 'canonical source link');
   ensureUnique(selections, (record) => record.versionId, 'content selection');
   ensureUnique(assetBindings, (record) => `${record.versionId}|${JSON.stringify(record.owner)}|${record.sourceKey}`, 'asset binding');
+  ensureUnique(classifications, (record) => record.versionId, 'classification version');
   ensureUnique(reviews, (record) => record.id, 'review id');
 
   const sourceIds = new Set(sources.map((record) => record.id));
@@ -332,6 +361,7 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
   }
 
   const versionById = new Map(versions.map((version) => [version.id, version]));
+  const versionDomainById = new Map<string, string>();
   const appearanceOwners = new Map<string, string>();
   for (const version of versions) {
     validateEvidence(version.evidence, sourceIds, version.id);
@@ -360,6 +390,7 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
         versionDomain = domain;
       }
     }
+    if (versionDomain) versionDomainById.set(version.id, versionDomain);
   }
   for (const appearance of appearances) {
     if (!appearanceOwners.has(appearance.id)) throw new Error(`${appearance.id}: accepted appearance is not attached to a version`);
@@ -398,6 +429,30 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
     validateEvidence(p.evidence, sourceIds, `public shortlist ${p.appearanceId}`);
   }
   for (const s of candidateSelection) if (s.outcome === 'not-selected' && !publicIds.has(s.appearanceId)) throw new Error(`${s.appearanceId}: frozen not-selected candidate missing from public shortlist projection`);
+
+  const taxonomyDomainIds = new Set(taxonomy.domains.map((item) => item.id));
+  const taxonomySubtopics = new Map(taxonomy.subtopics.map((item) => [item.id, item]));
+  if (taxonomyDomainIds.size !== 4) throw new Error('taxonomy must define exactly four primary domains');
+  const finalVersionIds = new Set(versions.filter((version) => version.appearanceIds.some((id) => appearanceById.get(id)?.series === 'BW')).map((version) => version.id));
+  const publicVersionIds = new Set([...finalVersionIds, ...publicShortlist.map((item) => item.versionId)]);
+  if (enforcePublicCorpusCompleteness && publicVersionIds.size !== 786) throw new Error(`public Version universe must remain 786, got ${publicVersionIds.size}`);
+  if (classifications.length !== publicVersionIds.size) throw new Error(`every public Version requires one classification (${classifications.length}/${publicVersionIds.size})`);
+  for (const classification of classifications) {
+    if (!publicVersionIds.has(classification.versionId)) throw new Error(`${classification.versionId}: classification targets non-public Version`);
+    validateEvidence(classification.evidence, sourceIds, `classification ${classification.versionId}`);
+    const canonicalDomain = versionDomainById.get(classification.versionId);
+    // P3C deliberately leaves some shortlist-only candidate appearances without a domain.
+    // When a P3C canonical domain exists, P3D must agree with it; otherwise the
+    // first-class P3D classification supplies the publication domain without
+    // mutating the frozen P3C identity graph.
+    if (canonicalDomain && classification.primaryDomain !== canonicalDomain) throw new Error(`${classification.versionId}: classification domain ${classification.primaryDomain} disagrees with canonical domain ${canonicalDomain}`);
+    for (const subtopic of classification.subtopics) {
+      const item = taxonomySubtopics.get(subtopic);
+      if (!item) throw new Error(`${classification.versionId}: unknown subtopic ${subtopic}`);
+      if (item.domain !== classification.primaryDomain) throw new Error(`${classification.versionId}: subtopic ${subtopic} belongs to ${item.domain}, not ${classification.primaryDomain}`);
+    }
+  }
+  for (const id of publicVersionIds) if (!classifications.some((item) => item.versionId === id)) throw new Error(`${id}: missing public classification`);
 
   const linksBySource = sourceLinksBySource(sourceLinks);
   for (const link of sourceLinks) {
@@ -469,6 +524,12 @@ export async function validateCanonicalState(state: CanonicalState, options: Val
       for (const solution of selection.solutions.items) paths.push(curatedPath(solution.ref));
       if (selection.topics?.kind === 'source') paths.push(curatedPath(selection.topics.ref));
       for (const path of paths) if (path) await validateCuratedPath(repoRoot, path, selection.versionId);
+      const statementPath = curatedPath(selection.statement.ref);
+      if (statementPath) await validateCuratedMarkdownAssets(repoRoot, statementPath, selection.versionId, { kind: 'statement' }, assetBindings);
+      for (const solution of selection.solutions.items) {
+        const solutionPath = curatedPath(solution.ref);
+        if (solutionPath) await validateCuratedMarkdownAssets(repoRoot, solutionPath, selection.versionId, { kind: 'solution', id: solution.id }, assetBindings);
+      }
     }
   }
 

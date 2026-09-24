@@ -1,0 +1,1 @@
+Consider the polynomial $P(x) = (a x + b)^3 + (c x + d)^3 = 2 x^3 - 18 x + 1$. By $P(0) > 0$, $P(1) < 0$, $P(3) > 0$, it has two distinct real zeros $x_1$ and $x_2$. Since $P(x) = 0$ implies that $(a + c)x + (b + d) = 0$, it follows that $a + c = b + d = 0$. This contradicts the first equation $a^3 + c^3 = 2$. Hence, the system has no solution.

@@ -1,0 +1,4 @@
+Solution:
+Let $X$ be a set we seek for, and $a$ be its minimal element. For each other element $b$ we have $\frac{a^{2}}{b-a} \geq a$, hence $b \leq 2a$. Therefore all the elements of $X$ belong to the interval $[a, 2a]$. So the quotient of any two elements of $X$ is at most $2$.
+
+Now consider two biggest elements $d$ and $c$, $c < d$. Since $d \leq 2c$ we conclude that $\frac{c^{2}}{d-c} \geq c$. Hence $\frac{c^{2}}{d-c} = d$ or $\frac{c^{2}}{d-c} = c$. The first case is impossible because we obtain an equality $(c/d)^{2} + (c/d) - 1 = 0$, which implies that $c/d$ is irrational. Therefore we have the second case and $c^{2} = d c - c^{2}$, i.e. $c = d/2$. Thus the set $X$ could contain only one element except $d$, and this element should be equal to $d/2$. It is clear that all these sets satisfy the condition of the problem.

@@ -1,0 +1,1 @@
+Note that $\lfloor \sqrt{3} \cdot 8 \rfloor = 13$. Therefore all numbers with $8$ divisors that are divisible by $13$ satisfy the condition. There are infinitely many of those, for example, all numbers in the form $13p^3$, where $p$ is a prime different from $13$.

@@ -1,0 +1,1 @@
+There are $2011$ people in a city. For some period of time every day a group of at least $4$ people went to a restaurant to have dinner. No group of $3$ people went together to more than one dinner. Prove that there exists a group of $24$ people such that at every dinner there was a person not belonging to this group.

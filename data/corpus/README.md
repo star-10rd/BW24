@@ -15,3 +15,8 @@ The public website must never compile directly from `research/` or infer canonic
 Schema v3 adds a recoverable pre-contest candidate layer (`BW-CAND`). It preserves 719 final appearances unchanged while recording 543 documented candidate appearances across 13 recovered candidate sets. Historical coverage is explicitly incomplete: 253 candidate selection outcomes remain unresolved and are not projected into the public shortlist-only set. The strict public projection currently contains 67 candidates with frozen not-selected evidence.
 
 Candidate identity lives under `identity/candidate-sets.jsonl`, `candidate-selection.jsonl`, `candidate-year-coverage.json`, and `public-shortlist-only.jsonl`. The website must not infer additional public shortlist problems from research rows or from absence of a final match.
+
+<!-- BW26-P3D -->
+## P3D publication layer
+
+Schema v4 adds `curation/taxonomy.json` and `curation/classifications.jsonl` while preserving the P3C identity model. Public content selections point only to local curated files. Research/source gaps remain explicit under `research/p3d/`; the website must not read remote sources or research paths at runtime.

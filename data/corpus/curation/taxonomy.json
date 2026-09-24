@@ -1,0 +1,24 @@
+{
+  "domains": [
+    {
+      "id": "A",
+      "label": "Algebra"
+    },
+    {
+      "id": "C",
+      "label": "Combinatorics"
+    },
+    {
+      "id": "G",
+      "label": "Geometry"
+    },
+    {
+      "id": "N",
+      "label": "Number Theory"
+    }
+  ],
+  "note": "P3D v1 freezes complete primary-domain classification. Controlled subtopics remain intentionally empty until separately reviewed; raw MathNet topic strings are research seeds only.",
+  "schema": "bw26-topic-taxonomy",
+  "subtopics": [],
+  "version": 1
+}

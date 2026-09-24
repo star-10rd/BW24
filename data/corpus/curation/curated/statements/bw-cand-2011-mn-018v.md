@@ -1,0 +1,1 @@
+A circulator is an instrument which draws the circumcircle of three given points in the plane (if the points happen to be collinear, it draws the line through them). Is it possible to construct, only with the help of a circulator, the centre of a given circle?

@@ -1,0 +1,1 @@
+In an urn there are $100$ balls each coloured either blue, red or green. If you draw (without repetitions) two balls randomly from the urn, the probability of getting two balls of different colour is $58\%$, and the probability of getting a blue and a green ball is $8\%$. How many red balls are there among the $100$ balls?

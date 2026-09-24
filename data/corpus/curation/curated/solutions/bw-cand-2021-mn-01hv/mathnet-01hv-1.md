@@ -1,0 +1,2 @@
+Consider two equilateral triangles with common centre and parallel sides. The closed broken line $A_1B_2C_1A_2B_1C_2$ has three intersections, because of symmetry we will consider only one.
+Assume that $A_1B_2$ intersects $A_2B_1$ in point $X$. Triangles $A_1B_1X$ and $A_2B_2X$ are similar therefore $\frac{A_1X}{XB_2} = \frac{A_1B_1}{A_2B_2}$. It is enough to choose initial triangles of close enough size $1 < \frac{A_1B_1}{A_2B_2} < \frac{2022}{2021}$ to make the intersection $X$ almost perfect. $\square$

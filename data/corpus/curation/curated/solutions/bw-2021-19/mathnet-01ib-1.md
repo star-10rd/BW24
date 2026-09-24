@@ -1,0 +1,6 @@
+Answer: all polynomials whose every odd-degree term has zero coefficient.
+
+Let $P(x) = P_0(x) + P_1(x)$, where $P_0$ and $P_1$ are polynomials whose all non-zero terms have either even or odd degree, respectively.
+Then we can write $P_0(x) = Q(x^2)$, where polynomial $Q$ is obtained from polynomial $P_0$ by dividing degrees of all non-zero terms by $2$. Now, for any integers $a, b$ the number $P_0(a) - P_0(b) = Q(a^2) - Q(b^2)$ is divisible by $a^2 - b^2$, and hence also by $a+b$. Thus, if every odd-degree term of $P$ has zero coefficient, then the condition of the problem is satisfied.
+
+On the other hand, if polynomial $P$ satisfies the condition of the problem, then also $P - P_0 = P_1$ must satisfy it. Note that for every real $x$, $P_1(-x) = -P_1(x)$, i.e. $P_1$ is an odd function. By substituting $b$ by $-b$ in the condition of the problem we obtain that $a - b|P_1(a) + P_1(b)$ holds for any distinct integers $a$ and $b$. Since also $a - b|P_1(a) - P_1(b)$, then for any integers $a, b$ we have $a - b|2P_1(a)$. But for any $a$ there exists such $b$ that $|a - b| > 2P_1(a)$. From this we conclude that $P_1(a) = 0$ for any integer $a$. Altogether we have $P = P_0$, i.e. coefficients of all odd-degree terms are zero. $\square$

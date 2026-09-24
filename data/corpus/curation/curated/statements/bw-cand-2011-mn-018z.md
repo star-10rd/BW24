@@ -1,0 +1,1 @@
+Let $\Gamma$ be a circle, and $A$ a point outside $\Gamma$. For a point $B$ on $\Gamma$, let $C$ be the third vertex of the equilateral triangle $ABC$ (with vertices $A$, $B$ and $C$ going clockwise). Find the path traced out by $C$ as $B$ moves around $\Gamma$.

@@ -1,0 +1,2 @@
+Solution:
+From the second and third equation we find $z=2x$ and $x=\frac{20-y}{3}$. Substituting these into the first equation yields $\left(\frac{40-2y}{3}\right)^{x}=\left(y^{2}\right)^{x}$. As $x \neq 0$ (otherwise we have $0^{0}$ in the first equation which is usually considered undefined) we have $y^{2}= \pm \frac{40-2y}{3}$ (the ' - ' case occurring only if $x$ is even). The equation $y^{2}=-\frac{40-2y}{3}$ has no integer solutions; from $y^{2}=\frac{40-2y}{3}$ we get $y=-4, x=8, z=16$ (the other solution $y=\frac{10}{3}$ is not an integer).

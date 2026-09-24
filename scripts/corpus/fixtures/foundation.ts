@@ -13,7 +13,7 @@ const match = (item: string) => ({
 
 function baseState(): CanonicalState {
   return {
-    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 3 },
+    schemaVersion: { schema: 'bw26-corpus', schemaVersion: 4 },
     sources: [
       {
         id: 'mathnet-v0',
@@ -125,6 +125,20 @@ function baseState(): CanonicalState {
         solutions: { status: 'verified', items: [{ id: 'solution-1', language: 'en', ref: { kind: 'source-field', ref: { source: { sourceId: 'mathnet-v0', item: 'shortlist' }, field: 'solutions_markdown', index: 0 } }, compatibility: 'verified-compatible', acceptance: 'frozen' }] },
       },
     ],
+    taxonomy: {
+      schema: 'bw26-topic-taxonomy', version: 1,
+      domains: [
+        { id: 'A', label: 'Algebra' }, { id: 'C', label: 'Combinatorics' },
+        { id: 'G', label: 'Geometry' }, { id: 'N', label: 'Number Theory' },
+      ],
+      subtopics: [],
+    },
+    classifications: [
+      { versionId: 'v:bw:2096:01', primaryDomain: 'A', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2096 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2097:01', primaryDomain: 'N', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2097 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2098:01', primaryDomain: 'G', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2098 problem 1' }, kind: 'curated-classification' }] },
+      { versionId: 'v:bw:2099:01', primaryDomain: 'A', subtopics: [], acceptance: 'frozen', evidence: [{ source: { sourceId: 'fixture-official', locator: '2099 problem 1' }, kind: 'curated-classification' }] },
+    ],
     assetBindings: [
       {
         versionId: 'v:bw:2096:01',
@@ -142,7 +156,7 @@ function baseState(): CanonicalState {
 
 export async function runFoundationStressTests(): Promise<void> {
   const valid = baseState();
-  await validateCanonicalState(valid, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true });
+  await validateCanonicalState(valid, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true, enforcePublicCorpusCompleteness: false });
 
   const invalidCorrupt = structuredClone(valid);
   const selection = (invalidCorrupt.contentSelections as Array<Record<string, unknown>>).find((entry) => entry.versionId === 'v:bw:2098:01')!;
@@ -152,7 +166,7 @@ export async function runFoundationStressTests(): Promise<void> {
     acceptance: 'frozen',
   };
   await assert.rejects(
-    () => validateCanonicalState(invalidCorrupt, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true }),
+    () => validateCanonicalState(invalidCorrupt, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true, enforcePublicCorpusCompleteness: false }),
     /corrupt source statement cannot be selected directly/,
   );
 
@@ -161,7 +175,7 @@ export async function runFoundationStressTests(): Promise<void> {
   version.appearanceIds = ['bw:2099:01', 'bw-cand:2099:a1'];
   version.evidence = [{ source: { sourceId: 'fixture-official', locator: 'same-version claim' }, kind: 'statement-match' }];
   await assert.rejects(
-    () => validateCanonicalState(invalidMerge, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true }),
+    () => validateCanonicalState(invalidMerge, { checkCuratedFiles: false, enforceFinalPolicyCompleteness: true, enforcePublicCorpusCompleteness: false }),
     /appearance belongs to both|appearances disagree on domain/,
   );
 }

@@ -1,0 +1,5 @@
+Solution:
+
+From $A = 143 - D$ and $1 \leq D \leq 9$, it follows that $134 \leq A \leq 142$. The hundreds digit of $A$ is therefore $1$, and the tens digit is either $3$ or $4$. If the tens digit of $A$ is $4$, then the sum of the units digits of $A$ and $D$ must be $3$, which is impossible, as the digits $0$ and $2$ are not among the eight digits given. Hence the first two digits of $A$ are uniquely determined as $1$ and $3$. The sum of the units digits of $A$ and $D$ must be $13$. This can be achieved in six different ways as $13 = 4 + 9 = 5 + 8 = 6 + 7 = 7 + 6 = 8 + 5 = 9 + 4$.
+
+The sum of the units digits of $B$ and $C$ must again be $13$, and as $B + C = 143$, this must also be true for the tens digits. For each choice of the numbers $A$ and $D$, the remaining four digits form two pairs, both with the sum $13$. The units digits of $B$ and $C$ may then be chosen in four ways. The tens digits are then uniquely determined by the remaining pair and the relation $B < C$. The total number of possibilities is therefore $6 \cdot 4 = 24$.

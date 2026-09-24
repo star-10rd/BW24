@@ -1,0 +1,3 @@
+Solution:
+
+Let $a_{1}, \ldots, a_{13}$ be the numbers of towns on each island. Suppose there exist numbers $i$ and $j$ such that $a_{i} \geq a_{j} > 1$ and consider an arbitrary town $A$ on the $j$-th island. The number of ferry connections from town $A$ is equal to $25 - a_{j}$. On the other hand, if we "move" town $A$ to the $i$-th island then there will be $25 - (a_{i} + 1)$ connections from town $A$ while no other connections will be affected by this move. Hence, the smallest number of connections will be achieved if there are 13 towns on one island and one town on each of the other 12 islands. In this case there will be $13 \cdot 12 + \frac{12 \cdot 11}{2} = 222$ connections.

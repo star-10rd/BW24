@@ -1,0 +1,1 @@
+Let the product of the clients' values after the $k$-th call be $a_k$. Suppose the values of two persons before a call were $a$ and $b$. By the arithmetic-geometric mean inequality, $(a+b)(a+b) \ge 4ab$. Therefore, regardless of the choice of a call, $a_k \ge 4a_{k-1}$. Since the initial and final values of $a_k$ are $1$ and $m^n$, the number of calls is at most $\log_4(m^n)$.

@@ -1,0 +1,4 @@
+Solution:
+First we show that among any $b$ consecutive numbers there are two different numbers $x$ and $y$ such that $ab$ divides $xy$. Among the $b$ consecutive numbers there is clearly a number $x'$ divisible by $b$, and a number $y'$ divisible by $a$. If $x' \neq y'$, we can take $x = x'$ and $y = y'$, and we are done. Now assume that $x' = y'$. Then $x'$ is divisible by $e$, the least common multiple of $a$ and $b$. Let $d = \gcd(a, b)$. As $a < b$, we have $d \leq \frac{1}{2} b$. Hence there is a number $z' \neq x'$ among the $b$ consecutive numbers such that $z'$ is divisible by $d$. Hence $x' z'$ is divisible by $de$. But $de = ab$, so we can take $x = x'$ and $y = z'$.
+
+Now divide the $2c$ consecutive numbers into two groups of $c$ consecutive numbers. In the first group, by the above reasoning, there exist distinct numbers $x$ and $y$ such that $ab$ divides $xy$. The second group contains a number $z$ divisible by $c$. Then $abc$ divides $xyz$.

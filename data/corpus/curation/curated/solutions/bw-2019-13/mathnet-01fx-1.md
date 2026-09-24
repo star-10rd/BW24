@@ -1,0 +1,1 @@
+Consider circle $\omega$ with centre $A$ and radius $AB$. Note that $BC$ and $EF$ are tangent to $\omega$ and so from the problem condition, the line $CE$ is a radical axis of $\omega$ and $D$. Therefore $CE \perp AD$.

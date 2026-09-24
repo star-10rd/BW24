@@ -1,0 +1,1 @@
+Since $\angle IFK = 90^\circ$, then $IK$ is the diameter of the circumcircle of $CFI$, hence also $\angle ICK = 90^\circ$. Similarly is $IL$ the diameter of the circumcircle of $BGI$ and $\angle IBL = 90^\circ$. Therefore are the lines $CK$ and $GL$ parallel, also $BL$ and $FK$ are parallel.

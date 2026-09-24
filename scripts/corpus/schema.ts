@@ -245,6 +245,36 @@ export const AssetBindingRecordSchema = z.object({
 }).strict();
 export type AssetBindingRecord = z.infer<typeof AssetBindingRecordSchema>;
 
+
+export const TopicTaxonomySchema = z.object({
+  schema: z.literal('bw26-topic-taxonomy'),
+  version: z.literal(1),
+  domains: z.array(z.object({ id: DomainSchema, label: z.string().min(1) }).strict()).length(4),
+  subtopics: z.array(z.object({
+    id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+    label: z.string().min(1),
+    domain: DomainSchema,
+  }).strict()),
+  note: z.string().min(1).optional(),
+}).strict().superRefine((value, ctx) => {
+  const domains = value.domains.map((item) => item.id);
+  if (new Set(domains).size !== 4 || !['A','C','G','N'].every((id) => domains.includes(id as Domain))) {
+    ctx.addIssue({ code: 'custom', path: ['domains'], message: 'taxonomy must define A, C, G and N exactly once' });
+  }
+  const ids = value.subtopics.map((item) => item.id);
+  if (new Set(ids).size !== ids.length) ctx.addIssue({ code: 'custom', path: ['subtopics'], message: 'duplicate subtopic id' });
+});
+export type TopicTaxonomy = z.infer<typeof TopicTaxonomySchema>;
+
+export const ClassificationRecordSchema = z.object({
+  versionId: z.string().min(1),
+  primaryDomain: DomainSchema,
+  subtopics: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)),
+  acceptance: AcceptanceSchema,
+  evidence: z.array(EvidenceRefSchema).min(1),
+}).strict();
+export type ClassificationRecord = z.infer<typeof ClassificationRecordSchema>;
+
 export const ReviewSubjectSchema = z.union([
   z.object({ kind: z.literal('appearance'), id: z.string().min(1) }).strict(),
   z.object({ kind: z.literal('version'), id: z.string().min(1) }).strict(),
@@ -286,7 +316,7 @@ export type ReviewRecord = z.infer<typeof ReviewRecordSchema>;
 
 export const SchemaVersionSchema = z.object({
   schema: z.literal('bw26-corpus'),
-  schemaVersion: z.literal(3),
+  schemaVersion: z.literal(4),
 }).strict();
 export type SchemaVersion = z.infer<typeof SchemaVersionSchema>;
 

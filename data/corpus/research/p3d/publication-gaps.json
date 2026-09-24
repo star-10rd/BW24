@@ -1,0 +1,158 @@
+{
+  "statementTextSourceGapVersions": [
+    "v:bw-cand:2015:ext-g12",
+    "v:bw-cand:2015:ext-g13",
+    "v:bw-cand:2015:ext-g2",
+    "v:bw-cand:2015:ext-g4",
+    "v:bw-cand:2015:ext-g5",
+    "v:bw-cand:2015:ext-g7",
+    "v:bw-cand:2015:ext-g8",
+    "v:bw-cand:2015:ext-g9",
+    "v:bw-cand:2017:ext-g1",
+    "v:bw-cand:2017:ext-g10",
+    "v:bw-cand:2017:ext-g11",
+    "v:bw-cand:2017:ext-g13",
+    "v:bw-cand:2017:ext-g3",
+    "v:bw-cand:2017:ext-g4",
+    "v:bw-cand:2017:ext-g6",
+    "v:bw-cand:2017:ext-g7",
+    "v:bw-cand:2017:ext-g9"
+  ],
+  "requiredStatementAssetBlockedVersions": [],
+  "requiredStatementAssetGapEntries": [
+    {
+      "versionId": "v:bw:1996:02",
+      "publicId": "bw-1996-02",
+      "kind": "final",
+      "year": 1996,
+      "assetKey": "figure:1",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:1996:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Semicircle/tangent-circle configuration shown with Problem 2."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    },
+    {
+      "versionId": "v:bw:2007:07",
+      "publicId": "bw-2007-07",
+      "kind": "final",
+      "year": 2007,
+      "assetKey": "figure:1",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2007:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "The six-triangle squiggle shown below Problem 7."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    },
+    {
+      "versionId": "v:bw:2008:14",
+      "publicId": "bw-2008-14",
+      "kind": "final",
+      "year": 2008,
+      "assetKey": "figure:1",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2008:problems",
+          "page": 2,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Four-cube block shape defining the construction piece."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    },
+    {
+      "versionId": "v:bw:2017:08",
+      "publicId": "bw-2017-08",
+      "kind": "final",
+      "year": 2017,
+      "assetKey": "figure:1",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2017:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "Normal knight move illustration."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    },
+    {
+      "versionId": "v:bw:2017:08",
+      "publicId": "bw-2017-08",
+      "kind": "final",
+      "year": 2017,
+      "assetKey": "figure:2",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:2",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2017:problems",
+          "page": 1,
+          "figureIndex": 2
+        },
+        "verificationStatus": "verified",
+        "note": "Short diagonal move illustration."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    },
+    {
+      "versionId": "v:bw:2018:07",
+      "publicId": "bw-2018-07",
+      "kind": "final",
+      "year": 2018,
+      "assetKey": "figure:1",
+      "requiredForMeaning": true,
+      "officialFigureEvidence": {
+        "key": "figure:1",
+        "requiredForMeaning": true,
+        "officialSource": {
+          "sourceId": "bw-official:2018:problems",
+          "page": 1,
+          "figureIndex": 1
+        },
+        "verificationStatus": "verified",
+        "note": "16 x 16 torus topology illustration shown with Problem 7."
+      },
+      "rawMathNetImageCandidates": [],
+      "status": "no-local-asset-candidate",
+      "preferredAction": "extract/redraw from official source and bind"
+    }
+  ],
+  "solutionUnresolvedVersions": 222,
+  "publicationComplete": false
+}

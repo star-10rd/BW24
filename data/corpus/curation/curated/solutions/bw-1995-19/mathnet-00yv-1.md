@@ -1,0 +1,5 @@
+Solution:
+
+Consider a circle $C_{4}$ with radius $R$ that rolls inside $C_{2}$ in such a way that the two circles always touch in the point opposite to the touching point of $C_{2}$ and $C_{3}$. Then the circles $C_{3}$ and $C_{4}$ follow each other and make the same number of revolutions, and so we will assume that the astronaut is inside the circle $C_{4}$ instead. But the touching point of $C_{2}$ and $C_{4}$ coincides with the touching point of $C_{1}$ and $C_{2}$. Hence the circles $C_{4}$ and $C_{1}$ always touch each other, and we can disregard the circle $C_{2}$ completely.
+
+Suppose the circle $C_{4}$ rolls inside $C_{1}$ in counterclockwise direction. Then the astronaut revolves in clockwise direction. If the circle $C_{4}$ had rolled along a straight line of length $2\pi nR$ (instead of the inside of $C_{1}$), the circle $C_{4}$ would have made $n$ revolutions during its movement. As the path of the circle $C_{4}$ makes a $360^{\circ}$ counterclockwise turn itself, the total number of revolutions of the astronaut relative to the ground is $n-1$.

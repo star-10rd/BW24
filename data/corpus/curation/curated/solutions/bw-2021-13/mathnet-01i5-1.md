@@ -1,0 +1,3 @@
+**Solution.** Since $\angle IFK = 90^\circ$, then $IK$ is the diameter of the circumcircle of $CFI$, hence also $\angle ICK = 90^\circ$. Similarly is $IL$ the diameter of the circumcircle of $BGI$ and $\angle IBL = 90^\circ$. Therefore are the lines $CK$ and $GL$ parallel, also $BL$ and $FK$ are parallel.
+Let the lines $CK$ and $BL$ intersect at $D$, as seen in figure 17. From the above we get that $DKAL$ is a parallelogram. Note that $D$ is the excenter with respect to the vertex $A$ of the triangle $ABC$, since the lines $BL$ and $CK$ are perpendicular to the corresponding internal angle bisectors. The excenter lies on the internal angle bisector $AI$, hence $AI$ bisects the diagonal $KL$.
+![](attached_image_1.png)

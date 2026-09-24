@@ -17,6 +17,8 @@ export const corpusPaths = {
   sourceLinks: 'data/corpus/curation/source-links.jsonl',
   contentSelections: 'data/corpus/curation/content-selections.jsonl',
   assetBindings: 'data/corpus/curation/asset-bindings.jsonl',
+  taxonomy: 'data/corpus/curation/taxonomy.json',
+  classifications: 'data/corpus/curation/classifications.jsonl',
   reviews: 'data/corpus/research/reviews.jsonl',
   installationManifest: 'data/corpus/research/installation-manifest.json',
   reconciliationReport: 'data/corpus/research/reconciliation-report.json',

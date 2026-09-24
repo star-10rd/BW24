@@ -1,0 +1,5 @@
+Let $G'$ denote the reflection of $G$ across the midpoint of $BC$. We begin by proving that triangles $ABC$ and $DFE$ are orthological, with orthology centers $G'$ and $X$.
+Observe that $G'$ is on the $A$-median and thus $AG' \perp EF$. Furthermore, quadrilateral $BGCG'$ is a parallelogram and hence $BG' \parallel CG \perp DE$ and $CG' \parallel BG \perp DF$. Hence, $G'$ is the first orthology center of $\triangle ABC$ and $\triangle DFE$.
+
+Thus, by the property of orthological triangle, the second orthology center must exist, which is defined as the common intersection of the normal from $D$ to $BC$, $E$ to $AB$ and $F$ to $AC$, i.e. the point $X$. Since $D$ is on the perpendicular bisector of $BC$, by virtue of being the circumcenter of triangle $BGC$, and $XD \perp BC$ so must point $X$.
+Moreover, let $O$ denote the circumcenter of triangle $ABC$. Then $EO \perp AC \perp FX$ implies $EO \parallel FX$ and $FO \perp AB \perp EX$ implies $FO \parallel EX$, meaning that quadrilateral $FOEX$ is a parallelogram. Hence, the midpoint of $EF$ lies on the line $XOD$ i.e. the perpendicular bisector of segment $BC$.

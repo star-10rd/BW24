@@ -1,0 +1,17 @@
+We will prove that the police are always able to catch the thief in finite time.
+Let $h_i$ denote the house the thief stays at the $i$-th night and $p_i$ denote the greatest prime divisor of $h_i$.
+The police know that he stays at different neighbouring houses every night, so $|h_{i+1} - h_i| = 1$ for all non-negative integers $i$. Let us assume that the police are given the address of the thief's first two hiding spots, then we will prove by induction that the police can determine $h_i$ precisely except being unable to distinguish between houses numbered $2$ and $4$.
+
+Assume the police knows $h_{i-2}$ and $h_{i-1}$, then they know that $h_i = h_{i-2}$ or $h_i = 2h_{i-1} - h_{i-2}$. In the first case they will receive $p_i = p_{i-2}$ and in the latter case they will receive $p_i$ as the biggest prime divisor of $2h_{i-1} - h_{i-2}$. Assume that they are unable to distinguish between these two cases, i.e., that $p_i = p_{i-2}$, which implies
+$$
+p_{i-2} \mid 2h_{i-1} - h_{i-2}, \text{ i.e. } p_{i-2} \mid 2h_{i-1}, \text{ i.e. } p_{i-2} \mid 2, \text{ i.e. } p_{i-2} = 2
+$$
+since $|h_{i-1} - h_{i-2}| = 1$ implies $\gcd(h_{i-1}, h_{i-2}) = 1$. Moreover, since $p_i = p_{i-2} = 2$ are the biggest prime divisors of $h_i = 2h_{i-1} - h_{i-2}$ and $h_{i-2}$ they must both be powers of $2$. However, the only powers of two with a difference of exactly $2$ are $2$ and $4$. Hence $\{h_{i-2}, 2h_{i-1} - h_{i-2}\} = \{2, 4\}$, i.e. $h_{i-1} = \frac{2+4}{2} = 3$.
+
+Thus, either the police will with certainty be able to determine $h_i$ or $h_{i-1} = 3$, in which case $h_i$ may equal either $2$ or $4$. To complete the inductive step we observe that the police are always able to determine the parity of $h_j$, since it changes every day. Thus, in the future if the police know that $h_j \in [2, 4]$, then they can either determine $h_j = 3$ or $h_j \in \{2, 4\}$. However, the only way for the thief to leave the interval $[2, 4]$ is to go to house number $5$, in which case the police will be alerted by receiving $p_j = 5$, and they can again with certainty determine $h_j = 5$ and $h_{j-1} = 4$ preserving our inductive hypothesis.
+
+To summarize, if the police knows both $h_0$ and $h_1$, then they can always determine $h_i$ with certainty until $h_{i-1} = 3$. After this point they will have known the two last hiding places of the thief if he leaves the interval $[2, 4]$, restoring the inductive hypothesis, or otherwise, if he never leaves $[2, 4]$ be able to determine his position, up to confusion about $2$ and $4$ using the parity of the day.
+
+Now, to catch the thief in finite time, they may methodically try to guess all viable pairs of $(h_0, h_1)$, i.e. $h_0, h_1 \in \mathbb{N}_{\ge 2}$ and $|h_0 - h_1| = 1$, of which there are countably many.
+For each viable starting position, let us consider either the immediate Sunday or the one after that, since each week has an odd amount of days, we are certain that exactly one of these days gives us that the thief is hiding in an odd house (given our assumption on his starting position). Thus, due to our inductive hypothesis, we can precisely determine where the thief will be, and search this house.
+If the thief is hiding in that house, the police wins, and if not, they will with certainty know that their guess of starting positions was incorrect, and move onto the next guess. By the above argument, each guess of initial starting positions requires at most two weeks, meaning that the police will catch the thief in finite time.

@@ -1,0 +1,3 @@
+Answer: No.
+
+Two unit cubes with a common face are called neighbours. Colour the cubes either black or white in such a way that two neighbours always have different colours. Notice that the integers in the white cubes only change when a black cube is chosen. Now recolour the white cubes that have exactly 4 neighbours and make them green. If we look at a random black cube it has either 0, 3 or 6 white neighbours. Hence if we look at the sum of the integers in the white cubes, it changes by 0, 3 or 6 in each turn. From this follows that if this sum is not divisible by 3 at the beginning, it will never be, and all the integers in the white cubes are not divisible by 3 at any state.

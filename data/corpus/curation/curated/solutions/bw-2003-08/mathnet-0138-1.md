@@ -1,0 +1,7 @@
+Solution:
+
+Let us prove inductively that for $2n$ pieces of candy the first player has a winning strategy. For $n=1$ it is obvious. Suppose it is true for $2n$ pieces, and let's consider $2n+2$ pieces. If for $2n+1$ pieces the second is the winner, then the first eats 1 piece and becomes the second in the game starting with $2n+1$ pieces. So suppose that for $2n+1$ pieces the first is the winner. His winning move for $2n+1$ is not eating 1 piece (according to the inductive assumption). So his winning move is to eat $n$ pieces, leaving the second with $n+1$ pieces, when the second must lose. But the first can leave the second with $n+1$ pieces from the starting position with $2n+2$ pieces, eating $n+1$ pieces; so $2n+2$ is a winning position for the first.
+
+Now if there are 2003 pieces of candy on the table, the first must eat either 1 or 1001 candies, leaving an even number of candies on the table. So the second player will be the first player in a game with even number of candies and therefore has a winning strategy.
+
+In general, if there is an odd number $N$ of candies, write $N=2^{m} r+1$, where $r$ is odd. Then the first player wins if $m$ is even, and the second player wins if $m$ is odd: At each move, the player must avoid leaving the other with an even number of candies, so he must eat half of the candies. But this means that the number of candies descend as $2^{m} r+1, 2^{m-1} r+1, \ldots, 2 r+1, r+1$, and eventually there is an even number of candies.

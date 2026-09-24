@@ -32,6 +32,7 @@ await formatJsonl(resolve(root, corpusPaths.versionRelations), (value) => `${val
 await formatJsonl(resolve(root, corpusPaths.sourceLinks), (value: SourceLinkRecord) => `${sourceRefKey(value.source)}|${value.versionId}`);
 await formatJsonl(resolve(root, corpusPaths.contentSelections), (value) => value.versionId);
 await formatJsonl(resolve(root, corpusPaths.assetBindings), (value: AssetBindingRecord) => `${value.versionId}|${JSON.stringify(value.owner)}|${value.sourceKey}`);
+await formatJsonl(resolve(root, corpusPaths.classifications), (value) => value.versionId);
 await formatJsonl(resolve(root, corpusPaths.reviews), (value) => value.id);
 
 const policies = await readJson<any[]>(resolve(root, corpusPaths.finalYearPolicies));

@@ -1,0 +1,3 @@
+Solution:
+
+Let the department consist of $n$ persons. Clearly $n > 4$ (because $\binom{4}{3} < 6$). If $n = 5$, take three persons who do not make a conspiracy and put them in one laboratory, the other two in another. If $n = 6$, note that $\binom{6}{3} = 20$, so we can find a three-person set such that neither it nor its complement is a conspiracy; this set will form one laboratory. If $n \geq 7$, use induction. We have $\binom{n}{2} \geq \binom{7}{2} = 21 > 6 \cdot 3$, so there are two persons $A$ and $B$ who are not together in any conspiracy. Replace $A$ and $B$ by a new person $AB$ and use the inductive hypothesis; then replace $AB$ by initial persons $A$ and $B$.

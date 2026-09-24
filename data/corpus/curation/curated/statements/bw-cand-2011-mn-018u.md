@@ -1,0 +1,1 @@
+Let $A$ and $B$ be two circles, external to each other. Let $\ell$ be a line not meeting the circles. For any point $X$ on $\ell$, let $E$ be a point of contact of a tangent to $A$ through $X$, and $F$ a point of contact of a tangent to $B$ through $X$. Find the position of $X$ on $\ell$ such that $EX + FX$ is minimized.

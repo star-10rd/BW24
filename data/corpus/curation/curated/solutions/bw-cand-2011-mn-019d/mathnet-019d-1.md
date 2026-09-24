@@ -1,0 +1,2 @@
+Answer: $1024$.
+All the reminders are pairwise distinct, because it is not difficult to see that the difference between any two numbers have an odd digit and several zeroes at the end of its decimal representation. Therefore it is divisible by $10^k$, $0 \le k \le 9$, and the quotient is odd. Therefore the difference is divisible by $2^k$ and not by $2^{k+1}$, so it is not equal to $0$ modulo $1024$.

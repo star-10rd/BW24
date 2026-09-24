@@ -19,6 +19,8 @@ export async function loadCanonicalState(root = process.cwd()): Promise<Canonica
     sourceLinks: await readJsonl(at(corpusPaths.sourceLinks)),
     contentSelections: await readJsonl(at(corpusPaths.contentSelections)),
     assetBindings: await readJsonl(at(corpusPaths.assetBindings)),
+    taxonomy: await readJson(at(corpusPaths.taxonomy)),
+    classifications: await readJsonl(at(corpusPaths.classifications)),
     reviews: await readJsonl(at(corpusPaths.reviews)),
   };
 }

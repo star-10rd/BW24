@@ -1,0 +1,6 @@
+The triples we are looking for have the forms $(t, t, t)$, $(-t, t, t)$, $(t, -t, t)$, $(t, t, -t)$ where $t \in \mathbb{R}$.
+If $c = 0$ then $\cos(ax) + \cos(bx) = 2$ for all $x \in \mathbb{R}$. Since $\cos(ax) \le 1$ and $\cos(bx) \le 1$, we must have $\cos(ax) = 1$ and $\cos(bx) = 1$ for any $x$. Thus $a = b = 0$, which clearly works.
+
+Now, suppose that $c \neq 0$. Plugging in $x = \frac{2\pi}{c}$ we find $\cos(2\pi \cdot \frac{a}{c}) + \cos(2\pi \cdot \frac{b}{c}) = 2$. Therefore $\cos(2\pi \cdot \frac{a}{c}) = 1$ and $\cos(2\pi \cdot \frac{b}{c}) = 1$. This means that $2\pi \frac{a}{c} = 2k\pi$ and $2\pi \frac{b}{c} = 2l\pi$ for some integers $k$ and $l$, i.e. $a = ck$ and $b = cl$.
+
+Note that $k \neq 0$. Indeed, otherwise $LHS \ge 0$ for all $x$, but $RHS$ has negative values. For similar reason $l \neq 0$. We shall prove that $|k| = |l| = 1$. Suppose otherwise. Assume without loss of generality that $|k| \ge |l|$. Plug in $x = \frac{\pi}{a}$. We obtain $-1 + \cos(\frac{l}{k}\pi) = 2\cos(\frac{1}{k}\pi)$. Note that $LHS < -1 + 1 = 0$. Moreover, if $|k| \ge 2$ then $RHS$ is nonnegative, yielding a contradiction. Therefore we have $|k| = 1$. This leads to $|l| = 1$. This means: $|a| = |b| = |c|$. Clearly, such triples work. $\square$

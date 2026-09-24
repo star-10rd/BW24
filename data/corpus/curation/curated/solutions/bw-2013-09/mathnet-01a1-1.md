@@ -1,0 +1,1 @@
+Each vertex of the convex hull has degree 1 in the graph $G$. (When we rotate the line that passes through such point the numbers of other points in the half-planes change monotonically.) The convex hull contains at least 3 vertices, so $G$ has at least three “leaves”. Therefore there is no Hamiltonian path in it.

@@ -1,0 +1,8 @@
+**Lemma.** Let a graph $H$ has 100 vertices and contains a Hamiltonian path (not cycle) that starts at the vertex $A$ and ends in $B$. If the sum of degrees of vertices $A$ and $B$ is at least 100, then the graph $H$ contains a Hamiltonian cycle.
+**Proof.** Let $N = \deg A$, then $\deg B \ge 100 - N$. Let us number the vertices along the Hamiltonian path: $C_1 = A, C_2, \dots, C_{100} = B$. Let $C_p, C_q, C_r, \dots$ be $N$ vertices which are connected directly with $A$. Consider $N$ preceding vertices: $C_{p-1}, C_{q-1}, C_{r-1}, \dots$. Since the remaining part of the graph $H$ contains $100 - N$ vertices (including $B$) and $\deg B \ge 100 - N$, we conclude that at least one vertex under consideration, say $C_{r-1}$, is connected directly with $B$. Then
+$$
+A = C_1 \to C_2 \to \dots \to C_{r-1} \to B = C_{100} \to C_{99} \to \dots \to C_r \to A
+$$
+is a Hamiltonian cycle.
+
+**Solution.** Now let us solve the problem. Assume that there is no a Hamiltonian cycle in the graph $G$. Consider arbitrary two vertices $A$ and $B$ not connected by an edge in the graph $G$ but connected in $G'$. The latter means that $\deg A + \deg B \ge 100$ in the graph $G$. Let us add edge $AB$ to the graph $G$. By the lemma there was no a Hamiltonian path from $A$ to $B$ in the graph $G$. Therefore the graph $G$ still does not contain a Hamiltonian cycle after adding the new edge. By repeating of this operation we will obtain that all the vertices connected by an edge in the graph $G'$ are connected also in the graph $G$ and at the same moment the graph $G$ has no a Hamiltonian cycle (in contrast with $G'$). A contradiction.

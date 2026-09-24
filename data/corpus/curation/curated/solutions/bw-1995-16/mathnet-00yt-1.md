@@ -1,0 +1,3 @@
+Solution:
+
+Let $F$ be the intersection point of $l$ and the line $A B$. Since $|A C| > |B C|$, the point $E$ lies on the segment $A C$, and $F$ lies on the ray $A B$. Let the line through $B$ parallel to $A C$ meet $C F$ at $G$. Then the triangles $A F C$ and $B F G$ are similar. Moreover, we have $\angle B G C = \angle B C G$, and hence the triangle $C B G$ is isosceles with $|B C| = |B G|$. Hence $\frac{|F A|}{|F B|} = \frac{|A C|}{|B G|} = \frac{|A C|}{|B C|} = \frac{7}{4}$. Therefore $\frac{|A O|}{|A F|} = \frac{3}{2} / 7 = \frac{3}{14}$. Since the triangles $A C F$ and $A E O$ are similar, $\frac{|A E|}{|A C|} = \frac{|A O|}{|A F|} = \frac{3}{14}$, whence $|A E| = \frac{3}{2}$ and $|E C| = \frac{11}{2}$.

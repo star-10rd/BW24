@@ -1,0 +1,3 @@
+Solution:
+
+Let $F_{1}$ be the second intersection point of the line $A D$ and the circle $C$ (see Figure 3). Consider the homothety with centre $A$ which maps $D$ onto $F_{1}$. This homothety maps the circle $C_{1}$ onto $C$ and the tangent line $t$ of $C_{1}$ onto the tangent line of the circle $C$ at $F_{1}$. Let us do the same with the circle $C_{2}$ and the line $B E$: let $F_{2}$ be their intersection point and consider the homothety with centre $B$, mapping $E$ onto $F_{2}$, $C_{2}$ onto $C$ and $t$ onto the tangent of $C$ at point $F_{2}$. Since the tangents of $C$ at $F_{1}$ and $F_{2}$ are both parallel to $t$, they must coincide, and so must the points $F_{1}$ and $F_{2}$.

@@ -1,0 +1,5 @@
+By a path between members $A$ and $B$ we mean a sequence $A = A_0, A_1, A_2, \dots, A_d = B$, where $A_i, A_{i+1}$ are friends for $i = 0, 1, 2, \dots, d-1$. The smallest possible number $d$ in such a sequence will be called the distance between $A$ and $B$. By assumption, for any two members there exists a path between them. We need to show that the distance between any two members is at most $3n/k$.
+
+Take any two members $A, B$ and let $A = A_0, A_1, A_2, \dots, A_t = B$ be the shortest path between them. Then for all $0 \le i < j \le t$ the distance between $A_i$ and $A_j$ is equal to $j - i$. This in turn implies that the distance between a friend of $A_i$ and a friend of $A_j$ is at least $j - i - 2$.
+
+Now for $i = 0, 1, 2, \dots, t$ let $F_i$ be the set of all friends of $A_i$. Then, by the observation from the previous paragraph, the $\lfloor t/3 \rfloor + 1$ sets $F_0, F_3, F_6, \dots$ are pairwise disjoint. But each of these sets consists of at least $k$ people. It follows that $(\lfloor t/3 \rfloor + 1)k \le n$ and $t/3 \cdot k \le n$. Hence $t \le 3n/k$, and the solution is complete.

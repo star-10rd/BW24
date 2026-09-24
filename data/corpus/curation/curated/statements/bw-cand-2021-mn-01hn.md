@@ -1,0 +1,1 @@
+Let $p$ be a polynomial with real coefficients and $n \ge 1$ be an integer. Prove that there exists a non-zero polynomial $q$ such that the coefficients of $p \cdot q$ vanish for each power that is not a multiple of $n$.

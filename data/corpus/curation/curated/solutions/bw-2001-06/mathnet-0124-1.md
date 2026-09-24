@@ -1,0 +1,3 @@
+Solution:
+
+The arcs $BC$ and $AE$ are of equal length (see Figure 1). Also, since $AB \parallel EC$ and $ED \parallel AC$, we have $\angle CAB = \angle DEC$ and the arcs $DC$ and $BC$ are of equal length. Since $PE$ is tangent to $c$ and $|AE| = |DC|$, then $\angle PEA = \angle DBC = \angle QBC$. As $ABCD$ is inscribed in $c$, we have $\angle QCB = 180^\circ - \angle EAB = \angle PAE$. Also, $ABCD$ is an isosceles trapezium, whence $|AE| = |BC|$. So the triangles $APE$ and $CQB$ are congruent, and $|QC| = |PA|$. Now $PACQ$ is a quadrilateral with a pair of opposite sides equal and parallel. So $PACQ$ is a parallelogram, and $|PQ| = |AC|$.

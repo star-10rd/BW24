@@ -1,0 +1,2 @@
+Solution:
+Assume there exist such natural numbers $k$ and $n$ that $2^{2^{n}} + 1 = k^{3}$. Then $k$ must be an odd number and we have $2^{2^{n}} = k^{3} - 1 = (k - 1)(k^{2} + k + 1)$. Hence $k - 1 = 2^{s}$ and $k^{2} + k + 1 = 2^{t}$ where $s$ and $t$ are some positive integers. Now $2^{2s} = (k - 1)^{2} = k^{2} - 2k + 1$ and $2^{t} - 2^{2s} = 3k$. But $2^{t} - 2^{2s}$ is even while $3k$ is odd, a contradiction.

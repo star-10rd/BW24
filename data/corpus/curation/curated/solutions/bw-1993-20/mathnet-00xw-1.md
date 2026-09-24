@@ -1,0 +1,3 @@
+Solution:
+
+Clearly, the volume of a regular tetrahedron contained in a sphere reaches its maximum value if and only if all four vertices of the tetrahedron lie on the surface of the sphere. Therefore, a "good" tetrahedron with maximum volume must have its vertices at the vertices of the cube (for a proof, inscribe the cube in a sphere). There are exactly two such tetrahedra, their volume being equal to $1 - 4 \cdot \frac{1}{6} = \frac{1}{3}$. On the other hand, one can find arbitrarily small "good" tetrahedra by applying homothety to the maximal tetrahedron, with the centre of the homothety in one of its vertices.

@@ -1,0 +1,3 @@
+Solution:
+
+By condition (iii) we have $f(1) = 1$. Applying condition (iii) to each of (i) and (ii) gives two new conditions $(i')$ and $(ii')$ taking care of $q > 2$ and $\frac{1}{2} \leq q < 1$ respectively. Now, for any rational number $\frac{a}{b} \neq 1$ we can use (i), $(i')$, (ii) or $(ii')$ to express $f\left(\frac{a}{b}\right)$ in terms of $f\left(\frac{a'}{b'}\right)$ where $a' + b' < a + b$. The recursion therefore finishes in a finite number of steps, when we can use $f(1) = 1$. Thus we have established that such a function $f$ exists, and is uniquely determined by the given conditions.

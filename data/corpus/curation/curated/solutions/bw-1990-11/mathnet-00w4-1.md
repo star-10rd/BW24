@@ -1,0 +1,2 @@
+Solution:
+For a non-zero polynomial $P(x) = a_{n} x^{n} + \cdots + a_{1} x + a_{0}$ with integer coefficients, let $k$ be the smallest index such that $a_{k} \neq 0$. Let $c$ be an integer root of $P(x)$. If $c = 0$, the statement is obvious. If $c \neq 0$, then using $P(c) = 0$ we get $a_{k} = -c \left(a_{k+1} + a_{k+2} c + \cdots + a_{n} c^{n-k-1}\right)$. Hence $c$ divides $a_{k}$, and since $a_{k} \neq 0$ we must have $|c| \leq |a_{k}|$.

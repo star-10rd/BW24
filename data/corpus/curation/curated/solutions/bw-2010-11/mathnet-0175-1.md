@@ -1,0 +1,1 @@
+It is clear that $PQ$ is the radical axis of $k$ and $k'$. The power of $S$ with respect to $k$ is $-|AS| \cdot |CS|$ and the power of $S$ with respect to $k'$ is $-|BS| \cdot |DS|$. Because $ABCD$ is a square, these two numbers are clearly the same. Thus, $S$ has the same power with respect to $k$ and $k'$ and lies on the radical axis $PQ$ of $k$ and $k'$.

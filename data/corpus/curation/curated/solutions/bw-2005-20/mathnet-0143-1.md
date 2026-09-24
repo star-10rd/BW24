@@ -1,0 +1,3 @@
+Solution:
+
+Let $m = \left(p_{1}+1\right)\left(p_{2}+1\right) \cdots\left(p_{k}+1\right)$. We may assume that $p_{k}$ is the largest prime factor. If $p_{k} > 3$ then $p_{k}$ cannot divide $m$, because if $p_{k}$ divides $m$ it is a prime factor of $p_{i}+1$ for some $i$, but if $p_{i} = 2$ then $p_{i}+1 < p_{k}$, and otherwise $p_{i}+1$ is an even number with factors $2$ and $\frac{1}{2}\left(p_{i}+1\right)$ which are both strictly smaller than $p_{k}$. Thus the only primes that can divide $n$ are $2$ and $3$, so we can write $n = 2^{r} 3^{s}$. Then $m = 3^{r} 4^{s} = 2^{2s} 3^{r}$ which is divisible by $n$ if and only if $s \leq r \leq 2s$.

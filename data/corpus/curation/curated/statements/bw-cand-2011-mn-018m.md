@@ -1,0 +1,1 @@
+Math competition is held in $8$ different levels of difficulty. The organizing committee has to prepare $5$ problems for each level. The same problem can be used for more than one level, but each two levels can have at most one common problem. What is the least number of problems that is sufficient for the organizers?

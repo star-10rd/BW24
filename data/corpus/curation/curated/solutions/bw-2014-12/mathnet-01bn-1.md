@@ -1,0 +1,1 @@
+Let $TK$ intersect the circumcircle of $ABC$ in points $T$, $S$. Then $\angle ABS = \angle ATS = \angle BAT$ so $ASBT$ is a trapezoid. So $MK \parallel AT \parallel SB$ and $M$ is a midpoint of $AB$ thus $K$ is a midpoint of $TS$. But $\angle TAC = \angle BAT = \angle ATS$ so $ACTS$ is an inscribed trapezoid, so it is isosceles. Therefore $KA = KC$ as $K$ is a midpoint of $TS$.

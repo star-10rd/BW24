@@ -1,0 +1,5 @@
+Answer: $n = 8$.
+
+Example: take all the numbers $a$ such that $a \equiv \pm 1 \pmod{7}$, $a \equiv \pm 1 \pmod{11}$, $a \equiv \pm 1 \pmod{13}$. Due to the Chinese remainder theorem we have exactly $8$ numbers in the interval from $1$ to $1001$ ($1$, $155$, $274$, $428$, $573$, $727$, $846$, $1000$). It is obvious that these numbers satisfy the statement of the problem.
+
+Now assume that $n > 8$. The following reason is pure logic, but we formulate it in the language of graphs. Draw the following graph. Let the vertices of the graph be our numbers. Draw a red edge between vertices if the sum of the corresponding numbers is divisible by $7$. Observe that the red graph is bipartite because otherwise it contains an odd cycle and then all the numbers in this cycle must be divisible by $7$. Draw green and blue edges analogously if the sums are divisible by $11$ or by $13$. The green and the blue graph are also bipartite. Since $n > 8$, we can find two vertices that belong to the same part in all the three graphs. This means there are no edges between these vertices, therefore the sum of the corresponding numbers is not divisible by $7$, $11$, $13$. A contradiction.
