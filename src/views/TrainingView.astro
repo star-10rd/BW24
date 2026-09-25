@@ -1,0 +1,84 @@
+---
+import { getMessages, type Locale } from '../i18n';
+import { getPracticeCatalog } from '../lib/product/practice-catalog';
+import '../styles/practice.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+const practice = await getPracticeCatalog();
+const years = [...new Set(practice.exercises.map((exercise) => exercise.year))].sort((a,b)=>b-a);
+const domainOrder = ['A','C','G','N'] as const;
+const dataJson = JSON.stringify({
+  locale,
+  catalogFingerprint: practice.fingerprint,
+  publicSetFingerprint: practice.publicSetFingerprint,
+  catalog: practice.exercises,
+  labels: {
+    eligible: messages.practice.eligible,
+    noStorage: messages.practice.noStorage,
+    noMatches: messages.practice.noMatches,
+    capped: messages.practice.capped,
+    continueLabel: messages.practice.continuePractice,
+    problemOf: messages.practice.problemOf,
+    shortlistProblem: messages.problem.shortlistProblem,
+    overviewTitle: messages.practice.setOverview,
+    current: messages.practice.currentProblem,
+    reviewed: messages.practice.reviewedInSession,
+  },
+}).replaceAll('<','\\u003c');
+---
+<div class="content-shell practice-shell practice-shell--simple">
+  <header class="page-heading"><h1>{messages.sections.training.title}</h1><p class="lede">{messages.sections.training.description}</p></header>
+
+  <section class="training-overview" data-training-overview hidden aria-labelledby="training-overview-title">
+    <div class="training-overview__head"><div><p class="kicker">{messages.practice.practiceSet}</p><h2 id="training-overview-title">{messages.practice.setOverview}</h2><p data-training-overview-meta></p></div><button type="button" class="practice-text-button" data-training-build-new>{messages.practice.buildAnotherSet}</button></div>
+    <ol class="training-overview-list" data-training-overview-list></ol>
+    <div class="training-overview__actions"><a class="practice-submit" data-training-overview-continue href="#">{messages.practice.continuePractice}</a><button type="button" class="practice-secondary" data-training-overview-end>{messages.practice.endPractice}</button></div>
+  </section>
+
+  <section class="training-continue" data-training-continue hidden>
+    <div><h2>{messages.practice.continuePractice}</h2><p data-training-continue-meta></p></div>
+    <a class="practice-submit" data-training-continue-link href="#">{messages.practice.continuePractice}</a>
+  </section>
+
+  <form class="practice-form practice-form--simple" data-training-form data-training-builder>
+    <h2>{messages.practice.buildSet}</h2>
+    <p class="practice-note">{messages.practice.replaceSession}</p>
+
+    <fieldset class="quick-scope quick-scope--size">
+      <legend>{messages.practice.setSize}</legend>
+      <label><input type="radio" name="simple-size" value="5" checked/><span>5</span></label>
+      <label><input type="radio" name="simple-size" value="10"/><span>10</span></label>
+    </fieldset>
+
+    <fieldset class="quick-scope" data-training-simple-domain>
+      <legend>{messages.practice.focus}</legend>
+      <label><input type="radio" name="simple-domain" value="all" checked/><span>{messages.practice.allDomains}</span></label>
+      {domainOrder.map((domain)=><label><input type="radio" name="simple-domain" value={domain}/><span><strong>{domain}</strong><span class="quick-scope__name">{messages.problem.domains[domain]}</span></span></label>)}
+    </fieldset>
+
+    <label class="practice-toggle"><input type="checkbox" name="shortlist"/><span>{messages.practice.includeShortlistShort}</span></label>
+
+    <div class="practice-primary-block">
+      <p class="practice-count" data-training-count aria-live="polite"></p>
+      <button type="submit" class="practice-submit practice-submit--large">{messages.practice.startPractice}</button>
+      <p class="practice-form-status" data-training-status aria-live="polite"></p>
+    </div>
+
+    <details class="practice-details practice-details--customize" data-training-customize>
+      <summary>{messages.practice.customize}</summary>
+      <div class="practice-details__body">
+        <label class="training-size"><span>{messages.practice.customSize}</span><input type="number" name="size" min="2" max="50" value="5" inputmode="numeric"/></label>
+        <fieldset class="practice-fieldset practice-fieldset--inline practice-advanced-domains"><legend>{messages.practice.domainsAdvanced}</legend>{domainOrder.map((domain)=><label class="choice-pill"><input type="checkbox" name="domain" value={domain} checked/><span><strong>{domain}</strong> · {messages.problem.domains[domain]}</span></label>)}</fieldset>
+        <fieldset class="practice-fieldset practice-grid practice-years"><legend>{messages.practice.years}</legend>{years.map((year)=><label class="choice-check"><input type="checkbox" name="year" value={String(year)} checked/><span>{year}</span></label>)}</fieldset>
+        <label class="choice-check choice-check--standalone"><input type="checkbox" name="verified"/><span>{messages.practice.verifiedSolutionOnly}</span></label>
+        <div class="topic-groups">{domainOrder.map((domain)=><fieldset class="practice-fieldset topic-group"><legend>{messages.problem.domains[domain]}</legend>{practice.topics.filter((topic)=>topic.domain===domain).map((topic)=><label class="choice-check"><input type="checkbox" name="topic" value={topic.id}/><span>{messages.taxonomy.subtopics[topic.id]??topic.label}</span></label>)}</fieldset>)}</div>
+      </div>
+    </details>
+  </form>
+  <script id="bw26-training-data" type="application/json" set:html={dataJson}></script>
+</div>
+<script>
+  import { initTrainingPage } from '../lib/client/training-page';
+  initTrainingPage();
+</script>

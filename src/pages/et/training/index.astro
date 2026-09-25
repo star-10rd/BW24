@@ -1,13 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getMessages } from '../../../i18n';
-import SectionView from '../../../views/SectionView.astro';
-
-const locale = 'et' as const;
-const messages = getMessages(locale);
-const section = messages.sections.training;
+import TrainingView from '../../../views/TrainingView.astro';
+const locale='et' as const; const m=getMessages(locale);
 ---
-
-<BaseLayout locale={locale} current="training" path="training" title={section.title} description={messages.meta.description}>
-  <SectionView {...section} />
-</BaseLayout>
+<BaseLayout locale={locale} current="training" path="training" title={m.sections.training.title}><TrainingView locale={locale}/></BaseLayout>

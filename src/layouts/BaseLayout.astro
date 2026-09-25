@@ -4,6 +4,7 @@ import '@fontsource/atkinson-hyperlegible-next/600.css';
 import '@fontsource/atkinson-hyperlegible-next/700.css';
 import type { PrimaryRoute } from '../config/site';
 import { getMessages, type Locale } from '../i18n';
+import { getPracticeCatalog } from '../lib/product/practice-catalog';
 import MobileNav from '../components/MobileNav.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import '../styles/tokens.css';
@@ -22,10 +23,15 @@ interface Props {
 const { locale, current, path, title, description, experience } = Astro.props;
 const messages = getMessages(locale);
 const pageTitle = title === 'BW26' ? title : `${title} · BW26`;
+const practice = experience ? await getPracticeCatalog() : null;
 const experienceJson = JSON.stringify({
   locale,
   problemKey: experience?.problemKey ?? null,
   dailyDates: experience?.dailyDates ?? [],
+  practiceCatalogFingerprint: practice?.fingerprint ?? null,
+  publicSetFingerprint: practice?.publicSetFingerprint ?? null,
+  randomStorageKey: 'bw26.practice.random.v2',
+  trainingStorageKey: 'bw26.practice.training.v2',
   qaEnabled: import.meta.env.BW26_QA === '1',
 }).replaceAll('<', '\\u003c');
 ---
@@ -55,13 +61,17 @@ const experienceJson = JSON.stringify({
         }
         delete root.dataset.themePending;
 
+        // Pre-paint is intentionally tiny: it only chooses a conservative visual
+        // disclosure state. Full context/storage validation happens after the DOM
+        // exists in problem-experience.ts. This script never reads or mutates body.
         const node = document.getElementById('bw26-experience-data');
         if (!node) return;
         let data;
         try { data = JSON.parse(node.textContent || '{}'); } catch { return; }
-        const dates = Array.isArray(data.dailyDates) ? data.dailyDates : [];
-        if (!data.problemKey || dates.length === 0) return;
-
+        if (!data.problemKey) return;
+        const dates = Array.isArray(data.dailyDates)
+          ? data.dailyDates.filter((value) => typeof value === 'string')
+          : [];
         const tallinnDate = (now = new Date()) => {
           const parts = new Intl.DateTimeFormat('en-CA', {
             timeZone: 'Europe/Tallinn', year: 'numeric', month: '2-digit', day: '2-digit',
@@ -69,42 +79,45 @@ const experienceJson = JSON.stringify({
           const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
           return `${map.year}-${map.month}-${map.day}`;
         };
+        const params = new URLSearchParams(location.search);
+        const today = tallinnDate();
+        const qa = data.qaEnabled ? params.get('qa') : null;
+        let experience = 'archive';
+        let reviewState = 'available';
+        let contextDate = null;
+        let poolId = null;
+        let sessionId = null;
 
-        const applyExperience = (preserveReview = false) => {
-          const params = new URLSearchParams(location.search);
-          const today = tallinnDate();
-          const requested = params.get('context') === 'daily' ? params.get('date') : null;
-          const validRequested = requested && dates.includes(requested) && requested <= today ? requested : null;
-          let experience = validRequested ? 'daily' : 'archive';
-          let reviewState = validRequested ? 'solve' : 'available';
-          let contextDate = validRequested;
-
-          // Current Daily has absolute precedence in the normal product UI.
-          if (dates.includes(today)) reviewState = 'locked';
-          else if (preserveReview && experience === 'daily' && root.dataset.reviewState === 'review') reviewState = 'review';
-
-          if (data.qaEnabled) {
-            const qa = params.get('qa');
-            if (qa === 'daily-current') { experience = 'daily'; reviewState = 'locked'; contextDate = today; }
-            if (qa === 'daily-past-solve') { experience = 'daily'; reviewState = 'solve'; contextDate = dates[0] || today; }
-            if (qa === 'daily-past-review') { experience = 'daily'; reviewState = 'review'; contextDate = dates[0] || today; }
-            if (qa === 'archive') { experience = 'archive'; reviewState = 'available'; contextDate = null; }
+        if (qa === 'daily-current') {
+          experience = 'daily'; reviewState = 'locked'; contextDate = today;
+        } else if (qa === 'daily-past-solve' || qa === 'daily-past-review') {
+          experience = 'daily'; reviewState = qa === 'daily-past-review' ? 'review' : 'solve'; contextDate = dates[0] || today;
+        } else if (qa === 'random-solve' || qa === 'random-review' || qa === 'random-current') {
+          experience = 'random'; reviewState = qa === 'random-review' ? 'review' : 'solve'; poolId = 'qa';
+        } else if (qa === 'training-solve' || qa === 'training-review' || qa === 'training-current') {
+          experience = 'training'; reviewState = qa === 'training-review' ? 'review' : 'solve'; sessionId = 'qa';
+        } else if (qa !== 'archive') {
+          const requestedContext = params.get('context');
+          if (requestedContext === 'daily') {
+            const requested = params.get('date');
+            if (requested && dates.includes(requested) && requested <= today) {
+              experience = 'daily'; reviewState = 'solve'; contextDate = requested;
+            }
+          } else if (requestedContext === 'random') {
+            experience = 'random'; reviewState = 'solve'; poolId = params.get('pool');
+          } else if (requestedContext === 'training') {
+            experience = 'training'; reviewState = 'solve'; sessionId = params.get('session');
           }
+        }
 
-          root.dataset.experience = experience;
-          root.dataset.reviewState = reviewState;
-          if (contextDate) root.dataset.contextDate = contextDate;
-          else delete root.dataset.contextDate;
-        };
+        // A problem scheduled for today is locked regardless of how it was reached.
+        if (dates.includes(today) || qa === 'random-current' || qa === 'training-current') reviewState = 'locked';
 
-        applyExperience(false);
-        let observedTallinnDate = tallinnDate();
-        window.setInterval(() => {
-          const next = tallinnDate();
-          if (next === observedTallinnDate) return;
-          observedTallinnDate = next;
-          applyExperience(true);
-        }, 60_000);
+        root.dataset.experience = experience;
+        root.dataset.reviewState = reviewState;
+        if (contextDate) root.dataset.contextDate = contextDate; else delete root.dataset.contextDate;
+        if (poolId) root.dataset.poolId = poolId; else delete root.dataset.poolId;
+        if (sessionId) root.dataset.sessionId = sessionId; else delete root.dataset.sessionId;
       })();
     </script>
   </head>

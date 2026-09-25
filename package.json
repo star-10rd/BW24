@@ -8,7 +8,7 @@
     "check": "astro check",
     "content:check": "tsx scripts/content-check.ts",
     "build": "astro build",
-    "verify": "npm run foundation:static && astro check && npm run corpus:validate && npm run enrichment:check && npm run publication:check && npm run product:validate && npm run daily:check && npm run product:assets && npm run product:assets:check && astro build",
+    "verify": "npm run foundation:static && astro check && npm run corpus:validate && npm run enrichment:check && npm run publication:check && npm run product:validate && npm run daily:check && npm run practice:check && npm run product:assets && npm run product:assets:check && astro build",
     "preview": "astro preview",
     "corpus:validate": "tsx scripts/corpus/validate.ts",
     "corpus:format": "tsx scripts/corpus/format.ts",
@@ -26,7 +26,8 @@
     "daily:status": "tsx scripts/product/daily-status.ts",
     "predev": "npm run product:assets",
     "prebuild": "npm run product:assets",
-    "foundation:static": "node scripts/product/verify-foundation-static.mjs"
+    "foundation:static": "node scripts/product/verify-foundation-static.mjs",
+    "practice:check": "tsx scripts/product/check-practice.ts"
   },
   "engines": {
     "node": ">=22.12.0 <23 || >=24 <25 || >=26 <27"

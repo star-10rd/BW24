@@ -1,15 +1,46 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getMessages, type Locale } from '../i18n';
-import { getProductCatalog } from '../lib/product/catalog';
+import { getProductCatalog, exerciseRoute } from '../lib/product/catalog';
+import { getPracticeCatalog } from '../lib/product/practice-catalog';
 import '../styles/archive.css';
-interface Props{locale:Locale} const {locale}=Astro.props; const messages=getMessages(locale); const catalog=await getProductCatalog();
-const years=[...new Set(catalog.finals.map(x=>x.year))].sort((a,b)=>b-a).map(year=>({year,count:catalog.finals.filter(x=>x.year===year).length}));
+interface Props{locale:Locale}
+const {locale}=Astro.props;
+const messages=getMessages(locale);
+const [catalog,practice]=await Promise.all([getProductCatalog(),getPracticeCatalog()]);
+const years=[...new Set(catalog.finals.map(x=>x.year))].sort((a,b)=>b-a);
+const domainOrder=['A','C','G','N'] as const;
+const finals=[...catalog.finals].sort((a,b)=>b.year-a.year || Number(a.number)-Number(b.number));
+const dataJson=JSON.stringify({validYears:years,validTopics:practice.topics.map(t=>t.id),labels:{results:messages.archive.results,noResults:messages.archive.noResults,selectedTopics:messages.archive.selectedTopics}}).replaceAll('<','\\u003c');
 ---
-<div class="content-shell archive-shell">
+<div class="content-shell archive-shell archive-shell--filterable">
   <header class="page-heading"><h1>{messages.sections.problems.title}</h1><p class="lede">{messages.sections.problems.description}</p></header>
-  <section class="archive-years" aria-labelledby="years-title"><h2 id="years-title">{messages.archive.years}</h2>
-    <div class="archive-year-list">{years.map(item=><a class="archive-year-row" href={getRelativeLocaleUrl(locale,`problems/${item.year}`)}><strong>{item.year}</strong><span>{item.count} {messages.archive.problems}</span><span aria-hidden="true">→</span></a>)}</div>
-  </section>
-  <section class="archive-shortlist"><div><h2>{messages.archive.shortlist}</h2><p>{messages.sections.shortlist.description}</p></div><a class="text-action" href={getRelativeLocaleUrl(locale,'shortlist')}>{catalog.shortlist.length} {messages.archive.problems}<span aria-hidden="true">→</span></a></section>
+
+  <form class="archive-filters" data-problems-filter>
+    <div class="archive-quick-filters">
+      <label class="archive-year-select"><span>{messages.archive.years}</span><select data-year-quick><option value="all">{messages.archive.allYears}</option>{years.map(year=><option value={String(year)}>{year}</option>)}<option value="custom" disabled hidden>{messages.archive.selectedTopics}</option></select></label>
+      <fieldset><legend>{messages.practice.domain}</legend><div class="archive-filter-inline">{domainOrder.map(domain=><label><input type="checkbox" name="domain" value={domain} checked/><span><strong>{domain}</strong> · {messages.problem.domains[domain]}</span></label>)}</div></fieldset>
+      <button type="button" class="archive-reset" data-problems-reset>{messages.practice.allDomains} · {messages.archive.allYears}</button>
+    </div>
+    <details><summary>{messages.practice.moreFilters}</summary><div class="archive-filter-detail"><fieldset class="archive-filter-grid"><legend>{messages.practice.years}</legend>{years.map(year=><label><input type="checkbox" name="year" value={String(year)} checked/><span>{year}</span></label>)}</fieldset><label class="archive-check"><input type="checkbox" name="verified"/><span>{messages.archive.verifiedOnly}</span></label><div class="archive-topic-groups">{domainOrder.map(domain=><fieldset><legend>{messages.problem.domains[domain]}</legend>{practice.topics.filter(topic=>topic.domain===domain).map(topic=><label><input type="checkbox" name="topic" value={topic.id} data-label={messages.taxonomy.subtopics[topic.id]??topic.label}/><span>{messages.taxonomy.subtopics[topic.id]??topic.label}</span></label>)}</fieldset>)}</div></div></details>
+  </form>
+
+  <div class="archive-results-head"><p data-problems-count aria-live="polite"></p><p class="archive-selection-context" data-problems-selection hidden></p></div>
+  <p class="archive-empty" data-problems-empty hidden>{messages.archive.noResults}</p>
+  <ol class="contest-problem-list contest-problem-list--all">
+    {finals.map(problem=><li data-problem-row data-year={String(problem.year)} data-domain={problem.domain} data-subtopics={problem.subtopicIds.join(' ')} data-solution={problem.solutionsStatus==='verified'&&problem.solutions.length>0?'1':'0'}>
+      <a href={locale==='en'?exerciseRoute(problem):`/et${exerciseRoute(problem)}`}>
+        <span class="contest-number"><strong>{problem.year}</strong> · {messages.archive.problem} {Number(problem.number)}</span>
+        <span class="contest-domain"><strong>{problem.domain}</strong> · {messages.problem.domains[problem.domain]}</span>
+        <span class="contest-solution-state">{problem.solutionsStatus==='verified'&&problem.solutions.length>0?messages.archive.solutionAvailable:messages.archive.solutionUnavailable}</span>
+      </a>
+    </li>)}
+  </ol>
+
+  <section class="archive-shortlist"><div><h2>{messages.archive.shortlist}</h2><p>{messages.sections.shortlist.description}</p></div><a class="text-action" href={getRelativeLocaleUrl(locale,'shortlist')}>{catalog.shortlist.length} {messages.archive.problems}</a></section>
+  <script id="bw26-problems-filter-data" type="application/json" set:html={dataJson}></script>
 </div>
+<script>
+  import { initProblemsFilter } from '../lib/client/problems-filter';
+  initProblemsFilter();
+</script>

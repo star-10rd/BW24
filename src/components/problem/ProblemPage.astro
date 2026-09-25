@@ -22,17 +22,23 @@ const renderedSolutions=await Promise.all(page.solutions.map(async(solution,inde
 }));
 const numberFormat=new Intl.NumberFormat(locale==='et'?'et-EE':'en-US',{minimumFractionDigits:1,maximumFractionDigits:1});
 const routeWithLocale=(route:string)=>locale==='en'?route:`/et${route}`;
+const runtimeJson=JSON.stringify({
+  locale,
+  problem:{ id:page.key,route:page.route,collection:page.kind==='final'?'contest':'shortlist',year:page.year,numberOrSlug:page.kind==='final'?String(Number(page.number)):page.slug,domain:page.domain },
+  labels:{ randomUnavailableDaily:messages.practice.randomUnavailableDaily,randomStateLost:messages.practice.randomStateLost,problemOf:messages.practice.problemOf },
+}).replaceAll('<','\\u003c');
 ---
 <div class="content-shell content-shell--problem">
   <div class="problem-context-nav">
     <a class="problem-back problem-back--archive" href={getRelativeLocaleUrl(locale,page.kind==='shortlist'?'shortlist':'problems')}><span aria-hidden="true">←</span>{page.kind==='shortlist'?messages.problem.backToShortlist:messages.problem.backToProblems}</a>
     <a class="problem-back problem-back--daily" data-daily-back href={getRelativeLocaleUrl(locale,'daily')}><span aria-hidden="true">←</span>{messages.problem.backToDaily}</a>
+    <a class="problem-back problem-back--random" href={getRelativeLocaleUrl(locale,'random')}><span aria-hidden="true">←</span>{messages.problem.backToRandom}</a>
+    <a class="problem-back problem-back--training" href={getRelativeLocaleUrl(locale,'training')}><span aria-hidden="true">←</span>{messages.problem.backToTraining}</a>
   </div>
 
-  <p class="problem-mode-context problem-mode-context--daily" aria-live="polite">
-    <span class="kicker">{messages.problem.dailyContext}</span>
-    <span data-context-date></span>
-  </p>
+  <p class="problem-mode-context problem-mode-context--daily" aria-live="polite"><span class="kicker">{messages.problem.dailyContext}</span><span data-context-date-label></span></p>
+  <p class="problem-mode-context problem-mode-context--random"><span class="kicker">{messages.problem.randomContext}</span></p>
+  <p class="problem-mode-context problem-mode-context--training"><span class="kicker">{messages.problem.trainingContext}</span><span data-training-progress></span></p>
 
   <article class="problem-main">
     <header class="problem-heading">
@@ -41,6 +47,19 @@ const routeWithLocale=(route:string)=>locale==='en'?route:`/et${route}`;
     </header>
 
     <section class="problem-prose problem-statement" lang="en" aria-label={messages.problem.statement} set:html={statement.html}></section>
+
+    <section class="practice-actions practice-actions--random" aria-label={messages.problem.randomContext}>
+      <div class="random-problem-actions"><button type="button" class="practice-primary" data-random-next>{messages.practice.anotherProblem}</button><a class="practice-text-link" href={getRelativeLocaleUrl(locale,'random')}>{messages.practice.changePool}</a></div>
+    </section>
+    <section class="practice-actions practice-actions--training" aria-label={messages.problem.trainingContext}>
+      <nav class="training-step-actions" aria-label={messages.practice.practiceSet}>
+        <span class="practice-step-slot practice-step-slot--previous"><a class="practice-step-link" data-training-prev hidden>{messages.practice.previousProblem}</a></span>
+        <span class="practice-step-slot practice-step-slot--overview"><a class="practice-step-link practice-step-link--overview" data-training-overview-link href={getRelativeLocaleUrl(locale,'training')}>{messages.practice.setOverview}</a></span>
+        <span class="practice-step-slot practice-step-slot--next"><a class="practice-step-link" data-training-next hidden>{messages.practice.nextProblem}</a></span>
+      </nav>
+      <button type="button" class="practice-secondary practice-end" data-training-end>{messages.practice.endPractice}</button>
+    </section>
+    <p class="practice-status" data-practice-status aria-live="polite"></p>
 
     <section class="review-gate" data-review-gate aria-labelledby="review-gate-title">
       <p id="review-gate-title">{messages.problem.reviewPrompt}</p>
@@ -88,19 +107,14 @@ const routeWithLocale=(route:string)=>locale==='en'?route:`/et${route}`;
       <div>{page.next&&<a href={routeWithLocale(page.next.route)}>{messages.archive.problem} {page.next.number} <span aria-hidden="true">→</span></a>}</div>
     </nav>}
   </article>
+  <script id="bw26-problem-data" type="application/json" set:html={runtimeJson}></script>
 </div>
-<script is:inline>
-  (()=>{
-    const root=document.documentElement;
-    const action=document.querySelector('[data-review-action]');
-    if(action) action.addEventListener('click',()=>{ if(root.dataset.reviewState==='solve') root.dataset.reviewState='review'; });
-    const dailyBack=document.querySelector('[data-daily-back]');
-    if(dailyBack && root.dataset.contextDate){ const url=new URL(dailyBack.href,location.href); url.searchParams.set('date',root.dataset.contextDate); dailyBack.href=`${url.pathname}${url.search}`; }
-    const target=document.querySelector('[data-context-date]');
-    if(target && root.dataset.contextDate){
-      const [y,m,d]=root.dataset.contextDate.split('-').map(Number);
-      const locale=document.documentElement.lang==='et'?'et-EE':'en-GB';
-      target.textContent=new Intl.DateTimeFormat(locale,{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Tallinn'}).format(new Date(Date.UTC(y,m-1,d,12)));
-    }
-  })();
+<script>
+  import { initProblemExperience } from '../../lib/client/problem-experience';
+  const bootProblemExperience = () => initProblemExperience();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bootProblemExperience, { once: true });
+  } else {
+    bootProblemExperience();
+  }
 </script>

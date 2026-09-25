@@ -98,3 +98,21 @@ npm run verify
 
 `npm run verify` is deterministic and does not expire as calendar time passes. `npm run daily:status` is the operational schedule-horizon check. Set `BW26_QA=1` for the local-only `/_qa/` catalogue.
 <!-- /BW26-P3E1 -->
+
+<!-- BW26-P3E2 -->
+## Practice system
+
+The public product catalogue now supports structured Problems filtering, one-click Random practice, Recent recovery, temporary Practice sets, and Daily history navigation while retaining one canonical page for every mathematical problem. Random uses a persistent browser-side shuffle bag without replacement; Practice sets are tab-scoped and temporary. New Random draws and new Practice sets exclude the four problems in the current Tallinn Daily set, while the canonical current-Daily Review lock remains authoritative for stale history/session navigation.
+
+Useful checks:
+
+```bash
+npm run practice:check
+npm run product:validate
+npm run product:report
+npm run daily:check
+npm run verify
+```
+
+Browser state is intentionally small and accountless: Random and Recent use local storage when available, while the active Practice-set session uses session storage. Corrupt or stale state is discarded rather than affecting archive access.
+<!-- /BW26-P3E2 -->

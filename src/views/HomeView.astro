@@ -1,4 +1,35 @@
 ---
-import {getRelativeLocaleUrl} from 'astro:i18n';import {getMessages,type Locale} from '../i18n'; interface Props{locale:Locale} const{locale}=Astro.props;const m=getMessages(locale);
+import {getRelativeLocaleUrl} from 'astro:i18n';
+import {getMessages,type Locale} from '../i18n';
+import {getPracticeCatalog} from '../lib/product/practice-catalog';
+interface Props{locale:Locale}
+const{locale}=Astro.props;
+const m=getMessages(locale);
+const practice=await getPracticeCatalog();
+const randomBase=getRelativeLocaleUrl(locale,'random');
+const trainingBase=getRelativeLocaleUrl(locale,'training');
+const dataJson=JSON.stringify({locale,catalogFingerprint:practice.fingerprint,publicSetFingerprint:practice.publicSetFingerprint,publicIds:practice.exercises.map(x=>x.id),labels:{recent:m.practice.recent,random:m.practice.randomSource,training:m.practice.practiceSet,continueTraining:m.practice.continuePractice,problemOf:m.practice.problemOf,shortlistProblem:m.problem.shortlistProblem}}).replaceAll('<','\\u003c');
 ---
-<div class="content-shell content-shell--reading"><header class="page-heading page-heading--home"><p class="kicker">{m.home.kicker}</p><h1>{m.home.title}</h1><p class="lede">{m.home.intro}</p></header><div class="home-actions"><a class="home-primary-action" href={getRelativeLocaleUrl(locale,'daily')}>{m.home.dailyAction}<span aria-hidden="true">→</span></a><a class="text-action" href={getRelativeLocaleUrl(locale,'problems')}>{m.home.problemsAction}<span aria-hidden="true">→</span></a></div><section class="foundation-list"><div class="foundation-row"><h2>{m.home.problemsLabel}</h2><p>{m.home.problemsText}</p></div><div class="foundation-row"><h2>{m.home.trainingLabel}</h2><p>{m.home.trainingText}</p></div><div class="foundation-row"><h2>{m.home.materialsLabel}</h2><p>{m.home.materialsText}</p></div></section></div>
+<div class="content-shell content-shell--reading">
+  <header class="page-heading page-heading--home"><p class="kicker">{m.home.kicker}</p><h1>{m.home.title}</h1><p class="lede">{m.home.intro}</p></header>
+
+  <section class="home-practice-entry" aria-label={m.home.practiceLabel}>
+    <div class="home-practice-row home-practice-row--daily"><div><p class="kicker">{m.home.todayLabel}</p><h2>{m.home.dailyAction}</h2><p>{m.sections.daily.description}</p></div><a class="home-primary-action" href={getRelativeLocaleUrl(locale,'daily')}>{m.home.openToday}</a></div>
+    <div class="home-practice-row"><div><h2>{m.home.randomLabel}</h2><p>{m.home.randomText}</p></div><div class="home-practice-actions"><a class="home-primary-action home-primary-action--quiet" href={`${randomBase}?start=1`}>{m.practice.giveProblem}</a><a class="home-secondary-action" href={randomBase}>{m.practice.customize}</a></div></div>
+    <div class="home-practice-row"><div><h2>{m.practice.practiceSet}</h2><p>{m.home.trainingText}</p></div><div class="home-practice-actions"><a class="home-primary-action home-primary-action--quiet" href={`${trainingBase}?start=1&size=5`}>{m.practice.fiveProblems}</a><a class="home-primary-action home-primary-action--quiet" href={`${trainingBase}?start=1&size=10`}>{m.practice.tenProblems}</a><a class="home-secondary-action" href={trainingBase}>{m.practice.customize}</a></div></div>
+  </section>
+
+  <section class="home-continue" data-home-training-continue hidden><div><h2>{m.practice.continuePractice}</h2><p data-home-training-meta></p></div><a class="home-secondary-action" data-home-training-link href={trainingBase}>{m.practice.continuePractice}</a></section>
+
+  <section class="home-recent" data-home-recent hidden aria-labelledby="home-recent-title"><h2 id="home-recent-title">{m.home.recentLabel}</h2><ul data-home-recent-list></ul></section>
+
+  <section class="foundation-list">
+    <div class="foundation-row"><h2>{m.home.problemsLabel}</h2><div><p>{m.home.problemsText}</p><a class="text-action" href={getRelativeLocaleUrl(locale,'problems')}>{m.home.problemsAction}</a></div></div>
+    <div class="foundation-row"><h2>{m.home.materialsLabel}</h2><p>{m.home.materialsText}</p></div>
+  </section>
+  <script id="bw26-home-practice-data" type="application/json" set:html={dataJson}></script>
+</div>
+<script>
+  import { initHomePractice } from '../lib/client/home-practice';
+  initHomePractice();
+</script>

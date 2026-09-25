@@ -14,9 +14,10 @@ const messages = getMessages(locale);
 
 <nav class="mobile-nav" aria-label={messages.nav.label}>
   <div class="mobile-nav__inner">
-    {site.primaryNavigation.map((item) => (
+    {site.mobileNavigation.map((item) => (
       <a
         href={getRelativeLocaleUrl(locale, item.path)}
+        data-nav-route={item.id}
         aria-current={current === item.id ? 'page' : undefined}
       >
         {messages.nav[item.id]}

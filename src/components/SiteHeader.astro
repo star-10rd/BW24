@@ -22,9 +22,10 @@ const messages = getMessages(locale);
     </a>
 
     <nav class="desktop-nav" aria-label={messages.nav.label}>
-      {site.primaryNavigation.map((item) => (
+      {site.desktopNavigation.map((item) => (
         <a
           href={getRelativeLocaleUrl(locale, item.path)}
+          data-nav-route={item.id}
           aria-current={current === item.id ? 'page' : undefined}
         >
           {messages.nav[item.id]}

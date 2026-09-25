@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getMessages } from '../../i18n';
+import RandomView from '../../views/RandomView.astro';
+const locale='en' as const; const m=getMessages(locale);
+---
+<BaseLayout locale={locale} current="random" path="random" title={m.sections.random.title}><RandomView locale={locale}/></BaseLayout>
