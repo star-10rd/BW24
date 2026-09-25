@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro'; import YearView from '../../../views/YearView.astro'; import { getProductCatalog } from '../../../lib/product/catalog';
+export async function getStaticPaths(){const c=await getProductCatalog();return [...new Set(c.finals.map(x=>x.year))].map(year=>({params:{year:String(year)},props:{year}}));}
+const locale='en' as const; const {year}=Astro.props;
+---
+<BaseLayout locale={locale} current="problems" path={`problems/${year}`} title={`Baltic Way ${year}`}><YearView locale={locale} year={year}/></BaseLayout>

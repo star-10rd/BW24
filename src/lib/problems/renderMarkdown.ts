@@ -134,3 +134,18 @@ export async function renderProblemMarkdown(
     referencedAssets: [...referenced],
   };
 }
+
+const renderedProblemCache = new Map<string, Promise<RenderedProblemContent>>();
+export function renderProblemMarkdownCached(
+  cacheKey: string,
+  markdown: string,
+  assets: readonly ProblemAsset[],
+  context: string,
+): Promise<RenderedProblemContent> {
+  const key = `${cacheKey}|${assets.map((asset)=>`${asset.key}:${asset.src}`).join('|')}`;
+  const hit = renderedProblemCache.get(key);
+  if (hit) return hit;
+  const rendered = renderProblemMarkdown(markdown, assets, context);
+  renderedProblemCache.set(key, rendered);
+  return rendered;
+}

@@ -10,7 +10,7 @@ interface Props {
 const { locale, path } = Astro.props;
 const messages = getMessages(locale);
 const targetLocale: Locale = locale === 'en' ? 'et' : 'en';
-const href = getRelativeLocaleUrl(targetLocale, path);
+const href = `${getRelativeLocaleUrl(targetLocale, path)}${Astro.url.search}`;
 const label = targetLocale === 'et' ? messages.common.useEstonian : messages.common.useEnglish;
 ---
 

@@ -258,3 +258,4 @@
     font-size: 0.68rem;
   }
 }
+.home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4);margin:0 0 var(--space-7)}.home-primary-action{display:inline-flex;min-height:2.9rem;align-items:center;gap:.45rem;padding:.55rem .9rem;border:1px solid var(--brand);border-radius:var(--radius-control);background:var(--brand);color:#fff;font-weight:700;text-decoration:none}.home-primary-action:hover{background:var(--brand-strong);color:#fff}

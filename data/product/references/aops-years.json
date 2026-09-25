@@ -1,0 +1,200 @@
+{
+  "schema": "bw26-aops-year-references",
+  "version": 1,
+  "scope": "Baltic Way final contest only; shortlist/longlist material intentionally excluded.",
+  "parentCollectionUrl": "https://artofproblemsolving.com/community/c3231_baltic_way",
+  "linkPolicy": {
+    "target": "year-collection-only",
+    "directProblemThreads": false
+  },
+  "years": [
+    {
+      "year": 1990,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5129",
+      "status": "indirectly-verified",
+      "note": "Collection id corroborated by an AoPS mirror; direct AoPS page is JavaScript-heavy."
+    },
+    {
+      "year": 1991,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5130",
+      "status": "reviewed"
+    },
+    {
+      "year": 1992,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5131",
+      "status": "reviewed"
+    },
+    {
+      "year": 1993,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5132",
+      "status": "reviewed"
+    },
+    {
+      "year": 1994,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5133",
+      "status": "reviewed"
+    },
+    {
+      "year": 1995,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5134",
+      "status": "reviewed"
+    },
+    {
+      "year": 1996,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5135",
+      "status": "reviewed"
+    },
+    {
+      "year": 1997,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5136",
+      "status": "reviewed"
+    },
+    {
+      "year": 1998,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5137",
+      "status": "reviewed"
+    },
+    {
+      "year": 1999,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5138",
+      "status": "reviewed"
+    },
+    {
+      "year": 2000,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5139",
+      "status": "reviewed"
+    },
+    {
+      "year": 2001,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5140",
+      "status": "reviewed"
+    },
+    {
+      "year": 2002,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5141",
+      "status": "reviewed"
+    },
+    {
+      "year": 2003,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5142",
+      "status": "reviewed"
+    },
+    {
+      "year": 2004,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5143",
+      "status": "reviewed"
+    },
+    {
+      "year": 2005,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5144",
+      "status": "reviewed"
+    },
+    {
+      "year": 2006,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5145",
+      "status": "reviewed"
+    },
+    {
+      "year": 2007,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5146",
+      "status": "reviewed"
+    },
+    {
+      "year": 2008,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5147",
+      "status": "reviewed"
+    },
+    {
+      "year": 2009,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5148",
+      "status": "reviewed"
+    },
+    {
+      "year": 2010,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5149",
+      "status": "reviewed"
+    },
+    {
+      "year": 2011,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5150",
+      "status": "reviewed"
+    },
+    {
+      "year": 2012,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5151",
+      "status": "reviewed"
+    },
+    {
+      "year": 2013,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5152",
+      "status": "reviewed"
+    },
+    {
+      "year": 2014,
+      "collectionUrl": "https://artofproblemsolving.com/community/c5153",
+      "status": "reviewed"
+    },
+    {
+      "year": 2015,
+      "collectionUrl": "https://artofproblemsolving.com/community/c176868",
+      "status": "reviewed"
+    },
+    {
+      "year": 2016,
+      "collectionUrl": "https://artofproblemsolving.com/community/c365229",
+      "status": "reviewed"
+    },
+    {
+      "year": 2017,
+      "collectionUrl": "https://artofproblemsolving.com/community/c562754",
+      "status": "reviewed"
+    },
+    {
+      "year": 2018,
+      "collectionUrl": "https://artofproblemsolving.com/community/c768179",
+      "status": "reviewed"
+    },
+    {
+      "year": 2019,
+      "collectionUrl": "https://artofproblemsolving.com/community/c1010637",
+      "status": "reviewed"
+    },
+    {
+      "year": 2020,
+      "collectionUrl": "https://artofproblemsolving.com/community/c1594133",
+      "status": "reviewed"
+    },
+    {
+      "year": 2021,
+      "collectionUrl": "https://artofproblemsolving.com/community/c2622458",
+      "status": "reviewed"
+    },
+    {
+      "year": 2022,
+      "collectionUrl": "https://artofproblemsolving.com/community/c3201340",
+      "status": "reviewed"
+    },
+    {
+      "year": 2023,
+      "collectionUrl": "https://artofproblemsolving.com/community/c3618155",
+      "status": "reviewed"
+    },
+    {
+      "year": 2024,
+      "collectionUrl": "https://artofproblemsolving.com/community/c4101760",
+      "status": "reviewed"
+    },
+    {
+      "year": 2025,
+      "collectionUrl": "https://artofproblemsolving.com/community/c4627837",
+      "status": "reviewed"
+    }
+  ],
+  "coverage": {
+    "firstYear": 1990,
+    "lastYear": 2025,
+    "years": 36,
+    "mappedYears": 36,
+    "unresolvedYears": 0
+  }
+}

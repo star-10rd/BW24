@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';import DailyView from '../../../views/DailyView.astro';import {getMessages} from '../../../i18n';const locale='et' as const;const m=getMessages(locale);
+---
+<BaseLayout locale={locale} current="today" path="daily" title={m.sections.daily.title}><DailyView locale={locale}/></BaseLayout>

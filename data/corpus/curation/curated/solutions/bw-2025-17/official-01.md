@@ -1,42 +1,67 @@
-## Solution The answer is all even numbers starting from 8.
+## Solution
 
-Obviously, the number of divisors of a brilliant number must be even. Moreover, as the number
-itself must belong to one group, the sum of all proper divisors must be at least as large as the
-number. Hence primes and prime powers are not brilliant as the divisors of a number p^k are
-1, p, . . . , p^{k−1} , p^k and
-                                                   p^k − 1
-                            1 + p + . . . + p^{k−1} =        ≤ p^k − 1 < p^k .
-                                                   p−1
-   Next we show that there are no brilliant numbers with 4 or 6 positive divisors.
+The answer is all even integers at least $8$.
 
-   • If a brilliant number had 4 divisors, it would be representable as pq for some primes p
-     and q. As one proper divisor should join pq in one group, the sum of members of either
-     group would be at least pq + 1. Hence pq + q + p + 1 ≥ 2(pq + 1) = 2pq + 2, or equivalently,
-     0 ≥ pq − p − q + 1 = (p − 1)(q − 1), which is impossible.
+The number of divisors of a brilliant number must be even. Also, because the number itself belongs to one of the two groups, the sum of all proper divisors must be at least as large as the number. Hence prime powers are not brilliant: for a prime $p$,
 
-   • If a brilliant number had 6 divisors, it would be representable as p^2 q for some primes p
-     and q. As two distinct proper divisors should join p^2 q in one group, the sum of members of
-     either group would be at least p^2 q+3. Hence p^2 q+pq+q+p^2 +p+1 ≥ 2(p^2 q+3) = 2p^2 q+6.
-     This inequality is equivalent to
+$$
+1+p+\cdots+p^{k-1}=\frac{p^k-1}{p-1}\le p^k-1<p^k.
+$$
 
-                                      2p^2 − 6 ≥ (p^2 − p − 1)(q + 1).
+We next rule out $4$ and $6$ divisors.
 
-      As q + 1 ≥ 3, this implies the inequality 2p^2 − 6 ≥ 3(p^2 − p − 1) which is equivalent to
-      p^2 − 3p + 3 ≤ 0. As the discriminant of the quadratic equation p^2 − 3p + 3 = 0 is negative
-      and the leading coefficient is positive, the inequality cannot be satisfied.
+- If a brilliant number had $4$ divisors, it would be $pq$ for primes $p,q$. One proper divisor must join $pq$ in its group, so each group would have sum at least $pq+1$. Thus
 
-Finally we show that all numbers in the form 2^{n−1} · 3, where n ≥ 4, are brilliant. Such number
-has 2^n positive divisors:
-                                         1, 2, 4, . . . , 2^{n−1} ,
-                                 3 · 1, 3 · 2, 3 · 4, . . . , 3 · 2^{n−1} .
-In an expected partition into two groups, either group must contain n divisors and the sum of
-members of each group must equal the arithmetic mean of the two row sums above. Note that
-both the desired number of members and the desired sum of members could be achieved by
-numbers
-                                 2 · 1, 2 · 2, 2 · 4, . . . , 2 · 2^{n−1} ,
-if all they were among the divisors of 2^{n−1} · 3. The only one that is not a divisor of 2^{n−1} · 3 is the
-last number 2 · 2^{n−1} , because the others are equal to 2, 4, . . . , 2^{n−1} , respectively. Now remove
-the two largest numbers, i.e., 2^{n−1} and 2^n , and add 3·2^{n−1} . Then only divisors of 2^{n−1} ·3 remain
-and also the sum of members is maintained, but the number of members decreases by 1. To
-achieve the right number of members, replace 4 with 1 and 3. This proves that every number
-of the form 2^n, where n ≥ 4, is equal to the number of positive divisors of a brilliant number.
+  $$
+  pq+p+q+1\ge2(pq+1),
+  $$
+
+  which is equivalent to $0\ge(p-1)(q-1)$, impossible.
+
+- If a brilliant number had $6$ divisors, it would be $p^2q$ for primes $p,q$. Two distinct proper divisors must join $p^2q$ in its group, so each group has sum at least $p^2q+3$. Therefore
+
+  $$
+  p^2q+pq+q+p^2+p+1\ge2(p^2q+3),
+  $$
+
+  or
+
+  $$
+  2p^2-6\ge(p^2-p-1)(q+1).
+  $$
+
+  Since $q+1\ge3$, this implies
+
+  $$
+  2p^2-6\ge3(p^2-p-1),
+  $$
+
+  equivalently $p^2-3p+3\le0$, which is impossible because this quadratic is always positive.
+
+Finally, we show that every even number $2n$ with $n\ge4$ occurs as the number of divisors of a brilliant number. Consider
+
+$$
+N=2^{n-1}\cdot3.
+$$
+
+Its $2n$ positive divisors are
+
+$$
+1,2,4,\ldots,2^{n-1}
+$$
+
+and
+
+$$
+3,3\cdot2,3\cdot4,\ldots,3\cdot2^{n-1}.
+$$
+
+Each group in the desired partition must contain $n$ divisors and have half the total divisor sum. Both the desired sum and the desired number of terms would be achieved by
+
+$$
+2\cdot1,2\cdot2,2\cdot4,\ldots,2\cdot2^{n-1},
+$$
+
+if all of these were divisors of $N$. The only one that is not a divisor is the last term $2^n$. Remove the two largest terms $2^{n-1}$ and $2^n$ and replace them with $3\cdot2^{n-1}$; the sum is unchanged and the number of terms decreases by $1$. To restore the number of terms, replace $4$ by $1$ and $3$. Thus one group has exactly $n$ divisors and half the total sum, and its complement gives the other group. Hence $N$ is brilliant and has $2n$ divisors.
+
+Therefore the possible numbers of divisors are exactly the even integers at least $8$.

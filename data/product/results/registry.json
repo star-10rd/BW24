@@ -1,0 +1,366 @@
+{
+  "schema": "bw26-balticway-results-registry",
+  "version": 2,
+  "competition": "Baltic Way",
+  "coverage": {
+    "firstYear": 1992,
+    "lastYear": 2025,
+    "years": 34,
+    "teamParticipations": 362,
+    "note": "Results begin in 1992 in the official Baltic Way archive; 1990-1991 intentionally have no local results file."
+  },
+  "source": {
+    "authoritativeProvider": "Baltic Way official archive (University of Tartu / host-year official result pages)",
+    "authoritativeIndexUrl": "https://www.math.olympiaadid.ut.ee/eng/html/?id=bw",
+    "mirrorProvider": "MOResults",
+    "mirrorDataPageUrl": "https://moresults.org/data",
+    "mirrorRepositoryUrl": "https://github.com/matholympiadresults/moresults-data",
+    "mirrorParsedPathTemplate": "data/balticway/parsed/{year}/scoreboard.json",
+    "mirrorRepositoryRef": null,
+    "mirrorSnapshotSha256": null,
+    "numericImportState": "complete",
+    "gitPinState": "pending-byte-level-cross-check",
+    "note": "The 34 local matrices were normalized from the official result tables and validate to 362 team participations, matching MOResults coverage. A future pinned clone of moresults-data can fill repositoryRef/snapshotSha256 without changing the BW26 matrix schema."
+  },
+  "displayPolicy": {
+    "interpretation": "historical contest performance only; never label or infer intrinsic problem difficulty",
+    "selectionSignal": false,
+    "deriveAtRuntime": [
+      "teamCount",
+      "meanScore",
+      "scoreDistribution0To5",
+      "fullScoreCount",
+      "scoreAtLeast4Count",
+      "estoniaScore",
+      "allTeamScores"
+    ],
+    "doNotPersist": [
+      "meanScore",
+      "scoreDistribution0To5",
+      "fullScoreCount",
+      "scoreAtLeast4Count",
+      "estoniaScore"
+    ],
+    "deferMetrics": [
+      "correlations",
+      "standardDeviation",
+      "difficultyLabels",
+      "historicalCountryAnalytics"
+    ],
+    "note": "Visibility/spoiler behavior should be enforced centrally by the P3E review-context layer together with solutions and AoPS, not independently by this registry."
+  },
+  "normalization": {
+    "dashScores": "Historical official tables sometimes use “-”. BW26 normalizes this to numeric 0 points only; it does not infer whether a team attempted the problem.",
+    "teamNames": "Obvious presentation/translation variants are normalized (for example Saint Petersburg -> St. Petersburg, Holland -> Netherlands, Denamrk -> Denmark, Valgevene -> Belarus).",
+    "ties": "rank is the first ordinal position of a tied group (competition ranking); duplicate ranks are valid.",
+    "countryCodes": "ISO-like two-letter codes where unambiguous; null for non-country historical teams such as St. Petersburg."
+  },
+  "years": [
+    {
+      "year": 1992,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw92_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1992",
+      "mirrorParsedPath": "data/balticway/parsed/1992/scoreboard.json",
+      "localFile": "balticway-1992.json",
+      "status": "imported",
+      "teamCount": 8
+    },
+    {
+      "year": 1993,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw93_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1993",
+      "mirrorParsedPath": "data/balticway/parsed/1993/scoreboard.json",
+      "localFile": "balticway-1993.json",
+      "status": "imported",
+      "teamCount": 8
+    },
+    {
+      "year": 1994,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw94_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1994",
+      "mirrorParsedPath": "data/balticway/parsed/1994/scoreboard.json",
+      "localFile": "balticway-1994.json",
+      "status": "imported",
+      "teamCount": 9
+    },
+    {
+      "year": 1995,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw95_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1995",
+      "mirrorParsedPath": "data/balticway/parsed/1995/scoreboard.json",
+      "localFile": "balticway-1995.json",
+      "status": "imported",
+      "teamCount": 9
+    },
+    {
+      "year": 1996,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw96_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1996",
+      "mirrorParsedPath": "data/balticway/parsed/1996/scoreboard.json",
+      "localFile": "balticway-1996.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 1997,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw97_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1997",
+      "mirrorParsedPath": "data/balticway/parsed/1997/scoreboard.json",
+      "localFile": "balticway-1997.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 1998,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw98_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1998",
+      "mirrorParsedPath": "data/balticway/parsed/1998/scoreboard.json",
+      "localFile": "balticway-1998.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 1999,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw99_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-1999",
+      "mirrorParsedPath": "data/balticway/parsed/1999/scoreboard.json",
+      "localFile": "balticway-1999.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2000,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw00_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2000",
+      "mirrorParsedPath": "data/balticway/parsed/2000/scoreboard.json",
+      "localFile": "balticway-2000.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2001,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw01_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2001",
+      "mirrorParsedPath": "data/balticway/parsed/2001/scoreboard.json",
+      "localFile": "balticway-2001.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2002,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw02_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2002",
+      "mirrorParsedPath": "data/balticway/parsed/2002/scoreboard.json",
+      "localFile": "balticway-2002.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2003,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw03_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2003",
+      "mirrorParsedPath": "data/balticway/parsed/2003/scoreboard.json",
+      "localFile": "balticway-2003.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2004,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw04_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2004",
+      "mirrorParsedPath": "data/balticway/parsed/2004/scoreboard.json",
+      "localFile": "balticway-2004.json",
+      "status": "imported",
+      "teamCount": 12
+    },
+    {
+      "year": 2005,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw05_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2005",
+      "mirrorParsedPath": "data/balticway/parsed/2005/scoreboard.json",
+      "localFile": "balticway-2005.json",
+      "status": "imported",
+      "teamCount": 12
+    },
+    {
+      "year": 2006,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw06_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2006",
+      "mirrorParsedPath": "data/balticway/parsed/2006/scoreboard.json",
+      "localFile": "balticway-2006.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2007,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw07_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2007",
+      "mirrorParsedPath": "data/balticway/parsed/2007/scoreboard.json",
+      "localFile": "balticway-2007.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2008,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw08_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2008",
+      "mirrorParsedPath": "data/balticway/parsed/2008/scoreboard.json",
+      "localFile": "balticway-2008.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2009,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw09_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2009",
+      "mirrorParsedPath": "data/balticway/parsed/2009/scoreboard.json",
+      "localFile": "balticway-2009.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2010,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw10_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2010",
+      "mirrorParsedPath": "data/balticway/parsed/2010/scoreboard.json",
+      "localFile": "balticway-2010.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2011,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw11_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2011",
+      "mirrorParsedPath": "data/balticway/parsed/2011/scoreboard.json",
+      "localFile": "balticway-2011.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2012,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw12_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2012",
+      "mirrorParsedPath": "data/balticway/parsed/2012/scoreboard.json",
+      "localFile": "balticway-2012.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2013,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw13_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2013",
+      "mirrorParsedPath": "data/balticway/parsed/2013/scoreboard.json",
+      "localFile": "balticway-2013.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2014,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw14_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2014",
+      "mirrorParsedPath": "data/balticway/parsed/2014/scoreboard.json",
+      "localFile": "balticway-2014.json",
+      "status": "imported",
+      "teamCount": 12
+    },
+    {
+      "year": 2015,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw15_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2015",
+      "mirrorParsedPath": "data/balticway/parsed/2015/scoreboard.json",
+      "localFile": "balticway-2015.json",
+      "status": "imported",
+      "teamCount": 12
+    },
+    {
+      "year": 2016,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw16_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2016",
+      "mirrorParsedPath": "data/balticway/parsed/2016/scoreboard.json",
+      "localFile": "balticway-2016.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2017,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw17_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2017",
+      "mirrorParsedPath": "data/balticway/parsed/2017/scoreboard.json",
+      "localFile": "balticway-2017.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2018,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw18_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2018",
+      "mirrorParsedPath": "data/balticway/parsed/2018/scoreboard.json",
+      "localFile": "balticway-2018.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2019,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw19_res.html",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2019",
+      "mirrorParsedPath": "data/balticway/parsed/2019/scoreboard.json",
+      "localFile": "balticway-2019.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2020,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw20_res.pdf",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2020",
+      "mirrorParsedPath": "data/balticway/parsed/2020/scoreboard.json",
+      "localFile": "balticway-2020.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2021,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw21_res.pdf",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2021",
+      "mirrorParsedPath": "data/balticway/parsed/2021/scoreboard.json",
+      "localFile": "balticway-2021.json",
+      "status": "imported",
+      "teamCount": 12
+    },
+    {
+      "year": 2022,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw22_res.pdf",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2022",
+      "mirrorParsedPath": "data/balticway/parsed/2022/scoreboard.json",
+      "localFile": "balticway-2022.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2023,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw23_res.pdf",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2023",
+      "mirrorParsedPath": "data/balticway/parsed/2023/scoreboard.json",
+      "localFile": "balticway-2023.json",
+      "status": "imported",
+      "teamCount": 10
+    },
+    {
+      "year": 2024,
+      "officialResultsUrl": "https://bw2024.olympiaadid.ut.ee/results",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2024",
+      "mirrorParsedPath": "data/balticway/parsed/2024/scoreboard.json",
+      "localFile": "balticway-2024.json",
+      "status": "imported",
+      "teamCount": 11
+    },
+    {
+      "year": 2025,
+      "officialResultsUrl": "https://www.math.olympiaadid.ut.ee/eng/html/bw/bw25_res.pdf",
+      "mirrorPageUrl": "https://moresults.org/competitions/balticway-2025",
+      "mirrorParsedPath": "data/balticway/parsed/2025/scoreboard.json",
+      "localFile": "balticway-2025.json",
+      "status": "imported",
+      "teamCount": 11
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';import ShortlistView from '../../../views/ShortlistView.astro';import {getMessages} from '../../../i18n'; const locale='et' as const;const m=getMessages(locale);
+---
+<BaseLayout locale={locale} current="problems" path="shortlist" title={m.sections.shortlist.title}><ShortlistView locale={locale}/></BaseLayout>

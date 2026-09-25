@@ -5,83 +5,102 @@ import '@fontsource/stix-two-text/600.css';
 import 'katex/dist/katex.min.css';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getMessages, type Locale } from '../../i18n';
-import { formatAppearance, getPrimaryAppearance, getSecondaryAppearances, validateProblemDocument } from '../../lib/problems/model';
-import { renderProblemMarkdown } from '../../lib/problems/renderMarkdown';
-import type { ProblemDocument } from '../../lib/problems/types';
+import { renderProblemMarkdownCached } from '../../lib/problems/renderMarkdown';
+import type { PublicProblemPageModel } from '../../lib/product/page-model';
 import '../../styles/math.css';
 import '../../styles/problem.css';
 
-interface Props {
-  problem: ProblemDocument;
-  locale: Locale;
-  fixture?: boolean;
-}
-
-const { problem, locale, fixture = false } = Astro.props;
-validateProblemDocument(problem);
-
-const messages = getMessages(locale);
-const primaryAppearance = getPrimaryAppearance(problem);
-const secondaryAppearances = getSecondaryAppearances(problem);
-const statement = await renderProblemMarkdown(problem.statement.markdown, problem.assets, `${problem.id}: statement`);
-const renderedSolutions = await Promise.all(
-  problem.solutions.map(async (solution, index) => ({
-    ...solution,
-    label: `${messages.problem.solution} ${index + 1}`,
-    rendered: await renderProblemMarkdown(solution.markdown, problem.assets, `${problem.id}: ${solution.id}`),
-  })),
-);
-const domainName = messages.problem.domains[problem.domain];
-const topics = (problem.topics ?? []).slice(0, 2);
+interface Props { page: PublicProblemPageModel; locale: Locale; }
+const { page, locale } = Astro.props;
+const messages=getMessages(locale); const domainName=messages.problem.domains[page.domain];
+const subtopicLabel=(id:string,fallback:string)=>messages.taxonomy.subtopics[id]??fallback;
+const title=page.kind==='final'?`Baltic Way ${page.year} · ${messages.archive.problem} ${Number(page.number)}`:`Baltic Way ${page.year} · ${messages.problem.shortlistProblem}`;
+const statement=await renderProblemMarkdownCached(`${page.versionId}|statement`,page.statement.markdown,page.statement.assets,`${page.key}: statement`);
+const renderedSolutions=await Promise.all(page.solutions.map(async(solution,index)=>{
+ const displayMarkdown=solution.markdown.replace(/^\s*#{1,3}\s+Solution(?:\s+\d+)?\s*\n+/i,'');
+ return { ...solution,label:page.solutions.length===1?messages.problem.solution:`${messages.problem.solution} ${index+1}`, rendered:await renderProblemMarkdownCached(`${page.versionId}|solution|${solution.id}`,displayMarkdown,solution.assets,`${page.key}: ${solution.id}`) };
+}));
+const numberFormat=new Intl.NumberFormat(locale==='et'?'et-EE':'en-US',{minimumFractionDigits:1,maximumFractionDigits:1});
+const routeWithLocale=(route:string)=>locale==='en'?route:`/et${route}`;
 ---
-
 <div class="content-shell content-shell--problem">
-  <a class="problem-back" href={getRelativeLocaleUrl(locale, 'problems')}>
-    <span aria-hidden="true">←</span>
-    {messages.problem.backToProblems}
-  </a>
+  <div class="problem-context-nav">
+    <a class="problem-back problem-back--archive" href={getRelativeLocaleUrl(locale,page.kind==='shortlist'?'shortlist':'problems')}><span aria-hidden="true">←</span>{page.kind==='shortlist'?messages.problem.backToShortlist:messages.problem.backToProblems}</a>
+    <a class="problem-back problem-back--daily" data-daily-back href={getRelativeLocaleUrl(locale,'daily')}><span aria-hidden="true">←</span>{messages.problem.backToDaily}</a>
+  </div>
 
-  {fixture && <p class="fixture-note">{messages.problem.fixtureNote}</p>}
+  <p class="problem-mode-context problem-mode-context--daily" aria-live="polite">
+    <span class="kicker">{messages.problem.dailyContext}</span>
+    <span data-context-date></span>
+  </p>
 
   <article class="problem-main">
     <header class="problem-heading">
-      <h1 class="problem-title">{formatAppearance(primaryAppearance)}</h1>
-      <p class="problem-domain">
-        <span class="domain-mark" aria-hidden="true">{problem.domain}</span>
-        <span class="problem-domain__separator" aria-hidden="true">·</span>
-        <span>{domainName}</span>
-      </p>
-      {topics.length > 0 && <p class="problem-topics">{topics.join(' · ')}</p>}
+      <h1 class="problem-title">{title}</h1>
+      <p class="problem-domain"><span class="domain-mark" aria-hidden="true">{page.domain}</span><span class="problem-domain__separator" aria-hidden="true">·</span><span>{domainName}</span></p>
     </header>
 
-    <section class="problem-prose problem-statement" lang={problem.statement.language} aria-label={messages.problem.statement} set:html={statement.html} />
+    <section class="problem-prose problem-statement" lang="en" aria-label={messages.problem.statement} set:html={statement.html}></section>
 
-    {renderedSolutions.length > 0 && (
-      <section class="problem-solutions" aria-labelledby="solutions-title">
-        <h2 id="solutions-title">{messages.problem.solutions}</h2>
-        <div class="solution-list">
-          {renderedSolutions.map((solution) => (
-            <details class="solution-disclosure">
-              <summary>{solution.label}</summary>
-              <div class="problem-prose solution-body" lang={solution.language} set:html={solution.rendered.html} />
-            </details>
-          ))}
-        </div>
+    <section class="review-gate" data-review-gate aria-labelledby="review-gate-title">
+      <p id="review-gate-title">{messages.problem.reviewPrompt}</p>
+      <button type="button" class="review-action" data-review-action>{messages.problem.reviewAction}</button>
+    </section>
+    <p class="review-locked-note" data-review-locked>{messages.problem.dailyLocked}</p>
+
+    <section class="problem-review" data-review-context aria-labelledby="review-title">
+      <h2 id="review-title" class="review-title">{messages.problem.review}</h2>
+
+      {page.subtopics.length>0 && <section class="review-module" aria-labelledby="topics-title"><h3 id="topics-title">{messages.problem.topics}</h3><p class="review-topics">{page.subtopics.map(x=>subtopicLabel(x.id,x.label)).join(' · ')}</p></section>}
+
+      <section class="review-module" aria-labelledby="solutions-title">
+        <h3 id="solutions-title">{messages.problem.solutions}</h3>
+        {renderedSolutions.length>0 ? <div class="solution-list">
+          {renderedSolutions.map(solution=><details class="solution-disclosure"><summary>{solution.label}</summary><div class="problem-prose solution-body" lang="en" set:html={solution.rendered.html}></div></details>)}
+        </div> : <p class="review-empty">{messages.problem.solutionUnavailable}</p>}
       </section>
-    )}
 
-    <footer class="problem-source" aria-labelledby="source-title">
-      <h2 id="source-title">{messages.problem.source}</h2>
-      <p class="problem-source__primary">{formatAppearance(primaryAppearance)}</p>
-      {secondaryAppearances.length > 0 && (
-        <div class="problem-source__secondary">
-          <p>{messages.problem.alsoAppeared}</p>
-          <ul>
-            {secondaryAppearances.map((appearance) => <li>{formatAppearance(appearance)}</li>)}
-          </ul>
-        </div>
-      )}
-      <p class="problem-source__note">{messages.problem.mathnetFutureNote}</p>
-    </footer>
+      {page.results && <section class="review-module" aria-labelledby="contest-context-title">
+        <h3 id="contest-context-title">{messages.problem.contestContext}</h3>
+        <details class="context-disclosure results-disclosure">
+          <summary>{messages.problem.resultsFrom} {page.results.year}</summary>
+          <div class="results-body">
+            <p class="results-team-count">{page.results.teamCount} {messages.problem.teams}</p>
+            <dl class="results-metrics">
+              <div><dt>{messages.problem.meanScore}</dt><dd>{numberFormat.format(page.results.meanScore)} / 5</dd></div>
+              <div><dt>{messages.problem.scoresFourOrFive}</dt><dd>{page.results.scoreAtLeast4Count} / {page.results.teamCount}</dd></div>
+              {page.results.estoniaScore!==null && <div><dt>{messages.problem.estonia}</dt><dd>{page.results.estoniaScore} / 5</dd></div>}
+            </dl>
+            <div class="score-distribution" aria-labelledby="score-distribution-title">
+              <p id="score-distribution-title" class="results-subtitle">{messages.problem.scoreDistribution}</p>
+              {page.results.distribution.map((count,score)=><div class="score-row"><span class="score-value">{score}</span><span class="score-track" aria-hidden="true"><span class="score-bar" style={`--score-width:${page.results!.teamCount?count/page.results!.teamCount*100:0}%`}></span></span><span class="score-count">{count}</span></div>)}
+            </div>
+            <details class="team-scores"><summary>{messages.problem.allTeamScores}</summary><div class="team-table-wrap"><table><thead><tr><th>{messages.problem.team}</th><th>{messages.problem.score}</th></tr></thead><tbody>{page.results.teams.map(team=><tr><td>{team.teamName}</td><td>{team.score} / 5</td></tr>)}</tbody></table></div></details>
+          </div>
+        </details>
+      </section>}
+
+      {(page.aopsUrl||page.officialResultsUrl) && <section class="review-module review-links" aria-labelledby="elsewhere-title"><h3 id="elsewhere-title">{messages.problem.elsewhere}</h3><ul>{page.aopsUrl&&<li><a href={page.aopsUrl}>{messages.problem.aopsYear} {page.year}<span aria-hidden="true"> ↗</span></a></li>}{page.officialResultsUrl&&<li><a href={page.officialResultsUrl}>{messages.problem.officialResults}<span aria-hidden="true"> ↗</span></a></li>}</ul></section>}
+    </section>
+
+    {page.kind==='final' && <nav class="problem-pager" aria-label={`${messages.problem.previous}/${messages.problem.next}`}>
+      <div>{page.previous&&<a href={routeWithLocale(page.previous.route)}><span aria-hidden="true">←</span> {messages.archive.problem} {page.previous.number}</a>}</div>
+      <div>{page.next&&<a href={routeWithLocale(page.next.route)}>{messages.archive.problem} {page.next.number} <span aria-hidden="true">→</span></a>}</div>
+    </nav>}
   </article>
 </div>
+<script is:inline>
+  (()=>{
+    const root=document.documentElement;
+    const action=document.querySelector('[data-review-action]');
+    if(action) action.addEventListener('click',()=>{ if(root.dataset.reviewState==='solve') root.dataset.reviewState='review'; });
+    const dailyBack=document.querySelector('[data-daily-back]');
+    if(dailyBack && root.dataset.contextDate){ const url=new URL(dailyBack.href,location.href); url.searchParams.set('date',root.dataset.contextDate); dailyBack.href=`${url.pathname}${url.search}`; }
+    const target=document.querySelector('[data-context-date]');
+    if(target && root.dataset.contextDate){
+      const [y,m,d]=root.dataset.contextDate.split('-').map(Number);
+      const locale=document.documentElement.lang==='et'?'et-EE':'en-GB';
+      target.textContent=new Intl.DateTimeFormat(locale,{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Tallinn'}).format(new Date(Date.UTC(y,m-1,d,12)));
+    }
+  })();
+</script>

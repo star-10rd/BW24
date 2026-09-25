@@ -1,44 +1,107 @@
-## Solution The a_nswer is n = 1 a_nd n = 2.
+## Solution
 
-First, note that gcd(x, n) = gcd(x + kn, n) for a_ny x, k, n ∈ N, n > 0. Therefore the sequences
+The answer is $n=1$ and $n=2$.
 
-(gcd(1, n), . . . , gcd(n, n)),    (gcd(a_1 , n), . . . , gcd(a_n , n)) a_nd (gcd(a_1 , n), gcd(2a_2 , n), . . . , gcd(na_n , n)
+First note that
 
-are all permutations of each other. Also note that gcd(xy, n) ≥ gcd(x, n) for all x, y, n ∈ N,
-n > 0. Therefore
+$$
+\gcd(x,n)=\gcd(x+kn,n)
+$$
 
-                       gcd(k, n) ≤ gcd(ka_k , n) a_nd              gcd(a_k , n) ≤ gcd(ka_k , n).
+for all integers $x,k$ and positive $n$. Since $(a_1,\ldots,a_n)$ is a permutation of $1,\ldots,n$ and $(a_1,2a_2,\ldots,na_n)$ is a complete set of residues modulo $n$, the three sequences
 
-Since the sequences are permutations of each other, they have the same sum, a_nd therefore
+$$
+(\gcd(1,n),\ldots,\gcd(n,n)),
+$$
 
-                                    gcd(kn , n) = gcd(ka_k , n) = gcd(a_k , n)
+$$
+(\gcd(a_1,n),\ldots,\gcd(a_n,n)),
+$$
 
-for all 1 ≤ k ≤ n. Let
-                                           Sx = {k | gcd(k, n) = x}.
-Since the ma_ps k 7→ a_k a_nd k 7→ ka_k modulo n are bijections, a_nd they preserve the gcd with
-n, the ma_ps are bijections from each Sx to itself.
+and
 
-Now, assume there exists a prime p such that p^2 | n. Since gcd(p, n) = p, we must have
-gcd(a_p , n) = p a_nd gcd(pa_p , n) = p, but since p | a_p we have p2 | pa_p a_nd therefore p2 |
-gcd(pa_p , n), which is a contradiction. Therefore all primes that divide n divide it at most once.
+$$
+(\gcd(a_1,n),\gcd(2a_2,n),\ldots,\gcd(na_n,n))
+$$
 
-Now, assume there exists a prime p > 2 such that p | n. Let q = np a_nd consider the set
-Sq . Every element of Sq must be a multiple of q, a_nd therefore Sq ⊆ {q, 2q, . . . , pq}. Since
-pq = n, we have gcd(pq, n) = n ̸= q a_nd pq ∈      / Sq . Since q has all prime factors of n except
-for p, multiplying q with a_ny number from {1, . . . , p − 1} will not increase the gcd with n, a_nd
-therefore Sq = {q, 2q, . . . , (p − 1)q}. Let P = q · 2q · . . . · (p − 1)q. Since p ∤ q, we have p ∤ s.
-Therefore also s = aq · a_2q · . . . · a(p−1)q a_nd
+are permutations of one another.
 
-              s ≡ qaq · 2qa_2q · . . . · (p − 1)qa(p−1)q                                   (mod n)
-              s ≡ qaq · 2qa_2q · . . . · (p − 1)qa(p−1)q                                   (mod p)
-              s ≡ (q · 2q · . . . · (p − 1)q) · (aq · a_2q · . . . · a(p−1)q )             (mod p)
-              s ≡ (q · 2q · . . . · (p − 1)q) · s                                         (mod p)
-              1 ≡ q · 2q · . . . · (p − 1)q                                               (mod p)
-              1 ≡ (p − 1)! · q^{p−1}                                                        (mod p)
-              1 ≡ −1 · 1                                                                  (mod p)
-              2≡0                                                                         (mod p)
+Also,
 
-a_nd therefore p | 2, which is a contradiction. Therefore the only prime that may divide n is 2.
+$$
+\gcd(k,n)\le\gcd(ka_k,n)
+\qquad\text{and}\qquad
+\gcd(a_k,n)\le\gcd(ka_k,n).
+$$
 
-If n = 1, the condition is trivially satisfied. If n = 2, we ca_n choose (a_1 , a_2 ) = (1, 2) a_nd
-now a_1 = 1 ≡ 1 (mod 2) a_nd 2a_2 = 4 ≡ 0 (mod 2), so n = 2 also works.
+Because the corresponding sequences have the same sum, equality must hold termwise:
+
+$$
+\gcd(k,n)=\gcd(ka_k,n)=\gcd(a_k,n)
+$$
+
+for every $1\le k\le n$.
+
+For each divisor $x$ of $n$, let
+
+$$
+S_x=\{k:1\le k\le n,\ \gcd(k,n)=x\}.
+$$
+
+The maps $k\mapsto a_k$ and $k\mapsto ka_k\pmod n$ are bijections, and the equality above shows that they map each $S_x$ bijectively to itself.
+
+Suppose first that $p^2\mid n$ for some prime $p$. Then
+
+$$
+\gcd(a_p,n)=p
+\qquad\text{and}\qquad
+\gcd(pa_p,n)=p.
+$$
+
+The first equality implies $p\mid a_p$. Hence $p^2\mid pa_p$, and because $p^2\mid n$ we get $p^2\mid\gcd(pa_p,n)$, a contradiction. Thus $n$ is squarefree.
+
+Now suppose an odd prime $p$ divides $n$, and put $q=n/p$. Since $n$ is squarefree,
+
+$$
+S_q=\{q,2q,\ldots,(p-1)q\}.
+$$
+
+Let
+
+$$
+s=q\cdot2q\cdots(p-1)q.
+$$
+
+Because $k\mapsto a_k$ permutes $S_q$,
+
+$$
+s=a_q a_{2q}\cdots a_{(p-1)q}.
+$$
+
+Because $k\mapsto ka_k\pmod n$ also permutes $S_q$,
+
+$$
+s\equiv (qa_q)(2qa_{2q})\cdots((p-1)q a_{(p-1)q})\pmod n.
+$$
+
+Reducing modulo $p$ and using the preceding identity gives
+
+$$
+s\equiv s^2\pmod p.
+$$
+
+Since $p\nmid q$, also $p\nmid s$, so we may divide by $s$ modulo $p$:
+
+$$
+1\equiv s\equiv (p-1)!q^{p-1}\pmod p.
+$$
+
+By Wilson's theorem and Fermat's little theorem,
+
+$$
+1\equiv(-1)\cdot1\equiv-1\pmod p,
+$$
+
+so $p\mid2$, contradicting that $p$ is odd. Therefore the only prime that may divide $n$ is $2$.
+
+Since $n$ is squarefree, this leaves only $n=1$ and $n=2$. The case $n=1$ is trivial. For $n=2$, take $(a_1,a_2)=(1,2)$; then $a_1\equiv1\pmod2$ and $2a_2=4\equiv0\pmod2$, so the required residues are distinct.

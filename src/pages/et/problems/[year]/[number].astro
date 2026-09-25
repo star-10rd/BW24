@@ -1,0 +1,6 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro'; import ProblemPage from '../../../../components/problem/ProblemPage.astro'; import { getProductCatalog } from '../../../../lib/product/catalog'; import { buildPublicProblemPage } from '../../../../lib/product/page-model';
+export async function getStaticPaths(){const c=await getProductCatalog();return c.finals.map(p=>({params:{year:String(p.year),number:String(Number(p.number))},props:{problemKey:p.key}}));}
+const locale='et' as const; const {problemKey}=Astro.props; const c=await getProductCatalog(); const problem=c.finals.find(x=>x.key===problemKey); if(!problem)throw new Error(`Unknown public problem ${problemKey}`); const page=await buildPublicProblemPage(problem); const title=`Baltic Way ${page.year} · Ülesanne ${Number(page.number)}`; const path=`problems/${page.year}/${Number(page.number)}`;
+---
+<BaseLayout locale={locale} current="problems" path={path} title={title} description={title} experience={{problemKey:page.key,dailyDates:page.dailyDates}}><ProblemPage page={page} locale={locale}/></BaseLayout>

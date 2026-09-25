@@ -16,3 +16,7 @@ data/corpus/generated/*
 # Python caches
 __pycache__/
 *.py[cod]
+
+# Generated public projection of canonical problem assets
+public/problem-assets/generated/
+.bw26-cache/

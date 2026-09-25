@@ -1,0 +1,78 @@
+---
+import { getMessages,type Locale } from '../i18n'; import { getDailyDays } from '../lib/product/daily'; import '../styles/daily.css';
+interface Props{locale:Locale} const {locale}=Astro.props; const messages=getMessages(locale); const days=await getDailyDays(); const compact=days.map(day=>({date:day.date,problems:Object.fromEntries(Object.entries(day.problems).map(([domain,p])=>[domain,{year:p.year,number:p.number}]))})); const dataJson=JSON.stringify({locale,days:compact,labels:{...messages.daily,domains:messages.daily.domains}}).replaceAll('<','\\u003c');
+---
+<div class="content-shell daily-shell"><header class="page-heading"><h1>{messages.sections.daily.title}</h1><p class="lede">{messages.sections.daily.description}</p></header><section class="daily-control" aria-label={messages.daily.date}><button type="button" data-daily-prev aria-label="Previous date">←</button><label><span>{messages.daily.date}</span><input type="date" data-daily-date min={days[0]?.date} max={days.at(-1)?.date}/></label><button type="button" data-daily-next aria-label="Next date">→</button></section><p class="daily-status" data-daily-status aria-live="polite"></p><div class="daily-set" data-daily-set></div><p class="daily-countdown" data-daily-countdown></p><script id="bw26-daily-data" type="application/json" set:html={dataJson}></script></div>
+<script is:inline>
+(()=>{
+  const node=document.getElementById('bw26-daily-data'); if(!node)return;
+  const data=JSON.parse(node.textContent||'{}');
+  const root=document.querySelector('[data-daily-set]');
+  const input=document.querySelector('[data-daily-date]');
+  const prev=document.querySelector('[data-daily-prev]');
+  const next=document.querySelector('[data-daily-next]');
+  const status=document.querySelector('[data-daily-status]');
+  const countdown=document.querySelector('[data-daily-countdown]');
+  if(!root||!input||!prev||!next||!status||!countdown)return;
+
+  const tallinnDate=(now=new Date())=>{
+    const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Tallinn',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+    const map=Object.fromEntries(parts.map(p=>[p.type,p.value]));
+    return `${map.year}-${map.month}-${map.day}`;
+  };
+  const pretty=(value)=>{const[y,m,d]=value.split('-').map(Number);return new Intl.DateTimeFormat(data.locale==='et'?'et-EE':'en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Tallinn'}).format(new Date(Date.UTC(y,m-1,d,12)))};
+  const byDate=new Map(data.days.map(x=>[x.date,x]));
+  const first=data.days[0]?.date??null; const last=data.days.at(-1)?.date??null;
+  let today=tallinnDate();
+  let allowed=data.days.filter(x=>x.date<=today);
+  const requested=new URLSearchParams(location.search).get('date');
+  let current=(requested&&byDate.has(requested)&&requested<=today)?requested:(byDate.has(today)?today:null);
+
+  function countdownText(){
+    const start=Date.now(),todayKey=tallinnDate(new Date(start)); let lo=start,hi=start+30*60*60*1000;
+    while(hi-lo>60000){const mid=Math.floor((lo+hi)/2);if(tallinnDate(new Date(mid))===todayKey)lo=mid;else hi=mid;}
+    const mins=Math.max(0,Math.ceil((hi-start)/60000)); return `${Math.floor(mins/60)}h ${mins%60}m`;
+  }
+
+  function setInputBounds(){
+    if(!first||!last)return;
+    input.min=first;
+    input.max=today<first?first:(today<last?today:last);
+    input.disabled=today<first;
+  }
+
+  function render(){
+    setInputBounds();
+    if(!current){
+      input.value=''; prev.disabled=true; next.disabled=true; root.innerHTML=''; countdown.textContent=''; status.textContent=data.labels.outsideCoverage; return;
+    }
+    const day=byDate.get(current); if(!day){current=null;render();return;}
+    input.value=current;
+    status.textContent=`${current===today?data.labels.today+' · ':''}${pretty(current)}`;
+    root.innerHTML=['A','C','G','N'].map(domain=>{
+      const p=day.problems[domain]; const prefix=data.locale==='et'?'/et':'';
+      const href=`${prefix}/problems/${p.year}/${p.number}/?context=daily&date=${current}`;
+      return `<a class="daily-problem" href="${href}"><span class="daily-domain"><strong>${domain}</strong><span>${data.labels.domains[domain]}</span></span><span class="daily-source">Baltic Way ${p.year} · ${data.locale==='et'?'Ülesanne':'Problem'} ${p.number}</span><span aria-hidden="true">→</span></a>`;
+    }).join('');
+    const index=allowed.findIndex(x=>x.date===current); prev.disabled=index<=0; next.disabled=index<0||index>=allowed.length-1;
+    countdown.textContent=current===today?`${data.labels.nextDaily}: ${countdownText()}`:'';
+    history.replaceState(null,'',`${location.pathname}?date=${current}`);
+  }
+
+  prev.addEventListener('click',()=>{const i=allowed.findIndex(x=>x.date===current);if(i>0){current=allowed[i-1].date;render();}});
+  next.addEventListener('click',()=>{const i=allowed.findIndex(x=>x.date===current);if(i>=0&&i<allowed.length-1){current=allowed[i+1].date;render();}});
+  input.addEventListener('change',()=>{if(byDate.has(input.value)&&input.value<=today){current=input.value;render();}else input.value=current||'';});
+
+  render();
+  window.setInterval(()=>{
+    const nextToday=tallinnDate();
+    if(nextToday!==today){
+      const oldToday=today; today=nextToday; allowed=data.days.filter(x=>x.date<=today);
+      if(current===oldToday&&byDate.has(today)) current=today;
+      else if(current===null&&byDate.has(today)) current=today;
+      render(); return;
+    }
+    if(current===today) countdown.textContent=`${data.labels.nextDaily}: ${countdownText()}`;
+  },60000);
+})();
+</script>

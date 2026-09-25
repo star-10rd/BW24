@@ -1,54 +1,60 @@
-## Solution We’ll begin by noticing that f (0) ≥ 0, since
-                                      f (0) + f (0) ≥ f (0 + 0)
-                                         f (0) ≥ f (0) − f (0)
-                                               f (0) ≥ 0.
-Next, let’s prove the following lemma:
+## Solution
 
-**Lemma:** For all n ∈ Z+ and x ∈ ℚ we have n f(x) ≥ f(nx).
-Proof: We’ll do induction on n. Since 1 · f (x) ≥ f (1 · x), the base case n = 1 is true. Assuming
-that n f(x) ≥ f(nx) we get that
-                                    (n + 1)f (x) = n f(x) + f (x)
-                                                 ≥ f(nx) + f (x)
-                                                 ≥ f (nx + x)
-                                                 = f((n+1)x),
-which completes the induction step.
+We begin by noticing that $f(0)\ge0$, since
 
-Next, we want to prove that for all rationals x < 0 and y > 0 we have f(x)/x ≤ f(y)/y.
-Let x = −a/b and y = c/d, where a, b, c, d are positive integers. Now
-                                           f (ac) + f (−ac) ≥ f (ac − ac)
-                               c                 a          
-                             f       · ad + f − · bc ≥ f (0)
-                                dc               ab         
-                             f       · ad + f − · bc ≥ 0
-                                 d                   b 
-                                        c                    a
-                             ad · f          + bc · f −          ≥0
-                                        d                    b
-                                     ad · f (y) + bc · f (x) ≥ 0
-                                   ad              bc              0
-                                        · f (y) +       · f (x) ≥
-                                    ac             ac              ac
-                                       d             b
-                                          · f (y) + · f (x) ≥ 0
-                                       c            a
-                                       1            1
-                                         · f (y) − · f (x) ≥ 0
-                                       y            x
-                                                          f (x)    f (y)
-                                                                 ≤
-                                                            x        y
+$$
+f(0)+f(0)\ge f(0+0)\quad\Longrightarrow\quad f(0)\ge0.
+$$
 
-and we get what we wanted.
+We will use the following lemma.
 
-Now, take the sets
-                                                                       
-                               f (x)                            f (y)
-                      S=             :x<0       and T =               :y>0 .
-                                 x                                y
+**Lemma.** For all $n\in\mathbb Z_{>0}$ and $x\in\mathbb Q$, we have $nf(x)\ge f(nx)$.
 
-                                                  9
+**Proof.** We use induction on $n$. The case $n=1$ is immediate. Assuming $nf(x)\ge f(nx)$, we get
 
-Since for all p ∈ S and q ∈ T we have p ≤ q, there must exist a real number α such that
-for all p ∈ S and q ∈ T we have p ≤ α ≤ q. Choose such a number α. Now, if x < 0, we
-have f(x)/x ≤ α ⇐⇒ f (x) ≥ αx, if x = 0 we have f (0) ≥ 0 = α · 0 and if x > 0 we have
-f(x)/x ≥ α ⇐⇒ f (x) ≥ αx. Therefore f (x) ≥ αx for all x ∈ ℚ.
+$$
+\begin{aligned}
+(n+1)f(x)&=nf(x)+f(x)\\
+&\ge f(nx)+f(x)\\
+&\ge f(nx+x)\\
+&=f((n+1)x),
+\end{aligned}
+$$
+
+which completes the induction.
+
+Next, we prove that for all rational $x<0$ and $y>0$,
+
+$$
+\frac{f(x)}x\le\frac{f(y)}y.
+$$
+
+Write $x=-a/b$ and $y=c/d$, where $a,b,c,d$ are positive integers. Then
+
+$$
+\begin{aligned}
+f(ac)+f(-ac)&\ge f(0)\ge0,\\
+f\!\left(\frac cd\,ad\right)+f\!\left(-\frac ab\,bc\right)&\ge0,\\
+ad\,f(y)+bc\,f(x)&\ge0.
+\end{aligned}
+$$
+
+Dividing by $ac>0$ gives
+
+$$
+\frac1y f(y)-\frac1x f(x)\ge0,
+$$
+
+hence $\frac{f(x)}x\le\frac{f(y)}y$.
+
+Now let
+
+$$
+S=\left\{\frac{f(x)}x:x<0\right\},
+\qquad
+T=\left\{\frac{f(y)}y:y>0\right\}.
+$$
+
+Since every $p\in S$ and $q\in T$ satisfy $p\le q$, there exists a real number $\alpha$ such that $p\le\alpha\le q$ for all $p\in S$ and $q\in T$. Choose such an $\alpha$.
+
+If $x<0$, then $f(x)/x\le\alpha$ is equivalent to $f(x)\ge\alpha x$. If $x=0$, we have $f(0)\ge0=\alpha\cdot0$. If $x>0$, then $f(x)/x\ge\alpha$ is equivalent to $f(x)\ge\alpha x$. Therefore $f(x)\ge\alpha x$ for all $x\in\mathbb Q$.

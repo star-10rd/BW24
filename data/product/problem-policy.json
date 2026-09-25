@@ -1,0 +1,21 @@
+{
+  "schema": "bw26-product-policy",
+  "version": 1,
+  "contest": {
+    "websiteYearRanges": [[1990, 1998], [2010, 2010], [2017, 2025]],
+    "websiteInclude": [],
+    "websiteExclude": [],
+    "random": { "inheritsWebsite": true, "exclude": [] },
+    "training": { "inheritsWebsite": true, "exclude": [] },
+    "daily": {
+      "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+      "exclude": []
+    }
+  },
+  "shortlistOnly": {
+    "website": "statement-available",
+    "random": true,
+    "training": true,
+    "daily": false
+  }
+}

@@ -10,7 +10,11 @@ g(x) = f(x + a) - f(x) = (x + a)^3 - x^3 = 3a\left(x + \frac{a}{2}\right)^2 + \f
 $$
 takes every value $z \ge a^3/4$. For every such $z = g(x)$, equation (1) then gives
 $$
-\begin{aligned} f(z) &= f(g(x)) = f(-f(x) + f(x + a)) \\ &= f(-f(x)) + (-f(x) + f(x + a))^3 - (-f(x))^3 \end{aligned} \quad (2) \\ &= g(x)^3 + c = z^3 + c.
+\begin{aligned}
+f(z) &= f(g(x)) = f(-f(x) + f(x + a)) \\
+&= f(-f(x)) + (-f(x) + f(x + a))^3 - (-f(x))^3 \\
+&= g(x)^3 + c = z^3 + c. \qquad (2)
+\end{aligned}
 $$
 Thus $f$ takes every value not less than $(a^3/4)^3 + c$, which implies that $f$ is unlimited from above. For every $x$ we can then choose a $y$ such that $x + f(y) \ge a^3/4$ so that from (2) we get
 $$

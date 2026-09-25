@@ -8,12 +8,25 @@
     "check": "astro check",
     "content:check": "tsx scripts/content-check.ts",
     "build": "astro build",
-    "verify": "astro check && npm run content:check && npm run corpus:validate && astro build",
+    "verify": "npm run foundation:static && astro check && npm run corpus:validate && npm run enrichment:check && npm run publication:check && npm run product:validate && npm run daily:check && npm run product:assets && npm run product:assets:check && astro build",
     "preview": "astro preview",
     "corpus:validate": "tsx scripts/corpus/validate.ts",
     "corpus:format": "tsx scripts/corpus/format.ts",
     "corpus:report": "tsx scripts/corpus/report.ts",
-    "corpus:source:verify": "tsx scripts/corpus/source-adapters/mathnet-v0/verify.ts"
+    "corpus:source:verify": "tsx scripts/corpus/source-adapters/mathnet-v0/verify.ts",
+    "enrichment:check": "node scripts/product/verify-enrichment-data.mjs",
+    "publication:check": "tsx scripts/product/publication-check.ts",
+    "product:validate": "tsx scripts/product/validate-product.ts",
+    "product:report": "tsx scripts/product/report.ts",
+    "product:assets": "tsx scripts/product/project-assets.ts",
+    "product:assets:check": "tsx scripts/product/check-assets.ts",
+    "daily:generate-initial": "tsx scripts/product/generate-daily-schedule.ts",
+    "daily:extend": "tsx scripts/product/extend-daily-schedule.ts",
+    "daily:check": "tsx scripts/product/check-daily-schedule.ts",
+    "daily:status": "tsx scripts/product/daily-status.ts",
+    "predev": "npm run product:assets",
+    "prebuild": "npm run product:assets",
+    "foundation:static": "node scripts/product/verify-foundation-static.mjs"
   },
   "engines": {
     "node": ">=22.12.0 <23 || >=24 <25 || >=26 <27"

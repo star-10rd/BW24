@@ -1,0 +1,5 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n'; import { getMessages,type Locale } from '../i18n'; import { getProductCatalog } from '../lib/product/catalog'; import '../styles/archive.css';
+interface Props{locale:Locale} const {locale}=Astro.props; const messages=getMessages(locale); const catalog=await getProductCatalog(); const years=[...new Set(catalog.shortlist.map(x=>x.year))].sort((a,b)=>a-b);
+---
+<div class="content-shell archive-shell"><header class="page-heading"><h1>{messages.sections.shortlist.title}</h1><p class="lede">{messages.sections.shortlist.description}</p></header>{years.map(year=><section class="shortlist-year"><h2>Baltic Way {year}</h2><ul class="shortlist-list">{catalog.shortlist.filter(x=>x.year===year).map(problem=><li><a href={getRelativeLocaleUrl(locale,`shortlist/${year}/${problem.slug}`)}><span>{messages.problem.shortlistProblem}</span><span class="contest-domain"><strong aria-hidden="true">{problem.domain}</strong> · {messages.problem.domains[problem.domain]}</span><span aria-hidden="true">→</span></a></li>)}</ul></section>)}</div>

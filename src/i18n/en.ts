@@ -1,72 +1,13 @@
 import type { Messages } from './types';
-
-export const en: Messages = {
-  meta: {
-    description: 'Baltic Way team training.',
-  },
-  nav: {
-    label: 'Primary navigation',
-    today: 'Today',
-    problems: 'Problems',
-    training: 'Training',
-    materials: 'Materials',
-  },
-  common: {
-    skipToContent: 'Skip to content',
-    changeLanguage: 'Change language',
-    useEnglish: 'Use English',
-    useEstonian: 'Use Estonian',
-    changeTheme: 'Change theme',
-    useLightTheme: 'Use light theme',
-    useDarkTheme: 'Use dark theme',
-  },
-  home: {
-    kicker: 'Baltic Way 2026',
-    title: 'Today',
-    intro: 'A focused place for the team’s problems, training, and materials.',
-    problemsLabel: 'Problems',
-    problemsText: 'A static Baltic Way archive will grow from the problem renderer established here.',
-    trainingLabel: 'Training',
-    trainingText: 'Curated sets and team sessions will build on the same canonical problems.',
-    materialsLabel: 'Materials',
-    materialsText: 'Handouts and topic resources will stay close to the problems they support.',
-  },
-  sections: {
-    problems: {
-      title: 'Problems',
-      description: 'The problem experience is being established before the full Baltic Way archive is imported.',
-    },
-    training: {
-      title: 'Training',
-      description: 'Curated problem sets and team training will be built on the shared problem system.',
-    },
-    materials: {
-      title: 'Materials',
-      description: 'Training material will be structured by topic and connected to relevant problems.',
-    },
-  },
-  problem: {
-    backToProblems: 'Problems',
-    fixtureNote: 'Renderer fixture — this is synthetic test content, not an archived Baltic Way problem.',
-    statement: 'Problem statement',
-    solutions: 'Solutions',
-    solution: 'Solution',
-    source: 'Source',
-    alsoAppeared: 'Also appeared as',
-    mathnetFutureNote: 'Canonical source attribution and MathNet record references are added during corpus ingestion.',
-    previewTitle: 'Problem renderer',
-    previewDescription: 'A deliberately demanding fixture for mathematics, figures, solutions, source appearances, dark mode, and responsive reading.',
-    previewAction: 'Open fixture',
-    domains: {
-      A: 'Algebra',
-      N: 'Number Theory',
-      C: 'Combinatorics',
-      G: 'Geometry',
-    },
-  },
-  notFound: {
-    title: 'Page not found',
-    description: 'The page you were looking for does not exist.',
-    action: 'Back to Today',
-  },
+export const en:Messages={
+ meta:{description:'Baltic Way problem solving and team training.'},
+ nav:{label:'Primary navigation',today:'Daily',problems:'Problems',training:'Training',materials:'Materials'},
+ common:{skipToContent:'Skip to content',changeLanguage:'Change language',useEnglish:'Use English',useEstonian:'Use Estonian',changeTheme:'Change theme',useLightTheme:'Use light theme',useDarkTheme:'Use dark theme'},
+ home:{kicker:'Baltic Way',title:'Problem solving',intro:'A quiet place to work on Baltic Way problems, return for a daily set, and review solutions deliberately.',problemsLabel:'Problems',problemsText:'Browse the currently published contest archive and readable shortlist problems.',trainingLabel:'Training',trainingText:'Structured practice sets will build on the same canonical problem pages.',materialsLabel:'Materials',materialsText:'Handouts and topic resources stay secondary to the problem-solving experience.',dailyAction:'Open today’s Daily',problemsAction:'Browse problems'},
+ sections:{problems:{title:'Problems',description:'Published Baltic Way contests in original problem order.'},training:{title:'Training',description:'Training sets will be added on the canonical problem system in the next product unit.'},materials:{title:'Materials',description:'Training material and team resources.'},daily:{title:'Daily',description:'Four problems each Tallinn day — one Algebra, Combinatorics, Geometry, and Number Theory.'},shortlist:{title:'Shortlist',description:'Readable shortlist-only problems kept separate from the contest archive.'}},
+ problem:{backToProblems:'Problems',backToShortlist:'Shortlist',backToDaily:'Daily',statement:'Problem statement',review:'Review',reviewPrompt:'When you’re ready',reviewAction:'Review',dailyLocked:'Review material becomes available with the next Daily.',topics:'Topics',solutions:'Solutions',solution:'Solution',solutionUnavailable:'No verified local solution is currently available.',contestContext:'Contest context',resultsFrom:'Results from Baltic Way',teams:'teams',meanScore:'Mean score',scoresFourOrFive:'Scores of 4 or 5',scoreDistribution:'Score distribution',estonia:'Estonia',allTeamScores:'All team scores',team:'Team',score:'Score',elsewhere:'Elsewhere',aopsYear:'AoPS · Baltic Way',officialResults:'Official results',previous:'Previous',next:'Next',shortlistProblem:'Shortlist problem',dailyContext:'Daily',domains:{A:'Algebra',N:'Number Theory',C:'Combinatorics',G:'Geometry'}},
+ archive:{years:'Years',problems:'problems',problem:'Problem',shortlist:'Shortlist',solutionAvailable:'Verified solution',solutionUnavailable:'No verified solution'},
+ daily:{today:'Today',date:'Date',nextDaily:'Next Daily',previousDays:'Previous days',outsideCoverage:'The committed Daily schedule does not cover this date.',openProblem:'Open',domains:{A:'Algebra',N:'Number Theory',C:'Combinatorics',G:'Geometry'}},
+ taxonomy:{subtopics:{'functional-equations':'Functional equations','polynomials':'Polynomials','equations-and-inequalities':'Equations and inequalities','sequences-and-recurrences':'Sequences and recurrences','algebraic-manipulation':'Algebraic manipulation','extremal-algebra':'Extremal algebra','algebraic-structures':'Algebraic structures','counting':'Counting and enumeration','pigeonhole-and-extremal':'Pigeonhole and extremal arguments','invariants':'Invariants and monovariants','graph-theory':'Graph theory','games-and-strategies':'Games and strategies','colorings-and-configurations':'Colorings and configurations','induction-and-recursion':'Induction and recursion','algorithms-and-processes':'Algorithms and processes','triangles-and-centers':'Triangles and centers','circles-and-tangency':'Circles and tangency','cyclic-geometry':'Cyclic geometry','angles-and-distances':'Angles and distances','transformations':'Transformations','coordinates-and-vectors':'Coordinates and vectors','geometric-inequalities':'Geometric inequalities','constructions-and-loci':'Constructions, loci, concurrency and collinearity','combinatorial-geometry':'Combinatorial geometry and dissections','solid-geometry':'Solid geometry','divisibility-and-factorization':'Divisibility and factorization','primes':'Primes','modular-arithmetic':'Modular arithmetic','diophantine-equations':'Diophantine equations','gcd-and-lcm':'GCD and LCM','orders-and-residues':'Orders and residues','arithmetic-functions':'Arithmetic functions'}},
+ notFound:{title:'Page not found',description:'The page you were looking for does not exist.',action:'Back to home'},
 };

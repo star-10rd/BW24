@@ -1,50 +1,140 @@
-## Solution The answer is ⌊n/2⌋.
+## Solution
 
-Let’s number the points such that the order A_1 , . . . , A_n is the Baltic Way of length L. Consider
-the tour A_1 , . . . , A_n cyclically as a circle, where Ai and Ai+1 are adjacent and A_n and A_1 are
-adjacent, and the indices increase when going clockwise.
+The answer is
 
-Now consider some other Baltic Way with the order A_i1 , . . . , Ain . If i1 < i2 , going clockwise
-around the circle from A_i1 to A_i2 we get by the triangle inequality that
+$$
+\left\lfloor\frac n2\right\rfloor.
+$$
 
-                               |A_i1 A_i2 | ≤ |A_i1 A_i1 +1 | + · · · + |A_i2 −1 A_i2 |
+Number the points so that $A_1,\ldots,A_n$ is the Baltic Way of length $L$. Regard this tour cyclically as a circle: $A_i$ and $A_{i+1}$ are adjacent, $A_n$ and $A_1$ are adjacent, and the indices increase clockwise.
 
-and by going counterclockwise around the circle we get that
+Now consider another Baltic Way $A_{i_1},\ldots,A_{i_n}$. For an adjacent pair $A_{i_1},A_{i_2}$ of this second tour there are two paths between the points along the first tour.
 
-                     |A_i1 A_i2 | ≤ |A_i1 A_i1 −1 | + · · · + |A_1 A_n | + · · · + |A_i2 +1 A_i2 |.
+If $i_1<i_2$, then going clockwise and using the triangle inequality gives
 
-If i1 > i2 , we get that when going clockwise
+$$
+|A_{i_1}A_{i_2}|
+\le
+|A_{i_1}A_{i_1+1}|+\cdots+|A_{i_2-1}A_{i_2}|,
+$$
 
-                      |A_i1 A_i2 | ≤ |A_i1 A_i1 +1 | + · · · + |A_n A_1 | + · · · + |A_i2 −1 A_i2 |
+while going counterclockwise gives
 
-and when going counterclockwise
+$$
+|A_{i_1}A_{i_2}|
+\le
+|A_{i_1}A_{i_1-1}|+\cdots+|A_1A_n|+\cdots+|A_{i_2+1}A_{i_2}|.
+$$
 
-                               |A_i1 A_i2 | ≤ |A_i1 A_i1 −1 | + · · · + |A_i2 +1 A_i2 |.
+If $i_1>i_2$, then going clockwise gives
 
-Adding the first two inequalities together gives 2|A_i1 A_i2 | ≤ L and adding the last two inequalities together also gives 2|A_i1 A_i2 | ≤ L. Therefore 2|A_i1 A_i2 | ≤ L is always true. This works for
-all pairs of adjacent points (A_ik , A_ik +1 ): we always have 2|A_ik A_ik +1 | ≤ L. Adding together the
-inequalities of all pairs of points gives 2K ≤ nL.
+$$
+|A_{i_1}A_{i_2}|
+\le
+|A_{i_1}A_{i_1+1}|+\cdots+|A_nA_1|+\cdots+|A_{i_2-1}A_{i_2}|,
+$$
 
-Now, take all pairs of adjacent points (A_ik , A_ik+1 ) and (Ain , A_i1 ) on the tour of length K.
-Adding together the inequalities always going clockwise around the circle gives K ≤ aL, where
-a is an integer, since we’ve ended at the same point we started at. Similarly, adding together
-all inequalities going around the circle counterclockwise gives K ≤ bL with b similarly being
-an integer. Adding these two inequalities together gives 2K ≤ aL + bL.
+and going counterclockwise gives
 
-We now added together the same inequalities in two different orders and got 2K ≤ nL and
-2K ≤ aL + bL. Since the order of addition is irrelevant, we must have a + b = n. Since K ≤ aL
-and K ≤ bL hold, then also K ≤ min(a, b)L holds. Since a and b are integers, we must have
-min(a, b) ≤ ⌊n/2⌋ and therefore K ≤ ⌊n/2⌋ L and K/L ≤ ⌊n/2⌋.
+$$
+|A_{i_1}A_{i_2}|
+\le
+|A_{i_1}A_{i_1-1}|+\cdots+|A_{i_2+1}A_{i_2}|.
+$$
 
-                                                       22
+In either case, adding the clockwise and counterclockwise bounds gives
 
-Let’s now construct a set of points with two Baltic Ways that achieves the ratio K/L ≤ ⌊n/2⌋.
+$$
+2|A_{i_1}A_{i_2}|\le L.
+$$
 
-If n is even, we have n = 2k. Let A_1 = · · · = Ak = (0, 0) and Ak+1 = · · · = A_n = (0, 1).
-Now, L = 0 + · · · + 0 + 1 + 0 + · · · + 0 + 1 = 2. Let (i1 , . . . , in ) = (1, k + 1, 2, k + 2, . . . , k, 2k)
-and therefore K = 1 + · · · + 1 = n and we get that K/L = n/2.
+This applies to every adjacent pair of the second tour, so summing over its $n$ edges gives
 
-If n is odd, we have n = 2k + 1. Let A_1 = · · · = Ak+1 = (0, 0) and Ak+2 = · · · = A_2k+1 = (0, 1).
-Now, L = 0+· · ·+0+1+0+· · ·+0+1 = 2. Let (i1 , . . . , in ) = (1, k+1, 2, k+2, . . . , k+1, 2k, 2k+1)
-and therefore K = 1 + · · · + 1 + 0 + 1 = 2k = n − 1 and we get that K/L = (n−1)/2
-                                                                                         = ⌊n/2⌋.
+$$
+2K\le nL.
+$$
+
+We now use the two directed collections of inequalities more carefully. For every adjacent pair of the $K$-tour, choose the clockwise path along the $L$-tour and add the corresponding triangle inequalities. Because the combined directed walk ends where it starts, each edge of the $L$-tour is counted the same integer number $a$ of times, and hence
+
+$$
+K\le aL.
+$$
+
+Doing the same counterclockwise gives
+
+$$
+K\le bL
+$$
+
+for another integer $b$. Taken together, the clockwise and counterclockwise paths for every edge of the $K$-tour use each edge of the $L$-tour exactly $n$ times in total, so
+
+$$
+a+b=n.
+$$
+
+Therefore
+
+$$
+K\le \min(a,b)L
+\le
+\left\lfloor\frac n2\right\rfloor L,
+$$
+
+and thus
+
+$$
+\frac KL\le\left\lfloor\frac n2\right\rfloor.
+$$
+
+It remains to show that equality can occur.
+
+If $n=2k$ is even, take
+
+$$
+A_1=\cdots=A_k=(0,0),
+\qquad
+A_{k+1}=\cdots=A_n=(0,1).
+$$
+
+For the tour in index order,
+
+$$
+L=2.
+$$
+
+Choose the order
+
+$$
+(i_1,\ldots,i_n)=(1,k+1,2,k+2,\ldots,k,2k).
+$$
+
+Every edge of this tour has length $1$, so $K=n$ and
+
+$$
+\frac KL=\frac n2.
+$$
+
+If $n=2k+1$ is odd, take
+
+$$
+A_1=\cdots=A_{k+1}=(0,0),
+\qquad
+A_{k+2}=\cdots=A_{2k+1}=(0,1).
+$$
+
+Again $L=2$. Choose
+
+$$
+(i_1,\ldots,i_n)
+=(1,k+2,2,k+3,\ldots,k,2k+1,k+1).
+$$
+
+This tour has $2k=n-1$ edges of length $1$ and one edge of length $0$, so $K=n-1$. Hence
+
+$$
+\frac KL
+=
+\frac{n-1}{2}
+=
+\left\lfloor\frac n2\right\rfloor.
+$$

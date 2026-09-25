@@ -1,30 +1,15 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getMessages, type Locale } from '../i18n';
-
-interface Props {
-  locale: Locale;
-}
-
-const { locale } = Astro.props;
-const messages = getMessages(locale);
+import { getProductCatalog } from '../lib/product/catalog';
+import '../styles/archive.css';
+interface Props{locale:Locale} const {locale}=Astro.props; const messages=getMessages(locale); const catalog=await getProductCatalog();
+const years=[...new Set(catalog.finals.map(x=>x.year))].sort((a,b)=>b-a).map(year=>({year,count:catalog.finals.filter(x=>x.year===year).length}));
 ---
-
-<div class="content-shell content-shell--reading">
-  <header class="page-heading">
-    <h1>{messages.sections.problems.title}</h1>
-    <p class="lede">{messages.sections.problems.description}</p>
-  </header>
-
-  <section class="problem-preview" aria-labelledby="problem-preview-title">
-    <div>
-      <p class="kicker">P2</p>
-      <h2 id="problem-preview-title">{messages.problem.previewTitle}</h2>
-      <p>{messages.problem.previewDescription}</p>
-    </div>
-    <a class="text-action" href={getRelativeLocaleUrl(locale, 'problems/demo')}>
-      {messages.problem.previewAction}
-      <span aria-hidden="true">→</span>
-    </a>
+<div class="content-shell archive-shell">
+  <header class="page-heading"><h1>{messages.sections.problems.title}</h1><p class="lede">{messages.sections.problems.description}</p></header>
+  <section class="archive-years" aria-labelledby="years-title"><h2 id="years-title">{messages.archive.years}</h2>
+    <div class="archive-year-list">{years.map(item=><a class="archive-year-row" href={getRelativeLocaleUrl(locale,`problems/${item.year}`)}><strong>{item.year}</strong><span>{item.count} {messages.archive.problems}</span><span aria-hidden="true">→</span></a>)}</div>
   </section>
+  <section class="archive-shortlist"><div><h2>{messages.archive.shortlist}</h2><p>{messages.sections.shortlist.description}</p></div><a class="text-action" href={getRelativeLocaleUrl(locale,'shortlist')}>{catalog.shortlist.length} {messages.archive.problems}<span aria-hidden="true">→</span></a></section>
 </div>

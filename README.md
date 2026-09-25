@@ -30,12 +30,14 @@ npm run verify
 
 - `src/pages/` — static routes
 - `src/components/` — reusable interface and problem presentation
-- `src/lib/problems/` — canonical display model and safe Markdown/math rendering
-- `src/fixtures/` — P2 renderer fixtures; replaced by generated canonical corpus data later
-- `src/i18n/` — English and Estonian UI text
-- `src/styles/` — design tokens, shell, mathematics, and problem styling
-- `scripts/` — build-time validation utilities
-- `public/` — files copied directly into the static build
+- `src/lib/problems/` — safe Markdown/math rendering primitives
+- `src/lib/corpus/` — typed application adapter over the frozen P3C/P3D corpus
+- `src/lib/product/` — publication policy, public catalogues, Daily, results, references, and page models
+- `src/fixtures/` — legacy renderer fixtures kept only for renderer/QA development; normal routes do not use them
+- `src/i18n/` — English and Estonian UI/taxonomy display text
+- `src/styles/` — design tokens, shell, mathematics, archive, Daily, QA, and problem styling
+- `scripts/product/` — P3E publication, policy, Daily, enrichment, and asset verification
+- `public/problem-assets/generated/` — generated, gitignored public projection of referenced canonical assets
 
 <!-- BW26-CORPUS -->
 ## Corpus reconciliation layer
@@ -73,3 +75,26 @@ P3D remains responsible for selecting public statements, solutions, topics, and 
 ## P3D publication curation
 
 Schema v5 keeps the P3C identity graph unchanged and closes the P3D publication-state model. All 786 public Versions now have resolved statement and solution states: 769 statements are locally selected and 17 historically unrecovered shortlist statements are explicitly unavailable with evidence; 739 Versions have verified local solution material and 47 historically unrecovered solution states are explicitly unavailable with evidence. No public statement or solution remains unresolved. All required selected-content assets are local, and primary-domain plus controlled subtopic classifications remain complete for all 786 public Versions. P3D publication completeness is therefore claimed in the resolved-state sense: completeness never means inventing content that the historical source record does not supply.
+
+<!-- BW26-P3E1 -->
+## P3E-1 public product foundation
+
+P3E-1 projects the frozen corpus into the current student-facing website without changing corpus identity. The initial website publishes 379 final contest problems (1990–1998, 2010, 2017–2025) plus 50 readable shortlist-only exercises. The remaining 340 finals stay canonical but are absent from normal routes and modes.
+
+The product layer also includes a deterministic Tallinn-time Daily calendar (2017–2025 pool, one A/C/G/N problem per day), 36/36 AoPS year-collection references, and historical team-score matrices for all 34 result years 1992–2025. Fine subtopics, solutions, contest results, and external references belong to the Review context rather than the default solve surface.
+
+Useful checks:
+
+```bash
+npm run publication:check
+npm run product:validate
+npm run product:report
+npm run daily:check
+npm run daily:status
+npm run product:assets
+npm run product:assets:check
+npm run verify
+```
+
+`npm run verify` is deterministic and does not expire as calendar time passes. `npm run daily:status` is the operational schedule-horizon check. Set `BW26_QA=1` for the local-only `/_qa/` catalogue.
+<!-- /BW26-P3E1 -->

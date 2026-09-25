@@ -1,0 +1,3 @@
+import { writeFile } from 'node:fs/promises'; import { resolve } from 'node:path'; import { loadDailySchedule } from '../../src/lib/product/daily'; import { extendDailySchedule } from './generate-daily-schedule';
+const raw=process.argv[2]??'4'; const count=Number(raw); if(!Number.isInteger(count)||count<1||count>40) throw new Error('usage: npm run daily:extend -- <cycles 1..40>');
+const root=process.cwd(); const existing=await loadDailySchedule(root); const extended=await extendDailySchedule(existing,count,root); await writeFile(resolve(root,'data/product/daily-schedule.json'),`${JSON.stringify(extended,null,2)}\n`); console.log(`Appended ${count} cycles; coverage now ends ${extended.cycles.at(-1)!.days.at(-1)!.date}.`);

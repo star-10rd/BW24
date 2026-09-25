@@ -16,15 +16,22 @@ interface Props {
   path: string;
   title: string;
   description?: string;
+  experience?: { problemKey: string; dailyDates: string[] };
 }
 
-const { locale, current, path, title, description } = Astro.props;
+const { locale, current, path, title, description, experience } = Astro.props;
 const messages = getMessages(locale);
 const pageTitle = title === 'BW26' ? title : `${title} · BW26`;
+const experienceJson = JSON.stringify({
+  locale,
+  problemKey: experience?.problemKey ?? null,
+  dailyDates: experience?.dailyDates ?? [],
+  qaEnabled: import.meta.env.BW26_QA === '1',
+}).replaceAll('<', '\\u003c');
 ---
 
 <!doctype html>
-<html lang={locale}>
+<html lang={locale} data-theme-pending data-experience="archive" data-review-state="available">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,18 +39,72 @@ const pageTitle = title === 'BW26' ? title : `${title} · BW26`;
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <title>{pageTitle}</title>
+    <script id="bw26-experience-data" type="application/json" set:html={experienceJson}></script>
     <script is:inline>
       (() => {
+        const root = document.documentElement;
         try {
           const stored = localStorage.getItem('theme');
           const theme = stored === 'light' || stored === 'dark'
             ? stored
             : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-          document.documentElement.dataset.theme = theme;
-          document.documentElement.style.colorScheme = theme;
+          root.dataset.theme = theme;
+          root.style.colorScheme = theme;
         } catch {
           // CSS still honors the operating-system theme when storage is unavailable.
         }
+        delete root.dataset.themePending;
+
+        const node = document.getElementById('bw26-experience-data');
+        if (!node) return;
+        let data;
+        try { data = JSON.parse(node.textContent || '{}'); } catch { return; }
+        const dates = Array.isArray(data.dailyDates) ? data.dailyDates : [];
+        if (!data.problemKey || dates.length === 0) return;
+
+        const tallinnDate = (now = new Date()) => {
+          const parts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Europe/Tallinn', year: 'numeric', month: '2-digit', day: '2-digit',
+          }).formatToParts(now);
+          const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+          return `${map.year}-${map.month}-${map.day}`;
+        };
+
+        const applyExperience = (preserveReview = false) => {
+          const params = new URLSearchParams(location.search);
+          const today = tallinnDate();
+          const requested = params.get('context') === 'daily' ? params.get('date') : null;
+          const validRequested = requested && dates.includes(requested) && requested <= today ? requested : null;
+          let experience = validRequested ? 'daily' : 'archive';
+          let reviewState = validRequested ? 'solve' : 'available';
+          let contextDate = validRequested;
+
+          // Current Daily has absolute precedence in the normal product UI.
+          if (dates.includes(today)) reviewState = 'locked';
+          else if (preserveReview && experience === 'daily' && root.dataset.reviewState === 'review') reviewState = 'review';
+
+          if (data.qaEnabled) {
+            const qa = params.get('qa');
+            if (qa === 'daily-current') { experience = 'daily'; reviewState = 'locked'; contextDate = today; }
+            if (qa === 'daily-past-solve') { experience = 'daily'; reviewState = 'solve'; contextDate = dates[0] || today; }
+            if (qa === 'daily-past-review') { experience = 'daily'; reviewState = 'review'; contextDate = dates[0] || today; }
+            if (qa === 'archive') { experience = 'archive'; reviewState = 'available'; contextDate = null; }
+          }
+
+          root.dataset.experience = experience;
+          root.dataset.reviewState = reviewState;
+          if (contextDate) root.dataset.contextDate = contextDate;
+          else delete root.dataset.contextDate;
+        };
+
+        applyExperience(false);
+        let observedTallinnDate = tallinnDate();
+        window.setInterval(() => {
+          const next = tallinnDate();
+          if (next === observedTallinnDate) return;
+          observedTallinnDate = next;
+          applyExperience(true);
+        }, 60_000);
       })();
     </script>
   </head>

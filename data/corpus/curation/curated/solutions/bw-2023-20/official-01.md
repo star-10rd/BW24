@@ -1,10 +1,12 @@
+## Solution 1
+
 (a) No, there is no such labelling.
 
 On the contrary, we show that for every labelling there exist two German products whose difference is not divisible by 65 . Suppose that an $8 \times 8$ square grid is labelled with the numbers $1,2, \ldots, 64$ such that no number is used twice.
 
 We can construct a German product that is divisible by 13 by choosing a German set that includes the cell with the label 13 and seven others in different rows and columns, but otherwise arbitrarily.
 
-We can construct a German product that is not divisible by 13 as follows. Notice that only four labels are divisible by 13, namely $13,26,39$, and 52 . These four labels are located in at most four rows; we denote the index set of these rows $R \subseteq[1,8]$. Similarly, there are at least four columns that do not contain any of these four labels; we denote the index set of these columns $C \subseteq[1,8]$. Since $R \leq C$ it is possible to choose cells of a German set from rows $R$ using only columns from $C$. The remaining cells are chosen from the remaining rows accordingly to the definition, but otherwise arbitrarily. The resulting German product is not divisible by 13 since the German set avoids the cells whose labels are divisible by 13 .
+We can construct a German product that is not divisible by 13 as follows. Notice that only four labels are divisible by 13, namely $13,26,39$, and 52 . These four labels are located in at most four rows; we denote the index set of these rows $R \subseteq[1,8]$. Similarly, there are at least four columns that do not contain any of these four labels; we denote the index set of these columns $C \subseteq[1,8]$. Since $|R| \leq |C|$ it is possible to choose cells of a German set from rows $R$ using only columns from $C$. The remaining cells are chosen from the remaining rows accordingly to the definition, but otherwise arbitrarily. The resulting German product is not divisible by 13 since the German set avoids the cells whose labels are divisible by 13 .
 
 The difference of the two German products is not divisible by 13, since one German product is divisible by 13 whereas the other one is not. Hence the difference is not divisible by 65 .
 (b) Yes, there is such a labelling.
@@ -38,14 +40,14 @@ $$
 
 Since $r<s$ and $s$ is the smallest positive integer with $2^{s} \equiv 1(\bmod 101)$, we must have $r=0$. In other words, 100 is divisible by $s$; in other words, $s$ is a divisor of 100 .
 
-We claim that $s=100$. If this was not the case, we would have $s \mid 20$ or $s \mid 50$, which implies that $2^{20} \equiv 1(\bmod 101)$ or $2^{50} \equiv 1(\bmod 101)$. However $2^{10}=1024 \equiv 14(\bmod 101)$, so that $2^{20} \equiv 14^{2} \equiv 196 \equiv-6 \not \equiv 1(\bmod 101)$ and $2^{50} \equiv\left(2^{20}\right)^{2} \cdot 2^{10} \equiv(-6)^{2} \cdot 14 \equiv 504 \equiv-1$ 丰 $1(\bmod 101)$.
+We claim that $s=100$. If this was not the case, we would have $s \mid 20$ or $s \mid 50$, which implies that $2^{20} \equiv 1(\bmod 101)$ or $2^{50} \equiv 1(\bmod 101)$. However $2^{10}=1024 \equiv 14(\bmod 101)$, so that $2^{20} \equiv 14^{2} \equiv 196 \equiv-6 \not \equiv 1(\bmod 101)$ and $2^{50} \equiv\left(2^{20}\right)^{2} \cdot 2^{10} \equiv(-6)^{2} \cdot 14 \equiv 504 \equiv -1 \not\equiv 1 \pmod{101}$.
 
 Now assume that $k, \ell \in[0,99]$ are positive integers with $k>\ell$ and $a_{k}=a_{\ell}$. Then we have $2^{k} \equiv 2^{\ell}(\bmod 101)$ and $0 \equiv 2^{k}-2^{\ell} \equiv 2^{\ell} \cdot\left(2^{k-\ell}-1\right)(\bmod 101)$. Since $2^{\ell}$ and 101 are coprime, it follows that $2^{k-\ell}-1 \equiv 0(\bmod 101)$ and $2^{k-\ell} \equiv 1(\bmod 101)$. This cannot be true, since $k-\ell \in[1,99]$, but $s=100$ is the smallest positive integer with $2^{s} \equiv 1(\bmod 101)$. Hence $a_{k} \neq a_{\ell}$.
 
 We conclude that the numbers $a_{k}$ with $k \in[0,99]$ are a hundred pairwise different numbers from the set $[1,100]$, hence they are a permutation of the set $[1,100]$ as it was required.
-2nd Solution:
+## Solution 2
 
-Definition: Let $p$ be a prime. Consider an $n \times n$ square grid of elements $a_{i, j} \in \mathbb{F}_{p}^{*}$ (for $i, j=1, \ldots, n$ ), which are not necessarily distinct. We call it rooky, if all its German products are equal as elements in $\mathbb{F}_{p}^{*}$.
+**Definition.** Let $p$ be a prime. Consider an $n \times n$ square grid of elements $a_{i, j} \in \mathbb{F}_{p}^{*}$ (for $i, j=1, \ldots, n$ ), which are not necessarily distinct. We call it rooky, if all its German products are equal as elements in $\mathbb{F}_{p}^{*}$.
 
 We will provide a classification of all rooky square grids. Of course, most of this is not necessary when writing down a solution to the given problem, but it may still be interesting...
 
@@ -85,7 +87,6 @@ $$
 \prod_{i} \lambda_{i} \cdot \prod_{j} \mu_{j} .
 $$
 
-## B ALTIC <br> Way <br> FLENSBURG 2023
 
 Let us prove the converse: By the previous lemma, it suffices to find $\lambda_{i} \mathrm{~s}$ and $\mu_{j} \mathrm{~s}$ that recreate the values of the first row and column. For this simply set $\lambda_{i}=a_{i, 1}$ and $\mu_{j}=\frac{a_{1, j}}{a_{1,1}}$.
 

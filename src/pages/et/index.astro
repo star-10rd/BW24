@@ -7,6 +7,6 @@ const locale = 'et' as const;
 const messages = getMessages(locale);
 ---
 
-<BaseLayout locale={locale} current="today" path="" title="BW26" description={messages.meta.description}>
+<BaseLayout locale={locale} current={null} path="" title="BW26" description={messages.meta.description}>
   <HomeView locale={locale} />
 </BaseLayout>

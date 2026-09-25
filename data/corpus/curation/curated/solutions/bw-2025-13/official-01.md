@@ -1,7 +1,21 @@
-## Solution Let Ω_1 = (ABP ), Ω_2 = (CDP ) and let BC cut Ω_1 and Ω_2 at points U ̸= B and
-V ̸= C, respectively. We find ∠CU P = ∠BAP = ∠P CB = ∠P CU , so △U P C is isosceles
-with P U = P C. Similarly, P B = P V . Let F be the midpoint of BV , which is also the
-midpoint of CU , and the feet of the perpendicular from P to BC. By symmetry on line BC,
-F has equal power of point with respect to Ω_1 and Ω_2 , hence it belongs to the radical axis of
-these circles. Since EB · EA = EC · ED, E also belongs to this radical axis, and by obvious
-reasons point P also lies on it, hence P, F and E are collinear and the conclusion follows.
+## Solution
+
+Let $\Omega_1=(ABP)$ and $\Omega_2=(CDP)$. Let $BC$ meet $\Omega_1$ again at $U\ne B$ and $\Omega_2$ again at $V\ne C$.
+
+We have
+
+$$
+\angle CUP=\angle BAP=\angle PCB=\angle PCU,
+$$
+
+so $\triangle UPC$ is isosceles and $PU=PC$. Similarly, $PB=PV$.
+
+Let $F$ be the midpoint of $BV$. It is also the midpoint of $CU$ and the foot of the perpendicular from $P$ to $BC$. By symmetry on the line $BC$, $F$ has equal powers with respect to $\Omega_1$ and $\Omega_2$, so $F$ lies on their radical axis.
+
+Also,
+
+$$
+EB\cdot EA=EC\cdot ED,
+$$
+
+so $E$ lies on the same radical axis. The point $P$ belongs to both circles and therefore lies on the radical axis as well. Hence $P,F,E$ are collinear. Since $PF\perp BC$, it follows that $PE\perp BC$.

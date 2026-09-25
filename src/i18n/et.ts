@@ -1,72 +1,13 @@
 import type { Messages } from './types';
-
-export const et: Messages = {
-  meta: {
-    description: 'Baltic Way võistkonna treening.',
-  },
-  nav: {
-    label: 'Põhinavigatsioon',
-    today: 'Täna',
-    problems: 'Ülesanded',
-    training: 'Treening',
-    materials: 'Materjalid',
-  },
-  common: {
-    skipToContent: 'Liigu sisu juurde',
-    changeLanguage: 'Vaheta keelt',
-    useEnglish: 'Kasuta inglise keelt',
-    useEstonian: 'Kasuta eesti keelt',
-    changeTheme: 'Vaheta kujundust',
-    useLightTheme: 'Kasuta heledat kujundust',
-    useDarkTheme: 'Kasuta tumedat kujundust',
-  },
-  home: {
-    kicker: 'Baltic Way 2026',
-    title: 'Täna',
-    intro: 'Selge ja rahulik koht võistkonna ülesannete, treeningute ja materjalide jaoks.',
-    problemsLabel: 'Ülesanded',
-    problemsText: 'Siin loodud ülesandevaate peale ehitatakse staatiline Baltic Way arhiiv.',
-    trainingLabel: 'Treening',
-    trainingText: 'Valitud komplektid ja võistkonna treeningud hakkavad kasutama samu kanoonilisi ülesandeid.',
-    materialsLabel: 'Materjalid',
-    materialsText: 'Konspektid ja teemamaterjalid jäävad neid toetavate ülesannete lähedale.',
-  },
-  sections: {
-    problems: {
-      title: 'Ülesanded',
-      description: 'Enne kogu Baltic Way arhiivi importimist viime lõpuni ülesande lugemise ja lahenduste kuvamise süsteemi.',
-    },
-    training: {
-      title: 'Treening',
-      description: 'Valitud ülesandekomplektid ja võistkonna treeningud hakkavad kasutama ühist ülesandesüsteemi.',
-    },
-    materials: {
-      title: 'Materjalid',
-      description: 'Treeningmaterjalid korrastatakse teemade järgi ja seotakse sobivate ülesannetega.',
-    },
-  },
-  problem: {
-    backToProblems: 'Ülesanded',
-    fixtureNote: 'Renderduse test — see on sünteetiline testisisu, mitte Baltic Way arhiivi ülesanne.',
-    statement: 'Ülesande tekst',
-    solutions: 'Lahendused',
-    solution: 'Lahendus',
-    source: 'Allikas',
-    alsoAppeared: 'Esines ka kujul',
-    mathnetFutureNote: 'Kanooniline allikaviide ja MathNeti kirjeviited lisatakse korpuse importimisel.',
-    previewTitle: 'Ülesande renderdaja',
-    previewDescription: 'Tahtlikult nõudlik test matemaatika, jooniste, lahenduste, allikakirjete, tumeda režiimi ja eri ekraanisuuruste jaoks.',
-    previewAction: 'Ava test',
-    domains: {
-      A: 'Algebra',
-      N: 'Arvuteooria',
-      C: 'Kombinatoorika',
-      G: 'Geomeetria',
-    },
-  },
-  notFound: {
-    title: 'Lehte ei leitud',
-    description: 'Otsitud lehte ei ole olemas.',
-    action: 'Tagasi tänase juurde',
-  },
+export const et:Messages={
+ meta:{description:'Baltic Way ülesannete lahendamine ja võistkonna treening.'},
+ nav:{label:'Põhinavigatsioon',today:'Päevaülesanded',problems:'Ülesanded',training:'Treening',materials:'Materjalid'},
+ common:{skipToContent:'Liigu sisu juurde',changeLanguage:'Vaheta keelt',useEnglish:'Kasuta inglise keelt',useEstonian:'Kasuta eesti keelt',changeTheme:'Vaheta kujundust',useLightTheme:'Kasuta heledat kujundust',useDarkTheme:'Kasuta tumedat kujundust'},
+ home:{kicker:'Baltic Way',title:'Ülesannete lahendamine',intro:'Rahulik koht Baltic Way ülesannete lahendamiseks, päevaülesannete juurde naasmiseks ja lahenduste teadlikuks ülevaatamiseks.',problemsLabel:'Ülesanded',problemsText:'Sirvi praegu avaldatud võistlusarhiivi ja loetavaid valikvooru ülesandeid.',trainingLabel:'Treening',trainingText:'Struktureeritud treeningkomplektid ehitatakse samade kanooniliste ülesandelehtede peale.',materialsLabel:'Materjalid',materialsText:'Konspektid ja teemamaterjalid jäävad ülesannete lahendamise kogemuse kõrval toetavaks.',dailyAction:'Ava tänased päevaülesanded',problemsAction:'Sirvi ülesandeid'},
+ sections:{problems:{title:'Ülesanded',description:'Avaldatud Baltic Way võistlused algses ülesannete järjekorras.'},training:{title:'Treening',description:'Treeningkomplektid lisatakse kanoonilisele ülesandesüsteemile järgmises tootearenduse etapis.'},materials:{title:'Materjalid',description:'Treeningmaterjalid ja võistkonna ressursid.'},daily:{title:'Päevaülesanded',description:'Igal Tallinna kuupäeval neli ülesannet — algebra, kombinatoorika, geomeetria ja arvuteooria.'},shortlist:{title:'Valikvoor',description:'Loetavad ainult valikvoorus esinenud ülesanded on võistlusarhiivist eraldi.'}},
+ problem:{backToProblems:'Ülesanded',backToShortlist:'Valikvoor',backToDaily:'Päevaülesanded',statement:'Ülesande tekst',review:'Ülevaade',reviewPrompt:'Kui oled valmis',reviewAction:'Vaata üle',dailyLocked:'Ülevaatematerjal muutub kättesaadavaks järgmise päevaülesannete komplektiga.',topics:'Teemad',solutions:'Lahendused',solution:'Lahendus',solutionUnavailable:'Kontrollitud kohalik lahendus ei ole praegu saadaval.',contestContext:'Võistluse kontekst',resultsFrom:'Baltic Way tulemused',teams:'võistkonda',meanScore:'Keskmine tulemus',scoresFourOrFive:'4 või 5 punkti',scoreDistribution:'Punktijaotus',estonia:'Eesti',allTeamScores:'Kõigi võistkondade punktid',team:'Võistkond',score:'Punktid',elsewhere:'Mujal',aopsYear:'AoPS · Baltic Way',officialResults:'Ametlikud tulemused',previous:'Eelmine',next:'Järgmine',shortlistProblem:'Valikvooru ülesanne',dailyContext:'Päevaülesanne',domains:{A:'Algebra',N:'Arvuteooria',C:'Kombinatoorika',G:'Geomeetria'}},
+ archive:{years:'Aastad',problems:'ülesannet',problem:'Ülesanne',shortlist:'Valikvoor',solutionAvailable:'Kontrollitud lahendus',solutionUnavailable:'Kontrollitud lahendus puudub'},
+ daily:{today:'Täna',date:'Kuupäev',nextDaily:'Järgmine komplekt',previousDays:'Varasemad päevad',outsideCoverage:'Kinnitatud päevaülesannete kalender ei kata seda kuupäeva.',openProblem:'Ava',domains:{A:'Algebra',N:'Arvuteooria',C:'Kombinatoorika',G:'Geomeetria'}},
+ taxonomy:{subtopics:{'functional-equations':'Funktsionaalvõrrandid','polynomials':'Polünoomid','equations-and-inequalities':'Võrrandid ja võrratused','sequences-and-recurrences':'Jadad ja rekurrentsid','algebraic-manipulation':'Algebralised teisendused','extremal-algebra':'Ekstremaalmeetodid algebras','algebraic-structures':'Algebralised struktuurid','counting':'Loendamine','pigeonhole-and-extremal':'Dirichlet’ printsiip ja ekstremaalargumendid','invariants':'Invariandid ja monovariandid','graph-theory':'Graafiteooria','games-and-strategies':'Mängud ja strateegiad','colorings-and-configurations':'Värvimised ja konfiguratsioonid','induction-and-recursion':'Induktsioon ja rekursioon','algorithms-and-processes':'Algoritmid ja protsessid','triangles-and-centers':'Kolmnurgad ja märkimisväärsed punktid','circles-and-tangency':'Ringjooned ja puutujad','cyclic-geometry':'Tsükliline geomeetria','angles-and-distances':'Nurgad ja kaugused','transformations':'Teisendused','coordinates-and-vectors':'Koordinaadid ja vektorid','geometric-inequalities':'Geomeetrilised võrratused','constructions-and-loci':'Konstruktsioonid, geomeetrilised kohad, konkurentsus ja kollineaarsus','combinatorial-geometry':'Kombinatoorne geomeetria ja tükeldused','solid-geometry':'Ruumigeomeetria','divisibility-and-factorization':'Jaguvus ja tegurdamine','primes':'Algarvud','modular-arithmetic':'Modulaararitmeetika','diophantine-equations':'Diofantilised võrrandid','gcd-and-lcm':'SÜT ja VÜK','orders-and-residues':'Järgud ja jäägiklassid','arithmetic-functions':'Aritmeetilised funktsioonid'}},
+ notFound:{title:'Lehte ei leitud',description:'Otsitud lehte ei ole olemas.',action:'Tagasi avalehele'},
 };

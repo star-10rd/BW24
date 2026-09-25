@@ -1,28 +1,75 @@
-## Solution We will need the following 3 lemmas.
+## Solution
 
-**Lemma 1:** For any two positive integers p and q, it holds S(p + q) ≤ S(p) + S(q).
-Proof: In fact, S(p + q) = S(p) + S(q) − 9{#carries when adding p and q}, which instantly
-follows from the addition formula.
+We use three lemmas.
 
-**Lemma 2:** For any positive integers p and q, it holds S(pq) ≤ S(p)S(q).
-Proof: Let p = p_m 10^m + p_m−1 10^m−1 + · · · + p_0 , where 0 ≤ pi ≤ 9. Now
+**Lemma 1.** For positive integers $p,q$,
 
-S(qp) = S(qp_m 10^m + qp_m−1 10^m−1 + · · · + qp_0 ) ≤ S(qp_m 10^m ) + S(qp_m−1 10^m ) + · · · + S(qp_0 ) =
+$$
+S(p+q)\le S(p)+S(q).
+$$
 
- = S(qp_m ) + S(qp_m−1 ) + · · · + S(qp_0 ) ≤ S(q) + d(q) + . . . S(q) + · · · + S(q) + S(q) + S(q) =
-                                           |        {z            }           |       {z       }
-                                                     p_m                             p_0
+**Proof.** In fact,
 
-                            S(q)(p_m + p_m−1 + · · · + p_0 ) = S(q)S(p)
-**Lemma 3:** For any positive integer m, any multiple of 10^m − 1 has sum of digits at least 9m.
-Proof: We will prove this result by induction. Obviously S(10^m −1) = 9m. Let p be a multiple
-of 10^m − 1 and assume the inequality holds for all smaller multiples. Write p = 10^m p_1 + p_0 ,
-where 0 ≤ p_0 < 10^m. Note that 10^m p_1 + p_0 ≡ p_1 + p_0 (mod 10^m − 1), so p_1 + p_0 is divisible by 10^m − 1
-and since p_1 + p_0 < p, by induction it follows
+$$
+S(p+q)=S(p)+S(q)-9\cdot(\text{number of carries when adding }p\text{ and }q),
+$$
 
-                           S(p) = S(p_1 ) + S(p_0 ) ≥ S(p_1 + p_0 ) ≥ 9m
+which follows directly from decimal addition.
 
-Going back to the original problem, note that ab^2 c^4 is a multiple of abc = 10^n − 1, so has sum
-of digits at least 9n. Now, by AM-GM:
-                                         p                      p              √
-               S(a) + S(b^2 ) + S(c^4 ) ≥ 3 3 S(a)S(b^2 )S(c^4 ) ≥ 3 3 S(ab^2 c^4 ) ≥ ∛(243n)
+**Lemma 2.** For positive integers $p,q$,
+
+$$
+S(pq)\le S(p)S(q).
+$$
+
+**Proof.** Write
+
+$$
+p=p_m10^m+p_{m-1}10^{m-1}+\cdots+p_0,
+\qquad 0\le p_i\le9.
+$$
+
+Using Lemma 1 repeatedly,
+
+$$
+\begin{aligned}
+S(qp)
+&\le S(qp_m10^m)+S(qp_{m-1}10^{m-1})+\cdots+S(qp_0)\\
+&=S(qp_m)+S(qp_{m-1})+\cdots+S(qp_0)\\
+&\le p_mS(q)+p_{m-1}S(q)+\cdots+p_0S(q)\\
+&=S(p)S(q).
+\end{aligned}
+$$
+
+**Lemma 3.** For every positive integer $m$, every positive multiple of $10^m-1$ has digit sum at least $9m$.
+
+**Proof.** We induct on the multiple. Certainly $S(10^m-1)=9m$. Let $p$ be a larger multiple and write
+
+$$
+p=10^mp_1+p_0,
+\qquad 0\le p_0<10^m.
+$$
+
+Since $10^m\equiv1\pmod{10^m-1}$, the integer $p_1+p_0$ is also divisible by $10^m-1$, and it is smaller than $p$. Hence
+
+$$
+S(p)=S(p_1)+S(p_0)\ge S(p_1+p_0)\ge9m.
+$$
+
+Returning to the problem, $ab^2c^4$ is a multiple of $abc=10^n-1$, so Lemma 3 gives
+
+$$
+S(ab^2c^4)\ge9n.
+$$
+
+By AM-GM and Lemma 2,
+
+$$
+\begin{aligned}
+S(a)+S(b^2)+S(c^4)
+&\ge3\sqrt[3]{S(a)S(b^2)S(c^4)}\\
+&\ge3\sqrt[3]{S(ab^2c^4)}\\
+&\ge3\sqrt[3]{9n}
+=\sqrt[3]{243n}.
+\end{aligned}
+$$

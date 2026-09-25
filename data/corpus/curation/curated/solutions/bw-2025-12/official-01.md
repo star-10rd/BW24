@@ -1,7 +1,35 @@
-## Solution Let E = AI ∩ (ABC). It follows E lies on AI and EA = ET .
+## Solution
 
-We have DQ ∥ ET since ∠ADQ = ∠AP Q = ∠AP T = ∠AET . Therefore triangles IDQ
-and IET are similar, yielding ID/IE = DQ/ET
-                                      . It is now sufficient to show that ID/IE = AI/AE , which after
-                    subtracting 1 gives ED/IE = EI/AE. The latter is equivalent to EI^2 = ED · EA, which is
-a well-known fact, since EI = EB and EB is tangent to (ABD).
+Let $E=AI\cap(ABC)$, where $(ABC)$ denotes the circumcircle of $ABC$. Then $E$ lies on $AI$ and $EA=ET$.
+
+We have $DQ\parallel ET$, since
+
+$$
+\angle ADQ=\angle APQ=\angle APT=\angle AET.
+$$
+
+Therefore triangles $IDQ$ and $IET$ are similar, giving
+
+$$
+\frac{ID}{IE}=\frac{DQ}{ET}.
+$$
+
+It is enough to show
+
+$$
+\frac{ID}{IE}=\frac{AI}{AE}.
+$$
+
+Subtracting $1$ from both sides gives the equivalent relation
+
+$$
+\frac{ED}{IE}=\frac{EI}{AE},
+$$
+
+or
+
+$$
+EI^2=ED\cdot EA.
+$$
+
+This is a standard power relation: $EI=EB$, and $EB$ is tangent to $(ABD)$. Hence the desired equality follows.
