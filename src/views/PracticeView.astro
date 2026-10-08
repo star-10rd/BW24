@@ -1,0 +1,75 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getMessages, type Locale } from '../i18n';
+import '../styles/practice.css';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+const randomHref = getRelativeLocaleUrl(locale, 'random');
+const trainingHref = getRelativeLocaleUrl(locale, 'training');
+const searchHref = getRelativeLocaleUrl(locale, 'search');
+const problemsHref = getRelativeLocaleUrl(locale, 'problems');
+const shortlistHref = getRelativeLocaleUrl(locale, 'shortlist');
+const materialsHref = getRelativeLocaleUrl(locale, 'materials');
+const domainOrder = ['A','C','G','N'] as const;
+---
+
+<div class="content-shell practice-hub">
+  <header class="page-heading">
+    <h1>{messages.sections.practice.title}</h1>
+    <p class="lede">{messages.sections.practice.description}</p>
+  </header>
+
+  <div class="practice-hub__sections">
+    <section class="practice-hub__section" aria-labelledby="practice-random-title">
+      <div class="practice-hub__heading">
+        <h2 id="practice-random-title">{messages.home.randomLabel}</h2>
+        <a href={randomHref}>{messages.practice.randomSettings}</a>
+      </div>
+      <form class="practice-hub__form" action={randomHref} method="get">
+        <input type="hidden" name="start" value="1" />
+        <fieldset class="quick-scope quick-scope--hub">
+          <legend>{messages.practice.focus}</legend>
+          <label><input type="radio" name="domain" value="all" checked/><span>{messages.practice.allDomains}</span></label>
+          {domainOrder.map((domain)=><label><input type="radio" name="domain" value={domain}/><span><strong>{domain}</strong><span class="quick-scope__name">{messages.problem.domains[domain]}</span></span></label>)}
+        </fieldset>
+        <label class="practice-toggle practice-toggle--hub"><input type="checkbox" name="shortlist" value="1"/><span>{messages.practice.includeShortlistShort}</span></label>
+        <button class="practice-submit practice-submit--large" type="submit">{messages.practice.giveProblem}</button>
+      </form>
+    </section>
+
+    <section class="practice-hub__section" aria-labelledby="practice-set-title">
+      <div class="practice-hub__heading">
+        <h2 id="practice-set-title">{messages.practice.practiceSet}</h2>
+        <a href={trainingHref}>{messages.practice.setSettings}</a>
+      </div>
+      <form class="practice-hub__form" action={trainingHref} method="get">
+        <input type="hidden" name="start" value="1" />
+        <fieldset class="quick-scope quick-scope--size quick-scope--hub">
+          <legend>{messages.practice.setSize}</legend>
+          <label><input type="radio" name="size" value="5" checked/><span>5</span></label>
+          <label><input type="radio" name="size" value="10"/><span>10</span></label>
+        </fieldset>
+        <fieldset class="quick-scope quick-scope--hub">
+          <legend>{messages.practice.focus}</legend>
+          <label><input type="radio" name="domain" value="all" checked/><span>{messages.practice.allDomains}</span></label>
+          {domainOrder.map((domain)=><label><input type="radio" name="domain" value={domain}/><span><strong>{domain}</strong><span class="quick-scope__name">{messages.problem.domains[domain]}</span></span></label>)}
+        </fieldset>
+        <label class="practice-toggle practice-toggle--hub"><input type="checkbox" name="shortlist" value="1"/><span>{messages.practice.includeShortlistShort}</span></label>
+        <button class="practice-submit practice-submit--large" type="submit">{messages.practice.startPractice}</button>
+      </form>
+    </section>
+
+    <section class="practice-hub__section practice-hub__find" aria-labelledby="practice-find-title">
+      <h2 id="practice-find-title">{messages.practice.findProblem}</h2>
+      <nav class="practice-find-list" aria-label={messages.practice.findProblem}>
+        <a href={searchHref}><strong>{messages.practice.searchProblems}</strong><span>{messages.sections.search.description}</span></a>
+        <a href={problemsHref}><strong>{messages.practice.browseProblems}</strong><span>{messages.sections.problems.description}</span></a>
+        <a href={shortlistHref}><strong>{messages.sections.shortlist.title}</strong><span>{messages.sections.shortlist.description}</span></a>
+      </nav>
+    </section>
+  </div>
+
+  <p class="practice-hub__materials"><a href={materialsHref}>{messages.practice.materials}</a></p>
+</div>

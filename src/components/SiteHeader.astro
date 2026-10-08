@@ -13,16 +13,18 @@ interface Props {
 
 const { locale, current, path } = Astro.props;
 const messages = getMessages(locale);
+const searchHref = getRelativeLocaleUrl(locale, 'search');
+const materialsHref = getRelativeLocaleUrl(locale, 'materials');
 ---
 
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-brand" href={getRelativeLocaleUrl(locale, '')} aria-label={`${site.name} — ${messages.nav.today}`}>
+    <a class="site-brand" href={getRelativeLocaleUrl(locale, '')} aria-label={`${site.name} — ${messages.home.title}`}>
       {site.name}
     </a>
 
     <nav class="desktop-nav" aria-label={messages.nav.label}>
-      {site.desktopNavigation.map((item) => (
+      {site.primaryNavigation.map((item) => (
         <a
           href={getRelativeLocaleUrl(locale, item.path)}
           data-nav-route={item.id}
@@ -34,8 +36,34 @@ const messages = getMessages(locale);
     </nav>
 
     <div class="site-actions">
+      <a
+        class="site-search"
+        href={searchHref}
+        aria-current={path === 'search' ? 'page' : undefined}
+        aria-label={messages.nav.search}
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        <span>{messages.nav.search}</span>
+      </a>
       <LanguageSwitch locale={locale} path={path} />
       <ThemeToggle locale={locale} />
+      <details class="mobile-menu">
+        <summary>{messages.nav.menu}</summary>
+        <div class="mobile-menu__panel">
+          <nav aria-label={messages.nav.label}>
+            {site.primaryNavigation.map((item) => (
+              <a
+                href={getRelativeLocaleUrl(locale, item.path)}
+                data-nav-route={item.id}
+                aria-current={current === item.id ? 'page' : undefined}
+              >
+                {messages.nav[item.id]}
+              </a>
+            ))}
+            <a href={materialsHref} aria-current={path === 'materials' ? 'page' : undefined}>{messages.nav.materials}</a>
+          </nav>
+        </div>
+      </details>
     </div>
   </div>
 </header>

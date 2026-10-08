@@ -63,6 +63,7 @@ export function initProblemExperience(): void {
   const trainingNext = document.querySelector<HTMLAnchorElement>('[data-training-next]');
   const trainingEnd = document.querySelector<HTMLButtonElement>('[data-training-end]');
   const trainingOverview = document.querySelector<HTMLAnchorElement>('[data-training-overview-link]');
+  const trainingBack = document.querySelector<HTMLAnchorElement>('.problem-back--training');
   const trainingProgress = document.querySelector<HTMLElement>('[data-training-progress]');
   const dailyBack = document.querySelector<HTMLAnchorElement>('[data-daily-back]');
   const contextDate = document.querySelector<HTMLElement>('[data-context-date-label]');
@@ -138,7 +139,7 @@ export function initProblemExperience(): void {
 
   trainingEnd?.addEventListener('click', () => {
     if (session) safeRemove(session, TRAINING_STORAGE_KEY);
-    location.assign(localize('/training/', runtime.locale));
+    location.assign(localize('/practice/', runtime.locale));
   });
 
   // A page may remain open across Tallinn midnight. Re-resolve disclosure state
@@ -207,7 +208,11 @@ export function initProblemExperience(): void {
     const index = training.items.findIndex((item) => item.id === runtime.problem.id);
     if (index < 0) return;
     if (trainingProgress) trainingProgress.textContent = runtime.labels.problemOf.replace('{current}', String(index + 1)).replace('{total}', String(training.items.length));
-    if (trainingOverview) { const target = new URL(localize('/training/', runtime.locale), location.origin); target.searchParams.set('session', training.sessionId); trainingOverview.href = `${target.pathname}${target.search}`; }
+    const overviewTarget = new URL(localize('/training/', runtime.locale), location.origin);
+    overviewTarget.searchParams.set('session', training.sessionId);
+    const overviewHref = `${overviewTarget.pathname}${overviewTarget.search}`;
+    if (trainingOverview) trainingOverview.href = overviewHref;
+    if (trainingBack) trainingBack.href = overviewHref;
     updateStepLink(trainingPrev, training.items[index - 1], training.sessionId);
     updateStepLink(trainingNext, training.items[index + 1], training.sessionId);
   }
@@ -269,7 +274,7 @@ export function initProblemExperience(): void {
   }
 
   function updateNavigationCurrent(experience: string): void {
-    const route = experience === 'daily' ? 'today' : experience === 'random' ? 'random' : experience === 'training' ? 'training' : null;
+    const route = experience === 'daily' ? 'today' : experience === 'random' || experience === 'training' ? 'practice' : null;
     for (const anchor of document.querySelectorAll<HTMLAnchorElement>('[data-nav-route]')) {
       if (route && anchor.dataset.navRoute === route) anchor.setAttribute('aria-current', 'page');
       else if (route) anchor.removeAttribute('aria-current');

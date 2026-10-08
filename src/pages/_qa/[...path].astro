@@ -14,7 +14,7 @@ const caseCandidates: Array<[string, PublicProblemPageModel | undefined]> = [['N
 const cases: Array<[string, PublicProblemPageModel]> = caseCandidates.filter((entry): entry is [string, PublicProblemPageModel] => entry[1] !== undefined);
 const modeExample=publicFinals.find(x=>x!==dailyExample)??publicFinals[0];
 ---
-<BaseLayout locale={locale} current={null} path="_qa" title="P3E QA">
+<BaseLayout locale={locale} current={null} indexable={false} path="_qa" title="P3E QA">
 <div class="content-shell qa-shell"><header class="page-heading"><p class="kicker">Local only</p><h1>P3E QA</h1><p class="lede">Real production models and routes. This page is generated only when <code>BW26_QA=1</code>.</p></header>
 <section class="qa-counts"><dl><div><dt>Website finals</dt><dd>{publicFinals.length}</dd></div><div><dt>Shortlist exercises</dt><dd>{catalog.shortlist.length}</dd></div><div><dt>Practice exercises</dt><dd>{practice.exercises.length}</dd></div><div><dt>Inactive finals</dt><dd>{catalog.inactiveFinalIds.length}</dd></div><div><dt>Daily pool</dt><dd>{catalog.finals.filter(x=>x.dailyEligible).length}</dd></div><div><dt>Verified-solution practice</dt><dd>{practice.exercises.filter(x=>x.solutionAvailable).length}</dd></div><div><dt>Result-backed public finals</dt><dd>{resultBacked}</dd></div></dl></section>
 <section class="qa-cases"><h2>Rendering archetypes</h2><ul>{cases.map(([label,page])=><li><span>{label}</span><a href={page.route}>{page.kind==='final'?`${page.year}/${Number(page.number)}`:`${page.year}/${page.slug}`} →</a></li>)}</ul></section>

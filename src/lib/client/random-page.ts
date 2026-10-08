@@ -141,9 +141,19 @@ export function initRandomPage(): void {
   form.addEventListener('submit', (event) => { event.preventDefault(); selectAndGo(); });
   window.addEventListener('storage', (event) => { if (event.key === RANDOM_STORAGE_KEY || event.key === RECENT_STORAGE_KEY) updateCount(); });
 
+  const params = new URLSearchParams(location.search);
+  const requestedDomain = params.get('domain');
+  if (requestedDomain === 'A' || requestedDomain === 'C' || requestedDomain === 'G' || requestedDomain === 'N' || requestedDomain === 'all') {
+    const radio = form.querySelector<HTMLInputElement>(`input[name="simple-domain"][value="${requestedDomain}"]`);
+    if (radio) radio.checked = true;
+  }
+  if (params.get('shortlist') === '1') {
+    const shortlist = form.querySelector<HTMLInputElement>('input[name="shortlist"]');
+    if (shortlist) shortlist.checked = true;
+  }
   syncSimpleToAdvanced();
   updateCount();
-  if (new URLSearchParams(location.search).get('start') === '1') {
+  if (params.get('start') === '1') {
     history.replaceState(history.state, '', location.pathname);
     queueMicrotask(selectAndGo);
   }

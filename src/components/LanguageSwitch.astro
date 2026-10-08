@@ -10,10 +10,18 @@ interface Props {
 const { locale, path } = Astro.props;
 const messages = getMessages(locale);
 const targetLocale: Locale = locale === 'en' ? 'et' : 'en';
-const href = `${getRelativeLocaleUrl(targetLocale, path)}${Astro.url.search}`;
+const href = getRelativeLocaleUrl(targetLocale, path);
 const label = targetLocale === 'et' ? messages.common.useEstonian : messages.common.useEnglish;
 ---
 
-<a class="language-switch" href={href} aria-label={label} title={label}>
+<a class="language-switch" href={href} data-language-switch data-language-base={href} aria-label={label} title={label}>
   {targetLocale.toUpperCase()}
 </a>
+
+<script>
+  for (const anchor of document.querySelectorAll<HTMLAnchorElement>('[data-language-switch]')) {
+    const base = anchor.dataset.languageBase;
+    if (!base) continue;
+    anchor.href = `${base}${location.search}${location.hash}`;
+  }
+</script>

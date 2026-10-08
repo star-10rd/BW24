@@ -36,6 +36,20 @@ const runtimeJson=JSON.stringify({
     <a class="problem-back problem-back--training" href={getRelativeLocaleUrl(locale,'training')}><span aria-hidden="true">←</span>{messages.problem.backToTraining}</a>
   </div>
 
+  {import.meta.env.BW26_QA === '1' && <details class="qa-problem-tools">
+    <summary>QA state</summary>
+    <nav aria-label="QA problem experience state">
+      <a href={`${routeWithLocale(page.route)}?qa=archive`}>Archive</a>
+      <a href={`${routeWithLocale(page.route)}?qa=daily-current`}>Daily locked</a>
+      <a href={`${routeWithLocale(page.route)}?qa=daily-past-solve`}>Past Daily solve</a>
+      <a href={`${routeWithLocale(page.route)}?qa=daily-past-review`}>Past Daily review</a>
+      <a href={`${routeWithLocale(page.route)}?qa=random-solve`}>Random solve</a>
+      <a href={`${routeWithLocale(page.route)}?qa=random-review`}>Random review</a>
+      <a href={`${routeWithLocale(page.route)}?qa=training-solve`}>Set solve</a>
+      <a href={`${routeWithLocale(page.route)}?qa=training-review`}>Set review</a>
+    </nav>
+  </details>}
+
   <p class="problem-mode-context problem-mode-context--daily" aria-live="polite"><span class="kicker">{messages.problem.dailyContext}</span><span data-context-date-label></span></p>
   <p class="problem-mode-context problem-mode-context--random"><span class="kicker">{messages.problem.randomContext}</span></p>
   <p class="problem-mode-context problem-mode-context--training"><span class="kicker">{messages.problem.trainingContext}</span><span data-training-progress></span></p>

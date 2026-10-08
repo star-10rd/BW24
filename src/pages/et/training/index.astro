@@ -4,4 +4,4 @@ import { getMessages } from '../../../i18n';
 import TrainingView from '../../../views/TrainingView.astro';
 const locale='et' as const; const m=getMessages(locale);
 ---
-<BaseLayout locale={locale} current="training" path="training" title={m.sections.training.title}><TrainingView locale={locale}/></BaseLayout>
+<BaseLayout locale={locale} current="practice" indexable={false} path="training" title={m.sections.training.title}><TrainingView locale={locale}/></BaseLayout>

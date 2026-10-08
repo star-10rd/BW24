@@ -1,12 +1,15 @@
 import { RECENT_STORAGE_KEY, sanitizeRecent } from './recent';
 import { TRAINING_STORAGE_KEY, validateTrainingSession } from './training';
 import { safeGet, safeSet, storageAvailable } from './storage';
+import { tallinnDate } from './tallinn-day';
+import type { Domain } from '../problems/types';
 
 interface HomePracticeData {
   locale: 'en' | 'et';
   catalogFingerprint: string;
   publicSetFingerprint: string;
   publicIds: string[];
+  dailyDays: Array<{ date: string; problems: Record<Domain, { id: string; year: number; number: number }> }>;
   labels: {
     recent: string;
     random: string;
@@ -14,6 +17,9 @@ interface HomePracticeData {
     continueTraining: string;
     problemOf: string;
     shortlistProblem: string;
+    problem: string;
+    outsideCoverage: string;
+    domains: Record<Domain, string>;
   };
 }
 
@@ -24,6 +30,8 @@ export function initHomePractice(): void {
   try { data = JSON.parse(dataNode.textContent || '{}') as HomePracticeData; } catch { return; }
   const local = storageAvailable('localStorage');
   const session = storageAvailable('sessionStorage');
+  renderToday(data);
+
   const recentSection = document.querySelector<HTMLElement>('[data-home-recent]');
   const recentList = document.querySelector<HTMLElement>('[data-home-recent-list]');
   const trainingContinue = document.querySelector<HTMLElement>('[data-home-training-continue]');
@@ -37,12 +45,12 @@ export function initHomePractice(): void {
     const recent = sanitizeRecent(parsed, data.publicSetFingerprint, new Set(data.publicIds));
     safeSet(local, RECENT_STORAGE_KEY, JSON.stringify(recent));
     recentList.replaceChildren();
-    for (const entry of recent.entries.slice(0, 6)) {
+    for (const entry of recent.entries.slice(0, 5)) {
       const li = document.createElement('li');
       const anchor = document.createElement('a');
       anchor.href = localize(entry.route, data.locale);
       const title = document.createElement('span');
-      title.textContent = entry.collection === 'contest' ? `${entry.year} / ${entry.numberOrSlug}` : `Baltic Way ${entry.year} · ${data.labels.shortlistProblem}`;
+      title.textContent = entry.collection === 'contest' ? `${entry.year} · ${data.labels.problem} ${entry.numberOrSlug}` : `Baltic Way ${entry.year} · ${data.labels.shortlistProblem}`;
       const meta = document.createElement('span');
       meta.textContent = `${entry.domain} · ${entry.source === 'random' ? data.labels.random : data.labels.training}`;
       anchor.append(title, meta);
@@ -70,6 +78,40 @@ export function initHomePractice(): void {
       trainingContinue.hidden = true;
     }
   }
+}
+
+function renderToday(data: HomePracticeData): void {
+  const root = document.querySelector<HTMLElement>('[data-home-today-set]');
+  const date = document.querySelector<HTMLElement>('[data-home-today-date]');
+  const fallback = document.querySelector<HTMLElement>('[data-home-today-fallback]');
+  if (!root || !date || !fallback) return;
+  const today = tallinnDate();
+  const day = data.dailyDays.find((item) => item.date === today);
+  if (!day) {
+    root.replaceChildren();
+    fallback.hidden = false;
+    return;
+  }
+  fallback.hidden = true;
+  date.textContent = prettyDate(today, data.locale);
+  const domains: Domain[] = ['A', 'C', 'G', 'N'];
+  root.replaceChildren(...domains.map((domain) => {
+    const problem = day.problems[domain];
+    const anchor = document.createElement('a');
+    anchor.className = 'home-today-problem';
+    const prefix = data.locale === 'et' ? '/et' : '';
+    anchor.href = `${prefix}/problems/${problem.year}/${problem.number}/?context=daily&date=${today}`;
+    const mark = document.createElement('span'); mark.className = 'home-today-domain'; mark.textContent = domain;
+    const name = document.createElement('span'); name.className = 'home-today-domain-name'; name.textContent = data.labels.domains[domain];
+    const source = document.createElement('span'); source.className = 'home-today-source'; source.textContent = `Baltic Way ${problem.year} · ${data.labels.problem} ${problem.number}`;
+    anchor.append(mark, name, source);
+    return anchor;
+  }));
+}
+
+function prettyDate(value: string, locale: 'en' | 'et'): string {
+  const [year, month, day] = value.split('-').map(Number);
+  return new Intl.DateTimeFormat(locale === 'et' ? 'et-EE' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Tallinn' }).format(new Date(Date.UTC(year!, month! - 1, day!, 12)));
 }
 
 function localize(route: string, locale: 'en' | 'et'): string {

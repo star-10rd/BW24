@@ -1,0 +1,76 @@
+---
+import { getMessages, type Locale } from '../i18n';
+import { getPublicSearchIndex } from '../lib/product/search';
+import '../styles/search.css';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+const records = await getPublicSearchIndex();
+const localized = records.map((record) => ({
+  ...record,
+  localizedTopicLabels: record.topicIds.map((id, index) => messages.taxonomy.subtopics[id] ?? record.topicLabels[index] ?? id),
+}));
+const dataJson = JSON.stringify({
+  locale,
+  records: localized,
+  labels: {
+    results: messages.search.results,
+    resultsLimited: messages.search.resultsLimited,
+    noResults: messages.search.noResults,
+    prompt: messages.search.prompt,
+    problem: messages.archive.problem,
+    shortlistProblem: messages.problem.shortlistProblem,
+    domains: messages.problem.domains,
+  },
+}).replaceAll('<', '\\u003c');
+const domainOrder = ['A','C','G','N'] as const;
+---
+
+<div class="content-shell search-shell">
+  <header class="page-heading">
+    <h1>{messages.sections.search.title}</h1>
+    <p class="lede">{messages.sections.search.description}</p>
+  </header>
+
+  <form class="search-form" data-search-form role="search">
+    <label class="search-query">
+      <span>{messages.search.label}</span>
+      <div class="search-query__controls">
+        <input data-search-input type="search" name="q" autocomplete="off" spellcheck="false" placeholder={messages.search.placeholder} />
+        <button type="submit">{messages.search.submit}</button>
+      </div>
+    </label>
+
+    <details class="search-filters">
+      <summary>{messages.search.filters}</summary>
+      <div class="search-filters__body">
+        <label>
+          <span>{messages.practice.collection}</span>
+          <select data-search-collection>
+            <option value="all">{messages.search.allCollections}</option>
+            <option value="contest">{messages.search.contestOnly}</option>
+            <option value="shortlist">{messages.search.shortlistOnly}</option>
+          </select>
+        </label>
+        <label>
+          <span>{messages.practice.domain}</span>
+          <select data-search-domain>
+            <option value="all">{messages.search.allDomains}</option>
+            {domainOrder.map((domain) => <option value={domain}>{domain} · {messages.problem.domains[domain]}</option>)}
+          </select>
+        </label>
+        <button type="button" class="search-clear" data-search-clear>{messages.search.clear}</button>
+      </div>
+    </details>
+  </form>
+
+  <p class="search-status" data-search-status aria-live="polite"></p>
+  <ol class="search-results" data-search-results></ol>
+  <script id="bw26-search-data" type="application/json" set:html={dataJson}></script>
+</div>
+
+<script>
+  import { initSearchPage } from '../lib/client/search-page';
+  initSearchPage();
+</script>

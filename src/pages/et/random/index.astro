@@ -4,4 +4,4 @@ import { getMessages } from '../../../i18n';
 import RandomView from '../../../views/RandomView.astro';
 const locale='et' as const; const m=getMessages(locale);
 ---
-<BaseLayout locale={locale} current="random" path="random" title={m.sections.random.title}><RandomView locale={locale}/></BaseLayout>
+<BaseLayout locale={locale} current="practice" indexable={false} path="random" title={m.sections.random.title}><RandomView locale={locale}/></BaseLayout>

@@ -202,14 +202,25 @@ export function initTrainingPage(): void {
     location.assign(makeTrainingHref(result.session.items[0]!.route, result.session.sessionId));
   });
 
-  syncSimpleDomainToAdvanced(); syncSimpleSize(); updateContinue(); updateCount();
   const params = new URLSearchParams(location.search);
+  const requestedDomain = params.get('domain');
+  if (requestedDomain === 'A' || requestedDomain === 'C' || requestedDomain === 'G' || requestedDomain === 'N' || requestedDomain === 'all') {
+    const radio = form.querySelector<HTMLInputElement>(`input[name="simple-domain"][value="${requestedDomain}"]`);
+    if (radio) radio.checked = true;
+  }
+  const requestedSize = params.get('size');
+  if (requestedSize === '5' || requestedSize === '10') {
+    const radio = form.querySelector<HTMLInputElement>(`input[name="simple-size"][value="${requestedSize}"]`);
+    if (radio) radio.checked = true;
+  }
+  if (params.get('shortlist') === '1') {
+    const shortlist = form.querySelector<HTMLInputElement>('input[name="shortlist"]');
+    if (shortlist) shortlist.checked = true;
+  }
+  syncSimpleDomainToAdvanced(); syncSimpleSize(); updateContinue(); updateCount();
   if (params.get('start') === '1') {
-    const requested = params.get('size');
-    if (requested === '10') {
-      const radio = form.querySelector<HTMLInputElement>('input[name="simple-size"][value="10"]'); if (radio) radio.checked = true;
-    }
-    syncSimpleSize(); history.replaceState(history.state, '', location.pathname); form.requestSubmit();
+    history.replaceState(history.state, '', location.pathname);
+    form.requestSubmit();
   }
 }
 

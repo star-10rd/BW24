@@ -40,6 +40,15 @@ assert(problemPageSource.includes("document.addEventListener('DOMContentLoaded',
 assert(problemPageSource.includes('data-context-date-label'), 'Daily context date uses a dedicated leaf marker');
 assert(problemExperienceSource.includes("document.querySelector<HTMLElement>('[data-context-date-label]')"), 'Daily context date lookup cannot select the html experience-state root');
 assert(!problemExperienceSource.includes("document.querySelector<HTMLElement>('[data-context-date]')"), 'Daily context date lookup never targets the root data-context-date state attribute');
+const siteHeaderSource = readFileSync('src/components/SiteHeader.astro', 'utf8');
+assert(siteHeaderSource.includes('site.primaryNavigation'), 'site header uses the shared primary navigation model');
+assert(!siteHeaderSource.includes('MobileNav'), 'site header no longer depends on the legacy fixed bottom navigation');
+const siteConfigSource = readFileSync('src/config/site.ts', 'utf8');
+assert(/id:\s*'today'[\s\S]*id:\s*'practice'/.test(siteConfigSource), 'primary student navigation is Today then Practice');
+const shellSource = readFileSync('src/styles/shell.css', 'utf8');
+assert(!shellSource.includes('.mobile-nav'), 'legacy fixed mobile navigation CSS is absent');
+assert(shellSource.includes('.mobile-menu'), 'compact mobile menu styling exists');
+assert(problemExperienceSource.includes("location.assign(localize('/practice/', runtime.locale))"), 'ending a Practice set returns to the Practice hub');
 assert(practice.contest.length === 379, `contest practice baseline ${practice.contest.length}`);
 assert(practice.shortlist.length === 50, `shortlist practice baseline ${practice.shortlist.length}`);
 assert(practice.exercises.length === 429, `practice total ${practice.exercises.length}`);
@@ -143,7 +152,7 @@ const browseResults=filterProblemBrowse(practice.exercises,browse);assert(browse
 const query=encodeBrowseQuery(browse,validYears);assert(query===encodeBrowseQuery(browse,validYears),'browse query normalization deterministic');assert(!query.includes('2005')&&!query.includes('not-a-topic'),'hidden/invalid browse query values absent');
 const emptyBrowse=normalizeBrowseFilters({years:[],domains:[],subtopics:[],verifiedSolutionOnly:false},validYears,validTopics);const emptyQuery=encodeBrowseQuery(emptyBrowse,validYears);assert(emptyQuery.includes('years=none')&&emptyQuery.includes('domains=none'),'browse empty selections are shareable');assert(filterProblemBrowse(practice.exercises,emptyBrowse).length===0,'browse empty selections return zero rows');
 
-console.log('BW26 P3E-2 practice verification passed.');
+console.log('BW26 practice verification passed.');
 console.log(`  Practice exercises:               ${practice.exercises.length} (contest ${practice.contest.length} / shortlist ${practice.shortlist.length})`);
 console.log(`  Verified-solution exercises:      ${practice.exercises.filter(x=>x.solutionAvailable).length}`);
 console.log(`  Random default / +shortlist:      379 / 429 before current-Daily exclusion`);

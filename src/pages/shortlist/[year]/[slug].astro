@@ -3,4 +3,4 @@ import BaseLayout from '../../../layouts/BaseLayout.astro'; import ProblemPage f
 export async function getStaticPaths(){const c=await getProductCatalog();return c.shortlist.map(p=>({params:{year:String(p.year),slug:p.slug},props:{problemKey:p.key}}));}
 const locale='en' as const;const m=getMessages(locale);const {problemKey}=Astro.props;const c=await getProductCatalog();const problem=c.shortlist.find(x=>x.key===problemKey);if(!problem)throw new Error(`Unknown shortlist ${problemKey}`);const page=await buildPublicProblemPage(problem);const title=`Baltic Way ${page.year} · ${m.problem.shortlistProblem}`;const path=`shortlist/${page.year}/${page.slug}`;
 ---
-<BaseLayout locale={locale} current="problems" path={path} title={title} description={title} experience={{problemKey:page.key,dailyDates:[]}}><ProblemPage page={page} locale={locale}/></BaseLayout>
+<BaseLayout locale={locale} current="practice" path={path} title={title} description={title} experience={{problemKey:page.key,dailyDates:[]}}><ProblemPage page={page} locale={locale}/></BaseLayout>

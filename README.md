@@ -116,3 +116,23 @@ npm run verify
 
 Browser state is intentionally small and accountless: Random and Recent use local storage when available, while the active Practice-set session uses session storage. Corrupt or stale state is discarded rather than affecting archive access.
 <!-- /BW26-P3E2 -->
+
+<!-- BW26-PRODUCT-FINISH -->
+## Product finish
+
+The main student-facing hierarchy is deliberately small: Today and Practice are the primary destinations, while Search is a quiet utility. `/practice/` is the front door for one-click Random practice, short Practice sets, Search, Browse, and Shortlist. The underlying `/random/`, `/training/`, `/problems/`, and canonical problem routes remain stable for bookmarks and direct links.
+
+Home shows the current Tallinn Daily set directly and reveals Continue/Recent only when browser state makes them useful. Mobile uses the compact top shell rather than a persistent bottom bar so mathematical pages keep their vertical space. Search is generated only from the 429 public exercises and does not index solution or results content.
+
+Deployment stays intentionally conservative until the production origin is explicit. Without `BW26_SITE_ORIGIN`, generated pages are `noindex` and `robots.txt` blocks crawling. For a production build, set an origin only (for example `https://example.org/`, with no path/query/fragment); canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml` then use that origin. `public/CNAME` is not changed automatically because the deployment domain is an external decision.
+
+Useful finish checks:
+
+```bash
+npm run search:check
+npm run site:check       # run after npm run build
+npm run verify
+```
+
+No service worker or PWA app-shell cache is installed. Browser practice state remains versioned/fingerprinted and disposable: incompatible old Random, Recent, or Practice-set state is ignored rather than controlling archive access.
+<!-- /BW26-PRODUCT-FINISH -->

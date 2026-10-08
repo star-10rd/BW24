@@ -29,3 +29,7 @@
 .practice-status{min-height:1.5rem;margin:.7rem 0 0;color:var(--text-muted);font-size:.88rem;line-height:1.5}:root[data-experience='archive'] .practice-status,:root[data-experience='daily'] .practice-status{display:none}:root[data-experience='random'] .problem-pager,:root[data-experience='training'] .problem-pager{display:none}:root[data-experience='random'] .review-gate,:root[data-experience='training'] .review-gate{margin-top:clamp(2.5rem,6vw,3.5rem)}
 @media(max-width:34rem){.random-problem-actions{align-items:stretch}.random-problem-actions .practice-primary{width:100%}.training-step-actions{grid-template-columns:1fr 1fr;gap:var(--space-2)}.practice-step-slot--overview{grid-column:1/-1;grid-row:2}.practice-step-slot--previous,.practice-step-slot--next{width:100%}.practice-step-slot--next{grid-column:2}.practice-step-link{width:100%;min-height:3rem}.practice-end{width:100%}}
 @media print{.practice-actions,.practice-status{display:none!important}}
+
+/* Local-only QA state control; generated only with BW26_QA=1. */
+.qa-problem-tools{margin:-.25rem 0 var(--space-4);border-top:1px dashed var(--border)}.qa-problem-tools>summary{display:flex;min-height:2.6rem;align-items:center;color:var(--text-muted);cursor:pointer;font-size:.82rem;font-weight:700;list-style:none}.qa-problem-tools>summary::-webkit-details-marker{display:none}.qa-problem-tools nav{display:flex;flex-wrap:wrap;gap:.25rem .8rem;padding:0 0 var(--space-3)}.qa-problem-tools a{font-size:.82rem;font-weight:650}
+@media print{.qa-problem-tools{display:none!important}}

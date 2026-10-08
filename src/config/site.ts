@@ -1,18 +1,16 @@
-export const site={
-  name:'BW26',
-  season:2026,
-  desktopNavigation:[
-    {id:'problems',path:'problems'},
-    {id:'today',path:'daily'},
-    {id:'random',path:'random'},
-    {id:'training',path:'training'},
-    {id:'materials',path:'materials'},
+export const site = {
+  name: 'BW26',
+  season: 2026,
+  primaryNavigation: [
+    { id: 'today', path: 'daily' },
+    { id: 'practice', path: 'practice' },
   ],
-  mobileNavigation:[
-    {id:'today',path:'daily'},
-    {id:'random',path:'random'},
-    {id:'problems',path:'problems'},
-    {id:'training',path:'training'},
+  utilityNavigation: [
+    { id: 'search', path: 'search' },
+  ],
+  secondaryNavigation: [
+    { id: 'materials', path: 'materials' },
   ],
 } as const;
-export type PrimaryRoute=(typeof site.desktopNavigation)[number]['id'];
+
+export type PrimaryRoute = (typeof site.primaryNavigation)[number]['id'];
