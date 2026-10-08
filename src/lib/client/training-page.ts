@@ -130,7 +130,7 @@ export function initTrainingPage(): void {
       const anchor = document.createElement('a');
       anchor.href = makeTrainingHref(item.route, training.sessionId);
       const number = document.createElement('span'); number.className = 'training-overview-number'; number.textContent = String(index + 1);
-      const title = document.createElement('span'); title.className = 'training-overview-title'; title.textContent = exercise.collection === 'contest' ? `Baltic Way ${exercise.year} · ${exercise.numberOrSlug}` : `Baltic Way ${exercise.year} · ${data.labels.shortlistProblem}`;
+      const title = document.createElement('span'); title.className = 'training-overview-title'; title.textContent = exercise.collection === 'contest' ? `${data.locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${exercise.year} · ${exercise.numberOrSlug}` : `${data.locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${exercise.year} · ${data.labels.shortlistProblem}`;
       const meta = document.createElement('span'); meta.className = 'training-overview-domain'; meta.textContent = exercise.domain;
       const state = document.createElement('span'); state.className = 'training-overview-state'; state.textContent = item.id === currentId ? data.labels.current : (training.reviewedIds.includes(item.id) ? data.labels.reviewed : '');
       anchor.append(number, title, meta, state); li.append(anchor); overviewList.append(li);

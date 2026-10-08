@@ -12,6 +12,7 @@
 
   --brand: #003766;
   --brand-strong: #002a4f;
+  --on-brand: #ffffff;
   --link: #0055a5;
   --link-hover: #003f7d;
   --accent: #ffcc00;
@@ -52,6 +53,7 @@
 
   --brand: #7fb8ff;
   --brand-strong: #b7d8ff;
+    --on-brand: #071021;
   --link: #7fb8ff;
   --link-hover: #b7d8ff;
   --accent: #ffcc66;
@@ -72,6 +74,7 @@
     --border-strong: #2c4b70;
     --brand: #7fb8ff;
     --brand-strong: #b7d8ff;
+    --on-brand: #071021;
     --link: #7fb8ff;
     --link-hover: #b7d8ff;
     --accent: #ffcc66;

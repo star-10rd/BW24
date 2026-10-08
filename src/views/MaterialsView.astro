@@ -1,0 +1,25 @@
+---
+import { getMessages, type Locale } from '../i18n';
+import { materialCategories } from '../data/materials';
+import '../styles/materials.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const messages = getMessages(locale);
+const et = locale === 'et';
+---
+<div class="content-shell materials-shell">
+  <header class="page-heading">
+    <p class="kicker">{et ? 'Õpi ja harjuta' : 'Study & practice'}</p>
+    <h1>{messages.sections.materials.title}</h1>
+    <p class="lede">{messages.sections.materials.description}</p>
+  </header>
+  <p class="materials-note">{et ? 'Välisallikad võivad sisaldada lahendusi. Ava need siis, kui oled valmis.' : 'External resources may include solutions. Open them when you’re ready.'}</p>
+  <div class="materials-list">
+    {materialCategories.map((category, index) => (
+      <details class="materials-category" id={category.id} open={index === 0}>
+        <summary><span>{category.title[locale]}</span><span class="materials-count">{category.links.length}<span class="visually-hidden"> {et ? 'linki' : 'links'}</span></span></summary>
+        <ul>{category.links.map((link) => <li><a href={link.url}><span>{link.title}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+      </details>
+    ))}
+  </div>
+</div>

@@ -4,6 +4,7 @@ import { getMessages, type Locale } from '../i18n';
 import { getPracticeCatalog } from '../lib/product/practice-catalog';
 import { getDailyDays } from '../lib/product/daily';
 import '../styles/home.css';
+import HomeEvents from '../components/HomeEvents.astro';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -58,6 +59,8 @@ const dataJson = JSON.stringify({
     <div class="home-today-set" data-home-today-set></div>
     <p class="home-today-fallback" data-home-today-fallback hidden>{messages.daily.outsideCoverage}</p>
   </section>
+
+  <HomeEvents locale={locale} />
 
   <section class="home-practice" aria-labelledby="home-practice-title">
     <div class="home-section-heading">

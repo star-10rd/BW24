@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+const target = '/et/daily/';
+---
+<BaseLayout locale="et" current="today" path="daily-problems" title="Päevaülesanded" indexable={false}>
+  <div class="content-shell"><h1>Päevaülesanded</h1><a href={target}>Ava päevaülesanded</a></div>
+  <script is:inline define:vars={{ target }}>location.replace(target + location.search + location.hash);</script>
+  <noscript><p class="content-shell">Jätkamiseks ava ülalolev link.</p></noscript>
+</BaseLayout>

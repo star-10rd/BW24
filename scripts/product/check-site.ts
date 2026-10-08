@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { materialCategories } from '../../src/data/materials';
 import { getPublicCanonicalPaths } from '../../src/lib/product/site-routes';
 
 const root = process.cwd();
@@ -15,10 +16,12 @@ for (const path of paths.filter((value) => !value.startsWith('/et/'))) {
 }
 assert(paths.every((path) => !/[?&]/.test(path)), 'canonical route list contains no query context');
 assert(paths.every((path) => !/^\/problems\/(1999|200[0-9]|201[1-6])\//.test(path) && !/^\/et\/problems\/(1999|200[0-9]|201[1-6])\//.test(path)), 'hidden contest years absent from canonical route list');
-assert(paths.length === 908, `canonical route baseline ${paths.length}/908`);
+assert(paths.length === 910, `canonical route baseline ${paths.length}/910`);
 assert(pathSet.has('/practice/') && pathSet.has('/et/practice/'), 'Practice hubs are canonical');
 assert(pathSet.has('/search/') && pathSet.has('/et/search/'), 'Search hubs are canonical');
-for (const transient of ['/random/','/training/','/materials/','/et/random/','/et/training/','/et/materials/']) assert(!pathSet.has(transient), `${transient} stays out of the canonical sitemap model`);
+for (const transient of ['/random/','/training/','/et/random/','/et/training/','/daily-problems/','/et/daily-problems/']) assert(!pathSet.has(transient), `${transient} stays out of the canonical sitemap model`);
+
+assert(pathSet.has('/materials/') && pathSet.has('/et/materials/'), 'Materials hubs are canonical');
 
 const source = readTreeText(srcRoot);
 assert(!/serviceWorker\s*\.\s*register|navigator\s*\.\s*serviceWorker/.test(source), 'no service-worker registration');
@@ -35,8 +38,8 @@ for (const file of htmlFiles) {
   assert((html.match(/<main\b/g) ?? []).length === 1, `${relative(file)} has exactly one main landmark`);
   assert(html.includes('href="#main-content"'), `${relative(file)} contains skip link`);
   const rel = relative(file).replace(/^dist\//, '');
-  const shouldNoIndex = rel === '404.html' || /^(?:et\/)?(?:random|training|materials)\/index\.html$/.test(rel) || rel.startsWith('_qa/');
-  if (process.env.BW26_SITE_ORIGIN?.trim()) {
+  const shouldNoIndex = rel === '404.html' || /^(?:et\/)?(?:random|training|daily-problems)\/index\.html$/.test(rel) || rel.startsWith('_qa/');
+  if (process.env.BW26_NOINDEX !== '1') {
     if (shouldNoIndex) {
       assert(html.includes('name="robots" content="noindex,nofollow"'), `${relative(file)} remains noindex`);
       assert(!html.includes('rel="canonical"'), `${relative(file)} has no misleading canonical URL`);
@@ -57,10 +60,22 @@ for (const file of htmlFiles) {
   }
 }
 
+for (const prefix of ['', 'et/']) {
+  const materials = readFileSync(resolve(distRoot, `${prefix}materials/index.html`), 'utf8');
+  assert((materials.match(/<details\b/g) ?? []).length >= 5, `${prefix}Materials has all five categories`);
+  for (const category of materialCategories) for (const link of category.links) {
+    assert(decodeEntities(materials).includes(`href="${link.url}"`), `${prefix}Materials retains ${link.title}`);
+  }
+  const home = readFileSync(resolve(distRoot, `${prefix}index.html`), 'utf8');
+  assert(home.indexOf('home-today-title') < home.indexOf('home-events-title') && home.indexOf('home-events-title') < home.indexOf('home-practice-title'), `${prefix}Home keeps Today, Events, Practice order`);
+  const legacy = readFileSync(resolve(distRoot, `${prefix}daily-problems/index.html`), 'utf8');
+  assert(legacy.includes(`href="/${prefix}daily/"`) && legacy.includes('location.replace'), `${prefix}legacy Daily entry point has a redirect and fallback`);
+}
+
 const robotsPath = resolve(distRoot, 'robots.txt');
 assert(existsSync(robotsPath), 'robots.txt built');
 const robots = readFileSync(robotsPath, 'utf8');
-if (process.env.BW26_SITE_ORIGIN?.trim()) {
+if (process.env.BW26_NOINDEX !== '1') {
   assert(robots.includes('Allow: /'), 'public-origin build allows crawling');
   assert(robots.includes('Sitemap:'), 'public-origin build advertises sitemap');
 } else {
@@ -72,8 +87,8 @@ console.log('BW26 site verification passed.');
 console.log(`  Canonical route model: ${paths.length}`);
 console.log(`  Built HTML pages checked: ${htmlFiles.length}`);
 console.log(`  Local href/src targets checked: ${checkedLinks}`);
-console.log(`  Crawl mode: ${process.env.BW26_SITE_ORIGIN?.trim() ? 'public origin configured' : 'prelaunch / blocked'}`);
-if (existsSync(resolve(root, 'public/CNAME'))) console.log(`  Preserved CNAME: ${readFileSync(resolve(root, 'public/CNAME'), 'utf8').trim() || '(empty)'}`);
+console.log(`  Crawl mode: ${process.env.BW26_NOINDEX !== '1' ? 'public origin configured' : 'prelaunch / blocked'}`);
+if (existsSync(resolve(root, 'public/CNAME'))) console.log(`  Production CNAME: ${readFileSync(resolve(root, 'public/CNAME'), 'utf8').trim() || '(empty)'}`);
 
 function resolveBuiltTarget(urlPath: string): boolean {
   let pathname = urlPath;

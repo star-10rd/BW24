@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
-const rawSite = process.env.BW26_SITE_ORIGIN?.trim();
+const rawSite = process.env.BW26_NOINDEX === '1' ? undefined : (process.env.BW26_SITE_ORIGIN?.trim() || 'https://bw26.site');
 let site;
 if (rawSite) {
   const parsed = new URL(rawSite);

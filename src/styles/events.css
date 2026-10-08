@@ -1,0 +1,16 @@
+.home-events{padding:var(--space-5) 0 var(--space-6);border-top:1px solid var(--border-strong)}
+.events-season{color:var(--text-muted);font-size:.85rem;font-variant-numeric:tabular-nums}
+.event-feature{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:var(--space-5);margin-top:var(--space-4);padding:var(--space-5);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius-panel);background:var(--surface)}
+.event-feature .kicker{margin-bottom:.35rem}.event-feature h3{margin:0 0 .35rem;font-size:1.25rem;line-height:1.3}
+.event-meta,.event-contest{margin:0;color:var(--text-muted);font-size:.92rem}.event-contest{margin-top:.35rem;font-size:.84rem}.event-contest:empty{display:none}
+.event-source{display:inline-flex;align-items:center;gap:.35rem;min-height:2.75rem;font-size:.86rem}
+.event-countdown{min-width:6rem;text-align:center;color:var(--brand);font-variant-numeric:tabular-nums}
+.event-countdown strong{display:block;font-size:3rem;line-height:1.1;letter-spacing:-.04em}
+.event-countdown span{display:block;margin-top:.35rem;font-size:.8rem;color:var(--text-muted)}
+.event-countdown--precise{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-3)}.event-countdown--precise strong{font-size:1.65rem}
+.event-calendar>summary{width:fit-content;min-height:2.75rem;padding:.75rem 0 .35rem;cursor:pointer;color:var(--text-muted);font-size:.9rem}
+.event-calendar ul{list-style:none;padding:0;margin:.5rem 0 0;border-top:1px solid var(--border)}
+.event-calendar li{display:flex;justify-content:space-between;gap:var(--space-4);padding:.9rem 0;border-bottom:1px solid var(--border)}
+.event-calendar strong{font-size:.94rem}.event-row-date{display:block;color:var(--text-muted);font-size:.86rem}.event-state{color:var(--text-muted);font-size:.8rem;white-space:nowrap}.event-calendar [data-state='current'] .event-state{color:var(--brand);font-weight:700}
+@media(max-width:40rem){.event-feature{padding:var(--space-4);gap:var(--space-3)}.event-feature h3{font-size:1.1rem}.event-countdown strong{font-size:2.5rem}.event-countdown--precise{grid-column:1/-1;border-top:1px solid var(--border);padding-top:var(--space-4)}.event-countdown--precise strong{font-size:1.5rem}.event-calendar li{flex-direction:column;gap:.2rem}}
+@media(max-width:23rem){.event-feature{grid-template-columns:minmax(0,1fr)}.event-countdown{text-align:left}.event-countdown>div{display:flex;align-items:baseline;gap:.6rem}.event-countdown strong{font-size:2rem}.event-countdown--precise>div{display:block}}

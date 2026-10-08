@@ -14,7 +14,7 @@ interface Props { page: PublicProblemPageModel; locale: Locale; }
 const { page, locale } = Astro.props;
 const messages=getMessages(locale); const domainName=messages.problem.domains[page.domain];
 const subtopicLabel=(id:string,fallback:string)=>messages.taxonomy.subtopics[id]??fallback;
-const title=page.kind==='final'?`Baltic Way ${page.year} · ${messages.archive.problem} ${Number(page.number)}`:`Baltic Way ${page.year} · ${messages.problem.shortlistProblem}`;
+const title=page.kind==='final'?`${locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${page.year} · ${messages.archive.problem} ${Number(page.number)}`:`${locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${page.year} · ${messages.problem.shortlistProblem}`;
 const statement=await renderProblemMarkdownCached(`${page.versionId}|statement`,page.statement.markdown,page.statement.assets,`${page.key}: statement`);
 const renderedSolutions=await Promise.all(page.solutions.map(async(solution,index)=>{
  const displayMarkdown=solution.markdown.replace(/^\s*#{1,3}\s+Solution(?:\s+\d+)?\s*\n+/i,'');

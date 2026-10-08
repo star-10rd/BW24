@@ -50,7 +50,7 @@ export function initHomePractice(): void {
       const anchor = document.createElement('a');
       anchor.href = localize(entry.route, data.locale);
       const title = document.createElement('span');
-      title.textContent = entry.collection === 'contest' ? `${entry.year} · ${data.labels.problem} ${entry.numberOrSlug}` : `Baltic Way ${entry.year} · ${data.labels.shortlistProblem}`;
+      title.textContent = entry.collection === 'contest' ? `${entry.year} · ${data.labels.problem} ${entry.numberOrSlug}` : `${data.locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${entry.year} · ${data.labels.shortlistProblem}`;
       const meta = document.createElement('span');
       meta.textContent = `${entry.domain} · ${entry.source === 'random' ? data.labels.random : data.labels.training}`;
       anchor.append(title, meta);
@@ -103,7 +103,7 @@ function renderToday(data: HomePracticeData): void {
     anchor.href = `${prefix}/problems/${problem.year}/${problem.number}/?context=daily&date=${today}`;
     const mark = document.createElement('span'); mark.className = 'home-today-domain'; mark.textContent = domain;
     const name = document.createElement('span'); name.className = 'home-today-domain-name'; name.textContent = data.labels.domains[domain];
-    const source = document.createElement('span'); source.className = 'home-today-source'; source.textContent = `Baltic Way ${problem.year} · ${data.labels.problem} ${problem.number}`;
+    const source = document.createElement('span'); source.className = 'home-today-source'; source.textContent = `${data.locale === 'et' ? 'Balti Tee' : 'Baltic Way'} ${problem.year} · ${data.labels.problem} ${problem.number}`;
     anchor.append(mark, name, source);
     return anchor;
   }));

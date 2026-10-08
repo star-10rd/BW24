@@ -1,6 +1,6 @@
 import { getProductCatalog, exerciseRoute } from './catalog';
 
-const HUB_PATHS = ['/', '/daily/', '/practice/', '/search/', '/problems/', '/shortlist/'] as const;
+const HUB_PATHS = ['/', '/daily/', '/practice/', '/search/', '/problems/', '/shortlist/', '/materials/'] as const;
 
 export async function getPublicCanonicalPaths(root = process.cwd()): Promise<string[]> {
   const catalog = await getProductCatalog(root);

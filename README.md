@@ -124,7 +124,7 @@ The main student-facing hierarchy is deliberately small: Today and Practice are 
 
 Home shows the current Tallinn Daily set directly and reveals Continue/Recent only when browser state makes them useful. Mobile uses the compact top shell rather than a persistent bottom bar so mathematical pages keep their vertical space. Search is generated only from the 429 public exercises and does not index solution or results content.
 
-Deployment stays intentionally conservative until the production origin is explicit. Without `BW26_SITE_ORIGIN`, generated pages are `noindex` and `robots.txt` blocks crawling. For a production build, set an origin only (for example `https://example.org/`, with no path/query/fragment); canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml` then use that origin. `public/CNAME` is not changed automatically because the deployment domain is an external decision.
+Production builds use `https://bw26.site` by default; `public/CNAME` matches. Canonicals, Open Graph URLs, robots, and sitemap share the configured origin. Set `BW26_NOINDEX=1` for a crawler-blocked preview build. `BW26_SITE_ORIGIN` can override the origin (no path/query/fragment). Publish only `dist/`, never the source repository. See [LAUNCH.md](LAUNCH.md) for release commands and hosting checks.
 
 Useful finish checks:
 

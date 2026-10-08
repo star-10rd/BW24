@@ -1,0 +1,31 @@
+---
+import type { Locale } from '../i18n';
+import { seasonEvents } from '../data/events';
+import { eventDateLabel } from '../lib/events';
+import '../styles/events.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const et = locale === 'et';
+const data = JSON.stringify({ locale, events: seasonEvents }).replaceAll('<', '\\u003c');
+---
+<section class="home-events" aria-labelledby="home-events-title">
+  <div class="home-section-heading"><h2 id="home-events-title">{et ? 'Võistlused ja laagrid' : 'Competitions & camps'}</h2><span class="events-season">2026</span></div>
+  <div class="event-feature" data-event-feature hidden>
+    <div><p class="kicker" data-event-eyebrow></p><h3 data-event-title></h3><p class="event-meta" data-event-meta></p><p class="event-contest" data-event-contest></p><a class="event-source" data-event-source>{et ? 'Korraldaja veebileht' : 'Organiser’s website'} <span aria-hidden="true">↗</span></a></div>
+    <div class="event-countdown" data-event-countdown role="timer" aria-live="off"></div>
+  </div>
+  <details class="event-calendar" data-event-calendar open>
+    <summary>{et ? 'Kõik võistlused ja laagrid' : 'All competitions & camps'}</summary>
+    <ul>{seasonEvents.map((event) => <li data-event-row={event.id}>
+      <div><strong>{event.title[locale]}</strong><span class="event-row-date">{eventDateLabel(event, locale)}{event.location && ` · ${event.location[locale]}`}</span>
+      {event.contestDate && <span class="event-row-date">{et ? 'Võistluspäev' : 'Contest day'}: {eventDateLabel({ ...event, startDate: event.contestDate, endDate: undefined }, locale)} · {et ? 'algusaeg selgumisel' : 'start time to be confirmed'}</span>}
+      {event.url && <a class="event-source" href={event.url}>{et ? 'Korraldaja veebileht' : 'Organiser’s website'} <span aria-hidden="true">↗</span></a>}</div>
+      <span class="event-state" data-event-state></span>
+    </li>)}</ul>
+  </details>
+  <script id="bw26-events-data" type="application/json" set:html={data}></script>
+</section>
+<script>
+  import { initHomeEvents } from '../lib/client/home-events';
+  initHomeEvents();
+</script>
